@@ -2,11 +2,11 @@ const raid_level = [17, 25, 35, 50, 70, 80]
 const maxbond = [10, 10, 20, 20, 50]
 const gear_minlevelreq = [0, 15, 35]
 const raid_reward_coin = [[40,0],[60,0],[80,0],[100,10],[120,20],[140,40]]
-const languages = ['En', 'Jp', 'Kr', 'Tw', 'Cn', 'Th']
-const label_smalltext_threshold = {'En':11, 'Jp':5, 'Kr':5, 'Tw':5, 'Cn': 5, 'Th': 11}
-const label_craft_smalltext_threshold = {'En':8, 'Jp':4, 'Kr':4, 'Tw':4, 'Cn': 4, 'Th': 8}
-const label_enemy_smalltext_threshold = {'En':12, 'Jp':6, 'Kr':6, 'Tw':6, 'Cn':6, 'Th': 12}
-const label_raid_smalltext_threshold = {'En':20, 'Jp':10, 'Kr':11, 'Tw':10, 'Cn':10, 'Th': 20}
+const languages = ['En', 'Jp', 'Kr', 'Tw', 'Cn', 'Th', 'Vi']
+const label_smalltext_threshold = {'En':11, 'Jp':5, 'Kr':5, 'Tw':5, 'Cn': 5, 'Th': 11, 'Vi': 11}
+const label_craft_smalltext_threshold = {'En':8, 'Jp':4, 'Kr':4, 'Tw':4, 'Cn': 4, 'Th': 8, 'Vi': 8}
+const label_enemy_smalltext_threshold = {'En':12, 'Jp':6, 'Kr':6, 'Tw':6, 'Cn':6, 'Th': 12, 'Vi': 12}
+const label_raid_smalltext_threshold = {'En':20, 'Jp':10, 'Kr':11, 'Tw':10, 'Cn':10, 'Th': 20, 'Vi': 20}
 const adaptationAmount = {0: "D", 1: "C", 2: "B", 3: "A", 4: "S", 5: "SS"}
 const terrain_dmg_bonus = {D: 0.8, C: 0.9, B: 1, A: 1.1, S: 1.2, SS: 1.3}
 const terrain_block_bonus = {D: 0, C: 15, B: 30, A: 45, S: 60, SS: 75}
@@ -55,6 +55,9 @@ if (localStorage.getItem("language") && languages.includes(localStorage.getItem(
             } else {
                 userLang = 'Tw'
             }
+            break;
+        case 'vi':
+            userLang = 'Vi'
             break;
         default:
             userLang = 'En'
@@ -5957,6 +5960,8 @@ function getEventCardHTML(eventId) {
     } else {
         if (userLang == 'Cn') {
             logoLang = 'Tw'
+        } else if (userLang == 'Vi') {
+            logoLang = 'Jp'
         } else {
             logoLang = userLang
         }
@@ -6698,6 +6703,8 @@ function populateEventStageList(eventId) {
         } else {
             if (userLang == 'Cn') {
                 logoLang = 'Tw'
+            } else if (userLang == 'Vi') {
+                logoLang = 'Jp'
             } else {
                 logoLang = userLang
             }
