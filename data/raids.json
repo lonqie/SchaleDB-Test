@@ -58,8 +58,8 @@
                     "DescCn": "对直线范围内的敌人造成攻击力120%伤害",
                     "NameTh": "แสงแห่งแอทซิลุธ",
                     "DescTh": "สร้างความเสียหาย 120% ของค่าโจมตีให้กับศัตรูในแนวเส้นตรง",
-                    "NameVi": null,
-                    "DescVi": null
+                    "NameVi": "Ánh sáng của Atsilut",
+                    "DescVi": "Gây 120% sát thương lên kẻ địch trên một đường thẳng."
                 },
                 {
                     "Id": "BinahExSkill02",
@@ -139,8 +139,8 @@
                             "400%"
                         ]
                     ],
-                    "NameVi": null,
-                    "DescVi": null,
+                    "NameVi": "Biển lửa dữ dội",
+                    "DescVi": "Gây <?1> sát thương lên 4 kẻ địch.",
                     "ParametersVi": [
                         [
                             "200%",
@@ -182,8 +182,8 @@
                     "DescCn": "对所有敌人造成攻击力300%伤害/\n减少<d:DEF>50% (30秒内)",
                     "NameTh": "พายุชำระล้าง",
                     "DescTh": "สร้างความเสียหาย 300% ของค่าโจมตีให้กับศัตรูทั้งหมด/\nลด<d:DEF> 50% (เป็นเวลา 30 วินาที)",
-                    "NameVi": null,
-                    "DescVi": null
+                    "NameVi": "Cơn bão thanh tẩy",
+                    "DescVi": "Gây 300% sát thương lên tất cả kẻ địch và giảm 50% <d:DEF> của chúng xuống khoảng 30s."
                 },
                 {
                     "Id": "BinahInsanePassive01",
@@ -225,8 +225,8 @@
                     "DescCn": null,
                     "NameTh": "พายุทรายหนาทึบ",
                     "DescTh": "ลด<d:HIT> 20% และ<d:Stability> 50% เอฟเฟคนี้ไม่สามารถถูกลบล้างได้",
-                    "NameVi": null,
-                    "DescVi": null
+                    "NameVi": "Bão cát tử thần",
+                    "DescVi": "Giảm 20% <d:HIT> và 50% <d:Stability> tất cả kẻ địch xuống. Loại tác dụng phụ này không thể bị gỡ bỏ."
                 }
             ],
             "NameEn": "Binah",
@@ -393,8 +393,8 @@
                             "เมื่อทหารจักรกลถูกทำลายจะเรียกหุ่นดูดฝุ่นออกมา"
                         ]
                     ],
-                    "NameVi": null,
-                    "DescVi": null,
+                    "NameVi": "Tiếng gọi của ngai vàng",
+                    "DescVi": "Triệu hồi đội quân người máy. Thanh ATG của Chesed tiếp tục tăng dần khi đội quân người máy còn sống và đặt lại sau khi tất cả quân lính bị tiêu diệt. Quân đội người máy cũng sẽ khiến thanh choáng của Chesed tăng dần (25% cho mỗi đợt) <?1> khi bị tiêu diệt.\nNếu không tiêu diệt quân đội người máy trong vòng 20s thì chúng sẽ sử dụng kỹ năng \"Kích hoạt tự huỷ\", thay đổi <s:FormChange> thành đòn tấn công tự huỷ gây 3000% sát thương lên kẻ địch trong khu vực hình tròn xung quanh chúng.\nBất cứ khi nào Goliath bị đánh bại sẽ giải phóng một luồng sóng EMP gây <c:Paralysis> lên tất cả quân lính trong khu vực hình tròn trong 3s.",
                     "ParametersVi": [
                         [
                             "",
@@ -402,7 +402,7 @@
                             "",
                             "",
                             "",
-                            "and spawn a Sweeper "
+                            "và sản sinh máy quét"
                         ]
                     ]
                 },
@@ -424,8 +424,8 @@
                     "DescCn": "当ATG上升到一半以上时，我军<b:AttackSpeed>、<b:MoveSpeed>增加50%(60秒内)",
                     "NameTh": "ความสามารถของอัจฉริยะ",
                     "DescTh": "เมื่อเชเซ็ดมี ATG เกินครึ่งจะเพิ่ม<b:AttackSpeed>และ<b:MoveSpeed>ให้แก่ทหารจักรกล 50% (เป็นเวลา 60 วินาที)",
-                    "NameVi": null,
-                    "DescVi": null
+                    "NameVi": "Hãy chứng kiến sức mạnh tối cao của ta",
+                    "DescVi": "Khi thanh ATG của Chesed đạt nửa đoạn, tăng 50% <b:AttackSpeed> và <b:MoveSpeed> lên tất cả người máy còn lại trong 60s."
                 },
                 {
                     "Id": "ChesedExSkill03",
@@ -445,8 +445,8 @@
                     "DescCn": "当ATG全满时，对所有敌人造成攻击力2000%伤害",
                     "NameTh": "ราชาผู้เปี่ยมด้วยความเมตตา",
                     "DescTh": "เมื่อเชเซ็ดมี ATG เต็มจะสร้างความเสียหาย 2000% ของค่าโจมตีให้กับศัตรูทั้งหมด",
-                    "NameVi": null,
-                    "DescVi": null
+                    "NameVi": "Lòng thương xót của ngài",
+                    "DescVi": "Khi thanh ATG đã đạt đủ, gây 2000% sát thương lên tất cả kẻ địch."
                 },
                 {
                     "Id": "ChesedPassive01",
@@ -486,8 +486,8 @@
                     "DescCn": "免疫遭受伤害量增加效果\n在无力状态维持期间内<d:DamagedRatio>增加900%",
                     "NameTh": "บัลลังก์ที่ถูกเปิดเผย",
                     "DescTh": "เชเซ็ดจะต้านทานเอฟเฟกต์เพิ่ม<d:DamagedRatio>\nเพิ่ม<d:DamagedRatio>เมื่อเชเซ็ดอยู่ในสถานะมึนงงขึ้น 900% (เป็นเวลา 20 วินาที)",
-                    "NameVi": null,
-                    "DescVi": null
+                    "NameVi": "Lộ diện ngai vàng",
+                    "DescVi": "Chesed miễn nhiễm với mọi hiệu ứng làm tăng <d:DamagedRatio>.\nKhi thanh choáng của Chesed đạt đủ, lõi của Chesed sẽ lộ ra và tăng <d:DamagedRatio> lên 900% trong 20s."
                 }
             ],
             "NameEn": "Chesed",
@@ -677,8 +677,8 @@
                             "\nเมื่อถูกระเบิดน้ำแข็งโจมตี จะลด<d:MoveSpeed> 80% (เป็นเวลา 40 วินาที)"
                         ]
                     ],
-                    "NameVi": null,
-                    "DescVi": null,
+                    "NameVi": "Dun-Dun-Dun! (Shiro)",
+                    "DescVi": "Shiro thả những quả bom sẽ phát nổ sau một thời gian ngắn và gây <?1> sát thương lên kẻ địch trong khu vực hình tròn. Sát thương và số lượng bom được thả sẽ tăng lên khi thanh ATG của Shiro tăng dần.<?2>",
                     "ParametersVi": [
                         [
                             "400%",
@@ -694,7 +694,7 @@
                             "",
                             "",
                             "",
-                            "\nAlso places ice bombs that additionally decrease <d:MoveSpeed> of enemies hit by 80% for 40s."
+                            "\nShiro đồng thời cũng sẽ thả bom băng làm giảm 80% <d:MoveSpeed> của kẻ địch bị trúng trong 40s."
                         ]
                     ]
                 },
@@ -876,8 +876,8 @@
                             "4,000,000 หน่วย"
                         ]
                     ],
-                    "NameVi": null,
-                    "DescVi": null,
+                    "NameVi": "Tiếp tục lăn đi! (Shiro)",
+                    "DescVi": "Triệu hồi một quả bom lăn gây <?1> sát thương lên kẻ địch trên một đường thẳng.\nQuả bom gây 300% sát thương cho các chướng ngại vật trên đường đi của nó. Nếu quả bom va phải một chướng ngại vật không thể bị phá huỷ, quả bom sẽ nảy theo hướng ngược lại về phía Shiro, tăng <?3> cho thanh choáng của Shiro.<?2>",
                     "ParametersVi": [
                         [
                             "600%",
@@ -893,7 +893,7 @@
                             "",
                             "",
                             "",
-                            "\nIf an enemy with decreased <d:MoveSpeed> is hit, deals an additional <b>600,000</b> damage.\nIf Shiro is hit, also increases her <d:DamagedRatio> by 50% for 40s."
+                            "\nNếu một kẻ địch với hiệu ứng <d:MoveSpeed> giảm bị trúng đòn, sẽ nhận thêm <b>600,000</b> sát thương.\nNếu Shiro bị trúng đòn, cũng sẽ tăng thêm 50% <d:DamagedRatio> của Shiro trong 40s."
                         ],
                         [
                             "43,000",
@@ -1083,8 +1083,8 @@
                             "4,000,000 หน่วย"
                         ]
                     ],
-                    "NameVi": null,
-                    "DescVi": null,
+                    "NameVi": "Tấn công! (Kuro)",
+                    "DescVi": "Triệu hồi vài trò chơi phổ biến ở công viên gây 500% sát thương lên kẻ địch trên một đường thẳng.\nNếu Kuro bị trúng đòn do bản thân triệu hồi, thanh choáng của Kuro sẽ tăng thêm <?3>.<?2>",
                     "ParametersVi": [
                         [
                             "400%",
@@ -1100,7 +1100,7 @@
                             "",
                             "",
                             "",
-                            "\nIf an enemy with decreased <d:MoveSpeed> is hit, deals an additional <b>600,000</b> damage.\nIf Kuro is hit, also increases <d:DamagedRatio> by 50% for 40s."
+                            "\nNếu một kẻ địch có hiệu ứng <d:MoveSpeed> giảm bị trúng đòn, sẽ nhận thêm <b>600,000</b> sát thương.\nNếu Kuro bị trúng đòn, cũng sẽ tăng thêm 50% <d:DamagedRatio> của Kuro trong 40s."
                         ],
                         [
                             "43,000",
@@ -1130,8 +1130,8 @@
                     "DescCn": null,
                     "NameTh": "เฉื่อยชา (คุโระ)",
                     "DescTh": "สร้างความเสียหาย 100% ของค่าโจมตีให้กับศัตรู\nลด<d:MoveSpeed> 80% (เป็นเวลา 40 วินาที)",
-                    "NameVi": null,
-                    "DescVi": null
+                    "NameVi": "Sự thờ ơ",
+                    "DescVi": "Gây 100% sát thương lên kẻ địch và giảm 80% <d:MoveSpeed> của chúng trong 40s."
                 },
                 {
                     "Id": "ShiroKuroPassive01",
@@ -1163,8 +1163,8 @@
                     "DescCn": null,
                     "NameTh": "ความน่ากลัวของสลัมเพีย",
                     "DescTh": "ลด<d:HealEffectiveness>ของศัตรูทั้งหมด 80% เอฟเฟคนี้ไม่สามารถถูกลบล้างได้",
-                    "NameVi": null,
-                    "DescVi": null
+                    "NameVi": "Nỗi kinh hoàng của Slumpia",
+                    "DescVi": "Giảm 80% <d:HealEffectiveness> đối với tất cả kẻ địch. Loại tác dụng phụ này không thể bị gỡ bỏ."
                 }
             ],
             "NameEn": "Shiro & Kuro",
@@ -1252,8 +1252,8 @@
                     "DescCn": "对圆形范围内敌人造成攻击力350%的伤害\n对象的体力%越低，伤害最多增加50%",
                     "NameTh": "เสียงเรียกของดามัส",
                     "DescTh": "สร้างความเสียหาย 350% ของค่าโจมตีให้กับศัตรูในรัศมี\nHP% ของเป้าหมายยิ่งต่ำ ความเสียหายยิ่งเพิ่มขึ้น สูงสุด 50%",
-                    "NameVi": null,
-                    "DescVi": null
+                    "NameVi": "Lời mời của Damasus",
+                    "DescVi": "Gây 350% sát thương lên kẻ địch trong khu vực hình tròn. Sát thương sẽ tăng lên tới 50% khi HP của mục tiêu thấp dần.\n\nDama<b>sus</b>"
                 },
                 {
                     "Id": "HieronymusEx02",
@@ -1333,8 +1333,8 @@
                             "\nเพิ่ม<b:HealEffectiveness> <b>3,000</b> ให้กับศัตรูที่ถูกสาป (เป็นเวลา 10 วินาที)"
                         ]
                     ],
-                    "NameVi": null,
-                    "DescVi": null,
+                    "NameVi": "Kinh thánh của Vulgate",
+                    "DescVi": "Thả hiệu ứng <d:Hieronymus> lên một kẻ địch khoảng 10s, liên tục gây 20% sát thương lên chúng sau mỗi 1s trôi qua. Sau 10s, mục tiêu bị dính hiệu ứng <d:Hieronymus> sẽ phát nổ gây 325% sát thương trong khu vực hình tròn. Nếu mục tiêu được chữa lành bằng cách hồi phục 100% HP, hiệu ứng <d:Hieronymus> sẽ bị gỡ bỏ.",
                     "ParametersVi": [
                         [
                             "",
@@ -1342,7 +1342,7 @@
                             "",
                             "",
                             "",
-                            "\nAlso increases the <b:HealEffectiveness> of the curse target by <b>3,000</b> for 10s."
+                            "\nĐồng thời tăng <b:HealEffectiveness> của mục tiêu bị nguyền rủa lên <b>3,000</b> trong 10s."
                         ]
                     ]
                 },
@@ -1364,8 +1364,8 @@
                     "DescCn": "对圆形范围内的敌人造成攻击力90%伤害",
                     "NameTh": "ปลดปล่อยมรณะ",
                     "DescTh": "สร้างความเสียหาย 90% ของค่าโจมตีให้กับศัตรูในรัศมี",
-                    "NameVi": null,
-                    "DescVi": null
+                    "NameVi": "Sự hành quyết của Thần chết",
+                    "DescVi": "Gây 90% sát thương lên kẻ địch trong khu vực hình tròn."
                 },
                 {
                     "Id": "HieronymusEx04",
@@ -1493,8 +1493,8 @@
                             "\nหาก ATG เต็ม ศัตรูเป้าหมายทั้งหมดจะ<s:Immortal> (เป็นเวลา 10 วินาที)\nสร้างความเสียหาย 1000% ของค่า HP สูงสุดให้กับศัตรูทั้งหมด\nเพิ่ม<b:HealEffectiveness>ให้กับศัตรู <b>2,000</b> (เป็นเวลา 10 วินาที)"
                         ]
                     ],
-                    "NameVi": null,
-                    "DescVi": null,
+                    "NameVi": "Sa mạc sám hối",
+                    "DescVi": "Cứ sau 10s, gây <?1> sát thương lên tất cả kẻ địch.<?2>",
                     "ParametersVi": [
                         [
                             "40%",
@@ -1505,12 +1505,12 @@
                             "30%"
                         ],
                         [
-                            "\nWhen Hieronymus's ATG gauge is full, deals damage to each enemy equal to 1000% of their Max HP.",
-                            "\nWhen Hieronymus's ATG gauge is full, deals damage to each enemy equal to 1000% of their Max HP.",
-                            "\nWhen Hieronymus's ATG gauge is full, deals damage to each enemy equal to 1000% of their Max HP.",
-                            "\nWhen Hieronymus's ATG gauge is full, deals damage to each enemy equal to 1000% of their Max HP.",
-                            "\nWhen Hieronymus's ATG gauge is full, deals damage to each enemy equal to 1000% of their Max HP.",
-                            "\nWhen Hieronymus's ATG gauge is full, makes all enemies <s:Immortal> for 10s and then deals damage to each enemy equal to 1000% of their Max HP.\nAlso increases all enemies' <b:HealEffectiveness> by <b>2,000</b> for 10s."
+                            "\nKhi thanh ATG của Hieronymus đã đạt đủ, gây sát thương cho mỗi kẻ địch bằng 1000% HP tối đa của chúng.",
+                            "\nKhi thanh ATG của Hieronymus đã đạt đủ, gây sát thương cho mỗi kẻ địch bằng 1000% HP tối đa của chúng.",
+                            "\nKhi thanh ATG của Hieronymus đã đạt đủ, gây sát thương cho mỗi kẻ địch bằng 1000% HP tối đa của chúng.",
+                            "\nKhi thanh ATG của Hieronymus đã đạt đủ, gây sát thương cho mỗi kẻ địch bằng 1000% HP tối đa của chúng.",
+                            "\nKhi thanh ATG của Hieronymus đã đạt đủ, gây sát thương cho mỗi kẻ địch bằng 1000% HP tối đa của chúng.",
+                            "\nKhi thanh ATG của Hieronymus đã đạt đủ, khiến tất cả kẻ địch <s:Immortal> trong 10s và sau đó gây sát thương cho mỗi kẻ địch bằng 1000% HP tối đa của chúng.\nĐồng thời tăng <b:HealEffectiveness> của tất cả kẻ địch lên <b>2,000</b> trong 10s."
                         ]
                     ]
                 },
@@ -1613,11 +1613,11 @@
                             ""
                         ]
                     ],
-                    "NameVi": null,
-                    "DescVi": null,
+                    "NameVi": "Ánh sáng thần thánh (Thánh vật)",
+                    "DescVi": "Khi một thánh vật được chữa lành tới 100% HP, bản thân nó sẽ hấp thụ 95% HP và giảm 50% <d:HealEffectiveness> trong 20s. Kích hoạt một trong các hiệu ứng sau tuỳ thuộc vào thánh vật:\n<b>Thánh vật màu xanh</b>: Tăng <d:DamagedRatio> của Hieronymus lên 55% cho đến khi kết thúc màn chơi. Hiệu ứng có thể cộng dồn tối đa 5 lần.<?1>",
                     "ParametersVi": [
                         [
-                            "\n<b>Red Relic</b>: Interrupts Hieronymus's currently active skill. If a skill is successfully interrupted, fills Hieronymus's groggy gauge to the maximum and increases the <b:CostRegen> of up to 4 students by <b>2500</b> for 1s.",
+                            "\n<b>Thánh vật màu đỏ/b>: Interrupts Hieronymus's currently active skill. If a skill is successfully interrupted, fills Hieronymus's groggy gauge to the maximum and increases the <b:CostRegen> of up to 4 students by <b>2500</b> for 1s.",
                             "\n<b>Red Relic</b>: Interrupts Hieronymus's currently active skill. If a skill is successfully interrupted, fills Hieronymus's groggy gauge to the maximum and increases the <b:CostRegen> of up to 4 students by <b>2500</b> for 1s.",
                             "\n<b>Red Relic</b>: Interrupts Hieronymus's currently active skill. If a skill is successfully interrupted, fills Hieronymus's groggy gauge to the maximum and increases the <b:CostRegen> of up to 4 students by <b>2500</b> for 1s.",
                             "\n<b>Red Relic</b>: Interrupts Hieronymus's currently active skill. If a skill is successfully interrupted, fills Hieronymus's groggy gauge to the maximum and increases the <b:CostRegen> of up to 4 students by <b>2500</b> for 1s.",

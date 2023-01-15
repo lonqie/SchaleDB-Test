@@ -2318,7 +2318,7 @@ class SkillDamageInfo {
                         html += this.addStaticRow(index, translateUI('dmginfo_dmg_avg'), '', 'dmg-final-avg')
                     }
                 } else {
-                    const dotEffectIcon = `<span class="ba-skill-debuff"><img class="ba-buff-icon" src="images/buff/Combat_Icon_${effect.Icon}.png"><span class="ba-buff-icon-spacer"></span><span class="text-debuff">${getLocalizedString("BuffName", effect.Icon)}</span></span>`
+                    const dotEffectIcon = getBuffTag('Debuff', effect.Icon, {tooltip: false})
                     html += this.addStaticRow(index, `${dotEffectIcon} ${getLocalizedString("Stat", "AttackPower")} %`, '', 'scaling') 
                     html += this.addStaticRow(index, `${dotEffectIcon} ${translateUI('dmginfo_dmg')}`, '', 'dmg-range')
                 }
@@ -2335,7 +2335,7 @@ class SkillDamageInfo {
                 html += this.addSeparator()
 
                 if (effect.Type == 'HealDot') {
-                    const regenEffectIcon = `<span class="ba-skill-buff"><img class="ba-buff-icon" src="images/buff/Combat_Icon_Buff_DotHeal.png"><span class="ba-buff-icon-spacer"></span><span class="text-buff">${getLocalizedString("BuffName", "Buff_DotHeal")}</span></span>`
+                    const regenEffectIcon = getBuffTag('Buff', "DotHeal", {tooltip: false})
                     html += this.addStaticRow(index, `${regenEffectIcon} ${getLocalizedString("Stat", "HealPower")} %`, '', 'scaling') 
                     html += this.addStaticRow(index, `${regenEffectIcon} ${translateUI('dmginfo_heal')}`, '', 'heal-total')
                 } else {
@@ -2347,22 +2347,20 @@ class SkillDamageInfo {
                     html += this.addStaticRow(index, translateUI('dmginfo_heal_amount'), '', 'heal-total', '') 
                 }
             } else if (effect.Type.startsWith('Shield')) {
-                const shieldEffectIcon = `<span class="ba-skill-buff"><img class="ba-buff-icon" src="images/buff/Combat_Icon_Buff_Shield.png"><span class="ba-buff-icon-spacer"></span><span class="text-buff">${getLocalizedString("BuffName", "Buff_Shield")}</span></span>`
-
+                const shieldEffectIcon = getBuffTag('Buff', "Shield", {tooltip: false})
                 html += this.addSeparator()
 
                 html += this.addStaticRow(index, `${shieldEffectIcon} ${getLocalizedString("Stat", "HealPower")} %`, '', 'scaling') 
                 html += this.addStaticRow(index, translateUI('dmginfo_shield_amount', [shieldEffectIcon]), '', 'heal-total', 'text-shield')
             } else if (effect.Type.startsWith('CrowdControl')) {
-                const ccEffectIcon = `<span class="ba-skill-cc"><img class="ba-buff-icon" src="images/buff/Combat_Icon_${effect.Icon}.png"><span class="ba-buff-icon-spacer"></span><span class="text-cc">${getLocalizedString("BuffName", effect.Icon)}</span></span>`
-                
+                const ccEffectIcon = getBuffTag('CC', effect.Icon, {tooltip: false})
                 html += this.addSeparator()
                 
                 html += this.addStaticRow(index, translateUI('dmginfo_cc_effect_chance', [ccEffectIcon]), '', 'cc-chance')
                 html += this.addStaticRow(index, translateUI('dmginfo_cc_effect_duration', [ccEffectIcon]), '', 'cc-duration')
             } else if (effect.Type.startsWith('Accumulation')) {
-                const accumulationEffectIcon = `<span class="ba-skill-special"><img class="ba-buff-icon" src="images/buff/Combat_Icon_Special_Accumulation.png"><span class="ba-buff-icon-spacer"></span><span class="text-special">${getLocalizedString("BuffName", "Special_Accumulation")}</span></span>`
-                
+                const accumulationEffectIcon = getBuffTag('Special', "Accumulation", {tooltip: false})
+
                 html += this.addSeparator()
 
                 html += this.addStaticRow(index, accumulationEffectIcon + ` ${getLocalizedString("Stat", "AttackPower")} %`, '', 'accumulation-scaling')
@@ -6751,31 +6749,6 @@ function populateEventStageList(eventId) {
             $('#stage-select-'+loadedStage.Id).addClass('selected')
         }
 
-        //Character Bonus
-        // charBonusHtml = ''
-        // if (data.stages.EventInfo[eventId].CharacterBonus !== undefined) {
-        //     for (eventTokenId in data.stages.EventInfo[eventId].CharacterBonus) {
-        //         if (charBonusHtml != "") {
-        //             charBonusHtml += '<div class="ba-panel-separator my-2"></div>'
-        //         }
-
-        //         charBonusHtml += '<div class="d-flex">'
-        //         charBonusHtml += getMaterialIconHTML(eventTokenId, 0)
-        //         charBonusHtml += '<div class="item-icon-list">'
-
-        //         data.stages.EventInfo[eventId].CharacterBonus[eventTokenId].forEach(charBonus => {
-        //             charBonusHtml += getStudentIconSmall(find(data.students, 'Id', charBonus[0])[0], `+${charBonus[1]/100}%`)
-        //         })
-
-        //         charBonusHtml += '</div></div>'
-        //     }
-        //     $('#event-character-bonus-list').html(charBonusHtml)
-        //     $('#event-character-bonus-list .ba-item-student').tooltip({html: true})
-        // } else {
-        //     $('#event-tab-bonus').hide()
-        // }
-
-
         loadedStageList = '' + eventId
         $('#ba-stages-list-tab-events').tab('show')
         $('#ba-stages-list-container .card-body').scrollTop(0)
@@ -7154,19 +7127,23 @@ function getSkillText(text, params, level, type, damageDist = [], damageDistPara
         regex = new RegExp(`<${type.slice(0,1).toLowerCase()}:(\\w+)>`, 'g')
         if (renderBuffs) {
             result = result.replace(regex, function(match, capture) {
-                const buffName = type + '_' + capture
-                return `<span class="ba-skill-${type.toLowerCase()}" data-bs-toggle="tooltip" data-bs-placement="top" title="${getRichTooltip(`images/buff/Combat_Icon_${buffName}.png`, getLocalizedString('BuffNameLong', buffName), getLocalizedString('BuffType', type), null, getLocalizedString('BuffTooltip', buffName), 30)}"><img class=\"ba-buff-icon\" src=\"images/buff/Combat_Icon_${buffName}.png\"><span class="ba-buff-icon-spacer"></span>${getLocalizedString('BuffName', buffName)}</span>`
+                return getBuffTag(type, capture, {tooltip: true})
             })
         } else {
             result = result.replace(regex, function(match, capture) {
                 const buffName = type + '_' + capture
-                return `<span class="text-${type.toLowerCase()}">${getLocalizedString('BuffName', buffName)}</span>`
+                return `<b>${getLocalizedString('BuffName', buffName)}</b>`
             })
         }
 
     })
 
     return result
+}
+
+function getBuffTag(type, name, options={tooltip}) {
+    const buffName = `${type}_${name}`
+    return `<span class="ba-skill-${type.toLowerCase()}" ${options.tooltip ? `data-bs-toggle="tooltip" data-bs-placement="top" title="${getRichTooltip(`images/buff/Combat_Icon_${buffName}.png`, getLocalizedString('BuffNameLong', buffName), getLocalizedString('BuffType', type), null, getLocalizedString('BuffTooltip', buffName), 30)}"` : ''}><img class=\"buff-icon\" src=\"images/buff/Combat_Icon_${buffName}.png\"><span class="buff-label">${getLocalizedString('BuffName', buffName)}</span></span>`
 }
 
 function getSkillHitsText(damageDist, totalDamage, type) {

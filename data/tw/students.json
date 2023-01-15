@@ -1734,7 +1734,7 @@
                     {
                         "Type": "CrowdControl",
                         "Chance": "10000",
-                        "Icon": "CC_Provoke",
+                        "Icon": "Provoke",
                         "Scale": [
                             3400,
                             3400,
@@ -2771,7 +2771,7 @@
                     {
                         "Type": "CrowdControl",
                         "Chance": "10000",
-                        "Icon": "CC_Stunned",
+                        "Icon": "Stunned",
                         "Scale": [
                             0,
                             0,
@@ -8299,7 +8299,7 @@
                         "Type": "DMGDot",
                         "Duration": "20000",
                         "Period": "4000",
-                        "Icon": "Debuff_Burn",
+                        "Icon": "Burn",
                         "Scale": [
                             5371,
                             5642,
@@ -10195,7 +10195,7 @@
                     {
                         "Type": "CrowdControl",
                         "Chance": "10000",
-                        "Icon": "CC_Fear",
+                        "Icon": "Fear",
                         "Scale": [
                             3900,
                             3900,
@@ -10253,7 +10253,7 @@
                     {
                         "Type": "CrowdControl",
                         "Chance": "3000",
-                        "Icon": "CC_Fear",
+                        "Icon": "Fear",
                         "Scale": [
                             3600,
                             3600,
@@ -12245,7 +12245,7 @@
                     {
                         "Type": "CrowdControl",
                         "Chance": "10000",
-                        "Icon": "CC_Provoke",
+                        "Icon": "Provoke",
                         "Scale": [
                             4700,
                             4700,
@@ -14882,7 +14882,7 @@
                     {
                         "Type": "CrowdControl",
                         "Chance": "10000",
-                        "Icon": "CC_Stunned",
+                        "Icon": "Stunned",
                         "Scale": [
                             0,
                             0,
@@ -16479,7 +16479,7 @@
                     {
                         "Type": "CrowdControl",
                         "Chance": "5000",
-                        "Icon": "CC_Stunned",
+                        "Icon": "Stunned",
                         "Scale": [
                             3100,
                             3100,
@@ -16994,7 +16994,7 @@
                         "Type": "DMGDot",
                         "Duration": "20000",
                         "Period": "4000",
-                        "Icon": "Debuff_Poison",
+                        "Icon": "Poison",
                         "Scale": [
                             3652,
                             3835,
@@ -18980,7 +18980,7 @@
                     {
                         "Type": "CrowdControl",
                         "Chance": "10000",
-                        "Icon": "CC_Stunned",
+                        "Icon": "Stunned",
                         "Scale": [
                             2700,
                             2700,
@@ -21565,7 +21565,7 @@
                         "Type": "DMGDot",
                         "Duration": "20000",
                         "Period": "4000",
-                        "Icon": "Debuff_Poison",
+                        "Icon": "Poison",
                         "Scale": [
                             5899,
                             6786,
@@ -23084,7 +23084,7 @@
                     {
                         "Type": "CrowdControl",
                         "Chance": "10000",
-                        "Icon": "CC_Stunned",
+                        "Icon": "Stunned",
                         "Scale": [
                             2200,
                             2200,
@@ -25756,7 +25756,7 @@
                         "Type": "DMGDot",
                         "Duration": "20000",
                         "Period": "4000",
-                        "Icon": "Debuff_Poison",
+                        "Icon": "Poison",
                         "Scale": [
                             3987,
                             3987,
@@ -26310,7 +26310,7 @@
                         "Type": "DMGDot",
                         "Duration": "20000",
                         "Period": "4000",
-                        "Icon": "Debuff_Burn",
+                        "Icon": "Burn",
                         "Scale": [
                             7204,
                             7204,
@@ -29974,7 +29974,7 @@
                         "Type": "DMGDot",
                         "Duration": "20000",
                         "Period": "4000",
-                        "Icon": "Debuff_Chill",
+                        "Icon": "Chill",
                         "Scale": [
                             40666,
                             46763,
@@ -32125,7 +32125,7 @@
                     {
                         "Type": "CrowdControl",
                         "Chance": "10000",
-                        "Icon": "CC_Stunned",
+                        "Icon": "Stunned",
                         "Scale": [
                             1600,
                             1600,
@@ -32659,7 +32659,7 @@
                         "Type": "DMGDot",
                         "Duration": "20000",
                         "Period": "4000",
-                        "Icon": "Debuff_Chill",
+                        "Icon": "Chill",
                         "Scale": [
                             5105,
                             5105,
@@ -32743,7 +32743,7 @@
                         "Type": "DMGDot",
                         "Duration": "20000",
                         "Period": "4000",
-                        "Icon": "Debuff_Chill",
+                        "Icon": "Chill",
                         "Scale": [
                             3412,
                             3583,
@@ -33149,7 +33149,7 @@
                     {
                         "Type": "CrowdControl",
                         "Chance": "10000",
-                        "Icon": "CC_Stunned",
+                        "Icon": "Stunned",
                         "Scale": [
                             2400,
                             2400,
@@ -33274,7 +33274,7 @@
                     {
                         "Type": "CrowdControl",
                         "Chance": "10000",
-                        "Icon": "CC_Stunned",
+                        "Icon": "Stunned",
                         "Scale": [
                             1230,
                             1300,
@@ -35964,7 +35964,7 @@
                     {
                         "Type": "CrowdControl",
                         "Chance": "10000",
-                        "Icon": "CC_Provoke",
+                        "Icon": "Provoke",
                         "Scale": [
                             0,
                             0,
@@ -44132,7 +44132,7 @@
                     {
                         "Type": "CrowdControl",
                         "Chance": "10000",
-                        "Icon": "CC_Stunned",
+                        "Icon": "Stunned",
                         "Scale": [
                             1900,
                             1900,
@@ -45146,7 +45146,7 @@
                     {
                         "Type": "CrowdControl",
                         "Chance": "10000",
-                        "Icon": "CC_Stunned",
+                        "Icon": "Stunned",
                         "Scale": [
                             5700,
                             5700,
@@ -47837,7 +47837,7 @@
                     {
                         "Type": "CrowdControl",
                         "Chance": "10000",
-                        "Icon": "CC_Stunned",
+                        "Icon": "Stunned",
                         "Scale": [
                             4200,
                             4200,
@@ -48356,7 +48356,7 @@
                     {
                         "Type": "CrowdControl",
                         "Chance": "10000",
-                        "Icon": "CC_Stunned",
+                        "Icon": "Stunned",
                         "Scale": [
                             3900,
                             3900,
@@ -48436,7 +48436,7 @@
                         "Type": "DMGDot",
                         "Duration": "20000",
                         "Period": "4000",
-                        "Icon": "Debuff_Burn",
+                        "Icon": "Burn",
                         "Scale": [
                             5341,
                             5341,
@@ -48895,7 +48895,7 @@
                 "Effects": [
                     {
                         "Type": "DMGByHit",
-                        "Icon": "Debuff_DamageByHit_Damaged",
+                        "Icon": "DamageByHit_Damaged",
                         "Scale": [
                             1580,
                             1817,
@@ -50417,7 +50417,7 @@
                         "Type": "DMGDot",
                         "Duration": "20000",
                         "Period": "4000",
-                        "Icon": "Debuff_Burn",
+                        "Icon": "Burn",
                         "Scale": [
                             14973,
                             14973,
@@ -53295,7 +53295,7 @@
                     {
                         "Type": "CrowdControl",
                         "Chance": "10000",
-                        "Icon": "CC_Stunned",
+                        "Icon": "Stunned",
                         "Scale": [
                             800,
                             800,
@@ -53312,7 +53312,7 @@
                     {
                         "Type": "CrowdControl",
                         "Chance": "10000",
-                        "Icon": "CC_Stunned",
+                        "Icon": "Stunned",
                         "Scale": [
                             3200,
                             3200,
@@ -56721,7 +56721,7 @@
                     {
                         "Type": "CrowdControl",
                         "Chance": "10000",
-                        "Icon": "CC_Stunned",
+                        "Icon": "Stunned",
                         "Scale": [
                             2100,
                             2100,
@@ -56754,7 +56754,7 @@
                     {
                         "Type": "CrowdControl",
                         "Chance": "10000",
-                        "Icon": "CC_Stunned",
+                        "Icon": "Stunned",
                         "Scale": [
                             4100,
                             4100,
@@ -56840,7 +56840,7 @@
                     {
                         "Type": "CrowdControl",
                         "Chance": "10000",
-                        "Icon": "CC_Stunned",
+                        "Icon": "Stunned",
                         "Scale": [
                             2400,
                             2400,
@@ -56924,7 +56924,7 @@
                         "Type": "DMGDot",
                         "Duration": "20000",
                         "Period": "4000",
-                        "Icon": "Debuff_Chill",
+                        "Icon": "Chill",
                         "Scale": [
                             3003,
                             3152,
@@ -57877,7 +57877,7 @@
                         "Type": "DMGDot",
                         "Duration": "20000",
                         "Period": "4000",
-                        "Icon": "Debuff_Burn",
+                        "Icon": "Burn",
                         "Scale": [
                             5095,
                             5095,
@@ -57953,7 +57953,7 @@
                     {
                         "Type": "CrowdControl",
                         "Chance": "10000",
-                        "Icon": "CC_Stunned",
+                        "Icon": "Stunned",
                         "Scale": [
                             1200,
                             1200,
@@ -60530,7 +60530,7 @@
                         "Type": "DMGDot",
                         "Duration": "120000",
                         "Period": "4000",
-                        "Icon": "Debuff_Cheerleading",
+                        "Icon": "Cheerleading",
                         "Scale": [
                             2998,
                             3447,
@@ -63708,7 +63708,7 @@
                         "Type": "DMGDot",
                         "Duration": "20000",
                         "Period": "4000",
-                        "Icon": "Debuff_Burn",
+                        "Icon": "Burn",
                         "Scale": [
                             6400,
                             6400,

@@ -117,6 +117,7 @@
 
         border-radius: 10px;
         overflow: hidden;
+        will-change: transform;
 
         @include card-shadow;
 
@@ -320,10 +321,11 @@
         &.furniture-interaction {
             top: 2px;
             left: 2px;
-            border-radius: none;
+            border-radius: 0px !important;
 
             img {
                 height: 20px;
+                width: auto;
             }
         }
 
@@ -447,14 +449,19 @@
 
     &.compact {
 
-        @include circular;
         @include transition(filter);
 
-        overflow: hidden;
-
         &.selected {
-            outline: 4px solid var(--col-theme-text);
-            outline-offset: -2px;
+            &::before {
+                content: "";
+                position: absolute;
+                top: -2px;
+                right: -2px;
+                bottom: -2px;
+                left: -2px;
+                border: 4px solid var(--col-theme-text);
+                @include circular;
+            }
             @include circular;
 
             .card-compact {
@@ -464,6 +471,8 @@
         }
 
         .card-compact {
+            @include circular;
+            overflow: hidden;
 
             padding: 3px;
             height: 100%;
@@ -559,8 +568,19 @@
     }
 
     &.selected {
-        outline: 5px solid var(--col-theme-text);
-        outline-offset: -2px;
+        // outline: 5px solid var(--col-theme-text);
+        // outline-offset: -2px;
+        //border-radius: 10px;
+        &::before {
+            content: "";
+            position: absolute;
+            top: -3px;
+            right: -3px;
+            bottom: -3px;
+            left: -3px;
+            border: 4px solid var(--col-theme-text);
+            border-radius: 12px;
+        }
         border-radius: 10px;
 
         .card-label {
@@ -629,9 +649,21 @@
         }
 
         &.selected {
-            outline: 4px solid var(--col-theme-text);
-            outline-offset: -1px;
-    
+            // outline: 4px solid var(--col-theme-text);
+            // outline-offset: -1px;
+            &::before {
+                content: "";
+                position: absolute;
+                top: -3px;
+                right: -3px;
+                bottom: -3px;
+                left: -3px;
+                border: 4px solid var(--col-theme-text);
+                border-radius: 12px;
+            }
+            border-radius: 10px;
+
+
             .card-img img {
                 background-color: var(--col-bg-imglabel-invert) !important;
             }
