@@ -742,17 +742,17 @@
                 "Id": 142,
                 "Tier": 1,
                 "Quality": 2,
-                "NameEn": "Military Campground",
+                "NameEn": "Military Campground Set",
                 "DescEn": "This can create cafe furniture. (Military campground theme)",
                 "NameJp": "ミリタリーアウトドア",
                 "DescJp": "カフェの家具（ミリタリーアウトドアシリーズ）を生成することができます。",
                 "NameKr": "밀리터리 캠핑장 세트",
                 "DescKr": "카페 가구를 생성할 수 있습니다. (밀리터리 캠핑장 테마)",
-                "NameTw": "軍事露營區",
+                "NameTw": "軍事露營區組合",
                 "DescTw": "可建立咖啡廳家具。（軍事露營區主題）",
                 "NameCn": "军事露营区组合",
                 "DescCn": "可制造咖啡厅家具。(军事露营区主题)",
-                "NameTh": "ค่ายทหาร",
+                "NameTh": "เซ็ตค่ายทหาร",
                 "DescTh": "สร้างเฟอร์นิเจอร์ในคาเฟ่ (ธีมค่ายทหาร)",
                 "NameVi": "ミリタリーアウトドア",
                 "DescVi": "カフェの家具（ミリタリーアウトドアシリーズ）を生成することができます。",
@@ -770,17 +770,17 @@
                 "Tier": 1,
                 "Quality": 2,
                 "NameEn": "Beachside Set",
-                "DescEn": "This can create cafe furniture. (Beachside theme).",
+                "DescEn": "Can create beach-themed cafe furniture.",
                 "NameJp": "ビーチサイドシリーズ",
                 "DescJp": "カフェの家具（ビーチサイドシリーズ）を生成することができます。",
                 "NameKr": "비치사이드 세트",
                 "DescKr": "카페 가구를 생성할 수 있습니다. (비치사이드 테마)",
-                "NameTw": "ビーチサイドシリーズ",
-                "DescTw": "カフェの家具（ビーチサイドシリーズ）を生成することができます。",
+                "NameTw": "海灘組合",
+                "DescTw": "可生產咖啡廳家具。（海灘主題）",
                 "NameCn": "海滩组合",
                 "DescCn": "可制造咖啡厅家具。(海滩主题)",
-                "NameTh": "ビーチサイドシリーズ",
-                "DescTh": "カフェの家具（ビーチサイドシリーズ）を生成することができます。",
+                "NameTh": "เซ็ตริมหาด",
+                "DescTh": "สร้างเฟอร์นิเจอร์ในคาเฟ่ (ธีมริมหาด)",
                 "NameVi": "ビーチサイドシリーズ",
                 "DescVi": "カフェの家具（ビーチサイドシリーズ）を生成することができます。",
                 "Weight": 11500,
@@ -1729,17 +1729,17 @@
                 "Id": 143,
                 "Tier": 2,
                 "Quality": 2,
-                "NameEn": "Military Campground",
+                "NameEn": "Military Campground Set",
                 "DescEn": "This can create cafe furniture. (Military campground theme)",
                 "NameJp": "ミリタリーアウトドア",
                 "DescJp": "カフェの家具（ミリタリーアウトドアシリーズ）を生成することができます。",
                 "NameKr": "밀리터리 캠핑장 세트",
                 "DescKr": "카페 가구를 생성할 수 있습니다. (밀리터리 캠핑장 테마)",
-                "NameTw": "軍事露營區",
+                "NameTw": "軍事露營區組合",
                 "DescTw": "可建立咖啡廳家具。（軍事露營區主題）",
                 "NameCn": "军事露营区组合",
                 "DescCn": "可制造咖啡厅家具。(军事露营区主题)",
-                "NameTh": "ค่ายทหาร",
+                "NameTh": "เซ็ตค่ายทหาร",
                 "DescTh": "สร้างเฟอร์นิเจอร์ในคาเฟ่ (ธีมค่ายทหาร)",
                 "NameVi": "ミリタリーアウトドア",
                 "DescVi": "カフェの家具（ミリタリーアウトドアシリーズ）を生成することができます。",
@@ -1757,17 +1757,17 @@
                 "Tier": 2,
                 "Quality": 2,
                 "NameEn": "Beachside Set",
-                "DescEn": "This can create cafe furniture. (Beachside theme).",
+                "DescEn": "Can create beach-themed cafe furniture.",
                 "NameJp": "ビーチサイドシリーズ",
                 "DescJp": "カフェの家具（ビーチサイドシリーズ）を生成することができます。",
                 "NameKr": "비치사이드 세트",
                 "DescKr": "카페 가구를 생성할 수 있습니다. (비치사이드 테마)",
-                "NameTw": "ビーチサイドシリーズ",
-                "DescTw": "カフェの家具（ビーチサイドシリーズ）を生成することができます。",
+                "NameTw": "海灘組合",
+                "DescTw": "可生產咖啡廳家具。（海灘主題）",
                 "NameCn": "海滩组合",
                 "DescCn": "可制造咖啡厅家具。(海滩主题)",
-                "NameTh": "ビーチサイドシリーズ",
-                "DescTh": "カフェの家具（ビーチサイドシリーズ）を生成することができます。",
+                "NameTh": "เซ็ตริมหาด",
+                "DescTh": "สร้างเฟอร์นิเจอร์ในคาเฟ่ (ธีมริมหาด)",
                 "NameVi": "ビーチサイドシリーズ",
                 "DescVi": "カフェの家具（ビーチサイドシリーズ）を生成することができます。",
                 "Weight": 69000,
@@ -2458,18 +2458,18 @@
                 "Id": 151,
                 "Tier": 2,
                 "Quality": 1,
-                "NameEn": "Jade Plant",
-                "DescEn": "This can create water play gifts.",
+                "NameEn": "Jade Blossom",
+                "DescEn": "Can create water-play gifts.",
                 "NameJp": "翡翠花",
                 "DescJp": "水遊びの贈り物を生成することができます。",
                 "NameKr": "비취꽃",
                 "DescKr": "물놀이 선물을 생성할 수 있습니다.",
                 "NameTw": "翡翠花",
-                "DescTw": "水遊びプレゼントを生成することができます。",
+                "DescTw": "可生產戲水禮物。",
                 "NameCn": "玉树花",
                 "DescCn": "可制造水上游戏礼物。",
-                "NameTh": "翡翠花",
-                "DescTh": "水遊びプレゼントを生成することができます。",
+                "NameTh": "ดอกหยก",
+                "DescTh": "สร้างของขวัญประเภทเล่นน้ำ",
                 "NameVi": "翡翠花",
                 "DescVi": "水遊びの贈り物を生成することができます。",
                 "Weight": 28571,
@@ -2986,12 +2986,12 @@
                 "DescJp": "上級レベルの物質を生成することができます。",
                 "NameKr": "반짝임",
                 "DescKr": "높은 등급의 물질을 생성할 수 있습니다.",
-                "NameTw": "輝き",
-                "DescTw": "上級レベルの物質を生成することができます。",
+                "NameTw": "閃亮",
+                "DescTw": "可建立高等級的物質。",
                 "NameCn": "闪亮",
                 "DescCn": "可制造高等级的物质。",
-                "NameTh": "輝き",
-                "DescTh": "上級レベルの物質を生成することができます。",
+                "NameTh": "เศษประกาย",
+                "DescTh": "สร้างไอเทมวัตถุดิบขั้นสูง",
                 "NameVi": "輝き",
                 "DescVi": "上級レベルの物質を生成することができます。",
                 "Weight": 1560000,
@@ -3037,12 +3037,12 @@
                 "DescJp": "最上級レベルの物質を生成することができます。",
                 "NameKr": "찬란함",
                 "DescKr": "최상 등급의 물질을 생성할 수 있습니다.",
-                "NameTw": "煌めき",
-                "DescTw": "最上級レベルの物質を生成することができます。",
+                "NameTw": "燦爛",
+                "DescTw": "可建立最高等級的物質。",
                 "NameCn": "灿烂",
                 "DescCn": "可制造最高等级的物质。",
-                "NameTh": "煌めき",
-                "DescTh": "最上級レベルの物質を生成することができます。",
+                "NameTh": "เศษเจิดจ้า",
+                "DescTh": "สร้างไอเทมวัตถุดิบขั้นสูงสุด",
                 "NameVi": "煌めき",
                 "DescVi": "最上級レベルの物質を生成することができます。",
                 "Weight": 430000,
@@ -3091,17 +3091,17 @@
                 "Tier": 3,
                 "Quality": 1,
                 "NameEn": "Silver",
-                "DescEn": "This can create Advanced grade or higher Activity Reports.",
+                "DescEn": "Can create Advanced or higher Activity Reports.",
                 "NameJp": "銀",
                 "DescJp": "上級以上のレポートを生成することができます。",
                 "NameKr": "은",
                 "DescKr": "상급 이상의 활동 보고서를 생성할 수 있습니다.",
                 "NameTw": "銀",
-                "DescTw": "上級以上のレポートを生成することができます。",
+                "DescTw": "可生產高級以上的活動報告。",
                 "NameCn": "银",
                 "DescCn": "可制造高级以上等级活动报告。",
-                "NameTh": "銀",
-                "DescTh": "上級以上のレポートを生成することができます。",
+                "NameTh": "เงิน",
+                "DescTh": "สร้างรายงานขั้นสูงขึ้นไป",
                 "NameVi": "銀",
                 "DescVi": "上級以上のレポートを生成することができます。",
                 "Weight": 390000,
@@ -3122,17 +3122,17 @@
                 "Tier": 3,
                 "Quality": 1,
                 "NameEn": "Gold",
-                "DescEn": "This can create Advanced grade or higher Artifacts.",
+                "DescEn": "Can create Advanced or higher Artifacts.",
                 "NameJp": "金",
                 "DescJp": "橙等級以上のオーパーツを生成することができます。",
                 "NameKr": "금",
                 "DescKr": "상급 이상의 오파츠를 생성할 수 있습니다.",
                 "NameTw": "金",
-                "DescTw": "橙等級以上のオーパーツを生成することができます。",
+                "DescTw": "可生產高級以上的歐帕茲。",
                 "NameCn": "金",
                 "DescCn": "可制造高级以上等级欧帕兹。",
-                "NameTh": "金",
-                "DescTh": "橙等級以上のオーパーツを生成することができます。",
+                "NameTh": "ทอง",
+                "DescTh": "สร้างวัตถุหลงยุคขั้นสูงขึ้นไป",
                 "NameVi": "金",
                 "DescVi": "橙等級以上のオーパーツを生成することができます。",
                 "Weight": 260000,
@@ -3153,17 +3153,17 @@
                 "Tier": 3,
                 "Quality": 1,
                 "NameEn": "Platinum",
-                "DescEn": "This can create Advanced grade or higher Tech Notes. Low chance of creating a Secret Tech Sheet fragment.",
+                "DescEn": "Can create Advanced or higher Tech Notes. Can rarely create a Secret Tech Sheet fragment.",
                 "NameJp": "プラチナ",
                 "DescJp": "上級以上の技術ノートを生成することができます。稀に秘伝ノートの断片を生成します。",
                 "NameKr": "백금",
                 "DescKr": "상급 이상의 기술 노트를 생성할 수 있습니다. 드물게 비의서 조각을 생성합니다.",
-                "NameTw": "プラチナ",
-                "DescTw": "上級以上の技術ノートを生成することができます。稀に秘伝ノートの断片を生成します。",
+                "NameTw": "白金",
+                "DescTw": "可生產高級以上的技術筆記。有極小機率可生產奧秘之書碎片。",
                 "NameCn": "白金",
                 "DescCn": "可以制造高级以上等级技术笔记。低概率制造出秘密技术表碎片。",
-                "NameTh": "プラチナ",
-                "DescTh": "上級以上の技術ノートを生成することができます。稀に秘伝ノートの断片を生成します。",
+                "NameTh": "แพลทินัม",
+                "DescTh": "สร้างตำราสกิลขั้นสูงขึ้นไป มีโอกาสเล็กน้อยที่จะสร้างเศษตำราสกิลลับได้",
                 "NameVi": "プラチナ",
                 "DescVi": "上級以上の技術ノートを生成することができます。稀に秘伝ノートの断片を生成します。",
                 "Weight": 230000,
@@ -3188,17 +3188,17 @@
                 "Tier": 3,
                 "Quality": 1,
                 "NameEn": "Copper",
-                "DescEn": "This can create Advanced grade or higher Tactical Training Blu-rays.",
+                "DescEn": "Can create Advanced or higher Tactical Training Blu-ray.",
                 "NameJp": "銅",
                 "DescJp": "上級以上の戦術教育BDを生成することができます。",
                 "NameKr": "구리",
                 "DescKr": "상급 이상의 전술 교육 BD를 생성할 수 있습니다.",
                 "NameTw": "銅",
-                "DescTw": "上級以上の戦術教育BDを生成することができます。",
+                "DescTw": "可生產高級以上的戰術教育BD。",
                 "NameCn": "铜",
                 "DescCn": "可制造高级以上等级战术教育BD。",
-                "NameTh": "銅",
-                "DescTh": "上級以上の戦術教育BDを生成することができます。",
+                "NameTh": "ทองแดง",
+                "DescTh": "สร้าง BD สื่อการเรียนขั้นสูงขึ้นไป",
                 "NameVi": "銅",
                 "DescVi": "上級以上の戦術教育BDを生成することができます。",
                 "Weight": 60000,
@@ -3219,17 +3219,17 @@
                 "Tier": 3,
                 "Quality": 1,
                 "NameEn": "Weapon Parts",
-                "DescEn": "Can create Chromium or Titanium Weapon Parts to enhance unique weapons.",
+                "DescEn": "Can create Advanced or higher Weapon Parts to enhance unique weapons.",
                 "NameJp": "パーツ",
                 "DescJp": "固有武器を強化するためのクロム・チタンの武器のパーツを生成することができます。",
                 "NameKr": "무기 부품",
                 "DescKr": "고유무기를 강화할 수 있는 상급 이상의 무기 부품을 생성할 수 있습니다.",
-                "NameTw": "パーツ",
-                "DescTw": "固有武器を強化するためのクロム・チタンの武器のパーツを生成することができます。",
+                "NameTw": "武器零件",
+                "DescTw": "可生產強化專用武器時所需的高級以上的武器零件。",
                 "NameCn": "武器零件",
                 "DescCn": "可以制造能够强化固有武器的铬或钛武器零件。",
-                "NameTh": "パーツ",
-                "DescTh": "固有武器を強化するためのクロム・チタンの武器のパーツを生成することができます。",
+                "NameTh": "อะไหล่อาวุธ",
+                "DescTh": "สร้างอะไหล่อาวุธสำหรับอัปเกรดอาวุธขั้นสูงขึ้นไป",
                 "NameVi": "パーツ",
                 "DescVi": "固有武器を強化するためのクロム・チタンの武器のパーツを生成することができます。",
                 "Weight": 80000,
@@ -3250,17 +3250,17 @@
                 "Tier": 3,
                 "Quality": 1,
                 "NameEn": "Flower",
-                "DescEn": "This can create gifts for students. Low chance of creating a high grade gift.",
+                "DescEn": "Can create a gift for students. Rarely creates an advanced gift.",
                 "NameJp": "花弁",
                 "DescJp": "生徒への贈り物を生成することができます。稀に高級贈り物を生成します。",
                 "NameKr": "꽃",
                 "DescKr": "학생들에게 줄 선물을 생성할 수 있습니다. 드물게 고급 선물을 생성합니다.",
-                "NameTw": "花弁",
-                "DescTw": "生徒への贈り物を生成することができます。稀に高級贈り物を生成します。",
+                "NameTw": "花",
+                "DescTw": "可生產送給學生的禮物。有極小機率可生產高級禮物。",
                 "NameCn": "花",
                 "DescCn": "可制造送给学生的礼物。低概率制造出高等级礼物。",
-                "NameTh": "花弁",
-                "DescTh": "生徒への贈り物を生成することができます。稀に高級贈り物を生成します。",
+                "NameTh": "ดอกไม้",
+                "DescTh": "สร้างของขวัญที่ใช้มอบให้นักเรียน มีโอกาสเล็กน้อยที่จะสร้างของขวัญชั้นดีได้",
                 "NameVi": "花弁",
                 "DescVi": "生徒への贈り物を生成することができます。稀に高級贈り物を生成します。",
                 "Weight": 400000,
@@ -3281,17 +3281,17 @@
                 "Tier": 3,
                 "Quality": 1,
                 "NameEn": "Colorful",
-                "DescEn": "This can create ★2 or higher cafe furniture.",
+                "DescEn": "Can create advanced or higher cafe furniture.",
                 "NameJp": "色彩",
                 "DescJp": "★2以上のカフェの家具を生成することができます。",
                 "NameKr": "색깔",
                 "DescKr": "상급 이상의 카페 가구를 생성할 수 있습니다.",
-                "NameTw": "色彩",
-                "DescTw": "★2以上のカフェの家具を生成することができます。",
+                "NameTw": "顏色",
+                "DescTw": "可生產高級以上的咖啡廳家具。",
                 "NameCn": "颜色",
                 "DescCn": "可制造★2以上咖啡厅家具。",
-                "NameTh": "色彩",
-                "DescTh": "★2以上のカフェの家具を生成することができます。",
+                "NameTh": "สี",
+                "DescTh": "สร้างเฟอร์นิเจอร์ขั้นสูงขึ้นไปในคาเฟ่",
                 "NameVi": "色彩",
                 "DescVi": "★2以上のカフェの家具を生成することができます。",
                 "Weight": 540000,
@@ -3311,18 +3311,18 @@
                 "Id": 3009,
                 "Tier": 3,
                 "Quality": 2,
-                "NameEn": "Mystical",
-                "DescEn": "This can create Students&#x27; Eleph.",
+                "NameEn": "Mystic",
+                "DescEn": "Can create Eleph.",
                 "NameJp": "神秘",
                 "DescJp": "神名文字を生成することができます。",
                 "NameKr": "신비",
                 "DescKr": "엘레프를 생성할 수 있습니다.",
                 "NameTw": "神秘",
-                "DescTw": "神名文字を生成することができます。",
+                "DescTw": "可生產神名文字。",
                 "NameCn": "神秘",
                 "DescCn": "可制造学生的神名文字。",
-                "NameTh": "神秘",
-                "DescTh": "神名文字を生成することができます。",
+                "NameTh": "ลึกลับ",
+                "DescTh": "สร้างเอลเลฟ",
                 "NameVi": "神秘",
                 "DescVi": "神名文字を生成することができます。",
                 "Weight": 30000,
@@ -3339,17 +3339,17 @@
                 "Tier": 3,
                 "Quality": 2,
                 "NameEn": "Diamond",
-                "DescEn": "This can create Secret Tech Sheet fragments.",
+                "DescEn": "Can create a Secret Tech Sheet fragment.",
                 "NameJp": "ダイヤモンド",
                 "DescJp": "秘伝ノートの断片を生成することができます。",
                 "NameKr": "다이아몬드",
                 "DescKr": "비의서 조각을 생성할 수 있습니다.",
-                "NameTw": "ダイヤモンド",
-                "DescTw": "秘伝ノートの断片を生成することができます。",
+                "NameTw": "鑽石",
+                "DescTw": "可生產奧秘之書碎片。",
                 "NameCn": "钻石",
                 "DescCn": "可制造秘密技术表碎片。",
-                "NameTh": "ダイヤモンド",
-                "DescTh": "秘伝ノートの断片を生成することができます。",
+                "NameTh": "เพชร",
+                "DescTh": "สร้างเศษตำราสกิลลับ",
                 "NameVi": "ダイヤモンド",
                 "DescVi": "秘伝ノートの断片を生成することができます。",
                 "Weight": 10000,
@@ -3365,18 +3365,18 @@
                 "Id": 3011,
                 "Tier": 3,
                 "Quality": 2,
-                "NameEn": "Wealth",
-                "DescEn": "This can generate Credit Points.",
+                "NameEn": "Abundance",
+                "DescEn": "Can create Credits.",
                 "NameJp": "豊かさ",
                 "DescJp": "クレジットを生成することができます。",
                 "NameKr": "풍족함",
                 "DescKr": "크레딧을 생성할 수 있습니다.",
-                "NameTw": "豊かさ",
-                "DescTw": "クレジットを生成することができます。",
+                "NameTw": "很富足",
+                "DescTw": "可生產信用貨幣。",
                 "NameCn": "财富",
                 "DescCn": "可制造信用点数。",
-                "NameTh": "豊かさ",
-                "DescTh": "クレジットを生成することができます。",
+                "NameTh": "มั่งคั่ง",
+                "DescTh": "สร้างเครดิตได้",
                 "NameVi": "豊かさ",
                 "DescVi": "クレジットを生成することができます。",
                 "Weight": 10000,
@@ -3393,17 +3393,17 @@
                 "Tier": 3,
                 "Quality": 1,
                 "NameEn": "Hyakkiyako",
-                "DescEn": "This can create useful items for Hyakkiyako students. Low chance of creating a Hyakkiyako student&#x27;s Eleph.",
+                "DescEn": "Can create useful objects for Hyakkiyako students. Can rarely create the Eleph of Hyakkiyako students.",
                 "NameJp": "百鬼夜行",
                 "DescJp": "百鬼夜行の生徒たちにとって有用なアイテムを生成することができます。稀に百鬼夜行の生徒の神名文字を生成します。",
                 "NameKr": "백귀야행",
                 "DescKr": "백귀야행 학생들에게 유용한 물건을 생성할 수 있습니다. 드물게 백귀야행 학생들의 신명문자를 생성합니다.",
                 "NameTw": "百鬼夜行",
-                "DescTw": "百鬼夜行の生徒たちにとって有用なアイテムを生成することができます。稀に百鬼夜行の生徒の神名文字を生成します。",
+                "DescTw": "可生產對百鬼夜行學生有用的物品。有極小機率可生產百鬼夜行學生的神名文字。",
                 "NameCn": "百鬼夜行",
                 "DescCn": "可制造对百鬼夜行学生有用的物品。低概率制造出百鬼夜行学生的神名文字。",
-                "NameTh": "百鬼夜行",
-                "DescTh": "百鬼夜行の生徒たちにとって有用なアイテムを生成することができます。稀に百鬼夜行の生徒の神名文字を生成します。",
+                "NameTh": "เฮียกคิยาโค",
+                "DescTh": "สร้างไอเทมสำหรับนักเรียนเฮียกคิยาโค มีโอกาสเล็กน้อยที่จะสร้างเอลเลฟของนักเรียนเฮียกคิยาโคได้",
                 "NameVi": "百鬼夜行",
                 "DescVi": "百鬼夜行の生徒たちにとって有用なアイテムを生成することができます。稀に百鬼夜行の生徒の神名文字を生成します。",
                 "Weight": 34444,
@@ -3424,17 +3424,17 @@
                 "Tier": 3,
                 "Quality": 1,
                 "NameEn": "Red Winter",
-                "DescEn": "This can create useful items for Red Winter students. Low chance of creating a Red Winter student&#x27;s Eleph.",
+                "DescEn": "Can create useful objects for Red Winter students. Can rarely create the Eleph of Red Winter students.",
                 "NameJp": "レッドウィンター",
                 "DescJp": "レッドウィンターの生徒たちにとって有用なアイテムを生成することができます。稀にレッドウィンターの生徒の神名文字を生成します。",
                 "NameKr": "붉은겨울",
                 "DescKr": "붉은겨울 학생들에게 유용한 물건을 생성할 수 있습니다. 드물게 붉은겨울 학생들의 신명문자를 생성합니다.",
-                "NameTw": "レッドウィンター",
-                "DescTw": "レッドウィンターの生徒たちにとって有用なアイテムを生成することができます。稀にレッドウィンターの生徒の神名文字を生成します。",
+                "NameTw": "赤冬",
+                "DescTw": "可生產對赤冬學生有用的物品。有極小機率可生產赤冬學生的神名文字。",
                 "NameCn": "赤冬",
                 "DescCn": "可制造对赤冬学生有用的物品。低概率制造出赤冬学生的神名文字。",
-                "NameTh": "レッドウィンター",
-                "DescTh": "レッドウィンターの生徒たちにとって有用なアイテムを生成することができます。稀にレッドウィンターの生徒の神名文字を生成します。",
+                "NameTh": "เรดวินเทอร์",
+                "DescTh": "สร้างไอเทมสำหรับนักเรียนเรดวินเทอร์ มีโอกาสเล็กน้อยที่จะสร้างเอลเลฟของนักเรียนเรดวินเทอร์ได้",
                 "NameVi": "レッドウィンター",
                 "DescVi": "レッドウィンターの生徒たちにとって有用なアイテムを生成することができます。稀にレッドウィンターの生徒の神名文字を生成します。",
                 "Weight": 34444,
@@ -3455,17 +3455,17 @@
                 "Tier": 3,
                 "Quality": 1,
                 "NameEn": "Trinity",
-                "DescEn": "This can create useful items for Trinity students. Low chance of creating a Trinity student&#x27;s Eleph.",
+                "DescEn": "Can create useful objects for Trinity students. Can rarely create the Eleph of Trinity students.",
                 "NameJp": "トリニティ",
                 "DescJp": "トリニティの生徒たちにとって有用なアイテムを生成することができます。稀にトリニティの生徒の神名文字を生成します。",
                 "NameKr": "트리니티",
                 "DescKr": "트리니티 학생들에게 유용한 물건을 생성할 수 있습니다. 드물게 트리니티 학생들의 신명문자를 생성합니다.",
-                "NameTw": "トリニティ",
-                "DescTw": "トリニティの生徒たちにとって有用なアイテムを生成することができます。稀にトリニティの生徒の神名文字を生成します。",
+                "NameTw": "三一",
+                "DescTw": "可生產對三一學生有用的物品。有極小機率可生產三一學生的神名文字。",
                 "NameCn": "三一",
                 "DescCn": "可制造对三一学生有用的物品。低概率制造出三一学生的神名文字。",
-                "NameTh": "トリニティ",
-                "DescTh": "トリニティの生徒たちにとって有用なアイテムを生成することができます。稀にトリニティの生徒の神名文字を生成します。",
+                "NameTh": "ทรีนิตี้",
+                "DescTh": "สร้างไอเทมสำหรับนักเรียนทรีนิตี้ มีโอกาสเล็กน้อยที่จะสร้างเอลเลฟของนักเรียนทรีนิตี้ได้",
                 "NameVi": "トリニティ",
                 "DescVi": "トリニティの生徒たちにとって有用なアイテムを生成することができます。稀にトリニティの生徒の神名文字を生成します。",
                 "Weight": 34444,
@@ -3486,17 +3486,17 @@
                 "Tier": 3,
                 "Quality": 1,
                 "NameEn": "Gehenna",
-                "DescEn": "This can create useful items for Gehenna students. Low chance of creating a Gehenna student&#x27;s Eleph.",
+                "DescEn": "Can create useful objects for Gehenna students. Can rarely create the Eleph of Gehenna students.",
                 "NameJp": "ゲヘナ",
                 "DescJp": "ゲヘナの生徒たちにとって有用なアイテムを生成することができます。稀にゲヘナの生徒の神名文字を生成します。",
                 "NameKr": "게헨나",
                 "DescKr": "게헨나 학생들에게 유용한 물건을 생성할 수 있습니다. 드물게 게헨나 학생들의 신명문자를 생성합니다.",
-                "NameTw": "ゲヘナ",
-                "DescTw": "ゲヘナの生徒たちにとって有用なアイテムを生成することができます。稀にゲヘナの生徒の神名文字を生成します。",
+                "NameTw": "格黑娜",
+                "DescTw": "可生產對格黑娜學生有用的物品。有極小機率可生產格黑娜學生的神名文字。",
                 "NameCn": "格黑娜",
                 "DescCn": "可制造对格黑娜学生有用的物品。低概率制造出格黑娜学生的神名文字。",
-                "NameTh": "ゲヘナ",
-                "DescTh": "ゲヘナの生徒たちにとって有用なアイテムを生成することができます。稀にゲヘナの生徒の神名文字を生成します。",
+                "NameTh": "เกเฮนน่า",
+                "DescTh": "สร้างไอเทมสำหรับนักเรียนเกเฮนน่า มีโอกาสเล็กน้อยที่จะสร้างเอลเลฟของนักเรียนเกเฮนน่าได้",
                 "NameVi": "ゲヘナ",
                 "DescVi": "ゲヘナの生徒たちにとって有用なアイテムを生成することができます。稀にゲヘナの生徒の神名文字を生成します。",
                 "Weight": 34444,
@@ -3517,17 +3517,17 @@
                 "Tier": 3,
                 "Quality": 1,
                 "NameEn": "Abydos",
-                "DescEn": "This can create useful items for Abydos students. Low chance of creating a Abydos student&#x27;s Eleph.",
+                "DescEn": "Can create useful objects for Abydos students. Can rarely create the Eleph of Abydos students.",
                 "NameJp": "アビドス",
                 "DescJp": "アビドスの生徒たちにとって有用なアイテムを生成することができます。稀にアビドスの生徒の神名文字を生成します。",
                 "NameKr": "아비도스",
                 "DescKr": "아비도스 학생들에 유용한 물건을 생성할 수 있습니다. 드물게 아비도스 학생들의 신명문자를 생성합니다.",
-                "NameTw": "アビドス",
-                "DescTw": "アビドスの生徒たちにとって有用なアイテムを生成することができます。稀にアビドスの生徒の神名文字を生成します。",
+                "NameTw": "阿拜多斯",
+                "DescTw": "可生產對阿拜多斯學生有用的物品。有極小機率可生產阿拜多斯學生的神名文字。",
                 "NameCn": "阿拜多斯",
                 "DescCn": "可制造对阿拜多斯学生有用的物品。低概率制造出阿拜多斯学生的神名文字。",
-                "NameTh": "アビドス",
-                "DescTh": "アビドスの生徒たちにとって有用なアイテムを生成することができます。稀にアビドスの生徒の神名文字を生成します。",
+                "NameTh": "อะบิดอส",
+                "DescTh": "สร้างไอเทมสำหรับนักเรียนอะบิดอส มีโอกาสเล็กน้อยที่จะสร้างเอลเลฟของนักเรียนอะบิดอสได้",
                 "NameVi": "アビドス",
                 "DescVi": "アビドスの生徒たちにとって有用なアイテムを生成することができます。稀にアビドスの生徒の神名文字を生成します。",
                 "Weight": 34444,
@@ -3548,17 +3548,17 @@
                 "Tier": 3,
                 "Quality": 1,
                 "NameEn": "Millennium",
-                "DescEn": "This can create useful items for Millennium students. Low chance of creating a Millennium student&#x27;s Eleph.",
+                "DescEn": "Can create useful objects for Millennium students. Can rarely create the Eleph of Millennium students.",
                 "NameJp": "ミレニアム",
                 "DescJp": "ミレニアムの生徒たちにとって有用なアイテムを生成することができます。稀にミレニアムの生徒の神名文字を生成します。",
                 "NameKr": "밀레니엄",
                 "DescKr": "밀레니엄 학생들에게 유용한 물건을 생성할 수 있습니다. 드물게 밀레니엄 학생들의 신명문자를 생성합니다.",
-                "NameTw": "ミレニアム",
-                "DescTw": "ミレニアムの生徒たちにとって有用なアイテムを生成することができます。稀にミレニアムの生徒の神名文字を生成します。",
+                "NameTw": "千年",
+                "DescTw": "可生產對千年學生有用的物品。有極小機率可生產千年學生的神名文字。",
                 "NameCn": "千年",
                 "DescCn": "可制造对千年学生有用的物品。低概率制造出千年学生的神名文字。",
-                "NameTh": "ミレニアム",
-                "DescTh": "ミレニアムの生徒たちにとって有用なアイテムを生成することができます。稀にミレニアムの生徒の神名文字を生成します。",
+                "NameTh": "มิลเลเนียม",
+                "DescTh": "สร้างไอเทมสำหรับนักเรียนมิลเลเนียม มีโอกาสเล็กน้อยที่จะสร้างเอลเลฟของนักเรียนมิลเลเนียมได้",
                 "NameVi": "ミレニアム",
                 "DescVi": "ミレニアムの生徒たちにとって有用なアイテムを生成することができます。稀にミレニアムの生徒の神名文字を生成します。",
                 "Weight": 34444,
@@ -3579,17 +3579,17 @@
                 "Tier": 3,
                 "Quality": 1,
                 "NameEn": "Shanhaijing",
-                "DescEn": "This can create useful items for Shanhaijing students. Low chance of creating a Shanhaijing student&#x27;s Eleph.",
+                "DescEn": "Can create useful objects for Shanhaijing students. Can rarely create the Eleph of Shanhaijing students.",
                 "NameJp": "山海経",
                 "DescJp": "山海経の生徒たちにとって有用なアイテムを生成することができます。稀に山海経の生徒の神名文字を生成します。",
                 "NameKr": "산해경",
                 "DescKr": "산해경 학생들에게 유용한 물건을 생성할 수 있습니다. 드물게 산해경 학생들의 신명문자를 생성합니다.",
-                "NameTw": "山海経",
-                "DescTw": "山海経の生徒たちにとって有用なアイテムを生成することができます。稀に山海経の生徒の神名文字を生成します。",
+                "NameTw": "山海經",
+                "DescTw": "可生產對山海經學生有用的物品。有極小機率可生產山海經學生的神名文字。",
                 "NameCn": "山海经",
                 "DescCn": "可制造对山海经学生有用的物品。低概率制造出山海经学生的神名文字。",
-                "NameTh": "山海経",
-                "DescTh": "山海経の生徒たちにとって有用なアイテムを生成することができます。稀に山海経の生徒の神名文字を生成します。",
+                "NameTh": "ซานไห่จิง",
+                "DescTh": "สร้างไอเทมสำหรับนักเรียนซานไห่จิง มีโอกาสเล็กน้อยที่จะสร้างเอลเลฟของนักเรียนซานไห่จิงได้",
                 "NameVi": "山海経",
                 "DescVi": "山海経の生徒たちにとって有用なアイテムを生成することができます。稀に山海経の生徒の神名文字を生成します。",
                 "Weight": 34444,
@@ -3610,17 +3610,17 @@
                 "Tier": 3,
                 "Quality": 1,
                 "NameEn": "Valkyrie",
-                "DescEn": "This can create useful items for Valkyrie students. Low chance of creating a Valkyrie student&#x27;s Eleph.",
+                "DescEn": "Can create useful objects for Valkyrie students. Can rarely create the Eleph of Valkyrie students.",
                 "NameJp": "ヴァルキューレ",
                 "DescJp": "ヴァルキューレの生徒たちにとって有用なアイテムを生成することができます。稀にヴァルキューレの生徒の神名文字を生成します。",
                 "NameKr": "발키리",
                 "DescKr": "발키리 학생들에게 유용한 물건을 생성할 수 있습니다. 드물게 발키리 학생들의 신명문자를 생성합니다.",
-                "NameTw": "ヴァルキューレ",
-                "DescTw": "ヴァルキューレの生徒たちにとって有用なアイテムを生成することができます。稀にヴァルキューレの生徒の神名文字を生成します。",
+                "NameTw": "女武神",
+                "DescTw": "可生產對女武神學生們有用的物品。有極小機率可生產女武神學生的神名文字。",
                 "NameCn": "瓦尔基里",
                 "DescCn": "可制造对瓦尔基里学生有用的物品。低概率制造出瓦尔基里学生的神名文字。",
-                "NameTh": "ヴァルキューレ",
-                "DescTh": "ヴァルキューレの生徒たちにとって有用なアイテムを生成することができます。稀にヴァルキューレの生徒の神名文字を生成します。",
+                "NameTh": "วัลคิรี่",
+                "DescTh": "สร้างไอเทมสำหรับนักเรียนวัลคิรี่ มีโอกาสเล็กน้อยที่จะสร้างเอลเลฟของนักเรียนวัลคิรี่ได้",
                 "NameVi": "ヴァルキューレ",
                 "DescVi": "ヴァルキューレの生徒たちにとって有用なアイテムを生成することができます。稀にヴァルキューレの生徒の神名文字を生成します。",
                 "Weight": 34444,
@@ -3641,17 +3641,17 @@
                 "Tier": 3,
                 "Quality": 1,
                 "NameEn": "Arius",
-                "DescEn": "This can create useful items for Arius students. Low chance of creating a Arius student&#x27;s Eleph.",
+                "DescEn": "Can create useful objects for Arius students. Can rarely create the Eleph of Arius students.",
                 "NameJp": "アリウス",
                 "DescJp": "アリウスの生徒たちにとって有用なアイテムを生成することができます。稀にアリウスの生徒の神名文字を生成します。",
                 "NameKr": "아리우스",
                 "DescKr": "아리우스 학생들에게 유용한 물건을 생성할 수 있습니다. 드물게 아리우스 학생들의 신명문자를 생성합니다.",
-                "NameTw": "アリウス",
-                "DescTw": "アリウスの生徒たちにとって有用なアイテムを生成することができます。稀にアリウスの生徒の神名文字を生成します。",
+                "NameTw": "奧利斯",
+                "DescTw": "可生產對奧利斯學生們有用的物品。有極小機率可生產奧利斯學生的神名文字。",
                 "NameCn": "阿里乌斯",
                 "DescCn": "可制造对阿里乌斯学生有用的物品。低概率制造出阿里乌斯学生的神名文字。",
-                "NameTh": "アリウス",
-                "DescTh": "アリウスの生徒たちにとって有用なアイテムを生成することができます。稀にアリウスの生徒の神名文字を生成します。",
+                "NameTh": "อาเรียส",
+                "DescTh": "สร้างไอเทมสำหรับนักเรียนอาเรียส มีโอกาสเล็กน้อยที่จะสร้างเอลเลฟของนักเรียนอาเรียสได้",
                 "NameVi": "アリウス",
                 "DescVi": "アリウスの生徒たちにとって有用なアイテムを生成することができます。稀にアリウスの生徒の神名文字を生成します。",
                 "Weight": 34444,
@@ -4410,17 +4410,17 @@
                 "Id": 142,
                 "Tier": 1,
                 "Quality": 2,
-                "NameEn": "Military Campground",
+                "NameEn": "Military Campground Set",
                 "DescEn": "This can create cafe furniture. (Military campground theme)",
                 "NameJp": "ミリタリーアウトドア",
                 "DescJp": "カフェの家具（ミリタリーアウトドアシリーズ）を生成することができます。",
                 "NameKr": "밀리터리 캠핑장 세트",
                 "DescKr": "카페 가구를 생성할 수 있습니다. (밀리터리 캠핑장 테마)",
-                "NameTw": "軍事露營區",
+                "NameTw": "軍事露營區組合",
                 "DescTw": "可建立咖啡廳家具。（軍事露營區主題）",
                 "NameCn": "军事露营区组合",
                 "DescCn": "可制造咖啡厅家具。(军事露营区主题)",
-                "NameTh": "ค่ายทหาร",
+                "NameTh": "เซ็ตค่ายทหาร",
                 "DescTh": "สร้างเฟอร์นิเจอร์ในคาเฟ่ (ธีมค่ายทหาร)",
                 "NameVi": "ミリタリーアウトドア",
                 "DescVi": "カフェの家具（ミリタリーアウトドアシリーズ）を生成することができます。",
@@ -5343,17 +5343,17 @@
                 "Id": 143,
                 "Tier": 2,
                 "Quality": 2,
-                "NameEn": "Military Campground",
+                "NameEn": "Military Campground Set",
                 "DescEn": "This can create cafe furniture. (Military campground theme)",
                 "NameJp": "ミリタリーアウトドア",
                 "DescJp": "カフェの家具（ミリタリーアウトドアシリーズ）を生成することができます。",
                 "NameKr": "밀리터리 캠핑장 세트",
                 "DescKr": "카페 가구를 생성할 수 있습니다. (밀리터리 캠핑장 테마)",
-                "NameTw": "軍事露營區",
+                "NameTw": "軍事露營區組合",
                 "DescTw": "可建立咖啡廳家具。（軍事露營區主題）",
                 "NameCn": "军事露营区组合",
                 "DescCn": "可制造咖啡厅家具。(军事露营区主题)",
-                "NameTh": "ค่ายทหาร",
+                "NameTh": "เซ็ตค่ายทหาร",
                 "DescTh": "สร้างเฟอร์นิเจอร์ในคาเฟ่ (ธีมค่ายทหาร)",
                 "NameVi": "ミリタリーアウトドア",
                 "DescVi": "カフェの家具（ミリタリーアウトドアシリーズ）を生成することができます。",
@@ -6508,6 +6508,693 @@
                     }
                 ],
                 "Icon": "CraftNode_Item"
+            },
+            {
+                "Id": 3000,
+                "Tier": 3,
+                "Quality": 1,
+                "NameEn": "Shiny",
+                "DescEn": "This can create high-grade substances.",
+                "NameJp": "輝き",
+                "DescJp": "上級レベルの物質を生成することができます。",
+                "NameKr": "반짝임",
+                "DescKr": "높은 등급의 물질을 생성할 수 있습니다.",
+                "NameTw": "閃亮",
+                "DescTw": "可建立高等級的物質。",
+                "NameCn": "闪亮",
+                "DescCn": "可制造高等级的物质。",
+                "NameTh": "เศษประกาย",
+                "DescTh": "สร้างไอเทมวัตถุดิบขั้นสูง",
+                "NameVi": "輝き",
+                "DescVi": "上級レベルの物質を生成することができます。",
+                "Weight": 1560000,
+                "Groups": [
+                    {
+                        "GroupId": 302,
+                        "Weight": 330000
+                    },
+                    {
+                        "GroupId": 322,
+                        "Weight": 200000
+                    },
+                    {
+                        "GroupId": 342,
+                        "Weight": 180000
+                    },
+                    {
+                        "GroupId": 332,
+                        "Weight": 50000
+                    },
+                    {
+                        "GroupId": 362,
+                        "Weight": 60000
+                    },
+                    {
+                        "GroupId": 312,
+                        "Weight": 300000
+                    },
+                    {
+                        "GroupId": 352,
+                        "Weight": 440000
+                    }
+                ],
+                "Icon": "CraftNode_Rairty"
+            },
+            {
+                "Id": 3001,
+                "Tier": 3,
+                "Quality": 2,
+                "NameEn": "Radiant",
+                "DescEn": "This can create the highest grade substances.",
+                "NameJp": "煌めき",
+                "DescJp": "最上級レベルの物質を生成することができます。",
+                "NameKr": "찬란함",
+                "DescKr": "최상 등급의 물질을 생성할 수 있습니다.",
+                "NameTw": "燦爛",
+                "DescTw": "可建立最高等級的物質。",
+                "NameCn": "灿烂",
+                "DescCn": "可制造最高等级的物质。",
+                "NameTh": "เศษเจิดจ้า",
+                "DescTh": "สร้างไอเทมวัตถุดิบขั้นสูงสุด",
+                "NameVi": "煌めき",
+                "DescVi": "最上級レベルの物質を生成することができます。",
+                "Weight": 430000,
+                "Groups": [
+                    {
+                        "GroupId": 303,
+                        "Weight": 60000
+                    },
+                    {
+                        "GroupId": 323,
+                        "Weight": 60000
+                    },
+                    {
+                        "GroupId": 343,
+                        "Weight": 40000
+                    },
+                    {
+                        "GroupId": 344,
+                        "Weight": 10000
+                    },
+                    {
+                        "GroupId": 333,
+                        "Weight": 10000
+                    },
+                    {
+                        "GroupId": 363,
+                        "Weight": 20000
+                    },
+                    {
+                        "GroupId": 313,
+                        "Weight": 100000
+                    },
+                    {
+                        "GroupId": 353,
+                        "Weight": 100000
+                    },
+                    {
+                        "GroupId": 371,
+                        "Weight": 30000
+                    }
+                ],
+                "Icon": "CraftNode_Rairty"
+            },
+            {
+                "Id": 3002,
+                "Tier": 3,
+                "Quality": 1,
+                "NameEn": "Silver",
+                "DescEn": "Can create Advanced or higher Activity Reports.",
+                "NameJp": "銀",
+                "DescJp": "上級以上のレポートを生成することができます。",
+                "NameKr": "은",
+                "DescKr": "상급 이상의 활동 보고서를 생성할 수 있습니다.",
+                "NameTw": "銀",
+                "DescTw": "可生產高級以上的活動報告。",
+                "NameCn": "银",
+                "DescCn": "可制造高级以上等级活动报告。",
+                "NameTh": "เงิน",
+                "DescTh": "สร้างรายงานขั้นสูงขึ้นไป",
+                "NameVi": "銀",
+                "DescVi": "上級以上のレポートを生成することができます。",
+                "Weight": 390000,
+                "Groups": [
+                    {
+                        "GroupId": 302,
+                        "Weight": 330000
+                    },
+                    {
+                        "GroupId": 303,
+                        "Weight": 60000
+                    }
+                ],
+                "Icon": "CraftNode_Item"
+            },
+            {
+                "Id": 3003,
+                "Tier": 3,
+                "Quality": 1,
+                "NameEn": "Gold",
+                "DescEn": "Can create Advanced or higher Artifacts.",
+                "NameJp": "金",
+                "DescJp": "橙等級以上のオーパーツを生成することができます。",
+                "NameKr": "금",
+                "DescKr": "상급 이상의 오파츠를 생성할 수 있습니다.",
+                "NameTw": "金",
+                "DescTw": "可生產高級以上的歐帕茲。",
+                "NameCn": "金",
+                "DescCn": "可制造高级以上等级欧帕兹。",
+                "NameTh": "ทอง",
+                "DescTh": "สร้างวัตถุหลงยุคขั้นสูงขึ้นไป",
+                "NameVi": "金",
+                "DescVi": "橙等級以上のオーパーツを生成することができます。",
+                "Weight": 260000,
+                "Groups": [
+                    {
+                        "GroupId": 322,
+                        "Weight": 200000
+                    },
+                    {
+                        "GroupId": 323,
+                        "Weight": 60000
+                    }
+                ],
+                "Icon": "CraftNode_Item"
+            },
+            {
+                "Id": 3004,
+                "Tier": 3,
+                "Quality": 1,
+                "NameEn": "Platinum",
+                "DescEn": "Can create Advanced or higher Tech Notes. Can rarely create a Secret Tech Sheet fragment.",
+                "NameJp": "プラチナ",
+                "DescJp": "上級以上の技術ノートを生成することができます。稀に秘伝ノートの断片を生成します。",
+                "NameKr": "백금",
+                "DescKr": "상급 이상의 기술 노트를 생성할 수 있습니다. 드물게 비의서 조각을 생성합니다.",
+                "NameTw": "白金",
+                "DescTw": "可生產高級以上的技術筆記。有極小機率可生產奧秘之書碎片。",
+                "NameCn": "白金",
+                "DescCn": "可以制造高级以上等级技术笔记。低概率制造出秘密技术表碎片。",
+                "NameTh": "แพลทินัม",
+                "DescTh": "สร้างตำราสกิลขั้นสูงขึ้นไป มีโอกาสเล็กน้อยที่จะสร้างเศษตำราสกิลลับได้",
+                "NameVi": "プラチナ",
+                "DescVi": "上級以上の技術ノートを生成することができます。稀に秘伝ノートの断片を生成します。",
+                "Weight": 230000,
+                "Groups": [
+                    {
+                        "GroupId": 342,
+                        "Weight": 180000
+                    },
+                    {
+                        "GroupId": 343,
+                        "Weight": 40000
+                    },
+                    {
+                        "GroupId": 344,
+                        "Weight": 10000
+                    }
+                ],
+                "Icon": "CraftNode_Item"
+            },
+            {
+                "Id": 3005,
+                "Tier": 3,
+                "Quality": 1,
+                "NameEn": "Copper",
+                "DescEn": "Can create Advanced or higher Tactical Training Blu-ray.",
+                "NameJp": "銅",
+                "DescJp": "上級以上の戦術教育BDを生成することができます。",
+                "NameKr": "구리",
+                "DescKr": "상급 이상의 전술 교육 BD를 생성할 수 있습니다.",
+                "NameTw": "銅",
+                "DescTw": "可生產高級以上的戰術教育BD。",
+                "NameCn": "铜",
+                "DescCn": "可制造高级以上等级战术教育BD。",
+                "NameTh": "ทองแดง",
+                "DescTh": "สร้าง BD สื่อการเรียนขั้นสูงขึ้นไป",
+                "NameVi": "銅",
+                "DescVi": "上級以上の戦術教育BDを生成することができます。",
+                "Weight": 60000,
+                "Groups": [
+                    {
+                        "GroupId": 332,
+                        "Weight": 50000
+                    },
+                    {
+                        "GroupId": 333,
+                        "Weight": 10000
+                    }
+                ],
+                "Icon": "CraftNode_Item"
+            },
+            {
+                "Id": 3006,
+                "Tier": 3,
+                "Quality": 1,
+                "NameEn": "Weapon Parts",
+                "DescEn": "Can create Advanced or higher Weapon Parts to enhance unique weapons.",
+                "NameJp": "パーツ",
+                "DescJp": "固有武器を強化するためのクロム・チタンの武器のパーツを生成することができます。",
+                "NameKr": "무기 부품",
+                "DescKr": "고유무기를 강화할 수 있는 상급 이상의 무기 부품을 생성할 수 있습니다.",
+                "NameTw": "武器零件",
+                "DescTw": "可生產強化專用武器時所需的高級以上的武器零件。",
+                "NameCn": "武器零件",
+                "DescCn": "可以制造能够强化固有武器的铬或钛武器零件。",
+                "NameTh": "อะไหล่อาวุธ",
+                "DescTh": "สร้างอะไหล่อาวุธสำหรับอัปเกรดอาวุธขั้นสูงขึ้นไป",
+                "NameVi": "パーツ",
+                "DescVi": "固有武器を強化するためのクロム・チタンの武器のパーツを生成することができます。",
+                "Weight": 80000,
+                "Groups": [
+                    {
+                        "GroupId": 362,
+                        "Weight": 60000
+                    },
+                    {
+                        "GroupId": 363,
+                        "Weight": 20000
+                    }
+                ],
+                "Icon": "CraftNode_Item"
+            },
+            {
+                "Id": 3007,
+                "Tier": 3,
+                "Quality": 1,
+                "NameEn": "Flower",
+                "DescEn": "Can create a gift for students. Rarely creates an advanced gift.",
+                "NameJp": "花弁",
+                "DescJp": "生徒への贈り物を生成することができます。稀に高級贈り物を生成します。",
+                "NameKr": "꽃",
+                "DescKr": "학생들에게 줄 선물을 생성할 수 있습니다. 드물게 고급 선물을 생성합니다.",
+                "NameTw": "花",
+                "DescTw": "可生產送給學生的禮物。有極小機率可生產高級禮物。",
+                "NameCn": "花",
+                "DescCn": "可制造送给学生的礼物。低概率制造出高等级礼物。",
+                "NameTh": "ดอกไม้",
+                "DescTh": "สร้างของขวัญที่ใช้มอบให้นักเรียน มีโอกาสเล็กน้อยที่จะสร้างของขวัญชั้นดีได้",
+                "NameVi": "花弁",
+                "DescVi": "生徒への贈り物を生成することができます。稀に高級贈り物を生成します。",
+                "Weight": 400000,
+                "Groups": [
+                    {
+                        "GroupId": 312,
+                        "Weight": 300000
+                    },
+                    {
+                        "GroupId": 313,
+                        "Weight": 100000
+                    }
+                ],
+                "Icon": "CraftNode_Favor"
+            },
+            {
+                "Id": 3008,
+                "Tier": 3,
+                "Quality": 1,
+                "NameEn": "Colorful",
+                "DescEn": "Can create advanced or higher cafe furniture.",
+                "NameJp": "色彩",
+                "DescJp": "★2以上のカフェの家具を生成することができます。",
+                "NameKr": "색깔",
+                "DescKr": "상급 이상의 카페 가구를 생성할 수 있습니다.",
+                "NameTw": "顏色",
+                "DescTw": "可生產高級以上的咖啡廳家具。",
+                "NameCn": "颜色",
+                "DescCn": "可制造★2以上咖啡厅家具。",
+                "NameTh": "สี",
+                "DescTh": "สร้างเฟอร์นิเจอร์ขั้นสูงขึ้นไปในคาเฟ่",
+                "NameVi": "色彩",
+                "DescVi": "★2以上のカフェの家具を生成することができます。",
+                "Weight": 540000,
+                "Groups": [
+                    {
+                        "GroupId": 352,
+                        "Weight": 440000
+                    },
+                    {
+                        "GroupId": 353,
+                        "Weight": 100000
+                    }
+                ],
+                "Icon": "CraftNode_Furniture"
+            },
+            {
+                "Id": 3009,
+                "Tier": 3,
+                "Quality": 2,
+                "NameEn": "Mystic",
+                "DescEn": "Can create Eleph.",
+                "NameJp": "神秘",
+                "DescJp": "神名文字を生成することができます。",
+                "NameKr": "신비",
+                "DescKr": "엘레프를 생성할 수 있습니다.",
+                "NameTw": "神秘",
+                "DescTw": "可生產神名文字。",
+                "NameCn": "神秘",
+                "DescCn": "可制造学生的神名文字。",
+                "NameTh": "ลึกลับ",
+                "DescTh": "สร้างเอลเลฟ",
+                "NameVi": "神秘",
+                "DescVi": "神名文字を生成することができます。",
+                "Weight": 30000,
+                "Groups": [
+                    {
+                        "GroupId": 370,
+                        "Weight": 30000
+                    }
+                ],
+                "Icon": "CraftNode_SecretStone"
+            },
+            {
+                "Id": 3010,
+                "Tier": 3,
+                "Quality": 2,
+                "NameEn": "Diamond",
+                "DescEn": "Can create a Secret Tech Sheet fragment.",
+                "NameJp": "ダイヤモンド",
+                "DescJp": "秘伝ノートの断片を生成することができます。",
+                "NameKr": "다이아몬드",
+                "DescKr": "비의서 조각을 생성할 수 있습니다.",
+                "NameTw": "鑽石",
+                "DescTw": "可生產奧秘之書碎片。",
+                "NameCn": "钻石",
+                "DescCn": "可制造秘密技术表碎片。",
+                "NameTh": "เพชร",
+                "DescTh": "สร้างเศษตำราสกิลลับ",
+                "NameVi": "ダイヤモンド",
+                "DescVi": "秘伝ノートの断片を生成することができます。",
+                "Weight": 10000,
+                "Groups": [
+                    {
+                        "GroupId": 380,
+                        "Weight": 10000
+                    }
+                ],
+                "Icon": "CraftNode_UltimateSkill"
+            },
+            {
+                "Id": 3011,
+                "Tier": 3,
+                "Quality": 2,
+                "NameEn": "Abundance",
+                "DescEn": "Can create Credits.",
+                "NameJp": "豊かさ",
+                "DescJp": "クレジットを生成することができます。",
+                "NameKr": "풍족함",
+                "DescKr": "크레딧을 생성할 수 있습니다.",
+                "NameTw": "很富足",
+                "DescTw": "可生產信用貨幣。",
+                "NameCn": "财富",
+                "DescCn": "可制造信用点数。",
+                "NameTh": "มั่งคั่ง",
+                "DescTh": "สร้างเครดิตได้",
+                "NameVi": "豊かさ",
+                "DescVi": "クレジットを生成することができます。",
+                "Weight": 10000,
+                "Groups": [
+                    {
+                        "GroupId": 390,
+                        "Weight": 10000
+                    }
+                ],
+                "Icon": "CraftNode_Credit"
+            },
+            {
+                "Id": 3100,
+                "Tier": 3,
+                "Quality": 1,
+                "NameEn": "Hyakkiyako",
+                "DescEn": "Can create useful objects for Hyakkiyako students. Can rarely create the Eleph of Hyakkiyako students.",
+                "NameJp": "百鬼夜行",
+                "DescJp": "百鬼夜行の生徒たちにとって有用なアイテムを生成することができます。稀に百鬼夜行の生徒の神名文字を生成します。",
+                "NameKr": "백귀야행",
+                "DescKr": "백귀야행 학생들에게 유용한 물건을 생성할 수 있습니다. 드물게 백귀야행 학생들의 신명문자를 생성합니다.",
+                "NameTw": "百鬼夜行",
+                "DescTw": "可生產對百鬼夜行學生有用的物品。有極小機率可生產百鬼夜行學生的神名文字。",
+                "NameCn": "百鬼夜行",
+                "DescCn": "可制造对百鬼夜行学生有用的物品。低概率制造出百鬼夜行学生的神名文字。",
+                "NameTh": "เฮียกคิยาโค",
+                "DescTh": "สร้างไอเทมสำหรับนักเรียนเฮียกคิยาโค มีโอกาสเล็กน้อยที่จะสร้างเอลเลฟของนักเรียนเฮียกคิยาโคได้",
+                "NameVi": "百鬼夜行",
+                "DescVi": "百鬼夜行の生徒たちにとって有用なアイテムを生成することができます。稀に百鬼夜行の生徒の神名文字を生成します。",
+                "Weight": 34444,
+                "Groups": [
+                    {
+                        "GroupId": 3000,
+                        "Weight": 31111
+                    },
+                    {
+                        "GroupId": 3100,
+                        "Weight": 3333
+                    }
+                ],
+                "Icon": "CraftNode_Item"
+            },
+            {
+                "Id": 3101,
+                "Tier": 3,
+                "Quality": 1,
+                "NameEn": "Red Winter",
+                "DescEn": "Can create useful objects for Red Winter students. Can rarely create the Eleph of Red Winter students.",
+                "NameJp": "レッドウィンター",
+                "DescJp": "レッドウィンターの生徒たちにとって有用なアイテムを生成することができます。稀にレッドウィンターの生徒の神名文字を生成します。",
+                "NameKr": "붉은겨울",
+                "DescKr": "붉은겨울 학생들에게 유용한 물건을 생성할 수 있습니다. 드물게 붉은겨울 학생들의 신명문자를 생성합니다.",
+                "NameTw": "赤冬",
+                "DescTw": "可生產對赤冬學生有用的物品。有極小機率可生產赤冬學生的神名文字。",
+                "NameCn": "赤冬",
+                "DescCn": "可制造对赤冬学生有用的物品。低概率制造出赤冬学生的神名文字。",
+                "NameTh": "เรดวินเทอร์",
+                "DescTh": "สร้างไอเทมสำหรับนักเรียนเรดวินเทอร์ มีโอกาสเล็กน้อยที่จะสร้างเอลเลฟของนักเรียนเรดวินเทอร์ได้",
+                "NameVi": "レッドウィンター",
+                "DescVi": "レッドウィンターの生徒たちにとって有用なアイテムを生成することができます。稀にレッドウィンターの生徒の神名文字を生成します。",
+                "Weight": 34444,
+                "Groups": [
+                    {
+                        "GroupId": 3001,
+                        "Weight": 31111
+                    },
+                    {
+                        "GroupId": 3101,
+                        "Weight": 3333
+                    }
+                ],
+                "Icon": "CraftNode_Item"
+            },
+            {
+                "Id": 3102,
+                "Tier": 3,
+                "Quality": 1,
+                "NameEn": "Trinity",
+                "DescEn": "Can create useful objects for Trinity students. Can rarely create the Eleph of Trinity students.",
+                "NameJp": "トリニティ",
+                "DescJp": "トリニティの生徒たちにとって有用なアイテムを生成することができます。稀にトリニティの生徒の神名文字を生成します。",
+                "NameKr": "트리니티",
+                "DescKr": "트리니티 학생들에게 유용한 물건을 생성할 수 있습니다. 드물게 트리니티 학생들의 신명문자를 생성합니다.",
+                "NameTw": "三一",
+                "DescTw": "可生產對三一學生有用的物品。有極小機率可生產三一學生的神名文字。",
+                "NameCn": "三一",
+                "DescCn": "可制造对三一学生有用的物品。低概率制造出三一学生的神名文字。",
+                "NameTh": "ทรีนิตี้",
+                "DescTh": "สร้างไอเทมสำหรับนักเรียนทรีนิตี้ มีโอกาสเล็กน้อยที่จะสร้างเอลเลฟของนักเรียนทรีนิตี้ได้",
+                "NameVi": "トリニティ",
+                "DescVi": "トリニティの生徒たちにとって有用なアイテムを生成することができます。稀にトリニティの生徒の神名文字を生成します。",
+                "Weight": 34444,
+                "Groups": [
+                    {
+                        "GroupId": 3002,
+                        "Weight": 31111
+                    },
+                    {
+                        "GroupId": 3102,
+                        "Weight": 3333
+                    }
+                ],
+                "Icon": "CraftNode_Item"
+            },
+            {
+                "Id": 3103,
+                "Tier": 3,
+                "Quality": 1,
+                "NameEn": "Gehenna",
+                "DescEn": "Can create useful objects for Gehenna students. Can rarely create the Eleph of Gehenna students.",
+                "NameJp": "ゲヘナ",
+                "DescJp": "ゲヘナの生徒たちにとって有用なアイテムを生成することができます。稀にゲヘナの生徒の神名文字を生成します。",
+                "NameKr": "게헨나",
+                "DescKr": "게헨나 학생들에게 유용한 물건을 생성할 수 있습니다. 드물게 게헨나 학생들의 신명문자를 생성합니다.",
+                "NameTw": "格黑娜",
+                "DescTw": "可生產對格黑娜學生有用的物品。有極小機率可生產格黑娜學生的神名文字。",
+                "NameCn": "格黑娜",
+                "DescCn": "可制造对格黑娜学生有用的物品。低概率制造出格黑娜学生的神名文字。",
+                "NameTh": "เกเฮนน่า",
+                "DescTh": "สร้างไอเทมสำหรับนักเรียนเกเฮนน่า มีโอกาสเล็กน้อยที่จะสร้างเอลเลฟของนักเรียนเกเฮนน่าได้",
+                "NameVi": "ゲヘナ",
+                "DescVi": "ゲヘナの生徒たちにとって有用なアイテムを生成することができます。稀にゲヘナの生徒の神名文字を生成します。",
+                "Weight": 34444,
+                "Groups": [
+                    {
+                        "GroupId": 3003,
+                        "Weight": 31111
+                    },
+                    {
+                        "GroupId": 3103,
+                        "Weight": 3333
+                    }
+                ],
+                "Icon": "CraftNode_Item"
+            },
+            {
+                "Id": 3104,
+                "Tier": 3,
+                "Quality": 1,
+                "NameEn": "Abydos",
+                "DescEn": "Can create useful objects for Abydos students. Can rarely create the Eleph of Abydos students.",
+                "NameJp": "アビドス",
+                "DescJp": "アビドスの生徒たちにとって有用なアイテムを生成することができます。稀にアビドスの生徒の神名文字を生成します。",
+                "NameKr": "아비도스",
+                "DescKr": "아비도스 학생들에 유용한 물건을 생성할 수 있습니다. 드물게 아비도스 학생들의 신명문자를 생성합니다.",
+                "NameTw": "阿拜多斯",
+                "DescTw": "可生產對阿拜多斯學生有用的物品。有極小機率可生產阿拜多斯學生的神名文字。",
+                "NameCn": "阿拜多斯",
+                "DescCn": "可制造对阿拜多斯学生有用的物品。低概率制造出阿拜多斯学生的神名文字。",
+                "NameTh": "อะบิดอส",
+                "DescTh": "สร้างไอเทมสำหรับนักเรียนอะบิดอส มีโอกาสเล็กน้อยที่จะสร้างเอลเลฟของนักเรียนอะบิดอสได้",
+                "NameVi": "アビドス",
+                "DescVi": "アビドスの生徒たちにとって有用なアイテムを生成することができます。稀にアビドスの生徒の神名文字を生成します。",
+                "Weight": 34444,
+                "Groups": [
+                    {
+                        "GroupId": 3004,
+                        "Weight": 31111
+                    },
+                    {
+                        "GroupId": 3104,
+                        "Weight": 3333
+                    }
+                ],
+                "Icon": "CraftNode_Item"
+            },
+            {
+                "Id": 3105,
+                "Tier": 3,
+                "Quality": 1,
+                "NameEn": "Millennium",
+                "DescEn": "Can create useful objects for Millennium students. Can rarely create the Eleph of Millennium students.",
+                "NameJp": "ミレニアム",
+                "DescJp": "ミレニアムの生徒たちにとって有用なアイテムを生成することができます。稀にミレニアムの生徒の神名文字を生成します。",
+                "NameKr": "밀레니엄",
+                "DescKr": "밀레니엄 학생들에게 유용한 물건을 생성할 수 있습니다. 드물게 밀레니엄 학생들의 신명문자를 생성합니다.",
+                "NameTw": "千年",
+                "DescTw": "可生產對千年學生有用的物品。有極小機率可生產千年學生的神名文字。",
+                "NameCn": "千年",
+                "DescCn": "可制造对千年学生有用的物品。低概率制造出千年学生的神名文字。",
+                "NameTh": "มิลเลเนียม",
+                "DescTh": "สร้างไอเทมสำหรับนักเรียนมิลเลเนียม มีโอกาสเล็กน้อยที่จะสร้างเอลเลฟของนักเรียนมิลเลเนียมได้",
+                "NameVi": "ミレニアム",
+                "DescVi": "ミレニアムの生徒たちにとって有用なアイテムを生成することができます。稀にミレニアムの生徒の神名文字を生成します。",
+                "Weight": 34444,
+                "Groups": [
+                    {
+                        "GroupId": 3005,
+                        "Weight": 31111
+                    },
+                    {
+                        "GroupId": 3105,
+                        "Weight": 3333
+                    }
+                ],
+                "Icon": "CraftNode_Item"
+            },
+            {
+                "Id": 3106,
+                "Tier": 3,
+                "Quality": 1,
+                "NameEn": "Shanhaijing",
+                "DescEn": "Can create useful objects for Shanhaijing students. Can rarely create the Eleph of Shanhaijing students.",
+                "NameJp": "山海経",
+                "DescJp": "山海経の生徒たちにとって有用なアイテムを生成することができます。稀に山海経の生徒の神名文字を生成します。",
+                "NameKr": "산해경",
+                "DescKr": "산해경 학생들에게 유용한 물건을 생성할 수 있습니다. 드물게 산해경 학생들의 신명문자를 생성합니다.",
+                "NameTw": "山海經",
+                "DescTw": "可生產對山海經學生有用的物品。有極小機率可生產山海經學生的神名文字。",
+                "NameCn": "山海经",
+                "DescCn": "可制造对山海经学生有用的物品。低概率制造出山海经学生的神名文字。",
+                "NameTh": "ซานไห่จิง",
+                "DescTh": "สร้างไอเทมสำหรับนักเรียนซานไห่จิง มีโอกาสเล็กน้อยที่จะสร้างเอลเลฟของนักเรียนซานไห่จิงได้",
+                "NameVi": "山海経",
+                "DescVi": "山海経の生徒たちにとって有用なアイテムを生成することができます。稀に山海経の生徒の神名文字を生成します。",
+                "Weight": 34444,
+                "Groups": [
+                    {
+                        "GroupId": 3006,
+                        "Weight": 31111
+                    },
+                    {
+                        "GroupId": 3106,
+                        "Weight": 3333
+                    }
+                ],
+                "Icon": "CraftNode_Item"
+            },
+            {
+                "Id": 3107,
+                "Tier": 3,
+                "Quality": 1,
+                "NameEn": "Valkyrie",
+                "DescEn": "Can create useful objects for Valkyrie students. Can rarely create the Eleph of Valkyrie students.",
+                "NameJp": "ヴァルキューレ",
+                "DescJp": "ヴァルキューレの生徒たちにとって有用なアイテムを生成することができます。稀にヴァルキューレの生徒の神名文字を生成します。",
+                "NameKr": "발키리",
+                "DescKr": "발키리 학생들에게 유용한 물건을 생성할 수 있습니다. 드물게 발키리 학생들의 신명문자를 생성합니다.",
+                "NameTw": "女武神",
+                "DescTw": "可生產對女武神學生們有用的物品。有極小機率可生產女武神學生的神名文字。",
+                "NameCn": "瓦尔基里",
+                "DescCn": "可制造对瓦尔基里学生有用的物品。低概率制造出瓦尔基里学生的神名文字。",
+                "NameTh": "วัลคิรี่",
+                "DescTh": "สร้างไอเทมสำหรับนักเรียนวัลคิรี่ มีโอกาสเล็กน้อยที่จะสร้างเอลเลฟของนักเรียนวัลคิรี่ได้",
+                "NameVi": "ヴァルキューレ",
+                "DescVi": "ヴァルキューレの生徒たちにとって有用なアイテムを生成することができます。稀にヴァルキューレの生徒の神名文字を生成します。",
+                "Weight": 34444,
+                "Groups": [
+                    {
+                        "GroupId": 3007,
+                        "Weight": 31111
+                    },
+                    {
+                        "GroupId": 3107,
+                        "Weight": 3333
+                    }
+                ],
+                "Icon": "CraftNode_Item"
+            },
+            {
+                "Id": 3108,
+                "Tier": 3,
+                "Quality": 1,
+                "NameEn": "Arius",
+                "DescEn": "This can create useful items for Arius students.",
+                "NameJp": "アリウス",
+                "DescJp": "アリウスの生徒たちにとって有用なアイテムを生成することができます。",
+                "NameKr": "아리우스",
+                "DescKr": "아리우스 학생들에게 유용한 물건을 생성할 수 있습니다.",
+                "NameTw": "奧利斯",
+                "DescTw": "可生產對女武神學生們有用的物品。",
+                "NameCn": "阿里乌斯",
+                "DescCn": "可制造对阿里乌斯学生有用的物品。",
+                "NameTh": "อาเรียส",
+                "DescTh": "สร้างไอเทมสำหรับนักเรียนอาเรียส",
+                "NameVi": "アリウス",
+                "DescVi": "アリウスの生徒たちにとって有用なアイテムを生成することができます。",
+                "Weight": 34444,
+                "Groups": [
+                    {
+                        "GroupId": 3008,
+                        "Weight": 31111
+                    }
+                ],
+                "Icon": "CraftNode_Item"
             }
         ]
     ],
@@ -6520,7 +7207,7 @@
         [
             3036000,
             6981986,
-            0
+            4309996
         ]
     ],
     "Groups": [
@@ -20873,6 +21560,2716 @@
                     "Weight": 1
                 }
             ],
+            "302": [
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 12,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                }
+            ],
+            "303": [
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 13,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                }
+            ],
+            "312": [
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 5000,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 5001,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 5002,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 5003,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 5004,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 5005,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 5006,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 5007,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 5008,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 5009,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 5010,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 5011,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 5012,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 5013,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 5014,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 5015,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 5016,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 5017,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 5018,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 5019,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 5020,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 5021,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 5022,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 5023,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 5024,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 5025,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 5026,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 5027,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 5028,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 5029,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 5030,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 5031,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 5032,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 5033,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                }
+            ],
+            "313": [
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 5100,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 5101,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 5102,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 5103,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 5104,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 5105,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 5106,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 5107,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 5108,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 5109,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 5110,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 5111,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 5112,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                }
+            ],
+            "322": [
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 102,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 112,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 122,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 132,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 142,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 152,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 162,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 172,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 182,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 192,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 202,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 212,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 242,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 292,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                }
+            ],
+            "323": [
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 103,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 113,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 123,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 133,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 143,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 153,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 163,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 173,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 183,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 193,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 203,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 213,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 243,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 293,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                }
+            ],
+            "332": [
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 3002,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 3022,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 3032,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 3042,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 3052,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 3072,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 3012,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 3082,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 3062,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                }
+            ],
+            "333": [
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 3003,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 3023,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 3033,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 3043,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 3053,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 3073,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 3013,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 3083,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 3063,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                }
+            ],
+            "342": [
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 4002,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 4022,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 4032,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 4042,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 4052,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 4072,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 4012,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 4082,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 4062,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                }
+            ],
+            "343": [
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 4003,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 4023,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 4033,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 4043,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 4053,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 4073,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 4013,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 4083,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 4063,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                }
+            ],
+            "344": [
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 9998,
+                    "AmountMin": 1,
+                    "AmountMax": 3,
+                    "Weight": 1
+                }
+            ],
+            "352": [
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 1203,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 1200,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 2200,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 2202,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 2203,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 2204,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 1201,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 1202,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 2201,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 1204,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 4205,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 3200,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 3201,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 3202,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 3203,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 3204,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 4200,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 4201,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 4202,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 4203,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 4204,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 5201,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 5202,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 5203,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 5204,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 5205,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 6202,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 6200,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 6203,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 6201,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 7200,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 7201,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 7202,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 7203,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 8200,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 8201,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 8202,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 8203,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 8204,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 8205,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 8206,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                }
+            ],
+            "353": [
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 1302,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 2301,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 2302,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 2303,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 1303,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 1301,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 1300,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 2300,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 3300,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 3301,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 3302,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 3303,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 4300,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 4301,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 4302,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 4303,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 4304,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 4305,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 5301,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 5302,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 5303,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 5304,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 5305,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 6301,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 6300,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 6302,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 7300,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 7301,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 7302,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 8300,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 8301,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 8302,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 8303,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                }
+            ],
+            "362": [
+                {
+                    "Type": "Equipment",
+                    "Rarity": "SR",
+                    "ItemId": 12,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Equipment",
+                    "Rarity": "SR",
+                    "ItemId": 22,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Equipment",
+                    "Rarity": "SR",
+                    "ItemId": 32,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                }
+            ],
+            "363": [
+                {
+                    "Type": "Equipment",
+                    "Rarity": "SSR",
+                    "ItemId": 13,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Equipment",
+                    "Rarity": "SSR",
+                    "ItemId": 23,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Equipment",
+                    "Rarity": "SSR",
+                    "ItemId": 33,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                }
+            ],
+            "370": [
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10000,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10001,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10002,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10003,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10004,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10005,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10006,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10007,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10008,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10009,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10010,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10011,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10012,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10013,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10014,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10015,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10016,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10017,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10018,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10019,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10020,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10024,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10025,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10028,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10029,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10030,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 13000,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 13001,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 13002,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 13003,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 13005,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 13006,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 13007,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 13008,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 13009,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 13010,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 13011,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 13012,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 16000,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 16001,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 16002,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 16003,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 16004,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 20000,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 20001,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 20002,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 20003,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 20005,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 20006,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 20008,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 20009,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 20010,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 20011,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 23000,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 23001,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 23002,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 23003,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 23004,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 23005,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 23006,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 23007,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 23008,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 26000,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 26001,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 26002,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 26003,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 26004,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 26005,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                }
+            ],
+            "371": [
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10000,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10001,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10002,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10003,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10004,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10005,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10006,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10007,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10008,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10009,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10010,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10011,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10012,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10013,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10014,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10015,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10016,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10017,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10018,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10019,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10020,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10024,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10025,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10028,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10029,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10030,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 13000,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 13001,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 13002,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 13003,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 13005,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 13006,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 13007,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 13008,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 13009,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 13010,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 13011,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 13012,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 16000,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 16001,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 16002,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 16003,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 16004,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 20000,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 20001,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 20002,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 20003,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 20005,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 20006,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 20008,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 20009,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 20010,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 20011,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 23000,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 23001,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 23002,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 23003,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 23004,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 23005,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 23006,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 23007,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 23008,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 26000,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 26001,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 26002,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 26003,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 26004,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 26005,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                }
+            ],
+            "380": [
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 9998,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                }
+            ],
+            "390": [
+                {
+                    "Type": "Currency",
+                    "Rarity": "SSR",
+                    "ItemId": 1,
+                    "AmountMin": 100000,
+                    "AmountMax": 100000,
+                    "Weight": 50
+                },
+                {
+                    "Type": "Currency",
+                    "Rarity": "SSR",
+                    "ItemId": 1,
+                    "AmountMin": 1000000,
+                    "AmountMax": 1000000,
+                    "Weight": 40
+                },
+                {
+                    "Type": "Currency",
+                    "Rarity": "SSR",
+                    "ItemId": 1,
+                    "AmountMin": 10000000,
+                    "AmountMax": 10000000,
+                    "Weight": 10
+                }
+            ],
             "1000": [
                 {
                     "Type": "Item",
@@ -21321,6 +24718,872 @@
                     "AmountMin": 1,
                     "AmountMax": 1,
                     "Weight": 360
+                }
+            ],
+            "3000": [
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 3002,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 44
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 3003,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 22
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 4002,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 946
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 4003,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 360
+                }
+            ],
+            "3001": [
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 3012,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 44
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 3013,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 22
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 4012,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 946
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 4013,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 360
+                }
+            ],
+            "3002": [
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 3022,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 44
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 3023,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 22
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 4022,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 946
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 4023,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 360
+                }
+            ],
+            "3003": [
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 3032,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 44
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 3033,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 22
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 4032,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 946
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 4033,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 360
+                }
+            ],
+            "3004": [
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 3042,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 44
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 3043,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 22
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 4042,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 946
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 4043,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 360
+                }
+            ],
+            "3005": [
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 3052,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 44
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 3053,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 22
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 4052,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 946
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 4053,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 360
+                }
+            ],
+            "3006": [
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 3072,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 44
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 3073,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 22
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 4072,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 946
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 4073,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 360
+                }
+            ],
+            "3007": [
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 3082,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 44
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 3083,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 22
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 4082,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 946
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 4083,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 360
+                }
+            ],
+            "3008": [
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 3062,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 44
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 3063,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 22
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SR",
+                    "ItemId": 4062,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 946
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 4063,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 360
+                }
+            ],
+            "3100": [
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10014,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 13001,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 13009,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 16004,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 23006,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                }
+            ],
+            "3101": [
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10017,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 20009,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 20010,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                }
+            ],
+            "3102": [
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10003,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10013,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10019,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10020,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10029,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 13003,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 16003,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 20003,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 20005,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 23000,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 23002,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 23007,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 23008,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 26003,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 26004,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 26005,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                }
+            ],
+            "3103": [
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10000,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10002,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10004,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10006,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10009,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10030,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 13002,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 13005,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 13006,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 13007,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 16000,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 20008,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 23001,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 26000,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 26002,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                }
+            ],
+            "3104": [
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10005,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10010,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10024,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 13008,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 20011,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 23005,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                }
+            ],
+            "3105": [
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10001,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10007,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10008,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10012,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10015,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10016,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10018,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10028,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 13000,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 13010,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 13011,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 16001,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 16002,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 20000,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 20001,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 23003,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 23004,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 26001,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                }
+            ],
+            "3106": [
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10011,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10025,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 20002,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 20006,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                }
+            ],
+            "3107": [
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 13012,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
                 }
             ],
             "1100": [

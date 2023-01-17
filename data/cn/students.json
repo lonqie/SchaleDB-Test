@@ -15122,7 +15122,7 @@
         "FavorAlts": [],
         "MemoryLobby": [
             6,
-            0
+            6
         ],
         "FurnitureInteraction": [
             [],
@@ -15648,7 +15648,7 @@
         "FavorAlts": [],
         "MemoryLobby": [
             6,
-            0
+            6
         ],
         "FurnitureInteraction": [
             [
@@ -20806,7 +20806,7 @@
         ],
         "MemoryLobby": [
             6,
-            0
+            6
         ],
         "FurnitureInteraction": [
             [],
@@ -52895,7 +52895,9 @@
             [
                 205301
             ],
-            []
+            [
+                205301
+            ]
         ],
         "FavorItemTags": [
             "Specialized"
@@ -53052,7 +53054,7 @@
         "Id": 10043,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "DefaultOrder": 100,
         "PathName": "Wakamo_Swimsuit",
@@ -53093,7 +53095,7 @@
         "BirthDay": "4/3",
         "ArtistName": "NAMYO",
         "CharHeightMetric": "161cm",
-        "CharHeightImperial": null,
+        "CharHeightImperial": "5&#x27;3&quot;",
         "StabilityPoint": 1968,
         "AttackPower1": 368,
         "AttackPower100": 3685,
@@ -53525,13 +53527,15 @@
         ],
         "MemoryLobby": [
             5,
-            0
+            5
         ],
         "FurnitureInteraction": [
             [
                 4201
             ],
-            []
+            [
+                4201
+            ]
         ],
         "FavorItemTags": [
             "Swimsuit",
@@ -53690,7 +53694,7 @@
         "Id": 10044,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "DefaultOrder": 101,
         "PathName": "Nonomi_Swimsuit",
@@ -53731,7 +53735,7 @@
         "BirthDay": "9/1",
         "ArtistName": "9ml",
         "CharHeightMetric": "160cm",
-        "CharHeightImperial": null,
+        "CharHeightImperial": "5&#x27;2&quot;",
         "StabilityPoint": 1392,
         "AttackPower1": 273,
         "AttackPower100": 2739,
@@ -54084,13 +54088,15 @@
         ],
         "MemoryLobby": [
             5,
-            0
+            5
         ],
         "FurnitureInteraction": [
             [
                 4108
             ],
-            []
+            [
+                4108
+            ]
         ],
         "FavorItemTags": [
             "Swimsuit",
@@ -54249,7 +54255,7 @@
         "Id": 26007,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "DefaultOrder": 102,
         "PathName": "Ayane_Swimsuit",
@@ -54315,7 +54321,7 @@
         "BirthDay": "11/12",
         "ArtistName": "7peach",
         "CharHeightMetric": "153cm",
-        "CharHeightImperial": null,
+        "CharHeightImperial": "5&#x27;0&quot;",
         "StabilityPoint": 2194,
         "AttackPower1": 289,
         "AttackPower100": 2890,
@@ -54620,13 +54626,15 @@
         ],
         "MemoryLobby": [
             5,
-            0
+            5
         ],
         "FurnitureInteraction": [
             [
                 4103
             ],
-            []
+            [
+                4103
+            ]
         ],
         "FavorItemTags": [
             "Swimsuit",
@@ -54826,7 +54834,7 @@
         "BirthDay": "1/2",
         "ArtistName": "9ml",
         "CharHeightMetric": "145cm",
-        "CharHeightImperial": null,
+        "CharHeightImperial": "4&#x27;9&quot;",
         "StabilityPoint": 1824,
         "AttackPower1": 199,
         "AttackPower100": 1999,
@@ -55253,7 +55261,7 @@
         ],
         "MemoryLobby": [
             2,
-            0
+            2
         ],
         "FurnitureInteraction": [
             [
@@ -55459,7 +55467,7 @@
         "BirthDay": "7/7",
         "ArtistName": "whoisshe",
         "CharHeightMetric": "153cm",
-        "CharHeightImperial": null,
+        "CharHeightImperial": "5&#x27;0&quot;",
         "StabilityPoint": 2093,
         "AttackPower1": 182,
         "AttackPower100": 1829,
@@ -55742,7 +55750,7 @@
         ],
         "MemoryLobby": [
             5,
-            0
+            5
         ],
         "FurnitureInteraction": [
             [
@@ -55947,7 +55955,7 @@
         "BirthDay": "12/16",
         "ArtistName": "はねこと",
         "CharHeightMetric": "155cm",
-        "CharHeightImperial": null,
+        "CharHeightImperial": "5&#x27;1&quot;",
         "StabilityPoint": 1324,
         "AttackPower1": 194,
         "AttackPower100": 1942,
@@ -56281,7 +56289,7 @@
         ],
         "MemoryLobby": [
             6,
-            0
+            6
         ],
         "FurnitureInteraction": [
             [
@@ -56486,7 +56494,7 @@
         "BirthDay": "7/13",
         "ArtistName": "CHILD",
         "CharHeightMetric": "159cm",
-        "CharHeightImperial": null,
+        "CharHeightImperial": "5&#x27;2&quot;",
         "StabilityPoint": 988,
         "AttackPower1": 226,
         "AttackPower100": 2262,
@@ -56911,7 +56919,7 @@
         ],
         "MemoryLobby": [
             3,
-            0
+            3
         ],
         "FurnitureInteraction": [
             [
@@ -57117,7 +57125,7 @@
         "BirthDay": "9/3",
         "ArtistName": "9ml",
         "CharHeightMetric": "167cm",
-        "CharHeightImperial": null,
+        "CharHeightImperial": "5&#x27;5&quot;",
         "StabilityPoint": 1372,
         "AttackPower1": 216,
         "AttackPower100": 2164,
@@ -57471,7 +57479,7 @@
         "FavorAlts": [],
         "MemoryLobby": [
             5,
-            0
+            5
         ],
         "FurnitureInteraction": [
             [
@@ -57675,7 +57683,7 @@
         "BirthDay": "9/13",
         "ArtistName": "Mx2j",
         "CharHeightMetric": "163cm",
-        "CharHeightImperial": null,
+        "CharHeightImperial": "5&#x27;4&quot;",
         "StabilityPoint": 1136,
         "AttackPower1": 199,
         "AttackPower100": 1998,
@@ -58023,7 +58031,7 @@
         "FavorAlts": [],
         "MemoryLobby": [
             6,
-            0
+            6
         ],
         "FurnitureInteraction": [
             [
@@ -58227,7 +58235,7 @@
         "BirthDay": "8/5",
         "ArtistName": "Mx2j",
         "CharHeightMetric": "155cm",
-        "CharHeightImperial": null,
+        "CharHeightImperial": "5&#x27;1&quot;",
         "StabilityPoint": 1388,
         "AttackPower1": 241,
         "AttackPower100": 2415,
@@ -58557,7 +58565,7 @@
         "FavorAlts": [],
         "MemoryLobby": [
             5,
-            0
+            5
         ],
         "FurnitureInteraction": [
             [
@@ -58762,7 +58770,7 @@
         "BirthDay": "6/1",
         "ArtistName": "seicoh",
         "CharHeightMetric": "139cm",
-        "CharHeightImperial": null,
+        "CharHeightImperial": "4&#x27;5&quot;",
         "StabilityPoint": 1264,
         "AttackPower1": 206,
         "AttackPower100": 2061,
@@ -59064,7 +59072,7 @@
         "FavorAlts": [],
         "MemoryLobby": [
             6,
-            0
+            6
         ],
         "FurnitureInteraction": [
             [

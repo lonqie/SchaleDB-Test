@@ -2051,7 +2051,7 @@
         "Desc": "Bộ đồ đi dã ngoại mùa hè. Đi đến bãi biển với các dụng cụ tiện ích này!",
         "Interaction": [
             true,
-            false
+            true
         ]
     },
     {
@@ -2183,7 +2183,7 @@
         "Desc": "Bàn gấp để phục vụ nước chanh giải khát. Thật tốt để có một cuộc trò chuyện vui vẻ với bạn bè của bạn.",
         "Interaction": [
             true,
-            false
+            true
         ]
     },
     {
@@ -2289,7 +2289,7 @@
         "Desc": "Một bộ khuếch đại âm nhạc với một cảm giác retro. 3 loa rất phù hợp cho một bữa tiệc.",
         "Interaction": [
             true,
-            false
+            true
         ]
     },
     {
@@ -7813,14 +7813,14 @@
         "Desc": "Một chiếc ghế cổ có đệm tựa hoa văn kim cương. Thiết kế cong tinh tế mang lại vẻ ngoài đầy phong cách.",
         "Interaction": [
             true,
-            false
+            true
         ]
     },
     {
         "Id": 206301,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "SSR",
         "Icon": "My_Event10_Turntable",
@@ -8197,7 +8197,7 @@
         "Id": 301002,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "N",
         "Icon": "My_Trophycabinet_Set102_Bronze",
@@ -8222,7 +8222,7 @@
         "Id": 301102,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "R",
         "Icon": "My_Trophycabinet_Set102_Silver",
@@ -8247,7 +8247,7 @@
         "Id": 301202,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "SR",
         "Icon": "My_Trophycabinet_Set102_Gold",
@@ -8272,7 +8272,7 @@
         "Id": 301302,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "SSR",
         "Icon": "My_Trophycabinet_Set102_Platinum",

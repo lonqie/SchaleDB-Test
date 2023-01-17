@@ -3005,9 +3005,6 @@ function loadModule(moduleName, entry=null) {
                 loadRaid(1)
             }
             
-            if (regionID == 1) {
-                $('#ba-raid-list-tab-worldraid').hide()
-            }
             window.setTimeout(function(){$("#loading-cover").fadeOut()},50)
             window.scrollTo({top: 0, left: 0, behavior: 'instant'})
         })
@@ -3867,16 +3864,14 @@ function processStudent() {
 
     let favItemsHtml = ""
     
-    if (regionID == 0) {
-        const favSSRItems = getFavouriteSSRItems(allTags)
-        $(favSSRItems[0]).each(function(i,el){
-            favItemsHtml += getFavourIconHTML(el, 4)
-        })
-        $(favSSRItems[1]).each(function(i,el){
-            favItemsHtml += getFavourIconHTML(el, 3)
-        })
-    }
-
+    const favSSRItems = getFavouriteSSRItems(allTags)
+    $(favSSRItems[0]).each(function(i,el){
+        favItemsHtml += getFavourIconHTML(el, 4)
+    })
+    $(favSSRItems[1]).each(function(i,el){
+        favItemsHtml += getFavourIconHTML(el, 3)
+    })
+    
     const favItems = getFavouriteItems(allTags)
     $(favItems[0]).each(function(i,el){
         favItemsHtml += getFavourIconHTML(el, 3)
@@ -6404,7 +6399,7 @@ function updatePassiveSkillStatPreview() {
     $('#ba-statpreview-passiveskill-desc').html(desc.substring(0, desc.length-2))
     $('.statpreview-passive').toggleClass('plus', passivePlus)
     
-    $('#ba-statpreview-status-passive-level .label').html(skillLevel < 10 ? `Lv.${skillLevel}` : `<img class="sharp-img" src="images/ui/ImageFont_Max.png" style="height:16px;">`)
+    $('#ba-statpreview-status-passive-level .label').html(skillLevel < 10 ? `Lv.${skillLevel}` : `<img src="images/ui/ImageFont_Max.png" style="height:16px;">`)
 }
 
 function updateSummonSourceSkill() {

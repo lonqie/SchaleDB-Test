@@ -152,7 +152,6 @@
             background-size: cover;
             background-repeat: no-repeat;
             background-position: left center;
-            @include sharp-img;
         }
 
     }
@@ -403,6 +402,8 @@
         color: var(--col-theme-text);
 
         border-radius: 0px 0px 8px 8px;
+
+        will-change: transform;
 
         &.hover-only {
            display: none;

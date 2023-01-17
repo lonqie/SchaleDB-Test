@@ -43,7 +43,6 @@
     width: 100%;
     object-fit: cover;
     object-position: center;
-    @include sharp-img;  
 }
 
 #ba-profile-school-label {
@@ -277,14 +276,6 @@ h1 small {
     cursor: pointer;
 }
 
-.ba-btn-img-noinvert {
-    height: 22px;
-    position: absolute;
-    left: 4px;
-    top: 3px;
-    @include sharp-img;
-}
-
 .ba-btn-img {
     will-change: filter;
     height: 22px;
@@ -412,7 +403,6 @@ h1 small {
     margin-bottom: 0.5rem;
     object-fit: cover;
     @include circular;
-    @include sharp-img;
 }
 
 .ba-item-n {
@@ -475,7 +465,6 @@ h1 small {
         @include circular;
         object-fit: cover;
         object-position: center;
-        /* @include sharp-img; */
     }
 
     .bonus-label {
@@ -660,7 +649,6 @@ hr {
 
 #ba-student-weapon-img {
     width: 100%;
-    @include sharp-img;
 }
 
 .label-qty {
@@ -691,7 +679,6 @@ hr {
     background-size: contain;
     background-repeat: no-repeat;
     background-position-x: right;
-    @include sharp-img;
 }
 
 #ba-raid-difficulty a, #ba-timeattack-difficulty a, #ba-worldraid-difficulty a {
@@ -1063,7 +1050,6 @@ a.nav-link.disabled {
 .ba-tooltip-img img {
     object-fit: cover;
     object-position: center;
-    @include sharp-img;
 }
 
 .img-scale-larger {
