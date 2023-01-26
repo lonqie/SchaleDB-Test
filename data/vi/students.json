@@ -4282,6 +4282,7 @@
                     },
                     {
                         "Type": "DMGMulti",
+                        "SubstituteCondition": "GearPublic",
                         "CriticalCheck": "Check",
                         "Scale": [
                             71518,
@@ -4294,6 +4295,18 @@
                             178325,
                             202634,
                             214797
+                        ],
+                        "SubstituteScale": [
+                            85822,
+                            98698,
+                            117770,
+                            131360,
+                            152571,
+                            166875,
+                            195482,
+                            209785,
+                            238392,
+                            252696
                         ]
                     }
                 ],
