@@ -438,6 +438,7 @@
             6,
             6
         ],
+        "MemoryLobbyBGM": "Guruguru Usagi",
         "FurnitureInteraction": [
             [],
             []
@@ -466,7 +467,7 @@
         "Gear": {
             "Released": [
                 true,
-                false
+                true
             ],
             "StatType": [
                 "AccuracyPoint_Base"
@@ -478,7 +479,7 @@
                 ]
             ],
             "Name": "กระเป๋าสตางค์สุดล้ำค่าของอารุ",
-            "Desc": "กระเป๋าสตางค์ชั้นนำที่อารุใช้\nแม้จะเป็นสินค้าชั้นนำที่ผลิตจากวัสดุคุณภาพดี แต่สีก็จางลง\nมากและมีรอยขีดข่วนอยู่ทุกที่เพราะใช้งานมาเป็นเวลานาน\nกระเป๋าสตรงค์นี้เป็นของขวัญที่ฮารุกะ คาโยโกะ และมุสึกิ\nลงขันกันซื้อให้อารุหลังจากก่อตั้งหน่วยรับจ้างสารพัด\nสำหรับอารุแล้วนี่เป็นของมีค่าที่ไม่อาจแลกด้วยสิ่งอื่นใดได้",
+            "Desc": "กระเป๋าสตางค์ชั้นนำที่อารุใช้\nแม้จะเป็นสินค้าชั้นนำที่ผลิตจากวัสดุคุณภาพดี แต่สีก็จางลงมาก และมีรอยขีดข่วนอยู่ทุกที่เพราะใช้งานมาเป็นเวลานาน กระเป๋าสตางค์นี้เป็นของขวัญที่ฮารุกะ คาโยโกะและมุสึกิ ลงขันกันซื้อให้อารุหลังจากก่อตั้งหน่วยรับจ้างสารพัด สำหรับอารุแล้ว นี่เป็นของมีค่าที่ไม่อาจแลกด้วยสิ่งอื่นใดได้",
             "Icon": "Gear_Icon_10000",
             "TierUpMaterial": [
                 [
@@ -937,6 +938,7 @@
             6,
             6
         ],
+        "MemoryLobbyBGM": "Koi is Love",
         "FurnitureInteraction": [
             [],
             []
@@ -1406,6 +1408,7 @@
             6,
             6
         ],
+        "MemoryLobbyBGM": "Koi is Love",
         "FurnitureInteraction": [
             [],
             []
@@ -1943,6 +1946,7 @@
             8,
             8
         ],
+        "MemoryLobbyBGM": "Hifumi Daisuki",
         "FurnitureInteraction": [
             [],
             []
@@ -2446,6 +2450,7 @@
             8,
             8
         ],
+        "MemoryLobbyBGM": "Midnight Trip",
         "FurnitureInteraction": [
             [],
             []
@@ -2966,6 +2971,7 @@
             9,
             9
         ],
+        "MemoryLobbyBGM": "Shooting Stars",
         "FurnitureInteraction": [
             [],
             []
@@ -3455,6 +3461,7 @@
             6,
             6
         ],
+        "MemoryLobbyBGM": "Luminous Memory",
         "FurnitureInteraction": [
             [],
             []
@@ -3990,6 +3997,7 @@
             8,
             8
         ],
+        "MemoryLobbyBGM": "Koi is Love",
         "FurnitureInteraction": [
             [],
             []
@@ -4620,6 +4628,7 @@
             8,
             8
         ],
+        "MemoryLobbyBGM": "Future Lab",
         "FurnitureInteraction": [
             [
                 2302,
@@ -5197,6 +5206,7 @@
             5,
             5
         ],
+        "MemoryLobbyBGM": "Guruguru Usagi",
         "FurnitureInteraction": [
             [],
             []
@@ -5739,6 +5749,7 @@
             9,
             9
         ],
+        "MemoryLobbyBGM": "Midsummer cat",
         "FurnitureInteraction": [
             [],
             []
@@ -6301,6 +6312,7 @@
             9,
             9
         ],
+        "MemoryLobbyBGM": "Midsummer cat",
         "FurnitureInteraction": [
             [],
             []
@@ -6797,6 +6809,7 @@
             5,
             5
         ],
+        "MemoryLobbyBGM": "Water Drop",
         "FurnitureInteraction": [
             [],
             []
@@ -7373,6 +7386,7 @@
             5,
             5
         ],
+        "MemoryLobbyBGM": "Coffee Cats",
         "FurnitureInteraction": [
             [],
             []
@@ -7401,7 +7415,7 @@
         "Gear": {
             "Released": [
                 true,
-                false
+                true
             ],
             "StatType": [
                 "AttackSpeed_Base"
@@ -7925,6 +7939,7 @@
             9,
             9
         ],
+        "MemoryLobbyBGM": "Midsummer cat",
         "FurnitureInteraction": [
             [],
             []
@@ -8436,6 +8451,7 @@
             5,
             5
         ],
+        "MemoryLobbyBGM": "Blooming moon",
         "FurnitureInteraction": [
             [],
             []
@@ -8927,6 +8943,7 @@
             5,
             5
         ],
+        "MemoryLobbyBGM": "Koi is Love",
         "FurnitureInteraction": [
             [],
             []
@@ -9418,6 +9435,7 @@
             8,
             8
         ],
+        "MemoryLobbyBGM": "Luminous Memory",
         "FurnitureInteraction": [
             [],
             []
@@ -9911,6 +9929,7 @@
             5,
             5
         ],
+        "MemoryLobbyBGM": "Midsummer cat",
         "FurnitureInteraction": [
             [],
             []
@@ -10442,6 +10461,7 @@
             6,
             6
         ],
+        "MemoryLobbyBGM": "Aira",
         "FurnitureInteraction": [
             [],
             []
@@ -10938,6 +10958,7 @@
             6,
             6
         ],
+        "MemoryLobbyBGM": "Plug and Play",
         "FurnitureInteraction": [
             [],
             []
@@ -11443,6 +11464,7 @@
             8,
             8
         ],
+        "MemoryLobbyBGM": "Koi is Love",
         "FurnitureInteraction": [
             [
                 5203
@@ -11981,6 +12003,7 @@
             9,
             9
         ],
+        "MemoryLobbyBGM": "Sugar story",
         "FurnitureInteraction": [
             [],
             []
@@ -12476,6 +12499,7 @@
             6,
             6
         ],
+        "MemoryLobbyBGM": "Midsummer cat",
         "FurnitureInteraction": [
             [],
             []
@@ -13024,6 +13048,7 @@
             1,
             1
         ],
+        "MemoryLobbyBGM": "Irasshaimase",
         "FurnitureInteraction": [
             [],
             []
@@ -13052,7 +13077,7 @@
         "Gear": {
             "Released": [
                 true,
-                false
+                true
             ],
             "StatType": [
                 "DefensePower_Base"
@@ -13554,6 +13579,7 @@
             8,
             8
         ],
+        "MemoryLobbyBGM": "KIRISAME",
         "FurnitureInteraction": [
             [],
             []
@@ -14076,6 +14102,7 @@
             6,
             0
         ],
+        "MemoryLobbyBGM": "Guruguru Usagi",
         "FurnitureInteraction": [
             [],
             []
@@ -14584,6 +14611,7 @@
             6,
             6
         ],
+        "MemoryLobbyBGM": "Irasshaimase",
         "FurnitureInteraction": [
             [],
             []
@@ -15177,6 +15205,7 @@
             6,
             6
         ],
+        "MemoryLobbyBGM": "Midnight Trip",
         "FurnitureInteraction": [
             [],
             []
@@ -15727,6 +15756,7 @@
             6,
             6
         ],
+        "MemoryLobbyBGM": "Han-nari",
         "FurnitureInteraction": [
             [
                 7106
@@ -16215,6 +16245,7 @@
             9,
             9
         ],
+        "MemoryLobbyBGM": "Midnight Trip",
         "FurnitureInteraction": [
             [],
             []
@@ -16739,6 +16770,7 @@
             9,
             9
         ],
+        "MemoryLobbyBGM": "Midnight Trip",
         "FurnitureInteraction": [
             [],
             []
@@ -17247,6 +17279,7 @@
             8,
             8
         ],
+        "MemoryLobbyBGM": "Guruguru Usagi",
         "FurnitureInteraction": [
             [],
             []
@@ -17545,18 +17578,19 @@
                         "Channel": 624
                     },
                     {
-                        "Type": "DmgSingle",
+                        "Type": "DMGSingle",
+                        "CriticalCheck": "Check",
                         "Scale": [
-                            0,
-                            0,
-                            0,
-                            0,
-                            0,
-                            0,
-                            0,
-                            0,
-                            0,
-                            0
+                            26544,
+                            30527,
+                            34510,
+                            38486,
+                            46452,
+                            50435,
+                            58394,
+                            62377,
+                            70336,
+                            74319
                         ]
                     }
                 ],
@@ -17777,6 +17811,7 @@
             6,
             6
         ],
+        "MemoryLobbyBGM": "Koi is Love",
         "FurnitureInteraction": [
             [
                 5205
@@ -18258,6 +18293,7 @@
             6,
             6
         ],
+        "MemoryLobbyBGM": "Koi is Love",
         "FurnitureInteraction": [
             [],
             []
@@ -18738,6 +18774,7 @@
             6,
             6
         ],
+        "MemoryLobbyBGM": "Guruguru Usagi",
         "FurnitureInteraction": [
             [],
             []
@@ -19287,6 +19324,7 @@
             5,
             5
         ],
+        "MemoryLobbyBGM": "Koi is Love",
         "FurnitureInteraction": [
             [],
             []
@@ -19315,7 +19353,7 @@
         "Gear": {
             "Released": [
                 true,
-                false
+                true
             ],
             "StatType": [
                 "AttackPower_Base"
@@ -19817,6 +19855,7 @@
             6,
             6
         ],
+        "MemoryLobbyBGM": "Luminous Memory",
         "FurnitureInteraction": [
             [],
             []
@@ -20326,6 +20365,7 @@
             5,
             5
         ],
+        "MemoryLobbyBGM": "Water Drop",
         "FurnitureInteraction": [
             [],
             []
@@ -20815,6 +20855,7 @@
             6,
             6
         ],
+        "MemoryLobbyBGM": "Aira",
         "FurnitureInteraction": [
             [],
             []
@@ -21314,6 +21355,7 @@
             6,
             0
         ],
+        "MemoryLobbyBGM": "Aira",
         "FurnitureInteraction": [
             [],
             []
@@ -21795,6 +21837,7 @@
             6,
             0
         ],
+        "MemoryLobbyBGM": "Midsummer cat",
         "FurnitureInteraction": [
             [],
             []
@@ -22269,6 +22312,7 @@
             6,
             6
         ],
+        "MemoryLobbyBGM": "KIRISAME",
         "FurnitureInteraction": [
             [],
             []
@@ -22774,6 +22818,7 @@
             6,
             6
         ],
+        "MemoryLobbyBGM": "Dolce Biblioteca",
         "FurnitureInteraction": [
             [],
             []
@@ -23278,6 +23323,7 @@
             6,
             6
         ],
+        "MemoryLobbyBGM": "Midsummer cat",
         "FurnitureInteraction": [
             [],
             []
@@ -23797,6 +23843,7 @@
             8,
             8
         ],
+        "MemoryLobbyBGM": "Water Drop",
         "FurnitureInteraction": [
             [],
             []
@@ -24290,6 +24337,7 @@
             6,
             6
         ],
+        "MemoryLobbyBGM": "Han-nari",
         "FurnitureInteraction": [
             [
                 203303
@@ -24834,6 +24882,7 @@
             6,
             6
         ],
+        "MemoryLobbyBGM": "Midsummer cat",
         "FurnitureInteraction": [
             [
                 203302
@@ -25397,6 +25446,7 @@
             8,
             8
         ],
+        "MemoryLobbyBGM": "someday, sometime",
         "FurnitureInteraction": [
             [
                 207307
@@ -25942,11 +25992,14 @@
             6,
             6
         ],
+        "MemoryLobbyBGM": "Koi is Love",
         "FurnitureInteraction": [
             [
                 2301
             ],
-            []
+            [
+                2301
+            ]
         ],
         "FavorItemTags": [
             "Jellyz"
@@ -26491,11 +26544,14 @@
             6,
             6
         ],
+        "MemoryLobbyBGM": "After the Beep",
         "FurnitureInteraction": [
             [
                 2301
             ],
-            []
+            [
+                2301
+            ]
         ],
         "FavorItemTags": [
             "Game"
@@ -27035,6 +27091,7 @@
             6,
             6
         ],
+        "MemoryLobbyBGM": "Merry blue",
         "FurnitureInteraction": [
             [],
             []
@@ -27545,6 +27602,7 @@
             6,
             6
         ],
+        "MemoryLobbyBGM": "Shooting Stars",
         "FurnitureInteraction": [
             [],
             []
@@ -28033,6 +28091,7 @@
             8,
             8
         ],
+        "MemoryLobbyBGM": "Hue",
         "FurnitureInteraction": [
             [],
             []
@@ -28563,6 +28622,7 @@
             5,
             5
         ],
+        "MemoryLobbyBGM": "Koi is Love",
         "FurnitureInteraction": [
             [],
             []
@@ -29047,6 +29107,7 @@
             2,
             2
         ],
+        "MemoryLobbyBGM": "Midsummer cat",
         "FurnitureInteraction": [
             [],
             []
@@ -29560,6 +29621,7 @@
             6,
             6
         ],
+        "MemoryLobbyBGM": "Guruguru Usagi",
         "FurnitureInteraction": [
             [],
             []
@@ -30082,6 +30144,7 @@
             5,
             5
         ],
+        "MemoryLobbyBGM": "Luminous Memory",
         "FurnitureInteraction": [
             [
                 4303
@@ -30603,6 +30666,7 @@
             5,
             5
         ],
+        "MemoryLobbyBGM": "Colorful Beach",
         "FurnitureInteraction": [
             [
                 4200
@@ -31122,6 +31186,7 @@
             3,
             3
         ],
+        "MemoryLobbyBGM": "Colorful Beach",
         "FurnitureInteraction": [
             [
                 4302
@@ -31617,6 +31682,7 @@
             5,
             5
         ],
+        "MemoryLobbyBGM": "Colorful Beach",
         "FurnitureInteraction": [
             [],
             []
@@ -32164,6 +32230,7 @@
             5,
             5
         ],
+        "MemoryLobbyBGM": "Midnight Trip",
         "FurnitureInteraction": [
             [
                 4301
@@ -32689,6 +32756,7 @@
             5,
             5
         ],
+        "MemoryLobbyBGM": "Summertime Archive",
         "FurnitureInteraction": [
             [],
             []
@@ -33213,6 +33281,7 @@
             5,
             5
         ],
+        "MemoryLobbyBGM": "Summertime Archive",
         "FurnitureInteraction": [
             [],
             []
@@ -33743,6 +33812,7 @@
             3,
             3
         ],
+        "MemoryLobbyBGM": "Water Drop",
         "FurnitureInteraction": [
             [],
             []
@@ -34334,6 +34404,7 @@
             6,
             6
         ],
+        "MemoryLobbyBGM": "Sugar story",
         "FurnitureInteraction": [
             [],
             []
@@ -34362,7 +34433,7 @@
         "Gear": {
             "Released": [
                 true,
-                false
+                true
             ],
             "StatType": [
                 "CriticalDamageRate_Base"
@@ -34915,6 +34986,7 @@
             6,
             6
         ],
+        "MemoryLobbyBGM": "Irasshaimase",
         "FurnitureInteraction": [
             [],
             []
@@ -35438,6 +35510,7 @@
             5,
             5
         ],
+        "MemoryLobbyBGM": "Koi is Love",
         "FurnitureInteraction": [
             [],
             []
@@ -36025,6 +36098,7 @@
             3,
             3
         ],
+        "MemoryLobbyBGM": "Koi is Love",
         "FurnitureInteraction": [
             [
                 207303
@@ -36565,6 +36639,7 @@
             2,
             2
         ],
+        "MemoryLobbyBGM": "Bunny Bunny Carrot Carrot",
         "FurnitureInteraction": [
             [
                 207305
@@ -37124,6 +37199,7 @@
             2,
             2
         ],
+        "MemoryLobbyBGM": "Bunny Bunny Carrot Carrot",
         "FurnitureInteraction": [
             [
                 207304
@@ -37154,7 +37230,7 @@
         "Gear": {
             "Released": [
                 true,
-                false
+                true
             ],
             "StatType": [
                 "AttackPower_Base"
@@ -37650,6 +37726,7 @@
             5,
             5
         ],
+        "MemoryLobbyBGM": "Koi is Love",
         "FurnitureInteraction": [
             [
                 3301
@@ -38131,6 +38208,7 @@
             3,
             3
         ],
+        "MemoryLobbyBGM": "Aira",
         "FurnitureInteraction": [
             [
                 1105
@@ -38644,6 +38722,7 @@
             6,
             6
         ],
+        "MemoryLobbyBGM": "Blue New World",
         "FurnitureInteraction": [
             [],
             []
@@ -39174,6 +39253,7 @@
             5,
             5
         ],
+        "MemoryLobbyBGM": "Guruguru Usagi",
         "FurnitureInteraction": [
             [
                 1101
@@ -39748,6 +39828,7 @@
             6,
             6
         ],
+        "MemoryLobbyBGM": "Koi is Love",
         "FurnitureInteraction": [
             [
                 6203
@@ -40286,6 +40367,7 @@
             6,
             6
         ],
+        "MemoryLobbyBGM": "Midnight Trip",
         "FurnitureInteraction": [
             [
                 6200
@@ -40846,6 +40928,7 @@
             5,
             5
         ],
+        "MemoryLobbyBGM": "Midnight Trip",
         "FurnitureInteraction": [
             [
                 6100
@@ -41356,6 +41439,7 @@
             6,
             6
         ],
+        "MemoryLobbyBGM": "Nesno wons",
         "FurnitureInteraction": [
             [
                 6201
@@ -41889,6 +41973,7 @@
             5,
             5
         ],
+        "MemoryLobbyBGM": "Blue New Year",
         "FurnitureInteraction": [
             [
                 7203
@@ -42441,6 +42526,7 @@
             5,
             5
         ],
+        "MemoryLobbyBGM": "Blue New Year",
         "FurnitureInteraction": [
             [
                 7107
@@ -42968,6 +43054,7 @@
             5,
             5
         ],
+        "MemoryLobbyBGM": "Midsummer cat",
         "FurnitureInteraction": [
             [
                 7301
@@ -43490,6 +43577,7 @@
             2,
             2
         ],
+        "MemoryLobbyBGM": "burning love",
         "FurnitureInteraction": [
             [
                 3108
@@ -44016,6 +44104,7 @@
             5,
             5
         ],
+        "MemoryLobbyBGM": "Koi is Love",
         "FurnitureInteraction": [
             [
                 1104
@@ -44543,6 +44632,7 @@
             6,
             6
         ],
+        "MemoryLobbyBGM": "Midnight Trip",
         "FurnitureInteraction": [
             [
                 10
@@ -45048,6 +45138,7 @@
             5,
             5
         ],
+        "MemoryLobbyBGM": "Aira",
         "FurnitureInteraction": [
             [
                 2203
@@ -45548,6 +45639,7 @@
             6,
             6
         ],
+        "MemoryLobbyBGM": "Midsummer cat",
         "FurnitureInteraction": [
             [
                 7101
@@ -46051,6 +46143,7 @@
             6,
             6
         ],
+        "MemoryLobbyBGM": "Sugar story",
         "FurnitureInteraction": [
             [
                 204301
@@ -46619,6 +46712,7 @@
             3,
             3
         ],
+        "MemoryLobbyBGM": "Aira",
         "FurnitureInteraction": [
             [
                 2103
@@ -47176,6 +47270,7 @@
             5,
             5
         ],
+        "MemoryLobbyBGM": "Theme 103",
         "FurnitureInteraction": [
             [
                 3105
@@ -47701,6 +47796,7 @@
             6,
             6
         ],
+        "MemoryLobbyBGM": "Future Lab",
         "FurnitureInteraction": [
             [
                 8105
@@ -48252,6 +48348,7 @@
             5,
             5
         ],
+        "MemoryLobbyBGM": "Koi is Love",
         "FurnitureInteraction": [
             [
                 8104
@@ -48743,6 +48840,7 @@
             5,
             5
         ],
+        "MemoryLobbyBGM": "Theme 104",
         "FurnitureInteraction": [
             [
                 8103
@@ -49224,6 +49322,7 @@
             6,
             6
         ],
+        "MemoryLobbyBGM": "Blooming moon",
         "FurnitureInteraction": [
             [
                 6102
@@ -49719,6 +49818,7 @@
             6,
             6
         ],
+        "MemoryLobbyBGM": "Walkthrough",
         "FurnitureInteraction": [
             [
                 6105
@@ -50295,6 +50395,7 @@
             6,
             6
         ],
+        "MemoryLobbyBGM": "Water Drop",
         "FurnitureInteraction": [
             [
                 7102
@@ -50852,6 +50953,7 @@
             6,
             6
         ],
+        "MemoryLobbyBGM": "Theme 103",
         "FurnitureInteraction": [
             [
                 4106
@@ -51499,6 +51601,7 @@
             5,
             5
         ],
+        "MemoryLobbyBGM": "Alkaline Tears",
         "FurnitureInteraction": [
             [
                 1108
@@ -52067,6 +52170,7 @@
             5,
             5
         ],
+        "MemoryLobbyBGM": "Guruguru Usagi",
         "FurnitureInteraction": [
             [
                 5
@@ -52264,7 +52368,7 @@
         "CharacterAge": "15 ปี",
         "Birthday": "20 ม.ค.",
         "CharacterSSRNew": "ถ้าถนนที่นี่มีดอกไม้เยอะๆ ก็คงดีนะ",
-        "ProfileIntroduction": "สมาชิกสควอดของอาเรียสที่มีบรรยากาศรอบตัวลึกลับ และมักสวมหน้ากากอยู่ตลอด\n\nเธอไม่ได้ตั้งใจที่จะปกปิดใบหน้า แต่มักสวมหน้ากากป้องกันแก๊สพิษอยู่ตลอดเวลา\nยกเว้นเวลากินอาหารหรือเวลานอน ซาโอริมักเรียกอาสึโกะว่าองค์หญิงบ่อยๆ\nตัวตนของเธอยังคงเป็นปริศนาอย่างมาก",
+        "ProfileIntroduction": "สมาชิกสควอดของอาเรียสที่มีบรรยากาศรอบตัวลึกลับ และมักสวมหน้ากากอยู่ตลอด\n\nเธอไม่ได้ตั้งใจที่จะใส่หน้ากากเพื่อปกปิดใบหน้า แต่มักสวมหน้ากากป้องกันแก๊สพิษนั่นเอาไว้เสมอๆ เพื่อความปลอดภัย\nยกเว้นเวลากินอาหารหรือเวลานอน ซาโอริมักเรียกอาสึโกะว่าองค์หญิงบ่อยๆ\nตัวตนของเธอยังคงเป็นปริศนาอย่างมาก",
         "Hobby": "ทำสวนดอกไม้",
         "CharacterVoice": "花澤香菜",
         "BirthDay": "1/20",
@@ -52558,6 +52662,7 @@
             5,
             5
         ],
+        "MemoryLobbyBGM": "Midnight Trip",
         "FurnitureInteraction": [
             [
                 205301
@@ -53180,6 +53285,7 @@
             5,
             5
         ],
+        "MemoryLobbyBGM": "Aira",
         "FurnitureInteraction": [
             [
                 4201
@@ -53744,6 +53850,7 @@
             5,
             5
         ],
+        "MemoryLobbyBGM": "Sugar story",
         "FurnitureInteraction": [
             [
                 4108
@@ -54295,6 +54402,7 @@
             5,
             5
         ],
+        "MemoryLobbyBGM": "Theme 121",
         "FurnitureInteraction": [
             [
                 4103
@@ -54460,7 +54568,7 @@
         "Id": 10045,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "DefaultOrder": 103,
         "PathName": "Hoshino_Swimsuit",
@@ -54495,7 +54603,7 @@
         "CharacterAge": "17 ปี",
         "Birthday": "2 ม.ค.",
         "CharacterSSRNew": "มาทางนี้สิครู\nตรงนี้เย็นสบายมากเลยนะ",
-        "ProfileIntroduction": "ประธานคณะกรรมการแผนงานที่มาพักผ่อนอย่างสบายๆ ที่เกาะร้างไร้ผู้คน\n\nถึงแม้เธอจะเอาแต่พร่ำพูดว่าอยากจะนั่งอยู่เฉยๆ อย่างสบายๆ แต่ร่างกายกลับดูพร้อมที่จะลุยทะเลฤดูร้อน และไม่ได้สังเกตเลยว่าตัวเองมีท่าทางที่ดูกระตือรือร้นมากกว่าปกติ",
+        "ProfileIntroduction": "ประธานคณะกรรมการแผนงานที่มาพักผ่อนอย่างสบายๆ ที่เกาะร้างไร้ผู้คน\n\nถึงแม้เธอจะเอาแต่พร่ำพูดว่าอยากจะนั่งอยู่เฉยๆ อย่างสบายๆ แต่ร่างกายกลับดูพร้อม\nที่จะลุยทะเลฤดูร้อน และไม่ได้สังเกตเลยว่าตัวเองมีท่าทางที่ดูกระตือรือร้นมากกว่าปกติ",
         "Hobby": "นอนกลางวัน, ขี้เกียจ",
         "CharacterVoice": "花守ゆみり",
         "BirthDay": "1/2",
@@ -54615,7 +54723,7 @@
             },
             {
                 "SkillType": "normal",
-                "Name": "บุกรุกทางน้ำ",
+                "Name": "โจมตีทางน้ำ",
                 "Desc": "สร้างความเสียหาย <?1> ของค่าโจมตีให้กับศัตรู 1 เป้าหมายทุก 40 วินาที/\nฟื้นฟู HP <?2> ของค่ารักษา",
                 "Parameters": [
                     [
@@ -54920,11 +55028,14 @@
             2,
             2
         ],
+        "MemoryLobbyBGM": "DIVE INTO SUMMER",
         "FurnitureInteraction": [
             [
                 9304
             ],
-            []
+            [
+                9304
+            ]
         ],
         "FavorItemTags": [
             "Swimsuit",
@@ -55083,7 +55194,7 @@
         "Id": 26008,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "DefaultOrder": 104,
         "PathName": "Shizuko_Swimsuit",
@@ -55118,7 +55229,7 @@
         "CharacterAge": "16 ปี",
         "Birthday": "7 ก.ค.",
         "CharacterSSRNew": "",
-        "ProfileIntroduction": "หัวหน้าชมรมจัดงานเทศกาลที่กระตือรือร้นสุดๆ แม้ในฤดูร้อน\n\nหัวหน้าชมรมผู้มีความปรารถนาที่จะเปิดร้านสาขาให้ทั่วคิโวทอส ในวันนี้ความฝันของเธอก็ดำเนินต่อไป จะยากลำบากแค่ไหน หรือมีอุปสรรคใดก็ไม่เป็นปัญหาสำหรับเธอ หากเป็นสถานที่ที่เธอสามารถก้าวเข้าไปถึง สาวน้อยแห่งฤดูร้อนผู้ที่ไม่หวาดกลัวสิ่งใด",
+        "ProfileIntroduction": "หัวหน้าชมรมจัดงานเทศกาลที่กระตือรือร้นสุดๆ แม้ในฤดูร้อน\n\nหัวหน้าชมรมผู้มีความปรารถนาที่จะขยายสาขาร้านเฮียกคิยาโค\nไปให้ทั่วคิโวทอส ในวันนี้ความฝันของเธอก็ดำเนินต่อไป\n ถึงแม้จะยากลำบากแค่ไหน หรือมีอุปสรรคใดก็ไม่หวั่น หากเป็น\nสถานที่ที่เธอสามารถก้าวเข้าไปถึงแล้วละก็ สาวน้อยแห่งฤดูร้อน\nผู้ไม่หวั่นเกรงสิ่งใดก็จะไปให้ถึงทุกที่",
         "Hobby": "ต้อนรับลูกค้า, แสดงเป็นไอดอล",
         "CharacterVoice": "森永千才",
         "BirthDay": "7/7",
@@ -55402,11 +55513,14 @@
             5,
             5
         ],
+        "MemoryLobbyBGM": "KIRISAME",
         "FurnitureInteraction": [
             [
                 9302
             ],
-            []
+            [
+                9302
+            ]
         ],
         "FavorItemTags": [
             "Swimsuit",
@@ -55419,7 +55533,7 @@
         "IsLimited": 2,
         "Weapon": {
             "Name": "Sakura Bonbon",
-            "Desc": "ปืนลูกซองแบบโยนลำ (ปั้มแอ็กชัน) ที่ชิซุโกะนำมาใช้ที่ทะเลฤดูร้อนด้วย\n\nปืนที่มีกลิ่นของอันมิตสึจางๆ ติดอยู่ แต่ในตอนนี้ได้มีกลิ่นของน้ำทะเลกระจายไปทั่ว",
+            "Desc": "ปืนลูกซองแบบโยนลำ (ปั้มแอ็กชัน) ที่ชิซุโกะนำมาใช้ที่ทะเลฤดูร้อนด้วย\n\nปืนที่มีกลิ่นของอันมิตสึจางๆ ติดอยู่ แต่ในตอนนี้มีกลิ่นของน้ำทะเลกระจายไปทั่ว",
             "AdaptationType": "Indoor",
             "AdaptationValue": 1,
             "AttackPower1": 64,
@@ -55564,7 +55678,7 @@
         "Id": 10046,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "DefaultOrder": 105,
         "PathName": "Izuna_Swimsuit",
@@ -55599,7 +55713,7 @@
         "CharacterAge": "15 ปี",
         "Birthday": "16 ธ.ค.",
         "CharacterSSRNew": "ฤดูร้อนคราวนี้!\nอิซุนะจะตั้งใจฝึกฝนกับนายท่านค่ะ!",
-        "ProfileIntroduction": "เด็กสาวสมาชิกชมรมวิจัยศาสตร์นินจาของสหพันธ์เฮียกคิยาโค\nที่เดินทางมาฝึกฝนที่ทะเลฤดูร้อน\n\nนินจาสาวที่เปี่ยมไปด้วยพลังอยู่เสมอ และเมื่อมาถึงที่ทะเลแล้วพลังงานของเธอพุ่งสูงถึง 200 เปอร์เซนต์ สาวน้อยนินจาที่พลังล้นเป็นพิเศษเมื่ออยู่ท่ามกลางแสงแดดของฤดูร้อน  แม้ในวันหยุดฤดูร้อน อิซุนะก็ยังคงฝึกฝนเพื่อที่จะเป็นนินจาที่เหมาะสม และใช้ข้ออ้างการฝึกฝนเล่นสนุกในฤดูร้อนไปกับนายท่านของเธอ",
+        "ProfileIntroduction": "เด็กสาวสมาชิกชมรมวิจัยศาสตร์นินจาของสหพันธ์เฮียกคิยาโค ที่เดินทางมาฝึกฝนที่ทะเลฤดูร้อน\n\nนินจาสาวที่เปี่ยมไปด้วยพลังอยู่เสมอ และเมื่อมาถึงที่ทะเลแล้วพลังงานของเธอพุ่งสูงถึง 200 เปอร์เซนต์ สาวน้อยนินจาที่พลังล้นเป็นพิเศษเมื่ออยู่ท่ามกลางแสงแดดของฤดูร้อน แม้ในวันหยุดฤดูร้อน อิซุนะก็ยังคงฝึกฝนเพื่อที่จะเป็นนินจาที่เหมาะสม และใช้ข้ออ้างการฝึกฝนเล่นสนุกในฤดูร้อนไปกับนายท่านของเธอ",
         "Hobby": "ศึกษาคัมภีร์ศาสตร์นินจา, คุ้มกันนายท่าน",
         "CharacterVoice": "阿澄佳奈",
         "BirthDay": "12/16",
@@ -55639,7 +55753,7 @@
         "Skills": [
             {
                 "SkillType": "ex",
-                "Name": "วิถีนินจาอิซุนะ! - ฤดูร้อน",
+                "Name": "วิถีนินจาอิซุนะ! คิมหันตฤดู!",
                 "Desc": "สร้างความเสียหาย <?1> ของค่าโจมตีให้กับศัตรู 1 เป้าหมาย/\nทำการ<d:ConcentratedTarget>เป้าหมาย (เป็นเวลา 30 วินาที)",
                 "Parameters": [
                     [
@@ -55687,7 +55801,7 @@
             },
             {
                 "SkillType": "normal",
-                "Name": "วิถีนินจาอิซุนะ! วิชาเดือดปุดๆ!",
+                "Name": "วิถีนินจาอิซุนะ! วิชาฟองเดือดพล่าน!",
                 "Desc": "สร้างความเสียหาย <?1> ของค่าโจมตีให้กับศัตรู 1 เป้าหมาย ทุกการโจมตีทั่วไป 6 ครั้ง/\nลด<d:CriticalDamageRateResist> <?2> (เป็นเวลา 20 วินาที)",
                 "Parameters": [
                     [
@@ -55803,7 +55917,7 @@
             },
             {
                 "SkillType": "sub",
-                "Name": "วิถีนินจาอิซุนะ! ออกโรงได้! - ฤดูร้อน",
+                "Name": "วิถีนินจาอิซุนะ วิชาลับคิมหันตฤดู!",
                 "Desc": "เพิ่ม<b:AttackSpeed> <?1> ทุกการโจมตีคริ 25 ครั้ง (เป็นระยะเวลา 23 วินาที)",
                 "Parameters": [
                     [
@@ -55934,11 +56048,14 @@
             6,
             6
         ],
+        "MemoryLobbyBGM": "Sugar story",
         "FurnitureInteraction": [
             [
                 9300
             ],
-            []
+            [
+                9300
+            ]
         ],
         "FavorItemTags": [
             "Swimsuit",
@@ -55951,7 +56068,7 @@
         "IsLimited": 1,
         "Weapon": {
             "Name": "Izuna-Style Super Ninja Tool",
-            "Desc": "ปืนกลมือที่อิซุนะใช้เป็นประจำ\n\nอาวุธนินจาที่ล้ำสมัยสมชื่อ เลยสามารถกันน้ำได้อย่างสมบูรณ์แบบ! สามารถนำไปใช้ใต้น้ำได้อย่างไร้กังวล เป็นอุปกรณ์นินจาไร้ที่ติเพื่อคุ้มครองนายท่าน",
+            "Desc": "ปืนกลมือที่อิซุนะใช้เป็นประจำ\n\nอาวุธนินจาที่ล้ำสมัยสมชื่อ เลยสามารถกันน้ำได้อย่างสมบูรณ์แบบ!\nสามารถนำไปใช้ใต้น้ำได้อย่างไร้กังวล เป็นอุปกรณ์นินจาไร้ที่ติ\nเพื่อคุ้มครองนายท่าน",
             "AdaptationType": "Indoor",
             "AdaptationValue": 1,
             "AttackPower1": 85,
@@ -56096,7 +56213,7 @@
         "Id": 10047,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "DefaultOrder": 106,
         "PathName": "Chise_Swimsuit",
@@ -56131,7 +56248,7 @@
         "CharacterAge": "16 ปี",
         "Birthday": "13 ก.ค.",
         "CharacterSSRNew": "ทะเลนี่มีเรื่องสนุกๆ เยอะแยะเลยน้า~",
-        "ProfileIntroduction": "เด็กสาวเดนปาซังแห่งชมรมหยินหยางที่ชอบยืนเหม่ออยู่เหมือนเดิมไม่เปลี่ยน แม้จะอยู่ท่ามกลางแสงแดดในฤดูร้อน\n\nเมื่อเปลี่ยนเป็นชุดว่ายน้ำ พลังแห่งความเป็นไอดอล (?) ของเธอก็ได้เพิ่มสูงขึ้น เสียงกรี๊ดและแรงเชียร์จากแฟนๆ ที่ชื่นชมเธอดุเดือดและร้อนแรงราวกับแสงแดดในฤดูร้อน แต่ชิเซะก็ดูเหมือนจะไม่ได้สนใจอะไรมากนัก ในวันนี้ชิเซะเองก็ได้มาใช้ช่วงเวลาฤดูร้อนอย่างมีความสุขกับคุณครู และใช้เวลาสนุกสนานไปกับการจิ้มหลังคุณเต่าอยู่ริมทะเล",
+        "ProfileIntroduction": "เด็กสาวเดนปาซังแห่งชมรมหยินหยางที่ชอบยืนเหม่ออยู่เหมือนเดิม แม้จะอยู่ท่ามกลางแสงแดดในฤดูร้อน\n\nเมื่อเปลี่ยนเป็นชุดว่ายน้ำ พลังแห่งความเป็นไอดอล (?) ของเธอก็ได้เพิ่มสูงขึ้น\nเสียงกรี๊ดและแรงเชียร์จากแฟนๆ ที่ชื่นชมเธอก็ร้อนแรงราวกับแสงแดดในฤดูร้อน แต่ชิเซะก็ดูเหมือนจะไม่ได้สนใจอะไรมากนัก ในวันนี้ชิเซะเอง ก็ได้มาใช้ช่วงเวลาฤดูร้อนอย่างมีความสุขกับคุณครู และใช้เวลาสนุกสนานไปกับการจิ้มหลังคุณเต่าอยู่ริมทะเล",
         "Hobby": "แต่งกลอนไฮกุ",
         "CharacterVoice": "嶋村侑",
         "BirthDay": "7/13",
@@ -56169,7 +56286,7 @@
         "Skills": [
             {
                 "SkillType": "ex",
-                "Name": "ฟีเวอร์ชายหาดฤดูร้อน~",
+                "Name": "ชายหาดฤดูร้อน ฟีเวอร์~",
                 "Desc": "สลับสร้างความเสียหาย <?1> ของค่าโจมตีให้กับศัตรูสูงสุด 3 เป้าหมายและศัตรูในรัศมีรอบข้างเป้าหมาย ทำให้<c:Stunned> (เป็นเวลา <?2>)/\nสร้างความเสียหาย <?3> ของค่าโจมตี หากเป้าหมายมีเอฟเฟคกดขี่อยู่ ทำให้<c:Stunned> (เป็นเวลา <?4>)",
                 "Parameters": [
                     [
@@ -56319,7 +56436,7 @@
             },
             {
                 "SkillType": "normal",
-                "Name": "ชู้ตวอลเลย์บอลชายหาด~",
+                "Name": "วอลเลย์บอลชายหาด ชู้ต~",
                 "Desc": "สร้างความเสียหาย <?1> ของค่าโจมตีให้กับศัตรู 1 เป้าหมายทุก 50 วินาที/\nทำให้<c:Stunned> (เป็นเวลา <?2>)",
                 "Parameters": [
                     [
@@ -56557,11 +56674,14 @@
             3,
             3
         ],
+        "MemoryLobbyBGM": "Theme 103",
         "FurnitureInteraction": [
             [
                 9201
             ],
-            []
+            [
+                9201
+            ]
         ],
         "FavorItemTags": [
             "Swimsuit",
@@ -56575,7 +56695,7 @@
         "IsLimited": 1,
         "Weapon": {
             "Name": "Type 575 Grenade Launcher",
-            "Desc": "ปืนยิงระเบิดที่ชิเซะใช้เป็นประจำ\n\nเพื่อเป็นส่วนหนึ่งของการทำงานในฤดูร้อนนี้ ชิเซะยอมรับข้อเสนอของคุณครู และสลักกลอนไฮกุที่แต่งขึ้นเองลงบนกระสุน เป็นของล้ำค่าของชิเซะที่ไม่มีวางขายที่ไหน",
+            "Desc": "ปืนยิงระเบิดที่ชิเซะใช้เป็นประจำ\n\nเพื่อเป็นส่วนหนึ่งของการทำงานในฤดูร้อนนี้ ชิเซะยอมรับข้อเสนอ\nของคุณครู และสลักกลอนไฮกุที่แต่งขึ้นเองลงบนกระสุน\nเป็นของล้ำค่าของชิเซะที่ไม่มีวางขายที่ไหน",
             "AdaptationType": "Outdoor",
             "AdaptationValue": 1,
             "AttackPower1": 70,
@@ -57110,6 +57230,7 @@
             5,
             5
         ],
+        "MemoryLobbyBGM": "Alkaline Tears",
         "FurnitureInteraction": [
             [
                 1108
@@ -57655,6 +57776,7 @@
             6,
             6
         ],
+        "MemoryLobbyBGM": "Midnight Trip",
         "FurnitureInteraction": [
             [
                 8106
@@ -58182,6 +58304,7 @@
             5,
             5
         ],
+        "MemoryLobbyBGM": "Theme 103",
         "FurnitureInteraction": [
             [
                 3103
@@ -58682,6 +58805,7 @@
             6,
             6
         ],
+        "MemoryLobbyBGM": "Koi is Love",
         "FurnitureInteraction": [
             [
                 1100
@@ -59215,6 +59339,7 @@
             3,
             0
         ],
+        "MemoryLobbyBGM": "Theme 131",
         "FurnitureInteraction": [
             [
                 10302
@@ -59716,6 +59841,7 @@
             6,
             0
         ],
+        "MemoryLobbyBGM": "Sugar story",
         "FurnitureInteraction": [
             [
                 10303
@@ -60254,6 +60380,7 @@
             3,
             0
         ],
+        "MemoryLobbyBGM": "Water Drop",
         "FurnitureInteraction": [
             [
                 10302
@@ -60745,6 +60872,7 @@
             6,
             0
         ],
+        "MemoryLobbyBGM": "Aira",
         "FurnitureInteraction": [
             [
                 207302
@@ -61282,6 +61410,7 @@
             2,
             0
         ],
+        "MemoryLobbyBGM": "Midsummer cat",
         "FurnitureInteraction": [
             [
                 10108
@@ -61794,6 +61923,7 @@
             3,
             0
         ],
+        "MemoryLobbyBGM": "Dolce Biblioteca",
         "FurnitureInteraction": [
             [
                 10301
@@ -62328,6 +62458,7 @@
             2,
             0
         ],
+        "MemoryLobbyBGM": "Theme 104",
         "FurnitureInteraction": [
             [
                 10300
@@ -62841,6 +62972,7 @@
             6,
             0
         ],
+        "MemoryLobbyBGM": "Koi is Love",
         "FurnitureInteraction": [
             [
                 2202
@@ -63418,6 +63550,7 @@
             5,
             0
         ],
+        "MemoryLobbyBGM": "Theme 135",
         "FurnitureInteraction": [
             [
                 9107
@@ -64183,6 +64316,7 @@
             2,
             0
         ],
+        "MemoryLobbyBGM": "Theme 139",
         "FurnitureInteraction": [
             [
                 207309
@@ -64920,6 +65054,7 @@
             5,
             0
         ],
+        "MemoryLobbyBGM": "Merry blue",
         "FurnitureInteraction": [
             [
                 207308
@@ -65446,6 +65581,7 @@
             5,
             0
         ],
+        "MemoryLobbyBGM": "Midsummer cat",
         "FurnitureInteraction": [
             [
                 7201
@@ -65927,6 +66063,7 @@
             5,
             0
         ],
+        "MemoryLobbyBGM": "KIRISAME",
         "FurnitureInteraction": [
             [
                 7200
@@ -66432,6 +66569,7 @@
             5,
             0
         ],
+        "MemoryLobbyBGM": "Theme 141",
         "FurnitureInteraction": [
             [
                 7201
@@ -67079,6 +67217,7 @@
             6,
             0
         ],
+        "MemoryLobbyBGM": "Luminous Memory",
         "FurnitureInteraction": [
             [
                 207310
@@ -67359,8 +67498,33 @@
                             227002,
                             239159
                         ]
+                    },
+                    {
+                        "Type": "DMGMulti",
+                        "CriticalCheck": "Always",
+                        "Scale": [
+                            162142,
+                            186468,
+                            235106,
+                            259434,
+                            308072,
+                            332400,
+                            381038,
+                            405352,
+                            454004,
+                            478318
+                        ]
                     }
                 ],
+                "EffectCombine": [
+                    "DMGMulti"
+                ],
+                "EffectCombineLabel": {
+                    "StackLabel": [
+                        "0%",
+                        "100%"
+                    ]
+                },
                 "DamageDist": [
                     500,
                     5000,
@@ -67646,6 +67810,7 @@
             5,
             0
         ],
+        "MemoryLobbyBGM": "Daily Routine 247",
         "FurnitureInteraction": [
             [
                 207312
@@ -68258,6 +68423,7 @@
             5,
             0
         ],
+        "MemoryLobbyBGM": "KIRISAME",
         "FurnitureInteraction": [
             [
                 6301
@@ -68816,6 +68982,7 @@
             5,
             0
         ],
+        "MemoryLobbyBGM": "Walkthrough",
         "FurnitureInteraction": [
             [
                 207313

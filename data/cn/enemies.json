@@ -4659,7 +4659,7 @@
     {
         "Id": 7001812,
         "DevName": "Totem02_Common_M_UntargetExceptEx",
-        "Name": "修复材保管装置",
+        "Name": "修复材料保管装置",
         "SquadType": "Main",
         "Rank": "Minion",
         "BulletType": "Normal",
@@ -5859,7 +5859,7 @@
     {
         "Id": 7010401,
         "DevName": "Drone_Yoheki_Vulcan_M",
-        "Name": "量产型无人机(Vulcan)",
+        "Name": "量产型无人机(机枪)",
         "SquadType": "Main",
         "Rank": "Minion",
         "BulletType": "Normal",
@@ -5899,7 +5899,7 @@
     {
         "Id": 7010402,
         "DevName": "Drone_Yoheki_Vulcan_E",
-        "Name": "量产型无人机(Vulcan)",
+        "Name": "量产型无人机(机枪)",
         "SquadType": "Main",
         "Rank": "Elite",
         "BulletType": "Normal",
@@ -6019,7 +6019,7 @@
     {
         "Id": 7010413,
         "DevName": "Drone_Yoheki_Missile_C",
-        "Name": "改造量产型无人机",
+        "Name": "量产型轻巧的清除器无人机",
         "SquadType": "Main",
         "Rank": "Champion",
         "BulletType": "Normal",
@@ -6061,7 +6061,7 @@
     {
         "Id": 7010421,
         "DevName": "Drone_Blackmarket_Vulcan_M",
-        "Name": "黑市无人机(Vulcan)",
+        "Name": "黑市无人机(机枪)",
         "SquadType": "Main",
         "Rank": "Minion",
         "BulletType": "Normal",
@@ -6178,7 +6178,7 @@
     {
         "Id": 7010441,
         "DevName": "Drone_Kaiserpmc_Vulcan_M",
-        "Name": "军用无人机(Vulcan)",
+        "Name": "军用无人机(机枪)",
         "SquadType": "Main",
         "Rank": "Minion",
         "BulletType": "Normal",
@@ -6217,7 +6217,7 @@
     {
         "Id": 7010442,
         "DevName": "Drone_Kaiserpmc_Vulcan_E",
-        "Name": "军用无人机(Vulcan)",
+        "Name": "军用无人机(机枪)",
         "SquadType": "Main",
         "Rank": "Elite",
         "BulletType": "Normal",
@@ -6968,7 +6968,7 @@
     {
         "Id": 7010573,
         "DevName": "HeavyTank_Decagram_Railgun_C",
-        "Name": "改造实验用坦克",
+        "Name": "实验用改造坦克",
         "SquadType": "Main",
         "Rank": "Champion",
         "BulletType": "Normal",
@@ -8051,7 +8051,7 @@
     {
         "Id": 7011803,
         "DevName": "AEV_Yoheki_Vulcan_C",
-        "Name": "强化版量产型挖掘机",
+        "Name": "强化量产型挖掘机",
         "SquadType": "Main",
         "Rank": "Champion",
         "BulletType": "Normal",
@@ -8124,7 +8124,7 @@
     {
         "Id": 7012001,
         "DevName": "Amas_Millenium_SMG_M",
-        "Name": "AMAS（SMG）",
+        "Name": "AMAS(SMG)",
         "SquadType": "Main",
         "Rank": "Minion",
         "BulletType": "Normal",
@@ -8159,7 +8159,7 @@
     {
         "Id": 7012002,
         "DevName": "Amas_Millenium_SMG_E",
-        "Name": "AMAS（SMG）",
+        "Name": "AMAS(SMG)",
         "SquadType": "Main",
         "Rank": "Elite",
         "BulletType": "Normal",
@@ -8194,7 +8194,7 @@
     {
         "Id": 7012011,
         "DevName": "Amas_Millenium_AR_M",
-        "Name": "AMAS（AR）",
+        "Name": "AMAS(AR)",
         "SquadType": "Main",
         "Rank": "Minion",
         "BulletType": "Normal",
@@ -8229,7 +8229,7 @@
     {
         "Id": 7012012,
         "DevName": "Amas_Millenium_AR_E",
-        "Name": "AMAS（AR）",
+        "Name": "AMAS(AR)",
         "SquadType": "Main",
         "Rank": "Elite",
         "BulletType": "Normal",
@@ -8264,7 +8264,7 @@
     {
         "Id": 7012021,
         "DevName": "Amas_Millenium_Vulcan_M",
-        "Name": "AMAS（Vulcan）",
+        "Name": "AMAS(机枪)",
         "SquadType": "Main",
         "Rank": "Minion",
         "BulletType": "Normal",
@@ -8299,7 +8299,7 @@
     {
         "Id": 7012022,
         "DevName": "Amas_Millenium_Vulcan_E",
-        "Name": "AMAS（Vulcan）",
+        "Name": "AMAS(机枪)",
         "SquadType": "Main",
         "Rank": "Elite",
         "BulletType": "Normal",
@@ -9261,7 +9261,7 @@
     {
         "Id": 7020501,
         "DevName": "Terror_KumabotPapa_Slumpia_SG_M",
-        "Name": "暴走的Kumabot",
+        "Name": "狂暴化熊机器人",
         "SquadType": "Main",
         "Rank": "Minion",
         "BulletType": "Normal",
@@ -9296,7 +9296,7 @@
     {
         "Id": 7020502,
         "DevName": "Terror_KumabotPapa_Slumpia_SG_E",
-        "Name": "暴走的Kumabot",
+        "Name": "狂暴化熊机器人",
         "SquadType": "Main",
         "Rank": "Elite",
         "BulletType": "Normal",
@@ -9366,7 +9366,7 @@
     {
         "Id": 7020511,
         "DevName": "Terror_Usagibot_Slumpia_AR_M",
-        "Name": "暴走的Usagibot",
+        "Name": "狂暴化兔子机器人",
         "SquadType": "Main",
         "Rank": "Minion",
         "BulletType": "Normal",
@@ -9401,7 +9401,7 @@
     {
         "Id": 7020512,
         "DevName": "Terror_Usagibot_Slumpia_AR_E",
-        "Name": "暴走的Usagibot",
+        "Name": "狂暴化兔子机器人",
         "SquadType": "Main",
         "Rank": "Elite",
         "BulletType": "Normal",
@@ -9436,7 +9436,7 @@
     {
         "Id": 7020513,
         "DevName": "Terror_Usagibot_Slumpia_AR_C",
-        "Name": "迅捷的暴走Usagibot",
+        "Name": "敏捷的狂暴化兔子机器人",
         "SquadType": "Main",
         "Rank": "Champion",
         "BulletType": "Normal",
@@ -12010,7 +12010,7 @@
     {
         "Id": 7000233,
         "DevName": "Komakaze_Helmet_SG_C",
-        "Name": "ラブ/RABU",
+        "Name": "良舞",
         "SquadType": "Main",
         "Rank": "Champion",
         "BulletType": "Normal",
@@ -12538,7 +12538,7 @@
     {
         "Id": 7110401,
         "DevName": "Drone_Yoheki_Vulcan_M_WEEK",
-        "Name": "量产型无人机(Vulcan)",
+        "Name": "量产型无人机(机枪)",
         "SquadType": "Main",
         "Rank": "Minion",
         "BulletType": "Normal",
@@ -12618,7 +12618,7 @@
     {
         "Id": 7110421,
         "DevName": "Drone_Blackmarket_Vulcan_M_WEEK",
-        "Name": "黑市无人机(Vulcan)",
+        "Name": "黑市无人机(机枪)",
         "SquadType": "Main",
         "Rank": "Minion",
         "BulletType": "Normal",
@@ -12696,7 +12696,7 @@
     {
         "Id": 7110441,
         "DevName": "Drone_Kaiserpmc_Vulcan_M_WEEK",
-        "Name": "军用无人机(Vulcan)",
+        "Name": "军用无人机(机枪)",
         "SquadType": "Main",
         "Rank": "Minion",
         "BulletType": "Normal",
@@ -12993,7 +12993,7 @@
     {
         "Id": 7110812,
         "DevName": "Sweeper_Decagram_Taser_Yellow_E_WEEK",
-        "Name": "改造清除器",
+        "Name": "轻巧的清除器清除器",
         "SquadType": "Main",
         "Rank": "Elite",
         "BulletType": "Normal",
@@ -13621,7 +13621,7 @@
     {
         "Id": 7301105,
         "DevName": "ChesedDrone_Decagram_Vulcan_Normal",
-        "Name": "实验用无人机(Vulcan)",
+        "Name": "实验用无人机(机枪)",
         "Icon": "EnemyInfo_Drone_Decagram_Vulcan",
         "SquadType": "Main",
         "Rank": "Minion",
@@ -13848,7 +13848,7 @@
     {
         "Id": 7301205,
         "DevName": "ChesedDrone_Decagram_Vulcan_Hard",
-        "Name": "实验用无人机(Vulcan)",
+        "Name": "实验用无人机(机枪)",
         "Icon": "EnemyInfo_Drone_Decagram_Vulcan",
         "SquadType": "Main",
         "Rank": "Minion",
@@ -14075,7 +14075,7 @@
     {
         "Id": 7301305,
         "DevName": "ChesedDrone_Decagram_Vulcan_VeryHard",
-        "Name": "实验用无人机(Vulcan)",
+        "Name": "实验用无人机(机枪)",
         "Icon": "EnemyInfo_Drone_Decagram_Vulcan",
         "SquadType": "Main",
         "Rank": "Minion",
@@ -14302,7 +14302,7 @@
     {
         "Id": 7301405,
         "DevName": "ChesedDrone_Decagram_Vulcan_HardCore",
-        "Name": "实验用无人机(Vulcan)",
+        "Name": "实验用无人机(机枪)",
         "Icon": "EnemyInfo_Drone_Decagram_Vulcan",
         "SquadType": "Main",
         "Rank": "Minion",
@@ -14529,7 +14529,7 @@
     {
         "Id": 7301505,
         "DevName": "ChesedDrone_Decagram_Vulcan_Extreme",
-        "Name": "实验用无人机(Vulcan)",
+        "Name": "实验用无人机(机枪)",
         "Icon": "EnemyInfo_Drone_Decagram_Vulcan",
         "SquadType": "Main",
         "Rank": "Minion",
@@ -14756,7 +14756,7 @@
     {
         "Id": 7301605,
         "DevName": "ChesedDrone_Decagram_Vulcan_Insane",
-        "Name": "实验用无人机(Vulcan)",
+        "Name": "实验用无人机(机枪)",
         "Icon": "EnemyInfo_Drone_Decagram_Vulcan",
         "SquadType": "Main",
         "Rank": "Minion",
@@ -18181,7 +18181,7 @@
     {
         "Id": 7308104,
         "DevName": "Goz_Terror_KumabotPapa_Slumpia_SG_M",
-        "Name": "暴走的Kumabot",
+        "Name": "狂暴化熊机器人",
         "Icon": "EnemyInfo_Terror_KumabotPapa_Slumpia_SG",
         "SquadType": "Main",
         "Rank": "Elite",
@@ -18216,7 +18216,7 @@
     {
         "Id": 7308105,
         "DevName": "Goz_Terror_Usagibot_Slumpia_AR_M",
-        "Name": "暴走的Usagibot",
+        "Name": "狂暴化兔子机器人",
         "Icon": "EnemyInfo_Terror_Usagibot_Slumpia_AR",
         "SquadType": "Main",
         "Rank": "Elite",
@@ -18467,7 +18467,7 @@
     {
         "Id": 7308404,
         "DevName": "Goz_Terror_KumabotPapa_Slumpia_SG_E",
-        "Name": "暴走的Kumabot",
+        "Name": "狂暴化熊机器人",
         "Icon": "EnemyInfo_Terror_KumabotPapa_Slumpia_SG",
         "SquadType": "Main",
         "Rank": "Elite",
@@ -18502,7 +18502,7 @@
     {
         "Id": 7308405,
         "DevName": "Goz_Terror_Usagibot_Slumpia_AR_E",
-        "Name": "暴走的Usagibot",
+        "Name": "狂暴化兔子机器人",
         "Icon": "EnemyInfo_Terror_Usagibot_Slumpia_AR",
         "SquadType": "Main",
         "Rank": "Elite",
@@ -18681,7 +18681,7 @@
     {
         "Id": 7308604,
         "DevName": "Goz_Terror_KumabotPapa_Slumpia_SG_E_Insane",
-        "Name": "暴走的Kumabot",
+        "Name": "狂暴化熊机器人",
         "Icon": "EnemyInfo_Terror_KumabotPapa_Slumpia_SG",
         "SquadType": "Main",
         "Rank": "Elite",
@@ -18716,7 +18716,7 @@
     {
         "Id": 7308605,
         "DevName": "Goz_Terror_Usagibot_Slumpia_AR_E_Insane",
-        "Name": "暴走的Usagibot",
+        "Name": "狂暴化兔子机器人",
         "Icon": "EnemyInfo_Terror_Usagibot_Slumpia_AR",
         "SquadType": "Main",
         "Rank": "Elite",
@@ -18789,7 +18789,7 @@
     {
         "Id": 7310110,
         "DevName": "Wakamo_HoverCraft_Missile_01_A",
-        "Name": "安瓿导弹",
+        "Name": "浓缩导弹",
         "Icon": "EnemyInfo_Wakamo_HoverCraft_Original",
         "SquadType": "Main",
         "Rank": "DestructibleProjectile",
@@ -18823,7 +18823,7 @@
     {
         "Id": 7310120,
         "DevName": "Wakamo_HoverCraft_Missile_02_A",
-        "Name": "鲨鱼导弹",
+        "Name": "猛鲨导弹",
         "Icon": "EnemyInfo_Wakamo_HoverCraft_Original",
         "SquadType": "Main",
         "Rank": "DestructibleProjectile",
@@ -18857,7 +18857,7 @@
     {
         "Id": 7310140,
         "DevName": "Wakamo_HoverCraft_Missile_04_A",
-        "Name": "安瓿导弹",
+        "Name": "黑导弹",
         "Icon": "EnemyInfo_Wakamo_HoverCraft_Original",
         "SquadType": "Main",
         "Rank": "DestructibleProjectile",
@@ -18891,7 +18891,7 @@
     {
         "Id": 7310150,
         "DevName": "Wakamo_HoverCraft_Missile_05_A",
-        "Name": "钢盔团的自制导弹",
+        "Name": "钢盔团自制导弹",
         "Icon": "EnemyInfo_Wakamo_HoverCraft_Original",
         "SquadType": "Main",
         "Rank": "DestructibleProjectile",
@@ -18996,7 +18996,7 @@
     {
         "Id": 7310210,
         "DevName": "Wakamo_HoverCraft_Missile_01_B",
-        "Name": "安瓿导弹",
+        "Name": "浓缩导弹",
         "Icon": "EnemyInfo_Wakamo_HoverCraft_Original",
         "SquadType": "Main",
         "Rank": "DestructibleProjectile",
@@ -19030,7 +19030,7 @@
     {
         "Id": 7310220,
         "DevName": "Wakamo_HoverCraft_Missile_02_B",
-        "Name": "鲨鱼导弹",
+        "Name": "猛鲨导弹",
         "Icon": "EnemyInfo_Wakamo_HoverCraft_Original",
         "SquadType": "Main",
         "Rank": "DestructibleProjectile",
@@ -19064,7 +19064,7 @@
     {
         "Id": 7310240,
         "DevName": "Wakamo_HoverCraft_Missile_04_B",
-        "Name": "黑色导弹",
+        "Name": "黑导弹",
         "Icon": "EnemyInfo_Wakamo_HoverCraft_Original",
         "SquadType": "Main",
         "Rank": "DestructibleProjectile",
@@ -19098,7 +19098,7 @@
     {
         "Id": 7310250,
         "DevName": "Wakamo_HoverCraft_Missile_05_B",
-        "Name": "钢盔团的自制导弹",
+        "Name": "钢盔团自制导弹",
         "Icon": "EnemyInfo_Wakamo_HoverCraft_Original",
         "SquadType": "Main",
         "Rank": "DestructibleProjectile",
@@ -19203,7 +19203,7 @@
     {
         "Id": 7310310,
         "DevName": "Wakamo_HoverCraft_Missile_01_C",
-        "Name": "安瓿导弹",
+        "Name": "浓缩导弹",
         "Icon": "EnemyInfo_Wakamo_HoverCraft_Original",
         "SquadType": "Main",
         "Rank": "DestructibleProjectile",
@@ -19237,7 +19237,7 @@
     {
         "Id": 7310320,
         "DevName": "Wakamo_HoverCraft_Missile_02_C",
-        "Name": "鲨鱼导弹",
+        "Name": "猛鲨导弹",
         "Icon": "EnemyInfo_Wakamo_HoverCraft_Original",
         "SquadType": "Main",
         "Rank": "DestructibleProjectile",
@@ -19271,7 +19271,7 @@
     {
         "Id": 7310340,
         "DevName": "Wakamo_HoverCraft_Missile_04_C",
-        "Name": "黑色导弹",
+        "Name": "黑导弹",
         "Icon": "EnemyInfo_Wakamo_HoverCraft_Original",
         "SquadType": "Main",
         "Rank": "DestructibleProjectile",
@@ -19305,7 +19305,7 @@
     {
         "Id": 7310350,
         "DevName": "Wakamo_HoverCraft_Missile_05_C",
-        "Name": "钢盔团的自制导弹",
+        "Name": "钢盔团自制导弹",
         "Icon": "EnemyInfo_Wakamo_HoverCraft_Original",
         "SquadType": "Main",
         "Rank": "DestructibleProjectile",
@@ -20478,7 +20478,7 @@
     {
         "Id": 7963001,
         "DevName": "ChesedDroid_Colour_AR_Normal",
-        "Name": "实验用自动机(AR)",
+        "Name": "色彩 实验用自动机(AR)",
         "Icon": "EnemyInfo_Droid_Decagram_AR_Colour",
         "SquadType": "Main",
         "Rank": "Minion",
@@ -20515,7 +20515,7 @@
     {
         "Id": 7963003,
         "DevName": "ChesedDrone_Colour_Missile_Normal",
-        "Name": "实验用无人机(导弹)",
+        "Name": "色彩 实验用无人机(导弹)",
         "Icon": "EnemyInfo_Drone_Decagram_Missile_Colour",
         "SquadType": "Main",
         "Rank": "Minion",
@@ -20553,7 +20553,7 @@
     {
         "Id": 7963005,
         "DevName": "ChesedDrone_Colour_Vulcan_Normal",
-        "Name": "实验用无人机(Vulcan)",
+        "Name": "色彩 实验用无人机(机枪)",
         "Icon": "EnemyInfo_Drone_Decagram_Vulcan_Colour",
         "SquadType": "Main",
         "Rank": "Minion",
@@ -20591,7 +20591,7 @@
     {
         "Id": 7963007,
         "DevName": "ChesedGuardTower_Colour_Grenade_Normal",
-        "Name": "防御塔",
+        "Name": "色彩 防御塔",
         "Icon": "EnemyInfo_GuardTower_Decagram_Grenade_Colour",
         "SquadType": "Main",
         "Rank": "Elite",
@@ -20628,7 +20628,7 @@
     {
         "Id": 7963009,
         "DevName": "ChesedGoliath_Colour_Vulcan_Normal",
-        "Name": "歌利亚",
+        "Name": "色彩 歌利亚",
         "Icon": "EnemyInfo_Goliath_Decagram_Vulcan_Colour",
         "SquadType": "Main",
         "Rank": "Elite",
@@ -20705,7 +20705,7 @@
     {
         "Id": 7963101,
         "DevName": "ChesedDroid_Colour_AR_Hard",
-        "Name": "实验用自动机(AR)",
+        "Name": "色彩 实验用自动机(AR)",
         "Icon": "EnemyInfo_Droid_Decagram_AR_Colour",
         "SquadType": "Main",
         "Rank": "Minion",
@@ -20742,7 +20742,7 @@
     {
         "Id": 7963103,
         "DevName": "ChesedDrone_Colour_Missile_Hard",
-        "Name": "实验用无人机(导弹)",
+        "Name": "色彩 实验用自动机(AR)",
         "Icon": "EnemyInfo_Drone_Decagram_Missile_Colour",
         "SquadType": "Main",
         "Rank": "Minion",
@@ -20780,7 +20780,7 @@
     {
         "Id": 7963105,
         "DevName": "ChesedDrone_Colour_Vulcan_Hard",
-        "Name": "实验用无人机(Vulcan)",
+        "Name": "色彩 实验用无人机(机枪)",
         "Icon": "EnemyInfo_Drone_Decagram_Vulcan_Colour",
         "SquadType": "Main",
         "Rank": "Minion",
@@ -20818,7 +20818,7 @@
     {
         "Id": 7963107,
         "DevName": "ChesedGuardTower_Colour_Grenade_Hard",
-        "Name": "防御塔",
+        "Name": "色彩 防御塔",
         "Icon": "EnemyInfo_GuardTower_Decagram_Grenade_Colour",
         "SquadType": "Main",
         "Rank": "Elite",
@@ -20855,7 +20855,7 @@
     {
         "Id": 7963109,
         "DevName": "ChesedGoliath_Colour_Vulcan_Hard",
-        "Name": "歌利亚",
+        "Name": "色彩 歌利亚",
         "Icon": "EnemyInfo_Goliath_Decagram_Vulcan_Colour",
         "SquadType": "Main",
         "Rank": "Elite",
@@ -20932,7 +20932,7 @@
     {
         "Id": 7963201,
         "DevName": "ChesedDroid_Colour_AR_VeryHard",
-        "Name": "实验用自动机(AR)",
+        "Name": "色彩 实验用自动机(AR)",
         "Icon": "EnemyInfo_Droid_Decagram_AR_Colour",
         "SquadType": "Main",
         "Rank": "Minion",
@@ -20969,7 +20969,7 @@
     {
         "Id": 7963203,
         "DevName": "ChesedDrone_Colour_Missile_VeryHard",
-        "Name": "实验用无人机(导弹)",
+        "Name": "色彩 实验用无人机(导弹)",
         "Icon": "EnemyInfo_Drone_Decagram_Missile_Colour",
         "SquadType": "Main",
         "Rank": "Minion",
@@ -21007,7 +21007,7 @@
     {
         "Id": 7963205,
         "DevName": "ChesedDrone_Colour_Vulcan_VeryHard",
-        "Name": "实验用无人机(Vulcan)",
+        "Name": "色彩 实验用无人机(机枪)",
         "Icon": "EnemyInfo_Drone_Decagram_Vulcan_Colour",
         "SquadType": "Main",
         "Rank": "Minion",
@@ -21045,7 +21045,7 @@
     {
         "Id": 7963207,
         "DevName": "ChesedGuardTower_Colour_Grenade_VeryHard",
-        "Name": "防御塔",
+        "Name": "色彩 防御塔",
         "Icon": "EnemyInfo_GuardTower_Decagram_Grenade_Colour",
         "SquadType": "Main",
         "Rank": "Elite",
@@ -21082,7 +21082,7 @@
     {
         "Id": 7963209,
         "DevName": "ChesedGoliath_Colour_Vulcan_VeryHard",
-        "Name": "歌利亚",
+        "Name": "色彩 歌利亚",
         "Icon": "EnemyInfo_Goliath_Decagram_Vulcan_Colour",
         "SquadType": "Main",
         "Rank": "Elite",
@@ -21159,7 +21159,7 @@
     {
         "Id": 7963301,
         "DevName": "ChesedDroid_Colour_AR_HardCore",
-        "Name": "实验用自动机(AR)",
+        "Name": "色彩 实验用自动机(AR)",
         "Icon": "EnemyInfo_Droid_Decagram_AR_Colour",
         "SquadType": "Main",
         "Rank": "Minion",
@@ -21196,7 +21196,7 @@
     {
         "Id": 7963303,
         "DevName": "ChesedDrone_Colour_Missile_HardCore",
-        "Name": "实验用无人机(导弹)",
+        "Name": "色彩 实验用无人机(导弹)",
         "Icon": "EnemyInfo_Drone_Decagram_Missile_Colour",
         "SquadType": "Main",
         "Rank": "Minion",
@@ -21234,7 +21234,7 @@
     {
         "Id": 7963305,
         "DevName": "ChesedDrone_Colour_Vulcan_HardCore",
-        "Name": "实验用无人机(Vulcan)",
+        "Name": "色彩 实验用无人机(机枪)",
         "Icon": "EnemyInfo_Drone_Decagram_Vulcan_Colour",
         "SquadType": "Main",
         "Rank": "Minion",
@@ -21272,7 +21272,7 @@
     {
         "Id": 7963307,
         "DevName": "ChesedGuardTower_Colour_Grenade_HardCore",
-        "Name": "防御塔",
+        "Name": "色彩 防御塔",
         "Icon": "EnemyInfo_GuardTower_Decagram_Grenade_Colour",
         "SquadType": "Main",
         "Rank": "Elite",
@@ -21309,7 +21309,7 @@
     {
         "Id": 7963309,
         "DevName": "ChesedGoliath_Colour_Vulcan_HardCore",
-        "Name": "歌利亚",
+        "Name": "色彩 歌利亚",
         "Icon": "EnemyInfo_Goliath_Decagram_Vulcan_Colour",
         "SquadType": "Main",
         "Rank": "Elite",
@@ -21386,7 +21386,7 @@
     {
         "Id": 7963401,
         "DevName": "ChesedDroid_Colour_AR_Extreme",
-        "Name": "实验用自动机(AR)",
+        "Name": "色彩 实验用自动机(AR)",
         "Icon": "EnemyInfo_Droid_Decagram_AR_Colour",
         "SquadType": "Main",
         "Rank": "Minion",
@@ -21423,7 +21423,7 @@
     {
         "Id": 7963403,
         "DevName": "ChesedDrone_Colour_Missile_Extreme",
-        "Name": "实验用无人机(导弹)",
+        "Name": "色彩 实验用无人机(导弹)",
         "Icon": "EnemyInfo_Drone_Decagram_Missile_Colour",
         "SquadType": "Main",
         "Rank": "Minion",
@@ -21461,7 +21461,7 @@
     {
         "Id": 7963405,
         "DevName": "ChesedDrone_Colour_Vulcan_Extreme",
-        "Name": "实验用无人机(Vulcan)",
+        "Name": "色彩 实验用无人机(机枪)",
         "Icon": "EnemyInfo_Drone_Decagram_Vulcan_Colour",
         "SquadType": "Main",
         "Rank": "Minion",
@@ -21499,7 +21499,7 @@
     {
         "Id": 7963407,
         "DevName": "ChesedGuardTower_Colour_Grenade_Extreme",
-        "Name": "防御塔",
+        "Name": "色彩 防御塔",
         "Icon": "EnemyInfo_GuardTower_Decagram_Grenade_Colour",
         "SquadType": "Main",
         "Rank": "Elite",
@@ -21536,7 +21536,7 @@
     {
         "Id": 7963409,
         "DevName": "ChesedGoliath_Colour_Vulcan_Extreme",
-        "Name": "歌利亚",
+        "Name": "色彩 歌利亚",
         "Icon": "EnemyInfo_Goliath_Decagram_Vulcan_Colour",
         "SquadType": "Main",
         "Rank": "Elite",
@@ -21613,7 +21613,7 @@
     {
         "Id": 7963501,
         "DevName": "ChesedDroid_Colour_AR_Insane",
-        "Name": "实验用自动机(AR)",
+        "Name": "色彩 实验用自动机(AR)",
         "Icon": "EnemyInfo_Droid_Decagram_AR_Colour",
         "SquadType": "Main",
         "Rank": "Minion",
@@ -21650,7 +21650,7 @@
     {
         "Id": 7963503,
         "DevName": "ChesedDrone_Colour_Missile_Insane",
-        "Name": "实验用无人机(导弹)",
+        "Name": "色彩 实验用无人机(导弹)",
         "Icon": "EnemyInfo_Drone_Decagram_Missile_Colour",
         "SquadType": "Main",
         "Rank": "Minion",
@@ -21688,7 +21688,7 @@
     {
         "Id": 7963505,
         "DevName": "ChesedDrone_Colour_Vulcan_Insane",
-        "Name": "实验用无人机(Vulcan)",
+        "Name": "色彩 实验用无人机(机枪)",
         "Icon": "EnemyInfo_Drone_Decagram_Vulcan_Colour",
         "SquadType": "Main",
         "Rank": "Minion",
@@ -21726,7 +21726,7 @@
     {
         "Id": 7963507,
         "DevName": "ChesedGuardTower_Colour_Grenade_Insane",
-        "Name": "防御塔",
+        "Name": "色彩 防御塔",
         "Icon": "EnemyInfo_GuardTower_Decagram_Grenade_Colour",
         "SquadType": "Main",
         "Rank": "Elite",
@@ -21763,7 +21763,7 @@
     {
         "Id": 7963509,
         "DevName": "ChesedGoliath_Colour_Vulcan_Insane",
-        "Name": "歌利亚",
+        "Name": "色彩 歌利亚",
         "Icon": "EnemyInfo_Goliath_Decagram_Vulcan_Colour",
         "SquadType": "Main",
         "Rank": "Elite",
@@ -21801,7 +21801,7 @@
     {
         "Id": 7963511,
         "DevName": "ChesedSweeper_Colour_Taser_Summon_Insane",
-        "Name": "清除器",
+        "Name": "色彩 清除器",
         "Icon": "EnemyInfo_Sweeper_Decagram_Taser_Clour",
         "SquadType": "Main",
         "Rank": "Minion",
@@ -21878,7 +21878,7 @@
     {
         "Id": 7964002,
         "DevName": "Hod_Colour_TemporaryTower_Normal",
-        "Name": "入侵者之柱",
+        "Name": "色彩 入侵者之柱",
         "Icon": "EnemyInfo_HOD_Colour_TemporaryTower",
         "SquadType": "Main",
         "Rank": "Elite",
@@ -21952,7 +21952,7 @@
     {
         "Id": 7964102,
         "DevName": "Hod_Colour_TemporaryTower_Hard",
-        "Name": "入侵者之柱",
+        "Name": "色彩 入侵者之柱",
         "Icon": "EnemyInfo_HOD_Colour_TemporaryTower",
         "SquadType": "Main",
         "Rank": "Elite",
@@ -22026,7 +22026,7 @@
     {
         "Id": 7964202,
         "DevName": "Hod_Colour_TemporaryTower_VeryHard",
-        "Name": "入侵者之柱",
+        "Name": "色彩 入侵者之柱",
         "Icon": "EnemyInfo_HOD_Colour_TemporaryTower",
         "SquadType": "Main",
         "Rank": "Elite",
@@ -22100,7 +22100,7 @@
     {
         "Id": 7964302,
         "DevName": "Hod_Colour_TemporaryTower_HardCore",
-        "Name": "入侵者之柱",
+        "Name": "色彩 入侵者之柱",
         "Icon": "EnemyInfo_HOD_Colour_TemporaryTower",
         "SquadType": "Main",
         "Rank": "Elite",
@@ -22174,7 +22174,7 @@
     {
         "Id": 7964402,
         "DevName": "Hod_Colour_TemporaryTower_Extreme",
-        "Name": "入侵者之柱",
+        "Name": "色彩 入侵者之柱",
         "Icon": "EnemyInfo_HOD_Colour_TemporaryTower",
         "SquadType": "Main",
         "Rank": "Elite",
@@ -22248,7 +22248,7 @@
     {
         "Id": 7964502,
         "DevName": "Hod_Colour_TemporaryTower_Insane",
-        "Name": "入侵者之柱",
+        "Name": "色彩 入侵者之柱",
         "Icon": "EnemyInfo_HOD_Colour_TemporaryTower",
         "SquadType": "Main",
         "Rank": "Elite",
@@ -22280,6 +22280,368 @@
         "AmmoCost": 1,
         "Range": 3000,
         "DamagedRatio": 18000
+    },
+    {
+        "Id": 7965001,
+        "DevName": "PerorozillaColour_default_Normal",
+        "Name": "ペロロジラ（色彩）",
+        "SquadType": "Main",
+        "Rank": "Boss",
+        "BulletType": "Normal",
+        "ArmorType": "LightArmor",
+        "WeaponType": "None",
+        "Tags": [
+            "EnemyXLarge",
+            "Boss"
+        ],
+        "StabilityPoint": 300,
+        "StabilityRate": 7500,
+        "AttackPower1": 400,
+        "AttackPower100": 400,
+        "MaxHP1": 380000,
+        "MaxHP100": 380000,
+        "DefensePower1": 4000,
+        "DefensePower100": 4000,
+        "HealPower1": 1,
+        "HealPower100": 1,
+        "DodgePoint": 100,
+        "AccuracyPoint": 2000,
+        "CriticalPoint": 0,
+        "CriticalDamageRate": 20000,
+        "CriticalResistPoint": 100,
+        "CriticalDamageResistRate": 5000,
+        "MoveSpeed": 0,
+        "AmmoCount": 8,
+        "AmmoCost": 1,
+        "GroggyGauge": 100000000,
+        "GroggyTime": 20000,
+        "Range": 3000,
+        "DamagedRatio": 10000
+    },
+    {
+        "Id": 7965101,
+        "DevName": "PerorozillaColour_default_Hard",
+        "Name": "ペロロジラ（色彩）",
+        "SquadType": "Main",
+        "Rank": "Boss",
+        "BulletType": "Normal",
+        "ArmorType": "LightArmor",
+        "WeaponType": "None",
+        "Tags": [
+            "EnemyXLarge",
+            "Boss"
+        ],
+        "StabilityPoint": 300,
+        "StabilityRate": 7500,
+        "AttackPower1": 650,
+        "AttackPower100": 650,
+        "MaxHP1": 1100000,
+        "MaxHP100": 1100000,
+        "DefensePower1": 4000,
+        "DefensePower100": 4000,
+        "HealPower1": 1,
+        "HealPower100": 1,
+        "DodgePoint": 100,
+        "AccuracyPoint": 2000,
+        "CriticalPoint": 0,
+        "CriticalDamageRate": 20000,
+        "CriticalResistPoint": 100,
+        "CriticalDamageResistRate": 5000,
+        "MoveSpeed": 0,
+        "AmmoCount": 8,
+        "AmmoCost": 1,
+        "GroggyGauge": 100000000,
+        "GroggyTime": 20000,
+        "Range": 3000,
+        "DamagedRatio": 10000
+    },
+    {
+        "Id": 7965201,
+        "DevName": "PerorozillaColour_default_VeryHard",
+        "Name": "ペロロジラ（色彩）",
+        "SquadType": "Main",
+        "Rank": "Boss",
+        "BulletType": "Normal",
+        "ArmorType": "LightArmor",
+        "WeaponType": "None",
+        "Tags": [
+            "EnemyXLarge",
+            "Boss"
+        ],
+        "StabilityPoint": 300,
+        "StabilityRate": 7500,
+        "AttackPower1": 900,
+        "AttackPower100": 900,
+        "MaxHP1": 1600000,
+        "MaxHP100": 1600000,
+        "DefensePower1": 4000,
+        "DefensePower100": 4000,
+        "HealPower1": 1,
+        "HealPower100": 1,
+        "DodgePoint": 100,
+        "AccuracyPoint": 2000,
+        "CriticalPoint": 0,
+        "CriticalDamageRate": 20000,
+        "CriticalResistPoint": 100,
+        "CriticalDamageResistRate": 5000,
+        "MoveSpeed": 0,
+        "AmmoCount": 8,
+        "AmmoCost": 1,
+        "GroggyGauge": 100000000,
+        "GroggyTime": 20000,
+        "Range": 3000,
+        "DamagedRatio": 10000
+    },
+    {
+        "Id": 7965301,
+        "DevName": "PerorozillaColour_default_HardCore",
+        "Name": "ペロロジラ（色彩）",
+        "SquadType": "Main",
+        "Rank": "Boss",
+        "BulletType": "Normal",
+        "ArmorType": "LightArmor",
+        "WeaponType": "None",
+        "Tags": [
+            "EnemyXLarge",
+            "Boss"
+        ],
+        "StabilityPoint": 300,
+        "StabilityRate": 7500,
+        "AttackPower1": 1400,
+        "AttackPower100": 1400,
+        "MaxHP1": 2500000,
+        "MaxHP100": 2500000,
+        "DefensePower1": 4000,
+        "DefensePower100": 4000,
+        "HealPower1": 1,
+        "HealPower100": 1,
+        "DodgePoint": 100,
+        "AccuracyPoint": 2000,
+        "CriticalPoint": 0,
+        "CriticalDamageRate": 20000,
+        "CriticalResistPoint": 100,
+        "CriticalDamageResistRate": 5000,
+        "MoveSpeed": 0,
+        "AmmoCount": 8,
+        "AmmoCost": 1,
+        "GroggyGauge": 100000000,
+        "GroggyTime": 20000,
+        "Range": 3000,
+        "DamagedRatio": 10000
+    },
+    {
+        "Id": 7965401,
+        "DevName": "PerorozillaColour_default_Extreme",
+        "Name": "ペロロジラ（色彩）",
+        "SquadType": "Main",
+        "Rank": "Boss",
+        "BulletType": "Normal",
+        "ArmorType": "LightArmor",
+        "WeaponType": "None",
+        "Tags": [
+            "EnemyXLarge",
+            "Boss"
+        ],
+        "StabilityPoint": 300,
+        "StabilityRate": 7500,
+        "AttackPower1": 6000,
+        "AttackPower100": 6000,
+        "MaxHP1": 8000000,
+        "MaxHP100": 8000000,
+        "DefensePower1": 4000,
+        "DefensePower100": 4000,
+        "HealPower1": 1,
+        "HealPower100": 1,
+        "DodgePoint": 100,
+        "AccuracyPoint": 2000,
+        "CriticalPoint": 0,
+        "CriticalDamageRate": 20000,
+        "CriticalResistPoint": 100,
+        "CriticalDamageResistRate": 5000,
+        "MoveSpeed": 0,
+        "AmmoCount": 8,
+        "AmmoCost": 1,
+        "GroggyGauge": 100000000,
+        "GroggyTime": 20000,
+        "Range": 3000,
+        "DamagedRatio": 10000
+    },
+    {
+        "Id": 7965501,
+        "DevName": "PerorozillaColour_default_Insane",
+        "Name": "ペロロジラ（色彩）",
+        "SquadType": "Main",
+        "Rank": "Boss",
+        "BulletType": "Mystic",
+        "ArmorType": "LightArmor",
+        "WeaponType": "None",
+        "Tags": [
+            "EnemyXLarge",
+            "Boss"
+        ],
+        "StabilityPoint": 1000,
+        "StabilityRate": 7500,
+        "AttackPower1": 10800,
+        "AttackPower100": 10800,
+        "MaxHP1": 22000000,
+        "MaxHP100": 22000000,
+        "DefensePower1": 6000,
+        "DefensePower100": 6000,
+        "HealPower1": 1,
+        "HealPower100": 1,
+        "DodgePoint": 100,
+        "AccuracyPoint": 2000,
+        "CriticalPoint": 0,
+        "CriticalDamageRate": 20000,
+        "CriticalResistPoint": 100,
+        "CriticalDamageResistRate": 8000,
+        "MoveSpeed": 0,
+        "AmmoCount": 8,
+        "AmmoCost": 1,
+        "GroggyGauge": 100000000,
+        "GroggyTime": 20000,
+        "Range": 3000,
+        "DamagedRatio": 10000
+    },
+    {
+        "Id": 7965002,
+        "DevName": "PerorozillaColour_MiddleSize01",
+        "Name": "佩洛洛士兵",
+        "SquadType": "Main",
+        "Rank": "Summoned",
+        "BulletType": "Normal",
+        "ArmorType": "LightArmor",
+        "WeaponType": "None",
+        "Tags": [
+            "EnemyMedium",
+            "Perorozilla_MiddleSize"
+        ],
+        "StabilityPoint": 300,
+        "StabilityRate": 7500,
+        "AttackPower1": 100,
+        "AttackPower100": 2000,
+        "MaxHP1": 5250,
+        "MaxHP100": 154000,
+        "DefensePower1": 4000,
+        "DefensePower100": 4000,
+        "HealPower1": 1,
+        "HealPower100": 1,
+        "DodgePoint": 100,
+        "AccuracyPoint": 2000,
+        "CriticalPoint": 0,
+        "CriticalDamageRate": 20000,
+        "CriticalResistPoint": 100,
+        "CriticalDamageResistRate": 5000,
+        "MoveSpeed": 0,
+        "AmmoCount": 8,
+        "AmmoCost": 2,
+        "Range": 3000,
+        "DamagedRatio": 10000
+    },
+    {
+        "Id": 7965026,
+        "DevName": "PerorozillaColour_SmallSize01",
+        "Name": "小型佩洛洛士兵",
+        "SquadType": "Main",
+        "Rank": "Minion",
+        "BulletType": "Normal",
+        "ArmorType": "LightArmor",
+        "WeaponType": "None",
+        "Tags": [
+            "EnemySmall",
+            "Perorozilla_SmallSize"
+        ],
+        "StabilityPoint": 300,
+        "StabilityRate": 7500,
+        "AttackPower1": 500,
+        "AttackPower100": 500,
+        "MaxHP1": 5250,
+        "MaxHP100": 154000,
+        "DefensePower1": 2000,
+        "DefensePower100": 2000,
+        "HealPower1": 1,
+        "HealPower100": 1,
+        "DodgePoint": 100,
+        "AccuracyPoint": 2000,
+        "CriticalPoint": 0,
+        "CriticalDamageRate": 20000,
+        "CriticalResistPoint": 100,
+        "CriticalDamageResistRate": 5000,
+        "MoveSpeed": 0,
+        "AmmoCount": 8,
+        "AmmoCost": 2,
+        "Range": 3000,
+        "DamagedRatio": 10000
+    },
+    {
+        "Id": 7965031,
+        "DevName": "PerorozillaColour_Insane_MiddleSize01_Move",
+        "Name": "佩洛洛士兵",
+        "SquadType": "Main",
+        "Rank": "Summoned",
+        "BulletType": "Normal",
+        "ArmorType": "LightArmor",
+        "WeaponType": "None",
+        "Tags": [
+            "EnemyMedium",
+            "Perorozilla_MiddleSize"
+        ],
+        "StabilityPoint": 1000,
+        "StabilityRate": 7500,
+        "AttackPower1": 2000,
+        "AttackPower100": 2000,
+        "MaxHP1": 250000,
+        "MaxHP100": 250000,
+        "DefensePower1": 6000,
+        "DefensePower100": 6000,
+        "HealPower1": 1,
+        "HealPower100": 1,
+        "DodgePoint": 100,
+        "AccuracyPoint": 2000,
+        "CriticalPoint": 0,
+        "CriticalDamageRate": 20000,
+        "CriticalResistPoint": 100,
+        "CriticalDamageResistRate": 8000,
+        "MoveSpeed": 0,
+        "AmmoCount": 8,
+        "AmmoCost": 2,
+        "Range": 3000,
+        "DamagedRatio": 10000
+    },
+    {
+        "Id": 7965061,
+        "DevName": "PerorozillaColour_Insane_SmallSize01",
+        "Name": "小型佩洛洛士兵",
+        "SquadType": "Main",
+        "Rank": "Minion",
+        "BulletType": "Normal",
+        "ArmorType": "LightArmor",
+        "WeaponType": "None",
+        "Tags": [
+            "EnemySmall",
+            "Perorozilla_SmallSize"
+        ],
+        "StabilityPoint": 300,
+        "StabilityRate": 7500,
+        "AttackPower1": 500,
+        "AttackPower100": 500,
+        "MaxHP1": 5250,
+        "MaxHP100": 154000,
+        "DefensePower1": 2000,
+        "DefensePower100": 2000,
+        "HealPower1": 1,
+        "HealPower100": 1,
+        "DodgePoint": 100,
+        "AccuracyPoint": 2000,
+        "CriticalPoint": 0,
+        "CriticalDamageRate": 20000,
+        "CriticalResistPoint": 100,
+        "CriticalDamageResistRate": 5000,
+        "MoveSpeed": 0,
+        "AmmoCount": 8,
+        "AmmoCost": 2,
+        "Range": 3000,
+        "DamagedRatio": 10000
     },
     {
         "Id": 8010001,
@@ -24033,7 +24395,7 @@
     {
         "Id": 8040015,
         "DevName": "Sweeper_LightArmor_Taser_Brown_E_804Event_15",
-        "Name": "强化轻量清除器",
+        "Name": "强化轻巧的清除器",
         "SquadType": "Main",
         "Rank": "Elite",
         "BulletType": "Normal",
@@ -24673,7 +25035,7 @@
     {
         "Id": 8050044,
         "DevName": "Drone_Blackmarket_Vulcan_E_805Event04",
-        "Name": "黑市无人机(Vulcan)",
+        "Name": "黑市无人机(机枪)",
         "SquadType": "Main",
         "Rank": "Elite",
         "BulletType": "Normal",
@@ -25517,7 +25879,7 @@
     {
         "Id": 8060054,
         "DevName": "Sweeper_Unarmed_Taser_Blue_E_806Event_05",
-        "Name": "改造神秘清除器",
+        "Name": "神秘的改造清除器",
         "SquadType": "Main",
         "Rank": "Elite",
         "BulletType": "Normal",
@@ -25555,7 +25917,7 @@
     {
         "Id": 8060055,
         "DevName": "Sweeper_Unarmed_Taser_DarkBlue_E_806Event_05",
-        "Name": "强化神秘清除器",
+        "Name": "神秘的强化清除器",
         "SquadType": "Main",
         "Rank": "Elite",
         "BulletType": "Normal",
@@ -26319,7 +26681,7 @@
     {
         "Id": 8090023,
         "DevName": "GuardTurret_Kurokame_Grenede_C_809Event_03",
-        "Name": "强化的黑龟组防御塔",
+        "Name": "黑龟组强化防御塔",
         "SquadType": "Main",
         "Rank": "Champion",
         "BulletType": "Normal",
@@ -26974,7 +27336,7 @@
     {
         "Id": 8100014,
         "DevName": "Totem02_Common_M_810Event_03",
-        "Name": "修复材保管装置",
+        "Name": "修复材料保管装置",
         "SquadType": "Main",
         "Rank": "Minion",
         "BulletType": "Normal",
@@ -27221,7 +27583,7 @@
     {
         "Id": 8100035,
         "DevName": "Totem02_Common_M_810Event_05",
-        "Name": "修复材保管装置",
+        "Name": "修复材料保管装置",
         "SquadType": "Main",
         "Rank": "Minion",
         "BulletType": "Normal",
@@ -28067,7 +28429,7 @@
     {
         "Id": 8130010,
         "DevName": "DroidThin_Hippie_HG_M_813Event01",
-        "Name": "流浪自动机(HG)",
+        "Name": "嬉皮机器人(HG)",
         "SquadType": "Main",
         "Rank": "Minion",
         "BulletType": "Normal",
@@ -28102,7 +28464,7 @@
     {
         "Id": 8130011,
         "DevName": "DroidThin_Hippie_HG_E_813Event01",
-        "Name": "流浪自动机(HG)",
+        "Name": "嬉皮机器人(HG)",
         "SquadType": "Main",
         "Rank": "Elite",
         "BulletType": "Normal",
@@ -28137,7 +28499,7 @@
     {
         "Id": 8130012,
         "DevName": "DroidThin_Hippie_AR_M_813Event01",
-        "Name": "流浪自动机(AR)",
+        "Name": "嬉皮机器人(AR)",
         "SquadType": "Main",
         "Rank": "Minion",
         "BulletType": "Normal",
@@ -28172,7 +28534,7 @@
     {
         "Id": 8130013,
         "DevName": "DroidThin_Hippie_AR_C_813Event01",
-        "Name": "流浪自动机(AR)",
+        "Name": "嬉皮机器人(AR)",
         "SquadType": "Main",
         "Rank": "Champion",
         "BulletType": "Normal",
@@ -28208,7 +28570,7 @@
     {
         "Id": 8130014,
         "DevName": "DroidThin_Hippie_SR_M_813Event01",
-        "Name": "流浪自动机(SR)",
+        "Name": "嬉皮机器人(SR)",
         "SquadType": "Main",
         "Rank": "Minion",
         "BulletType": "Normal",
@@ -28243,7 +28605,7 @@
     {
         "Id": 8130015,
         "DevName": "DroidThin_Hippie_SR_E_813Event01",
-        "Name": "流浪自动机(SR)",
+        "Name": "嬉皮机器人(SR)",
         "SquadType": "Main",
         "Rank": "Elite",
         "BulletType": "Normal",
@@ -28278,7 +28640,7 @@
     {
         "Id": 8130020,
         "DevName": "DroidThin_Hippie_HG_M_813Event05",
-        "Name": "流浪自动机(HG)",
+        "Name": "嬉皮机器人(HG)",
         "SquadType": "Main",
         "Rank": "Minion",
         "BulletType": "Normal",
@@ -28313,7 +28675,7 @@
     {
         "Id": 8130021,
         "DevName": "DroidThin_Hippie_HG_E_813Event05",
-        "Name": "流浪自动机(HG)",
+        "Name": "嬉皮机器人(HG)",
         "SquadType": "Main",
         "Rank": "Elite",
         "BulletType": "Normal",
@@ -28348,7 +28710,7 @@
     {
         "Id": 8130022,
         "DevName": "DroidThin_Hippie_AR_M_813Event05",
-        "Name": "流浪自动机(AR)",
+        "Name": "嬉皮机器人(AR)",
         "SquadType": "Main",
         "Rank": "Minion",
         "BulletType": "Normal",
@@ -28383,7 +28745,7 @@
     {
         "Id": 8130023,
         "DevName": "DroidThin_Hippie_AR_C_813Event05",
-        "Name": "流浪自动机(AR)",
+        "Name": "嬉皮机器人(AR)",
         "SquadType": "Main",
         "Rank": "Champion",
         "BulletType": "Normal",
@@ -28419,7 +28781,7 @@
     {
         "Id": 8130024,
         "DevName": "DroidThin_Hippie_SR_M_813Event05",
-        "Name": "流浪自动机(SR)",
+        "Name": "嬉皮机器人(SR)",
         "SquadType": "Main",
         "Rank": "Minion",
         "BulletType": "Normal",
@@ -28454,7 +28816,7 @@
     {
         "Id": 8130025,
         "DevName": "DroidThin_Hippie_SR_E_813Event05",
-        "Name": "流浪自动机(SR)",
+        "Name": "嬉皮机器人(SR)",
         "SquadType": "Main",
         "Rank": "Elite",
         "BulletType": "Normal",
@@ -28489,7 +28851,7 @@
     {
         "Id": 8130030,
         "DevName": "AEV_Yoheki_Vulcan_C_813Event03",
-        "Name": "强化版量产型挖掘机",
+        "Name": "强化量产型挖掘机",
         "SquadType": "Main",
         "Rank": "Champion",
         "BulletType": "Normal",
@@ -28525,7 +28887,7 @@
     {
         "Id": 8140011,
         "DevName": "Komakaze_Helmet_SG_C_814Event01",
-        "Name": "ラブ/RABU",
+        "Name": "良舞",
         "SquadType": "Main",
         "Rank": "Champion",
         "BulletType": "Normal",
@@ -28670,7 +29032,7 @@
     {
         "Id": 8140031,
         "DevName": "Komakaze_Helmet_SG_C_814Event05",
-        "Name": "ラブ/RABU",
+        "Name": "良舞",
         "SquadType": "Main",
         "Rank": "Champion",
         "BulletType": "Normal",
@@ -28816,7 +29178,7 @@
     {
         "Id": 8150031,
         "DevName": "Sweeper_LightArmor_Taser_White_M_815Event03",
-        "Name": "轻量清除器",
+        "Name": "轻巧的清除器",
         "SquadType": "Main",
         "Rank": "Minion",
         "BulletType": "Normal",
@@ -28854,7 +29216,7 @@
     {
         "Id": 8150032,
         "DevName": "Sweeper_LightArmor_Taser_Green_E_815Event03",
-        "Name": "改造轻量清除器",
+        "Name": "轻巧的改造清除器",
         "SquadType": "Main",
         "Rank": "Elite",
         "BulletType": "Normal",
@@ -28894,7 +29256,7 @@
     {
         "Id": 8150033,
         "DevName": "Sweeper_LightArmor_Taser_Brown_E_815Event03",
-        "Name": "强化轻量清除器",
+        "Name": "强化轻巧的清除器",
         "SquadType": "Main",
         "Rank": "Elite",
         "BulletType": "Normal",
@@ -28973,7 +29335,7 @@
     {
         "Id": 8150035,
         "DevName": "Sweeper_Decagram_Taser_Yellow_E_815Event03",
-        "Name": "改造清除器",
+        "Name": "轻巧的清除器清除器",
         "SquadType": "Main",
         "Rank": "Elite",
         "BulletType": "Normal",
@@ -29093,7 +29455,7 @@
     {
         "Id": 8150038,
         "DevName": "Sweeper_Unarmed_Taser_Blue_E_815Event03",
-        "Name": "改造神秘清除器",
+        "Name": "神秘的改造清除器",
         "SquadType": "Main",
         "Rank": "Elite",
         "BulletType": "Normal",
@@ -29131,7 +29493,7 @@
     {
         "Id": 8150039,
         "DevName": "Sweeper_Unarmed_Taser_DarkBlue_E_815Event03",
-        "Name": "强化神秘清除器",
+        "Name": "神秘的强化清除器",
         "SquadType": "Main",
         "Rank": "Elite",
         "BulletType": "Normal",
@@ -29470,7 +29832,7 @@
     {
         "Id": 8150060,
         "DevName": "Komakaze_Helmet_SG_C_815Event06",
-        "Name": "ラブ/RABU",
+        "Name": "良舞",
         "SquadType": "Main",
         "Rank": "Champion",
         "BulletType": "Normal",
@@ -29580,7 +29942,7 @@
     {
         "Id": 8150021,
         "DevName": "Terror_Usagibot_Slumpia_AR_E_815Event0201",
-        "Name": "暴走的Usagibot",
+        "Name": "狂暴化兔子机器人",
         "SquadType": "Main",
         "Rank": "Elite",
         "BulletType": "Normal",
@@ -29615,7 +29977,7 @@
     {
         "Id": 8150022,
         "DevName": "Terror_Usagibot_Slumpia_AR_E_815Event0202",
-        "Name": "暴走的Usagibot",
+        "Name": "狂暴化兔子机器人",
         "SquadType": "Main",
         "Rank": "Elite",
         "BulletType": "Normal",
@@ -29650,7 +30012,7 @@
     {
         "Id": 8150023,
         "DevName": "Terror_Usagibot_Slumpia_AR_E_815Event0203",
-        "Name": "暴走的Usagibot",
+        "Name": "狂暴化兔子机器人",
         "SquadType": "Main",
         "Rank": "Elite",
         "BulletType": "Normal",
@@ -29685,7 +30047,7 @@
     {
         "Id": 8150024,
         "DevName": "Terror_Usagibot_Slumpia_AR_E_815Event0204",
-        "Name": "暴走的Usagibot",
+        "Name": "狂暴化兔子机器人",
         "SquadType": "Main",
         "Rank": "Elite",
         "BulletType": "Normal",
@@ -29720,7 +30082,7 @@
     {
         "Id": 8150025,
         "DevName": "Terror_Usagibot_Slumpia_AR_E_815Event0205",
-        "Name": "暴走的Usagibot",
+        "Name": "狂暴化兔子机器人",
         "SquadType": "Main",
         "Rank": "Elite",
         "BulletType": "Normal",
@@ -29755,7 +30117,7 @@
     {
         "Id": 8150026,
         "DevName": "Terror_Usagibot_Slumpia_AR_E_815Event0206",
-        "Name": "暴走的Usagibot",
+        "Name": "狂暴化兔子机器人",
         "SquadType": "Main",
         "Rank": "Elite",
         "BulletType": "Normal",
@@ -30002,7 +30364,7 @@
     {
         "Id": 8160010,
         "DevName": "AEV_Yoheki_Vulcan_C_816Evenet01",
-        "Name": "强化版量产型挖掘机",
+        "Name": "强化量产型挖掘机",
         "SquadType": "Main",
         "Rank": "Champion",
         "BulletType": "Normal",
@@ -30483,7 +30845,7 @@
     {
         "Id": 8160055,
         "DevName": "Terror_KumabotPapa_Slumpia_SG_E_816Event05",
-        "Name": "暴走的Kumabot",
+        "Name": "狂暴化熊机器人",
         "SquadType": "Main",
         "Rank": "Elite",
         "BulletType": "Normal",
@@ -30518,7 +30880,7 @@
     {
         "Id": 8160056,
         "DevName": "Terror_Usagibot_Slumpia_AR_E_816Event05",
-        "Name": "暴走的Usagibot",
+        "Name": "狂暴化兔子机器人",
         "SquadType": "Main",
         "Rank": "Elite",
         "BulletType": "Normal",
@@ -30553,7 +30915,7 @@
     {
         "Id": 8160057,
         "DevName": "AEV_Yoheki_Vulcan_C_816Event05",
-        "Name": "强化版量产型挖掘机",
+        "Name": "强化量产型挖掘机",
         "SquadType": "Main",
         "Rank": "Elite",
         "BulletType": "Normal",
@@ -30779,7 +31141,7 @@
     {
         "Id": 8170012,
         "DevName": "Terror_Usagibot_Slumpia_AR_C_817Event01",
-        "Name": "迅捷的暴走Usagibot",
+        "Name": "敏捷的狂暴化兔子机器人",
         "SquadType": "Main",
         "Rank": "Champion",
         "BulletType": "Normal",
@@ -30814,7 +31176,7 @@
     {
         "Id": 8170013,
         "DevName": "DroidThin_Hippie_HG_E_817Event01",
-        "Name": "流浪自动机(HG)",
+        "Name": "嬉皮机器人(HG)",
         "SquadType": "Main",
         "Rank": "Elite",
         "BulletType": "Normal",
@@ -30849,7 +31211,7 @@
     {
         "Id": 8170014,
         "DevName": "DroidThin_Hippie_SR_E_817Event01",
-        "Name": "流浪自动机(SR)",
+        "Name": "嬉皮机器人(SR)",
         "SquadType": "Main",
         "Rank": "Elite",
         "BulletType": "Normal",
@@ -30925,7 +31287,7 @@
     {
         "Id": 8170031,
         "DevName": "Sweeper_Decagram_Taser_Yellow_E_817Event03",
-        "Name": "改造清除器",
+        "Name": "轻巧的清除器清除器",
         "SquadType": "Main",
         "Rank": "Elite",
         "BulletType": "Normal",
@@ -31042,7 +31404,7 @@
     {
         "Id": 8170050,
         "DevName": "GuardTurret_Kurokame_Grenede_C_817Event05",
-        "Name": "强化的黑龟组防御塔",
+        "Name": "黑龟组强化防御塔",
         "SquadType": "Main",
         "Rank": "Champion",
         "BulletType": "Normal",
@@ -31079,7 +31441,7 @@
     {
         "Id": 8170051,
         "DevName": "DroidThin_Hippie_HG_E_817Event05",
-        "Name": "流浪自动机(HG)",
+        "Name": "嬉皮机器人(HG)",
         "SquadType": "Main",
         "Rank": "Elite",
         "BulletType": "Normal",
@@ -31114,7 +31476,7 @@
     {
         "Id": 8170052,
         "DevName": "DroidThin_Hippie_SR_E_817Event05",
-        "Name": "流浪自动机(SR)",
+        "Name": "嬉皮机器人(SR)",
         "SquadType": "Main",
         "Rank": "Elite",
         "BulletType": "Normal",
@@ -31402,7 +31764,7 @@
     {
         "Id": 8180051,
         "DevName": "Amas_Millenium_SMG_E_818Event05",
-        "Name": "AMAS（SMG）",
+        "Name": "AMAS(SMG)",
         "SquadType": "Main",
         "Rank": "Elite",
         "BulletType": "Normal",
@@ -31437,7 +31799,7 @@
     {
         "Id": 8180053,
         "DevName": "Amas_Millenium_Vulcan_M_818Event05",
-        "Name": "AMAS（Vulcan）",
+        "Name": "AMAS(机枪)",
         "SquadType": "Main",
         "Rank": "Minion",
         "BulletType": "Normal",
@@ -31587,7 +31949,7 @@
     {
         "Id": 8180033,
         "DevName": "AEV_Yoheki_Vulcan_C_818Evenet03",
-        "Name": "强化版量产型挖掘机",
+        "Name": "强化量产型挖掘机",
         "SquadType": "Main",
         "Rank": "Champion",
         "BulletType": "Normal",
@@ -31664,7 +32026,7 @@
     {
         "Id": 8190010,
         "DevName": "Komakaze_Helmet_SG_C_819Event01",
-        "Name": "ラブ/RABU",
+        "Name": "良舞",
         "SquadType": "Main",
         "Rank": "Champion",
         "BulletType": "Normal",
@@ -32176,7 +32538,7 @@
     {
         "Id": 8190035,
         "DevName": "Totem02_Common_M_819Event03",
-        "Name": "修复材保管装置",
+        "Name": "修复材料保管装置",
         "SquadType": "Main",
         "Rank": "Minion",
         "BulletType": "Normal",
@@ -32922,7 +33284,7 @@
     {
         "Id": 8200014,
         "DevName": "ArmoredCar_Valkyrie_MG_C_820Event01",
-        "Name": "高級食材運搬車",
+        "Name": "高级食材搬运车",
         "SquadType": "Main",
         "Rank": "Champion",
         "BulletType": "Normal",
@@ -33224,7 +33586,7 @@
     {
         "Id": 8200034,
         "DevName": "Drone_Blackmarket_Vulcan_E_820Evnet03",
-        "Name": "黑市无人机(Vulcan)",
+        "Name": "黑市无人机(机枪)",
         "SquadType": "Main",
         "Rank": "Elite",
         "BulletType": "Normal",
@@ -38542,7 +38904,7 @@
     {
         "Id": 7710012,
         "DevName": "Sweeper_Decagram_Taser_Yellow_E_Special",
-        "Name": "改造清除器",
+        "Name": "轻巧的清除器清除器",
         "SquadType": "Main",
         "Rank": "Elite",
         "BulletType": "Normal",
@@ -38666,7 +39028,7 @@
     {
         "Id": 7710042,
         "DevName": "Sweeper_Decagram_Taser_Yellow_E_Special_Guard",
-        "Name": "改造清除器",
+        "Name": "轻巧的清除器清除器",
         "SquadType": "Main",
         "Rank": "Elite",
         "BulletType": "Normal",
@@ -38790,7 +39152,7 @@
     {
         "Id": 7710342,
         "DevName": "Sweeper_Decagram_Taser_Yellow_E_Special_Kether",
-        "Name": "改造清除器",
+        "Name": "轻巧的清除器清除器",
         "SquadType": "Main",
         "Rank": "Elite",
         "BulletType": "Normal",
@@ -39070,7 +39432,7 @@
     {
         "Id": 7710522,
         "DevName": "Sweeper_Decagram_Taser_Yellow_E_Special_Challenge02",
-        "Name": "改造清除器",
+        "Name": "轻巧的清除器清除器",
         "SquadType": "Main",
         "Rank": "Elite",
         "BulletType": "Normal",
@@ -39228,7 +39590,7 @@
     {
         "Id": 7710532,
         "DevName": "Sweeper_Decagram_Taser_Yellow_E_Special_Challenge03",
-        "Name": "改造清除器",
+        "Name": "轻巧的清除器清除器",
         "SquadType": "Main",
         "Rank": "Elite",
         "BulletType": "Normal",
@@ -39347,7 +39709,7 @@
     {
         "Id": 7710535,
         "DevName": "Drone_Decagram_Vulcan_M_Special_Challenge03",
-        "Name": "实验用无人机(Vulcan)",
+        "Name": "实验用无人机(机枪)",
         "SquadType": "Main",
         "Rank": "Minion",
         "BulletType": "Normal",
@@ -39385,7 +39747,7 @@
     {
         "Id": 7710536,
         "DevName": "Totem02_Common_M_UntargetExceptEx_Special_Challenge03",
-        "Name": "修复材保管装置",
+        "Name": "修复材料保管装置",
         "SquadType": "Main",
         "Rank": "Minion",
         "BulletType": "Normal",
@@ -39499,7 +39861,7 @@
     {
         "Id": 7710544,
         "DevName": "Sweeper_Decagram_Taser_Yellow_E_Special_Kether_Challenge04",
-        "Name": "改造清除器",
+        "Name": "轻巧的清除器清除器",
         "SquadType": "Main",
         "Rank": "Elite",
         "BulletType": "Normal",
@@ -39583,7 +39945,7 @@
     {
         "Id": 7800001,
         "DevName": "Sweeper_LightArmor_Taser_White_M_TimeAttack_01",
-        "Name": "轻量清除器",
+        "Name": "轻巧的清除器",
         "SquadType": "Main",
         "Rank": "Minion",
         "BulletType": "Normal",
@@ -39621,7 +39983,7 @@
     {
         "Id": 7800101,
         "DevName": "Sweeper_LightArmor_Taser_Green_E_TimeAttack_01",
-        "Name": "改造轻量清除器",
+        "Name": "轻巧的改造清除器",
         "SquadType": "Main",
         "Rank": "Elite",
         "BulletType": "Normal",
@@ -39661,7 +40023,7 @@
     {
         "Id": 7800201,
         "DevName": "Sweeper_LightArmor_Taser_Brown_E_TimeAttack_01",
-        "Name": "强化轻量清除器",
+        "Name": "强化轻巧的清除器",
         "SquadType": "Main",
         "Rank": "Elite",
         "BulletType": "Normal",
@@ -39701,7 +40063,7 @@
     {
         "Id": 7800002,
         "DevName": "Sweeper_LightArmor_Taser_White_M_TimeAttack_02",
-        "Name": "轻量清除器",
+        "Name": "轻巧的清除器",
         "SquadType": "Main",
         "Rank": "Minion",
         "BulletType": "Normal",
@@ -39739,7 +40101,7 @@
     {
         "Id": 7800102,
         "DevName": "Sweeper_LightArmor_Taser_Green_E_TimeAttack_02",
-        "Name": "改造轻量清除器",
+        "Name": "轻巧的改造清除器",
         "SquadType": "Main",
         "Rank": "Elite",
         "BulletType": "Normal",
@@ -39779,7 +40141,7 @@
     {
         "Id": 7800202,
         "DevName": "Sweeper_LightArmor_Taser_Brown_E_TimeAttack_02",
-        "Name": "强化轻量清除器",
+        "Name": "强化轻巧的清除器",
         "SquadType": "Main",
         "Rank": "Elite",
         "BulletType": "Normal",
@@ -39819,7 +40181,7 @@
     {
         "Id": 7800003,
         "DevName": "Sweeper_LightArmor_Taser_White_M_TimeAttack_03",
-        "Name": "轻量清除器",
+        "Name": "轻巧的清除器",
         "SquadType": "Main",
         "Rank": "Minion",
         "BulletType": "Normal",
@@ -39857,7 +40219,7 @@
     {
         "Id": 7800103,
         "DevName": "Sweeper_LightArmor_Taser_Green_E_TimeAttack_03",
-        "Name": "改造轻量清除器",
+        "Name": "轻巧的改造清除器",
         "SquadType": "Main",
         "Rank": "Elite",
         "BulletType": "Normal",
@@ -39897,7 +40259,7 @@
     {
         "Id": 7800203,
         "DevName": "Sweeper_LightArmor_Taser_Brown_E_TimeAttack_03",
-        "Name": "强化轻量清除器",
+        "Name": "强化轻巧的清除器",
         "SquadType": "Main",
         "Rank": "Elite",
         "BulletType": "Normal",
@@ -39937,7 +40299,7 @@
     {
         "Id": 7800004,
         "DevName": "Sweeper_LightArmor_Taser_White_M_TimeAttack_04",
-        "Name": "轻量清除器",
+        "Name": "轻巧的清除器",
         "SquadType": "Main",
         "Rank": "Minion",
         "BulletType": "Normal",
@@ -39975,7 +40337,7 @@
     {
         "Id": 7800104,
         "DevName": "Sweeper_LightArmor_Taser_Green_E_TimeAttack_04",
-        "Name": "改造轻量清除器",
+        "Name": "轻巧的改造清除器",
         "SquadType": "Main",
         "Rank": "Elite",
         "BulletType": "Normal",
@@ -40015,7 +40377,7 @@
     {
         "Id": 7800204,
         "DevName": "Sweeper_LightArmor_Taser_Brown_E_TimeAttack_04",
-        "Name": "强化轻量清除器",
+        "Name": "强化轻巧的清除器",
         "SquadType": "Main",
         "Rank": "Elite",
         "BulletType": "Normal",
@@ -40094,7 +40456,7 @@
     {
         "Id": 7801101,
         "DevName": "Sweeper_Decagram_Taser_Yellow_E_TimeAttack_01",
-        "Name": "改造清除器",
+        "Name": "轻巧的清除器清除器",
         "SquadType": "Main",
         "Rank": "Elite",
         "BulletType": "Normal",
@@ -40215,7 +40577,7 @@
     {
         "Id": 7801102,
         "DevName": "Sweeper_Decagram_Taser_Yellow_E_TimeAttack_02",
-        "Name": "改造清除器",
+        "Name": "轻巧的清除器清除器",
         "SquadType": "Main",
         "Rank": "Elite",
         "BulletType": "Normal",
@@ -40336,7 +40698,7 @@
     {
         "Id": 7801103,
         "DevName": "Sweeper_Decagram_Taser_Yellow_E_TimeAttack_03",
-        "Name": "改造清除器",
+        "Name": "轻巧的清除器清除器",
         "SquadType": "Main",
         "Rank": "Elite",
         "BulletType": "Normal",
@@ -40457,7 +40819,7 @@
     {
         "Id": 7801104,
         "DevName": "Sweeper_Decagram_Taser_Yellow_E_TimeAttack_04",
-        "Name": "改造清除器",
+        "Name": "轻巧的清除器清除器",
         "SquadType": "Main",
         "Rank": "Elite",
         "BulletType": "Normal",
@@ -40577,7 +40939,7 @@
     {
         "Id": 7802101,
         "DevName": "Sweeper_Unarmed_Taser_Blue_E_TimeAttack_01",
-        "Name": "改造神秘清除器",
+        "Name": "神秘的改造清除器",
         "SquadType": "Main",
         "Rank": "Elite",
         "BulletType": "Normal",
@@ -40615,7 +40977,7 @@
     {
         "Id": 7802201,
         "DevName": "Sweeper_Unarmed_Taser_DarkBlue_E_TimeAttack_01",
-        "Name": "强化神秘清除器",
+        "Name": "神秘的强化清除器",
         "SquadType": "Main",
         "Rank": "Elite",
         "BulletType": "Normal",
@@ -40693,7 +41055,7 @@
     {
         "Id": 7802102,
         "DevName": "Sweeper_Unarmed_Taser_Blue_E_TimeAttack_02",
-        "Name": "改造神秘清除器",
+        "Name": "神秘的改造清除器",
         "SquadType": "Main",
         "Rank": "Elite",
         "BulletType": "Normal",
@@ -40731,7 +41093,7 @@
     {
         "Id": 7802202,
         "DevName": "Sweeper_Unarmed_Taser_DarkBlue_E_TimeAttack_02",
-        "Name": "强化神秘清除器",
+        "Name": "神秘的强化清除器",
         "SquadType": "Main",
         "Rank": "Elite",
         "BulletType": "Normal",
@@ -40809,7 +41171,7 @@
     {
         "Id": 7802103,
         "DevName": "Sweeper_Unarmed_Taser_Blue_E_TimeAttack_03",
-        "Name": "改造神秘清除器",
+        "Name": "神秘的改造清除器",
         "SquadType": "Main",
         "Rank": "Elite",
         "BulletType": "Normal",
@@ -40847,7 +41209,7 @@
     {
         "Id": 7802203,
         "DevName": "Sweeper_Unarmed_Taser_DarkBlue_E_TimeAttack_03",
-        "Name": "强化神秘清除器",
+        "Name": "神秘的强化清除器",
         "SquadType": "Main",
         "Rank": "Elite",
         "BulletType": "Normal",
@@ -40925,7 +41287,7 @@
     {
         "Id": 7802104,
         "DevName": "Sweeper_Unarmed_Taser_Blue_E_TimeAttack_04",
-        "Name": "改造神秘清除器",
+        "Name": "神秘的改造清除器",
         "SquadType": "Main",
         "Rank": "Elite",
         "BulletType": "Normal",
@@ -40963,7 +41325,7 @@
     {
         "Id": 7802204,
         "DevName": "Sweeper_Unarmed_Taser_DarkBlue_E_TimeAttack_04",
-        "Name": "强化神秘清除器",
+        "Name": "神秘的强化清除器",
         "SquadType": "Main",
         "Rank": "Elite",
         "BulletType": "Normal",

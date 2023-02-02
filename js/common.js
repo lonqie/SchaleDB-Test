@@ -375,6 +375,8 @@ let itemSearchOptions = {
             "106": false,
             "107": false,
             "108": false,
+            "109": false,
+            "110": false
         },
         "EquipmentTier": {
             "1": false,
@@ -1860,14 +1862,15 @@ class EnemyFinder {
 
         data.raids.WorldRaid.forEach(raid => {
             raid.EnemyList.forEach((difficulty, difficultyId) => {
-                if (!raid.IsReleased[regionID]) return
+                if (!raid.IsReleased[regionID] || difficultyId > raid.DifficultyMax[regionID]) return
                 difficulty.forEach(enemyId => {
                     const enemy = find(data.enemies, 'Id', enemyId)[0]
-                    if (enemy.SquadType == 'Main' && enemy.Rank != "Summoned") {
+                    if (enemy.SquadType == 'Main' && !enemy.DevName.includes('_Resort_') && !enemy.DevName.includes('_HolyRelic_') && !enemy.DevName.includes('_HolyRelic02_')) {
                         const raidIcon = (enemy.Icon !== undefined && enemy.Icon != "") ? `images/enemy/${enemy.Icon}` : `images/raid/icon/Icon_${raid.PathName}`
+                        const raidDifficulty = raid.Id >= 821000 ? getLocalizedString('RaidDifficulty', difficultyId) : String.fromCharCode(65+difficultyId)
                         statPreviewEnemyList.push({
                             id: enemy.Id,
-                            name: enemy.Name,
+                            name: `${enemy.Name} (${raidDifficulty})`,
                             searchTerms: [getTranslatedString(raid, 'Name')],
                             source: getLocalizedString("StageType", "WorldRaid"),
                             rank: enemy.Rank,
@@ -1901,6 +1904,35 @@ class EnemyFinder {
                     }
                 })
             })            
+        })
+
+        data.stages.ConquestMap.forEach(conquestMap => {
+            if (!data.common.regions[regionID].events.includes(conquestMap.EventId)) return
+            const mapName = getLocalizedString('ConquestMap', ''+conquestMap.EventId % 10000)
+            conquestMap.Maps.filter(m => m.Difficulty == "VeryHard").forEach(challengeMap => {
+                challengeMap.Tiles.filter(t => t.Type == "Battle").forEach(tile => {
+                    const stage = find(data.stages.Conquest, "Id", tile.Id)[0]
+                    stage.Formations.forEach((formation) => {
+                        formation.EnemyList.forEach(enemyId => {
+                            const enemy = find(data.enemies, 'Id', enemyId)[0]
+                            if (enemy.Id >= 8010000 && enemy.SquadType == 'Main') {
+                                if (enemy.SquadType == 'Main' && enemy.Rank != "Summoned") {
+                                    statPreviewEnemyList.push({
+                                        id: enemy.Id,
+                                        name: `${enemy.Name} (${getLocalizedString("StageType", "Conquest")})`,
+                                        searchTerms: [mapName],
+                                        source: mapName,
+                                        rank: enemy.Rank,
+                                        icon: `images/enemy/${enemy.Icon}`,
+                                        level: formation.Level[enemy_rank[enemy.Rank]],
+                                        grade: formation.Grade[enemy_rank[enemy.Rank]]
+                                    })
+                                }
+                            }
+                        })
+                    })
+                })
+            })
         })
 
         data.stages.SchoolDungeon.forEach(stage => {
@@ -2761,6 +2793,8 @@ function loadModule(moduleName, entry=null) {
                 $('#statpreview-tab-attributes').tab('show')
                 $('#ba-student-modal-statpreview').modal('show')
             })
+
+            $('#statpreview-attributes-maxinput').on('click', maxStudentAttributes)
 
             $('#ba-student-search-filter-collection').toggle(Object.keys(studentCollection).length > 0)
             $(".tooltip").tooltip("hide")
@@ -3867,7 +3901,7 @@ function processStudent() {
         $(".ba-student-lobby").show()
         $("#ba-student-lobby-img").attr("src", `images/student/lobby/Lobbyillust_Icon_${student.DevName}_01.png`)
         $("#ba-student-lobby-unlock").text(student.MemoryLobby[regionID])
-        $(".ba-student-lobby").tooltip('dispose').tooltip({title: getRichTooltip(null, translateUI('memory_lobby_student', [getTranslatedString(student,'Name')]), null, null, translateUI('memory_lobby_unlock', [student.MemoryLobby[regionID], getTranslatedString(student,'Name')])), placement: 'top', html: true})
+        $(".ba-student-lobby").tooltip('dispose').tooltip({title: getRichTooltip(null, translateUI('memory_lobby_student', [getTranslatedString(student,'Name')]), null, null, `${translateUI('memory_lobby_unlock', [student.MemoryLobby[regionID], getTranslatedString(student,'Name')])}\n${translateUI('memory_lobby_bgm', [student.MemoryLobbyBGM])}`), placement: 'top', html: true})
     } else {
         $(".ba-student-lobby").hide()
     }
@@ -4457,18 +4491,19 @@ function loadRaid(raidId) {
             }
             $('#ba-raid-info-tab-profile').hide()
             raid = findOrDefault(data.raids.WorldRaid,"Id",raidId,814000)[0]
-            const maxDifficulty = raid.Level.length
-            if (raid_difficulty >= maxDifficulty)  {
+            const maxDifficulty = raid.DifficultyMax[regionID]
+            if (raid_difficulty > maxDifficulty)  {
                 raid_difficulty = 0
             }
             
             //generate difficulty tabs
             let difficultyHtml = ''
-            for (let i = 0; i < maxDifficulty; i++) {
+            for (let i = 0; i <= maxDifficulty; i++) {
                 const difficultyName = raidId >= 821000 ? getLocalizedString('RaidDifficulty', i) : String.fromCharCode(65+i) 
                 difficultyHtml += `<a id="ba-worldraid-difficulty-${i}" class="nav-link" data-bs-toggle="tab" href="#" onclick="changeWorldRaidDifficulty(${i})">${difficultyName}</a>`
                 
             }
+
             $('#ba-worldraid-difficulty').html(difficultyHtml)
             $(`#ba-worldraid-difficulty-${raid_difficulty}`).tab('show')
         
@@ -4516,9 +4551,12 @@ function loadRaidSeasonRewards(el) {
 
 function changeRaidDifficulty(difficultyId) {
     raid_difficulty = difficultyId
-    let skillsHTML = '', tabsHtml = ''
+    let tabsHtml = ''
     $('#ba-raid-header').css('background-image', `url('images/raid/Boss_Portrait_${raid.PathName}${raid_difficulty == 5 ? "_Insane" : ""}_Lobby.png')`)
     $('#ba-raid-level').text(`Lv. ${raid_level[raid_difficulty]}`)
+    $('#ba-raid-entrycost').html(getStageEntryCurrency(8, 1))
+    $('#ba-raid-entrycost > span').tooltip({html: true})
+
     if (selectedEnemy >= raid.EnemyList[raid_difficulty].length) {selectedEnemy = 0}
 
     let raidEnemyList = ''
@@ -4535,29 +4573,7 @@ function changeRaidDifficulty(difficultyId) {
     $('#raid-enemy-list .dropdown-menu').html(raidEnemyList)
     $('#raid-enemy-list').toggleClass('disabled', raid.EnemyList[raid_difficulty].length <= 1)
 
-    raid.RaidSkill.forEach(function(el, i) {
-        if (raid_difficulty < el.MinDifficulty) return
-        
-        let skillType
-        switch (el.SkillType) {
-            case 'EX':
-                skillType = translateUI('student_skill_ex')
-                break;
-            case 'Passive':
-                skillType = translateUI('student_skill_passive')
-                break;
-            default:
-                skillType = 'unknown'
-                break;
-        }
-
-        if (skillsHTML != '') skillsHTML += '<div class="ba-panel-separator"></div>'
-        skillsHTML += `<div class="d-flex flex-row align-items-center mt-2"><img class="ba-raid-skill d-inline-block me-3" src="images/raid/skill/${el.Icon}.png"><div class="d-inline-block"><div><h4 class="me-2 d-inline">${getTranslatedString(el, 'Name')}</h4></div><div class="mt-1"><p class="d-inline" style="font-style: italic;">${skillType}</p>${el.ATGCost > 0 ? '<p class="d-inline text-bold"> ・ <i>ATG:</i> '+el.ATGCost+'</p>' : ''}</div></div></div><p class="mt-1 mb-2 p-1">${getSkillText(getTranslatedString(el, 'Desc'), el["Parameters"+userLang], raid_difficulty+1, 'raid')}</p>`
-    })
-    $('#ba-raid-skills').empty().html(skillsHTML)
-    $('.ba-skill-debuff, .ba-skill-buff, .ba-skill-special, .ba-skill-cc').each(function(i,el) {
-        $(el).tooltip({html: true})
-    })
+    populateRaidSkills('#ba-raid-skills', raid.RaidSkill, raid_difficulty)
 
     let html = ''
 
@@ -4578,6 +4594,8 @@ function changeTimeAttackDifficulty(difficultyId) {
     ta_difficulty = difficultyId
     let rulesHTML = '', enemyHTML = '';
     $('#ba-timeattack-level').text(`Lv.${raid.EnemyLevel[ta_difficulty]}`)
+    $('#ba-timeattack-entrycost').html(getStageEntryCurrency(17, 1))
+    $('#ba-timeattack-entrycost > span').tooltip({html: true})
 
     const enemyRanks = ['Minion','Elite','Champion','Boss']
     raid.Formations[ta_difficulty].EnemyList.forEach(function(el, i) {
@@ -4605,6 +4623,10 @@ function changeWorldRaidDifficulty(difficultyId) {
     let skillsHTML = ''
     $('#ba-raid-header').css('background-image', `url('images/raid/Boss_Portrait_${raid.PathName}_Lobby.png')`)
     $('#ba-raid-level').text(`Lv. ${raid.Level[raid_difficulty]}`)
+    $('#ba-raid-entrycost').html(getStageEntryCurrency(raid.EntryCost[raid_difficulty][0], raid.EntryCost[raid_difficulty][1]))
+    $('#ba-raid-entrycost > span').tooltip({html: true})
+
+
     if (selectedEnemy >= raid.EnemyList[raid_difficulty].length) {selectedEnemy = 0}
 
     let raidEnemyList = ''
@@ -4622,30 +4644,7 @@ function changeWorldRaidDifficulty(difficultyId) {
     $('#raid-enemy-list').toggleClass('disabled', raid.EnemyList[raid_difficulty].length <= 1)
 
     const raidSkillList = (raid.UseRaidSkillList !== undefined ? find(data.raids.Raid,'Id',raid.UseRaidSkillList)[0].RaidSkill : raid.RaidSkill) 
-
-    raidSkillList.forEach(function(el, i) {
-        if (raid_difficulty < el.MinDifficulty) return
-
-        let skillType
-        switch (el.SkillType) {
-            case 'EX':
-                skillType = translateUI('student_skill_ex')
-                break;
-            case 'Passive':
-                skillType = translateUI('student_skill_passive')
-                break;
-            default:
-                skillType = 'unknown'
-                break;
-        }
-
-        if (skillsHTML != '') skillsHTML += '<div class="ba-panel-separator"></div>'
-        skillsHTML += `<div class="d-flex flex-row align-items-center mt-2"><img class="ba-raid-skill d-inline-block me-3" src="images/raid/skill/${el.Icon}.png"><div class="d-inline-block"><div><h4 class="me-2 d-inline">${getTranslatedString(el, 'Name')}</h4></div><div class="mt-1"><p class="d-inline" style="font-style: italic;">${skillType}</p>${el.ATGCost > 0 ? '<p class="d-inline text-bold"> ・ <i>ATG:</i> '+el.ATGCost+'</p>' : ''}</div></div></div><p class="mt-1 mb-2 p-1">${getSkillText(getTranslatedString(el, 'Desc'), el.Parameters, raid_difficulty+1, 'raid')}</p>`
-    })
-    $('#ba-raid-skills').empty().html(skillsHTML)
-    $('.ba-skill-debuff, .ba-skill-buff, .ba-skill-special, .ba-skill-cc').each(function(i,el) {
-        $(el).tooltip({html: true})
-    })
+    populateRaidSkills('#ba-raid-skills', raidSkillList, raid_difficulty)
 
     let html = ''
     const rewardsArray = (regionID == 1 && "RewardsGlobal" in raid) ? raid.RewardsGlobal : raid.Rewards
@@ -4666,8 +4665,8 @@ function changeWorldRaidDifficulty(difficultyId) {
             const chance = group[1] % 1
 
             let chanceStrings = []
-            if (certain > 0) chanceStrings.push(`&times;${certain} (100&#37;)`)
-            if (chance > 0) chanceStrings.push(`&times;1 (${getProbabilityText(chance)})`)
+            if (certain > 0) chanceStrings.push(`100&#37; (&times;${certain})`)
+            if (chance > 0) chanceStrings.push(`${getProbabilityText(chance)} (&times;1)`)
 
             html += `<div class="item-group">${itemsHtml}<span class="label-chance">${chanceStrings.join(', ')}</span></div>`
         })
@@ -4678,6 +4677,35 @@ function changeWorldRaidDifficulty(difficultyId) {
     $(`#ba-raid-rewards .item-drop`).tooltip({html: true})
     
     changeRaidEnemy(selectedEnemy)
+}
+
+function getStageEntryCurrency(currencyId, amount) {
+    const currency = find(data.currency, 'Id', currencyId)[0]
+    return `<span class="ba-info-pill bg-theme my-0 me-2" data-bs-toggle="tooltip" data-bs-placement="top" title="${getRichTooltip(`images/items/${currency.Icon}.png`, getTranslatedString(currency, 'Name'), getLocalizedString('ItemCategory', 'Currency'), '', getTranslatedString(currency, 'Desc'), 50, 'img-scale-larger')}"><img src="images/items/${currency.Icon}.png" style="height:26px;width:auto;"><span class="label ps-0 text-bold">&times;${amount}</span></span>`
+}
+
+function populateRaidSkills(container, skills, difficulty) {
+    let skillsHTML = ''
+    skills.forEach(raidSkill => {
+        if (difficulty < raidSkill.MinDifficulty) return
+        
+        let skillType
+        switch (raidSkill.SkillType) {
+            case 'EX':
+                skillType = translateUI('student_skill_ex')
+                break;
+            case 'Passive':
+                skillType = translateUI('student_skill_passive')
+                break;
+            default:
+                skillType = 'unknown'
+                break;
+        }
+
+        if (skillsHTML != '') skillsHTML += '<div class="ba-panel-separator"></div>'
+        skillsHTML += `<div class="d-flex flex-row align-items-center mt-2"><img class="ba-raid-skill d-inline-block me-3" src="images/raid/skill/${raidSkill.Icon}.png"><div class="d-inline-block"><div><h4 class="me-2 d-inline">${getTranslatedString(raidSkill, 'Name')}</h4></div><div class="mt-1"><p class="d-inline" style="font-style: italic;">${skillType}</p>${raidSkill.ATGCost > 0 ? '<p class="d-inline text-bold"> ・ <i>ATG:</i> '+raidSkill.ATGCost+'</p>' : ''}</div></div></div><p class="mt-1 mb-2 p-1">${getSkillText(getTranslatedString(raidSkill, 'Desc'), raidSkill["Parameters"+userLang], difficulty+1, 'raid')}</p>`
+    })
+    $(container).empty().html(skillsHTML).find('.ba-skill-debuff, .ba-skill-buff, .ba-skill-special, .ba-skill-cc').tooltip({html: true})
 }
 
 function changeRaidEnemy(num) {
@@ -4713,8 +4741,9 @@ function changeRaidEnemy(num) {
                     groggyTooltip += getLocalizedString('GroggyCondition', 'TypeDamage', [`<b class="ba-col-${weakTo.toLowerCase()}">${getLocalizedString('BulletType', weakTo)}</b>`])
                 }
 
-                if (raid.PathName in data.localization.GroggyCondition) {
-                    groggyTooltip += '\n' + getLocalizedString('GroggyCondition', raid.PathName)
+                const raidName = raid.PathName.split('_')[0]
+                if (raidName in data.localization.GroggyCondition) {
+                    groggyTooltip += (groggyTooltip != '' ? '\n' : '') + getLocalizedString('GroggyCondition', raidName)
                 }
                 
                 if (groggyTooltip != '') {
@@ -4798,6 +4827,8 @@ function loadStage(id) {
                 stage = findOrDefault(data.stages.Conquest, "Id", id, 8153902)[0]
                 loadedStage = stage
                 if (loadedStageList != '' + stage.EventId % 10000) populateEventStageList(stage.EventId)
+                $('.ba-stage-map-tile').removeClass('selected')
+                $(`.ba-stage-map-tile[data-stage-id="${id}"]`).addClass('selected')
             } else {
                 mode = 'Event'
                 stage = findOrDefault(data.stages.Event, "Id", id, 8012301)[0]
@@ -4834,6 +4865,13 @@ function loadStage(id) {
         $('#ba-stage-drops-tabs').toggle(mode != 'WeekDungeon')
         if (mode == 'WeekDungeon') $('#ba-stage-drops-default-tab').tab('show')
 
+        $('#ba-stage-tab-conquest').toggle(mode == 'Conquest')
+        $('#ba-stage-tab-map').toggle(mode != 'Conquest')
+
+        if (mode != "Conquest" && $('#ba-stage-tab-conquest').hasClass('active')) {
+            $('#ba-stage-tab-enemies').tab('show')
+        }
+
         $('#ba-stage-name').html(getStageName(stage, mode))
         $('#ba-stage-title').html(getStageTitle(stage, mode))
         $('#ba-stage-level').text(translateUI('rec_level') + ' Lv.'+ stage.Level)
@@ -4846,10 +4884,20 @@ function loadStage(id) {
             if (el in stage.Rewards && stage.Rewards[el].length > 0) {
                 let labelText = null
 
-                if (el == "FirstClear") {
-                    labelText = translateUI("stage_reward_firstclear")
-                } else if (el == "ThreeStar") {
-                    labelText = '<i class="fa-solid fa-star"></i>'.repeat(3)//translateUI("stage_reward_threestar")
+                if (mode == "Conquest") {
+                    if (el == "Default" && !stage.SubStage) {
+                        labelText = translateUI('conquest_operate')
+                    } else if (el == "FirstClear" || stage.SubStage) {
+                        labelText = translateUI('conquest_occupy')
+                    }
+                } else {
+                    if (el == "FirstClear") {
+                        labelText = translateUI("stage_reward_firstclear")
+                    }
+                }
+
+                if (el == "ThreeStar") {
+                    labelText = '<i class="fa-solid fa-star"></i>'.repeat(3)
                 }
                 
                 const rewardsArray = regionID == 1 && stage.RewardsGlobal !== undefined ? stage.RewardsGlobal[el] : stage.Rewards[el]
@@ -4859,6 +4907,53 @@ function loadStage(id) {
                 })
             }
         })
+
+        if (mode == 'Conquest') {
+
+            if ("Calculate" in stage.Rewards) {
+                let calculateRewardsHtml = ''
+                for (let i = 0; i < 3; i++) {
+                    stage.Rewards.Calculate[i].forEach(reward => {
+                        calculateRewardsHtml += getDropIconHTML(reward[0], reward[1], 1, 1, false, `Lv.${i+1}`)
+                    })
+                }
+
+                if (calculateRewardsHtml != "") {
+                    $(`#conquest-settlement-reward`).html(`<div class="item-icon-list">${calculateRewardsHtml}</div>`).find('.item-drop').tooltip({html: true})
+                } else {
+                    $(`#conquest-settlement-reward`).html(`<p class="mb-0 text-center">${translateUI('rewards_none')}</p>`)
+                }
+            }
+            
+            if ("SchoolBuff" in stage) {
+                let schoolHtml = ""
+                let html = ""
+                stage.SchoolBuff[0].forEach(school => {
+                    html += `<span class="school-bonus-icon"><img class="invert-light" src="images/schoolicon/School_Icon_${school.toUpperCase()}_W.png"></span>`
+                })
+                if (html != "") schoolHtml += `<div class="p-2"><p class="mb-2 text-center">${translateUI('conquest_operate')}</p><div class="school-bonus-list">${html}</div></div>`
+                html = ""
+                stage.SchoolBuff[1].forEach(school => {
+                    html += `<span class="school-bonus-icon"><img class="invert-light" src="images/schoolicon/School_Icon_${school.toUpperCase()}_W.png"></span>`
+                })
+                if (html != "") schoolHtml += `<div class="p-2"><p class="mb-2 text-center">${translateUI('conquest_occupy')}</p><div class="school-bonus-list">${html}</div></div>`
+                $(`#conquest-school-bonus-list`).html(`<div class="d-flex justify-content-center gap-2">${schoolHtml}</div>`)
+                if (schoolHtml != "") {
+                    let bonusText = ""
+                    bonusText += `<div class="ba-panel-separator my-2"></div>`
+
+                    for (let i = 1; i <= 3; i++) {
+                        bonusText += `<p class="mb-0"><b>${translateUI("school_bonus_num_students", [2*i])}</b>${translateUI("school_bonus_conquest", [40*i, 50*i])}</p>`
+                    }
+
+                    $(`#conquest-school-bonus-list`).append(bonusText)
+                }
+                $('#conquest-school-bonus').toggle(schoolHtml != "")
+            } else {
+                $('#conquest-school-bonus').hide()
+            }
+            
+        }
 
         if (dropsHtml != "") {
             $(`#ba-stage-drops`).html(`<div class="item-icon-list">${dropsHtml}</div>`)
@@ -4915,9 +5010,11 @@ function loadStage(id) {
                 conditionsHtml += `<div>${starIcon}<span>${translateUI('starcondition_defeatalltime', ['120'])}</span></div>`
                 conditionsHtml += `<div>${starIcon}<span>${translateUI('starcondition_allsurvive')}</span></div>`
             } else if (mode == "Conquest") {
-                conditionsHtml += `<div>${starIcon}<span>${translateUI('starcondition_defeatall')}</span></div>`
-                conditionsHtml += `<div>${starIcon}<span>${translateUI('starcondition_defeatalltime', [stage.StarCondition[1]])}</span></div>`
-                conditionsHtml += `<div>${starIcon}<span>${translateUI('starcondition_allsurvive')}</span></div>`
+                if (!stage.SubStage) {
+                    conditionsHtml += `<div>${starIcon}<span>${translateUI('starcondition_defeatall')}</span></div>`
+                    conditionsHtml += `<div>${starIcon}<span>${translateUI('starcondition_defeatalltime', [stage.StarCondition[1]])}</span></div>`
+                    conditionsHtml += `<div>${starIcon}<span>${translateUI('starcondition_allsurvive')}</span></div>`
+                }
             } else if (stage.Type.slice(0,6) == "Chaser") {
                 conditionsHtml += `<div>${starIcon}<span>${translateUI('starcondition_clear')}</span></div>`
                 conditionsHtml += `<div>${starIcon}<span>${translateUI('starcondition_allsurvive')}</span></div>`
@@ -4952,18 +5049,28 @@ function loadStage(id) {
             })
         }
 
-        $('#ba-stage-conditions').html(conditionsHtml)
+        $('#ba-stage-conditions').toggle(conditionsHtml != "").html(`<div class="d-flex flex-column">${conditionsHtml}</div>`)
 
         html = ''
         if ("EntryCost" in stage && stage.EntryCost.length > 0) {
-            stage.EntryCost.forEach(ec => {
+            stage.EntryCost.forEach((ec, i) => {
                 let currency
                 if (ec[0] < 20) {
                     currency = find(data.currency, 'Id', ec[0])[0]
                 } else {
                     currency = find(data.items, 'Id', ec[0])[0]
                 }
-                html += `<span class="ba-info-pill bg-theme my-0 me-2" data-bs-toggle="tooltip" data-bs-placement="top" title="${getRichTooltip(`images/items/${currency.Icon}.png`, getTranslatedString(currency, 'Name'), getLocalizedString('ItemCategory', 'Currency'), '', getTranslatedString(currency, 'Desc'), 50, 'img-scale-larger')}"><img src="images/items/${currency.Icon}.png" style="height:26px;width:auto;"><span class="label ps-0 text-bold">&times;${ec[1]}</span></span>`
+
+                let currencyType = ''
+                if (mode == "Conquest") {
+                    if (i == 0) {
+                        currencyType = ` (${translateUI('conquest_occupy')})`
+                    } else {
+                        currencyType = ` (${translateUI('conquest_operate')})`
+                    }
+                }
+
+                html += `<span class="ba-info-pill bg-theme my-0" data-bs-toggle="tooltip" data-bs-placement="top" title="${getRichTooltip(`images/items/${currency.Icon}.png`, getTranslatedString(currency, 'Name'), getLocalizedString('ItemCategory', 'Currency'), '', getTranslatedString(currency, 'Desc'), 50, 'img-scale-larger')}"><img src="images/items/${currency.Icon}.png" style="height:26px;width:auto;"><span class="label ps-0 text-bold">&times;${ec[1]}${currencyType}</span></span>`
             })
             
         }
@@ -5062,15 +5169,8 @@ function loadRegion(regID) {
     if (regionID == 1) {
         //hide filters not relevant to global
         $('#ba-student-search-filter-weapontype-ft').hide()
-        $('#item-search-filter-furnitureset-108').hide()
         $('#item-search-filter-furnitureset-109').hide()
-        $('#item-search-filter-furnitureset-110').hide()
-
-        //hide gear slot 4
-        $('#ba-student-gear-separator').hide()
-        $('#ba-student-gear-4').hide()
-        $('#ba-student-search-filter-bondgear').hide()
-        
+        $('#item-search-filter-furnitureset-110').hide()        
     }
 }
 
@@ -5451,7 +5551,7 @@ function recalculateStats() {
                 //check conditions
                 let compatible = ExternalBuffs.checkRestrictions(student, effect)
                 
-                if (!compatible || (student.SquadType == 'Support' && statPreviewSelectedChar == 0 && (buff.Skill.SkillType != 'sub' && !buff.StudentId.startsWith("raid")))) {
+                if (!compatible || (student.SquadType == 'Support' && statPreviewSelectedChar == 0 && buff.Skill.SkillType != 'sub' && !buff.RaidId)) {
                     //exclude other character's Ex/Basic skills on Special characters
                     $('#statpreview-buff-transferable-incompatible').toggle(statPreviewIncludeBuffs)
                     $(`#statpreview-buff-transferable-controls div[data-index='${index}'] .buff-description span[data-effect='${effectIndex}']`).toggleClass('invalid', true)
@@ -6294,7 +6394,7 @@ function getDropIconHTML(id, chance, qtyMin=1, qtyMax=1, forcePercent=false, dro
                     desc += `${getTranslatedString(item, 'Name')} (${getProbabilityText(group.ItemList[i][1]/totalProb)})\n`
                 }
             }
-            html = `<div class="item-drop drop-shadow" style="position: relative; data-bs-toggle="tooltip" data-bs-placement="top" title="${getRichTooltip(`images/${iconPath}/${icon}.png`, name, getLocalizedString('ItemCategory','Box'), '', desc, 50, 'img-scale-larger')}"><img class="ba-item-icon ba-item-${rarity.toLowerCase()}" src="images/${iconPath}/${icon}.png"><span class="ba-material-label">${getProbabilityText(chance)}</span></div>`
+            html = `<div class="item-drop drop-shadow" style="position: relative; data-bs-toggle="tooltip" data-bs-placement="top" title="${getRichTooltip(`images/${iconPath}/${icon}.png`, name, getLocalizedString('ItemCategory','Box'), '', desc, 50, 'img-scale-larger')}"><img class="ba-item-icon ba-item-${rarity.toLowerCase()}" src="images/${iconPath}/${icon}.png"><span class="ba-material-label">${getProbabilityText(chance)}</span>${dropType != null ?  `<span class="label-droptype">${dropType}</span>` : ''}</div>`
         }
     } else {
         let description = getTranslatedString(item, 'Desc').replace('&','&amp;')
@@ -7027,7 +7127,7 @@ function getLikedByStudents(item) {
         
     }
 
-    likedStudentsHtml += `<div class="mb-2"><i>${translateUI('item_student_favor_default', [20*(itemRarityBonus ? 3 : 1), `<img class="inline-img" src="images/ui/Cafe_Interaction_Gift_0${1 + itemRarityBonus}.png">`])}</i></div><div class="d-flex align-items-center justify-content-center flex-wrap mb-2"></div>`
+    likedStudentsHtml += `<div class="mb-2"><i>${translateUI('item_student_favor_default', [20*(1 + itemRarityBonus)*(itemRarityBonus ? 3 : 1), `<img class="inline-img" src="images/ui/Cafe_Interaction_Gift_0${1 + itemRarityBonus}.png">`])}</i></div><div class="d-flex align-items-center justify-content-center flex-wrap mb-2"></div>`
 
     if (bondGearStudentsHtml != "") {
         likedStudentsHtml += `<div class="mb-2"><i>${translateUI('item_usedby_gear')}</i></div><div class="d-flex align-items-center justify-content-center flex-wrap mb-2">${bondGearStudentsHtml}</div>`
@@ -7974,15 +8074,19 @@ function drawConquestHexamap(conquest, mapId, step, container) {
 
     filteredTiles = conquest.Maps[mapId].Tiles.filter(tile => tile.Step == step)
 
-    const scale = 90
+    const x_scale = 90
+    const y_scale = 90
+    const x_gap = 15
 
     let x_min = 99
     let y_min = 99
     let y_max = -99
     let x_max = -99
+    const x_pad = 20
+    const y_pad = 20
     let leftOffset = 999999
     let rightOffset = 0
-    let topOffset = 50
+    let topOffset = conquest.Maps[mapId].Difficulty == "VeryHard" ? 60 : 120
 
     filteredTiles.forEach(tile => {
         x_min = Math.min(x_min, tile.Pos[0])
@@ -7994,19 +8098,21 @@ function drawConquestHexamap(conquest, mapId, step, container) {
     filteredTiles.forEach(tile => {
         let xx = tile.Pos[0] - x_min
         let yy = tile.Pos[1] - y_min
-        leftOffset = Math.min(leftOffset, xx*scale + (yy*scale*0.5))
-        rightOffset = Math.max(rightOffset, scale + xx*scale + (yy*scale*0.5))
+        leftOffset = Math.min(leftOffset, xx*x_scale + Math.max((xx + yy*(0.5))*x_gap, 0) + (yy*y_scale*0.5))
+        rightOffset = Math.max(rightOffset, x_scale + xx*x_scale + Math.max((xx + yy*(0.5))*x_gap, 0) + (yy*y_scale*0.5))
     })
 
-    filteredTiles.forEach((tile, ind) => {
+    filteredTiles.sort((a, b) => a.Pos[1] - b.Pos[1]).forEach((tile, ind) => {
         let xx = tile.Pos[0] - x_min
         let yy = tile.Pos[1] - y_min
+        let isBoss = false
 
-        const x = xx*scale + (yy*scale*0.5) - leftOffset
-        const y = yy* Math.sqrt(Math.pow(scale/2, 2)*3) + topOffset
+        const x = x_pad + xx*x_scale + Math.max((xx + yy*(0.5))*x_gap, 0) + (yy*(y_scale)*0.5) - leftOffset
+        const y = yy* Math.sqrt(Math.pow(y_scale/2, 2)*3) + topOffset
 
         let html = ""
         let onclick = ""
+        let stageId = 0
         if (tile.Type == "Start") {
             html += `<span class="start-tile"></span>`
         }
@@ -8016,9 +8122,10 @@ function drawConquestHexamap(conquest, mapId, step, container) {
             //Enemy Unit Tile
             const stage = stages[0]
             const unit = stage.Formations[0]
-            html += `<img class="ba-stage-map-enemy" src="images/enemy/${unit.MapIcon}.png" style="z-index:${yy}">`
+            html += `<img class="ba-stage-map-enemy" src="images/enemy/${unit.MapIcon}.png" style="z-index:${100+yy}">`
             html += `<div class="map-info">`
             onclick = ` onclick="loadStage(${stage.Id});" `
+            stageId = stage.Id
 
             if (stage.Team != 'None') {
                 const team = stage.Team.replace('Team','')
@@ -8034,15 +8141,17 @@ function drawConquestHexamap(conquest, mapId, step, container) {
                 html += `<span class="unit-grade"><span class="grade">Lv. ${stage.Level}</span></span>`
             } else if (stage.EnemyType == "Boss") {
                 html += `<span class="unit-grade boss"></span>`
+                isBoss = true
             }  else if (stage.EnemyType == "MiddleBoss") {
                 html += `<span class="unit-grade leader"></span>`
             }
 
             
         }
-        html = `<div class="ba-stage-map-tile map-tile-${ind} ${(tile.Type.startsWith("TileRemoveObject_TargetTile") && spawnTiles.includes(stage.HexaMap[tile.Trigger].Entity)) ? "hidden-tile" : ""} ${(tile.Type.startsWith("DisposableTileObject")) ? "cracked-tile" : ""}" ${onclick} style="left:${x}px;top:${y.toFixed(0)}px;${onclick != '' ? 'cursor:pointer;' : ''}">${html}</div>`
-        $(container).css('width', `${rightOffset-leftOffset}px`)
-        $(container).css('height', `${topOffset + 10 + scale + (y_max-y_min)*Math.sqrt(Math.pow(scale/2, 2)*3)}px`)
+
+        html = `<div data-x="${xx}" data-y="${yy}" ${stageId > 0 ? `data-stage-id="${stageId}" ` : ''} class="ba-stage-map-tile map-tile-${ind} conquest-tile conquest-tile-${isBoss ? "boss" : tile.Type.toLowerCase()} ${loadedStage.Id == stageId ? "selected" : ""}" ${onclick} style="left:${x}px; top:${y.toFixed(0) - (isBoss*(y_scale/2))}px; ${onclick != '' ? 'cursor:pointer;' : ''}">${html}</div>`
+        $(container).css('width', `${rightOffset-leftOffset + x_pad*2}px`)
+        $(container).css('height', `${topOffset + y_pad*2 + y_scale + (y_max-y_min)*Math.sqrt(Math.pow(y_scale/2, 2)*3)}px`)
         $(container).append(html)
         $('.tile-icon, .tile-item').tooltip({html: true})
     })
@@ -8085,6 +8194,43 @@ function studentCollectionSave() {
     }
     
     localStorage.setItem('student_collection', JSON.stringify(studentCollection))
+}
+
+function maxStudentAttributes() {
+    //Set all attributes to the maximum possible value
+    statPreviewStarGrade = 5
+    statPreviewLevel = data.common.regions[regionID].studentlevel_max
+    $('#ba-statpreview-levelrange').val(statPreviewLevel)
+    changeStatPreviewLevel(document.getElementById('ba-statpreview-levelrange'), false)
+
+    statPreviewEquipment = [data.common.regions[regionID].gear1_max, data.common.regions[regionID].gear2_max, data.common.regions[regionID].gear3_max]
+    $('#ba-statpreview-gear1-range').val(statPreviewEquipment[0])
+    $('#ba-statpreview-gear2-range').val(statPreviewEquipment[1])
+    $('#ba-statpreview-gear3-range').val(statPreviewEquipment[2])
+    changeGearLevel(1, document.getElementById('ba-statpreview-gear1-range'), false)
+    changeGearLevel(2, document.getElementById('ba-statpreview-gear2-range'), false)
+    changeGearLevel(3, document.getElementById('ba-statpreview-gear3-range'), false)
+    
+
+    statPreviewWeaponGrade = 3
+    statPreviewWeaponLevel = data.common.regions[regionID].weaponlevel_max
+    $('#ba-statpreview-weapon-range').attr("max",region.weaponlevel_max).val(statPreviewWeaponLevel)
+    changeStatPreviewStars(statPreviewStarGrade, statPreviewWeaponGrade, false)
+
+    
+    
+    statPreviewPassiveLevel = 10
+    $('#ba-statpreview-passiveskill-range').val(statPreviewPassiveLevel)
+    changeStatPreviewPassiveSkillLevel(document.getElementById('ba-statpreview-passiveskill-range'), false)
+
+    statPreviewBondLevel = data.common.regions[regionID].bondlevel_max
+    $('#ba-statpreview-bond-1-range').val(statPreviewBondLevel)
+    changeStatPreviewBondLevel(1, false)
+    statPreviewIncludeBond = true
+    statPreviewIncludeEquipment = true
+
+    refreshStatTableControls()
+    recalculateStats()
 }
 
 function statPreviewSettingsSave() {
