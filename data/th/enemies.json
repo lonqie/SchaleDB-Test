@@ -17671,7 +17671,7 @@
     {
         "Id": 7306100,
         "DevName": "Hod_default_Normal",
-        "Name": "Hod",
+        "Name": "HOD",
         "SquadType": "Main",
         "Rank": "Boss",
         "BulletType": "Normal",
@@ -17744,7 +17744,7 @@
     {
         "Id": 7306200,
         "DevName": "Hod_default_Hard",
-        "Name": "Hod",
+        "Name": "HOD",
         "SquadType": "Main",
         "Rank": "Boss",
         "BulletType": "Normal",
@@ -17817,7 +17817,7 @@
     {
         "Id": 7306300,
         "DevName": "Hod_default_VeryHard",
-        "Name": "Hod",
+        "Name": "HOD",
         "SquadType": "Main",
         "Rank": "Boss",
         "BulletType": "Normal",
@@ -17890,7 +17890,7 @@
     {
         "Id": 7306400,
         "DevName": "Hod_default_HardCore",
-        "Name": "Hod",
+        "Name": "HOD",
         "SquadType": "Main",
         "Rank": "Boss",
         "BulletType": "Normal",
@@ -17963,7 +17963,7 @@
     {
         "Id": 7306500,
         "DevName": "Hod_default_Extreme",
-        "Name": "Hod",
+        "Name": "HOD",
         "SquadType": "Main",
         "Rank": "Boss",
         "BulletType": "Normal",
@@ -18036,7 +18036,7 @@
     {
         "Id": 7306600,
         "DevName": "Hod_default_Insane",
-        "Name": "Hod",
+        "Name": "HOD",
         "SquadType": "Main",
         "Rank": "Boss",
         "BulletType": "Mystic",
@@ -19495,7 +19495,7 @@
     {
         "Id": 7960000,
         "DevName": "Binah_Colour_Normal",
-        "Name": "บินาห์ (แต้มสี)",
+        "Name": "บีนาห์ (แต้มสี)",
         "SquadType": "Main",
         "Rank": "Boss",
         "BulletType": "Normal",
@@ -19536,7 +19536,7 @@
     {
         "Id": 7960100,
         "DevName": "Binah_Colour_Hard",
-        "Name": "บินาห์ (แต้มสี)",
+        "Name": "บีนาห์ (แต้มสี)",
         "SquadType": "Main",
         "Rank": "Boss",
         "BulletType": "Normal",
@@ -19577,7 +19577,7 @@
     {
         "Id": 7960200,
         "DevName": "Binah_Colour_VeryHard",
-        "Name": "บินาห์ (แต้มสี)",
+        "Name": "บีนาห์ (แต้มสี)",
         "SquadType": "Main",
         "Rank": "Boss",
         "BulletType": "Normal",
@@ -19618,7 +19618,7 @@
     {
         "Id": 7960300,
         "DevName": "Binah_Colour_HardCore",
-        "Name": "บินาห์ (แต้มสี)",
+        "Name": "บีนาห์ (แต้มสี)",
         "SquadType": "Main",
         "Rank": "Boss",
         "BulletType": "Normal",
@@ -19659,7 +19659,7 @@
     {
         "Id": 7960400,
         "DevName": "Binah_Colour_Extreme",
-        "Name": "บินาห์ (แต้มสี)",
+        "Name": "บีนาห์ (แต้มสี)",
         "SquadType": "Main",
         "Rank": "Boss",
         "BulletType": "Normal",
@@ -19700,7 +19700,7 @@
     {
         "Id": 7960500,
         "DevName": "Binah_Colour_Insane",
-        "Name": "บินาห์ (แต้มสี)",
+        "Name": "บีนาห์ (แต้มสี)",
         "SquadType": "Main",
         "Rank": "Boss",
         "BulletType": "Pierce",
