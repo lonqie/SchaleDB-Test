@@ -1286,7 +1286,8 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture",
             "GameCenter",
-            "F_Neru"
+            "F_Neru",
+            "F_Toki"
         ],
         "SynthQuality": 40,
         "SubCategory": "HomeAppliance",
@@ -1431,7 +1432,7 @@
         "Desc": "บาร์สวีทสำหรับใช้เก็บของ ใช้เพิ่มพื้นที่เก็บของได้เป็นอย่างดี",
         "Interaction": [
             true,
-            false
+            true
         ]
     },
     {
@@ -4264,7 +4265,7 @@
         "Desc": "เก้าอี้แคมป์พับได้สีฟ้าสะดุดตา ผลิตจากวัสดุที่ทนต่อมลภาวะ เหมาะกับการใช้งานกลางแจ้ง",
         "Interaction": [
             true,
-            false
+            true
         ]
     },
     {
@@ -6859,7 +6860,7 @@
         ],
         "Rarity": "SR",
         "Icon": "Abydosclassroombg",
-        "ComfortBonus": 120,
+        "ComfortBonus": 50,
         "Category": "Interiors",
         "Tags": [
             "CraftMaterial_FurnitureSR",
@@ -6885,7 +6886,7 @@
         ],
         "Rarity": "SR",
         "Icon": "My_Abydosclassroom_01_Tile_2X2",
-        "ComfortBonus": 120,
+        "ComfortBonus": 50,
         "Category": "Interiors",
         "Tags": [
             "CraftMaterial_FurnitureSR",
@@ -6911,7 +6912,7 @@
         ],
         "Rarity": "SR",
         "Icon": "My_Abydosclassroom_01_Wall_Right",
-        "ComfortBonus": 120,
+        "ComfortBonus": 50,
         "Category": "Interiors",
         "Tags": [
             "CraftMaterial_FurnitureSR",
@@ -9094,7 +9095,8 @@
             "CraftMaterial_FurnitureSSR",
             "Furniture",
             "CraftMaterial_Furniture",
-            "F_Mika"
+            "F_Mika",
+            "F_Nagisa"
         ],
         "SubCategory": "Table",
         "SetGroupId": 0,
@@ -9175,7 +9177,7 @@
         ],
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
-        "Name": "ตู้โชว์บรอนซ์โทรฟี่เรดบอส 01",
+        "Name": "ตู้โชว์บรอนซ์โทรฟี่ เรดบอส 01",
         "Desc": "ตู้บรอนซ์โทรฟี่ที่จัดโชว์โทรฟี่จากเรดบอสทั้ง 3 แบบ\n- บีนาห์, เชเซ็ด, ชิโระ&amp;คุโระ",
         "Interaction": [
             false,
@@ -9200,7 +9202,7 @@
         ],
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
-        "Name": "ตู้โชว์ซิลเวอร์โทรฟี่เรดบอส 01",
+        "Name": "ตู้โชว์ซิลเวอร์โทรฟี่ เรดบอส 01",
         "Desc": "ตู้ซิลเวอร์โทรฟี่ที่จัดโชว์โทรฟี่จากเรดบอสทั้ง 3 แบบ\n- บีนาห์, เชเซ็ด, ชิโระ&amp;คุโระ",
         "Interaction": [
             false,
@@ -9225,7 +9227,7 @@
         ],
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
-        "Name": "ตู้โชว์โกลด์โทรฟี่เรดบอส 01",
+        "Name": "ตู้โชว์โกลด์โทรฟี่ เรดบอส 01",
         "Desc": "ตู้โกลด์โทรฟี่ที่จัดโชว์โทรฟี่จากเรดบอสทั้ง 3 แบบ\n- บีนาห์, เชเซ็ด, ชิโระ&amp;คุโระ",
         "Interaction": [
             false,
@@ -9250,7 +9252,7 @@
         ],
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
-        "Name": "ตู้โชว์แพลทินัมโทรฟี่เรดบอส 01",
+        "Name": "ตู้โชว์แพลทินัมโทรฟี่ เรดบอส 01",
         "Desc": "ตู้แพลทินัมโทรฟี่ที่จัดโชว์โทรฟี่จากเรดบอสทั้ง 3 แบบ\n- บีนาห์, เชเซ็ด, ชิโระ&amp;คุโระ",
         "Interaction": [
             false,
@@ -9275,7 +9277,7 @@
         ],
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
-        "Name": "ตู้โชว์บรอนซ์โทรฟี่เรดบอส 02",
+        "Name": "ตู้โชว์บรอนซ์โทรฟี่ เรดบอส 02",
         "Desc": "ตู้โชว์บรอนซ์โทรฟี่ที่จัดโชว์โทรฟี่จากเรดบอสทั้ง 3 แบบ\n- ไฮโรนีมัส, KAITEN FX Mk.0, เพโรโร่ซิลล่า",
         "Interaction": [
             false,
@@ -9300,7 +9302,7 @@
         ],
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
-        "Name": "ตู้โชว์ซิลเวอร์โทรฟี่เรดบอส 02",
+        "Name": "ตู้โชว์ซิลเวอร์โทรฟี่ เรดบอส 02",
         "Desc": "ตู้โชว์ซิลเวอร์โทรฟี่ที่จัดโชว์โทรฟี่จากเรดบอสทั้ง 3 แบบ\n- ไฮโรนีมัส, KAITEN FX Mk.0, เพโรโร่ซิลล่า",
         "Interaction": [
             false,
@@ -9325,7 +9327,7 @@
         ],
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
-        "Name": "ตู้โชว์โกลด์โทรฟี่เรดบอส 02",
+        "Name": "ตู้โชว์โกลด์โทรฟี่ เรดบอส 02",
         "Desc": "ตู้โชว์โกลด์โทรฟี่ที่จัดโชว์โทรฟี่จากเรดบอสทั้ง 3 แบบ\n- ไฮโรนีมัส, KAITEN FX Mk.0, เพโรโร่ซิลล่า",
         "Interaction": [
             false,
@@ -9350,7 +9352,7 @@
         ],
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
-        "Name": "ตู้โชว์แพลทินัมโทรฟี่เรดบอส 02",
+        "Name": "ตู้โชว์แพลทินัมโทรฟี่ เรดบอส 02",
         "Desc": "ตู้โชว์แพลทินัมโทรฟี่ที่จัดโชว์โทรฟี่จากเรดบอสทั้ง 3 แบบ- ไฮโรนีมัส, KAITEN FX Mk.0, เพโรโร่ซิลล่า",
         "Interaction": [
             false,

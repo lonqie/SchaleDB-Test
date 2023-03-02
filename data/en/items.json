@@ -128,6 +128,7 @@
         "Tags": [
             "ExpItem"
         ],
+        "ExpValue": 50,
         "Shops": [
             {
                 "ShopCategory": "General",
@@ -168,6 +169,7 @@
         "Tags": [
             "ExpItem"
         ],
+        "ExpValue": 500,
         "Shops": [
             {
                 "ShopCategory": "General",
@@ -208,6 +210,7 @@
         "Tags": [
             "ExpItem"
         ],
+        "ExpValue": 2000,
         "Shops": [
             {
                 "ShopCategory": "General",
@@ -248,6 +251,7 @@
         "Tags": [
             "ExpItem"
         ],
+        "ExpValue": 10000,
         "Shops": [
             {
                 "ShopCategory": "General",
@@ -620,6 +624,17 @@
                 "CostType": "Currency",
                 "CostId": 1,
                 "CostAmount": 8000
+            },
+            {
+                "ShopCategory": "SecretStoneGrowth",
+                "Released": [
+                    true,
+                    true
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 23,
+                "CostAmount": 1
             }
         ],
         "Icon": "Item_Icon_Material_Nebra_0",
@@ -652,6 +667,17 @@
                 "CostType": "Currency",
                 "CostId": 1,
                 "CostAmount": 25000
+            },
+            {
+                "ShopCategory": "SecretStoneGrowth",
+                "Released": [
+                    true,
+                    true
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 23,
+                "CostAmount": 4
             }
         ],
         "Icon": "Item_Icon_Material_Nebra_1",
@@ -673,7 +699,19 @@
             "MaterialItemSR"
         ],
         "SynthQuality": 50,
-        "Shops": [],
+        "Shops": [
+            {
+                "ShopCategory": "SecretStoneGrowth",
+                "Released": [
+                    true,
+                    true
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 23,
+                "CostAmount": 8
+            }
+        ],
         "Icon": "Item_Icon_Material_Nebra_2",
         "Name": "Damaged Nebra Sky Disk",
         "Desc": "An old Nebra Sky Disk damaged in various places. Used in various crafted items and enhancements."
@@ -724,6 +762,17 @@
                 "CostType": "Currency",
                 "CostId": 1,
                 "CostAmount": 8000
+            },
+            {
+                "ShopCategory": "SecretStoneGrowth",
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 23,
+                "CostAmount": 1,
+                "Released": [
+                    false,
+                    true
+                ]
             }
         ],
         "Icon": "Item_Icon_Material_Phaistos_0",
@@ -756,6 +805,17 @@
                 "CostType": "Currency",
                 "CostId": 1,
                 "CostAmount": 25000
+            },
+            {
+                "ShopCategory": "SecretStoneGrowth",
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 23,
+                "CostAmount": 4,
+                "Released": [
+                    false,
+                    true
+                ]
             }
         ],
         "Icon": "Item_Icon_Material_Phaistos_1",
@@ -777,7 +837,19 @@
             "MaterialItemSR"
         ],
         "SynthQuality": 50,
-        "Shops": [],
+        "Shops": [
+            {
+                "ShopCategory": "SecretStoneGrowth",
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 23,
+                "CostAmount": 8,
+                "Released": [
+                    false,
+                    true
+                ]
+            }
+        ],
         "Icon": "Item_Icon_Material_Phaistos_2",
         "Name": "Damaged Phaistos Disc",
         "Desc": "An old Phaistos Disc damaged in various places. Used in various crafted items and enhancements."
@@ -830,11 +902,11 @@
                 "CostAmount": 8000
             },
             {
-                "ShopCategory": "Chaser",
+                "ShopCategory": "SecretStoneGrowth",
                 "Amount": 1,
                 "CostType": "Item",
-                "CostId": 61,
-                "CostAmount": 24,
+                "CostId": 23,
+                "CostAmount": 1,
                 "Released": [
                     false,
                     true
@@ -873,11 +945,11 @@
                 "CostAmount": 25000
             },
             {
-                "ShopCategory": "Chaser",
+                "ShopCategory": "SecretStoneGrowth",
                 "Amount": 1,
                 "CostType": "Item",
-                "CostId": 61,
-                "CostAmount": 40,
+                "CostId": 23,
+                "CostAmount": 4,
                 "Released": [
                     false,
                     true
@@ -905,11 +977,11 @@
         "SynthQuality": 50,
         "Shops": [
             {
-                "ShopCategory": "Chaser",
+                "ShopCategory": "SecretStoneGrowth",
                 "Amount": 1,
                 "CostType": "Item",
-                "CostId": 61,
-                "CostAmount": 80,
+                "CostId": 23,
+                "CostAmount": 8,
                 "Released": [
                     false,
                     true
@@ -935,19 +1007,7 @@
             "MaterialItemSSR"
         ],
         "SynthQuality": 80,
-        "Shops": [
-            {
-                "ShopCategory": "Chaser",
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 61,
-                "CostAmount": 200,
-                "Released": [
-                    false,
-                    true
-                ]
-            }
-        ],
+        "Shops": [],
         "Icon": "Item_Icon_Material_Wolfsegg_3",
         "Name": "High-Purity Wolfsegg Steel",
         "Desc": "Unadulterated high-purity Wolfsegg steel, smelted to perfection. Used in various crafted items and enhancements."
@@ -1082,6 +1142,17 @@
                 "CostType": "Currency",
                 "CostId": 1,
                 "CostAmount": 8000
+            },
+            {
+                "ShopCategory": "Chaser",
+                "Released": [
+                    true,
+                    false
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 61,
+                "CostAmount": 24
             }
         ],
         "Icon": "Item_Icon_Material_Mandragora_0",
@@ -1114,6 +1185,17 @@
                 "CostType": "Currency",
                 "CostId": 1,
                 "CostAmount": 25000
+            },
+            {
+                "ShopCategory": "Chaser",
+                "Released": [
+                    true,
+                    false
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 61,
+                "CostAmount": 40
             }
         ],
         "Icon": "Item_Icon_Material_Mandragora_1",
@@ -1135,7 +1217,19 @@
             "MaterialItemSR"
         ],
         "SynthQuality": 50,
-        "Shops": [],
+        "Shops": [
+            {
+                "ShopCategory": "Chaser",
+                "Released": [
+                    true,
+                    false
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 61,
+                "CostAmount": 80
+            }
+        ],
         "Icon": "Item_Icon_Material_Mandragora_2",
         "Name": "Mandrake Juice",
         "Desc": "Juice extracted from a well-ripened mandrake. Used in various crafted items and enhancements."
@@ -1155,7 +1249,19 @@
             "MaterialItemSSR"
         ],
         "SynthQuality": 80,
-        "Shops": [],
+        "Shops": [
+            {
+                "ShopCategory": "Chaser",
+                "Released": [
+                    true,
+                    false
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 61,
+                "CostAmount": 200
+            }
+        ],
         "Icon": "Item_Icon_Material_Mandragora_3",
         "Name": "Mandrake Extract",
         "Desc": "A concentrated extract of mandrake juice. Used in various crafted items and enhancements."
@@ -1188,26 +1294,15 @@
                 "CostAmount": 8000
             },
             {
-                "ShopCategory": "SecretStoneGrowth",
-                "Released": [
-                    true,
-                    false
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 23,
-                "CostAmount": 1
-            },
-            {
                 "ShopCategory": "Chaser",
-                "Released": [
-                    true,
-                    false
-                ],
                 "Amount": 1,
                 "CostType": "Item",
                 "CostId": 61,
-                "CostAmount": 24
+                "CostAmount": 24,
+                "Released": [
+                    false,
+                    true
+                ]
             }
         ],
         "Icon": "Item_Icon_Material_Rohonc_0",
@@ -1242,26 +1337,15 @@
                 "CostAmount": 25000
             },
             {
-                "ShopCategory": "SecretStoneGrowth",
-                "Released": [
-                    true,
-                    false
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 23,
-                "CostAmount": 4
-            },
-            {
                 "ShopCategory": "Chaser",
-                "Released": [
-                    true,
-                    false
-                ],
                 "Amount": 1,
                 "CostType": "Item",
                 "CostId": 61,
-                "CostAmount": 40
+                "CostAmount": 40,
+                "Released": [
+                    false,
+                    true
+                ]
             }
         ],
         "Icon": "Item_Icon_Material_Rohonc_1",
@@ -1285,26 +1369,15 @@
         "SynthQuality": 50,
         "Shops": [
             {
-                "ShopCategory": "SecretStoneGrowth",
-                "Released": [
-                    true,
-                    false
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 23,
-                "CostAmount": 8
-            },
-            {
                 "ShopCategory": "Chaser",
-                "Released": [
-                    true,
-                    false
-                ],
                 "Amount": 1,
                 "CostType": "Item",
                 "CostId": 61,
-                "CostAmount": 80
+                "CostAmount": 80,
+                "Released": [
+                    false,
+                    true
+                ]
             }
         ],
         "Icon": "Item_Icon_Material_Rohonc_2",
@@ -1329,14 +1402,14 @@
         "Shops": [
             {
                 "ShopCategory": "Chaser",
-                "Released": [
-                    true,
-                    false
-                ],
                 "Amount": 1,
                 "CostType": "Item",
                 "CostId": 61,
-                "CostAmount": 200
+                "CostAmount": 200,
+                "Released": [
+                    false,
+                    true
+                ]
             }
         ],
         "Icon": "Item_Icon_Material_Rohonc_3",
@@ -1369,17 +1442,6 @@
                 "CostType": "Currency",
                 "CostId": 1,
                 "CostAmount": 8000
-            },
-            {
-                "ShopCategory": "SecretStoneGrowth",
-                "Released": [
-                    true,
-                    false
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 23,
-                "CostAmount": 1
             }
         ],
         "Icon": "Item_Icon_Material_Ether_0",
@@ -1412,17 +1474,6 @@
                 "CostType": "Currency",
                 "CostId": 1,
                 "CostAmount": 25000
-            },
-            {
-                "ShopCategory": "SecretStoneGrowth",
-                "Released": [
-                    true,
-                    false
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 23,
-                "CostAmount": 4
             }
         ],
         "Icon": "Item_Icon_Material_Ether_1",
@@ -1444,19 +1495,7 @@
             "MaterialItemSR"
         ],
         "SynthQuality": 50,
-        "Shops": [
-            {
-                "ShopCategory": "SecretStoneGrowth",
-                "Released": [
-                    true,
-                    false
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 23,
-                "CostAmount": 8
-            }
-        ],
+        "Shops": [],
         "Icon": "Item_Icon_Material_Ether_2",
         "Name": "Aether Shard",
         "Desc": "A shard crystallized from pure Aether. Used in various crafted items and enhancements."
@@ -1509,15 +1548,15 @@
                 "CostAmount": 8000
             },
             {
-                "ShopCategory": "SecretStoneGrowth",
+                "ShopCategory": "Chaser",
                 "Released": [
                     true,
-                    true
+                    false
                 ],
                 "Amount": 1,
                 "CostType": "Item",
-                "CostId": 23,
-                "CostAmount": 1
+                "CostId": 61,
+                "CostAmount": 24
             }
         ],
         "Icon": "Item_Icon_Material_Antikythera_0",
@@ -1552,15 +1591,15 @@
                 "CostAmount": 25000
             },
             {
-                "ShopCategory": "SecretStoneGrowth",
+                "ShopCategory": "Chaser",
                 "Released": [
                     true,
-                    true
+                    false
                 ],
                 "Amount": 1,
                 "CostType": "Item",
-                "CostId": 23,
-                "CostAmount": 4
+                "CostId": 61,
+                "CostAmount": 40
             }
         ],
         "Icon": "Item_Icon_Material_Antikythera_1",
@@ -1584,15 +1623,15 @@
         "SynthQuality": 50,
         "Shops": [
             {
-                "ShopCategory": "SecretStoneGrowth",
+                "ShopCategory": "Chaser",
                 "Released": [
                     true,
-                    true
+                    false
                 ],
                 "Amount": 1,
                 "CostType": "Item",
-                "CostId": 23,
-                "CostAmount": 8
+                "CostId": 61,
+                "CostAmount": 80
             }
         ],
         "Icon": "Item_Icon_Material_Antikythera_2",
@@ -1614,7 +1653,19 @@
             "MaterialItemSSR"
         ],
         "SynthQuality": 80,
-        "Shops": [],
+        "Shops": [
+            {
+                "ShopCategory": "Chaser",
+                "Released": [
+                    true,
+                    false
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 61,
+                "CostAmount": 200
+            }
+        ],
         "Icon": "Item_Icon_Material_Antikythera_3",
         "Name": "Intact Antikythera Mechanism",
         "Desc": "An intact Antikythera Mechanism. Used in various crafted items and enhancements."
@@ -1648,25 +1699,14 @@
             },
             {
                 "ShopCategory": "SecretStoneGrowth",
+                "Released": [
+                    true,
+                    false
+                ],
                 "Amount": 1,
                 "CostType": "Item",
                 "CostId": 23,
-                "CostAmount": 1,
-                "Released": [
-                    false,
-                    true
-                ]
-            },
-            {
-                "ShopCategory": "Chaser",
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 61,
-                "CostAmount": 24,
-                "Released": [
-                    false,
-                    true
-                ]
+                "CostAmount": 1
             }
         ],
         "Icon": "Item_Icon_Material_Voynich_0",
@@ -1702,25 +1742,14 @@
             },
             {
                 "ShopCategory": "SecretStoneGrowth",
+                "Released": [
+                    true,
+                    false
+                ],
                 "Amount": 1,
                 "CostType": "Item",
                 "CostId": 23,
-                "CostAmount": 4,
-                "Released": [
-                    false,
-                    true
-                ]
-            },
-            {
-                "ShopCategory": "Chaser",
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 61,
-                "CostAmount": 40,
-                "Released": [
-                    false,
-                    true
-                ]
+                "CostAmount": 4
             }
         ],
         "Icon": "Item_Icon_Material_Voynich_1",
@@ -1745,25 +1774,14 @@
         "Shops": [
             {
                 "ShopCategory": "SecretStoneGrowth",
+                "Released": [
+                    true,
+                    false
+                ],
                 "Amount": 1,
                 "CostType": "Item",
                 "CostId": 23,
-                "CostAmount": 8,
-                "Released": [
-                    false,
-                    true
-                ]
-            },
-            {
-                "ShopCategory": "Chaser",
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 61,
-                "CostAmount": 80,
-                "Released": [
-                    false,
-                    true
-                ]
+                "CostAmount": 8
             }
         ],
         "Icon": "Item_Icon_Material_Voynich_2",
@@ -1785,19 +1803,7 @@
             "MaterialItemSSR"
         ],
         "SynthQuality": 80,
-        "Shops": [
-            {
-                "ShopCategory": "Chaser",
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 61,
-                "CostAmount": 200,
-                "Released": [
-                    false,
-                    true
-                ]
-            }
-        ],
+        "Shops": [],
         "Icon": "Item_Icon_Material_Voynich_3",
         "Name": "Intact Voynich Manuscript",
         "Desc": "An intact Voynich Manuscript. Used in various crafted items and enhancements."
@@ -1830,22 +1836,22 @@
                 "CostAmount": 8000
             },
             {
-                "ShopCategory": "Chaser",
+                "ShopCategory": "SecretStoneGrowth",
                 "Released": [
                     true,
                     false
                 ],
                 "Amount": 1,
                 "CostType": "Item",
-                "CostId": 61,
-                "CostAmount": 24
+                "CostId": 23,
+                "CostAmount": 1
             },
             {
-                "ShopCategory": "SecretStoneGrowth",
+                "ShopCategory": "Chaser",
                 "Amount": 1,
                 "CostType": "Item",
-                "CostId": 23,
-                "CostAmount": 1,
+                "CostId": 61,
+                "CostAmount": 24,
                 "Released": [
                     false,
                     true
@@ -1884,22 +1890,22 @@
                 "CostAmount": 25000
             },
             {
-                "ShopCategory": "Chaser",
+                "ShopCategory": "SecretStoneGrowth",
                 "Released": [
                     true,
                     false
                 ],
                 "Amount": 1,
                 "CostType": "Item",
-                "CostId": 61,
-                "CostAmount": 40
+                "CostId": 23,
+                "CostAmount": 4
             },
             {
-                "ShopCategory": "SecretStoneGrowth",
+                "ShopCategory": "Chaser",
                 "Amount": 1,
                 "CostType": "Item",
-                "CostId": 23,
-                "CostAmount": 4,
+                "CostId": 61,
+                "CostAmount": 40,
                 "Released": [
                     false,
                     true
@@ -1927,22 +1933,22 @@
         "SynthQuality": 50,
         "Shops": [
             {
-                "ShopCategory": "Chaser",
+                "ShopCategory": "SecretStoneGrowth",
                 "Released": [
                     true,
                     false
                 ],
                 "Amount": 1,
                 "CostType": "Item",
-                "CostId": 61,
-                "CostAmount": 80
+                "CostId": 23,
+                "CostAmount": 8
             },
             {
-                "ShopCategory": "SecretStoneGrowth",
+                "ShopCategory": "Chaser",
                 "Amount": 1,
                 "CostType": "Item",
-                "CostId": 23,
-                "CostAmount": 8,
+                "CostId": 61,
+                "CostAmount": 80,
                 "Released": [
                     false,
                     true
@@ -1971,14 +1977,14 @@
         "Shops": [
             {
                 "ShopCategory": "Chaser",
-                "Released": [
-                    true,
-                    false
-                ],
                 "Amount": 1,
                 "CostType": "Item",
                 "CostId": 61,
-                "CostAmount": 200
+                "CostAmount": 200,
+                "Released": [
+                    false,
+                    true
+                ]
             }
         ],
         "Icon": "Item_Icon_Material_CrystalHaniwa_3",
@@ -2001,6 +2007,17 @@
         ],
         "SynthQuality": 10,
         "Shops": [
+            {
+                "ShopCategory": "SecretStoneGrowth",
+                "Released": [
+                    true,
+                    false
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 23,
+                "CostAmount": 1
+            },
             {
                 "ShopCategory": "TimeAttack",
                 "Released": [
@@ -2034,6 +2051,17 @@
         "SynthQuality": 20,
         "Shops": [
             {
+                "ShopCategory": "SecretStoneGrowth",
+                "Released": [
+                    true,
+                    false
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 23,
+                "CostAmount": 4
+            },
+            {
                 "ShopCategory": "TimeAttack",
                 "Released": [
                     true,
@@ -2065,6 +2093,17 @@
         ],
         "SynthQuality": 50,
         "Shops": [
+            {
+                "ShopCategory": "SecretStoneGrowth",
+                "Released": [
+                    true,
+                    false
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 23,
+                "CostAmount": 8
+            },
             {
                 "ShopCategory": "TimeAttack",
                 "Released": [
@@ -2139,17 +2178,6 @@
                 "CostType": "Item",
                 "CostId": 60,
                 "CostAmount": 2
-            },
-            {
-                "ShopCategory": "SecretStoneGrowth",
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 23,
-                "CostAmount": 1,
-                "Released": [
-                    false,
-                    true
-                ]
             }
         ],
         "Icon": "Item_Icon_Material_Baghdad_0",
@@ -2182,17 +2210,6 @@
                 "CostType": "Item",
                 "CostId": 60,
                 "CostAmount": 9
-            },
-            {
-                "ShopCategory": "SecretStoneGrowth",
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 23,
-                "CostAmount": 4,
-                "Released": [
-                    false,
-                    true
-                ]
             }
         ],
         "Icon": "Item_Icon_Material_Baghdad_1",
@@ -2225,17 +2242,6 @@
                 "CostType": "Item",
                 "CostId": 60,
                 "CostAmount": 12
-            },
-            {
-                "ShopCategory": "SecretStoneGrowth",
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 23,
-                "CostAmount": 8,
-                "Released": [
-                    false,
-                    true
-                ]
             }
         ],
         "Icon": "Item_Icon_Material_Baghdad_2",
@@ -2291,17 +2297,6 @@
         "SynthQuality": 10,
         "Shops": [
             {
-                "ShopCategory": "SecretStoneGrowth",
-                "Released": [
-                    true,
-                    false
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 23,
-                "CostAmount": 1
-            },
-            {
                 "ShopCategory": "TimeAttack",
                 "Released": [
                     true,
@@ -2334,17 +2329,6 @@
         "SynthQuality": 20,
         "Shops": [
             {
-                "ShopCategory": "SecretStoneGrowth",
-                "Released": [
-                    true,
-                    false
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 23,
-                "CostAmount": 4
-            },
-            {
                 "ShopCategory": "TimeAttack",
                 "Released": [
                     true,
@@ -2376,17 +2360,6 @@
         ],
         "SynthQuality": 50,
         "Shops": [
-            {
-                "ShopCategory": "SecretStoneGrowth",
-                "Released": [
-                    true,
-                    false
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 23,
-                "CostAmount": 8
-            },
             {
                 "ShopCategory": "TimeAttack",
                 "Released": [
@@ -2461,6 +2434,17 @@
                 "CostType": "Item",
                 "CostId": 60,
                 "CostAmount": 2
+            },
+            {
+                "ShopCategory": "SecretStoneGrowth",
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 23,
+                "CostAmount": 1,
+                "Released": [
+                    false,
+                    true
+                ]
             }
         ],
         "Icon": "Item_Icon_Material_WinniStone_0",
@@ -2493,6 +2477,17 @@
                 "CostType": "Item",
                 "CostId": 60,
                 "CostAmount": 9
+            },
+            {
+                "ShopCategory": "SecretStoneGrowth",
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 23,
+                "CostAmount": 4,
+                "Released": [
+                    false,
+                    true
+                ]
             }
         ],
         "Icon": "Item_Icon_Material_WinniStone_1",
@@ -2525,6 +2520,17 @@
                 "CostType": "Item",
                 "CostId": 60,
                 "CostAmount": 12
+            },
+            {
+                "ShopCategory": "SecretStoneGrowth",
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 23,
+                "CostAmount": 8,
+                "Released": [
+                    false,
+                    true
+                ]
             }
         ],
         "Icon": "Item_Icon_Material_WinniStone_2",
@@ -2772,6 +2778,17 @@
                 "CostType": "Item",
                 "CostId": 9,
                 "CostAmount": 10
+            },
+            {
+                "ShopCategory": "Chaser",
+                "Released": [
+                    true,
+                    false
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 61,
+                "CostAmount": 80
             }
         ],
         "Icon": "Item_Icon_Material_ExSkill_RedWinter_0",
@@ -2815,6 +2832,17 @@
                 "CostType": "Item",
                 "CostId": 9,
                 "CostAmount": 20
+            },
+            {
+                "ShopCategory": "Chaser",
+                "Released": [
+                    true,
+                    false
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 61,
+                "CostAmount": 160
             }
         ],
         "Icon": "Item_Icon_Material_ExSkill_RedWinter_1",
@@ -2858,6 +2886,17 @@
                 "CostType": "Item",
                 "CostId": 9,
                 "CostAmount": 50
+            },
+            {
+                "ShopCategory": "Chaser",
+                "Released": [
+                    true,
+                    false
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 61,
+                "CostAmount": 400
             }
         ],
         "Icon": "Item_Icon_Material_ExSkill_RedWinter_2",
@@ -2901,6 +2940,17 @@
                 "CostType": "Item",
                 "CostId": 9,
                 "CostAmount": 100
+            },
+            {
+                "ShopCategory": "Chaser",
+                "Released": [
+                    true,
+                    false
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 61,
+                "CostAmount": 800
             }
         ],
         "Icon": "Item_Icon_Material_ExSkill_RedWinter_3",
@@ -2944,17 +2994,6 @@
                 "CostType": "Item",
                 "CostId": 9,
                 "CostAmount": 10
-            },
-            {
-                "ShopCategory": "Chaser",
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 61,
-                "CostAmount": 80,
-                "Released": [
-                    false,
-                    true
-                ]
             }
         ],
         "Icon": "Item_Icon_Material_ExSkill_Trinity_0",
@@ -2998,17 +3037,6 @@
                 "CostType": "Item",
                 "CostId": 9,
                 "CostAmount": 20
-            },
-            {
-                "ShopCategory": "Chaser",
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 61,
-                "CostAmount": 160,
-                "Released": [
-                    false,
-                    true
-                ]
             }
         ],
         "Icon": "Item_Icon_Material_ExSkill_Trinity_1",
@@ -3052,17 +3080,6 @@
                 "CostType": "Item",
                 "CostId": 9,
                 "CostAmount": 50
-            },
-            {
-                "ShopCategory": "Chaser",
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 61,
-                "CostAmount": 400,
-                "Released": [
-                    false,
-                    true
-                ]
             }
         ],
         "Icon": "Item_Icon_Material_ExSkill_Trinity_2",
@@ -3106,17 +3123,6 @@
                 "CostType": "Item",
                 "CostId": 9,
                 "CostAmount": 100
-            },
-            {
-                "ShopCategory": "Chaser",
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 61,
-                "CostAmount": 800,
-                "Released": [
-                    false,
-                    true
-                ]
             }
         ],
         "Icon": "Item_Icon_Material_ExSkill_Trinity_3",
@@ -3332,178 +3338,6 @@
                 "CostType": "Item",
                 "CostId": 9,
                 "CostAmount": 10
-            }
-        ],
-        "Icon": "Item_Icon_Material_ExSkill_Abydos_0",
-        "Name": "Beginner Tactical Training Blu-ray (Abydos)",
-        "Desc": "A training Blu-ray containing video documentation of the Abydos students&#x27; tactical activities."
-    },
-    {
-        "Id": 3041,
-        "IsReleased": [
-            true,
-            true
-        ],
-        "Category": "Material",
-        "Rarity": "R",
-        "Quality": 2,
-        "Tags": [
-            "CDItem",
-            "ExpendableItem",
-            "CDItemR"
-        ],
-        "SynthQuality": 60,
-        "Shops": [
-            {
-                "ShopCategory": "Raid",
-                "Released": [
-                    true,
-                    true
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 7,
-                "CostAmount": 20
-            },
-            {
-                "ShopCategory": "Raid",
-                "Released": [
-                    true,
-                    true
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 9,
-                "CostAmount": 20
-            }
-        ],
-        "Icon": "Item_Icon_Material_ExSkill_Abydos_1",
-        "Name": "Normal Tactical Training Blu-ray (Abydos)",
-        "Desc": "A training Blu-ray containing video documentation of the Abydos students&#x27; tactical activities."
-    },
-    {
-        "Id": 3042,
-        "IsReleased": [
-            true,
-            true
-        ],
-        "Category": "Material",
-        "Rarity": "SR",
-        "Quality": 3,
-        "Tags": [
-            "CDItem",
-            "ExpendableItem",
-            "CDItemSR"
-        ],
-        "SynthQuality": 150,
-        "Shops": [
-            {
-                "ShopCategory": "Raid",
-                "Released": [
-                    true,
-                    true
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 7,
-                "CostAmount": 50
-            },
-            {
-                "ShopCategory": "Raid",
-                "Released": [
-                    true,
-                    true
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 9,
-                "CostAmount": 50
-            }
-        ],
-        "Icon": "Item_Icon_Material_ExSkill_Abydos_2",
-        "Name": "Advanced Tactical Training Blu-ray (Abydos)",
-        "Desc": "A training Blu-ray containing video documentation of the Abydos students&#x27; tactical activities."
-    },
-    {
-        "Id": 3043,
-        "IsReleased": [
-            true,
-            true
-        ],
-        "Category": "Material",
-        "Rarity": "SSR",
-        "Quality": 4,
-        "Tags": [
-            "CDItem",
-            "ExpendableItem",
-            "CDItemSSR"
-        ],
-        "SynthQuality": 200,
-        "Shops": [
-            {
-                "ShopCategory": "Raid",
-                "Released": [
-                    true,
-                    true
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 7,
-                "CostAmount": 100
-            },
-            {
-                "ShopCategory": "Raid",
-                "Released": [
-                    true,
-                    true
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 9,
-                "CostAmount": 100
-            }
-        ],
-        "Icon": "Item_Icon_Material_ExSkill_Abydos_3",
-        "Name": "Superior Tactical Training Blu-ray (Abydos)",
-        "Desc": "A training Blu-ray containing video documentation of the Abydos students&#x27; tactical activities."
-    },
-    {
-        "Id": 3050,
-        "IsReleased": [
-            true,
-            true
-        ],
-        "Category": "Material",
-        "Rarity": "N",
-        "Quality": 1,
-        "Tags": [
-            "CDItem",
-            "ExpendableItem",
-            "CDItemN"
-        ],
-        "SynthQuality": 30,
-        "Shops": [
-            {
-                "ShopCategory": "Raid",
-                "Released": [
-                    true,
-                    true
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 7,
-                "CostAmount": 10
-            },
-            {
-                "ShopCategory": "Raid",
-                "Released": [
-                    true,
-                    true
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 9,
-                "CostAmount": 10
             },
             {
                 "ShopCategory": "Chaser",
@@ -3517,12 +3351,12 @@
                 "CostAmount": 80
             }
         ],
-        "Icon": "Item_Icon_Material_ExSkill_Millennium_0",
-        "Name": "Beginner Tactical Training Blu-ray (Millennium)",
-        "Desc": "A training Blu-ray containing video documentation of the Millennium students&#x27; tactical activities."
+        "Icon": "Item_Icon_Material_ExSkill_Abydos_0",
+        "Name": "Beginner Tactical Training Blu-ray (Abydos)",
+        "Desc": "A training Blu-ray containing video documentation of the Abydos students&#x27; tactical activities."
     },
     {
-        "Id": 3051,
+        "Id": 3041,
         "IsReleased": [
             true,
             true
@@ -3571,12 +3405,12 @@
                 "CostAmount": 160
             }
         ],
-        "Icon": "Item_Icon_Material_ExSkill_Millennium_1",
-        "Name": "Normal Tactical Training Blu-ray (Millennium)",
-        "Desc": "A training Blu-ray containing video documentation of the Millennium students&#x27; tactical activities."
+        "Icon": "Item_Icon_Material_ExSkill_Abydos_1",
+        "Name": "Normal Tactical Training Blu-ray (Abydos)",
+        "Desc": "A training Blu-ray containing video documentation of the Abydos students&#x27; tactical activities."
     },
     {
-        "Id": 3052,
+        "Id": 3042,
         "IsReleased": [
             true,
             true
@@ -3625,12 +3459,12 @@
                 "CostAmount": 400
             }
         ],
-        "Icon": "Item_Icon_Material_ExSkill_Millennium_2",
-        "Name": "Advanced Tactical Training Blu-ray (Millennium)",
-        "Desc": "A training Blu-ray containing video documentation of the Millennium students&#x27; tactical activities."
+        "Icon": "Item_Icon_Material_ExSkill_Abydos_2",
+        "Name": "Advanced Tactical Training Blu-ray (Abydos)",
+        "Desc": "A training Blu-ray containing video documentation of the Abydos students&#x27; tactical activities."
     },
     {
-        "Id": 3053,
+        "Id": 3043,
         "IsReleased": [
             true,
             true
@@ -3679,12 +3513,12 @@
                 "CostAmount": 800
             }
         ],
-        "Icon": "Item_Icon_Material_ExSkill_Millennium_3",
-        "Name": "Superior Tactical Training Blu-ray (Millennium)",
-        "Desc": "A training Blu-ray containing video documentation of the Millennium students&#x27; tactical activities."
+        "Icon": "Item_Icon_Material_ExSkill_Abydos_3",
+        "Name": "Superior Tactical Training Blu-ray (Abydos)",
+        "Desc": "A training Blu-ray containing video documentation of the Abydos students&#x27; tactical activities."
     },
     {
-        "Id": 3060,
+        "Id": 3050,
         "IsReleased": [
             true,
             true
@@ -3733,12 +3567,12 @@
                 ]
             }
         ],
-        "Icon": "Item_Icon_Material_ExSkill_Arius_0",
-        "Name": "Beginner Tactical Training Blu-ray (Arius)",
-        "Desc": "A training Blu-ray containing video documentation of the Arius students&#x27; tactical activities."
+        "Icon": "Item_Icon_Material_ExSkill_Millennium_0",
+        "Name": "Beginner Tactical Training Blu-ray (Millennium)",
+        "Desc": "A training Blu-ray containing video documentation of the Millennium students&#x27; tactical activities."
     },
     {
-        "Id": 3061,
+        "Id": 3051,
         "IsReleased": [
             true,
             true
@@ -3787,12 +3621,12 @@
                 ]
             }
         ],
-        "Icon": "Item_Icon_Material_ExSkill_Arius_1",
-        "Name": "Normal Tactical Training Blu-ray (Arius)",
-        "Desc": "A training Blu-ray containing video documentation of the Arius students&#x27; tactical activities."
+        "Icon": "Item_Icon_Material_ExSkill_Millennium_1",
+        "Name": "Normal Tactical Training Blu-ray (Millennium)",
+        "Desc": "A training Blu-ray containing video documentation of the Millennium students&#x27; tactical activities."
     },
     {
-        "Id": 3062,
+        "Id": 3052,
         "IsReleased": [
             true,
             true
@@ -3841,12 +3675,12 @@
                 ]
             }
         ],
-        "Icon": "Item_Icon_Material_ExSkill_Arius_2",
-        "Name": "Advance Tactical Training Blu-ray (Arius)",
-        "Desc": "A training Blu-ray containing video documentation of the Arius students&#x27; tactical activities."
+        "Icon": "Item_Icon_Material_ExSkill_Millennium_2",
+        "Name": "Advanced Tactical Training Blu-ray (Millennium)",
+        "Desc": "A training Blu-ray containing video documentation of the Millennium students&#x27; tactical activities."
     },
     {
-        "Id": 3063,
+        "Id": 3053,
         "IsReleased": [
             true,
             true
@@ -3895,6 +3729,178 @@
                 ]
             }
         ],
+        "Icon": "Item_Icon_Material_ExSkill_Millennium_3",
+        "Name": "Superior Tactical Training Blu-ray (Millennium)",
+        "Desc": "A training Blu-ray containing video documentation of the Millennium students&#x27; tactical activities."
+    },
+    {
+        "Id": 3060,
+        "IsReleased": [
+            true,
+            true
+        ],
+        "Category": "Material",
+        "Rarity": "N",
+        "Quality": 1,
+        "Tags": [
+            "CDItem",
+            "ExpendableItem",
+            "CDItemN"
+        ],
+        "SynthQuality": 30,
+        "Shops": [
+            {
+                "ShopCategory": "Raid",
+                "Released": [
+                    true,
+                    true
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 7,
+                "CostAmount": 10
+            },
+            {
+                "ShopCategory": "Raid",
+                "Released": [
+                    true,
+                    true
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 9,
+                "CostAmount": 10
+            }
+        ],
+        "Icon": "Item_Icon_Material_ExSkill_Arius_0",
+        "Name": "Beginner Tactical Training Blu-ray (Arius)",
+        "Desc": "A training Blu-ray containing video documentation of the Arius students&#x27; tactical activities."
+    },
+    {
+        "Id": 3061,
+        "IsReleased": [
+            true,
+            true
+        ],
+        "Category": "Material",
+        "Rarity": "R",
+        "Quality": 2,
+        "Tags": [
+            "CDItem",
+            "ExpendableItem",
+            "CDItemR"
+        ],
+        "SynthQuality": 60,
+        "Shops": [
+            {
+                "ShopCategory": "Raid",
+                "Released": [
+                    true,
+                    true
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 7,
+                "CostAmount": 20
+            },
+            {
+                "ShopCategory": "Raid",
+                "Released": [
+                    true,
+                    true
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 9,
+                "CostAmount": 20
+            }
+        ],
+        "Icon": "Item_Icon_Material_ExSkill_Arius_1",
+        "Name": "Normal Tactical Training Blu-ray (Arius)",
+        "Desc": "A training Blu-ray containing video documentation of the Arius students&#x27; tactical activities."
+    },
+    {
+        "Id": 3062,
+        "IsReleased": [
+            true,
+            true
+        ],
+        "Category": "Material",
+        "Rarity": "SR",
+        "Quality": 3,
+        "Tags": [
+            "CDItem",
+            "ExpendableItem",
+            "CDItemSR"
+        ],
+        "SynthQuality": 150,
+        "Shops": [
+            {
+                "ShopCategory": "Raid",
+                "Released": [
+                    true,
+                    true
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 7,
+                "CostAmount": 50
+            },
+            {
+                "ShopCategory": "Raid",
+                "Released": [
+                    true,
+                    true
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 9,
+                "CostAmount": 50
+            }
+        ],
+        "Icon": "Item_Icon_Material_ExSkill_Arius_2",
+        "Name": "Advance Tactical Training Blu-ray (Arius)",
+        "Desc": "A training Blu-ray containing video documentation of the Arius students&#x27; tactical activities."
+    },
+    {
+        "Id": 3063,
+        "IsReleased": [
+            true,
+            true
+        ],
+        "Category": "Material",
+        "Rarity": "SSR",
+        "Quality": 4,
+        "Tags": [
+            "CDItem",
+            "ExpendableItem",
+            "CDItemSSR"
+        ],
+        "SynthQuality": 200,
+        "Shops": [
+            {
+                "ShopCategory": "Raid",
+                "Released": [
+                    true,
+                    true
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 7,
+                "CostAmount": 100
+            },
+            {
+                "ShopCategory": "Raid",
+                "Released": [
+                    true,
+                    true
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 9,
+                "CostAmount": 100
+            }
+        ],
         "Icon": "Item_Icon_Material_ExSkill_Arius_3",
         "Name": "Superior Tactical Training Blu-ray (Arius)",
         "Desc": "A training Blu-ray containing video documentation of the Arius students&#x27; tactical activities."
@@ -3936,17 +3942,6 @@
                 "CostType": "Item",
                 "CostId": 9,
                 "CostAmount": 10
-            },
-            {
-                "ShopCategory": "Chaser",
-                "Released": [
-                    true,
-                    false
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 61,
-                "CostAmount": 80
             }
         ],
         "Icon": "Item_Icon_Material_ExSkill_Shanhaijing_0",
@@ -3990,17 +3985,6 @@
                 "CostType": "Item",
                 "CostId": 9,
                 "CostAmount": 20
-            },
-            {
-                "ShopCategory": "Chaser",
-                "Released": [
-                    true,
-                    false
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 61,
-                "CostAmount": 160
             }
         ],
         "Icon": "Item_Icon_Material_ExSkill_Shanhaijing_1",
@@ -4044,17 +4028,6 @@
                 "CostType": "Item",
                 "CostId": 9,
                 "CostAmount": 50
-            },
-            {
-                "ShopCategory": "Chaser",
-                "Released": [
-                    true,
-                    false
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 61,
-                "CostAmount": 400
             }
         ],
         "Icon": "Item_Icon_Material_ExSkill_Shanhaijing_2",
@@ -4098,17 +4071,6 @@
                 "CostType": "Item",
                 "CostId": 9,
                 "CostAmount": 100
-            },
-            {
-                "ShopCategory": "Chaser",
-                "Released": [
-                    true,
-                    false
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 61,
-                "CostAmount": 800
             }
         ],
         "Icon": "Item_Icon_Material_ExSkill_Shanhaijing_3",
@@ -4152,6 +4114,17 @@
                 "CostType": "Item",
                 "CostId": 9,
                 "CostAmount": 10
+            },
+            {
+                "ShopCategory": "Chaser",
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 61,
+                "CostAmount": 80,
+                "Released": [
+                    false,
+                    true
+                ]
             }
         ],
         "Icon": "Item_Icon_Material_ExSkill_Valkyrie_0",
@@ -4195,6 +4168,17 @@
                 "CostType": "Item",
                 "CostId": 9,
                 "CostAmount": 20
+            },
+            {
+                "ShopCategory": "Chaser",
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 61,
+                "CostAmount": 160,
+                "Released": [
+                    false,
+                    true
+                ]
             }
         ],
         "Icon": "Item_Icon_Material_ExSkill_Valkyrie_1",
@@ -4238,6 +4222,17 @@
                 "CostType": "Item",
                 "CostId": 9,
                 "CostAmount": 50
+            },
+            {
+                "ShopCategory": "Chaser",
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 61,
+                "CostAmount": 400,
+                "Released": [
+                    false,
+                    true
+                ]
             }
         ],
         "Icon": "Item_Icon_Material_ExSkill_Valkyrie_2",
@@ -4281,6 +4276,17 @@
                 "CostType": "Item",
                 "CostId": 9,
                 "CostAmount": 100
+            },
+            {
+                "ShopCategory": "Chaser",
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 61,
+                "CostAmount": 800,
+                "Released": [
+                    false,
+                    true
+                ]
             }
         ],
         "Icon": "Item_Icon_Material_ExSkill_Valkyrie_3",
@@ -4496,6 +4502,17 @@
                 "CostType": "Item",
                 "CostId": 9,
                 "CostAmount": 3
+            },
+            {
+                "ShopCategory": "Chaser",
+                "Released": [
+                    true,
+                    false
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 61,
+                "CostAmount": 24
             }
         ],
         "Icon": "Item_Icon_SkillBook_RedWinter_0",
@@ -4539,6 +4556,17 @@
                 "CostType": "Item",
                 "CostId": 9,
                 "CostAmount": 5
+            },
+            {
+                "ShopCategory": "Chaser",
+                "Released": [
+                    true,
+                    false
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 61,
+                "CostAmount": 40
             }
         ],
         "Icon": "Item_Icon_SkillBook_RedWinter_1",
@@ -4582,6 +4610,17 @@
                 "CostType": "Item",
                 "CostId": 9,
                 "CostAmount": 10
+            },
+            {
+                "ShopCategory": "Chaser",
+                "Released": [
+                    true,
+                    false
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 61,
+                "CostAmount": 80
             }
         ],
         "Icon": "Item_Icon_SkillBook_RedWinter_2",
@@ -4625,6 +4664,17 @@
                 "CostType": "Item",
                 "CostId": 9,
                 "CostAmount": 25
+            },
+            {
+                "ShopCategory": "Chaser",
+                "Released": [
+                    true,
+                    false
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 61,
+                "CostAmount": 200
             }
         ],
         "Icon": "Item_Icon_SkillBook_RedWinter_3",
@@ -4668,17 +4718,6 @@
                 "CostType": "Item",
                 "CostId": 9,
                 "CostAmount": 3
-            },
-            {
-                "ShopCategory": "Chaser",
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 61,
-                "CostAmount": 24,
-                "Released": [
-                    false,
-                    true
-                ]
             }
         ],
         "Icon": "Item_Icon_SkillBook_Trinity_0",
@@ -4722,17 +4761,6 @@
                 "CostType": "Item",
                 "CostId": 9,
                 "CostAmount": 5
-            },
-            {
-                "ShopCategory": "Chaser",
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 61,
-                "CostAmount": 40,
-                "Released": [
-                    false,
-                    true
-                ]
             }
         ],
         "Icon": "Item_Icon_SkillBook_Trinity_1",
@@ -4776,17 +4804,6 @@
                 "CostType": "Item",
                 "CostId": 9,
                 "CostAmount": 10
-            },
-            {
-                "ShopCategory": "Chaser",
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 61,
-                "CostAmount": 80,
-                "Released": [
-                    false,
-                    true
-                ]
             }
         ],
         "Icon": "Item_Icon_SkillBook_Trinity_2",
@@ -4830,17 +4847,6 @@
                 "CostType": "Item",
                 "CostId": 9,
                 "CostAmount": 25
-            },
-            {
-                "ShopCategory": "Chaser",
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 61,
-                "CostAmount": 200,
-                "Released": [
-                    false,
-                    true
-                ]
             }
         ],
         "Icon": "Item_Icon_SkillBook_Trinity_3",
@@ -5056,178 +5062,6 @@
                 "CostType": "Item",
                 "CostId": 9,
                 "CostAmount": 3
-            }
-        ],
-        "Icon": "Item_Icon_SkillBook_Abydos_0",
-        "Name": "Beginner Tech Notes (Abydos)",
-        "Desc": "Notes summarizing the core tactical secrets of Abydos High School."
-    },
-    {
-        "Id": 4041,
-        "IsReleased": [
-            true,
-            true
-        ],
-        "Category": "Material",
-        "Rarity": "R",
-        "Quality": 2,
-        "Tags": [
-            "BookItem",
-            "ExpendableItem",
-            "BookItemR"
-        ],
-        "SynthQuality": 20,
-        "Shops": [
-            {
-                "ShopCategory": "Raid",
-                "Released": [
-                    true,
-                    true
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 7,
-                "CostAmount": 5
-            },
-            {
-                "ShopCategory": "Raid",
-                "Released": [
-                    true,
-                    true
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 9,
-                "CostAmount": 5
-            }
-        ],
-        "Icon": "Item_Icon_SkillBook_Abydos_1",
-        "Name": "Normal Tech Notes (Abydos)",
-        "Desc": "Notes summarizing the core tactical secrets of Abydos High School."
-    },
-    {
-        "Id": 4042,
-        "IsReleased": [
-            true,
-            true
-        ],
-        "Category": "Material",
-        "Rarity": "SR",
-        "Quality": 3,
-        "Tags": [
-            "BookItem",
-            "ExpendableItem",
-            "BookItemSR"
-        ],
-        "SynthQuality": 50,
-        "Shops": [
-            {
-                "ShopCategory": "Raid",
-                "Released": [
-                    true,
-                    true
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 7,
-                "CostAmount": 10
-            },
-            {
-                "ShopCategory": "Raid",
-                "Released": [
-                    true,
-                    true
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 9,
-                "CostAmount": 10
-            }
-        ],
-        "Icon": "Item_Icon_SkillBook_Abydos_2",
-        "Name": "Advanced Tech Notes (Abydos)",
-        "Desc": "Notes summarizing the core tactical secrets of Abydos High School."
-    },
-    {
-        "Id": 4043,
-        "IsReleased": [
-            true,
-            true
-        ],
-        "Category": "Material",
-        "Rarity": "SSR",
-        "Quality": 4,
-        "Tags": [
-            "BookItem",
-            "ExpendableItem",
-            "BookItemSSR"
-        ],
-        "SynthQuality": 80,
-        "Shops": [
-            {
-                "ShopCategory": "Raid",
-                "Released": [
-                    true,
-                    true
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 7,
-                "CostAmount": 25
-            },
-            {
-                "ShopCategory": "Raid",
-                "Released": [
-                    true,
-                    true
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 9,
-                "CostAmount": 25
-            }
-        ],
-        "Icon": "Item_Icon_SkillBook_Abydos_3",
-        "Name": "Superior Tech Notes (Abydos)",
-        "Desc": "Notes summarizing the core tactical secrets of Abydos High School."
-    },
-    {
-        "Id": 4050,
-        "IsReleased": [
-            true,
-            true
-        ],
-        "Category": "Material",
-        "Rarity": "N",
-        "Quality": 1,
-        "Tags": [
-            "BookItem",
-            "ExpendableItem",
-            "BookItemN"
-        ],
-        "SynthQuality": 10,
-        "Shops": [
-            {
-                "ShopCategory": "Raid",
-                "Released": [
-                    true,
-                    true
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 7,
-                "CostAmount": 3
-            },
-            {
-                "ShopCategory": "Raid",
-                "Released": [
-                    true,
-                    true
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 9,
-                "CostAmount": 3
             },
             {
                 "ShopCategory": "Chaser",
@@ -5241,12 +5075,12 @@
                 "CostAmount": 24
             }
         ],
-        "Icon": "Item_Icon_SkillBook_Millennium_0",
-        "Name": "Beginner Tech Notes (Millennium)",
-        "Desc": "Notes summarizing the core tactical secrets of the Millennium School."
+        "Icon": "Item_Icon_SkillBook_Abydos_0",
+        "Name": "Beginner Tech Notes (Abydos)",
+        "Desc": "Notes summarizing the core tactical secrets of Abydos High School."
     },
     {
-        "Id": 4051,
+        "Id": 4041,
         "IsReleased": [
             true,
             true
@@ -5295,12 +5129,12 @@
                 "CostAmount": 40
             }
         ],
-        "Icon": "Item_Icon_SkillBook_Millennium_1",
-        "Name": "Normal Tech Notes (Millennium)",
-        "Desc": "Notes summarizing the core tactical secrets of the Millennium School."
+        "Icon": "Item_Icon_SkillBook_Abydos_1",
+        "Name": "Normal Tech Notes (Abydos)",
+        "Desc": "Notes summarizing the core tactical secrets of Abydos High School."
     },
     {
-        "Id": 4052,
+        "Id": 4042,
         "IsReleased": [
             true,
             true
@@ -5349,12 +5183,12 @@
                 "CostAmount": 80
             }
         ],
-        "Icon": "Item_Icon_SkillBook_Millennium_2",
-        "Name": "Advanced Tech Notes (Millennium)",
-        "Desc": "Notes summarizing the core tactical secrets of the Millennium School."
+        "Icon": "Item_Icon_SkillBook_Abydos_2",
+        "Name": "Advanced Tech Notes (Abydos)",
+        "Desc": "Notes summarizing the core tactical secrets of Abydos High School."
     },
     {
-        "Id": 4053,
+        "Id": 4043,
         "IsReleased": [
             true,
             true
@@ -5403,12 +5237,12 @@
                 "CostAmount": 200
             }
         ],
-        "Icon": "Item_Icon_SkillBook_Millennium_3",
-        "Name": "Superior Tech Notes (Millennium)",
-        "Desc": "Notes summarizing the core tactical secrets of the Millennium School."
+        "Icon": "Item_Icon_SkillBook_Abydos_3",
+        "Name": "Superior Tech Notes (Abydos)",
+        "Desc": "Notes summarizing the core tactical secrets of Abydos High School."
     },
     {
-        "Id": 4060,
+        "Id": 4050,
         "IsReleased": [
             true,
             true
@@ -5457,12 +5291,12 @@
                 ]
             }
         ],
-        "Icon": "Item_Icon_SkillBook_Arius_0",
-        "Name": "Beginner Tech Notes (Arius)",
-        "Desc": "Notes summarizing the core tactical secrets of the Arius Satellite School."
+        "Icon": "Item_Icon_SkillBook_Millennium_0",
+        "Name": "Beginner Tech Notes (Millennium)",
+        "Desc": "Notes summarizing the core tactical secrets of the Millennium School."
     },
     {
-        "Id": 4061,
+        "Id": 4051,
         "IsReleased": [
             true,
             true
@@ -5511,12 +5345,12 @@
                 ]
             }
         ],
-        "Icon": "Item_Icon_SkillBook_Arius_1",
-        "Name": "Normal Tech Notes (Arius)",
-        "Desc": "Notes summarizing the core tactical secrets of the Arius Satellite School."
+        "Icon": "Item_Icon_SkillBook_Millennium_1",
+        "Name": "Normal Tech Notes (Millennium)",
+        "Desc": "Notes summarizing the core tactical secrets of the Millennium School."
     },
     {
-        "Id": 4062,
+        "Id": 4052,
         "IsReleased": [
             true,
             true
@@ -5565,12 +5399,12 @@
                 ]
             }
         ],
-        "Icon": "Item_Icon_SkillBook_Arius_2",
-        "Name": "Advanced Tech Notes (Arius)",
-        "Desc": "Notes summarizing the core tactical secrets of the Arius Satellite School."
+        "Icon": "Item_Icon_SkillBook_Millennium_2",
+        "Name": "Advanced Tech Notes (Millennium)",
+        "Desc": "Notes summarizing the core tactical secrets of the Millennium School."
     },
     {
-        "Id": 4063,
+        "Id": 4053,
         "IsReleased": [
             true,
             true
@@ -5619,6 +5453,178 @@
                 ]
             }
         ],
+        "Icon": "Item_Icon_SkillBook_Millennium_3",
+        "Name": "Superior Tech Notes (Millennium)",
+        "Desc": "Notes summarizing the core tactical secrets of the Millennium School."
+    },
+    {
+        "Id": 4060,
+        "IsReleased": [
+            true,
+            true
+        ],
+        "Category": "Material",
+        "Rarity": "N",
+        "Quality": 1,
+        "Tags": [
+            "BookItem",
+            "ExpendableItem",
+            "BookItemN"
+        ],
+        "SynthQuality": 10,
+        "Shops": [
+            {
+                "ShopCategory": "Raid",
+                "Released": [
+                    true,
+                    true
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 7,
+                "CostAmount": 3
+            },
+            {
+                "ShopCategory": "Raid",
+                "Released": [
+                    true,
+                    true
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 9,
+                "CostAmount": 3
+            }
+        ],
+        "Icon": "Item_Icon_SkillBook_Arius_0",
+        "Name": "Beginner Tech Notes (Arius)",
+        "Desc": "Notes summarizing the core tactical secrets of the Arius Satellite School."
+    },
+    {
+        "Id": 4061,
+        "IsReleased": [
+            true,
+            true
+        ],
+        "Category": "Material",
+        "Rarity": "R",
+        "Quality": 2,
+        "Tags": [
+            "BookItem",
+            "ExpendableItem",
+            "BookItemR"
+        ],
+        "SynthQuality": 20,
+        "Shops": [
+            {
+                "ShopCategory": "Raid",
+                "Released": [
+                    true,
+                    true
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 7,
+                "CostAmount": 5
+            },
+            {
+                "ShopCategory": "Raid",
+                "Released": [
+                    true,
+                    true
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 9,
+                "CostAmount": 5
+            }
+        ],
+        "Icon": "Item_Icon_SkillBook_Arius_1",
+        "Name": "Normal Tech Notes (Arius)",
+        "Desc": "Notes summarizing the core tactical secrets of the Arius Satellite School."
+    },
+    {
+        "Id": 4062,
+        "IsReleased": [
+            true,
+            true
+        ],
+        "Category": "Material",
+        "Rarity": "SR",
+        "Quality": 3,
+        "Tags": [
+            "BookItem",
+            "ExpendableItem",
+            "BookItemSR"
+        ],
+        "SynthQuality": 50,
+        "Shops": [
+            {
+                "ShopCategory": "Raid",
+                "Released": [
+                    true,
+                    true
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 7,
+                "CostAmount": 10
+            },
+            {
+                "ShopCategory": "Raid",
+                "Released": [
+                    true,
+                    true
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 9,
+                "CostAmount": 10
+            }
+        ],
+        "Icon": "Item_Icon_SkillBook_Arius_2",
+        "Name": "Advanced Tech Notes (Arius)",
+        "Desc": "Notes summarizing the core tactical secrets of the Arius Satellite School."
+    },
+    {
+        "Id": 4063,
+        "IsReleased": [
+            true,
+            true
+        ],
+        "Category": "Material",
+        "Rarity": "SSR",
+        "Quality": 4,
+        "Tags": [
+            "BookItem",
+            "ExpendableItem",
+            "BookItemSSR"
+        ],
+        "SynthQuality": 80,
+        "Shops": [
+            {
+                "ShopCategory": "Raid",
+                "Released": [
+                    true,
+                    true
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 7,
+                "CostAmount": 25
+            },
+            {
+                "ShopCategory": "Raid",
+                "Released": [
+                    true,
+                    true
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 9,
+                "CostAmount": 25
+            }
+        ],
         "Icon": "Item_Icon_SkillBook_Arius_3",
         "Name": "Superior Tech Notes (Arius)",
         "Desc": "Notes summarizing the core tactical secrets of the Arius Satellite School."
@@ -5660,17 +5666,6 @@
                 "CostType": "Item",
                 "CostId": 9,
                 "CostAmount": 3
-            },
-            {
-                "ShopCategory": "Chaser",
-                "Released": [
-                    true,
-                    false
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 61,
-                "CostAmount": 24
             }
         ],
         "Icon": "Item_Icon_SkillBook_Shanhaijing_0",
@@ -5714,17 +5709,6 @@
                 "CostType": "Item",
                 "CostId": 9,
                 "CostAmount": 5
-            },
-            {
-                "ShopCategory": "Chaser",
-                "Released": [
-                    true,
-                    false
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 61,
-                "CostAmount": 40
             }
         ],
         "Icon": "Item_Icon_SkillBook_Shanhaijing_1",
@@ -5768,17 +5752,6 @@
                 "CostType": "Item",
                 "CostId": 9,
                 "CostAmount": 10
-            },
-            {
-                "ShopCategory": "Chaser",
-                "Released": [
-                    true,
-                    false
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 61,
-                "CostAmount": 80
             }
         ],
         "Icon": "Item_Icon_SkillBook_Shanhaijing_2",
@@ -5822,17 +5795,6 @@
                 "CostType": "Item",
                 "CostId": 9,
                 "CostAmount": 25
-            },
-            {
-                "ShopCategory": "Chaser",
-                "Released": [
-                    true,
-                    false
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 61,
-                "CostAmount": 200
             }
         ],
         "Icon": "Item_Icon_SkillBook_Shanhaijing_3",
@@ -5876,6 +5838,17 @@
                 "CostType": "Item",
                 "CostId": 9,
                 "CostAmount": 3
+            },
+            {
+                "ShopCategory": "Chaser",
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 61,
+                "CostAmount": 24,
+                "Released": [
+                    false,
+                    true
+                ]
             }
         ],
         "Icon": "Item_Icon_SkillBook_Valkyrie_0",
@@ -5919,6 +5892,17 @@
                 "CostType": "Item",
                 "CostId": 9,
                 "CostAmount": 5
+            },
+            {
+                "ShopCategory": "Chaser",
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 61,
+                "CostAmount": 40,
+                "Released": [
+                    false,
+                    true
+                ]
             }
         ],
         "Icon": "Item_Icon_SkillBook_Valkyrie_1",
@@ -5962,6 +5946,17 @@
                 "CostType": "Item",
                 "CostId": 9,
                 "CostAmount": 10
+            },
+            {
+                "ShopCategory": "Chaser",
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 61,
+                "CostAmount": 80,
+                "Released": [
+                    false,
+                    true
+                ]
             }
         ],
         "Icon": "Item_Icon_SkillBook_Valkyrie_2",
@@ -6005,6 +6000,17 @@
                 "CostType": "Item",
                 "CostId": 9,
                 "CostAmount": 25
+            },
+            {
+                "ShopCategory": "Chaser",
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 61,
+                "CostAmount": 200,
+                "Released": [
+                    false,
+                    true
+                ]
             }
         ],
         "Icon": "Item_Icon_SkillBook_Valkyrie_3",
@@ -6029,6 +6035,7 @@
             "F_Sena"
         ],
         "SynthQuality": 20,
+        "ExpValue": 20,
         "Shops": [],
         "Icon": "Item_Icon_Favor_0",
         "Name": "Wavecat Pillow",
@@ -6050,9 +6057,11 @@
             "MomoFriends",
             "F_Hihumi",
             "F_Shiroko",
-            "F_Hihumi_Swimsuit"
+            "F_Hihumi_Swimsuit",
+            "F_Toki"
         ],
         "SynthQuality": 20,
+        "ExpValue": 20,
         "Shops": [],
         "Icon": "Item_Icon_Favor_1",
         "Name": "Peroro Wheel",
@@ -6076,6 +6085,7 @@
             "F_Moe"
         ],
         "SynthQuality": 20,
+        "ExpValue": 20,
         "Shops": [],
         "Icon": "Item_Icon_Favor_2",
         "Name": "A-Pods Pro",
@@ -6100,6 +6110,7 @@
             "F_Tsurugi_Swimsuit"
         ],
         "SynthQuality": 20,
+        "ExpValue": 20,
         "Shops": [],
         "Icon": "Item_Icon_Favor_3",
         "Name": "The Love Which Couldn&#x27;t Be- Beauty Found in What&#x27;s Not Allowed -",
@@ -6123,6 +6134,7 @@
             "F_Aris"
         ],
         "SynthQuality": 20,
+        "ExpValue": 20,
         "Shops": [],
         "Icon": "Item_Icon_Favor_4",
         "Name": "Hitgirls Gaming Magazine",
@@ -6145,6 +6157,7 @@
             "F_Asuna"
         ],
         "SynthQuality": 20,
+        "ExpValue": 20,
         "Shops": [],
         "Icon": "Item_Icon_Favor_5",
         "Name": "Cherry-Rose Lip Gloss",
@@ -6168,6 +6181,7 @@
             "F_Saori"
         ],
         "SynthQuality": 20,
+        "ExpValue": 20,
         "Shops": [],
         "Icon": "Item_Icon_Favor_6",
         "Name": "Glassy Glow BB Cream",
@@ -6191,6 +6205,7 @@
             "F_Saki"
         ],
         "SynthQuality": 20,
+        "ExpValue": 20,
         "Shops": [],
         "Icon": "Item_Icon_Favor_7",
         "Name": "Military Camo Foundation Trio",
@@ -6216,6 +6231,7 @@
             "F_Haruna_Newyear"
         ],
         "SynthQuality": 20,
+        "ExpValue": 20,
         "Shops": [],
         "Icon": "Item_Icon_Favor_8",
         "Name": "Fine Cookie Set",
@@ -6240,6 +6256,7 @@
             "F_Ayane_Swimsuit"
         ],
         "SynthQuality": 20,
+        "ExpValue": 20,
         "Shops": [],
         "Icon": "Item_Icon_Favor_9",
         "Name": "Guns, Charm, and Zeal",
@@ -6264,6 +6281,7 @@
             "F_Utaha_Cheerleader"
         ],
         "SynthQuality": 20,
+        "ExpValue": 20,
         "Shops": [],
         "Icon": "Item_Icon_Favor_10",
         "Name": "Astronomical Telescope",
@@ -6287,6 +6305,7 @@
             "F_Neru_BunnyGirl"
         ],
         "SynthQuality": 20,
+        "ExpValue": 20,
         "Shops": [],
         "Icon": "Item_Icon_Favor_11",
         "Name": "Gamegirl Color Replica",
@@ -6309,6 +6328,7 @@
             "F_Mashiro_Swimsuit"
         ],
         "SynthQuality": 20,
+        "ExpValue": 20,
         "Shops": [],
         "Icon": "Item_Icon_Favor_12",
         "Name": "MX-Ration C-Type Dessert Flavor",
@@ -6330,6 +6350,7 @@
             "Freakish"
         ],
         "SynthQuality": 20,
+        "ExpValue": 20,
         "Shops": [],
         "Icon": "Item_Icon_Favor_13",
         "Name": "Matcha Ramune",
@@ -6353,6 +6374,7 @@
             "F_Midori"
         ],
         "SynthQuality": 20,
+        "ExpValue": 20,
         "Shops": [],
         "Icon": "Item_Icon_Favor_14",
         "Name": "Jellies Cushion",
@@ -6376,6 +6398,7 @@
             "F_Koharu"
         ],
         "SynthQuality": 20,
+        "ExpValue": 20,
         "Shops": [],
         "Icon": "Item_Icon_Favor_15",
         "Name": "Extraordinary Cottontail Detective- Case of the Misty Hot Spring Slide -",
@@ -6399,6 +6422,7 @@
             "F_Hanae_Holiday"
         ],
         "SynthQuality": 20,
+        "ExpValue": 20,
         "Shops": [],
         "Icon": "Item_Icon_Favor_16",
         "Name": "Ring Bit",
@@ -6425,6 +6449,7 @@
             "F_Hoshino_Swimsuit"
         ],
         "SynthQuality": 20,
+        "ExpValue": 20,
         "Shops": [],
         "Icon": "Item_Icon_Favor_17",
         "Name": "Buried Treasure Map",
@@ -6449,6 +6474,7 @@
             "F_Saya_Casual"
         ],
         "SynthQuality": 20,
+        "ExpValue": 20,
         "Shops": [],
         "Icon": "Item_Icon_Favor_18",
         "Name": "Cosplayer Coke-Bottle Glasses",
@@ -6473,6 +6499,7 @@
             "F_Hina_swimsuit"
         ],
         "SynthQuality": 20,
+        "ExpValue": 20,
         "Shops": [],
         "Icon": "Item_Icon_Favor_19",
         "Name": "World&#x27;s Most Useless Gadget",
@@ -6502,6 +6529,7 @@
             "F_Wakamo_Swimsuit"
         ],
         "SynthQuality": 20,
+        "ExpValue": 20,
         "Shops": [],
         "Icon": "Item_Icon_Favor_20",
         "Name": "Teddy Bear with Bow",
@@ -6524,6 +6552,7 @@
             "F_Pina"
         ],
         "SynthQuality": 20,
+        "ExpValue": 20,
         "Shops": [],
         "Icon": "Item_Icon_Favor_21",
         "Name": "Movie Ticket",
@@ -6546,6 +6575,7 @@
             "F_Juri"
         ],
         "SynthQuality": 20,
+        "ExpValue": 20,
         "Shops": [],
         "Icon": "Item_Icon_Favor_22",
         "Name": "30-Color Paint Set",
@@ -6568,6 +6598,7 @@
             "F_Tomoe"
         ],
         "SynthQuality": 20,
+        "ExpValue": 20,
         "Shops": [],
         "Icon": "Item_Icon_Favor_23",
         "Name": "Classical Poetry Anthology",
@@ -6591,6 +6622,7 @@
             "F_Hiyori"
         ],
         "SynthQuality": 20,
+        "ExpValue": 20,
         "Shops": [],
         "Icon": "Item_Icon_Favor_24",
         "Name": "Cute Dishware Set",
@@ -6615,6 +6647,7 @@
             "F_Yuuka_Track"
         ],
         "SynthQuality": 20,
+        "ExpValue": 20,
         "Shops": [],
         "Icon": "Item_Icon_Favor_25",
         "Name": "Brain Teaser Puzzle Cube",
@@ -6639,6 +6672,7 @@
             "F_Sakurako"
         ],
         "SynthQuality": 20,
+        "ExpValue": 20,
         "Shops": [],
         "Icon": "Item_Icon_Favor_26",
         "Name": "Large Whole Cake",
@@ -6662,6 +6696,7 @@
             "F_Nodoka_Onsen"
         ],
         "SynthQuality": 20,
+        "ExpValue": 20,
         "Shops": [],
         "Icon": "Item_Icon_Favor_27",
         "Name": "Luxury Buffet Ticket",
@@ -6684,6 +6719,7 @@
             "F_Hinata"
         ],
         "SynthQuality": 20,
+        "ExpValue": 20,
         "Shops": [],
         "Icon": "Item_Icon_Favor_28",
         "Name": "Potted Bug-Eating Plant",
@@ -6707,6 +6743,7 @@
             "F_Serika_Newyear"
         ],
         "SynthQuality": 20,
+        "ExpValue": 20,
         "Shops": [],
         "Icon": "Item_Icon_Favor_29",
         "Name": "Extravagant Gilded Jar of Greed",
@@ -6726,9 +6763,11 @@
             "CraftMaterial_FavorItemSR",
             "Curios",
             "Music",
-            "F_Chinatsu_Onsen"
+            "F_Chinatsu_Onsen",
+            "F_Nagisa"
         ],
         "SynthQuality": 20,
+        "ExpValue": 20,
         "Shops": [],
         "Icon": "Item_Icon_Favor_30",
         "Name": "Wind-Up Music Box",
@@ -6757,6 +6796,7 @@
             "F_Haruna_Newyear"
         ],
         "SynthQuality": 20,
+        "ExpValue": 20,
         "Shops": [],
         "Icon": "Item_Icon_Favor_31",
         "Name": "Embroidered Handkerchief",
@@ -6779,6 +6819,7 @@
             "F_Atsuko"
         ],
         "SynthQuality": 20,
+        "ExpValue": 20,
         "Shops": [],
         "Icon": "Item_Icon_Favor_32",
         "Name": "Encyclopedia",
@@ -6804,6 +6845,7 @@
             "F_Fuuka_Newyear"
         ],
         "SynthQuality": 20,
+        "ExpValue": 20,
         "Shops": [],
         "Icon": "Item_Icon_Favor_33",
         "Name": "Health Food Supplement",
@@ -6825,6 +6867,7 @@
             "WaterPlay"
         ],
         "SynthQuality": 20,
+        "ExpValue": 20,
         "Shops": [],
         "Icon": "Item_Icon_Favor_34",
         "Name": "Summer Floaty",
@@ -6853,6 +6896,7 @@
             "F_Serina_Holiday",
             "F_Serina_Holiday2"
         ],
+        "ExpValue": 60,
         "Shops": [],
         "Icon": "Item_Icon_Favor_Lv2_0",
         "Name": "Lace Pillow",
@@ -6873,6 +6917,7 @@
             "Gift1",
             "Books"
         ],
+        "ExpValue": 60,
         "Shops": [],
         "Icon": "Item_Icon_Favor_Lv2_1",
         "Name": "Streets of Thugs Vol. 1",
@@ -6905,6 +6950,7 @@
             "F_Mine",
             "F_Mine2"
         ],
+        "ExpValue": 60,
         "Shops": [],
         "Icon": "Item_Icon_Favor_Lv2_2",
         "Name": "Samuela &quot;The Beyond&quot;",
@@ -6939,8 +6985,11 @@
             "F_Hoshino_Swimsuit",
             "F_Hoshino_Swimsuit2",
             "F_Himari",
-            "F_Himari2"
+            "F_Himari2",
+            "F_Nagisa",
+            "F_Nagisa2"
         ],
+        "ExpValue": 60,
         "Shops": [],
         "Icon": "Item_Icon_Favor_Lv2_3",
         "Name": "Antique Egg Handicraft",
@@ -6977,6 +7026,7 @@
             "F_Sakurako",
             "F_Sakurako2"
         ],
+        "ExpValue": 60,
         "Shops": [],
         "Icon": "Item_Icon_Favor_Lv2_4",
         "Name": "Mille-Feuille Traditional Parfait",
@@ -7011,6 +7061,7 @@
             "F_Utaha_Cheerleader",
             "F_Utaha_Cheerleader2"
         ],
+        "ExpValue": 60,
         "Shops": [],
         "Icon": "Item_Icon_Favor_Lv2_5",
         "Name": "Airbook Rare",
@@ -7045,6 +7096,7 @@
             "F_Mari_Track",
             "F_Mari_Track2"
         ],
+        "ExpValue": 60,
         "Shops": [],
         "Icon": "Item_Icon_Favor_Lv2_6",
         "Name": "Sophisticated Hairbrush",
@@ -7085,6 +7137,7 @@
             "F_Kanna",
             "F_Kanna2"
         ],
+        "ExpValue": 60,
         "Shops": [],
         "Icon": "Item_Icon_Favor_Lv2_7",
         "Name": "Nutrient-Packed Multivitamin Gummies",
@@ -7107,6 +7160,7 @@
             "F_Tsubaki",
             "F_Tsubaki2"
         ],
+        "ExpValue": 60,
         "Shops": [],
         "Icon": "Item_Icon_Favor_Lv2_8",
         "Name": "Finest Maple Bonsai",
@@ -7139,6 +7193,7 @@
             "F_Akane_BunnyGirl",
             "F_Akane_BunnyGirl2"
         ],
+        "ExpValue": 60,
         "Shops": [],
         "Icon": "Item_Icon_Favor_Lv2_9",
         "Name": "Sewing Kit",
@@ -7165,6 +7220,7 @@
             "F_Haruna_Newyear",
             "F_Haruna_Newyear2"
         ],
+        "ExpValue": 60,
         "Shops": [],
         "Icon": "Item_Icon_Favor_Lv2_10",
         "Name": "Music Concert Ticket",
@@ -7185,8 +7241,11 @@
             "Gift1",
             "Sports",
             "F_Hanae_Holiday",
-            "F_Hanae_Holiday2"
+            "F_Hanae_Holiday2",
+            "F_Toki",
+            "F_Toki2"
         ],
+        "ExpValue": 60,
         "Shops": [],
         "Icon": "Item_Icon_Favor_Lv2_11",
         "Name": "Three Times a Day Dumbbell Set",
@@ -7219,6 +7278,7 @@
             "F_Megu",
             "F_Megu2"
         ],
+        "ExpValue": 60,
         "Shops": [],
         "Icon": "Item_Icon_Favor_Lv2_12",
         "Name": "Board Game &quot;The Life&quot;",
@@ -7237,6 +7297,7 @@
             "Gift1",
             "Gift2"
         ],
+        "ExpValue": 20,
         "Shops": [],
         "Icon": "Item_Icon_Favor_SSR_2",
         "Name": "Hatsune Miku Photo Card",
@@ -7255,6 +7316,7 @@
             "Gift1",
             "Gift2"
         ],
+        "ExpValue": 20,
         "Shops": [],
         "Icon": "Item_Icon_Favor_SSR_1",
         "Name": "Shiny Bouquet",
@@ -7780,7 +7842,19 @@
         "Tags": [
             "SecretStone"
         ],
-        "Shops": [],
+        "Shops": [
+            {
+                "ShopCategory": "Raid",
+                "Released": [
+                    true,
+                    false
+                ],
+                "Amount": 5,
+                "CostType": "Item",
+                "CostId": 9,
+                "CostAmount": 50
+            }
+        ],
         "Icon": "Item_Icon_SecretStone_Koharu",
         "Name": "Koharu&#x27;s Eleph",
         "Desc": "The mystical Eleph of Koharu."
@@ -8306,7 +8380,7 @@
                 "ShopCategory": "MasterCoin",
                 "Released": [
                     true,
-                    false
+                    true
                 ],
                 "Amount": 5,
                 "CostType": "Currency",
@@ -8380,7 +8454,7 @@
         "Id": 10048,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Category": "SecretStone",
         "Rarity": "N",
@@ -8397,7 +8471,7 @@
         "Id": 10049,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Category": "SecretStone",
         "Rarity": "N",
@@ -8613,6 +8687,23 @@
         "Icon": "Item_Icon_SecretStone_Sakurako",
         "Name": "Sakurako's Eleph",
         "Desc": "The mystical Eleph of Sakurako."
+    },
+    {
+        "Id": 10062,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Category": "SecretStone",
+        "Rarity": "N",
+        "Quality": 9,
+        "Tags": [
+            "SecretStone"
+        ],
+        "Shops": [],
+        "Icon": "Item_Icon_SecretStone_CH0187",
+        "Name": "Toki's Eleph",
+        "Desc": "The mystical Eleph of Toki."
     },
     {
         "Id": 13000,
@@ -9426,7 +9517,7 @@
         "Id": 20018,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Category": "SecretStone",
         "Rarity": "N",
@@ -9523,6 +9614,23 @@
         "Icon": "Item_Icon_SecretStone_CH0170",
         "Name": "Kanna's Eleph",
         "Desc": "The mystical Eleph of Kanna."
+    },
+    {
+        "Id": 20024,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Category": "SecretStone",
+        "Rarity": "N",
+        "Quality": 9,
+        "Tags": [
+            "SecretStone"
+        ],
+        "Shops": [],
+        "Icon": "Item_Icon_SecretStone_Nagisa",
+        "Name": "Nagisa's Eleph",
+        "Desc": "The mystical Eleph of Nagisa."
     },
     {
         "Id": 23000,
@@ -9679,7 +9787,7 @@
                 "ShopCategory": "Arena",
                 "Released": [
                     true,
-                    false
+                    true
                 ],
                 "Amount": 5,
                 "CostType": "Item",
@@ -9703,7 +9811,19 @@
         "Tags": [
             "SecretStone"
         ],
-        "Shops": [],
+        "Shops": [
+            {
+                "ShopCategory": "Raid",
+                "Released": [
+                    true,
+                    false
+                ],
+                "Amount": 5,
+                "CostType": "Item",
+                "CostId": 7,
+                "CostAmount": 50
+            }
+        ],
         "Icon": "Item_Icon_SecretStone_Hanako",
         "Name": "Hanako&#x27;s Eleph",
         "Desc": "The mystical Eleph of Hanako."
@@ -12580,7 +12700,7 @@
         "Id": 80140,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Category": "Coin",
         "Rarity": "N",
@@ -12617,7 +12737,7 @@
         "Id": 80141,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Category": "Coin",
         "Rarity": "N",
@@ -12650,7 +12770,7 @@
         "Id": 80142,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Category": "Coin",
         "Rarity": "N",
@@ -12683,7 +12803,7 @@
         "Id": 80143,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Category": "Coin",
         "Rarity": "N",
@@ -13337,6 +13457,99 @@
         "Icon": "Item_Icon_Event_Token_3_S22",
         "Name": "おみくじ引換券",
         "Desc": "おみくじの引換券。複数集めるとおみくじを引くことができる。一年の運試しにいかが？"
+    },
+    {
+        "Id": 80200,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Category": "Coin",
+        "Rarity": "N",
+        "Quality": 1,
+        "Tags": [],
+        "Shops": [],
+        "Icon": "Item_Icon_Event_Token_1_S24",
+        "Name": "多次元演算回路",
+        "Desc": "アトラ・ハシースの箱舟から切り離された演算装置の断片。複雑な回路で構成されている。",
+        "EventBonus": []
+    },
+    {
+        "Id": 80201,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Category": "Coin",
+        "Rarity": "N",
+        "Quality": 2,
+        "Tags": [],
+        "Shops": [],
+        "Icon": "Item_Icon_Event_Token_2_S24",
+        "Name": "次元エンジン付属品",
+        "Desc": "次元エンジンから切り離された付属品。今は機械の塊に過ぎず、特に使えるところはなさそうだ。",
+        "EventBonus": []
+    },
+    {
+        "Id": 80202,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Category": "Coin",
+        "Rarity": "N",
+        "Quality": 3,
+        "Tags": [],
+        "Shops": [],
+        "Icon": "Item_Icon_Event_Token_3_S24",
+        "Name": "宇宙チョコバーガー",
+        "Desc": "誰かが宇宙食として使用するために密封されたチョコバーガー。なぜチョコバーガーを密封処理したのか、未だに疑問は解消されていない。",
+        "EventBonus": []
+    },
+    {
+        "Id": 80203,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Category": "Coin",
+        "Rarity": "N",
+        "Quality": 1,
+        "Tags": [],
+        "Shops": [],
+        "Icon": "Item_Icon_Event_Token_4_S24",
+        "Name": "ゲートアンロックコード - 外郭2区",
+        "Desc": "外郭2区のゲートを開放できるアンロックコードが認識されたチップ。"
+    },
+    {
+        "Id": 80204,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Category": "Coin",
+        "Rarity": "N",
+        "Quality": 2,
+        "Tags": [],
+        "Shops": [],
+        "Icon": "Item_Icon_Event_Token_4_S24",
+        "Name": "ゲートアンロックコード - 外郭3区",
+        "Desc": "外郭3区のゲートを開放できるアンロックコードが認識されたチップ。"
+    },
+    {
+        "Id": 80205,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Category": "Coin",
+        "Rarity": "N",
+        "Quality": 3,
+        "Tags": [],
+        "Shops": [],
+        "Icon": "Item_Icon_Event_Token_4_S24",
+        "Name": "ゲートアンロックコード - 中央区",
+        "Desc": "中央区のゲートを開放できるアンロックコードが認識されたチップ。"
     },
     {
         "Id": 85000,
@@ -15304,6 +15517,641 @@
             [
                 23008,
                 1500
+            ]
+        ]
+    },
+    {
+        "Id": 100000,
+        "IsReleased": [
+            true,
+            true
+        ],
+        "Category": "Consumable",
+        "Rarity": "SR",
+        "Quality": 3,
+        "Tags": [],
+        "Shops": [],
+        "Icon": "Item_Icon_Favor_Random",
+        "Name": "Gift Box",
+        "Desc": "A wrapped gift box for a student.",
+        "ConsumeType": "Random",
+        "ImmediateUse": false,
+        "Contains": [
+            [
+                5000,
+                0.0286,
+                1
+            ],
+            [
+                5001,
+                0.0286,
+                1
+            ],
+            [
+                5002,
+                0.0286,
+                1
+            ],
+            [
+                5003,
+                0.0286,
+                1
+            ],
+            [
+                5004,
+                0.0286,
+                1
+            ],
+            [
+                5005,
+                0.0286,
+                1
+            ],
+            [
+                5006,
+                0.0286,
+                1
+            ],
+            [
+                5007,
+                0.0286,
+                1
+            ],
+            [
+                5008,
+                0.0286,
+                1
+            ],
+            [
+                5009,
+                0.0286,
+                1
+            ],
+            [
+                5010,
+                0.0286,
+                1
+            ],
+            [
+                5011,
+                0.0286,
+                1
+            ],
+            [
+                5012,
+                0.0286,
+                1
+            ],
+            [
+                5013,
+                0.0286,
+                1
+            ],
+            [
+                5014,
+                0.0286,
+                1
+            ],
+            [
+                5015,
+                0.0286,
+                1
+            ],
+            [
+                5016,
+                0.0286,
+                1
+            ],
+            [
+                5017,
+                0.0286,
+                1
+            ],
+            [
+                5018,
+                0.0286,
+                1
+            ],
+            [
+                5019,
+                0.0286,
+                1
+            ],
+            [
+                5020,
+                0.0286,
+                1
+            ],
+            [
+                5021,
+                0.0286,
+                1
+            ],
+            [
+                5022,
+                0.0286,
+                1
+            ],
+            [
+                5023,
+                0.0286,
+                1
+            ],
+            [
+                5024,
+                0.0286,
+                1
+            ],
+            [
+                5025,
+                0.0286,
+                1
+            ],
+            [
+                5026,
+                0.0286,
+                1
+            ],
+            [
+                5027,
+                0.0286,
+                1
+            ],
+            [
+                5028,
+                0.0286,
+                1
+            ],
+            [
+                5029,
+                0.0286,
+                1
+            ],
+            [
+                5030,
+                0.0286,
+                1
+            ],
+            [
+                5031,
+                0.0286,
+                1
+            ],
+            [
+                5032,
+                0.0286,
+                1
+            ],
+            [
+                5033,
+                0.0286,
+                1
+            ],
+            [
+                5034,
+                0.0286,
+                1
+            ]
+        ]
+    },
+    {
+        "Id": 100001,
+        "IsReleased": [
+            true,
+            true
+        ],
+        "Category": "Consumable",
+        "Rarity": "SSR",
+        "Quality": 4,
+        "Tags": [],
+        "Shops": [],
+        "Icon": "Item_Icon_Furniture_Random",
+        "Name": "Furniture Box (3☆)",
+        "Desc": "A packaged box of 3☆ cafe furniture.",
+        "ConsumeType": "Random",
+        "ImmediateUse": false,
+        "Contains": [
+            [
+                1001300,
+                0.0208,
+                1
+            ],
+            [
+                1001301,
+                0.0208,
+                1
+            ],
+            [
+                1001302,
+                0.0208,
+                1
+            ],
+            [
+                1001303,
+                0.0208,
+                1
+            ],
+            [
+                1002300,
+                0.0208,
+                1
+            ],
+            [
+                1002301,
+                0.0208,
+                1
+            ],
+            [
+                1002302,
+                0.0208,
+                1
+            ],
+            [
+                1002303,
+                0.0208,
+                1
+            ],
+            [
+                1003300,
+                0.0208,
+                1
+            ],
+            [
+                1003301,
+                0.0208,
+                1
+            ],
+            [
+                1003302,
+                0.0208,
+                1
+            ],
+            [
+                1003303,
+                0.0208,
+                1
+            ],
+            [
+                1004300,
+                0.0208,
+                1
+            ],
+            [
+                1004301,
+                0.0208,
+                1
+            ],
+            [
+                1004302,
+                0.0208,
+                1
+            ],
+            [
+                1004303,
+                0.0208,
+                1
+            ],
+            [
+                1004304,
+                0.0208,
+                1
+            ],
+            [
+                1004305,
+                0.0208,
+                1
+            ],
+            [
+                1005301,
+                0.0208,
+                1
+            ],
+            [
+                1005302,
+                0.0208,
+                1
+            ],
+            [
+                1005303,
+                0.0208,
+                1
+            ],
+            [
+                1005304,
+                0.0208,
+                1
+            ],
+            [
+                1005305,
+                0.0208,
+                1
+            ],
+            [
+                1006301,
+                0.0208,
+                1
+            ],
+            [
+                1006300,
+                0.0208,
+                1
+            ],
+            [
+                1006302,
+                0.0208,
+                1
+            ],
+            [
+                1007301,
+                0.0208,
+                1
+            ],
+            [
+                1007300,
+                0.0208,
+                1
+            ],
+            [
+                1007302,
+                0.0208,
+                1
+            ],
+            [
+                1008300,
+                0.0208,
+                1
+            ],
+            [
+                1008301,
+                0.0208,
+                1
+            ],
+            [
+                1008302,
+                0.0208,
+                1
+            ],
+            [
+                1008303,
+                0.0208,
+                1
+            ],
+            [
+                1009300,
+                0.0208,
+                1
+            ],
+            [
+                1009301,
+                0.0208,
+                1
+            ],
+            [
+                1009302,
+                0.0208,
+                1
+            ],
+            [
+                1009303,
+                0.0208,
+                1
+            ],
+            [
+                1009304,
+                0.0208,
+                1
+            ],
+            [
+                1010300,
+                0.0208,
+                1
+            ],
+            [
+                1010304,
+                0.0208,
+                1
+            ],
+            [
+                1010306,
+                0.0208,
+                1
+            ],
+            [
+                1011300,
+                0.0208,
+                1
+            ],
+            [
+                1011301,
+                0.0208,
+                1
+            ],
+            [
+                1011302,
+                0.0208,
+                1
+            ],
+            [
+                1011303,
+                0.0208,
+                1
+            ],
+            [
+                1011304,
+                0.0208,
+                1
+            ],
+            [
+                1011305,
+                0.0208,
+                1
+            ],
+            [
+                1011306,
+                0.0208,
+                1
+            ]
+        ],
+        "ContainsGlobal": [
+            [
+                1001300,
+                0.0278,
+                1
+            ],
+            [
+                1001301,
+                0.0278,
+                1
+            ],
+            [
+                1001302,
+                0.0278,
+                1
+            ],
+            [
+                1001303,
+                0.0278,
+                1
+            ],
+            [
+                1002300,
+                0.0278,
+                1
+            ],
+            [
+                1002301,
+                0.0278,
+                1
+            ],
+            [
+                1002302,
+                0.0278,
+                1
+            ],
+            [
+                1002303,
+                0.0278,
+                1
+            ],
+            [
+                1003300,
+                0.0278,
+                1
+            ],
+            [
+                1003301,
+                0.0278,
+                1
+            ],
+            [
+                1003302,
+                0.0278,
+                1
+            ],
+            [
+                1003303,
+                0.0278,
+                1
+            ],
+            [
+                1004300,
+                0.0278,
+                1
+            ],
+            [
+                1004301,
+                0.0278,
+                1
+            ],
+            [
+                1004302,
+                0.0278,
+                1
+            ],
+            [
+                1004303,
+                0.0278,
+                1
+            ],
+            [
+                1004304,
+                0.0278,
+                1
+            ],
+            [
+                1004305,
+                0.0278,
+                1
+            ],
+            [
+                1005301,
+                0.0278,
+                1
+            ],
+            [
+                1005302,
+                0.0278,
+                1
+            ],
+            [
+                1005303,
+                0.0278,
+                1
+            ],
+            [
+                1005304,
+                0.0278,
+                1
+            ],
+            [
+                1005305,
+                0.0278,
+                1
+            ],
+            [
+                1006301,
+                0.0278,
+                1
+            ],
+            [
+                1006300,
+                0.0278,
+                1
+            ],
+            [
+                1006302,
+                0.0278,
+                1
+            ],
+            [
+                1007301,
+                0.0278,
+                1
+            ],
+            [
+                1007300,
+                0.0278,
+                1
+            ],
+            [
+                1007302,
+                0.0278,
+                1
+            ],
+            [
+                1008300,
+                0.0278,
+                1
+            ],
+            [
+                1008301,
+                0.0278,
+                1
+            ],
+            [
+                1008302,
+                0.0278,
+                1
+            ],
+            [
+                1008303,
+                0.0278,
+                1
+            ],
+            [
+                1009301,
+                0.0278,
+                1
+            ],
+            [
+                1009302,
+                0.0278,
+                1
+            ],
+            [
+                1009303,
+                0.0278,
+                1
             ]
         ]
     },
@@ -19583,6 +20431,140 @@
                 1
             ],
             [
+                1009201,
+                1,
+                1,
+                1
+            ],
+            [
+                1009202,
+                1,
+                1,
+                1
+            ],
+            [
+                1009203,
+                1,
+                1,
+                1
+            ],
+            [
+                1009204,
+                1,
+                1,
+                1
+            ],
+            [
+                1009205,
+                1,
+                1,
+                1
+            ],
+            [
+                1009206,
+                1,
+                1,
+                1
+            ],
+            [
+                1009207,
+                1,
+                1,
+                1
+            ],
+            [
+                1009300,
+                1,
+                1,
+                1
+            ],
+            [
+                1009301,
+                1,
+                1,
+                1
+            ],
+            [
+                1009302,
+                1,
+                1,
+                1
+            ],
+            [
+                1009303,
+                1,
+                1,
+                1
+            ],
+            [
+                1009304,
+                1,
+                1,
+                1
+            ]
+        ],
+        "ContainsGlobal": [
+            [
+                1009100,
+                1,
+                1,
+                1
+            ],
+            [
+                1009101,
+                1,
+                1,
+                1
+            ],
+            [
+                1009102,
+                1,
+                1,
+                1
+            ],
+            [
+                1009103,
+                1,
+                1,
+                1
+            ],
+            [
+                1009104,
+                1,
+                1,
+                1
+            ],
+            [
+                1009105,
+                1,
+                1,
+                1
+            ],
+            [
+                1009106,
+                1,
+                1,
+                1
+            ],
+            [
+                1009107,
+                1,
+                1,
+                1
+            ],
+            [
+                1009108,
+                1,
+                1,
+                1
+            ],
+            [
+                1009200,
+                1,
+                1,
+                1
+            ],
+            [
                 1009202,
                 1,
                 1,
@@ -23589,6 +24571,118 @@
         "ConsumeType": "Random",
         "ImmediateUse": false,
         "Contains": [
+            [
+                1009100,
+                0.0455,
+                1
+            ],
+            [
+                1009101,
+                0.0455,
+                1
+            ],
+            [
+                1009102,
+                0.0455,
+                1
+            ],
+            [
+                1009103,
+                0.0455,
+                1
+            ],
+            [
+                1009104,
+                0.0455,
+                1
+            ],
+            [
+                1009105,
+                0.0455,
+                1
+            ],
+            [
+                1009106,
+                0.0455,
+                1
+            ],
+            [
+                1009107,
+                0.0455,
+                1
+            ],
+            [
+                1009108,
+                0.0455,
+                1
+            ],
+            [
+                1009200,
+                0.0455,
+                1
+            ],
+            [
+                1009201,
+                0.0455,
+                1
+            ],
+            [
+                1009202,
+                0.0455,
+                1
+            ],
+            [
+                1009203,
+                0.0455,
+                1
+            ],
+            [
+                1009204,
+                0.0455,
+                1
+            ],
+            [
+                1009205,
+                0.0455,
+                1
+            ],
+            [
+                1009206,
+                0.0455,
+                1
+            ],
+            [
+                1009207,
+                0.0455,
+                1
+            ],
+            [
+                1009300,
+                0.0455,
+                1
+            ],
+            [
+                1009301,
+                0.0455,
+                1
+            ],
+            [
+                1009302,
+                0.0455,
+                1
+            ],
+            [
+                1009303,
+                0.0455,
+                1
+            ],
+            [
+                1009304,
+                0.0455,
+                1
+            ]
+        ],
+        "ContainsGlobal": [
             [
                 1009100,
                 0.0526,

@@ -18,7 +18,7 @@
                 {
                     "title": "ItJustWorks' Library of Stats and Formulas",
                     "description": "A complete documentation on known game formulae",
-                    "url": "https://docs.google.com/document/d/1bvYGwIh-9o-2JQ4Q2MQXtsL0peiCPrRuw0l3HQmTrZ0",
+                    "url": "https://docs.google.com/document/d/1Ui0FRgG8h8RB1-cA639F3ETDrVM7q9FKftg4vBKBAAQ",
                     "author": "Causew#5130"
                 }
             ]
@@ -69,7 +69,7 @@
                 {
                     "title": "Blue Archive Insane Raid Guide",
                     "description": "",
-                    "url": "https://docs.google.com/document/d/1bvYGwIh-9o-2JQ4Q2MQXtsL0peiCPrRuw0l3HQmTrZ0",
+                    "url": "https://docs.google.com/document/d/1x6rm97BmtRJZHCWrz5puFxKZNGPc313bgebiRtjlNnE",
                     "author": "Causew#5130"
                 },
                 {
@@ -98,5 +98,47 @@
                 }
             ]
         }
-    ]
+    ],
+    "TypeEffectiveness": {
+        "Normal": {
+            "LightArmor": 10000,
+            "HeavyArmor": 10000,
+            "Unarmed": 10000,
+            "Structure": 5000,
+            "ElasticArmor": 10000,
+            "Normal": 10000
+        },
+        "Explosion": {
+            "LightArmor": 20000,
+            "HeavyArmor": 10000,
+            "Unarmed": 5000,
+            "Structure": 5000,
+            "ElasticArmor": 5000,
+            "Normal": 10000
+        },
+        "Pierce": {
+            "LightArmor": 5000,
+            "HeavyArmor": 20000,
+            "Unarmed": 10000,
+            "Structure": 5000,
+            "ElasticArmor": 10000,
+            "Normal": 10000
+        },
+        "Mystic": {
+            "LightArmor": 10000,
+            "HeavyArmor": 5000,
+            "Unarmed": 20000,
+            "Structure": 5000,
+            "ElasticArmor": 10000,
+            "Normal": 10000
+        },
+        "Sonic": {
+            "LightArmor": 10000,
+            "HeavyArmor": 5000,
+            "Unarmed": 10000,
+            "Structure": 5000,
+            "ElasticArmor": 20000,
+            "Normal": 10000
+        }
+    }
 }

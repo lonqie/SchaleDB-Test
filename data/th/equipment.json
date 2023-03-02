@@ -16,6 +16,17 @@
                 "CostType": "Currency",
                 "CostId": 1,
                 "CostAmount": 10000
+            },
+            {
+                "ShopCategory": "General",
+                "Released": [
+                    true,
+                    false
+                ],
+                "Amount": 10,
+                "CostType": "Currency",
+                "CostId": 1,
+                "CostAmount": 20000
             }
         ],
         "Name": "หินอัปเกรดขั้นต่ำ",
@@ -51,6 +62,17 @@
                 "CostType": "Currency",
                 "CostId": 1,
                 "CostAmount": 40000
+            },
+            {
+                "ShopCategory": "General",
+                "Released": [
+                    true,
+                    false
+                ],
+                "Amount": 10,
+                "CostType": "Currency",
+                "CostId": 1,
+                "CostAmount": 80000
             }
         ],
         "Name": "หินอัปเกรดขั้นกลาง",
@@ -86,6 +108,17 @@
                 "CostType": "Currency",
                 "CostId": 1,
                 "CostAmount": 96000
+            },
+            {
+                "ShopCategory": "General",
+                "Released": [
+                    true,
+                    false
+                ],
+                "Amount": 6,
+                "CostType": "Currency",
+                "CostId": 1,
+                "CostAmount": 192000
             }
         ],
         "Name": "หินอัปเกรดขั้นสูง",
@@ -121,6 +154,17 @@
                 "CostType": "Currency",
                 "CostId": 1,
                 "CostAmount": 128000
+            },
+            {
+                "ShopCategory": "General",
+                "Released": [
+                    true,
+                    false
+                ],
+                "Amount": 2,
+                "CostType": "Currency",
+                "CostId": 1,
+                "CostAmount": 256000
             }
         ],
         "Name": "หินอัปเกรดขั้นสูงสุด",
@@ -1783,7 +1827,7 @@
         "Icon": "Equipment_Icon_Badge_Tier7",
         "Shops": [],
         "Name": "เครื่องหมายสตรีท",
-        "Desc": "เครื่องหมายจากแบรนด์สตรีทแฟชั่น &lt;ทริปเปิล สเต็ป&gt; ชื่อแบรนด์ขนาดใหญ่ถูกพิมพ์ไว้ตรงกลาง แสดงให้เห็นความภาคภูมิใจ ของบริษัทผู้ผลิตที่มีต่อแบรนด์",
+        "Desc": "เครื่องหมายจากแบรนด์สตรีทแฟชั่น &lt;ทริปเปิล สเต็ป&gt; มีชื่อแบรนด์ถูกพิมพ์ไว้ตรงกลาง แสดงให้เห็นความภาคภูมิใจ ของบริษัทผู้ผลิตที่มีต่อแบรนด์",
         "IsReleased": [
             true,
             true
