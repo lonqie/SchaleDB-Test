@@ -179,7 +179,7 @@
         "Closet": "Tủ",
         "FloorDecoration": "Trang trí sàn nhà",
         "WallDecoration": "Trang trí tường",
-        "Prop": "Đồ trang sức",
+        "Prop": "Đồ gia dụng",
         "HomeAppliance": "Tiện ích gia đình",
         "FurnitureEtc": "Khác.",
         "Bed": "Giường",
@@ -223,7 +223,9 @@
         "19": "Pha lê Haniwa",
         "20": "Cột vật tổ",
         "21": "Pin cổ đại",
+        "23": "Búp bê Okiku",
         "24": "Mặt dây chuyền đĩa",
+        "25": "Huy chương Atlantis",
         "29": "Đá Winnipesaukee"
     },
     "EnemyTags": {
@@ -254,7 +256,9 @@
         "819": "Mừng ngày Giáng sinh trong nhà nhờ",
         "820": "Cuộc chơi trước Tết",
         "821": "Cuộc chiến cho thánh đường giả",
-        "822": "Cuộc chinh phục rương của Atra-Hasis"
+        "822": "Cuộc chinh phục rương của Atra-Hasis",
+        "823": "Trận chiến quyết định của kẻ mất trí",
+        "824": "Dự án khôi phục: Quận DU Shiratori"
     },
     "StageType": {
         "Campaign": "Nhiệm vụ",
@@ -310,13 +314,16 @@
         "3": "Giao điểm 3"
     },
     "RaidDifficulty": {
-        "0": "Thường",
-        "1": "Khó",
-        "2": "Rất khó",
-        "3": "Siêu khó",
-        "4": "Vô cực",
-        "5": "Cuồng loạn",
-        "6": "Điên loạn"
+        "Normal": "Thường",
+        "Hard": "Khó",
+        "VeryHard": "Rất khó",
+        "HardCore": "Siêu khó",
+        "Extreme": "Vô cực",
+        "Insane": "Cuồng loạn",
+        "Torment": "Điên loạn",
+        "A": "A",
+        "B": "B",
+        "C": "C"
     },
     "WeaponPartExpBonus": {
         "WeaponExpGrowthA": "Cung cấp 1,5 lần EXP khi được sử dụng để cường hóa vũ khí loại SMG, SG, HG và FT.",
@@ -426,7 +433,8 @@
         "Special_Stamp": "Dấu hoa",
         "Special_Holiday": "Lời Chúc Đêm Thánh",
         "Special_SilverBullet": "Tấn công thường",
-        "Special_CH0187Mod": "Chế độ Abi-Eshuh"
+        "Special_CH0187Mod": "Chế độ Abi-Eshuh",
+        "Special_Omamori": "Omamori"
     },
     "BuffNameLong": {
         "Buff_AidAttitude": "Sơ cứu sẵn sàng",
@@ -524,7 +532,8 @@
         "Special_Stamp": "Dấu hoa",
         "Special_Holiday": "Lời Chúc Đêm Thánh",
         "Special_SilverBullet": "Viên đạn bạc",
-        "Special_CH0187Mod": "Chế độ Abi-Eshuh"
+        "Special_CH0187Mod": "Chế độ Abi-Eshuh",
+        "Special_Omamori": "Omamori"
     },
     "BuffTooltip": {
         "Buff_AidAttitude": "Liên tục phục hồi HP theo khoảng thời gian đã định.",
@@ -622,7 +631,8 @@
         "Special_Stamp": "Dấu hoa",
         "Special_Holiday": "Tăng tác dụng của một số kỹ năng EX nhất định đối với nhân vật này.",
         "Special_SilverBullet": "Tăng cường đòn tấn công bình thường của Sakurako để gây sát thương như một đòn đánh bổ sung.",
-        "Special_CH0187Mod": "Tăng ATK, độ chính xác, né tránh và thay đổi kỹ năng cũ, kỹ năng cơ bản và tấn công bình thường của Toki. Kết thúc sau khi sử dụng kỹ năng cũ 3 lần."
+        "Special_CH0187Mod": "Tăng ATK, độ chính xác, né tránh và thay đổi kỹ năng cũ, kỹ năng cơ bản và tấn công bình thường của Toki. Kết thúc sau khi sử dụng kỹ năng cũ 3 lần.",
+        "Special_Omamori": "Tăng hiệu quả huyền bí khi kích hoạt kỹ năng phụ của Kayoko (Năm mới)."
     },
     "ServerName": {
         "0": "Japan",
@@ -853,6 +863,7 @@
         "item_randombox_tier": "Ngẫu nhiên {0} {1}",
         "item_artifact_box": "Chứa một trong các hiện vật sau:",
         "item_equipment_box": "Chứa một trong các mảnh trang bị sau:",
+        "item_contains": "Phần thưởng gồm các vật phẩm sau",
         "item_contains_random": "Phần thưởng ngẫu nhiên một trong các vật phẩm sau",
         "item_contains_choice": "Phần thưởng tự chọn một trong các vật phẩm sau",
         "item_is_immediateuse": "※ Vật phẩm này được sử dụng ngay tức thì khi mua.",
@@ -908,9 +919,8 @@
         "home_introduction": "Schale DB (Vietnamese Ver.) là cơ sở dữ liệu không chính thức dành cho trò chơi di động <i class=\"text-bold\">Blue Archive</i> do Nexon Games phát triển và Yostar (Nhật Bản) và Nexon (Global) phát hành cho iOS và Android.",
         "home_change_server": "Vui lòng chọn máy chủ trò chơi của bạn bằng menu cài đặt <i class=\"fa-solid fa-gear mx-1\"></i> để xem thông tin đã được phát hành trên máy chủ đó.",
         "home_features": "Các tính năng bao gồm:",
-        "home_translations_help": "Schale DB hiện đã có sẵn 6 ngôn ngữ + 1 ngôn ngữ đang phát triển (tiếng Việt). Muốn góp phần cho bản dịch này? Vui lòng liên hệ qua Discord: Miyakami.#9666 (Vi) hoặc lonqie#2708 (En).",
-        "home_features_list": "<li>Thông tin đầy đủ về tất cả học sinh (chưa dịch hết) và kỹ năng, bao gồm cả triệu hồi hoặc phương tiện.</li><li>Tính toán số liệu thống kê toàn diện có thể hiển thị số liệu thống kê của học sinh theo bất kỳ cấu hình sao, cấp độ, trang bị và hỗ trợ bất kỳ từ các kỹ năng.</li><li>Cơ sở dữ liệu về Vật phẩm, Thiết bị và Nội thất đầy đủ (không hẳn).</li><li>Phần thưởng, bản đồ và thông tin chi tiết về kẻ địch cho tất cả các giai đoạn Chiến dịch, Nhiệm vụ sự kiện, Thử thách và Hàng ngày.</li><li>Thông tin chỉ số và kỹ năng của trùm cuối trong các sự kiện Tổng tấn công và các sự kiện Diễn tập bắn chung.</li><li>Xem tỷ lệ nhận được các vật phẩm có thể có từ các nodes.</li>",
-        "home_footer_text": "Schale DB được phát triển và duy trì bởi lonqie, với công việc dịch thuật bổ sung của CanXue233, TKRotund, Gedanke & akintos. Phiên bản tiếng Việt do Mykm và các thành viên thuộc tổ chức yumiruuwu cung cấp.\nSchale DB không liên kết với Nexon, Nexon Games hoặc Yostar. Tất cả tác phẩm nghệ thuật, thông tin và nội dung trò chơi được sử dụng trong cơ sở dữ liệu này là tài sản và bản quyền của các tác giả tương ứng.",
+        "home_features_list": "<li>Thông tin đầy đủ về tất cả học sinh (chưa dịch hết) và kỹ năng, bao gồm cả triệu hồi hoặc phương tiện.</li><li>Tự động tính toán số liệu thống kê toàn diện của học sinh theo bất kỳ cấu hình từng bậc sao, cấp độ, trang bị và hỗ trợ bất kỳ từ các kỹ năng.</li><li>Thông tin dữ liệu về vật phẩm, thiết bị và nội thất gần như đầy đủ.</li><li>Phần thưởng, bản đồ và thông tin chi tiết về kẻ địch cho tất cả các giai đoạn Chiến dịch, Nhiệm vụ sự kiện, Thử thách và Hằng ngày.</li><li>Thông tin chỉ số và kỹ năng của Boss trong các sự kiện Tổng tấn công và các sự kiện Diễn tập.</li><li>Xem tỷ lệ nhận được các vật phẩm có thể có từ các giao điểm.</li>",
+        "home_footer_text": "Schale DB được phát triển và duy trì bởi lonqie#2708, với công việc dịch thuật bổ sung của CanXue233, TKRotund & akintos. Phiên bản tiếng Việt do Mykm và các thành viên thuộc tổ chức yumiruuwu cung cấp.\nSchale DB không liên kết với Nexon, Nexon Games hoặc Yostar. Tất cả tác phẩm nghệ thuật, thông tin và nội dung trò chơi được sử dụng trong cơ sở dữ liệu này là tài sản và bản quyền thuộc về các tác giả/chủ sở hữu tương ứng.",
         "changelog": "Nội dung thay đổi",
         "links": "Liên kết",
         "community_resources": "Tài nguyên Cộng đồng",

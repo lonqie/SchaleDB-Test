@@ -377,36 +377,6 @@
         "Desc": "카페 랭크업에 필요한 핵심 재료"
     },
     {
-        "Id": 33,
-        "IsReleased": [
-            true,
-            true
-        ],
-        "Category": "Material",
-        "Rarity": "SSR",
-        "Quality": 4,
-        "Tags": [],
-        "Shops": [],
-        "Icon": "Item_Icon_CafeRank_3",
-        "Name": "카페 설비 코어 LV4",
-        "Desc": "카페 랭크업에 필요한 핵심 재료"
-    },
-    {
-        "Id": 39,
-        "IsReleased": [
-            true,
-            true
-        ],
-        "Category": "Material",
-        "Rarity": "SSR",
-        "Quality": 9,
-        "Tags": [],
-        "Shops": [],
-        "Icon": "Item_Icon_CafeRank_9",
-        "Name": "카페 설비 코어 LV10",
-        "Desc": "카페 랭크업에 필요한 핵심 재료"
-    },
-    {
         "Id": 60,
         "IsReleased": [
             true,
@@ -624,17 +594,6 @@
                 "CostType": "Currency",
                 "CostId": 1,
                 "CostAmount": 8000
-            },
-            {
-                "ShopCategory": "SecretStoneGrowth",
-                "Released": [
-                    true,
-                    true
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 23,
-                "CostAmount": 1
             }
         ],
         "Icon": "Item_Icon_Material_Nebra_0",
@@ -667,17 +626,6 @@
                 "CostType": "Currency",
                 "CostId": 1,
                 "CostAmount": 25000
-            },
-            {
-                "ShopCategory": "SecretStoneGrowth",
-                "Released": [
-                    true,
-                    true
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 23,
-                "CostAmount": 4
             }
         ],
         "Icon": "Item_Icon_Material_Nebra_1",
@@ -699,19 +647,7 @@
             "MaterialItemSR"
         ],
         "SynthQuality": 50,
-        "Shops": [
-            {
-                "ShopCategory": "SecretStoneGrowth",
-                "Released": [
-                    true,
-                    true
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 23,
-                "CostAmount": 8
-            }
-        ],
+        "Shops": [],
         "Icon": "Item_Icon_Material_Nebra_2",
         "Name": "마모된 네브라 디스크",
         "Desc": "오래되어 곳곳이 마모된 네브라 디스크. 각종 제조 및 강화에 사용된다."
@@ -765,14 +701,25 @@
             },
             {
                 "ShopCategory": "SecretStoneGrowth",
+                "Released": [
+                    true,
+                    false
+                ],
                 "Amount": 1,
                 "CostType": "Item",
                 "CostId": 23,
-                "CostAmount": 1,
+                "CostAmount": 1
+            },
+            {
+                "ShopCategory": "Chaser",
                 "Released": [
-                    false,
-                    true
-                ]
+                    true,
+                    false
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 61,
+                "CostAmount": 24
             }
         ],
         "Icon": "Item_Icon_Material_Phaistos_0",
@@ -808,14 +755,25 @@
             },
             {
                 "ShopCategory": "SecretStoneGrowth",
+                "Released": [
+                    true,
+                    false
+                ],
                 "Amount": 1,
                 "CostType": "Item",
                 "CostId": 23,
-                "CostAmount": 4,
+                "CostAmount": 4
+            },
+            {
+                "ShopCategory": "Chaser",
                 "Released": [
-                    false,
-                    true
-                ]
+                    true,
+                    false
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 61,
+                "CostAmount": 40
             }
         ],
         "Icon": "Item_Icon_Material_Phaistos_1",
@@ -840,14 +798,25 @@
         "Shops": [
             {
                 "ShopCategory": "SecretStoneGrowth",
+                "Released": [
+                    true,
+                    false
+                ],
                 "Amount": 1,
                 "CostType": "Item",
                 "CostId": 23,
-                "CostAmount": 8,
+                "CostAmount": 8
+            },
+            {
+                "ShopCategory": "Chaser",
                 "Released": [
-                    false,
-                    true
-                ]
+                    true,
+                    false
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 61,
+                "CostAmount": 80
             }
         ],
         "Icon": "Item_Icon_Material_Phaistos_2",
@@ -869,7 +838,19 @@
             "MaterialItemSSR"
         ],
         "SynthQuality": 80,
-        "Shops": [],
+        "Shops": [
+            {
+                "ShopCategory": "Chaser",
+                "Released": [
+                    true,
+                    false
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 61,
+                "CostAmount": 200
+            }
+        ],
         "Icon": "Item_Icon_Material_Phaistos_3",
         "Name": "온전한 파에스토스 원반",
         "Desc": "온전한 상태의 파에스토스 원반. 각종 제조 및 강화에 사용된다."
@@ -903,14 +884,14 @@
             },
             {
                 "ShopCategory": "SecretStoneGrowth",
+                "Released": [
+                    true,
+                    false
+                ],
                 "Amount": 1,
                 "CostType": "Item",
                 "CostId": 23,
-                "CostAmount": 1,
-                "Released": [
-                    false,
-                    true
-                ]
+                "CostAmount": 1
             }
         ],
         "Icon": "Item_Icon_Material_Wolfsegg_0",
@@ -946,14 +927,14 @@
             },
             {
                 "ShopCategory": "SecretStoneGrowth",
+                "Released": [
+                    true,
+                    false
+                ],
                 "Amount": 1,
                 "CostType": "Item",
                 "CostId": 23,
-                "CostAmount": 4,
-                "Released": [
-                    false,
-                    true
-                ]
+                "CostAmount": 4
             }
         ],
         "Icon": "Item_Icon_Material_Wolfsegg_1",
@@ -978,14 +959,14 @@
         "Shops": [
             {
                 "ShopCategory": "SecretStoneGrowth",
+                "Released": [
+                    true,
+                    false
+                ],
                 "Amount": 1,
                 "CostType": "Item",
                 "CostId": 23,
-                "CostAmount": 8,
-                "Released": [
-                    false,
-                    true
-                ]
+                "CostAmount": 8
             }
         ],
         "Icon": "Item_Icon_Material_Wolfsegg_2",
@@ -1038,6 +1019,28 @@
                 "CostType": "Currency",
                 "CostId": 1,
                 "CostAmount": 8000
+            },
+            {
+                "ShopCategory": "SecretStoneGrowth",
+                "Released": [
+                    true,
+                    true
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 23,
+                "CostAmount": 1
+            },
+            {
+                "ShopCategory": "Chaser",
+                "Released": [
+                    true,
+                    false
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 61,
+                "CostAmount": 24
             }
         ],
         "Icon": "Item_Icon_Material_Nimrud_0",
@@ -1070,6 +1073,28 @@
                 "CostType": "Currency",
                 "CostId": 1,
                 "CostAmount": 25000
+            },
+            {
+                "ShopCategory": "SecretStoneGrowth",
+                "Released": [
+                    true,
+                    true
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 23,
+                "CostAmount": 4
+            },
+            {
+                "ShopCategory": "Chaser",
+                "Released": [
+                    true,
+                    false
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 61,
+                "CostAmount": 40
             }
         ],
         "Icon": "Item_Icon_Material_Nimrud_1",
@@ -1091,7 +1116,30 @@
             "MaterialItemSR"
         ],
         "SynthQuality": 50,
-        "Shops": [],
+        "Shops": [
+            {
+                "ShopCategory": "SecretStoneGrowth",
+                "Released": [
+                    true,
+                    true
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 23,
+                "CostAmount": 8
+            },
+            {
+                "ShopCategory": "Chaser",
+                "Released": [
+                    true,
+                    false
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 61,
+                "CostAmount": 80
+            }
+        ],
         "Icon": "Item_Icon_Material_Nimrud_2",
         "Name": "마모된 님루드 렌즈",
         "Desc": "조각을 맞추어 수리한 님루드 렌즈. 각종 제조 및 강화에 사용된다."
@@ -1111,7 +1159,19 @@
             "MaterialItemSSR"
         ],
         "SynthQuality": 80,
-        "Shops": [],
+        "Shops": [
+            {
+                "ShopCategory": "Chaser",
+                "Released": [
+                    true,
+                    false
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 61,
+                "CostAmount": 200
+            }
+        ],
         "Icon": "Item_Icon_Material_Nimrud_3",
         "Name": "온전한 님루드 렌즈",
         "Desc": "온전한 상태의 님루드 렌즈. 각종 제조 및 강화에 사용된다."
@@ -1144,15 +1204,26 @@
                 "CostAmount": 8000
             },
             {
-                "ShopCategory": "Chaser",
+                "ShopCategory": "SecretStoneGrowth",
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 23,
+                "CostAmount": 1,
                 "Released": [
-                    true,
-                    false
-                ],
+                    false,
+                    true
+                ]
+            },
+            {
+                "ShopCategory": "Chaser",
                 "Amount": 1,
                 "CostType": "Item",
                 "CostId": 61,
-                "CostAmount": 24
+                "CostAmount": 24,
+                "Released": [
+                    false,
+                    true
+                ]
             }
         ],
         "Icon": "Item_Icon_Material_Mandragora_0",
@@ -1187,15 +1258,26 @@
                 "CostAmount": 25000
             },
             {
-                "ShopCategory": "Chaser",
+                "ShopCategory": "SecretStoneGrowth",
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 23,
+                "CostAmount": 4,
                 "Released": [
-                    true,
-                    false
-                ],
+                    false,
+                    true
+                ]
+            },
+            {
+                "ShopCategory": "Chaser",
                 "Amount": 1,
                 "CostType": "Item",
                 "CostId": 61,
-                "CostAmount": 40
+                "CostAmount": 40,
+                "Released": [
+                    false,
+                    true
+                ]
             }
         ],
         "Icon": "Item_Icon_Material_Mandragora_1",
@@ -1219,15 +1301,26 @@
         "SynthQuality": 50,
         "Shops": [
             {
-                "ShopCategory": "Chaser",
+                "ShopCategory": "SecretStoneGrowth",
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 23,
+                "CostAmount": 8,
                 "Released": [
-                    true,
-                    false
-                ],
+                    false,
+                    true
+                ]
+            },
+            {
+                "ShopCategory": "Chaser",
                 "Amount": 1,
                 "CostType": "Item",
                 "CostId": 61,
-                "CostAmount": 80
+                "CostAmount": 80,
+                "Released": [
+                    false,
+                    true
+                ]
             }
         ],
         "Icon": "Item_Icon_Material_Mandragora_2",
@@ -1252,14 +1345,14 @@
         "Shops": [
             {
                 "ShopCategory": "Chaser",
-                "Released": [
-                    true,
-                    false
-                ],
                 "Amount": 1,
                 "CostType": "Item",
                 "CostId": 61,
-                "CostAmount": 200
+                "CostAmount": 200,
+                "Released": [
+                    false,
+                    true
+                ]
             }
         ],
         "Icon": "Item_Icon_Material_Mandragora_3",
@@ -1294,11 +1387,11 @@
                 "CostAmount": 8000
             },
             {
-                "ShopCategory": "Chaser",
+                "ShopCategory": "SecretStoneGrowth",
                 "Amount": 1,
                 "CostType": "Item",
-                "CostId": 61,
-                "CostAmount": 24,
+                "CostId": 23,
+                "CostAmount": 1,
                 "Released": [
                     false,
                     true
@@ -1337,11 +1430,11 @@
                 "CostAmount": 25000
             },
             {
-                "ShopCategory": "Chaser",
+                "ShopCategory": "SecretStoneGrowth",
                 "Amount": 1,
                 "CostType": "Item",
-                "CostId": 61,
-                "CostAmount": 40,
+                "CostId": 23,
+                "CostAmount": 4,
                 "Released": [
                     false,
                     true
@@ -1369,11 +1462,11 @@
         "SynthQuality": 50,
         "Shops": [
             {
-                "ShopCategory": "Chaser",
+                "ShopCategory": "SecretStoneGrowth",
                 "Amount": 1,
                 "CostType": "Item",
-                "CostId": 61,
-                "CostAmount": 80,
+                "CostId": 23,
+                "CostAmount": 8,
                 "Released": [
                     false,
                     true
@@ -1399,19 +1492,7 @@
             "MaterialItemSSR"
         ],
         "SynthQuality": 80,
-        "Shops": [
-            {
-                "ShopCategory": "Chaser",
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 61,
-                "CostAmount": 200,
-                "Released": [
-                    false,
-                    true
-                ]
-            }
-        ],
+        "Shops": [],
         "Icon": "Item_Icon_Material_Rohonc_3",
         "Name": "온전한 로혼치 사본",
         "Desc": "온전한 상태의 로혼치 사본. 각종 제조 및 강화에 사용된다."
@@ -1549,14 +1630,14 @@
             },
             {
                 "ShopCategory": "Chaser",
-                "Released": [
-                    true,
-                    false
-                ],
                 "Amount": 1,
                 "CostType": "Item",
                 "CostId": 61,
-                "CostAmount": 24
+                "CostAmount": 24,
+                "Released": [
+                    false,
+                    true
+                ]
             }
         ],
         "Icon": "Item_Icon_Material_Antikythera_0",
@@ -1592,14 +1673,14 @@
             },
             {
                 "ShopCategory": "Chaser",
-                "Released": [
-                    true,
-                    false
-                ],
                 "Amount": 1,
                 "CostType": "Item",
                 "CostId": 61,
-                "CostAmount": 40
+                "CostAmount": 40,
+                "Released": [
+                    false,
+                    true
+                ]
             }
         ],
         "Icon": "Item_Icon_Material_Antikythera_1",
@@ -1624,14 +1705,14 @@
         "Shops": [
             {
                 "ShopCategory": "Chaser",
-                "Released": [
-                    true,
-                    false
-                ],
                 "Amount": 1,
                 "CostType": "Item",
                 "CostId": 61,
-                "CostAmount": 80
+                "CostAmount": 80,
+                "Released": [
+                    false,
+                    true
+                ]
             }
         ],
         "Icon": "Item_Icon_Material_Antikythera_2",
@@ -1656,14 +1737,14 @@
         "Shops": [
             {
                 "ShopCategory": "Chaser",
-                "Released": [
-                    true,
-                    false
-                ],
                 "Amount": 1,
                 "CostType": "Item",
                 "CostId": 61,
-                "CostAmount": 200
+                "CostAmount": 200,
+                "Released": [
+                    false,
+                    true
+                ]
             }
         ],
         "Icon": "Item_Icon_Material_Antikythera_3",
@@ -1696,17 +1777,6 @@
                 "CostType": "Currency",
                 "CostId": 1,
                 "CostAmount": 8000
-            },
-            {
-                "ShopCategory": "SecretStoneGrowth",
-                "Released": [
-                    true,
-                    false
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 23,
-                "CostAmount": 1
             }
         ],
         "Icon": "Item_Icon_Material_Voynich_0",
@@ -1739,17 +1809,6 @@
                 "CostType": "Currency",
                 "CostId": 1,
                 "CostAmount": 25000
-            },
-            {
-                "ShopCategory": "SecretStoneGrowth",
-                "Released": [
-                    true,
-                    false
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 23,
-                "CostAmount": 4
             }
         ],
         "Icon": "Item_Icon_Material_Voynich_1",
@@ -1771,19 +1830,7 @@
             "MaterialItemSR"
         ],
         "SynthQuality": 50,
-        "Shops": [
-            {
-                "ShopCategory": "SecretStoneGrowth",
-                "Released": [
-                    true,
-                    false
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 23,
-                "CostAmount": 8
-            }
-        ],
+        "Shops": [],
         "Icon": "Item_Icon_Material_Voynich_2",
         "Name": "편집된 보이니치 사본",
         "Desc": "훼손된 부분에 주석을 달아 편집한 보이니치 사본. 각종 제조 및 강화에 사용된다."
@@ -1834,28 +1881,6 @@
                 "CostType": "Currency",
                 "CostId": 1,
                 "CostAmount": 8000
-            },
-            {
-                "ShopCategory": "SecretStoneGrowth",
-                "Released": [
-                    true,
-                    false
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 23,
-                "CostAmount": 1
-            },
-            {
-                "ShopCategory": "Chaser",
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 61,
-                "CostAmount": 24,
-                "Released": [
-                    false,
-                    true
-                ]
             }
         ],
         "Icon": "Item_Icon_Material_CrystalHaniwa_0",
@@ -1888,28 +1913,6 @@
                 "CostType": "Currency",
                 "CostId": 1,
                 "CostAmount": 25000
-            },
-            {
-                "ShopCategory": "SecretStoneGrowth",
-                "Released": [
-                    true,
-                    false
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 23,
-                "CostAmount": 4
-            },
-            {
-                "ShopCategory": "Chaser",
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 61,
-                "CostAmount": 40,
-                "Released": [
-                    false,
-                    true
-                ]
             }
         ],
         "Icon": "Item_Icon_Material_CrystalHaniwa_1",
@@ -1931,30 +1934,7 @@
             "MaterialItemSR"
         ],
         "SynthQuality": 50,
-        "Shops": [
-            {
-                "ShopCategory": "SecretStoneGrowth",
-                "Released": [
-                    true,
-                    false
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 23,
-                "CostAmount": 8
-            },
-            {
-                "ShopCategory": "Chaser",
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 61,
-                "CostAmount": 80,
-                "Released": [
-                    false,
-                    true
-                ]
-            }
-        ],
+        "Shops": [],
         "Icon": "Item_Icon_Material_CrystalHaniwa_2",
         "Name": "수리된 수정 하니와",
         "Desc": "조각을 맞추어 수리한 수정 하니와. 각종 제조 및 강화에 사용된다."
@@ -1974,19 +1954,7 @@
             "MaterialItemSSR"
         ],
         "SynthQuality": 80,
-        "Shops": [
-            {
-                "ShopCategory": "Chaser",
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 61,
-                "CostAmount": 200,
-                "Released": [
-                    false,
-                    true
-                ]
-            }
-        ],
+        "Shops": [],
         "Icon": "Item_Icon_Material_CrystalHaniwa_3",
         "Name": "온전한 수정 하니와",
         "Desc": "온전한 상태의 수정 하니와. 각종 제조 및 강화에 사용된다."
@@ -2007,17 +1975,6 @@
         ],
         "SynthQuality": 10,
         "Shops": [
-            {
-                "ShopCategory": "SecretStoneGrowth",
-                "Released": [
-                    true,
-                    false
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 23,
-                "CostAmount": 1
-            },
             {
                 "ShopCategory": "TimeAttack",
                 "Released": [
@@ -2051,17 +2008,6 @@
         "SynthQuality": 20,
         "Shops": [
             {
-                "ShopCategory": "SecretStoneGrowth",
-                "Released": [
-                    true,
-                    false
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 23,
-                "CostAmount": 4
-            },
-            {
                 "ShopCategory": "TimeAttack",
                 "Released": [
                     true,
@@ -2093,17 +2039,6 @@
         ],
         "SynthQuality": 50,
         "Shops": [
-            {
-                "ShopCategory": "SecretStoneGrowth",
-                "Released": [
-                    true,
-                    false
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 23,
-                "CostAmount": 8
-            },
             {
                 "ShopCategory": "TimeAttack",
                 "Released": [
@@ -2281,6 +2216,122 @@
         "Desc": "온전한 상태의 고대 전지. 각종 제조 및 강화에 사용된다."
     },
     {
+        "Id": 230,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Category": "Material",
+        "Rarity": "N",
+        "Quality": 1,
+        "Tags": [
+            "MaterialItem",
+            "ExpendableItem",
+            "MaterialItemN"
+        ],
+        "SynthQuality": 10,
+        "Shops": [
+            {
+                "ShopCategory": "SecretStoneGrowth",
+                "Released": [
+                    true,
+                    false
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 23,
+                "CostAmount": 1
+            }
+        ],
+        "Icon": "Item_Icon_Material_Kikuko_0",
+        "Name": "머리가 자라는 인형 조각",
+        "Desc": "머리가 자라는 인형의 부서진 조각 일부. 각종 제조 및 강화에 사용된다."
+    },
+    {
+        "Id": 231,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Category": "Material",
+        "Rarity": "R",
+        "Quality": 2,
+        "Tags": [
+            "MaterialItem",
+            "ExpendableItem",
+            "MaterialItemR"
+        ],
+        "SynthQuality": 20,
+        "Shops": [
+            {
+                "ShopCategory": "SecretStoneGrowth",
+                "Released": [
+                    true,
+                    false
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 23,
+                "CostAmount": 4
+            }
+        ],
+        "Icon": "Item_Icon_Material_Kikuko_1",
+        "Name": "파손된 머리가 자라는 인형",
+        "Desc": "형체를 알아보기 힘들 정도로 파손된 머리가 자라는 인형. 각종 제조 및 강화에 사용된다."
+    },
+    {
+        "Id": 232,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Category": "Material",
+        "Rarity": "SR",
+        "Quality": 3,
+        "Tags": [
+            "MaterialItem",
+            "ExpendableItem",
+            "MaterialItemSR"
+        ],
+        "SynthQuality": 50,
+        "Shops": [
+            {
+                "ShopCategory": "SecretStoneGrowth",
+                "Released": [
+                    true,
+                    false
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 23,
+                "CostAmount": 8
+            }
+        ],
+        "Icon": "Item_Icon_Material_Kikuko_2",
+        "Name": "수리된 머리가 자라는 인형",
+        "Desc": "조각을 맞추어 수리한 머리가 자라는 인형. 각종 제조 및 강화에 사용된다."
+    },
+    {
+        "Id": 233,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Category": "Material",
+        "Rarity": "SSR",
+        "Quality": 4,
+        "Tags": [
+            "MaterialItem",
+            "ExpendableItem",
+            "MaterialItemSSR"
+        ],
+        "SynthQuality": 80,
+        "Shops": [],
+        "Icon": "Item_Icon_Material_Kikuko_3",
+        "Name": "온전한 머리가 자라는 인형",
+        "Desc": "온전한 상태의 머리가 자라는 인형. 각종 제조 및 강화에 사용된다."
+    },
+    {
         "Id": 240,
         "IsReleased": [
             true,
@@ -2306,6 +2357,17 @@
                 "CostType": "Item",
                 "CostId": 60,
                 "CostAmount": 2
+            },
+            {
+                "ShopCategory": "SecretStoneGrowth",
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 23,
+                "CostAmount": 1,
+                "Released": [
+                    false,
+                    true
+                ]
             }
         ],
         "Icon": "Item_Icon_Material_DiscoColgante_0",
@@ -2338,6 +2400,17 @@
                 "CostType": "Item",
                 "CostId": 60,
                 "CostAmount": 9
+            },
+            {
+                "ShopCategory": "SecretStoneGrowth",
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 23,
+                "CostAmount": 4,
+                "Released": [
+                    false,
+                    true
+                ]
             }
         ],
         "Icon": "Item_Icon_Material_DiscoColgante_1",
@@ -2370,6 +2443,17 @@
                 "CostType": "Item",
                 "CostId": 60,
                 "CostAmount": 12
+            },
+            {
+                "ShopCategory": "SecretStoneGrowth",
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 23,
+                "CostAmount": 8,
+                "Released": [
+                    false,
+                    true
+                ]
             }
         ],
         "Icon": "Item_Icon_Material_DiscoColgante_2",
@@ -2409,6 +2493,86 @@
         "Desc": "온전한 상태의 디스코 콜간테. 각종 제조 및 강화에 사용된다."
     },
     {
+        "Id": 250,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Category": "Material",
+        "Rarity": "N",
+        "Quality": 1,
+        "Tags": [
+            "MaterialItem",
+            "ExpendableItem",
+            "MaterialItemN"
+        ],
+        "SynthQuality": 10,
+        "Shops": [],
+        "Icon": "Item_Icon_Material_AtlantisMedal_0",
+        "Name": "아틀란티스 메달 조각",
+        "Desc": "아틀란티스 메달의 부서진 조각. 각종 제조 및 강화에 사용된다."
+    },
+    {
+        "Id": 251,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Category": "Material",
+        "Rarity": "R",
+        "Quality": 2,
+        "Tags": [
+            "MaterialItem",
+            "ExpendableItem",
+            "MaterialItemR"
+        ],
+        "SynthQuality": 20,
+        "Shops": [],
+        "Icon": "Item_Icon_Material_AtlantisMedal_1",
+        "Name": "파손된 아틀란티스 메달",
+        "Desc": "형체를 알아보기 힘들 정도로 파손된 아틀란티스 메달. 각종 제조 및 강화에 사용된다."
+    },
+    {
+        "Id": 252,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Category": "Material",
+        "Rarity": "SR",
+        "Quality": 3,
+        "Tags": [
+            "MaterialItem",
+            "ExpendableItem",
+            "MaterialItemSR"
+        ],
+        "SynthQuality": 50,
+        "Shops": [],
+        "Icon": "Item_Icon_Material_AtlantisMedal_2",
+        "Name": "마모된 아틀란티스 메달",
+        "Desc": "고장 나 작동하지 않는 아틀란티스 메달. 각종 제조 및 강화에 사용된다."
+    },
+    {
+        "Id": 253,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Category": "Material",
+        "Rarity": "SSR",
+        "Quality": 4,
+        "Tags": [
+            "MaterialItem",
+            "ExpendableItem",
+            "MaterialItemSSR"
+        ],
+        "SynthQuality": 80,
+        "Shops": [],
+        "Icon": "Item_Icon_Material_AtlantisMedal_3",
+        "Name": "온전한 아틀란티스 메달",
+        "Desc": "온전한 상태의 아틀란티스 메달. 각종 제조 및 강화에 사용된다."
+    },
+    {
         "Id": 290,
         "IsReleased": [
             true,
@@ -2434,17 +2598,6 @@
                 "CostType": "Item",
                 "CostId": 60,
                 "CostAmount": 2
-            },
-            {
-                "ShopCategory": "SecretStoneGrowth",
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 23,
-                "CostAmount": 1,
-                "Released": [
-                    false,
-                    true
-                ]
             }
         ],
         "Icon": "Item_Icon_Material_WinniStone_0",
@@ -2477,17 +2630,6 @@
                 "CostType": "Item",
                 "CostId": 60,
                 "CostAmount": 9
-            },
-            {
-                "ShopCategory": "SecretStoneGrowth",
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 23,
-                "CostAmount": 4,
-                "Released": [
-                    false,
-                    true
-                ]
             }
         ],
         "Icon": "Item_Icon_Material_WinniStone_1",
@@ -2520,17 +2662,6 @@
                 "CostType": "Item",
                 "CostId": 60,
                 "CostAmount": 12
-            },
-            {
-                "ShopCategory": "SecretStoneGrowth",
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 23,
-                "CostAmount": 8,
-                "Released": [
-                    false,
-                    true
-                ]
             }
         ],
         "Icon": "Item_Icon_Material_WinniStone_2",
@@ -2606,178 +2737,6 @@
                 "CostType": "Item",
                 "CostId": 9,
                 "CostAmount": 10
-            }
-        ],
-        "Icon": "Item_Icon_Material_ExSkill_Hyakkiyako_0",
-        "Name": "기초 전술 교육 BD\n(백귀야행)",
-        "Desc": "백귀야행 학생들의 전술 활동을 영상으로 기록한 교육용 BD"
-    },
-    {
-        "Id": 3001,
-        "IsReleased": [
-            true,
-            true
-        ],
-        "Category": "Material",
-        "Rarity": "R",
-        "Quality": 2,
-        "Tags": [
-            "CDItem",
-            "ExpendableItem",
-            "CDItemR"
-        ],
-        "SynthQuality": 60,
-        "Shops": [
-            {
-                "ShopCategory": "Raid",
-                "Released": [
-                    true,
-                    true
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 7,
-                "CostAmount": 20
-            },
-            {
-                "ShopCategory": "Raid",
-                "Released": [
-                    true,
-                    true
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 9,
-                "CostAmount": 20
-            }
-        ],
-        "Icon": "Item_Icon_Material_ExSkill_Hyakkiyako_1",
-        "Name": "일반 전술 교육 BD\n(백귀야행)",
-        "Desc": "백귀야행 학생들의 전술 활동을 영상으로 기록한 교육용 BD"
-    },
-    {
-        "Id": 3002,
-        "IsReleased": [
-            true,
-            true
-        ],
-        "Category": "Material",
-        "Rarity": "SR",
-        "Quality": 3,
-        "Tags": [
-            "CDItem",
-            "ExpendableItem",
-            "CDItemSR"
-        ],
-        "SynthQuality": 150,
-        "Shops": [
-            {
-                "ShopCategory": "Raid",
-                "Released": [
-                    true,
-                    true
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 7,
-                "CostAmount": 50
-            },
-            {
-                "ShopCategory": "Raid",
-                "Released": [
-                    true,
-                    true
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 9,
-                "CostAmount": 50
-            }
-        ],
-        "Icon": "Item_Icon_Material_ExSkill_Hyakkiyako_2",
-        "Name": "상급 전술 교육 BD\n(백귀야행)",
-        "Desc": "백귀야행 학생들의 전술 활동을 영상으로 기록한 교육용 BD"
-    },
-    {
-        "Id": 3003,
-        "IsReleased": [
-            true,
-            true
-        ],
-        "Category": "Material",
-        "Rarity": "SSR",
-        "Quality": 4,
-        "Tags": [
-            "CDItem",
-            "ExpendableItem",
-            "CDItemSSR"
-        ],
-        "SynthQuality": 200,
-        "Shops": [
-            {
-                "ShopCategory": "Raid",
-                "Released": [
-                    true,
-                    true
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 7,
-                "CostAmount": 100
-            },
-            {
-                "ShopCategory": "Raid",
-                "Released": [
-                    true,
-                    true
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 9,
-                "CostAmount": 100
-            }
-        ],
-        "Icon": "Item_Icon_Material_ExSkill_Hyakkiyako_3",
-        "Name": "최상급 전술 교육 BD\n(백귀야행)",
-        "Desc": "백귀야행 학생들의 전술 활동을 영상으로 기록한 교육용 BD"
-    },
-    {
-        "Id": 3010,
-        "IsReleased": [
-            true,
-            true
-        ],
-        "Category": "Material",
-        "Rarity": "N",
-        "Quality": 1,
-        "Tags": [
-            "CDItem",
-            "ExpendableItem",
-            "CDItemN"
-        ],
-        "SynthQuality": 30,
-        "Shops": [
-            {
-                "ShopCategory": "Raid",
-                "Released": [
-                    true,
-                    true
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 7,
-                "CostAmount": 10
-            },
-            {
-                "ShopCategory": "Raid",
-                "Released": [
-                    true,
-                    true
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 9,
-                "CostAmount": 10
             },
             {
                 "ShopCategory": "Chaser",
@@ -2791,12 +2750,12 @@
                 "CostAmount": 80
             }
         ],
-        "Icon": "Item_Icon_Material_ExSkill_RedWinter_0",
-        "Name": "기초 전술 교육 BD\n(붉은겨울)",
-        "Desc": "붉은겨울 학생들의 전술 활동을 영상으로 기록한 교육용 BD"
+        "Icon": "Item_Icon_Material_ExSkill_Hyakkiyako_0",
+        "Name": "기초 전술 교육 BD\n(백귀야행)",
+        "Desc": "백귀야행 학생들의 전술 활동을 영상으로 기록한 교육용 BD"
     },
     {
-        "Id": 3011,
+        "Id": 3001,
         "IsReleased": [
             true,
             true
@@ -2845,12 +2804,12 @@
                 "CostAmount": 160
             }
         ],
-        "Icon": "Item_Icon_Material_ExSkill_RedWinter_1",
-        "Name": "일반 전술 교육 BD\n(붉은겨울)",
-        "Desc": "붉은겨울 학생들의 전술 활동을 영상으로 기록한 교육용 BD"
+        "Icon": "Item_Icon_Material_ExSkill_Hyakkiyako_1",
+        "Name": "일반 전술 교육 BD\n(백귀야행)",
+        "Desc": "백귀야행 학생들의 전술 활동을 영상으로 기록한 교육용 BD"
     },
     {
-        "Id": 3012,
+        "Id": 3002,
         "IsReleased": [
             true,
             true
@@ -2899,12 +2858,12 @@
                 "CostAmount": 400
             }
         ],
-        "Icon": "Item_Icon_Material_ExSkill_RedWinter_2",
-        "Name": "상급 전술 교육 BD\n(붉은겨울)",
-        "Desc": "붉은겨울 학생들의 전술 활동을 영상으로 기록한 교육용 BD"
+        "Icon": "Item_Icon_Material_ExSkill_Hyakkiyako_2",
+        "Name": "상급 전술 교육 BD\n(백귀야행)",
+        "Desc": "백귀야행 학생들의 전술 활동을 영상으로 기록한 교육용 BD"
     },
     {
-        "Id": 3013,
+        "Id": 3003,
         "IsReleased": [
             true,
             true
@@ -2951,6 +2910,178 @@
                 "CostType": "Item",
                 "CostId": 61,
                 "CostAmount": 800
+            }
+        ],
+        "Icon": "Item_Icon_Material_ExSkill_Hyakkiyako_3",
+        "Name": "최상급 전술 교육 BD\n(백귀야행)",
+        "Desc": "백귀야행 학생들의 전술 활동을 영상으로 기록한 교육용 BD"
+    },
+    {
+        "Id": 3010,
+        "IsReleased": [
+            true,
+            true
+        ],
+        "Category": "Material",
+        "Rarity": "N",
+        "Quality": 1,
+        "Tags": [
+            "CDItem",
+            "ExpendableItem",
+            "CDItemN"
+        ],
+        "SynthQuality": 30,
+        "Shops": [
+            {
+                "ShopCategory": "Raid",
+                "Released": [
+                    true,
+                    true
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 7,
+                "CostAmount": 10
+            },
+            {
+                "ShopCategory": "Raid",
+                "Released": [
+                    true,
+                    true
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 9,
+                "CostAmount": 10
+            }
+        ],
+        "Icon": "Item_Icon_Material_ExSkill_RedWinter_0",
+        "Name": "기초 전술 교육 BD\n(붉은겨울)",
+        "Desc": "붉은겨울 학생들의 전술 활동을 영상으로 기록한 교육용 BD"
+    },
+    {
+        "Id": 3011,
+        "IsReleased": [
+            true,
+            true
+        ],
+        "Category": "Material",
+        "Rarity": "R",
+        "Quality": 2,
+        "Tags": [
+            "CDItem",
+            "ExpendableItem",
+            "CDItemR"
+        ],
+        "SynthQuality": 60,
+        "Shops": [
+            {
+                "ShopCategory": "Raid",
+                "Released": [
+                    true,
+                    true
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 7,
+                "CostAmount": 20
+            },
+            {
+                "ShopCategory": "Raid",
+                "Released": [
+                    true,
+                    true
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 9,
+                "CostAmount": 20
+            }
+        ],
+        "Icon": "Item_Icon_Material_ExSkill_RedWinter_1",
+        "Name": "일반 전술 교육 BD\n(붉은겨울)",
+        "Desc": "붉은겨울 학생들의 전술 활동을 영상으로 기록한 교육용 BD"
+    },
+    {
+        "Id": 3012,
+        "IsReleased": [
+            true,
+            true
+        ],
+        "Category": "Material",
+        "Rarity": "SR",
+        "Quality": 3,
+        "Tags": [
+            "CDItem",
+            "ExpendableItem",
+            "CDItemSR"
+        ],
+        "SynthQuality": 150,
+        "Shops": [
+            {
+                "ShopCategory": "Raid",
+                "Released": [
+                    true,
+                    true
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 7,
+                "CostAmount": 50
+            },
+            {
+                "ShopCategory": "Raid",
+                "Released": [
+                    true,
+                    true
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 9,
+                "CostAmount": 50
+            }
+        ],
+        "Icon": "Item_Icon_Material_ExSkill_RedWinter_2",
+        "Name": "상급 전술 교육 BD\n(붉은겨울)",
+        "Desc": "붉은겨울 학생들의 전술 활동을 영상으로 기록한 교육용 BD"
+    },
+    {
+        "Id": 3013,
+        "IsReleased": [
+            true,
+            true
+        ],
+        "Category": "Material",
+        "Rarity": "SSR",
+        "Quality": 4,
+        "Tags": [
+            "CDItem",
+            "ExpendableItem",
+            "CDItemSSR"
+        ],
+        "SynthQuality": 200,
+        "Shops": [
+            {
+                "ShopCategory": "Raid",
+                "Released": [
+                    true,
+                    true
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 7,
+                "CostAmount": 100
+            },
+            {
+                "ShopCategory": "Raid",
+                "Released": [
+                    true,
+                    true
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 9,
+                "CostAmount": 100
             }
         ],
         "Icon": "Item_Icon_Material_ExSkill_RedWinter_3",
@@ -3166,178 +3297,6 @@
                 "CostType": "Item",
                 "CostId": 9,
                 "CostAmount": 10
-            }
-        ],
-        "Icon": "Item_Icon_Material_ExSkill_Gehenna_0",
-        "Name": "기초 전술 교육 BD\n(게헨나)",
-        "Desc": "게헨나 학생들의 전술 활동을 영상으로 기록한 교육용 BD"
-    },
-    {
-        "Id": 3031,
-        "IsReleased": [
-            true,
-            true
-        ],
-        "Category": "Material",
-        "Rarity": "R",
-        "Quality": 2,
-        "Tags": [
-            "CDItem",
-            "ExpendableItem",
-            "CDItemR"
-        ],
-        "SynthQuality": 60,
-        "Shops": [
-            {
-                "ShopCategory": "Raid",
-                "Released": [
-                    true,
-                    true
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 7,
-                "CostAmount": 20
-            },
-            {
-                "ShopCategory": "Raid",
-                "Released": [
-                    true,
-                    true
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 9,
-                "CostAmount": 20
-            }
-        ],
-        "Icon": "Item_Icon_Material_ExSkill_Gehenna_1",
-        "Name": "일반 전술 교육 BD\n(게헨나)",
-        "Desc": "게헨나 학생들의 전술 활동을 영상으로 기록한 교육용 BD"
-    },
-    {
-        "Id": 3032,
-        "IsReleased": [
-            true,
-            true
-        ],
-        "Category": "Material",
-        "Rarity": "SR",
-        "Quality": 3,
-        "Tags": [
-            "CDItem",
-            "ExpendableItem",
-            "CDItemSR"
-        ],
-        "SynthQuality": 150,
-        "Shops": [
-            {
-                "ShopCategory": "Raid",
-                "Released": [
-                    true,
-                    true
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 7,
-                "CostAmount": 50
-            },
-            {
-                "ShopCategory": "Raid",
-                "Released": [
-                    true,
-                    true
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 9,
-                "CostAmount": 50
-            }
-        ],
-        "Icon": "Item_Icon_Material_ExSkill_Gehenna_2",
-        "Name": "상급 전술 교육 BD\n(게헨나)",
-        "Desc": "게헨나 학생들의 전술 활동을 영상으로 기록한 교육용 BD"
-    },
-    {
-        "Id": 3033,
-        "IsReleased": [
-            true,
-            true
-        ],
-        "Category": "Material",
-        "Rarity": "SSR",
-        "Quality": 4,
-        "Tags": [
-            "CDItem",
-            "ExpendableItem",
-            "CDItemSSR"
-        ],
-        "SynthQuality": 200,
-        "Shops": [
-            {
-                "ShopCategory": "Raid",
-                "Released": [
-                    true,
-                    true
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 7,
-                "CostAmount": 100
-            },
-            {
-                "ShopCategory": "Raid",
-                "Released": [
-                    true,
-                    true
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 9,
-                "CostAmount": 100
-            }
-        ],
-        "Icon": "Item_Icon_Material_ExSkill_Gehenna_3",
-        "Name": "최상급 전술 교육 BD\n(게헨나)",
-        "Desc": "게헨나 학생들의 전술 활동을 영상으로 기록한 교육용 BD"
-    },
-    {
-        "Id": 3040,
-        "IsReleased": [
-            true,
-            true
-        ],
-        "Category": "Material",
-        "Rarity": "N",
-        "Quality": 1,
-        "Tags": [
-            "CDItem",
-            "ExpendableItem",
-            "CDItemN"
-        ],
-        "SynthQuality": 30,
-        "Shops": [
-            {
-                "ShopCategory": "Raid",
-                "Released": [
-                    true,
-                    true
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 7,
-                "CostAmount": 10
-            },
-            {
-                "ShopCategory": "Raid",
-                "Released": [
-                    true,
-                    true
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 9,
-                "CostAmount": 10
             },
             {
                 "ShopCategory": "Chaser",
@@ -3351,12 +3310,12 @@
                 "CostAmount": 80
             }
         ],
-        "Icon": "Item_Icon_Material_ExSkill_Abydos_0",
-        "Name": "기초 전술 교육 BD\n(아비도스)",
-        "Desc": "아비도스 학생들의 전술 활동을 영상으로 기록한 교육용 BD"
+        "Icon": "Item_Icon_Material_ExSkill_Gehenna_0",
+        "Name": "기초 전술 교육 BD\n(게헨나)",
+        "Desc": "게헨나 학생들의 전술 활동을 영상으로 기록한 교육용 BD"
     },
     {
-        "Id": 3041,
+        "Id": 3031,
         "IsReleased": [
             true,
             true
@@ -3405,12 +3364,12 @@
                 "CostAmount": 160
             }
         ],
-        "Icon": "Item_Icon_Material_ExSkill_Abydos_1",
-        "Name": "일반 전술 교육 BD\n(아비도스)",
-        "Desc": "아비도스 학생들의 전술 활동을 영상으로 기록한 교육용 BD"
+        "Icon": "Item_Icon_Material_ExSkill_Gehenna_1",
+        "Name": "일반 전술 교육 BD\n(게헨나)",
+        "Desc": "게헨나 학생들의 전술 활동을 영상으로 기록한 교육용 BD"
     },
     {
-        "Id": 3042,
+        "Id": 3032,
         "IsReleased": [
             true,
             true
@@ -3459,12 +3418,12 @@
                 "CostAmount": 400
             }
         ],
-        "Icon": "Item_Icon_Material_ExSkill_Abydos_2",
-        "Name": "상급 전술 교육 BD\n(아비도스)",
-        "Desc": "아비도스 학생들의 전술 활동을 영상으로 기록한 교육용 BD"
+        "Icon": "Item_Icon_Material_ExSkill_Gehenna_2",
+        "Name": "상급 전술 교육 BD\n(게헨나)",
+        "Desc": "게헨나 학생들의 전술 활동을 영상으로 기록한 교육용 BD"
     },
     {
-        "Id": 3043,
+        "Id": 3033,
         "IsReleased": [
             true,
             true
@@ -3513,12 +3472,12 @@
                 "CostAmount": 800
             }
         ],
-        "Icon": "Item_Icon_Material_ExSkill_Abydos_3",
-        "Name": "최상급 전술 교육 BD\n(아비도스)",
-        "Desc": "아비도스 학생들의 전술 활동을 영상으로 기록한 교육용 BD"
+        "Icon": "Item_Icon_Material_ExSkill_Gehenna_3",
+        "Name": "최상급 전술 교육 BD\n(게헨나)",
+        "Desc": "게헨나 학생들의 전술 활동을 영상으로 기록한 교육용 BD"
     },
     {
-        "Id": 3050,
+        "Id": 3040,
         "IsReleased": [
             true,
             true
@@ -3567,12 +3526,12 @@
                 ]
             }
         ],
-        "Icon": "Item_Icon_Material_ExSkill_Millennium_0",
-        "Name": "기초 전술 교육 BD\n(밀레니엄)",
-        "Desc": "밀레니엄 학생들의 전술 활동을 영상으로 기록한 교육용 BD"
+        "Icon": "Item_Icon_Material_ExSkill_Abydos_0",
+        "Name": "기초 전술 교육 BD\n(아비도스)",
+        "Desc": "아비도스 학생들의 전술 활동을 영상으로 기록한 교육용 BD"
     },
     {
-        "Id": 3051,
+        "Id": 3041,
         "IsReleased": [
             true,
             true
@@ -3621,12 +3580,12 @@
                 ]
             }
         ],
-        "Icon": "Item_Icon_Material_ExSkill_Millennium_1",
-        "Name": "일반 전술 교육 BD\n(밀레니엄)",
-        "Desc": "밀레니엄 학생들의 전술 활동을 영상으로 기록한 교육용 BD"
+        "Icon": "Item_Icon_Material_ExSkill_Abydos_1",
+        "Name": "일반 전술 교육 BD\n(아비도스)",
+        "Desc": "아비도스 학생들의 전술 활동을 영상으로 기록한 교육용 BD"
     },
     {
-        "Id": 3052,
+        "Id": 3042,
         "IsReleased": [
             true,
             true
@@ -3675,12 +3634,12 @@
                 ]
             }
         ],
-        "Icon": "Item_Icon_Material_ExSkill_Millennium_2",
-        "Name": "상급 전술 교육 BD\n(밀레니엄)",
-        "Desc": "밀레니엄 학생들의 전술 활동을 영상으로 기록한 교육용 BD"
+        "Icon": "Item_Icon_Material_ExSkill_Abydos_2",
+        "Name": "상급 전술 교육 BD\n(아비도스)",
+        "Desc": "아비도스 학생들의 전술 활동을 영상으로 기록한 교육용 BD"
     },
     {
-        "Id": 3053,
+        "Id": 3043,
         "IsReleased": [
             true,
             true
@@ -3727,6 +3686,178 @@
                     false,
                     true
                 ]
+            }
+        ],
+        "Icon": "Item_Icon_Material_ExSkill_Abydos_3",
+        "Name": "최상급 전술 교육 BD\n(아비도스)",
+        "Desc": "아비도스 학생들의 전술 활동을 영상으로 기록한 교육용 BD"
+    },
+    {
+        "Id": 3050,
+        "IsReleased": [
+            true,
+            true
+        ],
+        "Category": "Material",
+        "Rarity": "N",
+        "Quality": 1,
+        "Tags": [
+            "CDItem",
+            "ExpendableItem",
+            "CDItemN"
+        ],
+        "SynthQuality": 30,
+        "Shops": [
+            {
+                "ShopCategory": "Raid",
+                "Released": [
+                    true,
+                    true
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 7,
+                "CostAmount": 10
+            },
+            {
+                "ShopCategory": "Raid",
+                "Released": [
+                    true,
+                    true
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 9,
+                "CostAmount": 10
+            }
+        ],
+        "Icon": "Item_Icon_Material_ExSkill_Millennium_0",
+        "Name": "기초 전술 교육 BD\n(밀레니엄)",
+        "Desc": "밀레니엄 학생들의 전술 활동을 영상으로 기록한 교육용 BD"
+    },
+    {
+        "Id": 3051,
+        "IsReleased": [
+            true,
+            true
+        ],
+        "Category": "Material",
+        "Rarity": "R",
+        "Quality": 2,
+        "Tags": [
+            "CDItem",
+            "ExpendableItem",
+            "CDItemR"
+        ],
+        "SynthQuality": 60,
+        "Shops": [
+            {
+                "ShopCategory": "Raid",
+                "Released": [
+                    true,
+                    true
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 7,
+                "CostAmount": 20
+            },
+            {
+                "ShopCategory": "Raid",
+                "Released": [
+                    true,
+                    true
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 9,
+                "CostAmount": 20
+            }
+        ],
+        "Icon": "Item_Icon_Material_ExSkill_Millennium_1",
+        "Name": "일반 전술 교육 BD\n(밀레니엄)",
+        "Desc": "밀레니엄 학생들의 전술 활동을 영상으로 기록한 교육용 BD"
+    },
+    {
+        "Id": 3052,
+        "IsReleased": [
+            true,
+            true
+        ],
+        "Category": "Material",
+        "Rarity": "SR",
+        "Quality": 3,
+        "Tags": [
+            "CDItem",
+            "ExpendableItem",
+            "CDItemSR"
+        ],
+        "SynthQuality": 150,
+        "Shops": [
+            {
+                "ShopCategory": "Raid",
+                "Released": [
+                    true,
+                    true
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 7,
+                "CostAmount": 50
+            },
+            {
+                "ShopCategory": "Raid",
+                "Released": [
+                    true,
+                    true
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 9,
+                "CostAmount": 50
+            }
+        ],
+        "Icon": "Item_Icon_Material_ExSkill_Millennium_2",
+        "Name": "상급 전술 교육 BD\n(밀레니엄)",
+        "Desc": "밀레니엄 학생들의 전술 활동을 영상으로 기록한 교육용 BD"
+    },
+    {
+        "Id": 3053,
+        "IsReleased": [
+            true,
+            true
+        ],
+        "Category": "Material",
+        "Rarity": "SSR",
+        "Quality": 4,
+        "Tags": [
+            "CDItem",
+            "ExpendableItem",
+            "CDItemSSR"
+        ],
+        "SynthQuality": 200,
+        "Shops": [
+            {
+                "ShopCategory": "Raid",
+                "Released": [
+                    true,
+                    true
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 7,
+                "CostAmount": 100
+            },
+            {
+                "ShopCategory": "Raid",
+                "Released": [
+                    true,
+                    true
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 9,
+                "CostAmount": 100
             }
         ],
         "Icon": "Item_Icon_Material_ExSkill_Millennium_3",
@@ -3942,178 +4073,6 @@
                 "CostType": "Item",
                 "CostId": 9,
                 "CostAmount": 10
-            }
-        ],
-        "Icon": "Item_Icon_Material_ExSkill_Shanhaijing_0",
-        "Name": "기초 전술 교육 BD\n(산해경)",
-        "Desc": "산해경 학생들의 전술 활동을 영상으로 기록한 교육용 BD"
-    },
-    {
-        "Id": 3071,
-        "IsReleased": [
-            true,
-            true
-        ],
-        "Category": "Material",
-        "Rarity": "R",
-        "Quality": 2,
-        "Tags": [
-            "CDItem",
-            "ExpendableItem",
-            "CDItemR"
-        ],
-        "SynthQuality": 60,
-        "Shops": [
-            {
-                "ShopCategory": "Raid",
-                "Released": [
-                    true,
-                    true
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 7,
-                "CostAmount": 20
-            },
-            {
-                "ShopCategory": "Raid",
-                "Released": [
-                    true,
-                    true
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 9,
-                "CostAmount": 20
-            }
-        ],
-        "Icon": "Item_Icon_Material_ExSkill_Shanhaijing_1",
-        "Name": "일반 전술 교육 BD\n(산해경)",
-        "Desc": "산해경 학생들의 전술 활동을 영상으로 기록한 교육용 BD"
-    },
-    {
-        "Id": 3072,
-        "IsReleased": [
-            true,
-            true
-        ],
-        "Category": "Material",
-        "Rarity": "SR",
-        "Quality": 3,
-        "Tags": [
-            "CDItem",
-            "ExpendableItem",
-            "CDItemSR"
-        ],
-        "SynthQuality": 150,
-        "Shops": [
-            {
-                "ShopCategory": "Raid",
-                "Released": [
-                    true,
-                    true
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 7,
-                "CostAmount": 50
-            },
-            {
-                "ShopCategory": "Raid",
-                "Released": [
-                    true,
-                    true
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 9,
-                "CostAmount": 50
-            }
-        ],
-        "Icon": "Item_Icon_Material_ExSkill_Shanhaijing_2",
-        "Name": "상급 전술 교육 BD\n(산해경)",
-        "Desc": "산해경 학생들의 전술 활동을 영상으로 기록한 교육용 BD"
-    },
-    {
-        "Id": 3073,
-        "IsReleased": [
-            true,
-            true
-        ],
-        "Category": "Material",
-        "Rarity": "SSR",
-        "Quality": 4,
-        "Tags": [
-            "CDItem",
-            "ExpendableItem",
-            "CDItemSSR"
-        ],
-        "SynthQuality": 200,
-        "Shops": [
-            {
-                "ShopCategory": "Raid",
-                "Released": [
-                    true,
-                    true
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 7,
-                "CostAmount": 100
-            },
-            {
-                "ShopCategory": "Raid",
-                "Released": [
-                    true,
-                    true
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 9,
-                "CostAmount": 100
-            }
-        ],
-        "Icon": "Item_Icon_Material_ExSkill_Shanhaijing_3",
-        "Name": "최상급 전술 교육 BD\n(산해경)",
-        "Desc": "산해경 학생들의 전술 활동을 영상으로 기록한 교육용 BD"
-    },
-    {
-        "Id": 3080,
-        "IsReleased": [
-            true,
-            true
-        ],
-        "Category": "Material",
-        "Rarity": "N",
-        "Quality": 1,
-        "Tags": [
-            "CDItem",
-            "ExpendableItem",
-            "CDItemN"
-        ],
-        "SynthQuality": 30,
-        "Shops": [
-            {
-                "ShopCategory": "Raid",
-                "Released": [
-                    true,
-                    true
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 7,
-                "CostAmount": 10
-            },
-            {
-                "ShopCategory": "Raid",
-                "Released": [
-                    true,
-                    true
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 9,
-                "CostAmount": 10
             },
             {
                 "ShopCategory": "Chaser",
@@ -4127,12 +4086,12 @@
                 ]
             }
         ],
-        "Icon": "Item_Icon_Material_ExSkill_Valkyrie_0",
-        "Name": "기초 전술 교육 BD\n(발키리)",
-        "Desc": "발키리 학생들의 전술 활동을 영상으로 기록한 교육용 BD"
+        "Icon": "Item_Icon_Material_ExSkill_Shanhaijing_0",
+        "Name": "기초 전술 교육 BD\n(산해경)",
+        "Desc": "산해경 학생들의 전술 활동을 영상으로 기록한 교육용 BD"
     },
     {
-        "Id": 3081,
+        "Id": 3071,
         "IsReleased": [
             true,
             true
@@ -4181,12 +4140,12 @@
                 ]
             }
         ],
-        "Icon": "Item_Icon_Material_ExSkill_Valkyrie_1",
-        "Name": "일반 전술 교육 BD\n(발키리)",
-        "Desc": "발키리 학생들의 전술 활동을 영상으로 기록한 교육용 BD"
+        "Icon": "Item_Icon_Material_ExSkill_Shanhaijing_1",
+        "Name": "일반 전술 교육 BD\n(산해경)",
+        "Desc": "산해경 학생들의 전술 활동을 영상으로 기록한 교육용 BD"
     },
     {
-        "Id": 3082,
+        "Id": 3072,
         "IsReleased": [
             true,
             true
@@ -4235,12 +4194,12 @@
                 ]
             }
         ],
-        "Icon": "Item_Icon_Material_ExSkill_Valkyrie_2",
-        "Name": "상급 전술 교육 BD\n(발키리)",
-        "Desc": "발키리 학생들의 전술 활동을 영상으로 기록한 교육용 BD"
+        "Icon": "Item_Icon_Material_ExSkill_Shanhaijing_2",
+        "Name": "상급 전술 교육 BD\n(산해경)",
+        "Desc": "산해경 학생들의 전술 활동을 영상으로 기록한 교육용 BD"
     },
     {
-        "Id": 3083,
+        "Id": 3073,
         "IsReleased": [
             true,
             true
@@ -4289,12 +4248,12 @@
                 ]
             }
         ],
-        "Icon": "Item_Icon_Material_ExSkill_Valkyrie_3",
-        "Name": "최상급 전술 교육 BD\n(발키리)",
-        "Desc": "발키리 학생들의 전술 활동을 영상으로 기록한 교육용 BD"
+        "Icon": "Item_Icon_Material_ExSkill_Shanhaijing_3",
+        "Name": "최상급 전술 교육 BD\n(산해경)",
+        "Desc": "산해경 학생들의 전술 활동을 영상으로 기록한 교육용 BD"
     },
     {
-        "Id": 4000,
+        "Id": 3080,
         "IsReleased": [
             true,
             true
@@ -4303,11 +4262,11 @@
         "Rarity": "N",
         "Quality": 1,
         "Tags": [
-            "BookItem",
+            "CDItem",
             "ExpendableItem",
-            "BookItemN"
+            "CDItemN"
         ],
-        "SynthQuality": 10,
+        "SynthQuality": 30,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -4318,7 +4277,7 @@
                 "Amount": 1,
                 "CostType": "Item",
                 "CostId": 7,
-                "CostAmount": 3
+                "CostAmount": 10
             },
             {
                 "ShopCategory": "Raid",
@@ -4329,15 +4288,15 @@
                 "Amount": 1,
                 "CostType": "Item",
                 "CostId": 9,
-                "CostAmount": 3
+                "CostAmount": 10
             }
         ],
-        "Icon": "Item_Icon_SkillBook_Hyakkiyako_0",
-        "Name": "기초 기술 노트\n(백귀야행)",
-        "Desc": "백귀야행 학원의 전술 핵심이 요약된 비법 노트."
+        "Icon": "Item_Icon_Material_ExSkill_Valkyrie_0",
+        "Name": "기초 전술 교육 BD\n(발키리)",
+        "Desc": "발키리 학생들의 전술 활동을 영상으로 기록한 교육용 BD"
     },
     {
-        "Id": 4001,
+        "Id": 3081,
         "IsReleased": [
             true,
             true
@@ -4346,11 +4305,11 @@
         "Rarity": "R",
         "Quality": 2,
         "Tags": [
-            "BookItem",
+            "CDItem",
             "ExpendableItem",
-            "BookItemR"
+            "CDItemR"
         ],
-        "SynthQuality": 20,
+        "SynthQuality": 60,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -4361,7 +4320,7 @@
                 "Amount": 1,
                 "CostType": "Item",
                 "CostId": 7,
-                "CostAmount": 5
+                "CostAmount": 20
             },
             {
                 "ShopCategory": "Raid",
@@ -4372,15 +4331,15 @@
                 "Amount": 1,
                 "CostType": "Item",
                 "CostId": 9,
-                "CostAmount": 5
+                "CostAmount": 20
             }
         ],
-        "Icon": "Item_Icon_SkillBook_Hyakkiyako_1",
-        "Name": "일반 기술 노트\n(백귀야행)",
-        "Desc": "백귀야행 학원의 전술 핵심이 요약된 비법 노트."
+        "Icon": "Item_Icon_Material_ExSkill_Valkyrie_1",
+        "Name": "일반 전술 교육 BD\n(발키리)",
+        "Desc": "발키리 학생들의 전술 활동을 영상으로 기록한 교육용 BD"
     },
     {
-        "Id": 4002,
+        "Id": 3082,
         "IsReleased": [
             true,
             true
@@ -4389,11 +4348,11 @@
         "Rarity": "SR",
         "Quality": 3,
         "Tags": [
-            "BookItem",
+            "CDItem",
             "ExpendableItem",
-            "BookItemSR"
+            "CDItemSR"
         ],
-        "SynthQuality": 50,
+        "SynthQuality": 150,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -4404,7 +4363,7 @@
                 "Amount": 1,
                 "CostType": "Item",
                 "CostId": 7,
-                "CostAmount": 10
+                "CostAmount": 50
             },
             {
                 "ShopCategory": "Raid",
@@ -4415,15 +4374,15 @@
                 "Amount": 1,
                 "CostType": "Item",
                 "CostId": 9,
-                "CostAmount": 10
+                "CostAmount": 50
             }
         ],
-        "Icon": "Item_Icon_SkillBook_Hyakkiyako_2",
-        "Name": "상급 기술 노트\n(백귀야행)",
-        "Desc": "백귀야행 학원의 전술 핵심이 요약된 비법 노트."
+        "Icon": "Item_Icon_Material_ExSkill_Valkyrie_2",
+        "Name": "상급 전술 교육 BD\n(발키리)",
+        "Desc": "발키리 학생들의 전술 활동을 영상으로 기록한 교육용 BD"
     },
     {
-        "Id": 4003,
+        "Id": 3083,
         "IsReleased": [
             true,
             true
@@ -4432,11 +4391,11 @@
         "Rarity": "SSR",
         "Quality": 4,
         "Tags": [
-            "BookItem",
+            "CDItem",
             "ExpendableItem",
-            "BookItemSSR"
+            "CDItemSSR"
         ],
-        "SynthQuality": 80,
+        "SynthQuality": 200,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -4447,7 +4406,7 @@
                 "Amount": 1,
                 "CostType": "Item",
                 "CostId": 7,
-                "CostAmount": 25
+                "CostAmount": 100
             },
             {
                 "ShopCategory": "Raid",
@@ -4458,15 +4417,15 @@
                 "Amount": 1,
                 "CostType": "Item",
                 "CostId": 9,
-                "CostAmount": 25
+                "CostAmount": 100
             }
         ],
-        "Icon": "Item_Icon_SkillBook_Hyakkiyako_3",
-        "Name": "최상급 기술 노트\n(백귀야행)",
-        "Desc": "백귀야행 학원의 전술 핵심이 요약된 비법 노트."
+        "Icon": "Item_Icon_Material_ExSkill_Valkyrie_3",
+        "Name": "최상급 전술 교육 BD\n(발키리)",
+        "Desc": "발키리 학생들의 전술 활동을 영상으로 기록한 교육용 BD"
     },
     {
-        "Id": 4010,
+        "Id": 4000,
         "IsReleased": [
             true,
             true
@@ -4515,12 +4474,12 @@
                 "CostAmount": 24
             }
         ],
-        "Icon": "Item_Icon_SkillBook_RedWinter_0",
-        "Name": "기초 기술 노트\n(붉은겨울)",
-        "Desc": "붉은겨울 학원의 전술 핵심이 요약된 비법 노트."
+        "Icon": "Item_Icon_SkillBook_Hyakkiyako_0",
+        "Name": "기초 기술 노트\n(백귀야행)",
+        "Desc": "백귀야행 학원의 전술 핵심이 요약된 비법 노트."
     },
     {
-        "Id": 4011,
+        "Id": 4001,
         "IsReleased": [
             true,
             true
@@ -4569,12 +4528,12 @@
                 "CostAmount": 40
             }
         ],
-        "Icon": "Item_Icon_SkillBook_RedWinter_1",
-        "Name": "일반 기술 노트\n(붉은겨울)",
-        "Desc": "붉은겨울 학원의 전술 핵심이 요약된 비법 노트."
+        "Icon": "Item_Icon_SkillBook_Hyakkiyako_1",
+        "Name": "일반 기술 노트\n(백귀야행)",
+        "Desc": "백귀야행 학원의 전술 핵심이 요약된 비법 노트."
     },
     {
-        "Id": 4012,
+        "Id": 4002,
         "IsReleased": [
             true,
             true
@@ -4623,12 +4582,12 @@
                 "CostAmount": 80
             }
         ],
-        "Icon": "Item_Icon_SkillBook_RedWinter_2",
-        "Name": "상급 기술 노트\n(붉은겨울)",
-        "Desc": "붉은겨울 학원의 전술 핵심이 요약된 비법 노트."
+        "Icon": "Item_Icon_SkillBook_Hyakkiyako_2",
+        "Name": "상급 기술 노트\n(백귀야행)",
+        "Desc": "백귀야행 학원의 전술 핵심이 요약된 비법 노트."
     },
     {
-        "Id": 4013,
+        "Id": 4003,
         "IsReleased": [
             true,
             true
@@ -4675,6 +4634,178 @@
                 "CostType": "Item",
                 "CostId": 61,
                 "CostAmount": 200
+            }
+        ],
+        "Icon": "Item_Icon_SkillBook_Hyakkiyako_3",
+        "Name": "최상급 기술 노트\n(백귀야행)",
+        "Desc": "백귀야행 학원의 전술 핵심이 요약된 비법 노트."
+    },
+    {
+        "Id": 4010,
+        "IsReleased": [
+            true,
+            true
+        ],
+        "Category": "Material",
+        "Rarity": "N",
+        "Quality": 1,
+        "Tags": [
+            "BookItem",
+            "ExpendableItem",
+            "BookItemN"
+        ],
+        "SynthQuality": 10,
+        "Shops": [
+            {
+                "ShopCategory": "Raid",
+                "Released": [
+                    true,
+                    true
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 7,
+                "CostAmount": 3
+            },
+            {
+                "ShopCategory": "Raid",
+                "Released": [
+                    true,
+                    true
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 9,
+                "CostAmount": 3
+            }
+        ],
+        "Icon": "Item_Icon_SkillBook_RedWinter_0",
+        "Name": "기초 기술 노트\n(붉은겨울)",
+        "Desc": "붉은겨울 학원의 전술 핵심이 요약된 비법 노트."
+    },
+    {
+        "Id": 4011,
+        "IsReleased": [
+            true,
+            true
+        ],
+        "Category": "Material",
+        "Rarity": "R",
+        "Quality": 2,
+        "Tags": [
+            "BookItem",
+            "ExpendableItem",
+            "BookItemR"
+        ],
+        "SynthQuality": 20,
+        "Shops": [
+            {
+                "ShopCategory": "Raid",
+                "Released": [
+                    true,
+                    true
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 7,
+                "CostAmount": 5
+            },
+            {
+                "ShopCategory": "Raid",
+                "Released": [
+                    true,
+                    true
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 9,
+                "CostAmount": 5
+            }
+        ],
+        "Icon": "Item_Icon_SkillBook_RedWinter_1",
+        "Name": "일반 기술 노트\n(붉은겨울)",
+        "Desc": "붉은겨울 학원의 전술 핵심이 요약된 비법 노트."
+    },
+    {
+        "Id": 4012,
+        "IsReleased": [
+            true,
+            true
+        ],
+        "Category": "Material",
+        "Rarity": "SR",
+        "Quality": 3,
+        "Tags": [
+            "BookItem",
+            "ExpendableItem",
+            "BookItemSR"
+        ],
+        "SynthQuality": 50,
+        "Shops": [
+            {
+                "ShopCategory": "Raid",
+                "Released": [
+                    true,
+                    true
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 7,
+                "CostAmount": 10
+            },
+            {
+                "ShopCategory": "Raid",
+                "Released": [
+                    true,
+                    true
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 9,
+                "CostAmount": 10
+            }
+        ],
+        "Icon": "Item_Icon_SkillBook_RedWinter_2",
+        "Name": "상급 기술 노트\n(붉은겨울)",
+        "Desc": "붉은겨울 학원의 전술 핵심이 요약된 비법 노트."
+    },
+    {
+        "Id": 4013,
+        "IsReleased": [
+            true,
+            true
+        ],
+        "Category": "Material",
+        "Rarity": "SSR",
+        "Quality": 4,
+        "Tags": [
+            "BookItem",
+            "ExpendableItem",
+            "BookItemSSR"
+        ],
+        "SynthQuality": 80,
+        "Shops": [
+            {
+                "ShopCategory": "Raid",
+                "Released": [
+                    true,
+                    true
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 7,
+                "CostAmount": 25
+            },
+            {
+                "ShopCategory": "Raid",
+                "Released": [
+                    true,
+                    true
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 9,
+                "CostAmount": 25
             }
         ],
         "Icon": "Item_Icon_SkillBook_RedWinter_3",
@@ -4890,178 +5021,6 @@
                 "CostType": "Item",
                 "CostId": 9,
                 "CostAmount": 3
-            }
-        ],
-        "Icon": "Item_Icon_SkillBook_Gehenna_0",
-        "Name": "기초 기술 노트\n(게헨나)",
-        "Desc": "게헨나 학원의 전술 핵심이 요약된 비법 노트."
-    },
-    {
-        "Id": 4031,
-        "IsReleased": [
-            true,
-            true
-        ],
-        "Category": "Material",
-        "Rarity": "R",
-        "Quality": 2,
-        "Tags": [
-            "BookItem",
-            "ExpendableItem",
-            "BookItemR"
-        ],
-        "SynthQuality": 20,
-        "Shops": [
-            {
-                "ShopCategory": "Raid",
-                "Released": [
-                    true,
-                    true
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 7,
-                "CostAmount": 5
-            },
-            {
-                "ShopCategory": "Raid",
-                "Released": [
-                    true,
-                    true
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 9,
-                "CostAmount": 5
-            }
-        ],
-        "Icon": "Item_Icon_SkillBook_Gehenna_1",
-        "Name": "일반 기술 노트\n(게헨나)",
-        "Desc": "게헨나 학원의 전술 핵심이 요약된 비법 노트."
-    },
-    {
-        "Id": 4032,
-        "IsReleased": [
-            true,
-            true
-        ],
-        "Category": "Material",
-        "Rarity": "SR",
-        "Quality": 3,
-        "Tags": [
-            "BookItem",
-            "ExpendableItem",
-            "BookItemSR"
-        ],
-        "SynthQuality": 50,
-        "Shops": [
-            {
-                "ShopCategory": "Raid",
-                "Released": [
-                    true,
-                    true
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 7,
-                "CostAmount": 10
-            },
-            {
-                "ShopCategory": "Raid",
-                "Released": [
-                    true,
-                    true
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 9,
-                "CostAmount": 10
-            }
-        ],
-        "Icon": "Item_Icon_SkillBook_Gehenna_2",
-        "Name": "상급 기술 노트\n(게헨나)",
-        "Desc": "게헨나 학원의 전술 핵심이 요약된 비법 노트."
-    },
-    {
-        "Id": 4033,
-        "IsReleased": [
-            true,
-            true
-        ],
-        "Category": "Material",
-        "Rarity": "SSR",
-        "Quality": 4,
-        "Tags": [
-            "BookItem",
-            "ExpendableItem",
-            "BookItemSSR"
-        ],
-        "SynthQuality": 80,
-        "Shops": [
-            {
-                "ShopCategory": "Raid",
-                "Released": [
-                    true,
-                    true
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 7,
-                "CostAmount": 25
-            },
-            {
-                "ShopCategory": "Raid",
-                "Released": [
-                    true,
-                    true
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 9,
-                "CostAmount": 25
-            }
-        ],
-        "Icon": "Item_Icon_SkillBook_Gehenna_3",
-        "Name": "최상급 기술 노트\n(게헨나)",
-        "Desc": "게헨나 학원의 전술 핵심이 요약된 비법 노트."
-    },
-    {
-        "Id": 4040,
-        "IsReleased": [
-            true,
-            true
-        ],
-        "Category": "Material",
-        "Rarity": "N",
-        "Quality": 1,
-        "Tags": [
-            "BookItem",
-            "ExpendableItem",
-            "BookItemN"
-        ],
-        "SynthQuality": 10,
-        "Shops": [
-            {
-                "ShopCategory": "Raid",
-                "Released": [
-                    true,
-                    true
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 7,
-                "CostAmount": 3
-            },
-            {
-                "ShopCategory": "Raid",
-                "Released": [
-                    true,
-                    true
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 9,
-                "CostAmount": 3
             },
             {
                 "ShopCategory": "Chaser",
@@ -5075,12 +5034,12 @@
                 "CostAmount": 24
             }
         ],
-        "Icon": "Item_Icon_SkillBook_Abydos_0",
-        "Name": "기초 기술 노트\n(아비도스)",
-        "Desc": "아비도스 고등학교의 전술 핵심이 요약된 비법 노트."
+        "Icon": "Item_Icon_SkillBook_Gehenna_0",
+        "Name": "기초 기술 노트\n(게헨나)",
+        "Desc": "게헨나 학원의 전술 핵심이 요약된 비법 노트."
     },
     {
-        "Id": 4041,
+        "Id": 4031,
         "IsReleased": [
             true,
             true
@@ -5129,12 +5088,12 @@
                 "CostAmount": 40
             }
         ],
-        "Icon": "Item_Icon_SkillBook_Abydos_1",
-        "Name": "일반 기술 노트\n(아비도스)",
-        "Desc": "아비도스 고등학교의 전술 핵심이 요약된 비법 노트."
+        "Icon": "Item_Icon_SkillBook_Gehenna_1",
+        "Name": "일반 기술 노트\n(게헨나)",
+        "Desc": "게헨나 학원의 전술 핵심이 요약된 비법 노트."
     },
     {
-        "Id": 4042,
+        "Id": 4032,
         "IsReleased": [
             true,
             true
@@ -5183,12 +5142,12 @@
                 "CostAmount": 80
             }
         ],
-        "Icon": "Item_Icon_SkillBook_Abydos_2",
-        "Name": "상급 기술 노트\n(아비도스)",
-        "Desc": "아비도스 고등학교의 전술 핵심이 요약된 비법 노트."
+        "Icon": "Item_Icon_SkillBook_Gehenna_2",
+        "Name": "상급 기술 노트\n(게헨나)",
+        "Desc": "게헨나 학원의 전술 핵심이 요약된 비법 노트."
     },
     {
-        "Id": 4043,
+        "Id": 4033,
         "IsReleased": [
             true,
             true
@@ -5237,12 +5196,12 @@
                 "CostAmount": 200
             }
         ],
-        "Icon": "Item_Icon_SkillBook_Abydos_3",
-        "Name": "최상급 기술 노트\n(아비도스)",
-        "Desc": "아비도스 고등학교의 전술 핵심이 요약된 비법 노트."
+        "Icon": "Item_Icon_SkillBook_Gehenna_3",
+        "Name": "최상급 기술 노트\n(게헨나)",
+        "Desc": "게헨나 학원의 전술 핵심이 요약된 비법 노트."
     },
     {
-        "Id": 4050,
+        "Id": 4040,
         "IsReleased": [
             true,
             true
@@ -5291,12 +5250,12 @@
                 ]
             }
         ],
-        "Icon": "Item_Icon_SkillBook_Millennium_0",
-        "Name": "기초 기술 노트\n(밀레니엄)",
-        "Desc": "밀레니엄 학원의 전술 핵심이 요약된 비법 노트."
+        "Icon": "Item_Icon_SkillBook_Abydos_0",
+        "Name": "기초 기술 노트\n(아비도스)",
+        "Desc": "아비도스 고등학교의 전술 핵심이 요약된 비법 노트."
     },
     {
-        "Id": 4051,
+        "Id": 4041,
         "IsReleased": [
             true,
             true
@@ -5345,12 +5304,12 @@
                 ]
             }
         ],
-        "Icon": "Item_Icon_SkillBook_Millennium_1",
-        "Name": "일반 기술 노트\n(밀레니엄)",
-        "Desc": "밀레니엄 학원의 전술 핵심이 요약된 비법 노트."
+        "Icon": "Item_Icon_SkillBook_Abydos_1",
+        "Name": "일반 기술 노트\n(아비도스)",
+        "Desc": "아비도스 고등학교의 전술 핵심이 요약된 비법 노트."
     },
     {
-        "Id": 4052,
+        "Id": 4042,
         "IsReleased": [
             true,
             true
@@ -5399,12 +5358,12 @@
                 ]
             }
         ],
-        "Icon": "Item_Icon_SkillBook_Millennium_2",
-        "Name": "상급 기술 노트\n(밀레니엄)",
-        "Desc": "밀레니엄 학원의 전술 핵심이 요약된 비법 노트."
+        "Icon": "Item_Icon_SkillBook_Abydos_2",
+        "Name": "상급 기술 노트\n(아비도스)",
+        "Desc": "아비도스 고등학교의 전술 핵심이 요약된 비법 노트."
     },
     {
-        "Id": 4053,
+        "Id": 4043,
         "IsReleased": [
             true,
             true
@@ -5451,6 +5410,178 @@
                     false,
                     true
                 ]
+            }
+        ],
+        "Icon": "Item_Icon_SkillBook_Abydos_3",
+        "Name": "최상급 기술 노트\n(아비도스)",
+        "Desc": "아비도스 고등학교의 전술 핵심이 요약된 비법 노트."
+    },
+    {
+        "Id": 4050,
+        "IsReleased": [
+            true,
+            true
+        ],
+        "Category": "Material",
+        "Rarity": "N",
+        "Quality": 1,
+        "Tags": [
+            "BookItem",
+            "ExpendableItem",
+            "BookItemN"
+        ],
+        "SynthQuality": 10,
+        "Shops": [
+            {
+                "ShopCategory": "Raid",
+                "Released": [
+                    true,
+                    true
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 7,
+                "CostAmount": 3
+            },
+            {
+                "ShopCategory": "Raid",
+                "Released": [
+                    true,
+                    true
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 9,
+                "CostAmount": 3
+            }
+        ],
+        "Icon": "Item_Icon_SkillBook_Millennium_0",
+        "Name": "기초 기술 노트\n(밀레니엄)",
+        "Desc": "밀레니엄 학원의 전술 핵심이 요약된 비법 노트."
+    },
+    {
+        "Id": 4051,
+        "IsReleased": [
+            true,
+            true
+        ],
+        "Category": "Material",
+        "Rarity": "R",
+        "Quality": 2,
+        "Tags": [
+            "BookItem",
+            "ExpendableItem",
+            "BookItemR"
+        ],
+        "SynthQuality": 20,
+        "Shops": [
+            {
+                "ShopCategory": "Raid",
+                "Released": [
+                    true,
+                    true
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 7,
+                "CostAmount": 5
+            },
+            {
+                "ShopCategory": "Raid",
+                "Released": [
+                    true,
+                    true
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 9,
+                "CostAmount": 5
+            }
+        ],
+        "Icon": "Item_Icon_SkillBook_Millennium_1",
+        "Name": "일반 기술 노트\n(밀레니엄)",
+        "Desc": "밀레니엄 학원의 전술 핵심이 요약된 비법 노트."
+    },
+    {
+        "Id": 4052,
+        "IsReleased": [
+            true,
+            true
+        ],
+        "Category": "Material",
+        "Rarity": "SR",
+        "Quality": 3,
+        "Tags": [
+            "BookItem",
+            "ExpendableItem",
+            "BookItemSR"
+        ],
+        "SynthQuality": 50,
+        "Shops": [
+            {
+                "ShopCategory": "Raid",
+                "Released": [
+                    true,
+                    true
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 7,
+                "CostAmount": 10
+            },
+            {
+                "ShopCategory": "Raid",
+                "Released": [
+                    true,
+                    true
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 9,
+                "CostAmount": 10
+            }
+        ],
+        "Icon": "Item_Icon_SkillBook_Millennium_2",
+        "Name": "상급 기술 노트\n(밀레니엄)",
+        "Desc": "밀레니엄 학원의 전술 핵심이 요약된 비법 노트."
+    },
+    {
+        "Id": 4053,
+        "IsReleased": [
+            true,
+            true
+        ],
+        "Category": "Material",
+        "Rarity": "SSR",
+        "Quality": 4,
+        "Tags": [
+            "BookItem",
+            "ExpendableItem",
+            "BookItemSSR"
+        ],
+        "SynthQuality": 80,
+        "Shops": [
+            {
+                "ShopCategory": "Raid",
+                "Released": [
+                    true,
+                    true
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 7,
+                "CostAmount": 25
+            },
+            {
+                "ShopCategory": "Raid",
+                "Released": [
+                    true,
+                    true
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 9,
+                "CostAmount": 25
             }
         ],
         "Icon": "Item_Icon_SkillBook_Millennium_3",
@@ -5666,178 +5797,6 @@
                 "CostType": "Item",
                 "CostId": 9,
                 "CostAmount": 3
-            }
-        ],
-        "Icon": "Item_Icon_SkillBook_Shanhaijing_0",
-        "Name": "기초 기술 노트\n(산해경)",
-        "Desc": "산해경 고급중학교의 전술 핵심이 요약된 비법 노트."
-    },
-    {
-        "Id": 4071,
-        "IsReleased": [
-            true,
-            true
-        ],
-        "Category": "Material",
-        "Rarity": "R",
-        "Quality": 2,
-        "Tags": [
-            "BookItem",
-            "ExpendableItem",
-            "BookItemR"
-        ],
-        "SynthQuality": 20,
-        "Shops": [
-            {
-                "ShopCategory": "Raid",
-                "Released": [
-                    true,
-                    true
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 7,
-                "CostAmount": 5
-            },
-            {
-                "ShopCategory": "Raid",
-                "Released": [
-                    true,
-                    true
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 9,
-                "CostAmount": 5
-            }
-        ],
-        "Icon": "Item_Icon_SkillBook_Shanhaijing_1",
-        "Name": "일반 기술 노트\n(산해경)",
-        "Desc": "산해경 고급중학교의 전술 핵심이 요약된 비법 노트."
-    },
-    {
-        "Id": 4072,
-        "IsReleased": [
-            true,
-            true
-        ],
-        "Category": "Material",
-        "Rarity": "SR",
-        "Quality": 3,
-        "Tags": [
-            "BookItem",
-            "ExpendableItem",
-            "BookItemSR"
-        ],
-        "SynthQuality": 50,
-        "Shops": [
-            {
-                "ShopCategory": "Raid",
-                "Released": [
-                    true,
-                    true
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 7,
-                "CostAmount": 10
-            },
-            {
-                "ShopCategory": "Raid",
-                "Released": [
-                    true,
-                    true
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 9,
-                "CostAmount": 10
-            }
-        ],
-        "Icon": "Item_Icon_SkillBook_Shanhaijing_2",
-        "Name": "상급 기술 노트\n(산해경)",
-        "Desc": "산해경 고급중학교의 전술 핵심이 요약된 비법 노트."
-    },
-    {
-        "Id": 4073,
-        "IsReleased": [
-            true,
-            true
-        ],
-        "Category": "Material",
-        "Rarity": "SSR",
-        "Quality": 4,
-        "Tags": [
-            "BookItem",
-            "ExpendableItem",
-            "BookItemSSR"
-        ],
-        "SynthQuality": 80,
-        "Shops": [
-            {
-                "ShopCategory": "Raid",
-                "Released": [
-                    true,
-                    true
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 7,
-                "CostAmount": 25
-            },
-            {
-                "ShopCategory": "Raid",
-                "Released": [
-                    true,
-                    true
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 9,
-                "CostAmount": 25
-            }
-        ],
-        "Icon": "Item_Icon_SkillBook_Shanhaijing_3",
-        "Name": "최상급 기술 노트\n(산해경)",
-        "Desc": "산해경 고급중학교의 전술 핵심이 요약된 비법 노트."
-    },
-    {
-        "Id": 4080,
-        "IsReleased": [
-            true,
-            true
-        ],
-        "Category": "Material",
-        "Rarity": "N",
-        "Quality": 1,
-        "Tags": [
-            "BookItem",
-            "ExpendableItem",
-            "BookItemN"
-        ],
-        "SynthQuality": 10,
-        "Shops": [
-            {
-                "ShopCategory": "Raid",
-                "Released": [
-                    true,
-                    true
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 7,
-                "CostAmount": 3
-            },
-            {
-                "ShopCategory": "Raid",
-                "Released": [
-                    true,
-                    true
-                ],
-                "Amount": 1,
-                "CostType": "Item",
-                "CostId": 9,
-                "CostAmount": 3
             },
             {
                 "ShopCategory": "Chaser",
@@ -5851,12 +5810,12 @@
                 ]
             }
         ],
-        "Icon": "Item_Icon_SkillBook_Valkyrie_0",
-        "Name": "기초 기술 노트\n(발키리)",
-        "Desc": "발키리 경찰학교의 전술 핵심이 요약된 비법 노트."
+        "Icon": "Item_Icon_SkillBook_Shanhaijing_0",
+        "Name": "기초 기술 노트\n(산해경)",
+        "Desc": "산해경 고급중학교의 전술 핵심이 요약된 비법 노트."
     },
     {
-        "Id": 4081,
+        "Id": 4071,
         "IsReleased": [
             true,
             true
@@ -5905,12 +5864,12 @@
                 ]
             }
         ],
-        "Icon": "Item_Icon_SkillBook_Valkyrie_1",
-        "Name": "일반 기술 노트\n(발키리)",
-        "Desc": "발키리 경찰학교의 전술 핵심이 요약된 비법 노트."
+        "Icon": "Item_Icon_SkillBook_Shanhaijing_1",
+        "Name": "일반 기술 노트\n(산해경)",
+        "Desc": "산해경 고급중학교의 전술 핵심이 요약된 비법 노트."
     },
     {
-        "Id": 4082,
+        "Id": 4072,
         "IsReleased": [
             true,
             true
@@ -5959,12 +5918,12 @@
                 ]
             }
         ],
-        "Icon": "Item_Icon_SkillBook_Valkyrie_2",
-        "Name": "상급 기술 노트\n(발키리)",
-        "Desc": "발키리 경찰학교의 전술 핵심이 요약된 비법 노트."
+        "Icon": "Item_Icon_SkillBook_Shanhaijing_2",
+        "Name": "상급 기술 노트\n(산해경)",
+        "Desc": "산해경 고급중학교의 전술 핵심이 요약된 비법 노트."
     },
     {
-        "Id": 4083,
+        "Id": 4073,
         "IsReleased": [
             true,
             true
@@ -6011,6 +5970,178 @@
                     false,
                     true
                 ]
+            }
+        ],
+        "Icon": "Item_Icon_SkillBook_Shanhaijing_3",
+        "Name": "최상급 기술 노트\n(산해경)",
+        "Desc": "산해경 고급중학교의 전술 핵심이 요약된 비법 노트."
+    },
+    {
+        "Id": 4080,
+        "IsReleased": [
+            true,
+            true
+        ],
+        "Category": "Material",
+        "Rarity": "N",
+        "Quality": 1,
+        "Tags": [
+            "BookItem",
+            "ExpendableItem",
+            "BookItemN"
+        ],
+        "SynthQuality": 10,
+        "Shops": [
+            {
+                "ShopCategory": "Raid",
+                "Released": [
+                    true,
+                    true
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 7,
+                "CostAmount": 3
+            },
+            {
+                "ShopCategory": "Raid",
+                "Released": [
+                    true,
+                    true
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 9,
+                "CostAmount": 3
+            }
+        ],
+        "Icon": "Item_Icon_SkillBook_Valkyrie_0",
+        "Name": "기초 기술 노트\n(발키리)",
+        "Desc": "발키리 경찰학교의 전술 핵심이 요약된 비법 노트."
+    },
+    {
+        "Id": 4081,
+        "IsReleased": [
+            true,
+            true
+        ],
+        "Category": "Material",
+        "Rarity": "R",
+        "Quality": 2,
+        "Tags": [
+            "BookItem",
+            "ExpendableItem",
+            "BookItemR"
+        ],
+        "SynthQuality": 20,
+        "Shops": [
+            {
+                "ShopCategory": "Raid",
+                "Released": [
+                    true,
+                    true
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 7,
+                "CostAmount": 5
+            },
+            {
+                "ShopCategory": "Raid",
+                "Released": [
+                    true,
+                    true
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 9,
+                "CostAmount": 5
+            }
+        ],
+        "Icon": "Item_Icon_SkillBook_Valkyrie_1",
+        "Name": "일반 기술 노트\n(발키리)",
+        "Desc": "발키리 경찰학교의 전술 핵심이 요약된 비법 노트."
+    },
+    {
+        "Id": 4082,
+        "IsReleased": [
+            true,
+            true
+        ],
+        "Category": "Material",
+        "Rarity": "SR",
+        "Quality": 3,
+        "Tags": [
+            "BookItem",
+            "ExpendableItem",
+            "BookItemSR"
+        ],
+        "SynthQuality": 50,
+        "Shops": [
+            {
+                "ShopCategory": "Raid",
+                "Released": [
+                    true,
+                    true
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 7,
+                "CostAmount": 10
+            },
+            {
+                "ShopCategory": "Raid",
+                "Released": [
+                    true,
+                    true
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 9,
+                "CostAmount": 10
+            }
+        ],
+        "Icon": "Item_Icon_SkillBook_Valkyrie_2",
+        "Name": "상급 기술 노트\n(발키리)",
+        "Desc": "발키리 경찰학교의 전술 핵심이 요약된 비법 노트."
+    },
+    {
+        "Id": 4083,
+        "IsReleased": [
+            true,
+            true
+        ],
+        "Category": "Material",
+        "Rarity": "SSR",
+        "Quality": 4,
+        "Tags": [
+            "BookItem",
+            "ExpendableItem",
+            "BookItemSSR"
+        ],
+        "SynthQuality": 80,
+        "Shops": [
+            {
+                "ShopCategory": "Raid",
+                "Released": [
+                    true,
+                    true
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 7,
+                "CostAmount": 25
+            },
+            {
+                "ShopCategory": "Raid",
+                "Released": [
+                    true,
+                    true
+                ],
+                "Amount": 1,
+                "CostType": "Item",
+                "CostId": 9,
+                "CostAmount": 25
             }
         ],
         "Icon": "Item_Icon_SkillBook_Valkyrie_3",
@@ -6496,7 +6627,8 @@
             "Mystery",
             "F_Hina",
             "F_Hanako",
-            "F_Hina_swimsuit"
+            "F_Hina_swimsuit",
+            "F_Koyuki"
         ],
         "SynthQuality": 20,
         "ExpValue": 20,
@@ -7158,7 +7290,9 @@
             "Gift1",
             "Horticulture",
             "F_Tsubaki",
-            "F_Tsubaki2"
+            "F_Tsubaki2",
+            "F_Haruka_Newyear",
+            "F_Haruka_Newyear2"
         ],
         "ExpValue": 60,
         "Shops": [],
@@ -7218,7 +7352,9 @@
             "F_Suzumi",
             "F_Suzumi2",
             "F_Haruna_Newyear",
-            "F_Haruna_Newyear2"
+            "F_Haruna_Newyear2",
+            "F_Kayoko_Newyear",
+            "F_Kayoko_Newyear2"
         ],
         "ExpValue": 60,
         "Shops": [],
@@ -7276,7 +7412,9 @@
             "F_Momoi",
             "F_Momoi2",
             "F_Megu",
-            "F_Megu2"
+            "F_Megu2",
+            "F_Koyuki",
+            "F_Koyuki2"
         ],
         "ExpValue": 60,
         "Shops": [],
@@ -7692,7 +7830,7 @@
                 "ShopCategory": "TimeAttack",
                 "Released": [
                     true,
-                    false
+                    true
                 ],
                 "Amount": 5,
                 "CostType": "Item",
@@ -8488,7 +8626,7 @@
         "Id": 10050,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Category": "SecretStone",
         "Rarity": "N",
@@ -8505,7 +8643,7 @@
         "Id": 10051,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Category": "SecretStone",
         "Rarity": "N",
@@ -8522,7 +8660,7 @@
         "Id": 10052,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Category": "SecretStone",
         "Rarity": "N",
@@ -8706,6 +8844,23 @@
         "Desc": "토키의 신비가 담겨 있는 신명문자(神名文字)."
     },
     {
+        "Id": 10063,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Category": "SecretStone",
+        "Rarity": "N",
+        "Quality": 9,
+        "Tags": [
+            "SecretStone"
+        ],
+        "Shops": [],
+        "Icon": "Item_Icon_SecretStone_CH0198",
+        "Name": "코유키의 엘레프",
+        "Desc": "코유키의 신비가 담겨 있는 신명문자(神名文字)."
+    },
+    {
         "Id": 13000,
         "IsReleased": [
             true,
@@ -8797,7 +8952,19 @@
         "Tags": [
             "SecretStone"
         ],
-        "Shops": [],
+        "Shops": [
+            {
+                "ShopCategory": "MasterCoin",
+                "Released": [
+                    true,
+                    false
+                ],
+                "Amount": 5,
+                "CostType": "Currency",
+                "CostId": 18,
+                "CostAmount": 1800
+            }
+        ],
         "Icon": "Item_Icon_SecretStone_Nonomi",
         "Name": "노노미의 엘레프",
         "Desc": "노노미의 신비가 담겨 있는 신명문자(神名文字)."
@@ -9124,7 +9291,7 @@
         "Id": 16010,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Category": "SecretStone",
         "Rarity": "N",
@@ -9170,6 +9337,23 @@
         "Icon": "Item_Icon_SecretStone_CH0192",
         "Name": "준코(새해)의 엘레프",
         "Desc": "준코(새해)의 신비가 담겨 있는 신명문자(神名文字)."
+    },
+    {
+        "Id": 10064,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Category": "SecretStone",
+        "Rarity": "N",
+        "Quality": 9,
+        "Tags": [
+            "SecretStone"
+        ],
+        "Shops": [],
+        "Icon": "Item_Icon_SecretStone_CH0086",
+        "Name": "카요코(새해)의 엘레프",
+        "Desc": "카요코(새해)의 신비가 담겨 있는 신명문자(神名文字)."
     },
     {
         "Id": 20000,
@@ -9631,6 +9815,23 @@
         "Icon": "Item_Icon_SecretStone_Nagisa",
         "Name": "나기사의 엘레프",
         "Desc": "나기사의 신비가 담겨 있는 신명문자(神名文字)."
+    },
+    {
+        "Id": 20025,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Category": "SecretStone",
+        "Rarity": "N",
+        "Quality": 9,
+        "Tags": [
+            "SecretStone"
+        ],
+        "Shops": [],
+        "Icon": "Item_Icon_SecretStone_CH0087",
+        "Name": "하루카(새해)의 엘레프",
+        "Desc": "하루카(새해)의 신비가 담겨 있는 신명문자(神名文字)."
     },
     {
         "Id": 23000,
@@ -12818,7 +13019,7 @@
         "Id": 80150,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Category": "Coin",
         "Rarity": "N",
@@ -12859,7 +13060,7 @@
         "Id": 80151,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Category": "Coin",
         "Rarity": "N",
@@ -12892,7 +13093,7 @@
         "Id": 80152,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Category": "Coin",
         "Rarity": "N",
@@ -12925,7 +13126,7 @@
         "Id": 80153,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Category": "Coin",
         "Rarity": "N",
@@ -13552,6 +13753,602 @@
         "Desc": "중앙 지구의 게이트를 개방할 수 있는 언락 코드가 인식된 칩이다."
     },
     {
+        "Id": 80220,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Category": "Coin",
+        "Rarity": "N",
+        "Quality": 1,
+        "Tags": [],
+        "Shops": [],
+        "Icon": "Item_Icon_Event_Item_0",
+        "Name": "이벤트 포인트",
+        "Desc": "이벤트를 진행할 때마다 획득할 수 있는 포인트. 많이 얻을수록 다양한 보상을 얻을 수 있다.",
+        "EventBonus": [
+            [
+                10063,
+                4000
+            ],
+            [
+                10000,
+                2000
+            ],
+            [
+                10004,
+                2000
+            ],
+            [
+                10008,
+                2000
+            ],
+            [
+                10012,
+                2000
+            ],
+            [
+                10016,
+                2000
+            ],
+            [
+                10020,
+                2000
+            ],
+            [
+                10024,
+                2000
+            ],
+            [
+                10028,
+                2000
+            ],
+            [
+                10032,
+                2000
+            ],
+            [
+                10036,
+                2000
+            ],
+            [
+                10040,
+                2000
+            ],
+            [
+                10044,
+                2000
+            ],
+            [
+                10048,
+                2000
+            ],
+            [
+                10052,
+                2000
+            ],
+            [
+                10056,
+                2000
+            ],
+            [
+                10060,
+                2000
+            ],
+            [
+                13000,
+                2000
+            ],
+            [
+                13004,
+                2000
+            ],
+            [
+                13008,
+                2000
+            ],
+            [
+                13012,
+                2000
+            ],
+            [
+                16003,
+                2000
+            ],
+            [
+                16007,
+                2000
+            ],
+            [
+                16011,
+                2000
+            ],
+            [
+                20002,
+                2000
+            ],
+            [
+                20006,
+                2000
+            ],
+            [
+                20011,
+                2000
+            ],
+            [
+                20015,
+                2000
+            ],
+            [
+                20019,
+                2000
+            ],
+            [
+                20023,
+                2000
+            ],
+            [
+                23002,
+                2000
+            ],
+            [
+                23006,
+                2000
+            ],
+            [
+                26001,
+                2000
+            ],
+            [
+                26005,
+                2000
+            ]
+        ]
+    },
+    {
+        "Id": 80221,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Category": "Coin",
+        "Rarity": "N",
+        "Quality": 2,
+        "Tags": [],
+        "Shops": [],
+        "Icon": "Item_Icon_Event_Token_0_S26",
+        "Name": "총학생회의 안전모",
+        "Desc": "총학생회의 로고가 새겨진 안전모. 이번 복구작업을 위해 특별히 제작되었다.",
+        "EventBonus": [
+            [
+                10001,
+                2000
+            ],
+            [
+                10005,
+                2000
+            ],
+            [
+                10009,
+                2000
+            ],
+            [
+                10013,
+                2000
+            ],
+            [
+                10017,
+                2000
+            ],
+            [
+                10021,
+                2000
+            ],
+            [
+                10025,
+                2000
+            ],
+            [
+                10029,
+                2000
+            ],
+            [
+                10033,
+                2000
+            ],
+            [
+                10037,
+                2000
+            ],
+            [
+                10041,
+                2000
+            ],
+            [
+                10045,
+                2000
+            ],
+            [
+                10049,
+                2000
+            ],
+            [
+                10053,
+                2000
+            ],
+            [
+                10057,
+                2000
+            ],
+            [
+                10061,
+                2000
+            ],
+            [
+                13001,
+                2000
+            ],
+            [
+                13005,
+                2000
+            ],
+            [
+                13009,
+                2000
+            ],
+            [
+                16000,
+                2000
+            ],
+            [
+                16004,
+                2000
+            ],
+            [
+                16008,
+                2000
+            ],
+            [
+                16012,
+                2000
+            ],
+            [
+                20003,
+                2000
+            ],
+            [
+                20008,
+                2000
+            ],
+            [
+                20012,
+                2000
+            ],
+            [
+                20016,
+                2000
+            ],
+            [
+                20020,
+                2000
+            ],
+            [
+                20024,
+                2000
+            ],
+            [
+                23003,
+                2000
+            ],
+            [
+                23007,
+                2000
+            ],
+            [
+                26002,
+                2000
+            ],
+            [
+                26006,
+                2000
+            ]
+        ]
+    },
+    {
+        "Id": 80222,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Category": "Coin",
+        "Rarity": "N",
+        "Quality": 3,
+        "Tags": [],
+        "Shops": [],
+        "Icon": "Item_Icon_Event_Token_1_S26",
+        "Name": "재무보고서",
+        "Desc": "총학생회 행정위원회 산하인 재무실에서 사용하는 재무보고서. 키보토스의 재무 상태에 관한 내용이 상세히 정리되어 있다.",
+        "EventBonus": [
+            [
+                10002,
+                2000
+            ],
+            [
+                10006,
+                2000
+            ],
+            [
+                10010,
+                2000
+            ],
+            [
+                10014,
+                2000
+            ],
+            [
+                10018,
+                2000
+            ],
+            [
+                10022,
+                2000
+            ],
+            [
+                10026,
+                2000
+            ],
+            [
+                10030,
+                2000
+            ],
+            [
+                10034,
+                2000
+            ],
+            [
+                10038,
+                2000
+            ],
+            [
+                10042,
+                2000
+            ],
+            [
+                10046,
+                2000
+            ],
+            [
+                10050,
+                2000
+            ],
+            [
+                10054,
+                2000
+            ],
+            [
+                10058,
+                2000
+            ],
+            [
+                10062,
+                2000
+            ],
+            [
+                13002,
+                2000
+            ],
+            [
+                13006,
+                2000
+            ],
+            [
+                13010,
+                2000
+            ],
+            [
+                16001,
+                2000
+            ],
+            [
+                16005,
+                2000
+            ],
+            [
+                16009,
+                2000
+            ],
+            [
+                20000,
+                2000
+            ],
+            [
+                20004,
+                2000
+            ],
+            [
+                20009,
+                2000
+            ],
+            [
+                20013,
+                2000
+            ],
+            [
+                20017,
+                2000
+            ],
+            [
+                20021,
+                2000
+            ],
+            [
+                23000,
+                2000
+            ],
+            [
+                23004,
+                2000
+            ],
+            [
+                23008,
+                2000
+            ],
+            [
+                26003,
+                2000
+            ],
+            [
+                26007,
+                2000
+            ]
+        ]
+    },
+    {
+        "Id": 80223,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Category": "Coin",
+        "Rarity": "N",
+        "Quality": 4,
+        "Tags": [],
+        "Shops": [],
+        "Icon": "Item_Icon_Event_Token_2_S26",
+        "Name": "명란 과자",
+        "Desc": "모모카가 즐겨 먹는 명란 과자. 입 안을 짭짤하게 만드는 그 풍미가 일품이다.",
+        "EventBonus": [
+            [
+                10003,
+                2000
+            ],
+            [
+                10007,
+                2000
+            ],
+            [
+                10011,
+                2000
+            ],
+            [
+                10015,
+                2000
+            ],
+            [
+                10019,
+                2000
+            ],
+            [
+                10023,
+                2000
+            ],
+            [
+                10027,
+                2000
+            ],
+            [
+                10031,
+                2000
+            ],
+            [
+                10035,
+                2000
+            ],
+            [
+                10039,
+                2000
+            ],
+            [
+                10043,
+                2000
+            ],
+            [
+                10047,
+                2000
+            ],
+            [
+                10051,
+                2000
+            ],
+            [
+                10055,
+                2000
+            ],
+            [
+                10059,
+                2000
+            ],
+            [
+                13003,
+                2000
+            ],
+            [
+                13007,
+                2000
+            ],
+            [
+                13011,
+                2000
+            ],
+            [
+                16002,
+                2000
+            ],
+            [
+                16006,
+                2000
+            ],
+            [
+                16010,
+                2000
+            ],
+            [
+                20001,
+                2000
+            ],
+            [
+                20005,
+                2000
+            ],
+            [
+                20010,
+                2000
+            ],
+            [
+                20014,
+                2000
+            ],
+            [
+                20018,
+                2000
+            ],
+            [
+                20022,
+                2000
+            ],
+            [
+                23001,
+                2000
+            ],
+            [
+                23005,
+                2000
+            ],
+            [
+                26000,
+                2000
+            ],
+            [
+                26004,
+                2000
+            ],
+            [
+                26008,
+                2000
+            ]
+        ]
+    },
+    {
         "Id": 85000,
         "IsReleased": [
             true,
@@ -14067,7 +14864,7 @@
         "Id": 85030,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Category": "Coin",
         "Rarity": "N",
@@ -14112,7 +14909,7 @@
         "Id": 85031,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Category": "Coin",
         "Rarity": "N",
@@ -14149,7 +14946,7 @@
         "Id": 85032,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Category": "Coin",
         "Rarity": "N",
@@ -14186,7 +14983,7 @@
         "Id": 85033,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Category": "Coin",
         "Rarity": "N",
@@ -14201,7 +14998,7 @@
         "Id": 85040,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Category": "Coin",
         "Rarity": "N",
@@ -14290,7 +15087,7 @@
         "Id": 85041,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Category": "Coin",
         "Rarity": "N",
@@ -14331,7 +15128,7 @@
         "Id": 85042,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Category": "Coin",
         "Rarity": "N",
@@ -14372,7 +15169,7 @@
         "Id": 85043,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Category": "Coin",
         "Rarity": "N",
@@ -14694,6 +15491,149 @@
                 2500
             ]
         ]
+    },
+    {
+        "Id": 85070,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Category": "Coin",
+        "Rarity": "N",
+        "Quality": 3,
+        "Tags": [],
+        "Shops": [],
+        "Icon": "Item_Icon_Event_Token_0_S11",
+        "Name": "특제 신년 복주머니(복각)",
+        "Desc": "새해 시즌이 되어 검은거북파가 준비한 새해용 복주머니. 개봉하기 전까지 안에 무엇이 들어있는지 아무도 알 수 없는 서프라이즈 아이템. 생각 외로 내용물은 알차다.",
+        "EventBonus": [
+            [
+                10064,
+                2000
+            ],
+            [
+                20025,
+                2000
+            ],
+            [
+                10031,
+                2000
+            ],
+            [
+                10032,
+                2000
+            ],
+            [
+                13005,
+                2000
+            ],
+            [
+                10010,
+                2000
+            ],
+            [
+                23005,
+                2000
+            ]
+        ]
+    },
+    {
+        "Id": 85071,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Category": "Coin",
+        "Rarity": "N",
+        "Quality": 1,
+        "Tags": [],
+        "Shops": [],
+        "Icon": "Item_Icon_Event_Token_1_S11",
+        "Name": "페로로 거울떡(복각)",
+        "Desc": "새해를 기념하여 돈에 눈이 먼 검은거북파가 초인기 마스코트 페로로와 콜라보하여 발매한 거울떡. 어디까지나 장식용이고 먹을 수는 없다.",
+        "EventBonus": [
+            [
+                10064,
+                2500
+            ],
+            [
+                13006,
+                2500
+            ],
+            [
+                10032,
+                2500
+            ],
+            [
+                16000,
+                2500
+            ],
+            [
+                13004,
+                2500
+            ],
+            [
+                20011,
+                2000
+            ]
+        ]
+    },
+    {
+        "Id": 85072,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Category": "Coin",
+        "Rarity": "N",
+        "Quality": 2,
+        "Tags": [],
+        "Shops": [],
+        "Icon": "Item_Icon_Event_Token_2_S11",
+        "Name": "검은거북파 에마(복각)",
+        "Desc": "검은거북파의 새해맞이 행사장에서 판매하는 에마. 새전을 넣고 소원을 비는 것과 함께 하면 효과가 상승한다는 소문이 있다. 그래서인지 가격은 개당 5천 엔이라는 말도 안 되는 가격.",
+        "EventBonus": [
+            [
+                20025,
+                2500
+            ],
+            [
+                10000,
+                2500
+            ],
+            [
+                10031,
+                2500
+            ],
+            [
+                10005,
+                2500
+            ],
+            [
+                13008,
+                2500
+            ],
+            [
+                20011,
+                2500
+            ]
+        ]
+    },
+    {
+        "Id": 85073,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Category": "Coin",
+        "Rarity": "N",
+        "Quality": 4,
+        "Tags": [],
+        "Shops": [],
+        "Icon": "Item_Icon_Event_Token_3_S11",
+        "Name": "새해 오미쿠지 뽑기권(복각)",
+        "Desc": "새해 오미쿠지 뽑기를 하기 위해 필요한 뽑기권. 실은 제대로 된 물건이 아니라 검은거북파가 판매를 목적으로 만든 제품으로, 점괘 결과에 따라 상품이 지급된다.",
+        "EventBonus": []
     },
     {
         "Id": 85080,
@@ -16172,7 +17112,8 @@
         "Name": "선물 선택 상자",
         "Desc": "원하는 선물을 선택할 수 있는 선물 상자",
         "ConsumeType": "Choice",
-        "Contains": [
+        "Contains": [],
+        "ContainsGlobal": [
             [
                 5000,
                 1,
@@ -16473,7 +17414,7 @@
         "Id": 100013,
         "IsReleased": [
             true,
-            true
+            false
         ],
         "Category": "Consumable",
         "Rarity": "N",
@@ -16486,6 +17427,824 @@
         "ConsumeType": "Random",
         "ImmediateUse": true,
         "Contains": []
+    },
+    {
+        "Id": 100014,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Category": "Consumable",
+        "Rarity": "N",
+        "Quality": 1,
+        "Tags": [],
+        "Shops": [],
+        "Icon": "Item_Icon_Equipment_Random",
+        "Name": "장비 상자",
+        "Desc": "다양한 종류의 장비와 설계도면이 들어있는 상자.",
+        "ConsumeType": "Random",
+        "ImmediateUse": true,
+        "Contains": []
+    },
+    {
+        "Id": 100015,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Category": "Consumable",
+        "Rarity": "N",
+        "Quality": 1,
+        "Tags": [],
+        "Shops": [],
+        "Icon": "Item_Icon_ExSkillCD_Random_0",
+        "Name": "기초 전술 교육 BD 상자",
+        "Desc": "EX스킬을 향상시키는데 필요한 전술 교육 BD가 들어있는 상자.",
+        "ConsumeType": "Random",
+        "ImmediateUse": true,
+        "Contains": [
+            [
+                4000,
+                0.1111,
+                1
+            ],
+            [
+                4010,
+                0.1111,
+                1
+            ],
+            [
+                4020,
+                0.1111,
+                1
+            ],
+            [
+                4030,
+                0.1111,
+                1
+            ],
+            [
+                4040,
+                0.1111,
+                1
+            ],
+            [
+                4050,
+                0.1111,
+                1
+            ],
+            [
+                4060,
+                0.1111,
+                1
+            ],
+            [
+                4070,
+                0.1111,
+                1
+            ],
+            [
+                4080,
+                0.1111,
+                1
+            ]
+        ],
+        "ContainsGlobal": []
+    },
+    {
+        "Id": 100016,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Category": "Consumable",
+        "Rarity": "R",
+        "Quality": 2,
+        "Tags": [],
+        "Shops": [],
+        "Icon": "Item_Icon_ExSkillCD_Random_1",
+        "Name": "일반 전술 교육 BD 상자",
+        "Desc": "EX스킬을 향상시키는데 필요한 전술 교육 BD가 들어있는 상자.",
+        "ConsumeType": "Random",
+        "ImmediateUse": true,
+        "Contains": [
+            [
+                4001,
+                0.1111,
+                1
+            ],
+            [
+                4011,
+                0.1111,
+                1
+            ],
+            [
+                4021,
+                0.1111,
+                1
+            ],
+            [
+                4031,
+                0.1111,
+                1
+            ],
+            [
+                4041,
+                0.1111,
+                1
+            ],
+            [
+                4051,
+                0.1111,
+                1
+            ],
+            [
+                4061,
+                0.1111,
+                1
+            ],
+            [
+                4071,
+                0.1111,
+                1
+            ],
+            [
+                4081,
+                0.1111,
+                1
+            ]
+        ],
+        "ContainsGlobal": []
+    },
+    {
+        "Id": 100017,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Category": "Consumable",
+        "Rarity": "SR",
+        "Quality": 3,
+        "Tags": [],
+        "Shops": [],
+        "Icon": "Item_Icon_ExSkillCD_Random_2",
+        "Name": "상급 전술 교육 BD 상자",
+        "Desc": "EX스킬을 향상시키는데 필요한 전술 교육 BD가 들어있는 상자.",
+        "ConsumeType": "Random",
+        "ImmediateUse": true,
+        "Contains": [
+            [
+                4002,
+                0.1111,
+                1
+            ],
+            [
+                4012,
+                0.1111,
+                1
+            ],
+            [
+                4022,
+                0.1111,
+                1
+            ],
+            [
+                4032,
+                0.1111,
+                1
+            ],
+            [
+                4042,
+                0.1111,
+                1
+            ],
+            [
+                4052,
+                0.1111,
+                1
+            ],
+            [
+                4062,
+                0.1111,
+                1
+            ],
+            [
+                4072,
+                0.1111,
+                1
+            ],
+            [
+                4082,
+                0.1111,
+                1
+            ]
+        ],
+        "ContainsGlobal": []
+    },
+    {
+        "Id": 100018,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Category": "Consumable",
+        "Rarity": "SSR",
+        "Quality": 4,
+        "Tags": [],
+        "Shops": [],
+        "Icon": "Item_Icon_ExSkillCD_Random_3",
+        "Name": "최상급 전술 교육 BD 상자",
+        "Desc": "EX스킬을 향상시키는데 필요한 전술 교육 BD가 들어있는 상자.",
+        "ConsumeType": "Random",
+        "ImmediateUse": true,
+        "Contains": [
+            [
+                4003,
+                0.1111,
+                1
+            ],
+            [
+                4013,
+                0.1111,
+                1
+            ],
+            [
+                4023,
+                0.1111,
+                1
+            ],
+            [
+                4033,
+                0.1111,
+                1
+            ],
+            [
+                4043,
+                0.1111,
+                1
+            ],
+            [
+                4053,
+                0.1111,
+                1
+            ],
+            [
+                4063,
+                0.1111,
+                1
+            ],
+            [
+                4073,
+                0.1111,
+                1
+            ],
+            [
+                4083,
+                0.1111,
+                1
+            ]
+        ],
+        "ContainsGlobal": []
+    },
+    {
+        "Id": 100019,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Category": "Consumable",
+        "Rarity": "N",
+        "Quality": 1,
+        "Tags": [],
+        "Shops": [],
+        "Icon": "Item_Icon_SkillBook_Random_0",
+        "Name": "기초 기술 노트 상자",
+        "Desc": "스킬을 강화시키는 기술 노트가 들어 있는 상자.",
+        "ConsumeType": "Random",
+        "ImmediateUse": true,
+        "Contains": [
+            [
+                3000,
+                0.1111,
+                1
+            ],
+            [
+                3010,
+                0.1111,
+                1
+            ],
+            [
+                3020,
+                0.1111,
+                1
+            ],
+            [
+                3030,
+                0.1111,
+                1
+            ],
+            [
+                3040,
+                0.1111,
+                1
+            ],
+            [
+                3050,
+                0.1111,
+                1
+            ],
+            [
+                3060,
+                0.1111,
+                1
+            ],
+            [
+                3070,
+                0.1111,
+                1
+            ],
+            [
+                3080,
+                0.1111,
+                1
+            ]
+        ],
+        "ContainsGlobal": []
+    },
+    {
+        "Id": 100020,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Category": "Consumable",
+        "Rarity": "R",
+        "Quality": 2,
+        "Tags": [],
+        "Shops": [],
+        "Icon": "Item_Icon_SkillBook_Random_1",
+        "Name": "일반 기술 노트 상자",
+        "Desc": "스킬을 강화시키는 기술 노트가 들어 있는 상자.",
+        "ConsumeType": "Random",
+        "ImmediateUse": true,
+        "Contains": [
+            [
+                3001,
+                0.1111,
+                1
+            ],
+            [
+                3011,
+                0.1111,
+                1
+            ],
+            [
+                3021,
+                0.1111,
+                1
+            ],
+            [
+                3031,
+                0.1111,
+                1
+            ],
+            [
+                3041,
+                0.1111,
+                1
+            ],
+            [
+                3051,
+                0.1111,
+                1
+            ],
+            [
+                3061,
+                0.1111,
+                1
+            ],
+            [
+                3071,
+                0.1111,
+                1
+            ],
+            [
+                3081,
+                0.1111,
+                1
+            ]
+        ],
+        "ContainsGlobal": []
+    },
+    {
+        "Id": 100021,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Category": "Consumable",
+        "Rarity": "SR",
+        "Quality": 3,
+        "Tags": [],
+        "Shops": [],
+        "Icon": "Item_Icon_SkillBook_Random_2",
+        "Name": "상급 기술 노트 상자",
+        "Desc": "스킬을 강화시키는 기술 노트가 들어 있는 상자.",
+        "ConsumeType": "Random",
+        "ImmediateUse": true,
+        "Contains": [
+            [
+                3002,
+                0.1111,
+                1
+            ],
+            [
+                3012,
+                0.1111,
+                1
+            ],
+            [
+                3022,
+                0.1111,
+                1
+            ],
+            [
+                3032,
+                0.1111,
+                1
+            ],
+            [
+                3042,
+                0.1111,
+                1
+            ],
+            [
+                3052,
+                0.1111,
+                1
+            ],
+            [
+                3062,
+                0.1111,
+                1
+            ],
+            [
+                3072,
+                0.1111,
+                1
+            ],
+            [
+                3082,
+                0.1111,
+                1
+            ]
+        ],
+        "ContainsGlobal": []
+    },
+    {
+        "Id": 100022,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Category": "Consumable",
+        "Rarity": "SSR",
+        "Quality": 4,
+        "Tags": [],
+        "Shops": [],
+        "Icon": "Item_Icon_SkillBook_Random_3",
+        "Name": "최상급 기술 노트 상자",
+        "Desc": "스킬을 강화시키는 기술 노트가 들어 있는 상자.",
+        "ConsumeType": "Random",
+        "ImmediateUse": true,
+        "Contains": [
+            [
+                3003,
+                0.1111,
+                1
+            ],
+            [
+                3013,
+                0.1111,
+                1
+            ],
+            [
+                3023,
+                0.1111,
+                1
+            ],
+            [
+                3033,
+                0.1111,
+                1
+            ],
+            [
+                3043,
+                0.1111,
+                1
+            ],
+            [
+                3053,
+                0.1111,
+                1
+            ],
+            [
+                3063,
+                0.1111,
+                1
+            ],
+            [
+                3073,
+                0.1111,
+                1
+            ],
+            [
+                3083,
+                0.1111,
+                1
+            ]
+        ],
+        "ContainsGlobal": []
+    },
+    {
+        "Id": 100023,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Category": "Consumable",
+        "Rarity": "N",
+        "Quality": 1,
+        "Tags": [],
+        "Shops": [],
+        "Icon": "Item_Icon_Material_Random_0",
+        "Name": "오파츠 추첨권1",
+        "Desc": "사용 시 10종의 오파츠 중 1개를 동일한 확률로 획득할 수 있는 추첨권",
+        "ConsumeType": "Random",
+        "ImmediateUse": true,
+        "Contains": [
+            [
+                100,
+                0.1,
+                1
+            ],
+            [
+                110,
+                0.1,
+                1
+            ],
+            [
+                120,
+                0.1,
+                1
+            ],
+            [
+                130,
+                0.1,
+                1
+            ],
+            [
+                140,
+                0.1,
+                1
+            ],
+            [
+                150,
+                0.1,
+                1
+            ],
+            [
+                160,
+                0.1,
+                1
+            ],
+            [
+                170,
+                0.1,
+                1
+            ],
+            [
+                180,
+                0.1,
+                1
+            ],
+            [
+                190,
+                0.1,
+                1
+            ]
+        ],
+        "ContainsGlobal": []
+    },
+    {
+        "Id": 100024,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Category": "Consumable",
+        "Rarity": "R",
+        "Quality": 2,
+        "Tags": [],
+        "Shops": [],
+        "Icon": "Item_Icon_Material_Random_1",
+        "Name": "오파츠 추첨권2",
+        "Desc": "사용 시 10종의 오파츠 중 1개를 동일한 확률로 획득할 수 있는 추첨권",
+        "ConsumeType": "Random",
+        "ImmediateUse": true,
+        "Contains": [
+            [
+                101,
+                0.1,
+                1
+            ],
+            [
+                111,
+                0.1,
+                1
+            ],
+            [
+                121,
+                0.1,
+                1
+            ],
+            [
+                131,
+                0.1,
+                1
+            ],
+            [
+                141,
+                0.1,
+                1
+            ],
+            [
+                151,
+                0.1,
+                1
+            ],
+            [
+                161,
+                0.1,
+                1
+            ],
+            [
+                171,
+                0.1,
+                1
+            ],
+            [
+                181,
+                0.1,
+                1
+            ],
+            [
+                191,
+                0.1,
+                1
+            ]
+        ],
+        "ContainsGlobal": []
+    },
+    {
+        "Id": 100025,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Category": "Consumable",
+        "Rarity": "SR",
+        "Quality": 3,
+        "Tags": [],
+        "Shops": [],
+        "Icon": "Item_Icon_Material_Random_2",
+        "Name": "오파츠 추첨권3",
+        "Desc": "사용 시 10종의 오파츠 중 1개를 동일한 확률로 획득할 수 있는 추첨권",
+        "ConsumeType": "Random",
+        "ImmediateUse": true,
+        "Contains": [
+            [
+                102,
+                0.1,
+                1
+            ],
+            [
+                112,
+                0.1,
+                1
+            ],
+            [
+                122,
+                0.1,
+                1
+            ],
+            [
+                132,
+                0.1,
+                1
+            ],
+            [
+                142,
+                0.1,
+                1
+            ],
+            [
+                152,
+                0.1,
+                1
+            ],
+            [
+                162,
+                0.1,
+                1
+            ],
+            [
+                172,
+                0.1,
+                1
+            ],
+            [
+                182,
+                0.1,
+                1
+            ],
+            [
+                192,
+                0.1,
+                1
+            ]
+        ],
+        "ContainsGlobal": []
+    },
+    {
+        "Id": 100026,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Category": "Consumable",
+        "Rarity": "SSR",
+        "Quality": 4,
+        "Tags": [],
+        "Shops": [],
+        "Icon": "Item_Icon_Material_Random_3",
+        "Name": "오파츠 추첨권4",
+        "Desc": "사용 시 10종의 오파츠 중 1개를 동일한 확률로 획득할 수 있는 추첨권",
+        "ConsumeType": "Random",
+        "ImmediateUse": true,
+        "Contains": [
+            [
+                103,
+                0.1,
+                1
+            ],
+            [
+                113,
+                0.1,
+                1
+            ],
+            [
+                123,
+                0.1,
+                1
+            ],
+            [
+                133,
+                0.1,
+                1
+            ],
+            [
+                143,
+                0.1,
+                1
+            ],
+            [
+                153,
+                0.1,
+                1
+            ],
+            [
+                163,
+                0.1,
+                1
+            ],
+            [
+                173,
+                0.1,
+                1
+            ],
+            [
+                183,
+                0.1,
+                1
+            ],
+            [
+                193,
+                0.1,
+                1
+            ]
+        ],
+        "ContainsGlobal": []
     },
     {
         "Id": 150000,
@@ -16504,7 +18263,8 @@
         "Name": "기초 기술 노트 선택권",
         "Desc": "원하는 기술 노트를 선택할 수 있는 선택권",
         "ConsumeType": "Choice",
-        "Contains": [
+        "Contains": [],
+        "ContainsGlobal": [
             [
                 4000,
                 1,
@@ -16578,7 +18338,8 @@
         "Name": "일반 기술 노트 선택권",
         "Desc": "원하는 기술 노트를 선택할 수 있는 선택권",
         "ConsumeType": "Choice",
-        "Contains": [
+        "Contains": [],
+        "ContainsGlobal": [
             [
                 4001,
                 1,
@@ -16652,7 +18413,8 @@
         "Name": "상급 기술 노트 선택권",
         "Desc": "원하는 기술 노트를 선택할 수 있는 선택권",
         "ConsumeType": "Choice",
-        "Contains": [
+        "Contains": [],
+        "ContainsGlobal": [
             [
                 4002,
                 1,
@@ -16726,7 +18488,8 @@
         "Name": "최상급 기술 노트 선택권",
         "Desc": "원하는 기술 노트를 선택할 수 있는 선택권",
         "ConsumeType": "Choice",
-        "Contains": [
+        "Contains": [],
+        "ContainsGlobal": [
             [
                 4003,
                 1,
@@ -16800,7 +18563,8 @@
         "Name": "기초 전술 교육 BD 선택권",
         "Desc": "원하는 전술 교육 BD를 선택할 수 있는 선택권",
         "ConsumeType": "Choice",
-        "Contains": [
+        "Contains": [],
+        "ContainsGlobal": [
             [
                 3000,
                 1,
@@ -16874,7 +18638,8 @@
         "Name": "일반 전술 교육 BD 선택권",
         "Desc": "원하는 전술 교육 BD를 선택할 수 있는 선택권",
         "ConsumeType": "Choice",
-        "Contains": [
+        "Contains": [],
+        "ContainsGlobal": [
             [
                 3001,
                 1,
@@ -16948,7 +18713,8 @@
         "Name": "상급 전술 교육 BD 선택권",
         "Desc": "원하는 전술 교육 BD를 선택할 수 있는 선택권",
         "ConsumeType": "Choice",
-        "Contains": [
+        "Contains": [],
+        "ContainsGlobal": [
             [
                 3002,
                 1,
@@ -17022,7 +18788,8 @@
         "Name": "최상급 전술 교육 BD 선택권",
         "Desc": "원하는 전술 교육 BD를 선택할 수 있는 선택권",
         "ConsumeType": "Choice",
-        "Contains": [
+        "Contains": [],
+        "ContainsGlobal": [
             [
                 3003,
                 1,
@@ -17096,7 +18863,8 @@
         "Name": "오파츠 선택권1",
         "Desc": "원하는 오파츠를 선택할 수 있는 선택권",
         "ConsumeType": "Choice",
-        "Contains": [
+        "Contains": [],
+        "ContainsGlobal": [
             [
                 100,
                 1,
@@ -17200,7 +18968,8 @@
         "Name": "오파츠 선택권2",
         "Desc": "원하는 오파츠를 선택할 수 있는 선택권",
         "ConsumeType": "Choice",
-        "Contains": [
+        "Contains": [],
+        "ContainsGlobal": [
             [
                 101,
                 1,
@@ -17304,7 +19073,8 @@
         "Name": "오파츠 선택권3",
         "Desc": "원하는 오파츠를 선택할 수 있는 선택권",
         "ConsumeType": "Choice",
-        "Contains": [
+        "Contains": [],
+        "ContainsGlobal": [
             [
                 102,
                 1,
@@ -17408,7 +19178,8 @@
         "Name": "오파츠 선택권4",
         "Desc": "원하는 오파츠를 선택할 수 있는 선택권",
         "ConsumeType": "Choice",
-        "Contains": [
+        "Contains": [],
+        "ContainsGlobal": [
             [
                 103,
                 1,
@@ -17510,7 +19281,8 @@
         "Name": "기초 기술 노트 선택권",
         "Desc": "원하는 기술 노트를 선택할 수 있는 선택권. (게헨나, 산해경, 트리니티, 발키리, 아리우스)",
         "ConsumeType": "Choice",
-        "Contains": [
+        "Contains": [],
+        "ContainsGlobal": [
             [
                 4030,
                 1,
@@ -17558,7 +19330,8 @@
         "Name": "일반 기술 노트 선택권",
         "Desc": "원하는 기술 노트를 선택할 수 있는 선택권. (게헨나, 산해경, 트리니티, 발키리, 아리우스)",
         "ConsumeType": "Choice",
-        "Contains": [
+        "Contains": [],
+        "ContainsGlobal": [
             [
                 4031,
                 1,
@@ -17606,7 +19379,8 @@
         "Name": "상급 기술 노트 선택권",
         "Desc": "원하는 기술 노트를 선택할 수 있는 선택권. (게헨나, 산해경, 트리니티, 발키리, 아리우스)",
         "ConsumeType": "Choice",
-        "Contains": [
+        "Contains": [],
+        "ContainsGlobal": [
             [
                 4032,
                 1,
@@ -17654,7 +19428,8 @@
         "Name": "최상급 기술 노트 선택권",
         "Desc": "원하는 기술 노트를 선택할 수 있는 선택권. (게헨나, 산해경, 트리니티, 발키리, 아리우스)",
         "ConsumeType": "Choice",
-        "Contains": [
+        "Contains": [],
+        "ContainsGlobal": [
             [
                 4033,
                 1,
@@ -17702,7 +19477,8 @@
         "Name": "기초 기술 노트 선택권",
         "Desc": "원하는 기술 노트를 선택할 수 있는 선택권. (백귀야행, 붉은겨울, 아비도스, 밀레니엄)",
         "ConsumeType": "Choice",
-        "Contains": [
+        "Contains": [],
+        "ContainsGlobal": [
             [
                 4000,
                 1,
@@ -17744,7 +19520,8 @@
         "Name": "일반 기술 노트 선택권",
         "Desc": "원하는 기술 노트를 선택할 수 있는 선택권. (백귀야행, 붉은겨울, 아비도스, 밀레니엄)",
         "ConsumeType": "Choice",
-        "Contains": [
+        "Contains": [],
+        "ContainsGlobal": [
             [
                 4001,
                 1,
@@ -17786,7 +19563,8 @@
         "Name": "상급 기술 노트 선택권",
         "Desc": "원하는 기술 노트를 선택할 수 있는 선택권. (백귀야행, 붉은겨울, 아비도스, 밀레니엄)",
         "ConsumeType": "Choice",
-        "Contains": [
+        "Contains": [],
+        "ContainsGlobal": [
             [
                 4002,
                 1,
@@ -17828,7 +19606,8 @@
         "Name": "최상급 기술 노트 선택권",
         "Desc": "원하는 기술 노트를 선택할 수 있는 선택권. (백귀야행, 붉은겨울, 아비도스, 밀레니엄)",
         "ConsumeType": "Choice",
-        "Contains": [
+        "Contains": [],
+        "ContainsGlobal": [
             [
                 4003,
                 1,
@@ -17870,7 +19649,8 @@
         "Name": "기초 전술 교육 BD 선택권",
         "Desc": "원하는 전술 교육 BD를 선택할 수 있는 선택권. (게헨나, 산해경, 트리니티, 발키리, 아리우스)",
         "ConsumeType": "Choice",
-        "Contains": [
+        "Contains": [],
+        "ContainsGlobal": [
             [
                 3030,
                 1,
@@ -17918,7 +19698,8 @@
         "Name": "일반 전술 교육 BD 선택권",
         "Desc": "원하는 전술 교육 BD를 선택할 수 있는 선택권. (게헨나, 산해경, 트리니티, 발키리, 아리우스)",
         "ConsumeType": "Choice",
-        "Contains": [
+        "Contains": [],
+        "ContainsGlobal": [
             [
                 3031,
                 1,
@@ -17966,7 +19747,8 @@
         "Name": "상급 전술 교육 BD 선택권",
         "Desc": "원하는 전술 교육 BD를 선택할 수 있는 선택권. (게헨나, 산해경, 트리니티, 발키리, 아리우스)",
         "ConsumeType": "Choice",
-        "Contains": [
+        "Contains": [],
+        "ContainsGlobal": [
             [
                 3032,
                 1,
@@ -18014,7 +19796,8 @@
         "Name": "최상급 전술 교육 BD 선택권",
         "Desc": "원하는 전술 교육 BD를 선택할 수 있는 선택권. (게헨나, 산해경, 트리니티, 발키리, 아리우스)",
         "ConsumeType": "Choice",
-        "Contains": [
+        "Contains": [],
+        "ContainsGlobal": [
             [
                 3033,
                 1,
@@ -18062,7 +19845,8 @@
         "Name": "기초 전술 교육 BD 선택권",
         "Desc": "원하는 전술 교육 BD를 선택할 수 있는 선택권. (백귀야행, 붉은겨울, 아비도스, 밀레니엄)",
         "ConsumeType": "Choice",
-        "Contains": [
+        "Contains": [],
+        "ContainsGlobal": [
             [
                 3000,
                 1,
@@ -18104,7 +19888,8 @@
         "Name": "일반 전술 교육 BD 선택권",
         "Desc": "원하는 전술 교육 BD를 선택할 수 있는 선택권. (백귀야행, 붉은겨울, 아비도스, 밀레니엄)",
         "ConsumeType": "Choice",
-        "Contains": [
+        "Contains": [],
+        "ContainsGlobal": [
             [
                 3001,
                 1,
@@ -18146,7 +19931,8 @@
         "Name": "상급 전술 교육 BD 선택권",
         "Desc": "원하는 전술 교육 BD를 선택할 수 있는 선택권. (백귀야행, 붉은겨울, 아비도스, 밀레니엄)",
         "ConsumeType": "Choice",
-        "Contains": [
+        "Contains": [],
+        "ContainsGlobal": [
             [
                 3002,
                 1,
@@ -18188,7 +19974,8 @@
         "Name": "최상급 전술 교육 BD 선택권",
         "Desc": "원하는 전술 교육 BD를 선택할 수 있는 선택권. (백귀야행, 붉은겨울, 아비도스, 밀레니엄)",
         "ConsumeType": "Choice",
-        "Contains": [
+        "Contains": [],
+        "ContainsGlobal": [
             [
                 3003,
                 1,
@@ -18242,7 +20029,8 @@
         "Name": "T2 장비 설계도 선택권",
         "Desc": "원하는 장비 설계도를 선택할 수 있는 선택권",
         "ConsumeType": "Choice",
-        "Contains": [
+        "Contains": [],
+        "ContainsGlobal": [
             [
                 2101001,
                 1,
@@ -18326,7 +20114,8 @@
         "Name": "T3 장비 설계도 선택권",
         "Desc": "원하는 장비 설계도를 선택할 수 있는 선택권",
         "ConsumeType": "Choice",
-        "Contains": [
+        "Contains": [],
+        "ContainsGlobal": [
             [
                 2101002,
                 1,
@@ -18410,7 +20199,8 @@
         "Name": "T4 장비 설계도 선택권",
         "Desc": "원하는 장비 설계도를 선택할 수 있는 선택권",
         "ConsumeType": "Choice",
-        "Contains": [
+        "Contains": [],
+        "ContainsGlobal": [
             [
                 2101003,
                 1,
@@ -18494,7 +20284,8 @@
         "Name": "T5 장비 설계도 선택권",
         "Desc": "원하는 장비 설계도를 선택할 수 있는 선택권",
         "ConsumeType": "Choice",
-        "Contains": [
+        "Contains": [],
+        "ContainsGlobal": [
             [
                 2101004,
                 1,
@@ -18578,7 +20369,8 @@
         "Name": "T6 장비 설계도 선택권",
         "Desc": "원하는 장비 설계도를 선택할 수 있는 선택권",
         "ConsumeType": "Choice",
-        "Contains": [
+        "Contains": [],
+        "ContainsGlobal": [
             [
                 2101005,
                 1,
@@ -18650,63 +20442,7 @@
         "Name": "T7 장비 설계도 선택권",
         "Desc": "원하는 장비 설계도를 선택할 수 있는 선택권",
         "ConsumeType": "Choice",
-        "Contains": [
-            [
-                2101006,
-                1,
-                1,
-                1
-            ],
-            [
-                2102006,
-                1,
-                1,
-                1
-            ],
-            [
-                2103006,
-                1,
-                1,
-                1
-            ],
-            [
-                2104006,
-                1,
-                1,
-                1
-            ],
-            [
-                2105006,
-                1,
-                1,
-                1
-            ],
-            [
-                2106006,
-                1,
-                1,
-                1
-            ],
-            [
-                2107006,
-                1,
-                1,
-                1
-            ],
-            [
-                2108006,
-                1,
-                1,
-                1
-            ],
-            [
-                2109006,
-                1,
-                1,
-                1
-            ]
-        ],
-        "ContainsGlobal": []
+        "Contains": []
     },
     {
         "Id": 150034,
@@ -18723,69 +20459,7 @@
         "Name": "오파츠 선택권1",
         "Desc": "10종류의 오파츠 중 원하는 오파츠를 선택할 수 있는 선택권",
         "ConsumeType": "Choice",
-        "Contains": [
-            [
-                100,
-                1,
-                1,
-                1
-            ],
-            [
-                110,
-                1,
-                1,
-                1
-            ],
-            [
-                120,
-                1,
-                1,
-                1
-            ],
-            [
-                130,
-                1,
-                1,
-                1
-            ],
-            [
-                140,
-                1,
-                1,
-                1
-            ],
-            [
-                150,
-                1,
-                1,
-                1
-            ],
-            [
-                160,
-                1,
-                1,
-                1
-            ],
-            [
-                170,
-                1,
-                1,
-                1
-            ],
-            [
-                180,
-                1,
-                1,
-                1
-            ],
-            [
-                190,
-                1,
-                1,
-                1
-            ]
-        ],
-        "ContainsGlobal": []
+        "Contains": []
     },
     {
         "Id": 150035,
@@ -18802,69 +20476,7 @@
         "Name": "오파츠 선택권2",
         "Desc": "10종류의 오파츠 중 원하는 오파츠를 선택할 수 있는 선택권",
         "ConsumeType": "Choice",
-        "Contains": [
-            [
-                101,
-                1,
-                1,
-                1
-            ],
-            [
-                111,
-                1,
-                1,
-                1
-            ],
-            [
-                121,
-                1,
-                1,
-                1
-            ],
-            [
-                131,
-                1,
-                1,
-                1
-            ],
-            [
-                141,
-                1,
-                1,
-                1
-            ],
-            [
-                151,
-                1,
-                1,
-                1
-            ],
-            [
-                161,
-                1,
-                1,
-                1
-            ],
-            [
-                171,
-                1,
-                1,
-                1
-            ],
-            [
-                181,
-                1,
-                1,
-                1
-            ],
-            [
-                191,
-                1,
-                1,
-                1
-            ]
-        ],
-        "ContainsGlobal": []
+        "Contains": []
     },
     {
         "Id": 150036,
@@ -18881,69 +20493,7 @@
         "Name": "오파츠 선택권3",
         "Desc": "10종류의 오파츠 중 원하는 오파츠를 선택할 수 있는 선택권",
         "ConsumeType": "Choice",
-        "Contains": [
-            [
-                102,
-                1,
-                1,
-                1
-            ],
-            [
-                112,
-                1,
-                1,
-                1
-            ],
-            [
-                122,
-                1,
-                1,
-                1
-            ],
-            [
-                132,
-                1,
-                1,
-                1
-            ],
-            [
-                142,
-                1,
-                1,
-                1
-            ],
-            [
-                152,
-                1,
-                1,
-                1
-            ],
-            [
-                162,
-                1,
-                1,
-                1
-            ],
-            [
-                172,
-                1,
-                1,
-                1
-            ],
-            [
-                182,
-                1,
-                1,
-                1
-            ],
-            [
-                192,
-                1,
-                1,
-                1
-            ]
-        ],
-        "ContainsGlobal": []
+        "Contains": []
     },
     {
         "Id": 150037,
@@ -18960,69 +20510,7 @@
         "Name": "오파츠 선택권4",
         "Desc": "10종류의 오파츠 중 원하는 오파츠를 선택할 수 있는 선택권",
         "ConsumeType": "Choice",
-        "Contains": [
-            [
-                103,
-                1,
-                1,
-                1
-            ],
-            [
-                113,
-                1,
-                1,
-                1
-            ],
-            [
-                123,
-                1,
-                1,
-                1
-            ],
-            [
-                133,
-                1,
-                1,
-                1
-            ],
-            [
-                143,
-                1,
-                1,
-                1
-            ],
-            [
-                153,
-                1,
-                1,
-                1
-            ],
-            [
-                163,
-                1,
-                1,
-                1
-            ],
-            [
-                173,
-                1,
-                1,
-                1
-            ],
-            [
-                183,
-                1,
-                1,
-                1
-            ],
-            [
-                193,
-                1,
-                1,
-                1
-            ]
-        ],
-        "ContainsGlobal": []
+        "Contains": []
     },
     {
         "Id": 151000,
@@ -19041,7 +20529,8 @@
         "Name": "기초 가구 선택권",
         "Desc": "기초 가구를 선택할 수 있는 선택권",
         "ConsumeType": "Choice",
-        "Contains": [
+        "Contains": [],
+        "ContainsGlobal": [
             [
                 1000001,
                 1,
@@ -19127,7 +20616,8 @@
         "Name": "모모프렌즈 테마 가구 선택권",
         "Desc": "모모프렌즈 카페 테마 가구를 선택할 수 있는 선택권",
         "ConsumeType": "Choice",
-        "Contains": [
+        "Contains": [],
+        "ContainsGlobal": [
             [
                 1001100,
                 1,
@@ -19261,7 +20751,8 @@
         "Name": "젤리즈 오락실 테마 가구 선택권",
         "Desc": "젤리즈 오락실 테마 가구를 선택할 수 있는 선택권",
         "ConsumeType": "Choice",
-        "Contains": [
+        "Contains": [],
+        "ContainsGlobal": [
             [
                 1002100,
                 1,
@@ -19395,7 +20886,8 @@
         "Name": "발렌타인 테마 가구 선택권",
         "Desc": "발렌타인 테마 가구를 선택할 수 있는 선택권",
         "ConsumeType": "Choice",
-        "Contains": [
+        "Contains": [],
+        "ContainsGlobal": [
             [
                 1003100,
                 1,
@@ -19553,7 +21045,8 @@
         "Name": "여름 리조트 테마 가구 선택권",
         "Desc": "여름 리조트 테마 가구를 선택할 수 있는 선택권",
         "ConsumeType": "Choice",
-        "Contains": [
+        "Contains": [],
+        "ContainsGlobal": [
             [
                 1004100,
                 1,
@@ -19711,7 +21204,8 @@
         "Name": "할로윈 테마 가구 선택권",
         "Desc": "할로윈 테마 가구를 선택할 수 있는 선택권",
         "ConsumeType": "Choice",
-        "Contains": [
+        "Contains": [],
+        "ContainsGlobal": [
             [
                 1005101,
                 1,
@@ -19869,7 +21363,8 @@
         "Name": "전통 온천장 테마 가구 선택권",
         "Desc": "전통 온천장 테마 가구를 선택할 수 있는 선택권",
         "ConsumeType": "Choice",
-        "Contains": [
+        "Contains": [],
+        "ContainsGlobal": [
             [
                 1006100,
                 1,
@@ -20009,7 +21504,8 @@
         "Name": "새해 테마 가구 선택권",
         "Desc": "새해 테마 가구를 선택할 수 있는 선택권",
         "ConsumeType": "Choice",
-        "Contains": [
+        "Contains": [],
+        "ContainsGlobal": [
             [
                 1007100,
                 1,
@@ -20119,128 +21615,7 @@
         "Name": "밀리터리 캠핑장 테마 가구 선택권",
         "Desc": "밀리터리 캠핑장 테마 가구를 선택할 수 있는 선택권",
         "ConsumeType": "Choice",
-        "Contains": [
-            [
-                1008100,
-                1,
-                1,
-                1
-            ],
-            [
-                1008101,
-                1,
-                1,
-                1
-            ],
-            [
-                1008102,
-                1,
-                1,
-                1
-            ],
-            [
-                1008103,
-                1,
-                1,
-                1
-            ],
-            [
-                1008104,
-                1,
-                1,
-                1
-            ],
-            [
-                1008105,
-                1,
-                1,
-                1
-            ],
-            [
-                1008106,
-                1,
-                1,
-                1
-            ],
-            [
-                1008107,
-                1,
-                1,
-                1
-            ],
-            [
-                1008108,
-                1,
-                1,
-                1
-            ],
-            [
-                1008200,
-                1,
-                1,
-                1
-            ],
-            [
-                1008201,
-                1,
-                1,
-                1
-            ],
-            [
-                1008202,
-                1,
-                1,
-                1
-            ],
-            [
-                1008203,
-                1,
-                1,
-                1
-            ],
-            [
-                1008204,
-                1,
-                1,
-                1
-            ],
-            [
-                1008205,
-                1,
-                1,
-                1
-            ],
-            [
-                1008206,
-                1,
-                1,
-                1
-            ],
-            [
-                1008300,
-                1,
-                1,
-                1
-            ],
-            [
-                1008301,
-                1,
-                1,
-                1
-            ],
-            [
-                1008302,
-                1,
-                1,
-                1
-            ],
-            [
-                1008303,
-                1,
-                1,
-                1
-            ]
-        ],
+        "Contains": [],
         "ContainsGlobal": [
             [
                 1008100,
@@ -20369,140 +21744,7 @@
         "Name": "비치사이드 테마 가구 선택권",
         "Desc": "비치사이드 테마 가구를 선택할 수 있는 선택권",
         "ConsumeType": "Choice",
-        "Contains": [
-            [
-                1009100,
-                1,
-                1,
-                1
-            ],
-            [
-                1009101,
-                1,
-                1,
-                1
-            ],
-            [
-                1009102,
-                1,
-                1,
-                1
-            ],
-            [
-                1009103,
-                1,
-                1,
-                1
-            ],
-            [
-                1009104,
-                1,
-                1,
-                1
-            ],
-            [
-                1009105,
-                1,
-                1,
-                1
-            ],
-            [
-                1009106,
-                1,
-                1,
-                1
-            ],
-            [
-                1009107,
-                1,
-                1,
-                1
-            ],
-            [
-                1009108,
-                1,
-                1,
-                1
-            ],
-            [
-                1009200,
-                1,
-                1,
-                1
-            ],
-            [
-                1009201,
-                1,
-                1,
-                1
-            ],
-            [
-                1009202,
-                1,
-                1,
-                1
-            ],
-            [
-                1009203,
-                1,
-                1,
-                1
-            ],
-            [
-                1009204,
-                1,
-                1,
-                1
-            ],
-            [
-                1009205,
-                1,
-                1,
-                1
-            ],
-            [
-                1009206,
-                1,
-                1,
-                1
-            ],
-            [
-                1009207,
-                1,
-                1,
-                1
-            ],
-            [
-                1009300,
-                1,
-                1,
-                1
-            ],
-            [
-                1009301,
-                1,
-                1,
-                1
-            ],
-            [
-                1009302,
-                1,
-                1,
-                1
-            ],
-            [
-                1009303,
-                1,
-                1,
-                1
-            ],
-            [
-                1009304,
-                1,
-                1,
-                1
-            ]
-        ],
+        "Contains": [],
         "ContainsGlobal": [
             [
                 1009100,
@@ -20624,7 +21866,7 @@
         "Id": 151010,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Category": "Consumable",
         "Rarity": "SSR",
@@ -20637,7 +21879,8 @@
         "Name": "대운동회 테마 가구 선택권",
         "Desc": "대운동회 테마 가구를 선택할 수 있는 선택권",
         "ConsumeType": "Choice",
-        "Contains": [
+        "Contains": [],
+        "ContainsGlobal": [
             [
                 1010100,
                 1,
@@ -20836,8 +22079,7 @@
                 1,
                 1
             ]
-        ],
-        "ContainsGlobal": []
+        ]
     },
     {
         "Id": 151011,
@@ -20856,231 +22098,7 @@
         "Name": "아비도스 교실 테마 가구 선택권",
         "Desc": "아비도스 교실 테마 가구를 선택할 수 있는 선택권",
         "ConsumeType": "Choice",
-        "Contains": [
-            [
-                1011100,
-                1,
-                1,
-                1
-            ],
-            [
-                1011101,
-                1,
-                1,
-                1
-            ],
-            [
-                1011102,
-                1,
-                1,
-                1
-            ],
-            [
-                1011103,
-                1,
-                1,
-                1
-            ],
-            [
-                1011104,
-                1,
-                1,
-                1
-            ],
-            [
-                1011105,
-                1,
-                1,
-                1
-            ],
-            [
-                1011106,
-                1,
-                1,
-                1
-            ],
-            [
-                1011107,
-                1,
-                1,
-                1
-            ],
-            [
-                1011108,
-                1,
-                1,
-                1
-            ],
-            [
-                1011109,
-                1,
-                1,
-                1
-            ],
-            [
-                1011200,
-                1,
-                1,
-                1
-            ],
-            [
-                1011201,
-                1,
-                1,
-                1
-            ],
-            [
-                1011202,
-                1,
-                1,
-                1
-            ],
-            [
-                1011203,
-                1,
-                1,
-                1
-            ],
-            [
-                1011204,
-                1,
-                1,
-                1
-            ],
-            [
-                1011205,
-                1,
-                1,
-                1
-            ],
-            [
-                1011206,
-                1,
-                1,
-                1
-            ],
-            [
-                1011207,
-                1,
-                1,
-                1
-            ],
-            [
-                1011208,
-                1,
-                1,
-                1
-            ],
-            [
-                1011209,
-                1,
-                1,
-                1
-            ],
-            [
-                1011210,
-                1,
-                1,
-                1
-            ],
-            [
-                1011211,
-                1,
-                1,
-                1
-            ],
-            [
-                1011212,
-                1,
-                1,
-                1
-            ],
-            [
-                1011213,
-                1,
-                1,
-                1
-            ],
-            [
-                1011214,
-                1,
-                1,
-                1
-            ],
-            [
-                1011215,
-                1,
-                1,
-                1
-            ],
-            [
-                1011216,
-                1,
-                1,
-                1
-            ],
-            [
-                1011217,
-                1,
-                1,
-                1
-            ],
-            [
-                1011218,
-                1,
-                1,
-                1
-            ],
-            [
-                1011219,
-                1,
-                1,
-                1
-            ],
-            [
-                1011300,
-                1,
-                1,
-                1
-            ],
-            [
-                1011301,
-                1,
-                1,
-                1
-            ],
-            [
-                1011302,
-                1,
-                1,
-                1
-            ],
-            [
-                1011303,
-                1,
-                1,
-                1
-            ],
-            [
-                1011304,
-                1,
-                1,
-                1
-            ],
-            [
-                1011305,
-                1,
-                1,
-                1
-            ],
-            [
-                1011306,
-                1,
-                1,
-                1
-            ]
-        ],
-        "ContainsGlobal": []
+        "Contains": []
     },
     {
         "Id": 160003,
@@ -23050,6 +24068,88 @@
         "Contains": [
             [
                 100,
+                0.0625,
+                1
+            ],
+            [
+                110,
+                0.0625,
+                1
+            ],
+            [
+                120,
+                0.0625,
+                1
+            ],
+            [
+                130,
+                0.0625,
+                1
+            ],
+            [
+                140,
+                0.0625,
+                1
+            ],
+            [
+                150,
+                0.0625,
+                1
+            ],
+            [
+                160,
+                0.0625,
+                1
+            ],
+            [
+                170,
+                0.0625,
+                1
+            ],
+            [
+                180,
+                0.0625,
+                1
+            ],
+            [
+                190,
+                0.0625,
+                1
+            ],
+            [
+                200,
+                0.0625,
+                1
+            ],
+            [
+                210,
+                0.0625,
+                1
+            ],
+            [
+                230,
+                0.0625,
+                1
+            ],
+            [
+                240,
+                0.0625,
+                1
+            ],
+            [
+                250,
+                0.0625,
+                1
+            ],
+            [
+                290,
+                0.0625,
+                1
+            ]
+        ],
+        "ContainsGlobal": [
+            [
+                100,
                 0.0714,
                 1
             ],
@@ -23140,6 +24240,88 @@
         "ConsumeType": "Random",
         "ImmediateUse": false,
         "Contains": [
+            [
+                101,
+                0.0625,
+                1
+            ],
+            [
+                111,
+                0.0625,
+                1
+            ],
+            [
+                121,
+                0.0625,
+                1
+            ],
+            [
+                131,
+                0.0625,
+                1
+            ],
+            [
+                141,
+                0.0625,
+                1
+            ],
+            [
+                151,
+                0.0625,
+                1
+            ],
+            [
+                161,
+                0.0625,
+                1
+            ],
+            [
+                171,
+                0.0625,
+                1
+            ],
+            [
+                181,
+                0.0625,
+                1
+            ],
+            [
+                191,
+                0.0625,
+                1
+            ],
+            [
+                201,
+                0.0625,
+                1
+            ],
+            [
+                211,
+                0.0625,
+                1
+            ],
+            [
+                231,
+                0.0625,
+                1
+            ],
+            [
+                241,
+                0.0625,
+                1
+            ],
+            [
+                251,
+                0.0625,
+                1
+            ],
+            [
+                291,
+                0.0625,
+                1
+            ]
+        ],
+        "ContainsGlobal": [
             [
                 101,
                 0.0714,
@@ -23234,6 +24416,88 @@
         "Contains": [
             [
                 102,
+                0.0625,
+                1
+            ],
+            [
+                112,
+                0.0625,
+                1
+            ],
+            [
+                122,
+                0.0625,
+                1
+            ],
+            [
+                132,
+                0.0625,
+                1
+            ],
+            [
+                142,
+                0.0625,
+                1
+            ],
+            [
+                152,
+                0.0625,
+                1
+            ],
+            [
+                162,
+                0.0625,
+                1
+            ],
+            [
+                172,
+                0.0625,
+                1
+            ],
+            [
+                182,
+                0.0625,
+                1
+            ],
+            [
+                192,
+                0.0625,
+                1
+            ],
+            [
+                202,
+                0.0625,
+                1
+            ],
+            [
+                212,
+                0.0625,
+                1
+            ],
+            [
+                232,
+                0.0625,
+                1
+            ],
+            [
+                242,
+                0.0625,
+                1
+            ],
+            [
+                252,
+                0.0625,
+                1
+            ],
+            [
+                292,
+                0.0625,
+                1
+            ]
+        ],
+        "ContainsGlobal": [
+            [
+                102,
                 0.0714,
                 1
             ],
@@ -23324,6 +24588,88 @@
         "ConsumeType": "Random",
         "ImmediateUse": false,
         "Contains": [
+            [
+                103,
+                0.0625,
+                1
+            ],
+            [
+                113,
+                0.0625,
+                1
+            ],
+            [
+                123,
+                0.0625,
+                1
+            ],
+            [
+                133,
+                0.0625,
+                1
+            ],
+            [
+                143,
+                0.0625,
+                1
+            ],
+            [
+                153,
+                0.0625,
+                1
+            ],
+            [
+                163,
+                0.0625,
+                1
+            ],
+            [
+                173,
+                0.0625,
+                1
+            ],
+            [
+                183,
+                0.0625,
+                1
+            ],
+            [
+                193,
+                0.0625,
+                1
+            ],
+            [
+                203,
+                0.0625,
+                1
+            ],
+            [
+                213,
+                0.0625,
+                1
+            ],
+            [
+                233,
+                0.0625,
+                1
+            ],
+            [
+                243,
+                0.0625,
+                1
+            ],
+            [
+                253,
+                0.0625,
+                1
+            ],
+            [
+                293,
+                0.0625,
+                1
+            ]
+        ],
+        "ContainsGlobal": [
             [
                 103,
                 0.0714,
@@ -24457,98 +25803,6 @@
                 0.05,
                 1
             ]
-        ],
-        "ContainsGlobal": [
-            [
-                1008100,
-                0.0556,
-                1
-            ],
-            [
-                1008101,
-                0.0556,
-                1
-            ],
-            [
-                1008102,
-                0.0556,
-                1
-            ],
-            [
-                1008105,
-                0.0556,
-                1
-            ],
-            [
-                1008106,
-                0.0556,
-                1
-            ],
-            [
-                1008107,
-                0.0556,
-                1
-            ],
-            [
-                1008108,
-                0.0556,
-                1
-            ],
-            [
-                1008200,
-                0.0556,
-                1
-            ],
-            [
-                1008201,
-                0.0556,
-                1
-            ],
-            [
-                1008202,
-                0.0556,
-                1
-            ],
-            [
-                1008203,
-                0.0556,
-                1
-            ],
-            [
-                1008204,
-                0.0556,
-                1
-            ],
-            [
-                1008205,
-                0.0556,
-                1
-            ],
-            [
-                1008206,
-                0.0556,
-                1
-            ],
-            [
-                1008300,
-                0.0556,
-                1
-            ],
-            [
-                1008301,
-                0.0556,
-                1
-            ],
-            [
-                1008302,
-                0.0556,
-                1
-            ],
-            [
-                1008303,
-                0.0556,
-                1
-            ]
         ]
     },
     {
@@ -24784,7 +26038,7 @@
         "Id": 191010,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Category": "Consumable",
         "Rarity": "SSR",
@@ -24965,8 +26219,7 @@
                 0.0303,
                 1
             ]
-        ],
-        "ContainsGlobal": []
+        ]
     },
     {
         "Id": 191011,
@@ -25175,6 +26428,51 @@
             ]
         ],
         "ContainsGlobal": []
+    },
+    {
+        "Id": 200000,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Category": "Consumable",
+        "Rarity": "SSR",
+        "Quality": 1,
+        "Tags": [],
+        "Shops": [],
+        "Icon": "Item_Icon_Consumable_AdultCard",
+        "Name": "프레나파테스의 어른의 카드",
+        "Desc": "프레나파테스가 가지고 있던 &lt;어른의 카드&gt;. 외형을 알아볼 수 없을 정도로 그을려 있고, 금방이라도 바스러질 것 같은 상태라서 조심해서 취급하지 않으면 안 된다. 이 카드를 사용하면 청휘석을 얻을 수 있지만, 카드는 파괴됩니다.",
+        "ConsumeType": "All",
+        "ImmediateUse": false,
+        "Contains": [
+            [
+                3000003,
+                1,
+                1200
+            ],
+            [
+                200001,
+                1,
+                1
+            ]
+        ],
+        "ContainsGlobal": []
+    },
+    {
+        "Id": 200001,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Category": "Material",
+        "Rarity": "SSR",
+        "Quality": 1,
+        "Tags": [],
+        "Shops": [],
+        "Icon": "Item_Icon_Material_UsedCard",
+        "Name": "산산이 조각난 어른의 카드",
+        "Desc": "프레나파테스가 가지고 있던 &lt;어른의 카드&gt;의 잔해. 그 카드의 원래 모습은 이제는 몇몇 사람들의 기억 속에서만 남았을 뿐이다."
     },
     {
         "Id": 91000001,

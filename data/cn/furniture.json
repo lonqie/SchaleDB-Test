@@ -312,7 +312,7 @@
         "Desc": "摆着咖啡的桌子。可以享受悠闲的下午茶时光。",
         "Interaction": [
             true,
-            false
+            true
         ]
     },
     {
@@ -1229,7 +1229,8 @@
             "Furniture",
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture",
-            "GameCenter"
+            "GameCenter",
+            "F_Koyuki"
         ],
         "SynthQuality": 30,
         "SubCategory": "HomeAppliance",
@@ -1237,7 +1238,7 @@
         "Name": "果冻夹娃娃机",
         "Desc": "可以抓到果冻娃娃的夹娃娃机。难度非常高，简直恶名昭彰。",
         "Interaction": [
-            false,
+            true,
             false
         ]
     },
@@ -2447,7 +2448,7 @@
         "Desc": "用MOMO好友泳圈组合布置的小型泳池。和MOMO好友一起开心的玩乐吧！",
         "Interaction": [
             true,
-            false
+            true
         ]
     },
     {
@@ -3697,7 +3698,8 @@
             "CraftMaterial_FurnitureR",
             "Furniture",
             "CraftMaterial_Furniture",
-            "ShiftingCraftMaterial_Furniture"
+            "ShiftingCraftMaterial_Furniture",
+            "F_Kayoko_Newyear"
         ],
         "SynthQuality": 20,
         "SubCategory": "Chair",
@@ -3705,7 +3707,7 @@
         "Name": "传统花纹地板装饰",
         "Desc": "以传统花纹制作成的地板装饰。散发古典气息的布料为空间增添了优雅感。",
         "Interaction": [
-            false,
+            true,
             false
         ]
     },
@@ -5186,7 +5188,7 @@
         "Id": 10100,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "R",
         "Icon": "My_Autumnsports_01_Clock",
@@ -5212,7 +5214,7 @@
         "Id": 10101,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "R",
         "Icon": "My_Autumnsports_01_Colorcone_01",
@@ -5238,7 +5240,7 @@
         "Id": 10102,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "R",
         "Icon": "My_Autumnsports_01_Colorcone_02",
@@ -5264,7 +5266,7 @@
         "Id": 10103,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "R",
         "Icon": "My_Autumnsports_01_Colorcone_03",
@@ -5290,7 +5292,7 @@
         "Id": 10104,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "R",
         "Icon": "My_Autumnsports_01_Flag_01",
@@ -5316,7 +5318,7 @@
         "Id": 10105,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "R",
         "Icon": "My_Autumnsports_01_Flag_02",
@@ -5342,7 +5344,7 @@
         "Id": 10106,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "R",
         "Icon": "My_Autumnsports_01_Flag_03",
@@ -5368,7 +5370,7 @@
         "Id": 10107,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "R",
         "Icon": "My_Autumnsports_01_Field",
@@ -5394,7 +5396,7 @@
         "Id": 10108,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "R",
         "Icon": "My_Autumnsports_01_Mat_01",
@@ -5421,7 +5423,7 @@
         "Id": 10109,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "R",
         "Icon": "My_Autumnsports_01_Mat_02",
@@ -5447,7 +5449,7 @@
         "Id": 10110,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "R",
         "Icon": "My_Autumnsports_01_Mat_03",
@@ -5473,7 +5475,7 @@
         "Id": 10111,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "R",
         "Icon": "My_Autumnsports_01_Scoreboard",
@@ -5499,7 +5501,7 @@
         "Id": 10112,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "R",
         "Icon": "My_Autumnsports_01_Window",
@@ -5525,7 +5527,7 @@
         "Id": 10113,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "R",
         "Icon": "My_Autumnsports_01_Wallacc_03",
@@ -5551,7 +5553,7 @@
         "Id": 10200,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "SR",
         "Icon": "My_Autumnsports_01_Ballrack",
@@ -5577,7 +5579,7 @@
         "Id": 10201,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "SR",
         "Icon": "My_Autumnsports_01_Basket",
@@ -5603,7 +5605,7 @@
         "Id": 10202,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "SR",
         "Icon": "My_Autumnsports_01_Basketballhoop",
@@ -5629,7 +5631,7 @@
         "Id": 10203,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "SR",
         "Icon": "My_Autumnsports_01_Beanball_01",
@@ -5655,7 +5657,7 @@
         "Id": 10204,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "SR",
         "Icon": "My_Autumnsports_01_Beanball_02",
@@ -5681,7 +5683,7 @@
         "Id": 10205,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "SR",
         "Icon": "My_Autumnsports_01_Beanball_03",
@@ -5707,7 +5709,7 @@
         "Id": 10206,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "SR",
         "Icon": "My_Autumnsports_01_Chair_03",
@@ -5733,7 +5735,7 @@
         "Id": 10207,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "SR",
         "Icon": "My_Autumnsports_01_Net",
@@ -5759,7 +5761,7 @@
         "Id": 10208,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "SR",
         "Icon": "My_Autumnsports_01_Tile",
@@ -5785,7 +5787,7 @@
         "Id": 10209,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "SR",
         "Icon": "My_Autumnsports_01_Wallacc_01",
@@ -5811,7 +5813,7 @@
         "Id": 10210,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "SR",
         "Icon": "My_Autumnsports_01_Wallacc_02",
@@ -5837,7 +5839,7 @@
         "Id": 10211,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "SR",
         "Icon": "My_Autumnsports_01_Wall_Right",
@@ -5863,7 +5865,7 @@
         "Id": 10212,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "SR",
         "Icon": "Autumnsportsbg",
@@ -5889,7 +5891,7 @@
         "Id": 10213,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "SR",
         "Icon": "My_Autumnsports_01_Signboard_02",
@@ -5915,7 +5917,7 @@
         "Id": 10214,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "SR",
         "Icon": "My_Autumnsports_01_Chair_01",
@@ -5941,7 +5943,7 @@
         "Id": 10215,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "SR",
         "Icon": "My_Autumnsports_01_Horsevault",
@@ -5967,7 +5969,7 @@
         "Id": 10300,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "SSR",
         "Icon": "My_Autumnsports_01_Doughnuts",
@@ -6021,7 +6023,7 @@
         "Id": 10302,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "SSR",
         "Icon": "My_Autumnsports_01_Stand",
@@ -6042,14 +6044,14 @@
         "Desc": "応援するのにうってつけのスタンド。競技中の生徒を応援する熱気でいっぱいだ。",
         "Interaction": [
             true,
-            false
+            true
         ]
     },
     {
         "Id": 10303,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "SSR",
         "Icon": "My_Autumnsports_01_Storagebox",
@@ -6069,14 +6071,14 @@
         "Desc": "様々な競技の小物が保管されている保管箱。人気の種目は早めに接近しなければならない！",
         "Interaction": [
             true,
-            false
+            true
         ]
     },
     {
         "Id": 10304,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "SSR",
         "Icon": "My_Autumnsports_01_Table",
@@ -6102,7 +6104,7 @@
         "Id": 10305,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "SSR",
         "Icon": "My_Autumnsports_01_Trophy",
@@ -6128,7 +6130,7 @@
         "Id": 10306,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "SSR",
         "Icon": "My_Autumnsports_01_Signboard_01",
@@ -6528,7 +6530,8 @@
             "CraftMaterial_FurnitureSR",
             "Furniture",
             "CraftMaterial_Furniture",
-            "ShiftingCraftMaterial_Furniture"
+            "ShiftingCraftMaterial_Furniture",
+            "F_Nonomi"
         ],
         "SynthQuality": 30,
         "SubCategory": "Table",
@@ -6536,7 +6539,7 @@
         "Name": "アビドス教室のカーディガンが置かれた机",
         "Desc": "黄色いカーディガンが掛かっている机。温厚な上、何だか豊かな気品が感じられる。",
         "Interaction": [
-            false,
+            true,
             false
         ]
     },
@@ -6554,7 +6557,8 @@
             "CraftMaterial_FurnitureSR",
             "Furniture",
             "CraftMaterial_Furniture",
-            "ShiftingCraftMaterial_Furniture"
+            "ShiftingCraftMaterial_Furniture",
+            "F_Hoshino"
         ],
         "SynthQuality": 30,
         "SubCategory": "Table",
@@ -6562,7 +6566,7 @@
         "Name": "アビドス教室のクジラ人形が置かれた机",
         "Desc": "かわいいクジラの人形が置かれた机。何だかゆったりとした気分が味わえる。",
         "Interaction": [
-            false,
+            true,
             false
         ]
     },
@@ -6580,7 +6584,8 @@
             "CraftMaterial_FurnitureSR",
             "Furniture",
             "CraftMaterial_Furniture",
-            "ShiftingCraftMaterial_Furniture"
+            "ShiftingCraftMaterial_Furniture",
+            "F_Ayane"
         ],
         "SynthQuality": 30,
         "SubCategory": "Table",
@@ -6588,7 +6593,7 @@
         "Name": "アビドス教室のメガネが置かれた机",
         "Desc": "赤い縁のメガネが置かれた机。丁寧で信頼できる持ち主の机だ。",
         "Interaction": [
-            false,
+            true,
             false
         ]
     },
@@ -6606,7 +6611,8 @@
             "CraftMaterial_FurnitureSR",
             "Furniture",
             "CraftMaterial_Furniture",
-            "ShiftingCraftMaterial_Furniture"
+            "ShiftingCraftMaterial_Furniture",
+            "F_Shiroko"
         ],
         "SynthQuality": 30,
         "SubCategory": "Table",
@@ -6614,7 +6620,7 @@
         "Name": "アビドス教室の覆面が置かれた机",
         "Desc": "覆面が置かれた机。凡庸でないオーラが感じられる。",
         "Interaction": [
-            false,
+            true,
             false
         ]
     },
@@ -6632,7 +6638,8 @@
             "CraftMaterial_FurnitureSR",
             "Furniture",
             "CraftMaterial_Furniture",
-            "ShiftingCraftMaterial_Furniture"
+            "ShiftingCraftMaterial_Furniture",
+            "F_Serika"
         ],
         "SynthQuality": 30,
         "SubCategory": "Table",
@@ -6640,7 +6647,7 @@
         "Name": "アビドス教室のリボンと手袋が置かれた机",
         "Desc": "リボンと手袋が置かれた机。この机の持ち主なら重要なことも任せられそうだ。",
         "Interaction": [
-            false,
+            true,
             false
         ]
     },
@@ -6860,7 +6867,7 @@
         ],
         "Rarity": "SR",
         "Icon": "Abydosclassroombg",
-        "ComfortBonus": 50,
+        "ComfortBonus": 120,
         "Category": "Interiors",
         "Tags": [
             "CraftMaterial_FurnitureSR",
@@ -6886,7 +6893,7 @@
         ],
         "Rarity": "SR",
         "Icon": "My_Abydosclassroom_01_Tile_2X2",
-        "ComfortBonus": 50,
+        "ComfortBonus": 120,
         "Category": "Interiors",
         "Tags": [
             "CraftMaterial_FurnitureSR",
@@ -6912,7 +6919,7 @@
         ],
         "Rarity": "SR",
         "Icon": "My_Abydosclassroom_01_Wall_Right",
-        "ComfortBonus": 50,
+        "ComfortBonus": 120,
         "Category": "Interiors",
         "Tags": [
             "CraftMaterial_FurnitureSR",
@@ -6970,7 +6977,8 @@
             "CraftMaterial_FurnitureSSR",
             "Furniture",
             "CraftMaterial_Furniture",
-            "ShiftingCraftMaterial_Furniture"
+            "ShiftingCraftMaterial_Furniture",
+            "F_Shiroko_RidingSuit"
         ],
         "SynthQuality": 40,
         "SubCategory": "Prop",
@@ -6978,7 +6986,7 @@
         "Name": "アビドス教室の自転車",
         "Desc": "アクティブな持ち主が乗って通いそうな自転車。自転車から活力と落ち着きが同時に感じられる。",
         "Interaction": [
-            false,
+            true,
             false
         ]
     },
@@ -8784,7 +8792,7 @@
         "Id": 206301,
         "IsReleased": [
             true,
-            true
+            false
         ],
         "Rarity": "SSR",
         "Icon": "My_Event10_Turntable",
@@ -8808,7 +8816,7 @@
         "Id": 207301,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "SSR",
         "Icon": "My_Event11_Sportsdayguideboard",
@@ -8877,7 +8885,7 @@
         "Desc": "気品が感じられるカウンターチェア。赤のベルベット生地がとても柔らかい。",
         "Interaction": [
             true,
-            false
+            true
         ]
     },
     {
@@ -8903,7 +8911,7 @@
         "Desc": "ほのかなシルバー仕上げのカウンターチェア。爽やかな雰囲気を楽しみたい人にオススメ。",
         "Interaction": [
             true,
-            false
+            true
         ]
     },
     {
@@ -8929,7 +8937,7 @@
         "Desc": "魅力が引き立つカウンターチェア。周囲に魅惑を振りまける。",
         "Interaction": [
             true,
-            false
+            true
         ]
     },
     {
@@ -8979,7 +8987,7 @@
         "Desc": "熾烈な格闘ゲームが楽しめる2人用ゲーム機。すぐにでもプレイしたい。",
         "Interaction": [
             true,
-            false
+            true
         ]
     },
     {
@@ -9154,6 +9162,56 @@
         "SetGroupId": 0,
         "Name": "大聖堂の長椅子",
         "Desc": "座ると敬虔な心を持てるようになる椅子。朝晩のお祈りに適している。",
+        "Interaction": [
+            true,
+            false
+        ]
+    },
+    {
+        "Id": 208301,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Rarity": "SSR",
+        "Icon": "My_Event16_Diorama",
+        "ComfortBonus": 350,
+        "Category": "Decorations",
+        "Tags": [
+            "CraftMaterial_FurnitureSSR",
+            "Furniture",
+            "CraftMaterial_Furniture"
+        ],
+        "SubCategory": "Prop",
+        "SetGroupId": 0,
+        "Name": "D.U.シラトリ区のジオラマ",
+        "Desc": "D.U.シラトリ区の復旧状況がわかるジオラマが設置されたテーブル。達成感を感じてみよう。",
+        "Interaction": [
+            false,
+            false
+        ]
+    },
+    {
+        "Id": 209301,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Rarity": "SSR",
+        "Icon": "My_Event21_Plantshelf",
+        "ComfortBonus": 350,
+        "Category": "Furnitures",
+        "Tags": [
+            "CraftMaterial_FurnitureSSR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "F_Haruka",
+            "F_Haruka_Newyear"
+        ],
+        "SubCategory": "Closet",
+        "SetGroupId": 0,
+        "Name": "植物棚",
+        "Desc": "丁寧に手入れされた植物棚。雑草ばかりだがマメに管理されている。",
         "Interaction": [
             true,
             false
@@ -9420,6 +9478,28 @@
         "SetGroupId": 0,
         "Name": "3rd PV播放机器",
         "Desc": "可播放3rd PV影片的机器",
+        "Interaction": [
+            false,
+            false
+        ]
+    },
+    {
+        "Id": 302304,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Rarity": "SSR",
+        "Icon": "My_Videopanel_Pv04",
+        "ComfortBonus": 350,
+        "Category": "Furnitures",
+        "Tags": [
+            "Furniture"
+        ],
+        "SubCategory": "FurnitureEtc",
+        "SetGroupId": 0,
+        "Name": "リコレクト・メモリー4th",
+        "Desc": "4th PVの映像を再生できる機械",
         "Interaction": [
             false,
             false

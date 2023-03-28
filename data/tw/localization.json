@@ -64,24 +64,24 @@
         "ETC": "其他"
     },
     "Club": {
-        "Kohshinjo68": "徵信社 68",
+        "Kohshinjo68": "便利屋68",
         "Justice": "實現正義部",
         "CleanNClearing": "C&C",
-        "BookClub": "圖書部",
+        "BookClub": "圖書委員會",
         "Countermeasure": "對策委員會",
         "Engineer": "工程師部",
         "FoodService": "供給部",
-        "Fuuki": "糾察部",
+        "Fuuki": "風紀委員會",
         "GourmetClub": "美食研究會",
         "HoukagoDessert": "放學後的甜點部",
-        "KnightsHospitaller": "救援騎士團",
+        "KnightsHospitaller": "救護騎士團",
         "MatsuriOffice": "節慶營運管理部",
         "Meihuayuan": "梅花園",
         "Onmyobu": "陰陽部",
         "RemedialClass": "補課部",
-        "SPTF": "超現象特務部",
+        "SPTF": "特異現象搜查部",
         "Shugyobu": "修行部",
-        "Endanbou": "鍛鍊屋",
+        "Endanbou": "鍊丹術研究會",
         "TheSeminar": "研討會",
         "TrainingClub": "訓練部",
         "TrinityVigilance": "三一自衛隊",
@@ -164,7 +164,7 @@
         "106": "正月居家組合",
         "107": "軍事露營區組合",
         "108": "海灘組合",
-        "109": "Sports Day Set",
+        "109": "大運動會主題",
         "110": "Abydos Classroom Set"
     },
     "ItemCategory": {
@@ -223,7 +223,9 @@
         "19": "Crystal Haniwa",
         "20": "Totem Pole",
         "21": "Ancient Battery",
+        "23": "Okiku Doll",
         "24": "Disco Colgante",
+        "25": "Atlantis Medal",
         "29": "Winnipesaukee Stone"
     },
     "EnemyTags": {
@@ -237,7 +239,7 @@
         "801": "櫻花盛開慶典大騷動！ ",
         "802": "革命的伊凡·庫帕拉",
         "803": "夏日天空的願望清單",
-        "804": "陽奈糾察部長的暑假！",
+        "804": "陽奈委員長的暑假！",
         "805": "夢幻島的捉迷藏",
         "806": "船上的兔子追逐者",
         "808": "227號溫泉浴場營運日誌！",
@@ -249,12 +251,14 @@
         "814": "阿拜多斯渡假勝地復原對策委員會",
         "815": "出差！百夜堂大海之家加盟計畫",
         "816": "放學後的甜點故事～甜祕密與槍擊戰～",
-        "817": "On Your Mark @ Millennium",
-        "818": "Get Set, Go!: Kivotos Grand Sports Festival",
-        "819": "Christmas in the Cathedral: The Remedial Knights' Gift",
+        "817": "On your mark ＠ millennium",
+        "818": "Get set, go！～奇普托斯晄輪大祭～",
+        "819": "教堂的聖誕祝福～救護騎士團的禮物～",
         "820": "A Game Before the New Year's Feast",
         "821": "Battle for the False Sanctum",
-        "822": "Atra-Hasis' Ark Conquest"
+        "822": "Atra-Hasis' Ark Conquest",
+        "823": "Phrenapates' Decisive Battle",
+        "824": "Restoration Project: DU Shiratori District"
     },
     "StageType": {
         "Campaign": "任務",
@@ -310,13 +314,16 @@
         "3": "第3次節點"
     },
     "RaidDifficulty": {
-        "0": "Normal",
-        "1": "Hard",
-        "2": "Very Hard",
-        "3": "Hardcore",
-        "4": "Extreme",
-        "5": "Insane",
-        "6": "Torment"
+        "Normal": "Normal",
+        "Hard": "Hard",
+        "VeryHard": "VeryHard",
+        "HardCore": "HardCore",
+        "Extreme": "Extreme",
+        "Insane": "Insane",
+        "Torment": "Torment",
+        "A": "A",
+        "B": "B",
+        "C": "C"
     },
     "WeaponPartExpBonus": {
         "WeaponExpGrowthA": "用於強化 SMG、SG、HG、FT 類型武器時提供 1.5 倍經驗",
@@ -426,7 +433,8 @@
         "Special_Stamp": "Flower Stamp",
         "Special_Holiday": "聖夜的祝福",
         "Special_SilverBullet": "一般攻擊",
-        "Special_CH0187Mod": "Abi-Eshuh Mode"
+        "Special_CH0187Mod": "Abi-Eshuh Mode",
+        "Special_Omamori": "Omamori"
     },
     "BuffNameLong": {
         "Buff_AidAttitude": "準備急救",
@@ -524,7 +532,8 @@
         "Special_Stamp": "Flower Stamps",
         "Special_Holiday": "聖夜的祝福",
         "Special_SilverBullet": "Silver Bullets",
-        "Special_CH0187Mod": "Abi-Eshuh Mode"
+        "Special_CH0187Mod": "Abi-Eshuh Mode",
+        "Special_Omamori": "Omamori"
     },
     "BuffTooltip": {
         "Buff_AidAttitude": "以一定時間間隔持續回覆生命值",
@@ -622,7 +631,8 @@
         "Special_Stamp": "Reduces allies' EX skill cost and restores own HP when Kokona reaches 5 stacks.",
         "Special_Holiday": "提升此角色的特定EX技能的效果。",
         "Special_SilverBullet": "Augments Sakurako's normal attack to deal damage as an additional hit.",
-        "Special_CH0187Mod": "Increases Toki's ATK, Accuracy and Evasion and changes her EX Skill, Basic Skill and Normal Attack pattern. Ends after using the EX Skill 3 times."
+        "Special_CH0187Mod": "Increases Toki's ATK, Accuracy and Evasion and changes her EX Skill, Basic Skill and Normal Attack pattern. Ends after using the EX Skill 3 times.",
+        "Special_Omamori": "Increases Mystic Effectiveness upon activation of Kayoko (New Year)'s Sub Skill."
     },
     "ServerName": {
         "0": "日服",
@@ -853,6 +863,7 @@
         "item_randombox_tier": "隨機 {0} {1}",
         "item_artifact_box": "包含以下歐帕茲之一：",
         "item_equipment_box": "包含以下裝備碎片之一：",
+        "item_contains": "Rewards the following items",
         "item_contains_random": "隨機獲得以下物品中的一件",
         "item_contains_choice": "選擇獲得以下物品中的一件",
         "item_is_immediateuse": "※ 此物品在獲得后立刻被使用",
@@ -908,9 +919,8 @@
         "home_introduction": "Schale 是 Nexon Games 開發，日服由 Yostar、國際服由 Nexon 運營的手游<i class=\"text-bold\">蔚藍檔案</i>的非官方數據庫。",
         "home_change_server": "請使用設置菜單 <i class=\"fa-solid fa-gear mx-1\"></i> 選擇日服/國際服以顯示對應伺服器的内容。",
         "home_features": "特性",
-        "home_translations_help": "Schale 目前支援7種語言。如果你想幫忙翻譯請透過Discord(lonqie#2708)聯係或查看<a class=\"text-emphasis\" href=\"https://github.com/lonqie/SchaleDB-Localization\">本地化項目</a>！",
         "home_features_list": "<li>有關全體學生和技能，包含召喚單位與載具單位的完整信息。</li><li>全面的數據計算，可以顯示學生在任何星級、等級、裝備和技能的增益效果下的面板數據。</li><li>完整的物品、裝備和傢俱數據庫。</li><li>所有關卡的獎勵掉落、地圖和詳細的敵人信息。</li><li>總力戰BOSS與綜合戰術考試的數據與技能信息。</li><li>查看從合成節點可能獲取物品的幾率。</li>",
-        "home_footer_text": "Schale 由 lonqie 開發與維護，CanXue233、TKRotund、Gedanke、yumiruuwu 与 akintos 提供額外翻譯。\nSchale 與 Yostar、Nexon、Nexon Games 沒有關聯。本數據庫中使用的所有游戲作品、信息和素材均爲各自作者的財產和版權。",
+        "home_footer_text": "Schale 由 lonqie#2708 開發與維護，CanXue233、TKRotund、yumiruuwu 与 akintos 提供額外翻譯。\nSchale 與 Yostar、Nexon、Nexon Games 沒有關聯。本數據庫中使用的所有游戲作品、信息和素材均爲各自作者的財產和版權。",
         "changelog": "更新日志",
         "links": "Links",
         "community_resources": "Community Resources",

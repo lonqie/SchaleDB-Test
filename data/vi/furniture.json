@@ -312,7 +312,7 @@
         "Desc": "Một cái bàn với một ly cà phê trên đó. Hoàn hảo cho một buổi chiều thư giãn.",
         "Interaction": [
             true,
-            false
+            true
         ]
     },
     {
@@ -1229,7 +1229,8 @@
             "Furniture",
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture",
-            "GameCenter"
+            "GameCenter",
+            "F_Koyuki"
         ],
         "SynthQuality": 30,
         "SubCategory": "HomeAppliance",
@@ -1237,7 +1238,7 @@
         "Name": "Máy gắp thú bông Jellies",
         "Desc": "Một chiếc máy gắp thú bông Jellies. Nó nổi tiếng về độ khó thực sự để giành được một con thú bông.",
         "Interaction": [
-            false,
+            true,
             false
         ]
     },
@@ -2447,7 +2448,7 @@
         "Desc": "Một hồ bơi nhỏ với bộ Momo Friends Tube. Hãy vui vẻ với Momo Friends!",
         "Interaction": [
             true,
-            false
+            true
         ]
     },
     {
@@ -3697,7 +3698,8 @@
             "CraftMaterial_FurnitureR",
             "Furniture",
             "CraftMaterial_Furniture",
-            "ShiftingCraftMaterial_Furniture"
+            "ShiftingCraftMaterial_Furniture",
+            "F_Kayoko_Newyear"
         ],
         "SynthQuality": 20,
         "SubCategory": "Chair",
@@ -3705,7 +3707,7 @@
         "Name": "Đệm lụa hoa văn truyền thống",
         "Desc": "Đệm tựa bằng lụa có hoa văn truyền thống. Chất liệu vải cao cấp tạo thêm không khí sang trọng.",
         "Interaction": [
-            false,
+            true,
             false
         ]
     },
@@ -4625,8 +4627,8 @@
         "SynthQuality": 20,
         "SubCategory": "Chair",
         "SetGroupId": 108,
-        "Name": "ビーチサイドのホワイトチェア",
-        "Desc": "夏の暑さを冷ますホワイトチェア。しばらく座って海の景観を鑑賞してみよう。",
+        "Name": "Ghế trắng bãi biển",
+        "Desc": "Những chiếc ghế trắng làm dịu đi cái nóng mùa hè. Ngồi một lúc và ngắm cảnh biển sẽ cảm nhận được cơn gió mát thổi qua.",
         "Interaction": [
             false,
             false
@@ -4651,8 +4653,8 @@
         "SynthQuality": 20,
         "SubCategory": "FloorDecoration",
         "SetGroupId": 108,
-        "Name": "ビーチサイドのクーリングマット",
-        "Desc": "涼しげな色合いが魅力的なクーリングマット。床からの熱気を落ち着かせてくれる、ソフトでひんやりとしたマット。",
+        "Name": "Thảm mát bãi biển",
+        "Desc": "Thảm làm mát có màu sắc bắt mắt. Thảm mềm và mát giúp làm dịu sức nóng từ cái nóng mùa hè.",
         "Interaction": [
             false,
             false
@@ -4677,8 +4679,8 @@
         "SynthQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 108,
-        "Name": "ベーシックホワイトパーテーション",
-        "Desc": "白の配色が印象的なベーシックなホワイトパーテーション。どこでも効率的に空間を分けることができる。",
+        "Name": "Vách ngăn trắng cơ bản",
+        "Desc": "Một vách ngăn màu trắng cơ bản được phối màu trắng ấn tượng. Nó có thể phân chia không gian hiệu quả ở mọi nơi.",
         "Interaction": [
             false,
             false
@@ -4703,8 +4705,8 @@
         "SynthQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 108,
-        "Name": "原木のホワイトパーテーション",
-        "Desc": "原木仕上げが目立つホワイトパーテーション。スペースを分けて使うのに有用だ。",
+        "Name": "Vách ngăn gỗ màu trắng",
+        "Desc": "Vách ngăn màu trắng với lớp hoàn thiện bằng gỗ thô nổi bật. Hữu ích cho việc ngăn cách không gian.",
         "Interaction": [
             false,
             false
@@ -4729,8 +4731,8 @@
         "SynthQuality": 20,
         "SubCategory": "HomeAppliance",
         "SetGroupId": 108,
-        "Name": "クールドリンク用冷蔵庫",
-        "Desc": "冷たい飲み物でいっぱいのクールドリンク用冷蔵庫。夏の熱気から少し凌ぐことができる。",
+        "Name": "Tủ mát lạnh",
+        "Desc": "Tủ lạnh chứa đầy đồ uống lạnh. Nó cung cấp một chút đồ uống cho thời gian nghỉ ngơi từ cái nóng mùa hè.",
         "Interaction": [
             false,
             false
@@ -4755,8 +4757,8 @@
         "SynthQuality": 20,
         "SubCategory": "Table",
         "SetGroupId": 108,
-        "Name": "ビーチサイドのホワイトテーブル",
-        "Desc": "ビーチサイドのホワイトテーブル。空間に爽やかな印象を与える。",
+        "Name": "Bàn trắng bãi biển",
+        "Desc": "Bàn trắng bên bờ biển. Mang lại ấn tượng tươi mới cho không gian.",
         "Interaction": [
             false,
             false
@@ -4781,8 +4783,8 @@
         "SynthQuality": 20,
         "SubCategory": "Table",
         "SetGroupId": 108,
-        "Name": "原木のテラステーブル",
-        "Desc": "原木のテラステーブル。広い空間に活用するのに有効だ。",
+        "Name": "Bàn sân thượng bằng gỗ thô",
+        "Desc": "Bàn sân thượng bằng gỗ nguyên chất. Hiệu quả khi sử dụng trong không gian rộng.",
         "Interaction": [
             false,
             false
@@ -4807,8 +4809,8 @@
         "SynthQuality": 20,
         "SubCategory": "Table",
         "SetGroupId": 108,
-        "Name": "爽やかなフルーツバー",
-        "Desc": "爽やかなフルーツが用意された原木のテーブル。様々なフルーツで夏の暑さを冷ましてみよう。",
+        "Name": "Quầy trái cây giải nhiệt",
+        "Desc": "Một bàn khúc gỗ với trái cây tươi mát đã được dọn sẵn. Hãy giải nhiệt mùa hè bằng nhiều loại trái cây.",
         "Interaction": [
             true,
             false
@@ -4833,8 +4835,8 @@
         "SynthQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 108,
-        "Name": "爽やかなフルーツ壁飾り",
-        "Desc": "大胆な配色の爽やかなフルーツポスター。どの壁に配置しても見る人の視線を捕らえる。",
+        "Name": "Tường trang trí hoa quả tươi mát",
+        "Desc": "Một poster trái cây tươi với một bảng màu đậm. Bất kể nó được đặt ở đâu trên tường, nó sẽ bắt mắt người xem.",
         "Interaction": [
             false,
             false
@@ -4859,8 +4861,8 @@
         "SynthQuality": 30,
         "SubCategory": "Prop",
         "SetGroupId": 108,
-        "Name": "営業中ののぼり旗",
-        "Desc": "営業中を知らせるのぼり旗。これもまた夏の風情を感じさせる。",
+        "Name": "Bảng hiệu kinh doanh",
+        "Desc": "Một biểu ngữ để cho mọi người biết rằng cửa hàng đang mở cửa kinh doanh. Điều này cũng mang lại cảm giác của mùa hè.",
         "Interaction": [
             false,
             false
@@ -4886,8 +4888,8 @@
         "SynthQuality": 30,
         "SubCategory": "Prop",
         "SetGroupId": 108,
-        "Name": "ビーチサイドのクーリング扇風機",
-        "Desc": "ビーチサイドのクーリング扇風機。どこでも涼しい風を感じさせてくれる。",
+        "Name": "Quạt làm mát bãi biển",
+        "Desc": "Quạt làm mát bên bờ biển. Bạn có thể cảm thấy làn gió mát ở bất cứ đâu.",
         "Interaction": [
             true,
             true
@@ -4912,8 +4914,8 @@
         "SynthQuality": 30,
         "SubCategory": "WallDecoration",
         "SetGroupId": 108,
-        "Name": "ビーチサイドのカラフルライフジャケット",
-        "Desc": "どこでも目立つカラフルなライフジャケット。海に遊びに行くなら、必需品だ。",
+        "Name": "Giá treo áo phao đầy màu sắc bên bờ biển",
+        "Desc": "Áo phao nhiều màu sắc nổi bật khắp mọi nơi. Trang bị cần thiết nếu bạn chơi trên biển.",
         "Interaction": [
             false,
             false
@@ -4938,8 +4940,8 @@
         "SynthQuality": 30,
         "SubCategory": "Table",
         "SetGroupId": 108,
-        "Name": "レモンパラソルホワイトテーブル",
-        "Desc": "レモン色のパラソルが印象的なホワイトテーブル。激しい夏の日差しを穏やかな照明に変えてくれる。",
+        "Name": "Dù chanh che nắng với bàn trắng",
+        "Desc": "Chiếc bàn màu trắng nổi bật với chiếc dù màu vàng chanh. Nó biến ánh nắng gay gắt của mùa hè thành ánh sáng thanh bình.",
         "Interaction": [
             false,
             false
@@ -4964,8 +4966,8 @@
         "SynthQuality": 30,
         "SubCategory": "Floor",
         "SetGroupId": 108,
-        "Name": "ビーチサイドの原木の床",
-        "Desc": "ビーチサイドにある原木の床。きれいに整列された木目の模様が安定感を与えてくれる。",
+        "Name": "Sàn gỗ bãi biển",
+        "Desc": "Sàn gỗ thô trên bãi biển. Những hạt cát được trang trí đi kèm với sàn mang lại cảm giác tuyệt vời.",
         "Interaction": [
             false,
             false
@@ -4990,8 +4992,8 @@
         "SynthQuality": 30,
         "SubCategory": "Wallpaper",
         "SetGroupId": 108,
-        "Name": "ビーチサイドのホワイトの壁",
-        "Desc": "原木のワンポイントが引き立つホワイトの壁。明るい色が空間に活気を吹き込んでくれる。",
+        "Name": "Bức tường trắng bên bờ biển",
+        "Desc": "Những bức tường trắng được làm nổi bật bởi một điểm duy nhất của gỗ thô. Màu sắc tươi sáng mang lại sức sống cho không gian.",
         "Interaction": [
             false,
             false
@@ -5016,8 +5018,8 @@
         "SynthQuality": 30,
         "SubCategory": "WallDecoration",
         "SetGroupId": 108,
-        "Name": "ビーチサイドのオーシャンビュー窓",
-        "Desc": "海が広がるオーシャンビューの窓。狭い空間を広く見せてくれる。",
+        "Name": "Cửa sổ nhìn ra biển",
+        "Desc": "Cửa sổ nhìn ra biển với tầm nhìn ra đại dương. Nó làm cho một không gian nhỏ dường như lớn hơn.",
         "Interaction": [
             false,
             false
@@ -5042,8 +5044,8 @@
         "SynthQuality": 30,
         "SubCategory": "Background",
         "SetGroupId": 108,
-        "Name": "ビーチサイドの背景",
-        "Desc": "海の涼しさと夏の暑さが感じられるビーチサイドの背景。その涼しさに飛び込みたくなる。",
+        "Name": "Nền bãi biển",
+        "Desc": "Bối cảnh bên bờ biển với sự mát mẻ của đại dương và sức nóng của mùa hè. Nó làm cho bạn muốn lao vào sự mát mẻ đó.",
         "Interaction": [
             false,
             false
@@ -5069,8 +5071,8 @@
         "SynthQuality": 40,
         "SubCategory": "HomeAppliance",
         "SetGroupId": 108,
-        "Name": "チル&amp;クールアイスクリーム冷蔵庫",
-        "Desc": "爽やかなアイスクリームがいっぱいのアイスクリーム用冷蔵庫。一度にたくさん食べたらお腹をこわすかも……？",
+        "Name": "Tủ đựng kem lạnh và mát",
+        "Desc": "Tủ lạnh chứa đầy kem tươi mát. Nếu bạn ăn quá nhiều một lúc, bạn có thể bị đau dạ dày. ......?",
         "Interaction": [
             true,
             true
@@ -5095,8 +5097,8 @@
         "SynthQuality": 40,
         "SubCategory": "Closet",
         "SetGroupId": 108,
-        "Name": "カラフルドリンクバー",
-        "Desc": "多彩なフルーツが備わったカラフルドリンクバー。たくさんの味にわくわくする。",
+        "Name": "Quầy đồ uống đầy màu sắc",
+        "Desc": "Quầy đồ uống đầy màu sắc được trang trí nhiều loại trái cây. Thật thú vị khi thấy rất nhiều hương vị.",
         "Interaction": [
             false,
             false
@@ -5122,8 +5124,8 @@
         "SynthQuality": 40,
         "SubCategory": "Closet",
         "SetGroupId": 108,
-        "Name": "甘くて涼しいかき氷バー",
-        "Desc": "いつでもおいしいかき氷が作れるかき氷テーブル。夏の暑さもかき氷1口で消し飛ぶだろう。",
+        "Name": "Quầy đá bào mát và lạnh",
+        "Desc": "Quầy đá bào có thể làm đá bào ngon bất cứ lúc nào. Cái nóng mùa hè sẽ tan biến chỉ với một miếng đá bào. Nhưng ăn quá nhiều một lúc cũng sẽ khiến bạn bị đau dạ dày.",
         "Interaction": [
             true,
             true
@@ -5148,8 +5150,8 @@
         "SynthQuality": 40,
         "SubCategory": "WallDecoration",
         "SetGroupId": 108,
-        "Name": "ビーチサイドのオーシャンビューテラス",
-        "Desc": "広々とした海が広がるオーシャンビューテラス。真夏の爽やかな海の香りをもたらしてくれる。",
+        "Name": "Sân hiên nhìn ra biển",
+        "Desc": "Sân hiên nhìn ra biển với tầm nhìn bao quát ra đại dương. Nó mang lại bầu khống khí mát mẻ của đại dương vào giữa mùa hè.",
         "Interaction": [
             false,
             false
@@ -5175,8 +5177,8 @@
         "SynthQuality": 40,
         "SubCategory": "Prop",
         "SetGroupId": 108,
-        "Name": "ビーチサイドのふわふわ浮き輪",
-        "Desc": "可愛らしいふわふわ浮き輪。迷いなく海に飛び込ませてくれる。",
+        "Name": "Phao bông bên bờ biển",
+        "Desc": "Phao bông dễ thương. Chúng có thể giúp bạn nhảy xuống biển mà không do dự.",
         "Interaction": [
             true,
             true
@@ -5186,7 +5188,7 @@
         "Id": 10100,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "R",
         "Icon": "My_Autumnsports_01_Clock",
@@ -5201,8 +5203,8 @@
         "SynthQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 109,
-        "Name": "大運動会の壁掛け時計",
-        "Desc": "競技の開始を告げる壁掛け時計。定刻になると全力でスパートを始める。",
+        "Name": "Đồng hồ thể thao lớn treo tường",
+        "Desc": "Đồng hồ treo tường dùng để thông báo bắt đầu cuộc thi. Khi đến giờ đã định, họ sẽ bắt đầu dốc hết sức lực.",
         "Interaction": [
             false,
             false
@@ -5212,7 +5214,7 @@
         "Id": 10101,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "R",
         "Icon": "My_Autumnsports_01_Colorcone_01",
@@ -5227,8 +5229,8 @@
         "SynthQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 109,
-        "Name": "大運動会のカラーコーン・レッド",
-        "Desc": "レッドカラーのカラーコーン。公正な試合には欠かせない一品。",
+        "Name": "Cọc đỏ",
+        "Desc": "Cọc màu đỏ. Một vật dụng cần thiết cho một trận đấu công bằng.",
         "Interaction": [
             false,
             false
@@ -5238,7 +5240,7 @@
         "Id": 10102,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "R",
         "Icon": "My_Autumnsports_01_Colorcone_02",
@@ -5253,8 +5255,8 @@
         "SynthQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 109,
-        "Name": "大運動会のカラーコーン・ブルー",
-        "Desc": "ブルーカラーのカラーコーン。公正な試合には欠かせない一品。",
+        "Name": "Cọc xanh biển",
+        "Desc": "Cọc màu xanh. Một vật dụng cần thiết cho một trận đấu công bằng.",
         "Interaction": [
             false,
             false
@@ -5264,7 +5266,7 @@
         "Id": 10103,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "R",
         "Icon": "My_Autumnsports_01_Colorcone_03",
@@ -5279,8 +5281,8 @@
         "SynthQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 109,
-        "Name": "大運動会のカラーコーン・スカイブルー",
-        "Desc": "スカイブルーカラーのカラーコーン。公正な試合には欠かせない一品。",
+        "Name": "Cọc xanh dương",
+        "Desc": "Cọc màu xanh dương. Một vật dụng cần thiết cho một trận đấu công bằng.",
         "Interaction": [
             false,
             false
@@ -5290,7 +5292,7 @@
         "Id": 10104,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "R",
         "Icon": "My_Autumnsports_01_Flag_01",
@@ -5305,8 +5307,8 @@
         "SynthQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 109,
-        "Name": "大運動会のフラッグ・ライトブルー",
-        "Desc": "スカイブルーカラーのフラッグ。涼しい色は遠くからでも生徒たちの目を引く。",
+        "Name": "Cờ Đại hội Thể thao - Xanh dương",
+        "Desc": "Lá cờ màu xanh dương. Màu sắc mát mẻ bắt mắt học sinh ngay cả khi nhìn từ xa.",
         "Interaction": [
             false,
             false
@@ -5316,7 +5318,7 @@
         "Id": 10105,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "R",
         "Icon": "My_Autumnsports_01_Flag_02",
@@ -5331,8 +5333,8 @@
         "SynthQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 109,
-        "Name": "大運動会のフラッグ・ブルー",
-        "Desc": "ブルーカラーのフラッグ。まもなく試合が始まるような活気に満ちた兆しを感じさせる。",
+        "Name": "Cờ Đại hội thể thao - Xanh biển",
+        "Desc": "Lá cờ màu xanh biển. Dấu hiệu sự sôi động cho thấy một trận đấu sẽ sớm bắt đầu.",
         "Interaction": [
             false,
             false
@@ -5342,7 +5344,7 @@
         "Id": 10106,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "R",
         "Icon": "My_Autumnsports_01_Flag_03",
@@ -5357,8 +5359,8 @@
         "SynthQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 109,
-        "Name": "大運動会のフラッグ・イエロー",
-        "Desc": "イエローカラーのフラッグ。苛烈な試合を終えた後の生徒たちの休憩所を表示する。",
+        "Name": "Cờ Đại hội thể thao - Vàng",
+        "Desc": "Lá cờ màu vàng. Bố trí khu vực nghỉ ngơi cho học sinh sau trận đấu căng thẳng.",
         "Interaction": [
             false,
             false
@@ -5368,7 +5370,7 @@
         "Id": 10107,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "R",
         "Icon": "My_Autumnsports_01_Field",
@@ -5383,8 +5385,8 @@
         "SynthQuality": 20,
         "SubCategory": "FloorDecoration",
         "SetGroupId": 109,
-        "Name": "大運動会のスポーツマット",
-        "Desc": "競技のルールがそのまま表現されたスポーツマット。どこでも活気に満ちた試合を行うことができる。",
+        "Name": "Thảm thể thao cho Đại hội thể thao",
+        "Desc": "Thảm thể thao với các quy tắc của cuộc thi được thể hiện như chúng vốn có. Các trận đấu sống động có thể được chơi ở bất cứ đâu có chúng.",
         "Interaction": [
             false,
             false
@@ -5394,7 +5396,7 @@
         "Id": 10108,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "R",
         "Icon": "My_Autumnsports_01_Mat_01",
@@ -5410,8 +5412,8 @@
         "SynthQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 109,
-        "Name": "大運動会のマット・スカイブルー",
-        "Desc": "ほどよくふわふわのケガをする心配のない体操マット。",
+        "Name": "Thảm tập thể thao cỡ lớn xanh dương",
+        "Desc": "Một tấm thảm tập thể dục có độ mềm vừa phải, không gây chấn thương.",
         "Interaction": [
             true,
             false
@@ -5421,7 +5423,7 @@
         "Id": 10109,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "R",
         "Icon": "My_Autumnsports_01_Mat_02",
@@ -5436,8 +5438,8 @@
         "SynthQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 109,
-        "Name": "大運動会のマット・ブルー",
-        "Desc": "ほどよくふわふわのケガをする心配のない体操マット。",
+        "Name": "Thảm tập thể thao cỡ lớn xanh biển",
+        "Desc": "Một tấm thảm tập thể dục có độ mềm vừa phải, không gây chấn thương.",
         "Interaction": [
             false,
             false
@@ -5447,7 +5449,7 @@
         "Id": 10110,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "R",
         "Icon": "My_Autumnsports_01_Mat_03",
@@ -5462,8 +5464,8 @@
         "SynthQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 109,
-        "Name": "大運動会のマット・ベージュ",
-        "Desc": "ほどよくふわふわのケガをする心配のない体操マット。",
+        "Name": "Thảm thể thao cỡ lớn màu be",
+        "Desc": "Một tấm thảm tập thể dục có độ mềm vừa phải, không gây chấn thương.",
         "Interaction": [
             false,
             false
@@ -5473,7 +5475,7 @@
         "Id": 10111,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "R",
         "Icon": "My_Autumnsports_01_Scoreboard",
@@ -5488,8 +5490,8 @@
         "SynthQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 109,
-        "Name": "大運動会のスコアボード",
-        "Desc": "選手たちの結果と応援団の士気を高めるスコアボード。見るだけでも緊張と興奮が湧きあがる。",
+        "Name": "Bảng điểm của Đại hội thể thao",
+        "Desc": "Bảng điểm thúc đẩy kết quả của các cầu thủ và tinh thần của đám đông cổ vũ. Chỉ nhìn thôi cũng đủ khiến bạn căng thẳng và phấn khích.",
         "Interaction": [
             false,
             false
@@ -5499,7 +5501,7 @@
         "Id": 10112,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "R",
         "Icon": "My_Autumnsports_01_Window",
@@ -5514,8 +5516,8 @@
         "SynthQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 109,
-        "Name": "大運動会の窓",
-        "Desc": "大運動会を眺めることができる窓。生徒たちが競技の真っ最中だ。",
+        "Name": "Cửa sổ Đại hội thể thao",
+        "Desc": "Một cửa sổ nhìn ra Đại hội thể thao. Có thể nhìn thấy các thí sinh đang thi đấu với nhau.",
         "Interaction": [
             false,
             false
@@ -5525,7 +5527,7 @@
         "Id": 10113,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "R",
         "Icon": "My_Autumnsports_01_Wallacc_03",
@@ -5540,8 +5542,8 @@
         "SynthQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 109,
-        "Name": "大運動会のベージュの柱",
-        "Desc": "大運動会の活気を感じられるベージュ色の柱。鮮やかに空間を構成できる。",
+        "Name": "Cột màu be của Đại hội thể thao",
+        "Desc": "Các cột tường màu be tạo ra cảm giác sống động của một sự kiện thể thao lớn. Nó có thể tạo ra không gian một cách sống động.",
         "Interaction": [
             false,
             false
@@ -5551,7 +5553,7 @@
         "Id": 10200,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "SR",
         "Icon": "My_Autumnsports_01_Ballrack",
@@ -5566,8 +5568,8 @@
         "SynthQuality": 30,
         "SubCategory": "Prop",
         "SetGroupId": 109,
-        "Name": "大運動会のボール保管箱",
-        "Desc": "多様な球技種目に使用するボールの保管箱。いつでもボールを持ってくることができる。",
+        "Name": "Kệ đựng bóng cho Đại hội thể thao",
+        "Desc": "Kệ đựng bóng được sử dụng trong nhiều sự kiện trò chơi bóng. Bóng có thể được mang vào bất cứ lúc nào.",
         "Interaction": [
             false,
             false
@@ -5577,7 +5579,7 @@
         "Id": 10201,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "SR",
         "Icon": "My_Autumnsports_01_Basket",
@@ -5592,8 +5594,8 @@
         "SynthQuality": 30,
         "SubCategory": "Prop",
         "SetGroupId": 109,
-        "Name": "エナジードリンクバスケット",
-        "Desc": "冷たい氷とともに備え付けられてたエナジードリンクのバスケット。一口で活気を取り戻すことができる。",
+        "Name": "Giỏ nước tăng lực",
+        "Desc": "Một giỏ nước tăng lực với đá lạnh. Một ngụm có thể khiến bạn có sức mạnh trở lại.",
         "Interaction": [
             false,
             false
@@ -5603,7 +5605,7 @@
         "Id": 10202,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "SR",
         "Icon": "My_Autumnsports_01_Basketballhoop",
@@ -5618,8 +5620,8 @@
         "SynthQuality": 30,
         "SubCategory": "WallDecoration",
         "SetGroupId": 109,
-        "Name": "大運動会のバスケットゴールポスト",
-        "Desc": "シンプルなデザインのバスケットゴールポスト。選手じゃなくても一度はダンクシュートを決めてみたくなる！",
+        "Name": "Lưới ghi bàn bóng rổ của Đại hội thể thao",
+        "Desc": "Cột ghi bàn bóng rổ với thiết kế đơn giản. Bạn không cần phải là một người chơi giỏi để ghi vào một quả!",
         "Interaction": [
             false,
             false
@@ -5629,7 +5631,7 @@
         "Id": 10203,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "SR",
         "Icon": "My_Autumnsports_01_Beanball_01",
@@ -5644,8 +5646,8 @@
         "SynthQuality": 30,
         "SubCategory": "Prop",
         "SetGroupId": 109,
-        "Name": "玉入れカゴ・イエロー",
-        "Desc": "イエロートーンのかわいい玉入れカゴ。色とりどりのボールを投げ入れてみよう！",
+        "Name": "Rổ thả bóng màu vàng",
+        "Desc": "Giỏ bóng màu vàng dễ thương. Hãy ném vài quả bóng đầy màu sắc vào rổ nào!",
         "Interaction": [
             false,
             false
@@ -5655,7 +5657,7 @@
         "Id": 10204,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "SR",
         "Icon": "My_Autumnsports_01_Beanball_02",
@@ -5670,8 +5672,8 @@
         "SynthQuality": 30,
         "SubCategory": "Prop",
         "SetGroupId": 109,
-        "Name": "玉入れカゴ・ブルー",
-        "Desc": "ブルートーンのかわいい玉入れカゴ。色とりどりのボールを投げ入れてみよう！",
+        "Name": "Rổ thả bóng màu xanh",
+        "Desc": "Giỏ bóng màu xanh biển dễ thương. Hãy ném vài quả bóng đầy màu sắc vào rổ nào!",
         "Interaction": [
             false,
             false
@@ -5681,7 +5683,7 @@
         "Id": 10205,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "SR",
         "Icon": "My_Autumnsports_01_Beanball_03",
@@ -5696,8 +5698,8 @@
         "SynthQuality": 30,
         "SubCategory": "Prop",
         "SetGroupId": 109,
-        "Name": "玉入れカゴ・スカイブルー",
-        "Desc": "ライトブルートーンのかわいい玉入れカゴ。色とりどりのボールを投げ入れてみよう！",
+        "Name": "Giỏ bóng màu xanh dương",
+        "Desc": "Giỏ bóng màu dương dễ thương. Hãy ném vài quả bóng đầy màu sắc vào rổ nào!",
         "Interaction": [
             false,
             false
@@ -5707,7 +5709,7 @@
         "Id": 10206,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "SR",
         "Icon": "My_Autumnsports_01_Chair_03",
@@ -5722,8 +5724,8 @@
         "SynthQuality": 30,
         "SubCategory": "Chair",
         "SetGroupId": 109,
-        "Name": "大運動会の審判席",
-        "Desc": "試合を見守る審判席。誰よりも早く状況を把握できる。",
+        "Name": "Ghế trọng tài của Đại hội thể thao",
+        "Desc": "Ghế dành cho trọng tài để theo dõi trận đấu. Ngồi trên chiếc ghế này, bạn có thể nắm bắt tình hình trước bất kỳ ai khác.",
         "Interaction": [
             false,
             false
@@ -5733,7 +5735,7 @@
         "Id": 10207,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "SR",
         "Icon": "My_Autumnsports_01_Net",
@@ -5748,8 +5750,8 @@
         "SynthQuality": 30,
         "SubCategory": "Prop",
         "SetGroupId": 109,
-        "Name": "大運動会のネット",
-        "Desc": "丈夫な素材で作られたネット。試合の緊張感あふれるラリーはこのネットで行われる。",
+        "Name": "Lưới ngăn cách",
+        "Desc": "Lưới làm bằng chất liệu chắc chắn. Những trận đấu căng thẳng được chơi chia ra bởi chiếc lưới này.",
         "Interaction": [
             false,
             false
@@ -5759,7 +5761,7 @@
         "Id": 10208,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "SR",
         "Icon": "My_Autumnsports_01_Tile",
@@ -5774,8 +5776,8 @@
         "SynthQuality": 30,
         "SubCategory": "Floor",
         "SetGroupId": 109,
-        "Name": "大運動会の木の床",
-        "Desc": "丈夫に作られた木の床。摩擦力が高く、滑ることは少ない。",
+        "Name": "Sàn gỗ thể thao",
+        "Desc": "Sàn gỗ bền đẹp. Độ ma sát cao và ít bị trượt.",
         "Interaction": [
             false,
             false
@@ -5785,7 +5787,7 @@
         "Id": 10209,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "SR",
         "Icon": "My_Autumnsports_01_Wallacc_01",
@@ -5800,8 +5802,8 @@
         "SynthQuality": 30,
         "SubCategory": "WallDecoration",
         "SetGroupId": 109,
-        "Name": "大運動会のペロロフラッグ装飾",
-        "Desc": "かわいいペロロがチアリーディングしてくれるフラッグの装飾。可愛さと応援を一度に！",
+        "Name": "Cờ trang trí Peroro",
+        "Desc": "Cờ trang trí Peroro cổ vũ dễ thương. Sự dễ thương và cổ vũ đều được thực hiện cùng một lúc!",
         "Interaction": [
             false,
             false
@@ -5811,7 +5813,7 @@
         "Id": 10210,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "SR",
         "Icon": "My_Autumnsports_01_Wallacc_02",
@@ -5826,8 +5828,8 @@
         "SynthQuality": 30,
         "SubCategory": "WallDecoration",
         "SetGroupId": 109,
-        "Name": "大運動会の応援フラッグ装飾",
-        "Desc": "見ていると力が湧いてくる応援フラッグの装飾。鮮やかな色が情熱を燃やしてくれる。",
+        "Name": "Cờ cổ vũ trang trí",
+        "Desc": "Cờ cổ vũ mang lại cho bạn sức mạnh khi bạn nhìn thấy chúng. Những màu sắc tươi sáng cháy với niềm đam mê.",
         "Interaction": [
             false,
             false
@@ -5837,7 +5839,7 @@
         "Id": 10211,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "SR",
         "Icon": "My_Autumnsports_01_Wall_Right",
@@ -5852,8 +5854,8 @@
         "SynthQuality": 30,
         "SubCategory": "Wallpaper",
         "SetGroupId": 109,
-        "Name": "大運動会の壁紙",
-        "Desc": "ライトベージュの壁紙。大運動会を輝かせる器具とよく合っている。",
+        "Name": "Tường trang trí cho Đại hội thể thao",
+        "Desc": "Giấy dán tường màu be nhạt. Nó rất phù hợp với đồ đạc làm cho ngày sân lớn tỏa sáng.",
         "Interaction": [
             false,
             false
@@ -5863,7 +5865,7 @@
         "Id": 10212,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "SR",
         "Icon": "Autumnsportsbg",
@@ -5878,8 +5880,8 @@
         "SynthQuality": 30,
         "SubCategory": "Background",
         "SetGroupId": 109,
-        "Name": "大運動会の背景",
-        "Desc": "大運動会を引き立ててくれる背景。大運動会の活気が伝わってくるようだ。",
+        "Name": "Nền Đại hội thể thao",
+        "Desc": "Khung nền dành cho một sự kiện thể thao lớn. Nó dường như truyền đạt sự sống động của một Đại hội thể thao.",
         "Interaction": [
             false,
             false
@@ -5889,7 +5891,7 @@
         "Id": 10213,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "SR",
         "Icon": "My_Autumnsports_01_Signboard_02",
@@ -5904,8 +5906,8 @@
         "SynthQuality": 30,
         "SubCategory": "Prop",
         "SetGroupId": 109,
-        "Name": "大運動会の立看板",
-        "Desc": "見る人の目を引く大運動会の立て看板。興味がなかった生徒もいつの間にか足を止めている。",
+        "Name": "Bảng hiệu đứng Đại hội thể thao",
+        "Desc": "Một bảng hiệu cho một sự kiện thể thao lớn thu hút sự chú ý của tất cả những ai nhìn thấy nó. Ngay cả những sinh viên không quan tâm đến sự kiện này cũng dừng lại trước khi họ biết điều đó.",
         "Interaction": [
             false,
             false
@@ -5915,7 +5917,7 @@
         "Id": 10214,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "SR",
         "Icon": "My_Autumnsports_01_Chair_01",
@@ -5930,8 +5932,8 @@
         "SynthQuality": 30,
         "SubCategory": "Chair",
         "SetGroupId": 109,
-        "Name": "大運動会の折りたたみ椅子",
-        "Desc": "頑丈な鉄製の折り畳みチェア。普段は折りたたんで保管できるため、収納性にも優れている。",
+        "Name": "Ghế gấp gọn",
+        "Desc": "Ghế gấp làm bằng thép chắc chắn. Thường gấp lại để cất gọn dễ dàng.",
         "Interaction": [
             false,
             false
@@ -5941,7 +5943,7 @@
         "Id": 10215,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "SR",
         "Icon": "My_Autumnsports_01_Horsevault",
@@ -5956,8 +5958,8 @@
         "SynthQuality": 30,
         "SubCategory": "Prop",
         "SetGroupId": 109,
-        "Name": "大運動会の跳び箱",
-        "Desc": "誰だって跳びたくなる跳び箱。爽やかな色合いは大運動会にピッタリ。",
+        "Name": "Tobibako",
+        "Desc": "Dụng cụ giáo dục thể chất của Đại hội thể thao. Bạn phải giang chân rộng ra nếu muốn nhảy qua nó.",
         "Interaction": [
             false,
             false
@@ -5967,7 +5969,7 @@
         "Id": 10300,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "SSR",
         "Icon": "My_Autumnsports_01_Doughnuts",
@@ -5983,8 +5985,8 @@
         "SynthQuality": 40,
         "SubCategory": "Prop",
         "SetGroupId": 109,
-        "Name": "大運動会のパン食い競走用スタンド",
-        "Desc": "おいしいドーナッツがずらりと並んでいるパン食い競走用のスタンド。美食家の生徒なら競技に参加したいかも？",
+        "Name": "Cột treo cho cuộc thi ăn bánh mì",
+        "Desc": "Một giá treo cho cuộc thi ăn bánh mì với nhiều loại bánh rán thơm ngon. Nếu bạn là một sinh viên sành ăn, bạn có thể muốn tham gia cuộc thi.\n\n&quot;Bản thân tôi cũng không thể tưởng tượng được thứ này thực sự tồn tại.&quot;",
         "Interaction": [
             true,
             false
@@ -6010,8 +6012,8 @@
         "SynthQuality": 40,
         "SubCategory": "Chair",
         "SetGroupId": 109,
-        "Name": "大運動会の休憩テント",
-        "Desc": "心地よい休息を提供するテント。試合に疲れた体をしばらく休めるのに最適だ。",
+        "Name": "Lều nghỉ ngơi",
+        "Desc": "Một chiếc lều dựng lên làm khu vực nghỉ ngơi, đem lại sự thoải mái và xua tan sự mệt mỏi khỏi cơ thể của bạn.",
         "Interaction": [
             true,
             false
@@ -6021,7 +6023,7 @@
         "Id": 10302,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "SSR",
         "Icon": "My_Autumnsports_01_Stand",
@@ -6038,18 +6040,18 @@
         "SynthQuality": 40,
         "SubCategory": "Prop",
         "SetGroupId": 109,
-        "Name": "大運動会の応援スタンド",
-        "Desc": "応援するのにうってつけのスタンド。競技中の生徒を応援する熱気でいっぱいだ。",
+        "Name": "Khán đài cổ vũ",
+        "Desc": "Các khán đài là nơi hoàn hảo để cổ vũ và tràn ngập sự hào hứng cổ vũ cho các thí sinh thi đấu.",
         "Interaction": [
             true,
-            false
+            true
         ]
     },
     {
         "Id": 10303,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "SSR",
         "Icon": "My_Autumnsports_01_Storagebox",
@@ -6065,18 +6067,18 @@
         "SynthQuality": 40,
         "SubCategory": "Prop",
         "SetGroupId": 109,
-        "Name": "大運動会の器具保管箱",
-        "Desc": "様々な競技の小物が保管されている保管箱。人気の種目は早めに接近しなければならない！",
+        "Name": "Hộp lưu trữ trang bị thể thao",
+        "Desc": "Nơi lưu giữ các vật phẩm nhỏ từ các cuộc thi khác nhau.",
         "Interaction": [
             true,
-            false
+            true
         ]
     },
     {
         "Id": 10304,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "SSR",
         "Icon": "My_Autumnsports_01_Table",
@@ -6091,8 +6093,8 @@
         "SynthQuality": 40,
         "SubCategory": "Table",
         "SetGroupId": 109,
-        "Name": "大運動会のランチテーブル",
-        "Desc": "大運動会の華であるランチ用のテーブル。午前の反省会をし、逆転優勝を狙うための作戦会議に使える。",
+        "Name": "Bàn ăn trưa",
+        "Desc": "Một bàn ăn trưa với bình hoa được sử dụng trong các sự kiện thể thao lớn. Nó có thể được sử dụng cho một cuộc họp chiến lược để xem xét các sự kiện của buổi sáng và hướng tới một chiến thắng khó chịu.",
         "Interaction": [
             false,
             false
@@ -6102,7 +6104,7 @@
         "Id": 10305,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "SSR",
         "Icon": "My_Autumnsports_01_Trophy",
@@ -6117,8 +6119,8 @@
         "SynthQuality": 40,
         "SubCategory": "Table",
         "SetGroupId": 109,
-        "Name": "大運動会のトロフィー陳列台",
-        "Desc": "栄光あるトロフィーが並んだ大運動会のトロフィー陳列台。大運動会に参加する生徒たちの目標であり夢が詰まっている。",
+        "Name": "Kệ đứng trưng bày cúp",
+        "Desc": "Kệ đứng trưng bày cúp của Đại hội thể thao, được xếp với những chiếc cúp vinh quang. Đây là mục tiêu và là ước mơ của các thí sinh tham gia.",
         "Interaction": [
             false,
             false
@@ -6128,7 +6130,7 @@
         "Id": 10306,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "SSR",
         "Icon": "My_Autumnsports_01_Signboard_01",
@@ -6143,8 +6145,8 @@
         "SynthQuality": 40,
         "SubCategory": "Prop",
         "SetGroupId": 109,
-        "Name": "大運動会の入場ゲート",
-        "Desc": "華やかな大運動会の開幕を知らせる入場ゲート。入った瞬間から熱気が感じられる。",
+        "Name": "Cổng vào Đại hội thể thao",
+        "Desc": "Cổng vào báo hiệu sự bắt đầu của một sự kiện thể thao ngoạn mục. Bạn có thể cảm nhận được sự phấn khích ngay từ khi bước vào.",
         "Interaction": [
             false,
             false
@@ -6169,8 +6171,8 @@
         "SynthQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 110,
-        "Name": "アビドス教室の黒板",
-        "Desc": "キレイに片付けられている黒板。なにかちょっと落書きしたくなる。",
+        "Name": "Bảng đen lớp học",
+        "Desc": "Một chiếc bảng đen được cất gọn gàng.\n\n&quot;Hay là mình nên vẽ thứ gì lên đấy cho đẹp nhỉ?&quot;",
         "Interaction": [
             false,
             false
@@ -6195,8 +6197,8 @@
         "SynthQuality": 20,
         "SubCategory": "Closet",
         "SetGroupId": 110,
-        "Name": "アビドス教室の生徒用ロッカー",
-        "Desc": "アビドスの生徒に与えられるロッカー。内部を飾るのは各自の自由。",
+        "Name": "Tủ đựng đồ của học sinh Abydos",
+        "Desc": "Tủ khóa được trao cho học sinh Abydos. Mỗi học sinh được tự do trang trí bên trong tuỳ theo sở thích.",
         "Interaction": [
             false,
             false
@@ -6221,8 +6223,8 @@
         "SynthQuality": 20,
         "SubCategory": "Closet",
         "SetGroupId": 110,
-        "Name": "アビドス教室の収納ケース",
-        "Desc": "教室に必要なものを収納できる収納ケース。色の配分が可愛い。",
+        "Name": "Tủ cất đồ",
+        "Desc": "Dùng trong trường hợp cất giữ đồ cho nhu cầu lớp học. Tủ được phối màu dễ thương.",
         "Interaction": [
             false,
             false
@@ -6247,8 +6249,8 @@
         "SynthQuality": 20,
         "SubCategory": "Chair",
         "SetGroupId": 110,
-        "Name": "アビドス教室の椅子",
-        "Desc": "すっきりした外観が印象的な教室の椅子。机を少し移せば友達と並んで座ることができる。",
+        "Name": "Ghế lớp học",
+        "Desc": "Ghế lớp học sạch sẽ, gọn gàng. Nếu bạn di chuyển ghế của mình một chút, bạn có thể ngồi cạnh bạn bè của mình.",
         "Interaction": [
             false,
             false
@@ -6273,8 +6275,8 @@
         "SynthQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 110,
-        "Name": "アビドス教室の壁掛け時計",
-        "Desc": "すっきりとしたデザインの壁掛け時計。ランチタイムが始る前の1分1秒を争う生徒たちにとって重要なもの。",
+        "Name": "Đồng hồ treo tường phòng học",
+        "Desc": "Một chiếc đồng hồ treo tường được thiết kế gọn gàng. Điều thú vị là sinh viên luôn hóng từng phút giây để mong đến giờ ăn trưa hoặc ra về.",
         "Interaction": [
             false,
             false
@@ -6299,8 +6301,8 @@
         "SynthQuality": 20,
         "SubCategory": "Table",
         "SetGroupId": 110,
-        "Name": "アビドス教室のお弁当が置かれた机",
-        "Desc": "誰かの温かい気持ちのこもったお弁当が置かれた机。食事の時間はまだ遠い。",
+        "Name": "Bàn ăn với hộp cơm trưa",
+        "Desc": "Một cái bàn với hộp cơm chứa đầy hơi ấm của ai đó. Giờ ăn vẫn còn xa lắm.",
         "Interaction": [
             false,
             false
@@ -6325,8 +6327,8 @@
         "SynthQuality": 20,
         "SubCategory": "FloorDecoration",
         "SetGroupId": 110,
-        "Name": "アビドス教室の床",
-        "Desc": "ベージュ色が印象的な教室の床。滑りにくい仕様で安全だ。",
+        "Name": "Sàn phòng học",
+        "Desc": "Màu be của sàn phòng học rất ấn tượng. Nó an toàn và không trơn trượt.",
         "Interaction": [
             false,
             false
@@ -6351,8 +6353,8 @@
         "SynthQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 110,
-        "Name": "アビドス教室の廊下パーテーション",
-        "Desc": "スペースを効率的に分けられる教室のパーテーション。楽しい状況を演出できる。",
+        "Name": "Vách ngăn hành lang trong phòng học",
+        "Desc": "Vách ngăn phòng học phân chia không gian hiệu quả. Có thể tạo ra các tình huống vui nhộn.",
         "Interaction": [
             false,
             false
@@ -6377,8 +6379,8 @@
         "SynthQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 110,
-        "Name": "アビドス教室の壁掛けスピーカー",
-        "Desc": "クラシックなデザインの教室の壁掛けスピーカー。予想よりも音が力強い。",
+        "Name": "Loa treo tường lớp học",
+        "Desc": "Loa treo tường phòng học thiết kế cổ điển. Chất lượng âm thanh thì khỏi phải chê.",
         "Interaction": [
             false,
             false
@@ -6403,8 +6405,8 @@
         "SynthQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 110,
-        "Name": "アビドス教室の柱",
-        "Desc": "パーテーションとマッチする教室の柱。鮮やかな色が印象的だ。",
+        "Name": "Trụ cột lớp học",
+        "Desc": "Cột lớp học phù hợp với các phân vùng. Màu sắc tươi sáng rất ấn tượng.",
         "Interaction": [
             false,
             false
@@ -6429,8 +6431,8 @@
         "SynthQuality": 30,
         "SubCategory": "WallDecoration",
         "SetGroupId": 110,
-        "Name": "アビドス教室のスケジュール黒板",
-        "Desc": "学校のスケジュールを一目で見ることができる黒板。毎日新しい日程でいっぱいだ。",
+        "Name": "Bảng đen thời khoá biểu",
+        "Desc": "Một bảng đen nơi bạn có thể nhìn thấy thời khóa biểu của trường trong nháy mắt. Nó chứa đầy một lịch trình mới mỗi ngày.",
         "Interaction": [
             false,
             false
@@ -6455,8 +6457,8 @@
         "SynthQuality": 30,
         "SubCategory": "WallDecoration",
         "SetGroupId": 110,
-        "Name": "アビドス教室のキャンペーン黒板",
-        "Desc": "学校のキャンペーンを閲覧できる黒板。積極的な生徒たちの表情を垣間見ることができる。",
+        "Name": "Bảng đen kế hoạch",
+        "Desc": "Một bảng đen nơi học sinh có thể duyệt qua các kế hoạch của trường. Và cũng là nơi những gương mặt học sinh tham gia tích cực được biểu dương.",
         "Interaction": [
             false,
             false
@@ -6481,8 +6483,8 @@
         "SynthQuality": 30,
         "SubCategory": "Closet",
         "SetGroupId": 110,
-        "Name": "アビドス教室の掃除道具箱",
-        "Desc": "清潔さは生徒の美徳。アビドスの清掃道具箱は何でも揃っている。",
+        "Name": "Tủ dụng cụ vệ sinh lớp học",
+        "Desc": "Giữ sạch sẽ là đức tính của học sinh. Tủ dụng cụ dọn dẹp của Abydos được trang bị đầy đủ mọi thứ cần thiết.",
         "Interaction": [
             false,
             false
@@ -6507,8 +6509,8 @@
         "SynthQuality": 30,
         "SubCategory": "Closet",
         "SetGroupId": 110,
-        "Name": "アビドス教室の先生用ロッカー",
-        "Desc": "先生だけのための教室ロッカー。それぞれの記念日にはロッカーがしばしば溢れたりも？",
+        "Name": "Tủ khóa cho giáo viên",
+        "Desc": "Tủ khóa trong lớp chỉ dành cho giáo viên. Vào mỗi dịp kỷ niệm, tủ đồ thường hết chỗ để?",
         "Interaction": [
             false,
             false
@@ -6528,15 +6530,16 @@
             "CraftMaterial_FurnitureSR",
             "Furniture",
             "CraftMaterial_Furniture",
-            "ShiftingCraftMaterial_Furniture"
+            "ShiftingCraftMaterial_Furniture",
+            "F_Nonomi"
         ],
         "SynthQuality": 30,
         "SubCategory": "Table",
         "SetGroupId": 110,
-        "Name": "アビドス教室のカーディガンが置かれた机",
-        "Desc": "黄色いカーディガンが掛かっている机。温厚な上、何だか豊かな気品が感じられる。",
+        "Name": "Bộ bàn ghế với áo len khoác trên ghế",
+        "Desc": "Một bộ bàn ghế với chiếc áo len màu vàng treo trên đó. Nó ấm áp và bằng cách nào đó phong phú và duyên dáng.",
         "Interaction": [
-            false,
+            true,
             false
         ]
     },
@@ -6554,15 +6557,16 @@
             "CraftMaterial_FurnitureSR",
             "Furniture",
             "CraftMaterial_Furniture",
-            "ShiftingCraftMaterial_Furniture"
+            "ShiftingCraftMaterial_Furniture",
+            "F_Hoshino"
         ],
         "SynthQuality": 30,
         "SubCategory": "Table",
         "SetGroupId": 110,
-        "Name": "アビドス教室のクジラ人形が置かれた机",
-        "Desc": "かわいいクジラの人形が置かれた机。何だかゆったりとした気分が味わえる。",
+        "Name": "Bộ bàn ghế có búp bê cá voi trên bàn",
+        "Desc": "Trên bàn có một con búp bê cá voi dễ thương dùng làm gối ngủ. Bạn có thể tận hưởng một bầu không khí thư giãn phần nào.",
         "Interaction": [
-            false,
+            true,
             false
         ]
     },
@@ -6580,15 +6584,16 @@
             "CraftMaterial_FurnitureSR",
             "Furniture",
             "CraftMaterial_Furniture",
-            "ShiftingCraftMaterial_Furniture"
+            "ShiftingCraftMaterial_Furniture",
+            "F_Ayane"
         ],
         "SynthQuality": 30,
         "SubCategory": "Table",
         "SetGroupId": 110,
-        "Name": "アビドス教室のメガネが置かれた机",
-        "Desc": "赤い縁のメガネが置かれた机。丁寧で信頼できる持ち主の机だ。",
+        "Name": "Bộ bàn ghế với chiếc kính",
+        "Desc": "Trên chiếc bàn có kính gọng đỏ. Bàn làm việc của một chủ nhân lịch sự và đáng tin cậy.",
         "Interaction": [
-            false,
+            true,
             false
         ]
     },
@@ -6606,15 +6611,16 @@
             "CraftMaterial_FurnitureSR",
             "Furniture",
             "CraftMaterial_Furniture",
-            "ShiftingCraftMaterial_Furniture"
+            "ShiftingCraftMaterial_Furniture",
+            "F_Shiroko"
         ],
         "SynthQuality": 30,
         "SubCategory": "Table",
         "SetGroupId": 110,
-        "Name": "アビドス教室の覆面が置かれた机",
-        "Desc": "覆面が置かれた机。凡庸でないオーラが感じられる。",
+        "Name": "Bộ bàn ghế với chiếc mặt nạ trên bàn",
+        "Desc": "Một chiếc bàn và trên đó đặt một chiếc mặt nạ. Có thể cảm nhận được tinh thần phấn khích trước khi hành động nhằm vào một cơ quan.. khoan?.",
         "Interaction": [
-            false,
+            true,
             false
         ]
     },
@@ -6632,15 +6638,16 @@
             "CraftMaterial_FurnitureSR",
             "Furniture",
             "CraftMaterial_Furniture",
-            "ShiftingCraftMaterial_Furniture"
+            "ShiftingCraftMaterial_Furniture",
+            "F_Serika"
         ],
         "SynthQuality": 30,
         "SubCategory": "Table",
         "SetGroupId": 110,
-        "Name": "アビドス教室のリボンと手袋が置かれた机",
-        "Desc": "リボンと手袋が置かれた机。この机の持ち主なら重要なことも任せられそうだ。",
+        "Name": "Bộ bàn ghế có ruy băng và găng tay",
+        "Desc": "Một chiếc bàn có ruy băng và găng tay. Chủ nhân của chiếc bàn này chắc có thể đáng tin cậy trong những vấn đề quan trọng.",
         "Interaction": [
-            false,
+            true,
             false
         ]
     },
@@ -6663,8 +6670,8 @@
         "SynthQuality": 30,
         "SubCategory": "Table",
         "SetGroupId": 110,
-        "Name": "アビドス教室の大きなバッグが置かれた机",
-        "Desc": "大きなバックが置かれた机。どうしたことか持ち主は長い間席に戻ってきてないようだ。",
+        "Name": "Bộ bàn ghế và chiếc túi lớn",
+        "Desc": "Một cái bàn với một cái túi lớn trên đó. Bằng cách nào đó, chủ sở hữu dường như đã không trở lại chỗ ngồi của mình trong một thời gian dài...",
         "Interaction": [
             false,
             false
@@ -6689,8 +6696,8 @@
         "SynthQuality": 30,
         "SubCategory": "Prop",
         "SetGroupId": 110,
-        "Name": "アビドス教室のガンスタンド",
-        "Desc": "生徒たちの最も大切な物の一つである銃器が置かれたスタンド。クラスで一番目立つ存在。",
+        "Name": "Giá đựng súng",
+        "Desc": "Giá đỡ nơi đặt súng, một trong những tài sản quý giá nhất của học sinh. Dễ thấy nhất trong lớp.",
         "Interaction": [
             false,
             false
@@ -6715,8 +6722,8 @@
         "SynthQuality": 30,
         "SubCategory": "Prop",
         "SetGroupId": 110,
-        "Name": "アビドス教室のボードパーテーション",
-        "Desc": "情報伝達と空間分離をひとつにまとめた驚くべき発明品。居心地の良さと可愛さを同時に。",
+        "Name": "Bảng phân vùng ",
+        "Desc": "Một thiết kế tuyệt vời kết hợp truyền thông tin và phân tách không gian thành một. Ấm cúng và dễ thương cùng một lúc.",
         "Interaction": [
             false,
             false
@@ -6741,8 +6748,8 @@
         "SynthQuality": 30,
         "SubCategory": "Table",
         "SetGroupId": 110,
-        "Name": "アビドス教室の先生のデスク",
-        "Desc": "生徒を指導する先生のデスク。生徒たちが持ってきてくれた香しい花と手紙でいっぱいだ。",
+        "Name": "Bàn giáo viên",
+        "Desc": "Chiếc bàn giáo viên nơi hướng dẫn học sinh. Nó tràn ngập những bông hoa thơm và những lá thư do học sinh mang đến.",
         "Interaction": [
             false,
             false
@@ -6767,8 +6774,8 @@
         "SynthQuality": 30,
         "SubCategory": "WallDecoration",
         "SetGroupId": 110,
-        "Name": "アビドス教室のロゴフレーム",
-        "Desc": "アビドス教室のロゴフレーム。アビドスの象徴だ。",
+        "Name": "Khung logo trường Abydos",
+        "Desc": "Khung logo cho Lớp học Abydos. Biểu tượng của Abydos.",
         "Interaction": [
             false,
             false
@@ -6793,8 +6800,8 @@
         "SynthQuality": 30,
         "SubCategory": "WallDecoration",
         "SetGroupId": 110,
-        "Name": "アビドス教室の学級目標",
-        "Desc": "お金に対する強い意志が感じられる世俗的ながらも現実的な学級目標。見る者に意志を湧かせる。",
+        "Name": "Mục tiêu lớp học",
+        "Desc": "Mục tiêu lớp học nhưng thực tế với ý chí mạnh mẽ. Nó thôi thúc ý chí của người xem.",
         "Interaction": [
             false,
             false
@@ -6819,8 +6826,8 @@
         "SynthQuality": 30,
         "SubCategory": "Prop",
         "SetGroupId": 110,
-        "Name": "アビドス教室の分別ボックス",
-        "Desc": "色ごとにわかりやすく作られた分別ボックス。かわいい色でインテリア効果はおまけ。",
+        "Name": "Thùng rác phân loại",
+        "Desc": "Thùng rác phân loại chỗ đựng phù hợp, giúp dễ dàng trong việc xử lý.",
         "Interaction": [
             false,
             false
@@ -6845,8 +6852,8 @@
         "SynthQuality": 30,
         "SubCategory": "Prop",
         "SetGroupId": 110,
-        "Name": "アビドス教室のホワイトボード",
-        "Desc": "混沌と計画が一箇所に集まったホワイトボード。誰かには無限の画用紙。誰かには計画書。",
+        "Name": "Bảng trắng lớp học",
+        "Desc": "Một bảng trắng với nét vẽ lung tung. Đối với người khác thì đây là nơi lập một kế hoạch hoàn hảo.",
         "Interaction": [
             false,
             false
@@ -6860,7 +6867,7 @@
         ],
         "Rarity": "SR",
         "Icon": "Abydosclassroombg",
-        "ComfortBonus": 50,
+        "ComfortBonus": 120,
         "Category": "Interiors",
         "Tags": [
             "CraftMaterial_FurnitureSR",
@@ -6871,8 +6878,8 @@
         "SynthQuality": 30,
         "SubCategory": "Background",
         "SetGroupId": 110,
-        "Name": "アビドス教室の背景",
-        "Desc": "学生時代のロマンと熾烈さで満ちた教室の背景。",
+        "Name": "Nền lớp học Abydos",
+        "Desc": "Nền lớp học tràn ngập sự lãng mạn và khốc liệt của đời học sinh.",
         "Interaction": [
             false,
             false
@@ -6886,7 +6893,7 @@
         ],
         "Rarity": "SR",
         "Icon": "My_Abydosclassroom_01_Tile_2X2",
-        "ComfortBonus": 50,
+        "ComfortBonus": 120,
         "Category": "Interiors",
         "Tags": [
             "CraftMaterial_FurnitureSR",
@@ -6897,8 +6904,8 @@
         "SynthQuality": 30,
         "SubCategory": "Floor",
         "SetGroupId": 110,
-        "Name": "アビドス教室のタイルの床",
-        "Desc": "木材が織り成された教室のタイルの床。穏やかな雰囲気を作ってくれる。",
+        "Name": "Sàn gạch lớp học",
+        "Desc": "Sàn lớp học lát gạch bằng gỗ đan lát. Chúng tạo ra một bầu không khí yên bình.",
         "Interaction": [
             false,
             false
@@ -6912,7 +6919,7 @@
         ],
         "Rarity": "SR",
         "Icon": "My_Abydosclassroom_01_Wall_Right",
-        "ComfortBonus": 50,
+        "ComfortBonus": 120,
         "Category": "Interiors",
         "Tags": [
             "CraftMaterial_FurnitureSR",
@@ -6923,8 +6930,8 @@
         "SynthQuality": 30,
         "SubCategory": "Wallpaper",
         "SetGroupId": 110,
-        "Name": "アビドス教室の壁",
-        "Desc": "教室の柱とマッチする教室の壁。明るく晴れた感じがする。",
+        "Name": "Tường lớp học Abydos",
+        "Desc": "Tường lớp học phù hợp với các cột lớp học. Nó trông tươi sáng như tương lai của mỗi học sinh.",
         "Interaction": [
             false,
             false
@@ -6949,8 +6956,8 @@
         "SynthQuality": 40,
         "SubCategory": "Closet",
         "SetGroupId": 110,
-        "Name": "アビドス教室の本棚",
-        "Desc": "実戦に強くなれるガイドブックなどが並ぶ教室の本棚。生徒たちの思い出もある。",
+        "Name": "Tủ sách lớp học",
+        "Desc": "Các tủ sách trong lớp được xếp đầy sách hướng dẫn và các tài liệu khác sẽ giúp bạn mạnh mẽ hơn trong thế giới thực. Còn có cả những kỷ niệm thời học sinh.",
         "Interaction": [
             false,
             false
@@ -6970,15 +6977,16 @@
             "CraftMaterial_FurnitureSSR",
             "Furniture",
             "CraftMaterial_Furniture",
-            "ShiftingCraftMaterial_Furniture"
+            "ShiftingCraftMaterial_Furniture",
+            "F_Shiroko_RidingSuit"
         ],
         "SynthQuality": 40,
         "SubCategory": "Prop",
         "SetGroupId": 110,
-        "Name": "アビドス教室の自転車",
-        "Desc": "アクティブな持ち主が乗って通いそうな自転車。自転車から活力と落ち着きが同時に感じられる。",
+        "Name": "Xe đạp",
+        "Desc": "Một chiếc xe đạp trông giống như thứ mà một người chủ năng động sẽ đạp đi làm. Chiếc xe đạp đồng thời toát lên sức sống và sự điềm tĩnh.",
         "Interaction": [
-            false,
+            true,
             false
         ]
     },
@@ -7001,8 +7009,8 @@
         "SynthQuality": 40,
         "SubCategory": "Prop",
         "SetGroupId": 110,
-        "Name": "アビドス教室のパーテーション",
-        "Desc": "スペースを効率的に分割する一般的なパーテーション。広いスペースを区別するのに便利です。",
+        "Name": "Vách ngăn trong lớp học",
+        "Desc": "Vách ngăn thông dụng giúp phân chia không gian hiệu quả. Hữu ích để phân biệt không gian lớn.",
         "Interaction": [
             false,
             false
@@ -7027,8 +7035,8 @@
         "SynthQuality": 40,
         "SubCategory": "Table",
         "SetGroupId": 110,
-        "Name": "アビドス教室の教卓",
-        "Desc": "生徒の注目を一目で受けることができる教託。眺める目はたくさんですが、席の所有者は一つ。",
+        "Name": "Bàn giảng dạy của giáo viên",
+        "Desc": "Việc giảng dạy sẽ nhận được sự chú ý của học sinh trong nháy mắt. Nhiều con mắt đều hướng về bộ bàn ghế, tuy nhiên, chỗ ngồi này chỉ dành cho một người duy nhất.",
         "Interaction": [
             false,
             false
@@ -7053,8 +7061,8 @@
         "SynthQuality": 40,
         "SubCategory": "HomeAppliance",
         "SetGroupId": 110,
-        "Name": "アビドス教室の自動販売機",
-        "Desc": "生徒の口当たりをひきつける飲み物がいっぱいの自動販売機。先生もしばしば愛用する。",
+        "Name": "Máy bán hàng tự động",
+        "Desc": "Máy bán đồ uống tự động thu hút khẩu vị của sinh viên. Kể cả giáo viên cũng thường sử dụng nó.",
         "Interaction": [
             false,
             false
@@ -7079,8 +7087,8 @@
         "SynthQuality": 40,
         "SubCategory": "WallDecoration",
         "SetGroupId": 110,
-        "Name": "アビドス教室のマシンガンスタンド",
-        "Desc": "強力な性能とかわいい色を兼ね備えたマシンガンスタンド。簡単に取り外し可能。",
+        "Name": "Giá treo súng máy trong lớp học",
+        "Desc": "Giá đỡ súng máy kết hợp hiệu suất mạnh mẽ và màu sắc dễ thương. Dễ dàng tháo rời.",
         "Interaction": [
             false,
             false
@@ -7105,8 +7113,8 @@
         "SynthQuality": 40,
         "SubCategory": "WallDecoration",
         "SetGroupId": 110,
-        "Name": "アビドス教室の窓",
-        "Desc": "砂漠が広がるアビドス一帯が見える窓。誰かを待ちたくなる。",
+        "Name": "Cửa sổ lớp học",
+        "Desc": "Một cửa sổ nhìn ra toàn bộ khu vực Abydos với sa mạc của nó. Bạn sẽ muốn đợi ai đó.",
         "Interaction": [
             false,
             false
@@ -8478,8 +8486,8 @@
         "SynthQuality": 10,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
-        "Name": "ゴズ（屋内戦）のブロンズトロフィー",
-        "Desc": "ゴズ（屋内戦）の栄誉を讃えるブロンズトロフィー",
+        "Name": "Cúp đồng Goz - CT trong công trình",
+        "Desc": "Một chiếc cúp đồng dành được từ việc đánh bại Goz trong CT trong công trình.",
         "Interaction": [
             false,
             false
@@ -8503,8 +8511,8 @@
         "SynthQuality": 20,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
-        "Name": "ゴズ（屋内戦）のシルバートロフィー",
-        "Desc": "ゴズ（屋内戦）の栄誉を讃えるシルバートロフィー",
+        "Name": "Cúp bạc Goz - CT trong công trình",
+        "Desc": "Một chiếc cúp bạc dành được từ việc đánh bại Goz trong CT trong công trình.",
         "Interaction": [
             false,
             false
@@ -8528,8 +8536,8 @@
         "SynthQuality": 30,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
-        "Name": "ゴズ（屋内戦）のゴールドトロフィー",
-        "Desc": "ゴズ（屋内戦）の栄誉を讃えるゴールドトロフィー",
+        "Name": "Cúp vàng Goz - CT trong công trình",
+        "Desc": "Một chiếc cúp vàng dành được từ việc đánh bại Goz trong CT trong công trình.",
         "Interaction": [
             false,
             false
@@ -8553,8 +8561,8 @@
         "SynthQuality": 40,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
-        "Name": "ゴズ（屋内戦）のプラチナトロフィー",
-        "Desc": "ゴズ（屋内戦）の栄誉を讃えるプラチナトロフィー",
+        "Name": "Cúp bạch kim Goz - CT trong công trình",
+        "Desc": "Một chiếc cúp bạch kim dành được từ việc đánh bại Goz trong CT trong công trình.",
         "Interaction": [
             false,
             false
@@ -8773,7 +8781,7 @@
         ],
         "SubCategory": "Chair",
         "SetGroupId": 0,
-        "Name": "Ghế đệm kim cương Hoàng gia",
+        "Name": "Ghế đệm kim cương hoàng gia",
         "Desc": "Một chiếc ghế cổ có đệm tựa hoa văn kim cương. Thiết kế cong tinh tế mang lại vẻ ngoài đầy phong cách.",
         "Interaction": [
             true,
@@ -8784,7 +8792,7 @@
         "Id": 206301,
         "IsReleased": [
             true,
-            true
+            false
         ],
         "Rarity": "SSR",
         "Icon": "My_Event10_Turntable",
@@ -8797,8 +8805,8 @@
         ],
         "SubCategory": "Prop",
         "SetGroupId": 0,
-        "Name": "ホログラム·キューブ·ターンテーブル",
-        "Desc": "最先端技術が集約されたターンテーブル。音楽に合わせて動くホログラムでリズムを感じてみよう！",
+        "Name": "Bàn nhạc hình ba chiều",
+        "Desc": "Một chiếc bàn với máy phát nhạc đĩa than được tích hợp công nghệ tối tân. Cảm nhận nhịp điệu với hình ảnh ba chiều chuyển động theo âm nhạc!",
         "Interaction": [
             false,
             false
@@ -8808,7 +8816,7 @@
         "Id": 207301,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "SSR",
         "Icon": "My_Event11_Sportsdayguideboard",
@@ -8821,8 +8829,8 @@
         ],
         "SubCategory": "WallDecoration",
         "SetGroupId": 0,
-        "Name": "大運動会のガイドボード",
-        "Desc": "大運動会の日程が書かれたガイドボード。大運動会の情報を知ることができる。",
+        "Name": "Bảng hướng dẫn cho các sự kiện thể thao lớn",
+        "Desc": "Bảng hướng dẫn với lịch trình của Đại hội thể thao. Thông tin về Đại hội có thể được tìm thấy ở đây.",
         "Interaction": [
             false,
             false
@@ -8847,8 +8855,8 @@
         "SynthQuality": 20,
         "SubCategory": "Chair",
         "SetGroupId": 0,
-        "Name": "カウンターチェア・ゴールドブラック",
-        "Desc": "ゴールド仕上げが引き立つカウンターチェア。どこにあっても高級感を感じられる。",
+        "Name": "Ghế quán bar mạ vàng",
+        "Desc": "Ghế ngồi này được bôi thêm lớp mạ vàng. Bạn có thể cảm nhận được sự sang trọng cho dù bạn đang ở đâu.",
         "Interaction": [
             true,
             false
@@ -8873,11 +8881,11 @@
         "SynthQuality": 20,
         "SubCategory": "Chair",
         "SetGroupId": 0,
-        "Name": "カウンターチェア・ゴールドレッドワイン",
-        "Desc": "気品が感じられるカウンターチェア。赤のベルベット生地がとても柔らかい。",
+        "Name": "Ghế quán bar vàng đỏ",
+        "Desc": "Một chiếc ghế với một chút sang trọng. Đệm ghế được làm từ loại vải nhung đỏ rất mềm.",
         "Interaction": [
             true,
-            false
+            true
         ]
     },
     {
@@ -8899,11 +8907,11 @@
         "SynthQuality": 20,
         "SubCategory": "Chair",
         "SetGroupId": 0,
-        "Name": "カウンターチェア・シルバーネオンブルー",
-        "Desc": "ほのかなシルバー仕上げのカウンターチェア。爽やかな雰囲気を楽しみたい人にオススメ。",
+        "Name": "Ghế quán bar xanh bạc neon",
+        "Desc": "Một chiếc ghế với lớp hoàn thiện màu bạc tinh tế. Dành cho những người thích một bầu không khí trong lành.",
         "Interaction": [
             true,
-            false
+            true
         ]
     },
     {
@@ -8925,11 +8933,11 @@
         "SynthQuality": 20,
         "SubCategory": "Chair",
         "SetGroupId": 0,
-        "Name": "カウンターチェア・ダークバイオレット",
-        "Desc": "魅力が引き立つカウンターチェア。周囲に魅惑を振りまける。",
+        "Name": "Ghế quán bar màu tím đậm",
+        "Desc": "Một chiếc ghế tím đậm làm nổi bật sự quyến rũ. Rắc mê hoặc cho môi trường xung quanh.",
         "Interaction": [
             true,
-            false
+            true
         ]
     },
     {
@@ -8949,8 +8957,8 @@
         ],
         "SubCategory": "WallDecoration",
         "SetGroupId": 0,
-        "Name": "大運動会の思い出",
-        "Desc": "大運動会の思い出を集めた大運動会コンセプトボード。楽しかった思い出がちらつく。",
+        "Name": "Ký ức ngày hội thao lớn",
+        "Desc": "Chiếc bảng này gợi lại những ngày trên sân Đại hội với những kỷ niệm quý giá.",
         "Interaction": [
             false,
             false
@@ -8975,11 +8983,11 @@
         ],
         "SubCategory": "HomeAppliance",
         "SetGroupId": 0,
-        "Name": "格闘ゲーム機",
-        "Desc": "熾烈な格闘ゲームが楽しめる2人用ゲーム機。すぐにでもプレイしたい。",
+        "Name": "Game thùng máy đối kháng",
+        "Desc": "Máy chơi game dành cho 2 người chơi, thuộc thể loại đối kháng và cạnh tranh. Nhìn qua thôi cũng chỉ muốn chơi thử ngay.",
         "Interaction": [
             true,
-            false
+            true
         ]
     },
     {
@@ -9000,8 +9008,8 @@
         ],
         "SubCategory": "Prop",
         "SetGroupId": 0,
-        "Name": "暖かなクリスマス暖炉",
-        "Desc": "様々なプレゼントと共に体を暖めてくれるクリスマス暖炉。眺めるだけで心も温まってくる。",
+        "Name": "Lò sưởi giáng sinh ấm áp",
+        "Desc": "Lò sưởi giúp sưởi ấm cơ thể bạn cùng và được trang trí với nhiều món quà khác nhau. Chỉ cần nhìn vào nó sẽ làm ấm trái tim của bạn.",
         "Interaction": [
             true,
             false
@@ -9025,8 +9033,8 @@
         ],
         "SubCategory": "Prop",
         "SetGroupId": 0,
-        "Name": "軽快な譜面台",
-        "Desc": "すぐにでも軽快なメロディーを演奏したくなる譜面台。楽しい音楽が聞こえてくる。",
+        "Name": "Giá để bản nhạc",
+        "Desc": "Một chiếc giá để bản nhạc khiến bạn muốn chơi ngay những giai điệu nhẹ nhàng.",
         "Interaction": [
             true,
             false
@@ -9050,8 +9058,8 @@
         ],
         "SubCategory": "Table",
         "SetGroupId": 0,
-        "Name": "豪奢な装飾のティーテーブル",
-        "Desc": "豪奢で美しい花の装飾が印象的なティーテーブル。お茶の良い香りが心を落ち着かせてくれる。",
+        "Name": "Bàn trà trang trí sang trọng",
+        "Desc": "Bàn trà được trang trí hoa văn sang trọng, đẹp mắt, ấn tượng. Hương thơm của trà làm dịu tâm trí.",
         "Interaction": [
             true,
             false
@@ -9074,8 +9082,8 @@
         ],
         "SubCategory": "Prop",
         "SetGroupId": 0,
-        "Name": "トリニティオルガン",
-        "Desc": "トリニティの装飾が細かく荘厳なオルガン。眺めているだけでも神聖な感じがする。",
+        "Name": "Cơ quan Trinity",
+        "Desc": "Cơ quan được trang trí tinh xảo và hoành tráng của Trinity. Chỉ nhìn thôi cũng cảm thấy thiêng liêng.",
         "Interaction": [
             false,
             false
@@ -9100,8 +9108,8 @@
         ],
         "SubCategory": "Table",
         "SetGroupId": 0,
-        "Name": "ティーパーティーテーブル",
-        "Desc": "華やかなデザインが際立つティーパーティーのテーブル。美しい外観とは異なり、深刻な話が行き来することもある。",
+        "Name": "Bàn tiệc trà",
+        "Desc": "Bàn tiệc trà nổi bật với thiết kế đẹp mắt. Không giống như vẻ ngoài xinh đẹp của nó, việc nói chuyện nghiêm túc có thể đến và đi.",
         "Interaction": [
             true,
             false
@@ -9125,8 +9133,8 @@
         ],
         "SubCategory": "Table",
         "SetGroupId": 0,
-        "Name": "取調室のテーブル",
-        "Desc": "ヴァルキューレ警察学校の取調室に設置されている一般的なテーブル。取り調べは時に厳しく、時に優しく。",
+        "Name": "Bàn thẩm vấn",
+        "Desc": "Một chiếc bàn điển hình trong phòng thẩm vấn tại Học viện Cảnh sát Valkyrie. Các cuộc thẩm vấn đôi khi gay gắt, đôi khi nhẹ nhàng.",
         "Interaction": [
             true,
             false
@@ -9152,8 +9160,58 @@
         ],
         "SubCategory": "Chair",
         "SetGroupId": 0,
-        "Name": "大聖堂の長椅子",
-        "Desc": "座ると敬虔な心を持てるようになる椅子。朝晩のお祈りに適している。",
+        "Name": "Ghế dài nhà thờ",
+        "Desc": "Một chiếc ghế giúp bạn có một đầu óc thư giãn khi bạn ngồi trên nó. Thích hợp cho buổi cầu nguyện buổi sáng và buổi tối.",
+        "Interaction": [
+            true,
+            false
+        ]
+    },
+    {
+        "Id": 208301,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Rarity": "SSR",
+        "Icon": "My_Event16_Diorama",
+        "ComfortBonus": 350,
+        "Category": "Decorations",
+        "Tags": [
+            "CraftMaterial_FurnitureSSR",
+            "Furniture",
+            "CraftMaterial_Furniture"
+        ],
+        "SubCategory": "Prop",
+        "SetGroupId": 0,
+        "Name": "Sa bàn Diorama quận D.U. Shiratori",
+        "Desc": "Một chiếc bàn với mô hình ảo cho thấy sự phục hồi của quận D.U. Shirato. Có thể cảm nhận được cảm giác của một dự án sắp hoàn thành.",
+        "Interaction": [
+            false,
+            false
+        ]
+    },
+    {
+        "Id": 209301,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Rarity": "SSR",
+        "Icon": "My_Event21_Plantshelf",
+        "ComfortBonus": 350,
+        "Category": "Furnitures",
+        "Tags": [
+            "CraftMaterial_FurnitureSSR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "F_Haruka",
+            "F_Haruka_Newyear"
+        ],
+        "SubCategory": "Closet",
+        "SetGroupId": 0,
+        "Name": "Kệ trồng cây",
+        "Desc": "Kệ trồng cây được bảo quản cẩn thận. Toàn cỏ dại, nhưng chúng được quản lý cẩn thận.",
         "Interaction": [
             true,
             false
@@ -9178,7 +9236,7 @@
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "Tủ trưng bày Cúp đồng Tổng tấn công 01",
-        "Desc": "Một tủ trưng bày cúp đồng để trưng bày ba danh hiệu trùm Tổng tấn công.\nNBinah, Chesed, Shirokuro",
+        "Desc": "Một tủ trưng bày cúp đồng để trưng bày ba danh hiệu trùm Tổng tấn công.\n\nBinah, Chesed, Shirokuro",
         "Interaction": [
             false,
             false
@@ -9203,7 +9261,7 @@
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "Tủ trưng bày Cúp bạc Tổng tấn công 01",
-        "Desc": "Một tủ trưng bày cúp bạc để trưng bày ba danh hiệu trùm Tổng tấn công.\nNBinah, Chesed, Shirokuro",
+        "Desc": "Một tủ trưng bày cúp bạc để trưng bày ba danh hiệu trùm Tổng tấn công.\n\nBinah, Chesed, Shirokuro",
         "Interaction": [
             false,
             false
@@ -9228,7 +9286,7 @@
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "Tủ trưng bày Cúp vàng Tổng tấn công 01",
-        "Desc": "Một tủ trưng bày cúp vàng để trưng bày ba danh hiệu trùm Tổng tấn công.\nNBinah, Chesed, Shirokuro",
+        "Desc": "Một tủ trưng bày cúp vàng để trưng bày ba danh hiệu trùm Tổng tấn công.\n\nBinah, Chesed, Shirokuro",
         "Interaction": [
             false,
             false
@@ -9253,7 +9311,7 @@
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "Tủ trưng bày Cúp bạch kim Tổng tấn công 01",
-        "Desc": "Một tủ trưng bày cúp bạch kim để trưng bày ba danh hiệu trùm Tổng tấn công.\nNBinah, Chesed, Shirokuro",
+        "Desc": "Một tủ trưng bày cúp bạch kim để trưng bày ba danh hiệu trùm Tổng tấn công.\n\nBinah, Chesed, Shirokuro",
         "Interaction": [
             false,
             false
@@ -9277,8 +9335,8 @@
         ],
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
-        "Name": "総力戦ブロンズトロフィースタンド02",
-        "Desc": "総力戦ボス3種類のトロフィーを見ることができるブロンズトロフィースタンド\n（ヒエロニムス、KAITEN FX Mk.0、ペロロジラ）",
+        "Name": "Tủ trưng bày Cúp đồng Tổng tấn công 02",
+        "Desc": "Một tủ trưng bày cúp đồng để trưng bày ba danh hiệu trùm Tổng tấn công.\n\nHieronymus, Kaiten FX Mk.0, Perorodzilla",
         "Interaction": [
             false,
             false
@@ -9302,8 +9360,8 @@
         ],
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
-        "Name": "総力戦シルバートロフィースタンド02",
-        "Desc": "総力戦ボス3種類のトロフィーを見ることができるシルバートロフィースタンド\n（ヒエロニムス、KAITEN FX Mk.0、ペロロジラ）",
+        "Name": "Tủ trưng bày Cúp bạc Tổng tấn công 02",
+        "Desc": "Một tủ trưng bày cúp bạc để trưng bày ba danh hiệu trùm Tổng tấn công.\n\nHieronymus, Kaiten FX Mk.0, Perorodzilla",
         "Interaction": [
             false,
             false
@@ -9327,8 +9385,8 @@
         ],
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
-        "Name": "総力戦ゴールドトロフィースタンド02",
-        "Desc": "総力戦ボス3種類のトロフィーを見ることができるゴールドトロフィースタンド\n（ヒエロニムス、KAITEN FX Mk.0、ペロロジラ）",
+        "Name": "Tủ trưng bày Cúp vàng Tổng tấn công 02",
+        "Desc": "Một tủ trưng bày cúp vàng để trưng bày ba danh hiệu trùm Tổng tấn công.\n\nHieronymus, Kaiten FX Mk.0, Perorodzilla",
         "Interaction": [
             false,
             false
@@ -9352,8 +9410,8 @@
         ],
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
-        "Name": "総力戦プラチナトロフィースタンド02",
-        "Desc": "総力戦ボス3種類のトロフィーを見ることができるプラチナトロフィースタンド\n（ヒエロニムス、KAITEN FX Mk.0、ペロロジラ）",
+        "Name": "Tủ trưng bày Cúp bạch kim Tổng tấn công 02",
+        "Desc": "Một tủ trưng bày cúp bạch kim để trưng bày ba danh hiệu trùm Tổng tấn công.\n\nHieronymus, Kaiten FX Mk.0, Perorodzilla",
         "Interaction": [
             false,
             false
@@ -9420,6 +9478,28 @@
         "SetGroupId": 0,
         "Name": "Máy phát lại PV thứ ba",
         "Desc": "Máy có thể phát video PV thứ ba.",
+        "Interaction": [
+            false,
+            false
+        ]
+    },
+    {
+        "Id": 302304,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Rarity": "SSR",
+        "Icon": "My_Videopanel_Pv04",
+        "ComfortBonus": 350,
+        "Category": "Furnitures",
+        "Tags": [
+            "Furniture"
+        ],
+        "SubCategory": "FurnitureEtc",
+        "SetGroupId": 0,
+        "Name": "Máy phát lại PV thứ tư",
+        "Desc": "Máy có thể phát video PV thứ tư.",
         "Interaction": [
             false,
             false

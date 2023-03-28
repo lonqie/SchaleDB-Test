@@ -223,7 +223,9 @@
         "19": "Crystal Haniwa",
         "20": "Totem Pole",
         "21": "Ancient Battery",
+        "23": "Okiku Doll",
         "24": "Disco Colgante",
+        "25": "Atlantis Medal",
         "29": "Winnipesaukee Stone"
     },
     "EnemyTags": {
@@ -237,7 +239,7 @@
         "801": "Cherry Blossom Festival Commotion!",
         "802": "A Revolutionary Ivan Kupala",
         "803": "Summer Sky's Wishlist",
-        "804": "Head Prefect Hina's Summer Vacation!",
+        "804": "Head Prefect Hina's Summer Break!",
         "805": "Playing Tag at Neverland",
         "806": "Bunny Chasers on Board",
         "808": "Hot Springs Resort No. 227 Daily Logs!",
@@ -249,12 +251,14 @@
         "814": "Abydos Resort Restoration Task Force",
         "815": "Business Trip! Momoyodou Beach Shack Franchise Plan",
         "816": "After-School Sweets Story: Sweet Secrets and Shootouts",
-        "817": "On Your Mark @ Millennium",
-        "818": "Get Set, Go!: Kivotos Grand Sports Festival",
+        "817": "On Your Mark ＠ Millennium",
+        "818": "Get Set, Go!: Kivotos Halo Festival",
         "819": "Christmas in the Cathedral: The Remedial Knights' Gift",
         "820": "A Game Before the New Year's Feast",
         "821": "Battle for the False Sanctum",
-        "822": "Atra-Hasis' Ark Conquest"
+        "822": "Atra-Hasis' Ark Conquest",
+        "823": "Phrenapates' Decisive Battle",
+        "824": "Restoration Project: DU Shiratori District"
     },
     "StageType": {
         "Campaign": "Missions",
@@ -310,13 +314,16 @@
         "3": "3rd Node"
     },
     "RaidDifficulty": {
-        "0": "Normal",
-        "1": "Hard",
-        "2": "Very Hard",
-        "3": "Hardcore",
-        "4": "Extreme",
-        "5": "Insane",
-        "6": "Torment"
+        "Normal": "Normal",
+        "Hard": "Hard",
+        "VeryHard": "Very Hard",
+        "HardCore": "Hardcore",
+        "Extreme": "Extreme",
+        "Insane": "Insane",
+        "Torment": "Torment",
+        "A": "A",
+        "B": "B",
+        "C": "C"
     },
     "WeaponPartExpBonus": {
         "WeaponExpGrowthA": "Provides 1.5&times; EXP when used to enhance SMG, SG, HG and FT type weapons.",
@@ -426,7 +433,8 @@
         "Special_Stamp": "Flower Stamp",
         "Special_Holiday": "Holy Night Blessing",
         "Special_SilverBullet": "Normal Attack",
-        "Special_CH0187Mod": "Abi-Eshuh Mode"
+        "Special_CH0187Mod": "Abi-Eshuh Mode",
+        "Special_Omamori": "Omamori"
     },
     "BuffNameLong": {
         "Buff_AidAttitude": "First Aid Ready",
@@ -524,7 +532,8 @@
         "Special_Stamp": "Flower Stamps",
         "Special_Holiday": "Holy Night Blessings",
         "Special_SilverBullet": "Silver Bullets",
-        "Special_CH0187Mod": "Abi-Eshuh Mode"
+        "Special_CH0187Mod": "Abi-Eshuh Mode",
+        "Special_Omamori": "Omamori"
     },
     "BuffTooltip": {
         "Buff_AidAttitude": "Continuously restores HP at set intervals.",
@@ -622,7 +631,8 @@
         "Special_Stamp": "Reduces allies' EX skill cost and restores own HP when Kokona reaches 5 stacks.",
         "Special_Holiday": "Increases the effects of certain EX skills on this character.",
         "Special_SilverBullet": "Augments Sakurako's normal attack to deal damage as an additional hit.",
-        "Special_CH0187Mod": "Increases Toki's ATK, Accuracy and Evasion and changes her EX Skill, Basic Skill and Normal Attack pattern. Ends after using the EX Skill 3 times."
+        "Special_CH0187Mod": "Increases Toki's ATK, Accuracy and Evasion and changes her EX Skill, Basic Skill and Normal Attack pattern. Ends after using the EX Skill 3 times.",
+        "Special_Omamori": "Increases Mystic Effectiveness upon activation of Kayoko (New Year)'s Sub Skill."
     },
     "ServerName": {
         "0": "Japan",
@@ -853,6 +863,7 @@
         "item_randombox_tier": "Random {0} {1}",
         "item_artifact_box": "Contains one of the following artifacts:",
         "item_equipment_box": "Contains one of the following equipment pieces:",
+        "item_contains": "Rewards the following items",
         "item_contains_random": "Randomly rewards one of the following items",
         "item_contains_choice": "Rewards a choice of one of the following items",
         "item_is_immediateuse": "※ This item is used immediately when acquired",
@@ -908,9 +919,8 @@
         "home_introduction": "Schale is an unofficial database and calculation tool for the mobile game <i class=\"text-bold\">Blue Archive</i> developed by Nexon Games and published by Yostar (Japan) and Nexon (Global) for iOS and Android.",
         "home_change_server": "Please select your game server using the settings menu <i class=\"fa-solid fa-gear mx-1\"></i> to see only information that has been released on that server.",
         "home_features": "Features",
-        "home_translations_help": "Schale is currently available in 7 languages. Want to help translate? Please get in touch via Discord (lonqie#2708) or check out the <a class=\"text-emphasis\" href=\"https://github.com/lonqie/SchaleDB-Localization\">localization project</a>!",
         "home_features_list": "<li>Full information on all students and their skills, summons and vehicles.</li><li>Calculation feature that can display a student's stats under any configuration of level, equipment and buffs, and calculate skill damage and healing against a configurable target enemy.</li><li>Complete Items, Equipment and Furniture database.</li><li>Reward drops, maps and detailed enemy information for all Campaign, Event Quest, Challenge and Daily stages.</li><li>Stats and Skill information for Total Assault bosses and Joint Firing Drill events.</li><li>View the chances of possible items received from crafting nodes.</li>",
-        "home_footer_text": "Schale is developed and maintained by lonqie, with additional translation work by CanXue233, TKRotund, Gedanke, yumiruuwu & akintos.\nSchale is not affiliated with Nexon, Nexon Games or Yostar. All game artwork, information and assets used in this database are the property and copyright of the respective authors.",
+        "home_footer_text": "Schale is developed and maintained by lonqie#2708, with additional translation work by CanXue233, TKRotund, yumiruuwu & akintos.\nSchale is not affiliated with Nexon, Nexon Games or Yostar. All game artwork, information and assets used in this database are the property and copyright of the respective authors.",
         "changelog": "Changelog",
         "links": "Links",
         "community_resources": "Community Resources",
