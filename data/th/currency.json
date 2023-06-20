@@ -157,14 +157,30 @@
         "Rarity": "N",
         "Icon": "Currency_Icon_WorldRaidCommonTicket",
         "Name": "ไม่ระบุการใช้",
-        "Desc": "(X)"
+        "Desc": "ตั๋วที่ใช้เข้าท้าทายปฏิบัติการสหพันธ์พิเศษ"
     },
     {
         "Id": 21,
         "Category": "WorldRaidTicketC",
         "Rarity": "N",
         "Icon": "Currency_Icon_WorldRaidCommonTicket",
-        "Name": "ไม่ระบุการใช้",
-        "Desc": "(X)"
+        "Name": "ตั๋วปฏิบัติการสหพันธ์ ψ ",
+        "Desc": "ตั๋วที่ใช้เข้าท้าทายปฏิบัติการสหพันธ์พิเศษ"
+    },
+    {
+        "Id": 22,
+        "Category": "ChaserTotalTicket",
+        "Rarity": "N",
+        "Icon": "Currency_Icon_ChaserTotalTicket",
+        "Name": "指名手配チケット",
+        "Desc": "指名手配に挑戦できるチケット。"
+    },
+    {
+        "Id": 23,
+        "Category": "SchoolDungeonTotalTicket",
+        "Rarity": "N",
+        "Icon": "Currency_Icon_SchoolTotalTicket",
+        "Name": "学園交流会チケット",
+        "Desc": "学園交流会に参加できるチケット。"
     }
 ]

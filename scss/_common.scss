@@ -537,7 +537,7 @@ p a {
 
 .stat-icon {
 
-    @include box-shadow;
+    //@include box-shadow;
     margin-top: -2px;
     width: 26px;
     min-width: 26px;
@@ -545,6 +545,7 @@ p a {
     margin-right: 0.5rem;
     @include circular;
     overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.35);
     
 
     img {
@@ -552,7 +553,13 @@ p a {
         width: 100%;
         object-fit: cover;
         opacity: 0.85;
-        background-color: rgba(0, 0, 0, 0.4);
+        
+    }
+}
+
+.theme-dark {
+    .stat-icon {
+        background-color: rgba(0, 0, 0, 0.35);
     }
 }
 
@@ -693,6 +700,12 @@ p a {
             min-width: 4.5rem;
         }
 
+        .stat-cap {
+            font-style: italic;
+            font-weight: bold;
+            color: var(--col-text-emphasis);
+        }
+
         .zero {
             color: var(--col-theme-text-t) !important;
         }
@@ -702,6 +715,34 @@ p a {
         }
     }
 
+}
+
+.active-buff {
+    display: inline-block;
+    position: relative;
+
+    img {
+        height: 26px;
+        width: 22px;
+    }
+
+    .stack-count {
+        position: absolute;
+        right: -2px;
+        top: -4px;
+
+        font-size: 14px;
+        color: #fff;
+        text-shadow: -1px 1px 4px #000;
+        font-style: italic;
+        font-weight: bold;
+        @include unselectable;
+
+        &::before {
+            content: "\00D7";
+            font-size: 10px;
+        }
+    }
 }
 
 .has-tooltip {
@@ -737,6 +778,10 @@ p a {
 .text-crit {
     color: var(--col-text-compare-less);
     //text-shadow: 0px 0px 3px var(--col-text-compare-less);
+}
+
+.col-star {
+    color: var(--col-text-stars);
 }
 
 .col-weaponstar {

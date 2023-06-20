@@ -166,5 +166,21 @@
         "Icon": "Currency_Icon_WorldRaidCommonTicket",
         "Name": "Allied Operation Ticket ψ",
         "Desc": "A ticket to participate in a specific Allied Operation."
+    },
+    {
+        "Id": 22,
+        "Category": "ChaserTotalTicket",
+        "Rarity": "N",
+        "Icon": "Currency_Icon_ChaserTotalTicket",
+        "Name": "Bounty Ticket",
+        "Desc": "A ticket to participate in a Bounty."
+    },
+    {
+        "Id": 23,
+        "Category": "SchoolDungeonTotalTicket",
+        "Rarity": "N",
+        "Icon": "Currency_Icon_SchoolTotalTicket",
+        "Name": "Scrimmage Ticket",
+        "Desc": "A ticket to participate in a Scrimmage."
     }
 ]

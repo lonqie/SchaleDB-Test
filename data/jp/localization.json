@@ -99,6 +99,9 @@
         "HotSpringsDepartment": "温泉開発部",
         "TeaParty": "ティーパーティー",
         "PublicPeaceBureau": "公安局",
+        "BlackTortoisePromenade": "玄武商会",
+        "Genryumon": "玄竜門",
+        "LaborParty": "工務部",
         "EmptyClub": "無し"
     },
     "BossFaction": {
@@ -165,7 +168,8 @@
         "107": "ミリタリーアウトドアシリーズ",
         "108": "ビーチサイドシリーズ",
         "109": "大運動会シリーズ",
-        "110": "アビドス教室シリーズ"
+        "110": "アビドス教室シリーズ",
+        "111": "ゲーム開発部シリーズ"
     },
     "ItemCategory": {
         "Furnitures": "家具",
@@ -251,14 +255,16 @@
         "814": "アビドスリゾート復旧対策委員会",
         "815": "出張！百夜堂海の家FC計画",
         "816": "放課後スイーツ物語　～甘い秘密と銃撃戦～",
-        "817": "On your mark ＠ millennium",
-        "818": "Get set, go！～キヴォトス晄輪大祭～",
+        "817": "ON YOUR MARK ＠ MILLENNIUM",
+        "818": "Get Set, Go！～キヴォトス晄輪大祭～",
         "819": "聖堂のメリークリスマス〜救護騎士団の贈り物〜",
         "820": "喰積の 前にいささか～一番勝負～",
         "821": "虚妄のサンクトゥム攻略戦",
         "822": "アトラ・ハシースの箱舟占領戦",
         "823": "プレナパテス決戦",
-        "824": "復旧作業：D.U.シラトリ区"
+        "824": "復旧作業：D.U.シラトリ区",
+        "825": "白亜の予告状～虚飾の館と美学の在り処～",
+        "826": "龍武同舟～思い描くは、ひとつの未来～"
     },
     "StageType": {
         "Campaign": "任務",
@@ -317,7 +323,7 @@
         "Normal": "Normal",
         "Hard": "Hard",
         "VeryHard": "VeryHard",
-        "HardCore": "HardCore",
+        "HardCore": "Hardcore",
         "Extreme": "Extreme",
         "Insane": "Insane",
         "Torment": "Torment",
@@ -434,7 +440,8 @@
         "Special_Holiday": "「聖夜の祝福」",
         "Special_SilverBullet": "通常攻撃",
         "Special_CH0187Mod": "アビ・エシュフモード",
-        "Special_Omamori": "「お守り」"
+        "Special_Omamori": "「お守り」",
+        "Special_Dado": "「明鏡止水」"
     },
     "BuffNameLong": {
         "Buff_AidAttitude": "救護の心構え",
@@ -533,7 +540,8 @@
         "Special_Holiday": "聖夜の祝福",
         "Special_SilverBullet": "シルバーバレット",
         "Special_CH0187Mod": "アビ・エシュフモード",
-        "Special_Omamori": "「お守り」"
+        "Special_Omamori": "「お守り」",
+        "Special_Dado": "「明鏡止水」"
     },
     "BuffTooltip": {
         "Buff_AidAttitude": "一定間隔でHPを持続的に回復する。",
@@ -632,7 +640,8 @@
         "Special_Holiday": "保有キャラクターに対する特定のEXスキルの効果を増加する。",
         "Special_SilverBullet": "サクラコの通常攻撃を追加ダメージ効果を与えるものに強化する。",
         "Special_CH0187Mod": "トキの攻撃力、命中値および回避値を増加し、EXスキル、ノーマルスキルおよび通常攻撃を変更する。EXスキルを3回使用すると解除される。",
-        "Special_Omamori": "カヨコ（正月）のサブスキル発動時に神秘特効を増加する。"
+        "Special_Omamori": "カヨコ（正月）のサブスキル発動時に神秘特効を増加する。",
+        "Special_Dado": "カホの攻撃は追加ダメージを与える。"
     },
     "ServerName": {
         "0": "日本",
@@ -662,6 +671,7 @@
         "navbar_home": "ホーム",
         "navbar_students": "生徒",
         "student": "生徒",
+        "enemy": "敵",
         "stages": "ステージ",
         "navbar_raids": "総力戦",
         "navbar_craft": "製造",
@@ -702,6 +712,7 @@
         "event_ends": "<b>{0}日{1}時間{2}分</b>後に終了",
         "student_birthdays": "これから1週間のうちに誕生日を迎える生徒さんです！",
         "attributes": "ステータス",
+        "base_stats": "基礎ステータス",
         "skills": "スキル",
         "ex_weapon": "固有武器",
         "ex_gear": "愛用品",
@@ -721,6 +732,8 @@
         "buff_transferable_incompatible": "選択されたバフ効果の中にこのキャラクターに適用できないものがあります。",
         "enemy_debuffs": "敵デバフ",
         "enemy_select": "敵を選択",
+        "filter_all": "すべて",
+        "filter_bookmark": "ブックマーク",
         "buff_custom": "カスタムバフ",
         "buff_custom_enemy": "敵カスタムバフ",
         "buff_custom_base": "固定値として追加",
@@ -772,19 +785,24 @@
         "attacktype": "攻撃タイプ",
         "defensetype": "防御タイプ",
         "school": "学園",
+        "club": "部活",
         "weapon": "武器種",
         "position": "ポジション",
         "category": "区分",
         "combat_power": "地形別戦闘力",
         "misc": "その他",
         "uses_cover": "遮蔽物使用",
+        "doesnt_use_cover": "Doesn't Use Cover",
         "can_cc": "CC付与",
         "uses_artifact": "使用オーパーツ",
         "filter_include_weapon_upgrade": "固有武器による強化を含める",
         "memory_lobby": "メモリアルロビー",
         "memory_lobby_student": "{0}のメモリアルロビー",
         "memory_lobby_unlock": "{1}との絆ランクが{0}になると開放",
+        "memory_lobby_unlock_level": "メモリアルロビー開放",
         "memory_lobby_bgm": "メモリアルロビーBGM：{0}",
+        "memory_lobby_bgm_name": "メモリアルロビーBGM",
+        "student_stars": "神秘開放",
         "terrain_adaption": "{0}戦闘力",
         "terrain_adaption_details": "{1}では<b>{0}倍</b>のダメージを与える。\n遮蔽物使用時に遮蔽ブロック率を<b>{2}%増加する</b>。\n遮蔽貫通率を<b>{2}%増加する</b>。",
         "statpreview_title": "詳細ステータス / スキル",
@@ -885,9 +903,9 @@
         "tooltip_collection_add": "生徒データに追加\n<small>(選択されたステータスを保存します)</small>",
         "tooltip_collection_remove": "生徒データから削除",
         "tooltip_sprite_toggle": "立ち絵を切替",
-        "collection": "所持状況",
-        "collection_owned": "所持",
-        "collection_notowned": "未所持",
+        "collection": "所属生徒",
+        "collection_owned": "所属",
+        "collection_notowned": "未所属",
         "maptile_spawn": "生成タイル",
         "maptile_drone": "ドローン（周囲のタイルを表示する）",
         "maptile_remove": "消去タイル",
@@ -916,11 +934,11 @@
         "stat_ammocount_tooltip_fan": "通常攻撃は弾薬{0}を消費し扇形範囲内の敵に{1}回ヒットする",
         "skill_hits_tooltip": "合計{0}回ヒットする",
         "home_welcome": "ようこそ、先生！",
-        "home_introduction": "Schaleは、Nexson Gamesが開発しYostar（日本版）およびNexson（グローバル版）が運営するスマートフォン向けゲーム『<b>ブルーアーカイブ</b>』の非公式データベースです。",
+        "home_introduction": "Schaleは、Nexon Gamesが開発しYostar（日本版）およびNexon（グローバル版）が運営するスマートフォン向けゲーム『<b>ブルーアーカイブ</b>』の非公式データベースです。",
         "home_change_server": "設定メニュー<i class=\"fa-solid fa-gear mx-1\"></i>からあなたが遊んでいるサーバーを選択するとそのサーバー向けの情報だけが表示されるようになります。",
         "home_features": "当サイトの特徴",
         "home_features_list": "<li>すべての生徒とそのスキル、召喚物ならびに搭乗物に関する詳細な情報。</li><li>レベル、装備、バフのあらゆる組み合わせに対応した網羅的なステータス計算機能および様々な敵設定に対応したスキルダメージ量と回復量の計算機能。</li><li>アイテム、装備、家具に関する完全なデータベース。</li><li>すべての任務、イベントクエスト、チャレンジ、デイリーステージに関する獲得報酬、マップ、敵の詳細な情報。</li><li>総力戦ボスと合同火力演習に関するステータスとスキルの情報</li><li>各製造ノードから入手可能なアイテムの入手確率。</li>",
-        "home_footer_text": "Schaleはlonqie#2708によって開発・運営されています。また、CanXue233、TKRotund、Yumiruuwuおよびakintosから翻訳の支援を受けています。\nSchaleはNexon、Nexon GamesおよびYostarとは一切関係ありません。当データベースで使用されているゲーム画像、情報ならびにアセットの所有権および著作権はそれぞれの権利者に帰属します。",
+        "home_footer_text": "Schaleはlonqieによって開発・運営されています。また、Blue-Roar、TKRotund、Yumiruuwuおよびakintosから翻訳の支援を受けています。\nSchaleはNexon、Nexon GamesおよびYostarとは一切関係ありません。当データベースで使用されているゲーム画像、情報ならびにアセットの所有権および著作権はそれぞれの権利者に帰属します。",
         "changelog": "更新履歴",
         "links": "リンク集",
         "community_resources": "コミュニティリソース",
@@ -934,6 +952,8 @@
         "level_difference": "レベル差補正",
         "hit_chance": "命中率",
         "crit_chance": "会心確率",
+        "hit_crit_chance": "命中率 / 会心確率",
+        "hit_chance_certain": "必中",
         "stab_variance": "安定値分散",
         "dmginfo_ignore_def": "防御力無視",
         "dmginfo_hit_avg": "1ヒット平均ダメージ",
@@ -954,7 +974,11 @@
         "dmginfo_heal_amount": "回復量",
         "dmginfo_shield_amount": "{0} HP",
         "dmginfo_cc_effect_chance": "{0} 付与確率",
-        "dmginfo_cc_effect_duration": "{0} 持続時間（ホドINSANE）",
-        "dmginfo_accumulation_limit": "{0} ダメージ上限"
+        "dmginfo_cc_effect_duration": "{0} 持続時間",
+        "dmginfo_cc_effect_gaugefill": "（ホドINSANE）",
+        "dmginfo_accumulation_limit": "{0} ダメージ上限",
+        "ordinal_1": "1st",
+        "ordinal_2": "2nd",
+        "ordinal_3": "3rd"
     }
 }

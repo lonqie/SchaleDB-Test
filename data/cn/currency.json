@@ -166,5 +166,21 @@
         "Icon": "Currency_Icon_WorldRaidCommonTicket",
         "Name": "联合作战票券ψ",
         "Desc": "可用于挑战特定联合作战的票券。"
+    },
+    {
+        "Id": 22,
+        "Category": "ChaserTotalTicket",
+        "Rarity": "N",
+        "Icon": "Currency_Icon_ChaserTotalTicket",
+        "Name": "悬赏通缉票券",
+        "Desc": "可用于挑战悬赏通缉的票券。"
+    },
+    {
+        "Id": 23,
+        "Category": "SchoolDungeonTotalTicket",
+        "Rarity": "N",
+        "Icon": "Currency_Icon_SchoolTotalTicket",
+        "Name": "学园交流会票券",
+        "Desc": "可用于参加学园交流会的票券。"
     }
 ]

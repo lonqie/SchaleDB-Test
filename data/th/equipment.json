@@ -48,7 +48,7 @@
     {
         "Id": 2,
         "Category": "Exp",
-        "Rarity": "N",
+        "Rarity": "R",
         "Tier": 0,
         "Icon": "Equipment_Icon_Exp_1",
         "Shops": [
@@ -94,7 +94,7 @@
     {
         "Id": 3,
         "Category": "Exp",
-        "Rarity": "N",
+        "Rarity": "SR",
         "Tier": 0,
         "Icon": "Equipment_Icon_Exp_2",
         "Shops": [
@@ -140,7 +140,7 @@
     {
         "Id": 4,
         "Category": "Exp",
-        "Rarity": "N",
+        "Rarity": "SSR",
         "Tier": 0,
         "Icon": "Equipment_Icon_Exp_3",
         "Shops": [
@@ -209,7 +209,7 @@
     {
         "Id": 11,
         "Category": "WeaponExpGrowthA",
-        "Rarity": "N",
+        "Rarity": "R",
         "Tier": 0,
         "Icon": "Equipment_Icon_WeaponExpGrowthA_1",
         "Shops": [],
@@ -232,7 +232,7 @@
     {
         "Id": 12,
         "Category": "WeaponExpGrowthA",
-        "Rarity": "N",
+        "Rarity": "SR",
         "Tier": 0,
         "Icon": "Equipment_Icon_WeaponExpGrowthA_2",
         "Shops": [],
@@ -255,7 +255,7 @@
     {
         "Id": 13,
         "Category": "WeaponExpGrowthA",
-        "Rarity": "N",
+        "Rarity": "SSR",
         "Tier": 0,
         "Icon": "Equipment_Icon_WeaponExpGrowthA_3",
         "Shops": [],
@@ -301,7 +301,7 @@
     {
         "Id": 21,
         "Category": "WeaponExpGrowthB",
-        "Rarity": "N",
+        "Rarity": "R",
         "Tier": 0,
         "Icon": "Equipment_Icon_WeaponExpGrowthB_1",
         "Shops": [],
@@ -324,7 +324,7 @@
     {
         "Id": 22,
         "Category": "WeaponExpGrowthB",
-        "Rarity": "N",
+        "Rarity": "SR",
         "Tier": 0,
         "Icon": "Equipment_Icon_WeaponExpGrowthB_2",
         "Shops": [],
@@ -347,7 +347,7 @@
     {
         "Id": 23,
         "Category": "WeaponExpGrowthB",
-        "Rarity": "N",
+        "Rarity": "SSR",
         "Tier": 0,
         "Icon": "Equipment_Icon_WeaponExpGrowthB_3",
         "Shops": [],
@@ -393,7 +393,7 @@
     {
         "Id": 31,
         "Category": "WeaponExpGrowthC",
-        "Rarity": "N",
+        "Rarity": "R",
         "Tier": 0,
         "Icon": "Equipment_Icon_WeaponExpGrowthC_1",
         "Shops": [],
@@ -416,7 +416,7 @@
     {
         "Id": 32,
         "Category": "WeaponExpGrowthC",
-        "Rarity": "N",
+        "Rarity": "SR",
         "Tier": 0,
         "Icon": "Equipment_Icon_WeaponExpGrowthC_2",
         "Shops": [],
@@ -439,7 +439,7 @@
     {
         "Id": 33,
         "Category": "WeaponExpGrowthC",
-        "Rarity": "N",
+        "Rarity": "SSR",
         "Tier": 0,
         "Icon": "Equipment_Icon_WeaponExpGrowthC_3",
         "Shops": [],
@@ -485,7 +485,7 @@
     {
         "Id": 41,
         "Category": "WeaponExpGrowthZ",
-        "Rarity": "N",
+        "Rarity": "R",
         "Tier": 0,
         "Icon": "Equipment_Icon_WeaponExpGrowthZ_1",
         "Shops": [
@@ -520,7 +520,7 @@
     {
         "Id": 42,
         "Category": "WeaponExpGrowthZ",
-        "Rarity": "N",
+        "Rarity": "SR",
         "Tier": 0,
         "Icon": "Equipment_Icon_WeaponExpGrowthZ_2",
         "Shops": [
@@ -555,7 +555,7 @@
     {
         "Id": 43,
         "Category": "WeaponExpGrowthZ",
-        "Rarity": "N",
+        "Rarity": "SSR",
         "Tier": 0,
         "Icon": "Equipment_Icon_WeaponExpGrowthZ_3",
         "Shops": [
@@ -839,6 +839,49 @@
         "RecipeCost": 100000
     },
     {
+        "Id": 1007,
+        "Category": "Hat",
+        "Rarity": "N",
+        "Tier": 8,
+        "Icon": "Equipment_Icon_Hat_Tier8",
+        "Shops": [],
+        "Name": "リーフリボン付き中折れ帽",
+        "Desc": "葉っぱの飾りがリボン状に差し込まれたファブリック素材の中折れ帽。リゾートファッションによく似合う。",
+        "IsReleased": [
+            true,
+            false
+        ],
+        "StatType": [
+            "AttackPower_Coefficient",
+            "CriticalDamageRate_Base"
+        ],
+        "StatValue": [
+            [
+                4100,
+                4500
+            ],
+            [
+                1800,
+                2000
+            ]
+        ],
+        "Recipe": [
+            [
+                101007,
+                40
+            ],
+            [
+                101005,
+                15
+            ],
+            [
+                101004,
+                5
+            ]
+        ],
+        "RecipeCost": 125000
+    },
+    {
         "Id": 2000,
         "Category": "Gloves",
         "Rarity": "N",
@@ -1100,6 +1143,54 @@
         "RecipeCost": 100000
     },
     {
+        "Id": 2007,
+        "Category": "Gloves",
+        "Rarity": "N",
+        "Tier": 8,
+        "Icon": "Equipment_Icon_Gloves_Tier8",
+        "Shops": [],
+        "Name": "パールヤーングローブ",
+        "Desc": "真珠の装飾が施されたヤーングローブ。指の部分は露出しているので、精巧な作業をするのにも問題ない。",
+        "IsReleased": [
+            true,
+            false
+        ],
+        "StatType": [
+            "AttackPower_Coefficient",
+            "CriticalPoint_Base",
+            "AccuracyPoint_Base"
+        ],
+        "StatValue": [
+            [
+                3600,
+                4000
+            ],
+            [
+                350,
+                370
+            ],
+            [
+                200,
+                220
+            ]
+        ],
+        "Recipe": [
+            [
+                102007,
+                40
+            ],
+            [
+                102005,
+                15
+            ],
+            [
+                102004,
+                5
+            ]
+        ],
+        "RecipeCost": 125000
+    },
+    {
         "Id": 3000,
         "Category": "Shoes",
         "Rarity": "N",
@@ -1351,6 +1442,49 @@
         "RecipeCost": 100000
     },
     {
+        "Id": 3007,
+        "Category": "Shoes",
+        "Rarity": "N",
+        "Tier": 8,
+        "Icon": "Equipment_Icon_Shoes_Tier8",
+        "Shops": [],
+        "Name": "防水登山ブーツ",
+        "Desc": "天然ゴムに防水コーティングを施した通気性と耐久性に優れた登山用ブーツ。水に落ちても表面は濡れない。",
+        "IsReleased": [
+            true,
+            false
+        ],
+        "StatType": [
+            "AttackPower_Coefficient",
+            "MaxHP_Coefficient"
+        ],
+        "StatValue": [
+            [
+                3100,
+                3500
+            ],
+            [
+                1350,
+                1500
+            ]
+        ],
+        "Recipe": [
+            [
+                103007,
+                40
+            ],
+            [
+                103005,
+                15
+            ],
+            [
+                103004,
+                5
+            ]
+        ],
+        "RecipeCost": 125000
+    },
+    {
         "Id": 4000,
         "Category": "Bag",
         "Rarity": "N",
@@ -1600,6 +1734,49 @@
             ]
         ],
         "RecipeCost": 100000
+    },
+    {
+        "Id": 4007,
+        "Category": "Bag",
+        "Rarity": "N",
+        "Tier": 8,
+        "Icon": "Equipment_Icon_Bag_Tier8",
+        "Shops": [],
+        "Name": "蝶柄のショルダーバッグ",
+        "Desc": "大きな蝶々が描かれたショルダーバッグ。軽い素材なので、旅行に持って行っても負担にならない。",
+        "IsReleased": [
+            true,
+            false
+        ],
+        "StatType": [
+            "MaxHP_Base",
+            "DefensePower_Base"
+        ],
+        "StatValue": [
+            [
+                7700,
+                9500
+            ],
+            [
+                1300,
+                1400
+            ]
+        ],
+        "Recipe": [
+            [
+                104007,
+                40
+            ],
+            [
+                104005,
+                15
+            ],
+            [
+                104004,
+                5
+            ]
+        ],
+        "RecipeCost": 125000
     },
     {
         "Id": 5000,
@@ -1873,6 +2050,59 @@
         "RecipeCost": 100000
     },
     {
+        "Id": 5007,
+        "Category": "Badge",
+        "Rarity": "N",
+        "Tier": 8,
+        "Icon": "Equipment_Icon_Badge_Tier8",
+        "Shops": [],
+        "Name": "ローレライバッジ",
+        "Desc": "モダンファッションブランド「ローレライ」から発売されたバッジ。無垢材に精巧な加工を施しているため、表面が滑らかで良い香りがするという。",
+        "IsReleased": [
+            true,
+            false
+        ],
+        "StatType": [
+            "MaxHP_Base",
+            "HealEffectivenessRate_Base",
+            "MaxHP_Coefficient",
+            "DodgePoint_Base"
+        ],
+        "StatValue": [
+            [
+                9700,
+                12000
+            ],
+            [
+                3200,
+                3400
+            ],
+            [
+                2250,
+                2400
+            ],
+            [
+                410,
+                450
+            ]
+        ],
+        "Recipe": [
+            [
+                105007,
+                40
+            ],
+            [
+                105005,
+                15
+            ],
+            [
+                105004,
+                5
+            ]
+        ],
+        "RecipeCost": 125000
+    },
+    {
         "Id": 6000,
         "Category": "Hairpin",
         "Rarity": "N",
@@ -2122,6 +2352,49 @@
             ]
         ],
         "RecipeCost": 100000
+    },
+    {
+        "Id": 6007,
+        "Category": "Hairpin",
+        "Rarity": "N",
+        "Tier": 8,
+        "Icon": "Equipment_Icon_Hairpin_Tier8",
+        "Shops": [],
+        "Name": "リーフヘアピン",
+        "Desc": "葉っぱの形をしたヘアピン。普段使いには少し難しいが、オシャレをした日につけると良いだろう。",
+        "IsReleased": [
+            true,
+            false
+        ],
+        "StatType": [
+            "MaxHP_Base",
+            "OppressionResist_Coefficient"
+        ],
+        "StatValue": [
+            [
+                6700,
+                8500
+            ],
+            [
+                2900,
+                3200
+            ]
+        ],
+        "Recipe": [
+            [
+                106007,
+                40
+            ],
+            [
+                106005,
+                15
+            ],
+            [
+                106004,
+                5
+            ]
+        ],
+        "RecipeCost": 125000
     },
     {
         "Id": 7000,
@@ -2390,6 +2663,54 @@
         "RecipeCost": 100000
     },
     {
+        "Id": 7007,
+        "Category": "Charm",
+        "Rarity": "N",
+        "Tier": 8,
+        "Icon": "Equipment_Icon_Charm_Tier8",
+        "Shops": [],
+        "Name": "ドリームキャッチャー",
+        "Desc": "悪夢を消してくれるという呪術的な意味を持つものである。匂いを嗅ぐと、木特有の良い香りがする。",
+        "IsReleased": [
+            true,
+            false
+        ],
+        "StatType": [
+            "CriticalChanceResistPoint_Base",
+            "CriticalDamageResistRate_Base",
+            "CriticalPoint_Base"
+        ],
+        "StatValue": [
+            [
+                365,
+                380
+            ],
+            [
+                2200,
+                2400
+            ],
+            [
+                185,
+                200
+            ]
+        ],
+        "Recipe": [
+            [
+                107007,
+                40
+            ],
+            [
+                107005,
+                15
+            ],
+            [
+                107004,
+                5
+            ]
+        ],
+        "RecipeCost": 125000
+    },
+    {
         "Id": 8000,
         "Category": "Watch",
         "Rarity": "N",
@@ -2654,6 +2975,54 @@
             ]
         ],
         "RecipeCost": 100000
+    },
+    {
+        "Id": 8007,
+        "Category": "Watch",
+        "Rarity": "N",
+        "Tier": 8,
+        "Icon": "Equipment_Icon_Watch_Tier8",
+        "Shops": [],
+        "Name": "ローレライの腕時計",
+        "Desc": "モダンファッションブランド「ローレライ」から発売された腕時計。木と革を使用した洗練されたデザインが独特な雰囲気を醸し出している。",
+        "IsReleased": [
+            true,
+            false
+        ],
+        "StatType": [
+            "CriticalPoint_Base",
+            "CriticalDamageRate_Base",
+            "MaxHP_Coefficient"
+        ],
+        "StatValue": [
+            [
+                370,
+                400
+            ],
+            [
+                2200,
+                2400
+            ],
+            [
+                950,
+                1100
+            ]
+        ],
+        "Recipe": [
+            [
+                108007,
+                40
+            ],
+            [
+                108005,
+                15
+            ],
+            [
+                108004,
+                5
+            ]
+        ],
+        "RecipeCost": 125000
     },
     {
         "Id": 9000,
@@ -2937,6 +3306,54 @@
         "RecipeCost": 100000
     },
     {
+        "Id": 9007,
+        "Category": "Necklace",
+        "Rarity": "N",
+        "Tier": 8,
+        "Icon": "Equipment_Icon_Necklace_Tier8",
+        "Shops": [],
+        "Name": "グリーンリーフネックレス",
+        "Desc": "モダンファッションブランド「ローレライ」から発売されたネックレス。 光を受けると葉っぱにほのかな光沢が出るという。",
+        "IsReleased": [
+            true,
+            false
+        ],
+        "StatType": [
+            "HealPower_Coefficient",
+            "OppressionPower_Coefficient",
+            "AttackPower_Coefficient"
+        ],
+        "StatValue": [
+            [
+                3600,
+                3800
+            ],
+            [
+                3600,
+                3800
+            ],
+            [
+                850,
+                1000
+            ]
+        ],
+        "Recipe": [
+            [
+                109007,
+                40
+            ],
+            [
+                109005,
+                15
+            ],
+            [
+                109004,
+                5
+            ]
+        ],
+        "RecipeCost": 125000
+    },
+    {
         "Id": 101001,
         "Category": "Hat",
         "Rarity": "N",
@@ -3063,6 +3480,29 @@
         "IsReleased": [
             true,
             true
+        ],
+        "StatType": [
+            "AttackPower_Base"
+        ],
+        "StatValue": [
+            [
+                1,
+                1
+            ]
+        ]
+    },
+    {
+        "Id": 101007,
+        "Category": "Hat",
+        "Rarity": "N",
+        "Tier": 8,
+        "Icon": "Equipment_Icon_Hat_Tier8_Piece",
+        "Shops": [],
+        "Name": "リーフリボン付き中折れ帽の設計図",
+        "Desc": "装備を作ることができる図面。",
+        "IsReleased": [
+            true,
+            false
         ],
         "StatType": [
             "AttackPower_Base"
@@ -3213,6 +3653,29 @@
         ]
     },
     {
+        "Id": 102007,
+        "Category": "Gloves",
+        "Rarity": "N",
+        "Tier": 8,
+        "Icon": "Equipment_Icon_Gloves_Tier8_Piece",
+        "Shops": [],
+        "Name": "パールヤーングローブの設計図",
+        "Desc": "装備を作ることができる図面。",
+        "IsReleased": [
+            true,
+            false
+        ],
+        "StatType": [
+            "AttackPower_Base"
+        ],
+        "StatValue": [
+            [
+                1,
+                1
+            ]
+        ]
+    },
+    {
         "Id": 103001,
         "Category": "Shoes",
         "Rarity": "N",
@@ -3339,6 +3802,29 @@
         "IsReleased": [
             true,
             true
+        ],
+        "StatType": [
+            "AttackPower_Base"
+        ],
+        "StatValue": [
+            [
+                1,
+                1
+            ]
+        ]
+    },
+    {
+        "Id": 103007,
+        "Category": "Shoes",
+        "Rarity": "N",
+        "Tier": 8,
+        "Icon": "Equipment_Icon_Shoes_Tier8_Piece",
+        "Shops": [],
+        "Name": "防水登山ブーツの設計図",
+        "Desc": "装備を作ることができる図面。",
+        "IsReleased": [
+            true,
+            false
         ],
         "StatType": [
             "AttackPower_Base"
@@ -3489,6 +3975,29 @@
         ]
     },
     {
+        "Id": 104007,
+        "Category": "Bag",
+        "Rarity": "N",
+        "Tier": 8,
+        "Icon": "Equipment_Icon_Bag_Tier8_Piece",
+        "Shops": [],
+        "Name": "蝶柄のショルダーバッグの設計図",
+        "Desc": "装備を作ることができる図面。",
+        "IsReleased": [
+            true,
+            false
+        ],
+        "StatType": [
+            "AttackPower_Base"
+        ],
+        "StatValue": [
+            [
+                1,
+                1
+            ]
+        ]
+    },
+    {
         "Id": 105001,
         "Category": "Badge",
         "Rarity": "N",
@@ -3615,6 +4124,29 @@
         "IsReleased": [
             true,
             true
+        ],
+        "StatType": [
+            "AttackPower_Base"
+        ],
+        "StatValue": [
+            [
+                1,
+                1
+            ]
+        ]
+    },
+    {
+        "Id": 105007,
+        "Category": "Badge",
+        "Rarity": "N",
+        "Tier": 8,
+        "Icon": "Equipment_Icon_Badge_Tier8_Piece",
+        "Shops": [],
+        "Name": "ローレライバッジの設計図",
+        "Desc": "装備を作ることができる図面。",
+        "IsReleased": [
+            true,
+            false
         ],
         "StatType": [
             "AttackPower_Base"
@@ -3765,6 +4297,29 @@
         ]
     },
     {
+        "Id": 106007,
+        "Category": "Hairpin",
+        "Rarity": "N",
+        "Tier": 8,
+        "Icon": "Equipment_Icon_Hairpin_Tier8_Piece",
+        "Shops": [],
+        "Name": "リーフヘアピンの設計図",
+        "Desc": "装備を作ることができる図面。",
+        "IsReleased": [
+            true,
+            false
+        ],
+        "StatType": [
+            "AttackPower_Base"
+        ],
+        "StatValue": [
+            [
+                1,
+                1
+            ]
+        ]
+    },
+    {
         "Id": 107001,
         "Category": "Charm",
         "Rarity": "N",
@@ -3891,6 +4446,29 @@
         "IsReleased": [
             true,
             true
+        ],
+        "StatType": [
+            "AttackPower_Base"
+        ],
+        "StatValue": [
+            [
+                1,
+                1
+            ]
+        ]
+    },
+    {
+        "Id": 107007,
+        "Category": "Charm",
+        "Rarity": "N",
+        "Tier": 8,
+        "Icon": "Equipment_Icon_Charm_Tier8_Piece",
+        "Shops": [],
+        "Name": "ドリームキャッチャーの設計図",
+        "Desc": "装備を作ることができる図面。",
+        "IsReleased": [
+            true,
+            false
         ],
         "StatType": [
             "AttackPower_Base"
@@ -4041,6 +4619,29 @@
         ]
     },
     {
+        "Id": 108007,
+        "Category": "Watch",
+        "Rarity": "N",
+        "Tier": 8,
+        "Icon": "Equipment_Icon_Watch_Tier8_Piece",
+        "Shops": [],
+        "Name": "ローレライの腕時計の設計図",
+        "Desc": "装備を作ることができる図面。",
+        "IsReleased": [
+            true,
+            false
+        ],
+        "StatType": [
+            "AttackPower_Base"
+        ],
+        "StatValue": [
+            [
+                1,
+                1
+            ]
+        ]
+    },
+    {
         "Id": 109001,
         "Category": "Necklace",
         "Rarity": "N",
@@ -4167,6 +4768,29 @@
         "IsReleased": [
             true,
             true
+        ],
+        "StatType": [
+            "AttackPower_Base"
+        ],
+        "StatValue": [
+            [
+                1,
+                1
+            ]
+        ]
+    },
+    {
+        "Id": 109007,
+        "Category": "Necklace",
+        "Rarity": "N",
+        "Tier": 8,
+        "Icon": "Equipment_Icon_Necklace_Tier8_Piece",
+        "Shops": [],
+        "Name": "グリーンリーフネックレスの設計図",
+        "Desc": "装備を作ることができる図面。",
+        "IsReleased": [
+            true,
+            false
         ],
         "StatType": [
             "AttackPower_Base"
