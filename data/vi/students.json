@@ -68458,7 +68458,7 @@
                                 1,
                                 2
                             ],
-                            "SliderTranslation": "ui,target_currenthp",
+                            "SliderTranslation": "ui,skill_target_hp",
                             "SliderStep": [
                                 0.01
                             ],
@@ -68496,40 +68496,7 @@
                             227002,
                             239159
                         ]
-                    },
-                    {
-                        "Type": "DMGMulti",
-                        "CriticalCheck": "Always",
-                        "Hits": [
-                            500,
-                            500,
-                            500,
-                            500,
-                            500,
-                            500,
-                            500,
-                            500,
-                            500,
-                            500,
-                            5000
-                        ],
-                        "HitsParameter": 1,
-                        "Scale": [
-                            162142,
-                            186468,
-                            235106,
-                            259434,
-                            308072,
-                            332400,
-                            381038,
-                            405352,
-                            454004,
-                            478318
-                        ]
                     }
-                ],
-                "EffectCombine": [
-                    "DMGMulti"
                 ],
                 "EffectCombineLabel": {
                     "StackLabel": [
