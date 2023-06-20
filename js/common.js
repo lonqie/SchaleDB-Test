@@ -3936,7 +3936,7 @@ function setGridItemDisplayStyle(style) {
 function renderStudent() {
 
     showAltSprite = false
-    //$('#ba-student-img').attr('src', `images/student/portrait/Portrait_${student.DevName}.webp`)
+    $('#ba-student-img').attr('src', `images/student/portrait/Portrait_${student.DevName}.webp`)
     let bgimg = new Image()
     bgimg.onload = function(){
         $("#ba-background").css('background-image', `url('${bgimg.src}')`)
@@ -4121,8 +4121,7 @@ function renderStudent() {
     $('#ba-student-profile-hobbies').html(getTranslatedString(student,'Hobby'))
     $('#ba-student-profile-height').html(student.CharHeightMetric)
     $('#ba-student-profile-cv').html(getTranslatedString(student,'CharacterVoice'))
-    $('#ba-student-profile-designer').html(student.Designer)
-    $('#ba-student-profile-illustrator').html(student.Illustrator)
+    $('#ba-student-profile-illustrator').html(student.ArtistName)
 
     $('#ba-student-toggle-sprite-btn').toggle(altSprite.includes(student.Id))
 

@@ -8687,8 +8687,8 @@
         ],
         "Shops": [],
         "Icon": "Item_Icon_SecretStone_CH0184",
-        "Name": "Yuuka (Track)&#x27;s Eleph",
-        "Desc": "The mystical Eleph of Yuuka (Track)."
+        "Name": "Yuuka (Tracksuit)&#x27;s Eleph",
+        "Desc": "The mystical Eleph of Yuuka (Tracksuit)."
     },
     {
         "Id": 10054,
@@ -8704,8 +8704,8 @@
         ],
         "Shops": [],
         "Icon": "Item_Icon_SecretStone_CH0186",
-        "Name": "Mari (Track)&#x27;s Eleph",
-        "Desc": "The mystical Eleph of Mari (Track)."
+        "Name": "Mari (Tracksuit)&#x27;s Eleph",
+        "Desc": "The mystical Eleph of Mari (Tracksuit)."
     },
     {
         "Id": 10055,
@@ -9318,8 +9318,8 @@
         ],
         "Shops": [],
         "Icon": "Item_Icon_SecretStone_CH0190",
-        "Name": "Hasumi (Track)&#x27;s Eleph",
-        "Desc": "The mystical Eleph of Hasumi (Track)."
+        "Name": "Hasumi (Tracksuit)&#x27;s Eleph",
+        "Desc": "The mystical Eleph of Hasumi (Tracksuit)."
     },
     {
         "Id": 16012,
