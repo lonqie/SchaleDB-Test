@@ -4362,7 +4362,7 @@
         "Desc": "ที่แขวนกิโมโน สร้างจากไม้คุณภาพสูง\nมีกิโมโนจากผ้าไหมลายดอกไม้แขวนอยู่",
         "Interaction": [
             true,
-            false
+            true
         ]
     },
     {
@@ -4393,7 +4393,7 @@
         "Desc": "โต๊ะที่มีอาหารปีใหม่วางไว้เต็มโต๊ะ ต้อนรับปีใหม่ด้วยอาหารอร่อยๆ กันเถอะ!",
         "Interaction": [
             true,
-            false
+            true
         ]
     },
     {
@@ -6871,8 +6871,8 @@
         ],
         "SubCategory": "WallDecoration",
         "SetGroupId": 110,
-        "Name": "アビドス教室の黒板",
-        "Desc": "キレイに片付けられている黒板。なにかちょっと落書きしたくなる。",
+        "Name": "กระดานดำ ห้องเรียนอะบิดอส",
+        "Desc": "กระดานดำในห้องเรียนที่สะอาดหมดจด จนอยากจะขีดเขียนลงไปสักหน่อย",
         "Interaction": [
             false,
             false
@@ -6900,8 +6900,8 @@
         ],
         "SubCategory": "Closet",
         "SetGroupId": 110,
-        "Name": "アビドス教室の生徒用ロッカー",
-        "Desc": "アビドスの生徒に与えられるロッカー。内部を飾るのは各自の自由。",
+        "Name": "ตู้ของนักเรียน ห้องเรียนอะบิดอส",
+        "Desc": "ตู้สำหรับเก็บของของนักเรียนอะบิดอส ที่สามารถสนุกกับตกแต่งภายในได้อย่างอิสระ",
         "Interaction": [
             false,
             false
@@ -6929,8 +6929,8 @@
         ],
         "SubCategory": "Closet",
         "SetGroupId": 110,
-        "Name": "アビドス教室の収納ケース",
-        "Desc": "教室に必要なものを収納できる収納ケース。色の配分が可愛い。",
+        "Name": "ชั้นวางของ ห้องเรียนอะบิดอส",
+        "Desc": "ชั้นวางของที่ใช้เก็บของที่จำเป็นในห้องเรียน จับคู่สีได้น่ารัก",
         "Interaction": [
             false,
             false
@@ -6958,8 +6958,8 @@
         ],
         "SubCategory": "Chair",
         "SetGroupId": 110,
-        "Name": "アビドス教室の椅子",
-        "Desc": "すっきりした外観が印象的な教室の椅子。机を少し移せば友達と並んで座ることができる。",
+        "Name": "เก้าอี้ ห้องเรียนอะบิดอส",
+        "Desc": "เก้าอี้ที่ดูสะอาดสะอ้านสำหรับใช้ในห้องเรียน ถ้าขยับโต๊ะอีกนิดก็จะนั่งเรียงต่อกับเพื่อนได้",
         "Interaction": [
             false,
             false
@@ -6987,8 +6987,8 @@
         ],
         "SubCategory": "WallDecoration",
         "SetGroupId": 110,
-        "Name": "アビドス教室の壁掛け時計",
-        "Desc": "すっきりとしたデザインの壁掛け時計。ランチタイムが始る前の1分1秒を争う生徒たちにとって重要なもの。",
+        "Name": "นาฬิกาติดผนัง ห้องเรียนอะบิดอส",
+        "Desc": "นาฬิกาติดผนังในห้องเรียนที่มีดีไซน์เรียบง่าย ถือเป็นของสำคัญสำหรับนักเรียนที่แข่งกัน เพื่อชิงเวลาพักเที่ยง",
         "Interaction": [
             false,
             false
@@ -7016,8 +7016,8 @@
         ],
         "SubCategory": "Table",
         "SetGroupId": 110,
-        "Name": "アビドス教室のお弁当が置かれた机",
-        "Desc": "誰かの温かい気持ちのこもったお弁当が置かれた机。食事の時間はまだ遠い。",
+        "Name": "ชุดโต๊ะที่มีกล่องข้าว ห้องเรียนอะบิดอส",
+        "Desc": "ชุดโต๊ะที่มีกล่องข้าวที่อบอวลไปด้วยจิตใจอันอบอุ่น ของใครบางคนวางเอาไว้ ยังอีกนานกว่าจะถึงเวลาพักกินข้าวเที่ยง",
         "Interaction": [
             false,
             false
@@ -7045,8 +7045,8 @@
         ],
         "SubCategory": "FloorDecoration",
         "SetGroupId": 110,
-        "Name": "アビドス教室の床",
-        "Desc": "ベージュ色が印象的な教室の床。滑りにくい仕様で安全だ。",
+        "Name": "พื้นห้องเรียนอะบิดอส",
+        "Desc": "พื้นสีเบจที่น่าประทับใจสำหรับปูในห้องเรียน เหยียบแล้วไม่ลื่นและปลอดภัย",
         "Interaction": [
             false,
             false
@@ -7074,8 +7074,8 @@
         ],
         "SubCategory": "Prop",
         "SetGroupId": 110,
-        "Name": "アビドス教室の廊下パーテーション",
-        "Desc": "スペースを効率的に分けられる教室のパーテーション。楽しい状況を演出できる。",
+        "Name": "ฉากกั้นทางเดิน ห้องเรียนอะบิดอส",
+        "Desc": "ฉากกั้นที่ใช้แบ่งพื้นที่ในห้องเรียนได้อย่างมีประสิทธิภาพ ใช้แสดงภาพเหตุการณ์สนุกๆ",
         "Interaction": [
             false,
             false
@@ -7103,8 +7103,8 @@
         ],
         "SubCategory": "WallDecoration",
         "SetGroupId": 110,
-        "Name": "アビドス教室の壁掛けスピーカー",
-        "Desc": "クラシックなデザインの教室の壁掛けスピーカー。予想よりも音が力強い。",
+        "Name": "ลำโพงติดผนัง ห้องเรียนอะบิดอส",
+        "Desc": "ลำโพงติดผนังในห้องเรียนที่มีดีไซน์คลาสสิก เสียงดังชัดเจนกว่าที่คาดไว้",
         "Interaction": [
             false,
             false
@@ -7132,8 +7132,8 @@
         ],
         "SubCategory": "WallDecoration",
         "SetGroupId": 110,
-        "Name": "アビドス教室の柱",
-        "Desc": "パーテーションとマッチする教室の柱。鮮やかな色が印象的だ。",
+        "Name": "เสาในห้องเรียนอะบิดอส",
+        "Desc": "เสาในห้องเรียนที่ใช้คู่กับฉากกั้น มีสีสันสดใสที่น่าประทับใจ",
         "Interaction": [
             false,
             false
@@ -7161,8 +7161,8 @@
         ],
         "SubCategory": "WallDecoration",
         "SetGroupId": 110,
-        "Name": "アビドス教室のスケジュール黒板",
-        "Desc": "学校のスケジュールを一目で見ることができる黒板。毎日新しい日程でいっぱいだ。",
+        "Name": "กระดานตารางเวลา ห้องเรียนอะบิดอส",
+        "Desc": "กระดานแจ้งตารางเวลาของห้องเรียนได้อย่างครบถ้วน มีตารางเวลาใหม่ของแต่ละวันติดอยู่เต็ม",
         "Interaction": [
             false,
             false
@@ -7190,8 +7190,8 @@
         ],
         "SubCategory": "WallDecoration",
         "SetGroupId": 110,
-        "Name": "アビドス教室のキャンペーン黒板",
-        "Desc": "学校のキャンペーンを閲覧できる黒板。積極的な生徒たちの表情を垣間見ることができる。",
+        "Name": "กระดานกิจกรรม ห้องเรียนอะบิดอส",
+        "Desc": "กระดานแจ้งกิจกรรมในห้องเรียน มาส่องภาพนักเรียนที่ดูกระฉับกระเฉงได้ที่นี่",
         "Interaction": [
             false,
             false
@@ -7219,8 +7219,8 @@
         ],
         "SubCategory": "Closet",
         "SetGroupId": 110,
-        "Name": "アビドス教室の掃除道具箱",
-        "Desc": "清潔さは生徒の美徳。アビドスの清掃道具箱は何でも揃っている。",
+        "Name": "ตู้เก็บอุปกรณ์ทำความสะอาด ห้องเรียนอะบิดอส",
+        "Desc": "ความสะอาดคือคุณค่าของนักเรียน ตู้นี้มีอุปกรณ์ทำความสะอาดห้องเรียนในอะบิดอสครบทุกอย่าง",
         "Interaction": [
             false,
             false
@@ -7248,8 +7248,8 @@
         ],
         "SubCategory": "Closet",
         "SetGroupId": 110,
-        "Name": "アビドス教室の先生用ロッカー",
-        "Desc": "先生だけのための教室ロッカー。それぞれの記念日にはロッカーがしばしば溢れたりも？",
+        "Name": "ตู้ของคุณครู ห้องเรียนอะบิดอส",
+        "Desc": "ตู้ในห้องเรียนสำหรับคุณครูเท่านั้น ของมักจะล้นตู้ในช่วงวันสำคัญต่างๆ งั้นเหรอ?",
         "Interaction": [
             false,
             false
@@ -7278,8 +7278,8 @@
         ],
         "SubCategory": "Table",
         "SetGroupId": 110,
-        "Name": "アビドス教室のカーディガンが置かれた机",
-        "Desc": "黄色いカーディガンが掛かっている机。温厚な上、何だか豊かな気品が感じられる。",
+        "Name": "ชุดโต๊ะที่มีเสื้อแคนดิแกน ห้องเรียนอะบิดอส",
+        "Desc": "ชุดโต๊ะที่มีเสื้อแคนดิแกนสีเหลืองพาดไว้ นอกจากจะดูอบอุ่นแล้ว ยังรู้สึกได้ถึงความรวยด้วย",
         "Interaction": [
             true,
             false
@@ -7308,8 +7308,8 @@
         ],
         "SubCategory": "Table",
         "SetGroupId": 110,
-        "Name": "アビドス教室のクジラ人形が置かれた机",
-        "Desc": "かわいいクジラの人形が置かれた机。何だかゆったりとした気分が味わえる。",
+        "Name": "ชุดโต๊ะที่มีตุ๊กตาปลาวาฬ ห้องเรียนอะบิดอส",
+        "Desc": "ชุดโต๊ะที่มีตุ๊กตาวาฬสุดน่ารักวางไว้ ให้ความรู้สึกผ่อนคลายบางอย่าง",
         "Interaction": [
             true,
             false
@@ -7338,8 +7338,8 @@
         ],
         "SubCategory": "Table",
         "SetGroupId": 110,
-        "Name": "アビドス教室のメガネが置かれた机",
-        "Desc": "赤い縁のメガネが置かれた机。丁寧で信頼できる持ち主の机だ。",
+        "Name": "ชุดโต๊ะที่มีแว่นตา ห้องเรียนอะบิดอส",
+        "Desc": "ชุดโต๊ะที่มีแว่นตาสีแดงวางไว้ เจ้าของโต๊ะนี้เป็นคนละเอียดรอบคอบ และน่าเชื่อถือ",
         "Interaction": [
             true,
             false
@@ -7368,8 +7368,8 @@
         ],
         "SubCategory": "Table",
         "SetGroupId": 110,
-        "Name": "アビドス教室の覆面が置かれた机",
-        "Desc": "覆面が置かれた机。凡庸でないオーラが感じられる。",
+        "Name": "ชุดโต๊ะที่มีหน้ากาก ห้องเรียนอะบิดอส",
+        "Desc": "ชุดโต๊ะที่มีหน้ากากวางไว้ รู้สึกได้ถึงความไม่ธรรมดา",
         "Interaction": [
             true,
             false
@@ -7398,8 +7398,8 @@
         ],
         "SubCategory": "Table",
         "SetGroupId": 110,
-        "Name": "アビドス教室のリボンと手袋が置かれた机",
-        "Desc": "リボンと手袋が置かれた机。この机の持ち主なら重要なことも任せられそうだ。",
+        "Name": "ชุดโต๊ะที่มีริบบิ้นกับถุงมือ ห้องเรียนอะบิดอส",
+        "Desc": "ชุดโต๊ะที่มีริบบิ้นกับถุงมือวางไว้ เจ้าของโต๊ะตัวนี้น่าจะสามารถฝากงานสำคัญไว้ได้",
         "Interaction": [
             true,
             false
@@ -7427,8 +7427,8 @@
         ],
         "SubCategory": "Table",
         "SetGroupId": 110,
-        "Name": "アビドス教室の大きなバッグが置かれた机",
-        "Desc": "大きなバックが置かれた机。どうしたことか持ち主は長い間席に戻ってきてないようだ。",
+        "Name": "โต๊ะที่มีกระเป๋าใบใหญ่ ห้องเรียนอะบิดอส",
+        "Desc": "โต๊ะที่มีกระเป๋าใบใหญ่วางไว้ ดูเหมือนว่าเจ้าของจะไม่ได้ปรากฏตัวมานานแล้ว",
         "Interaction": [
             false,
             false
@@ -7456,8 +7456,8 @@
         ],
         "SubCategory": "Prop",
         "SetGroupId": 110,
-        "Name": "アビドス教室のガンスタンド",
-        "Desc": "生徒たちの最も大切な物の一つである銃器が置かれたスタンド。クラスで一番目立つ存在。",
+        "Name": "ที่วางปืนในห้องเรียนอะบิดอส",
+        "Desc": "ที่วางปืนที่เป็นสมบัติสุดล้ำค่าของเหล่านักเรียน ถือเป็นของที่เด่นที่สุดในห้อง",
         "Interaction": [
             false,
             false
@@ -7485,8 +7485,8 @@
         ],
         "SubCategory": "Prop",
         "SetGroupId": 110,
-        "Name": "アビドス教室のボードパーテーション",
-        "Desc": "情報伝達と空間分離をひとつにまとめた驚くべき発明品。居心地の良さと可愛さを同時に。",
+        "Name": "ฉากกั้นพร้อมบอร์ด ห้องเรียนอะบิดอส",
+        "Desc": "สิ่งประดิษฐ์ที่ใช้แจ้งข่าวสารและกั้นพื้นที่ได้ในคราวเดียว ทำให้รู้สึกน่าอยู่และน่ารักไปพร้อมกัน",
         "Interaction": [
             false,
             false
@@ -7514,8 +7514,8 @@
         ],
         "SubCategory": "Table",
         "SetGroupId": 110,
-        "Name": "アビドス教室の先生のデスク",
-        "Desc": "生徒を指導する先生のデスク。生徒たちが持ってきてくれた香しい花と手紙でいっぱいだ。",
+        "Name": "โต๊ะคุณครู ห้องเรียนอะบิดอส",
+        "Desc": "โต๊ะของคุณครูที่คอยแนะนำเหล่านักเรียน เต็มไปด้วยจดหมาย และดอกไม้กลิ่นหอมที่นักเรียนมอบให้",
         "Interaction": [
             false,
             false
@@ -7543,8 +7543,8 @@
         ],
         "SubCategory": "WallDecoration",
         "SetGroupId": 110,
-        "Name": "アビドス教室のロゴフレーム",
-        "Desc": "アビドス教室のロゴフレーム。アビドスの象徴だ。",
+        "Name": "กรอบรูปโลโก้ ห้องเรียนอะบิดอส",
+        "Desc": "กรอบรูปโลโก้สัญลักษณ์ของอะบิดอสที่ติดไว้ในห้องเรียน",
         "Interaction": [
             false,
             false
@@ -7572,8 +7572,8 @@
         ],
         "SubCategory": "WallDecoration",
         "SetGroupId": 110,
-        "Name": "アビドス教室の学級目標",
-        "Desc": "お金に対する強い意志が感じられる世俗的ながらも現実的な学級目標。見る者に意志を湧かせる。",
+        "Name": "คำขวัญห้องเรียนอะบิดอส",
+        "Desc": "คำขวัญธรรมดาที่ปฏิบัติได้จริง สัมผัสได้ถึงความตั้งใจอันแรงกล้าเกี่ยวกับเงิน เพิ่มความตั้งใจให้ผู้ที่พบเห็น",
         "Interaction": [
             false,
             false
@@ -7601,8 +7601,8 @@
         ],
         "SubCategory": "Prop",
         "SetGroupId": 110,
-        "Name": "アビドス教室の分別ボックス",
-        "Desc": "色ごとにわかりやすく作られた分別ボックス。かわいい色でインテリア効果はおまけ。",
+        "Name": "ถังแยกขยะ ห้องเรียนอะบิดอส",
+        "Desc": "ถังขยะแยกสีที่ทำขึ้นอย่างเรียบง่าย และตกแต่งด้วยสีสันน่ารัก",
         "Interaction": [
             false,
             false
@@ -7630,8 +7630,8 @@
         ],
         "SubCategory": "Prop",
         "SetGroupId": 110,
-        "Name": "アビドス教室のホワイトボード",
-        "Desc": "混沌と計画が一箇所に集まったホワイトボード。誰かには無限の画用紙。誰かには計画書。",
+        "Name": "ไวท์บอร์ด ห้องเรียนอะบิดอส",
+        "Desc": "ไวท์บอร์ดที่รวมแผนการและเหตุวุ่นวายไว้ในที่เดียว สำหรับใครบางคนอาจเป็นภาพวาดที่ไม่มีสิ้นสุด และสำหรับใครอีกคนอาจเป็นแผนการ",
         "Interaction": [
             false,
             false
@@ -7659,8 +7659,8 @@
         ],
         "SubCategory": "Background",
         "SetGroupId": 110,
-        "Name": "アビドス教室の背景",
-        "Desc": "学生時代のロマンと熾烈さで満ちた教室の背景。",
+        "Name": "พื้นหลัง ห้องเรียนอะบิดอส",
+        "Desc": "พื้นหลังของห้องเรียนที่เต็มไปด้วยความโรแมนติก และความคึกคักของวัยเรียน",
         "Interaction": [
             false,
             false
@@ -7688,8 +7688,8 @@
         ],
         "SubCategory": "Floor",
         "SetGroupId": 110,
-        "Name": "アビドス教室のタイルの床",
-        "Desc": "木材が織り成された教室のタイルの床。穏やかな雰囲気を作ってくれる。",
+        "Name": "พื้นห้องเรียนอะบิดอส",
+        "Desc": "พื้นในห้องเรียนอะบิดอสจากท่อนไม้ที่เรียงประสานกัน ทำให้เกิดบรรยากาศอบอุ่น",
         "Interaction": [
             false,
             false
@@ -7717,8 +7717,8 @@
         ],
         "SubCategory": "Wallpaper",
         "SetGroupId": 110,
-        "Name": "アビドス教室の壁",
-        "Desc": "教室の柱とマッチする教室の壁。明るく晴れた感じがする。",
+        "Name": "กำแพง ห้องเรียนอะบิดอส",
+        "Desc": "กำแพงในห้องเรียนที่ใช้คู่กับเสา ให้บรรยากาศสดชื่นแจ่มใส",
         "Interaction": [
             false,
             false
@@ -7746,8 +7746,8 @@
         ],
         "SubCategory": "Closet",
         "SetGroupId": 110,
-        "Name": "アビドス教室の本棚",
-        "Desc": "実戦に強くなれるガイドブックなどが並ぶ教室の本棚。生徒たちの思い出もある。",
+        "Name": "ตู้หนังสือ ห้องเรียนอะบิดอส",
+        "Desc": "ตู้หนังสือที่อัดแน่นด้วยเคล็ดลับการต่อสู้ที่แท้จริง มีความทรงจำของเหล่านักเรียนรวมอยู่ด้วย",
         "Interaction": [
             false,
             false
@@ -7776,8 +7776,8 @@
         ],
         "SubCategory": "Prop",
         "SetGroupId": 110,
-        "Name": "アビドス教室の自転車",
-        "Desc": "アクティブな持ち主が乗って通いそうな自転車。自転車から活力と落ち着きが同時に感じられる。",
+        "Name": "จักรยาน ห้องเรียนอะบิดอส",
+        "Desc": "จักรยานที่เจ้าของที่เป็นคนแอคทีฟควรขี่ เมื่อขี่จะรู้สึกได้ถึงความมีชีวิตชีวา และความสงบในคราวเดียว",
         "Interaction": [
             true,
             false
@@ -7805,8 +7805,8 @@
         ],
         "SubCategory": "Prop",
         "SetGroupId": 110,
-        "Name": "アビドス教室のパーテーション",
-        "Desc": "スペースを効率的に分割する一般的なパーテーション。広いスペースを区別するのに便利です。",
+        "Name": "ฉากกั้นทั่วไป ห้องเรียนอะบิดอส",
+        "Desc": "ฉากกั้นทั่วไปที่ใช้แบ่งพื้นที่ได้อย่างมีประสิทธิภาพ ใช้แบ่งพื้นที่ขนาดใหญ่ได้ดี",
         "Interaction": [
             false,
             false
@@ -7834,8 +7834,8 @@
         ],
         "SubCategory": "Table",
         "SetGroupId": 110,
-        "Name": "アビドス教室の教卓",
-        "Desc": "生徒の注目を一目で受けることができる教託。眺める目はたくさんですが、席の所有者は一つ。",
+        "Name": "โต๊ะผู้สอน ห้องเรียนอะบิดอส",
+        "Desc": "โต๊ะผู้สอนที่มองเห็นนักเรียนได้ทั่วถึงทุกคน ผู้ที่อยู่ในตำแหน่งนี้จะเป็นผู้ที่หลายคนจับจ้อง",
         "Interaction": [
             false,
             false
@@ -7863,8 +7863,8 @@
         ],
         "SubCategory": "HomeAppliance",
         "SetGroupId": 110,
-        "Name": "アビドス教室の自動販売機",
-        "Desc": "生徒の口当たりをひきつける飲み物がいっぱいの自動販売機。先生もしばしば愛用する。",
+        "Name": "ตู้ขายของอัตโนมัติ ห้องเรียนอะบิดอส",
+        "Desc": "ตู้ขายของอัตโนมัติ เต็มไปด้วยเครื่องดื่มที่จัดมาให้ถูกปากนักเรียน คุณครูก็มาใช้อยู่บ่อยๆ",
         "Interaction": [
             false,
             false
@@ -7892,8 +7892,8 @@
         ],
         "SubCategory": "WallDecoration",
         "SetGroupId": 110,
-        "Name": "アビドス教室のマシンガンスタンド",
-        "Desc": "強力な性能とかわいい色を兼ね備えたマシンガンスタンド。簡単に取り外し可能。",
+        "Name": "ที่วางปืนกล ห้องเรียนอะบิดอส",
+        "Desc": "ที่วางปืนกลที่มาพร้อมกับสีสันสุดน่ารัก และทรงประสิทธิภาพ สามารถถอดประกอบได้อย่างง่ายดาย",
         "Interaction": [
             false,
             false
@@ -7921,8 +7921,8 @@
         ],
         "SubCategory": "WallDecoration",
         "SetGroupId": 110,
-        "Name": "アビドス教室の窓",
-        "Desc": "砂漠が広がるアビドス一帯が見える窓。誰かを待ちたくなる。",
+        "Name": "หน้าต่างห้องเรียนอะบิดอส",
+        "Desc": "หน้าต่างที่มองเห็นทั้งอะบิดอสไปถึงทะเลทราย เหมือนรอใครสักคนอยู่",
         "Interaction": [
             false,
             false
@@ -9057,6 +9057,1137 @@
         "SetGroupId": 111,
         "Name": "ゲーム開発部のカーテン付き窓",
         "Desc": "かわいいキャラクターパターンのカーテン付き窓。日光からモニター画面を守ってくれる！",
+        "Interaction": [
+            false,
+            false
+        ]
+    },
+    {
+        "Id": 13100,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Rarity": "R",
+        "Icon": "My_Sunshineresort_01_Basket_01",
+        "ComfortBonus": 50,
+        "Category": "Furnitures",
+        "Tags": [
+            "CraftMaterial_FurnitureR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "SynthQuality": [
+            40,
+            40
+        ],
+        "SubCategory": "Prop",
+        "SetGroupId": 112,
+        "Name": "サンシャイン・アンサンブル植木鉢",
+        "Desc": "爽やかな香りが漂うアンサンブルの植木鉢。明るい色合いが気分を盛り上げてくれる。",
+        "Interaction": [
+            false,
+            false
+        ]
+    },
+    {
+        "Id": 13101,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Rarity": "R",
+        "Icon": "My_Sunshineresort_01_Signboard_01",
+        "ComfortBonus": 50,
+        "Category": "Furnitures",
+        "Tags": [
+            "CraftMaterial_FurnitureR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "SynthQuality": [
+            40,
+            40
+        ],
+        "SubCategory": "Prop",
+        "SetGroupId": 112,
+        "Name": "サンシャイン・標識",
+        "Desc": "花飾りが目を引く標識。どこに行くかなんて、これから決めればいい。",
+        "Interaction": [
+            false,
+            false
+        ]
+    },
+    {
+        "Id": 13102,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Rarity": "R",
+        "Icon": "My_Sunshineresort_01_Flowerpot_01",
+        "ComfortBonus": 50,
+        "Category": "Furnitures",
+        "Tags": [
+            "CraftMaterial_FurnitureR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "SynthQuality": [
+            40,
+            40
+        ],
+        "SubCategory": "Prop",
+        "SetGroupId": 112,
+        "Name": "サンシャイン・植木鉢陳列台",
+        "Desc": "多彩な花飾りが優雅な印象を与える植木鉢の陳列台。飾った瞬間空間が明るくなる。",
+        "Interaction": [
+            false,
+            false
+        ]
+    },
+    {
+        "Id": 13103,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Rarity": "R",
+        "Icon": "My_Sunshineresort_01_Plantpot_01",
+        "ComfortBonus": 50,
+        "Category": "Furnitures",
+        "Tags": [
+            "CraftMaterial_FurnitureR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "SynthQuality": [
+            40,
+            40
+        ],
+        "SubCategory": "Prop",
+        "SetGroupId": 112,
+        "Name": "サンシャイン・アロハ植木鉢",
+        "Desc": "小さなかわいいアロハの植木鉢。見かけた人に挨拶をしてくれる。",
+        "Interaction": [
+            false,
+            false
+        ]
+    },
+    {
+        "Id": 13104,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Rarity": "R",
+        "Icon": "My_Sunshineresort_01_Woodenpot_01",
+        "ComfortBonus": 50,
+        "Category": "Furnitures",
+        "Tags": [
+            "CraftMaterial_FurnitureR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "SynthQuality": [
+            40,
+            40
+        ],
+        "SubCategory": "Prop",
+        "SetGroupId": 112,
+        "Name": "サンシャイン・ラタン照明セット",
+        "Desc": "ほのかな雰囲気を醸し出すラタン照明。暗い空間を穏やかに照らしてくれる。",
+        "Interaction": [
+            false,
+            false
+        ]
+    },
+    {
+        "Id": 13105,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Rarity": "R",
+        "Icon": "My_Sunshineresort_01_Fruitsbox_01",
+        "ComfortBonus": 50,
+        "Category": "Furnitures",
+        "Tags": [
+            "CraftMaterial_FurnitureR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "SynthQuality": [
+            40,
+            40
+        ],
+        "SubCategory": "Prop",
+        "SetGroupId": 112,
+        "Name": "サンシャイン・トロピカルバスケット",
+        "Desc": "熱帯の果物がたっぷり入ったトロピカルバスケット。甘い香りが漂ってくる。",
+        "Interaction": [
+            false,
+            false
+        ]
+    },
+    {
+        "Id": 13106,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Rarity": "R",
+        "Icon": "My_Sunshineresort_01_Partition_01",
+        "ComfortBonus": 50,
+        "Category": "Furnitures",
+        "Tags": [
+            "CraftMaterial_FurnitureR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "SynthQuality": [
+            40,
+            40
+        ],
+        "SubCategory": "Prop",
+        "SetGroupId": 112,
+        "Name": "サンシャイン・パーテーション",
+        "Desc": "さわやかなホワイト木材で仕上げたパーテーション。安定した構造で周辺の空間を分けてくれる。",
+        "Interaction": [
+            false,
+            false
+        ]
+    },
+    {
+        "Id": 13107,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Rarity": "R",
+        "Icon": "My_Sunshineresort_01_Plantpot_02",
+        "ComfortBonus": 50,
+        "Category": "Furnitures",
+        "Tags": [
+            "CraftMaterial_FurnitureR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "SynthQuality": [
+            40,
+            40
+        ],
+        "SubCategory": "Prop",
+        "SetGroupId": 112,
+        "Name": "サンシャイン・トロピカル植木鉢",
+        "Desc": "涼しげに伸びた葉が印象的なトロピカル植木鉢。爽やかな空気を感じられる。",
+        "Interaction": [
+            false,
+            false
+        ]
+    },
+    {
+        "Id": 13108,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Rarity": "R",
+        "Icon": "My_Sunshineresort_01_Window_01",
+        "ComfortBonus": 50,
+        "Category": "Decorations",
+        "Tags": [
+            "CraftMaterial_FurnitureR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "SynthQuality": [
+            40,
+            40
+        ],
+        "SubCategory": "WallDecoration",
+        "SetGroupId": 112,
+        "Name": "サンシャイン・ミニウインドウ",
+        "Desc": "可愛らしい花飾りで飾られたミニウィンドウ。小さな隙間から漏れる光が空間を明るくしてくれる。",
+        "Interaction": [
+            false,
+            false
+        ]
+    },
+    {
+        "Id": 13109,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Rarity": "R",
+        "Icon": "My_Sunshineresort_01_Picture_01",
+        "ComfortBonus": 50,
+        "Category": "Decorations",
+        "Tags": [
+            "CraftMaterial_FurnitureR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "SynthQuality": [
+            40,
+            40
+        ],
+        "SubCategory": "WallDecoration",
+        "SetGroupId": 112,
+        "Name": "サンシャイン・トロピカルペインティング",
+        "Desc": "爽やかな印象を与えるトロピカルペインティング。かけると自然に馴染んでくれる。",
+        "Interaction": [
+            false,
+            false
+        ]
+    },
+    {
+        "Id": 13110,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Rarity": "R",
+        "Icon": "My_Sunshineresort_01_Wallacc_01",
+        "ComfortBonus": 50,
+        "Category": "Decorations",
+        "Tags": [
+            "CraftMaterial_FurnitureR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "SynthQuality": [
+            40,
+            40
+        ],
+        "SubCategory": "WallDecoration",
+        "SetGroupId": 112,
+        "Name": "サンシャイン・アロハ壁掛け",
+        "Desc": "ピンク色の華やかな花が流れ落ちるように咲いているアロハ壁掛け。甘い香りがする。",
+        "Interaction": [
+            false,
+            false
+        ]
+    },
+    {
+        "Id": 13111,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Rarity": "R",
+        "Icon": "My_Sunshineresort_01_Lamp_02",
+        "ComfortBonus": 50,
+        "Category": "Decorations",
+        "Tags": [
+            "CraftMaterial_FurnitureR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "SynthQuality": [
+            40,
+            40
+        ],
+        "SubCategory": "WallDecoration",
+        "SetGroupId": 112,
+        "Name": "サンシャイン・アロハ照明",
+        "Desc": "金属装飾と優雅な造形を持つアロハ照明。壁にかけておくと周りが明るくなる。",
+        "Interaction": [
+            false,
+            false
+        ]
+    },
+    {
+        "Id": 13112,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Rarity": "R",
+        "Icon": "My_Sunshineresort_01_Lamp_01",
+        "ComfortBonus": 50,
+        "Category": "Decorations",
+        "Tags": [
+            "CraftMaterial_FurnitureR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "SynthQuality": [
+            40,
+            40
+        ],
+        "SubCategory": "WallDecoration",
+        "SetGroupId": 112,
+        "Name": "サンシャイン・アロハ壁掛け照明",
+        "Desc": "優雅な造形を誇るアロハ壁掛け照明。周辺にほのかな光を与えてくれる。",
+        "Interaction": [
+            false,
+            false
+        ]
+    },
+    {
+        "Id": 13113,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Rarity": "R",
+        "Icon": "My_Sunshineresort_01_Carpet_02",
+        "ComfortBonus": 50,
+        "Category": "Decorations",
+        "Tags": [
+            "CraftMaterial_FurnitureR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "SynthQuality": [
+            40,
+            40
+        ],
+        "SubCategory": "FloorDecoration",
+        "SetGroupId": 112,
+        "Name": "サンシャイン・パターンマット",
+        "Desc": "均一なパターンが繰り返されるパターンマット。見る人に妙な安定感を与える。",
+        "Interaction": [
+            false,
+            false
+        ]
+    },
+    {
+        "Id": 13114,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Rarity": "R",
+        "Icon": "My_Sunshineresort_01_Carpet_03",
+        "ComfortBonus": 50,
+        "Category": "Decorations",
+        "Tags": [
+            "CraftMaterial_FurnitureR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "SynthQuality": [
+            40,
+            40
+        ],
+        "SubCategory": "FloorDecoration",
+        "SetGroupId": 112,
+        "Name": "サンシャイン・ダイヤモンドパターンマット",
+        "Desc": "ピンクダイヤモンドパターンが繰り返されるダイヤモンドパターンマット。可愛らしい感じを与える。",
+        "Interaction": [
+            false,
+            false
+        ]
+    },
+    {
+        "Id": 13115,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Rarity": "R",
+        "Icon": "My_Sunshineresort_01_Carpet_04",
+        "ComfortBonus": 50,
+        "Category": "Decorations",
+        "Tags": [
+            "CraftMaterial_FurnitureR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "SynthQuality": [
+            40,
+            40
+        ],
+        "SubCategory": "FloorDecoration",
+        "SetGroupId": 112,
+        "Name": "サンシャイン・ナチュラルマット",
+        "Desc": "自然素材が多く使用されたナチュラルマット。通気性がよく軽いのでどこへでも持ち歩きたくなる。",
+        "Interaction": [
+            false,
+            false
+        ]
+    },
+    {
+        "Id": 13116,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Rarity": "R",
+        "Icon": "My_Sunshineresort_01_Carpet_05",
+        "ComfortBonus": 50,
+        "Category": "Decorations",
+        "Tags": [
+            "CraftMaterial_FurnitureR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "SynthQuality": [
+            40,
+            40
+        ],
+        "SubCategory": "FloorDecoration",
+        "SetGroupId": 112,
+        "Name": "サンシャイン・ラタンマット",
+        "Desc": "ラタン素材を使用し、丸めて仕上げたマット。どの家具と配置しても相性がいい。",
+        "Interaction": [
+            false,
+            false
+        ]
+    },
+    {
+        "Id": 13200,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Rarity": "SR",
+        "Icon": "My_Sunshineresort_01_Bed_01",
+        "ComfortBonus": 120,
+        "Category": "Furnitures",
+        "Tags": [
+            "CraftMaterial_FurnitureSR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "SynthQuality": [
+            60,
+            60
+        ],
+        "SubCategory": "Chair",
+        "SetGroupId": 112,
+        "Name": "サンシャイン・ブランチソファ",
+        "Desc": "果物とジュースが一緒に置かれたブランチソファ。居心地の良さと甘さが休息を与えてくれる。",
+        "Interaction": [
+            false,
+            false
+        ]
+    },
+    {
+        "Id": 13201,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Rarity": "SR",
+        "Icon": "My_Sunshineresort_01_Sofa_01",
+        "ComfortBonus": 120,
+        "Category": "Furnitures",
+        "Tags": [
+            "CraftMaterial_FurnitureSR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "SynthQuality": [
+            60,
+            60
+        ],
+        "SubCategory": "Chair",
+        "SetGroupId": 112,
+        "Name": "サンシャイン・ソファ",
+        "Desc": "様々な形のクッションが魅力的なソファ。さわやかな色と暖かさが安定感を与える。",
+        "Interaction": [
+            false,
+            false
+        ]
+    },
+    {
+        "Id": 13202,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Rarity": "SR",
+        "Icon": "My_Sunshineresort_01_Table_01",
+        "ComfortBonus": 120,
+        "Category": "Furnitures",
+        "Tags": [
+            "CraftMaterial_FurnitureSR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "SynthQuality": [
+            60,
+            60
+        ],
+        "SubCategory": "Table",
+        "SetGroupId": 112,
+        "Name": "サンシャイン・トロピカルテーブル",
+        "Desc": "トロピカルフルーツと食事が用意されたトロピカルテーブル。見るだけで心豊かになる。",
+        "Interaction": [
+            false,
+            false
+        ]
+    },
+    {
+        "Id": 13203,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Rarity": "SR",
+        "Icon": "My_Sunshineresort_01_Table_02",
+        "ComfortBonus": 120,
+        "Category": "Furnitures",
+        "Tags": [
+            "CraftMaterial_FurnitureSR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "SynthQuality": [
+            60,
+            60
+        ],
+        "SubCategory": "Table",
+        "SetGroupId": 112,
+        "Name": "サンシャイン・ジューステーブル",
+        "Desc": "甘い果実とさわやかなジュースが一緒に並んだジューステーブル。暑さが和らぐようだ。",
+        "Interaction": [
+            false,
+            false
+        ]
+    },
+    {
+        "Id": 13204,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Rarity": "SR",
+        "Icon": "My_Sunshineresort_01_Fountain_01",
+        "ComfortBonus": 120,
+        "Category": "Furnitures",
+        "Tags": [
+            "CraftMaterial_FurnitureSR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "SynthQuality": [
+            60,
+            60
+        ],
+        "SubCategory": "Prop",
+        "SetGroupId": 112,
+        "Name": "サンシャイン・フラワー噴水",
+        "Desc": "ピンク色の花が咲き誇るフラワー噴水。爽やかな感じと甘い香りを同時に感じられる。",
+        "Interaction": [
+            false,
+            false
+        ]
+    },
+    {
+        "Id": 13205,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Rarity": "SR",
+        "Icon": "My_Sunshineresort_01_Chair_01",
+        "ComfortBonus": 120,
+        "Category": "Furnitures",
+        "Tags": [
+            "CraftMaterial_FurnitureSR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "SynthQuality": [
+            60,
+            60
+        ],
+        "SubCategory": "Chair",
+        "SetGroupId": 112,
+        "Name": "サンシャイン・ストライプソファー",
+        "Desc": "居心地の良い日よけのストライプソファ。一休みするにはうってつけ。",
+        "Interaction": [
+            false,
+            false
+        ]
+    },
+    {
+        "Id": 13206,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Rarity": "SR",
+        "Icon": "My_Sunshineresort_01_Sunbed_01",
+        "ComfortBonus": 120,
+        "Category": "Furnitures",
+        "Tags": [
+            "CraftMaterial_FurnitureSR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "SynthQuality": [
+            60,
+            60
+        ],
+        "SubCategory": "Bed",
+        "SetGroupId": 112,
+        "Name": "サンシャイン・サンベッドホワイト",
+        "Desc": "暖かい日差しを浴びられるサンベッド。さわやかなホワイトカラーが印象的だ。",
+        "Interaction": [
+            false,
+            false
+        ]
+    },
+    {
+        "Id": 13207,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Rarity": "SR",
+        "Icon": "My_Sunshineresort_01_Sunbed_02",
+        "ComfortBonus": 120,
+        "Category": "Furnitures",
+        "Tags": [
+            "CraftMaterial_FurnitureSR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "SynthQuality": [
+            60,
+            60
+        ],
+        "SubCategory": "Bed",
+        "SetGroupId": 112,
+        "Name": "サンシャイン・サンベッドレモン",
+        "Desc": "暖かい日差しを浴びられるサンベッド。かわいいレモンカラーが目を引く。",
+        "Interaction": [
+            false,
+            false
+        ]
+    },
+    {
+        "Id": 13208,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Rarity": "SR",
+        "Icon": "My_Sunshineresort_01_Shelf_01",
+        "ComfortBonus": 120,
+        "Category": "Furnitures",
+        "Tags": [
+            "CraftMaterial_FurnitureSR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "SynthQuality": [
+            60,
+            60
+        ],
+        "SubCategory": "Closet",
+        "SetGroupId": 112,
+        "Name": "サンシャイン・陳列棚",
+        "Desc": "高級木材を使用したショーケース。ホワイトフラワーを添えて優雅な感じだ。",
+        "Interaction": [
+            false,
+            false
+        ]
+    },
+    {
+        "Id": 13209,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Rarity": "SR",
+        "Icon": "My_Sunshineresort_01_Plantpot_03",
+        "ComfortBonus": 120,
+        "Category": "Furnitures",
+        "Tags": [
+            "CraftMaterial_FurnitureSR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "SynthQuality": [
+            60,
+            60
+        ],
+        "SubCategory": "Prop",
+        "SetGroupId": 112,
+        "Name": "サンシャイン・ヤシの木",
+        "Desc": "ホワイトフラワーが咲き誇るヤシの木。置いておくとさわやかな空気を感じられる。",
+        "Interaction": [
+            false,
+            false
+        ]
+    },
+    {
+        "Id": 13210,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Rarity": "SR",
+        "Icon": "My_Sunshineresort_01_Plantpot_04",
+        "ComfortBonus": 120,
+        "Category": "Furnitures",
+        "Tags": [
+            "CraftMaterial_FurnitureSR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "SynthQuality": [
+            60,
+            60
+        ],
+        "SubCategory": "Prop",
+        "SetGroupId": 112,
+        "Name": "サンシャイン・ホワイトフラワー鉢",
+        "Desc": "ホワイトフラワーが咲き誇る鉢植え。置き場所ごとに活気を吹き込んでくれる。",
+        "Interaction": [
+            false,
+            false
+        ]
+    },
+    {
+        "Id": 13211,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Rarity": "SR",
+        "Icon": "My_Sunshineresort_01_Window_02",
+        "ComfortBonus": 120,
+        "Category": "Decorations",
+        "Tags": [
+            "CraftMaterial_FurnitureSR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "SynthQuality": [
+            60,
+            60
+        ],
+        "SubCategory": "WallDecoration",
+        "SetGroupId": 112,
+        "Name": "サンシャイン・オーシャンビューウィンドウ",
+        "Desc": "外の海が見えるサンシャインオーシャンビューウィンドウ。両側のホワイトフラワーのポイントは爽やかさを増してくれる。",
+        "Interaction": [
+            false,
+            false
+        ]
+    },
+    {
+        "Id": 13212,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Rarity": "SR",
+        "Icon": "My_Sunshineresort_01_Carpet_01",
+        "ComfortBonus": 120,
+        "Category": "Furnitures",
+        "Tags": [
+            "CraftMaterial_FurnitureSR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "SynthQuality": [
+            60,
+            60
+        ],
+        "SubCategory": "FloorDecoration",
+        "SetGroupId": 112,
+        "Name": "サンシャイン・ビーチマット",
+        "Desc": "海の涼しさが感じられるビーチマット。空間に爽やかさを加えてくれる。",
+        "Interaction": [
+            false,
+            false
+        ]
+    },
+    {
+        "Id": 13213,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Rarity": "SR",
+        "Icon": "My_Sunshineresort_01_Wall_Right",
+        "ComfortBonus": 120,
+        "Category": "Interiors",
+        "Tags": [
+            "CraftMaterial_FurnitureSR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "SynthQuality": [
+            60,
+            60
+        ],
+        "SubCategory": "Wallpaper",
+        "SetGroupId": 112,
+        "Name": "サンシャイン・ラブリー壁紙",
+        "Desc": "ベージュトーンの配色が印象的なラブリー壁紙。ほのかなパターンが安定感を与える。",
+        "Interaction": [
+            false,
+            false
+        ]
+    },
+    {
+        "Id": 13214,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Rarity": "SR",
+        "Icon": "My_Sunshineresort_01_Tile",
+        "ComfortBonus": 120,
+        "Category": "Interiors",
+        "Tags": [
+            "CraftMaterial_FurnitureSR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "SynthQuality": [
+            60,
+            60
+        ],
+        "SubCategory": "Floor",
+        "SetGroupId": 112,
+        "Name": "サンシャイン・ナチュラル床",
+        "Desc": "様々な高級木材がパターン化されて作られたナチュラル床。とても滑らかだ。",
+        "Interaction": [
+            false,
+            false
+        ]
+    },
+    {
+        "Id": 13215,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Rarity": "SR",
+        "Icon": "Sunshineresortbg",
+        "ComfortBonus": 120,
+        "Category": "Interiors",
+        "Tags": [
+            "CraftMaterial_FurnitureSR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "SynthQuality": [
+            60,
+            60
+        ],
+        "SubCategory": "Background",
+        "SetGroupId": 112,
+        "Name": "サンシャイン・リゾートの背景",
+        "Desc": "活気に満ちた気分と夏のときめきをそのまま秘めたリゾートの背景。ドキドキが伝わってくるようだ。",
+        "Interaction": [
+            false,
+            false
+        ]
+    },
+    {
+        "Id": 13300,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Rarity": "SSR",
+        "Icon": "My_Sunshineresort_01_Bed_02",
+        "ComfortBonus": 350,
+        "Category": "Furnitures",
+        "Tags": [
+            "CraftMaterial_FurnitureSSR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "SynthQuality": [
+            200,
+            200
+        ],
+        "SubCategory": "Chair",
+        "SetGroupId": 112,
+        "Name": "サンシャイン・キャノピーソファ",
+        "Desc": "エレガントなレースと可愛らしい装飾がうかがえるキャノピーソファ。ずっとこのまま横になっていたい。",
+        "Interaction": [
+            false,
+            false
+        ]
+    },
+    {
+        "Id": 13301,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Rarity": "SSR",
+        "Icon": "My_Sunshineresort_01_Drinkstall_01",
+        "ComfortBonus": 350,
+        "Category": "Furnitures",
+        "Tags": [
+            "CraftMaterial_FurnitureSSR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "SynthQuality": [
+            200,
+            200
+        ],
+        "SubCategory": "Prop",
+        "SetGroupId": 112,
+        "Name": "サンシャイン・ドリンクバー",
+        "Desc": "様々な味の飲み物が揃ったドリンクバー。周辺を飾った多彩な花が飲み物の味覚を引き立ててくれる。",
+        "Interaction": [
+            false,
+            false
+        ]
+    },
+    {
+        "Id": 13302,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Rarity": "SSR",
+        "Icon": "My_Sunshineresort_01_Pool_01",
+        "ComfortBonus": 350,
+        "Category": "Furnitures",
+        "Tags": [
+            "CraftMaterial_FurnitureSSR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "SynthQuality": [
+            200,
+            200
+        ],
+        "SubCategory": "Prop",
+        "SetGroupId": 112,
+        "Name": "サンシャイン・フラワープール",
+        "Desc": "華やかな花飾りのフラワープール。風が吹くと花びらが波の間に落ちて美しい。",
+        "Interaction": [
+            false,
+            false
+        ]
+    },
+    {
+        "Id": 13303,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Rarity": "SSR",
+        "Icon": "My_Sunshineresort_01_Pool_02",
+        "ComfortBonus": 350,
+        "Category": "Furnitures",
+        "Tags": [
+            "CraftMaterial_FurnitureSSR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "SynthQuality": [
+            200,
+            200
+        ],
+        "SubCategory": "Prop",
+        "SetGroupId": 112,
+        "Name": "サンシャイン・トロピカルプール",
+        "Desc": "トロピカルフルーツトレイ付きトロピカルプール。涼しさと甘さが同時に楽しめる。",
+        "Interaction": [
+            false,
+            false
+        ]
+    },
+    {
+        "Id": 13304,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Rarity": "SSR",
+        "Icon": "My_Sunshineresort_01_Parasol_01",
+        "ComfortBonus": 350,
+        "Category": "Furnitures",
+        "Tags": [
+            "CraftMaterial_FurnitureSSR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "SynthQuality": [
+            200,
+            200
+        ],
+        "SubCategory": "Prop",
+        "SetGroupId": 112,
+        "Name": "サンシャイン・レーステーブル",
+        "Desc": "パラソル付きレーステーブル。ベージュトーンの木製テーブルと椅子が置かれている。",
+        "Interaction": [
+            false,
+            false
+        ]
+    },
+    {
+        "Id": 13305,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Rarity": "SSR",
+        "Icon": "My_Sunshineresort_01_Terrace_01",
+        "ComfortBonus": 350,
+        "Category": "Decorations",
+        "Tags": [
+            "CraftMaterial_FurnitureSSR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "SynthQuality": [
+            200,
+            200
+        ],
+        "SubCategory": "WallDecoration",
+        "SetGroupId": 112,
+        "Name": "サンシャイン・アロハウインドウ",
+        "Desc": "外の景色が一望できるアロハウィンドウ。涼しい空気が伝わってくる。",
         "Interaction": [
             false,
             false
@@ -10699,8 +11830,8 @@
         ],
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
-        "Name": "ホド（屋内戦）のブロンズトロフィー",
-        "Desc": "ホド（屋内戦）の栄誉を讃えるブロンズトロフィー",
+        "Name": "บรอนซ์โทรฟี่ HOD (ในอาคาร)",
+        "Desc": "บรอนซ์โทรฟี่ทรงเกียรติของ HOD (ในอาคาร)",
         "Interaction": [
             false,
             false
@@ -10727,8 +11858,8 @@
         ],
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
-        "Name": "ホド（屋内戦）のシルバートロフィー",
-        "Desc": "ホド（屋内戦）の栄誉を讃えるシルバートロフィー",
+        "Name": "ซิลเวอร์โทรฟี่ HOD (ในอาคาร)",
+        "Desc": "ซิลเวอร์โทรฟี่ทรงเกียรติของ HOD (ในอาคาร)",
         "Interaction": [
             false,
             false
@@ -10755,8 +11886,8 @@
         ],
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
-        "Name": "ホド（屋内戦）のゴールドトロフィー",
-        "Desc": "ホド（屋内戦）の栄誉を讃えるゴールドトロフィー",
+        "Name": "โกลด์โทรฟี่ HOD (ในอาคาร)",
+        "Desc": "โกลด์โทรฟี่ทรงเกียรติของ HOD (ในอาคาร)",
         "Interaction": [
             false,
             false
@@ -10783,8 +11914,232 @@
         ],
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
-        "Name": "ホド（屋内戦）のプラチナトロフィー",
-        "Desc": "ホド（屋内戦）の栄誉を讃えるプラチナトロフィー",
+        "Name": "แพลทินัมโทรฟี่ HOD (ในอาคาร)",
+        "Desc": "แพลทินัมโทรฟี่ทรงเกียรติของ HOD (ในอาคาร)",
+        "Interaction": [
+            false,
+            false
+        ]
+    },
+    {
+        "Id": 100810,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Rarity": "N",
+        "Icon": "My_Trophy_En0005_Indoor_Bronze",
+        "ComfortBonus": 50,
+        "Category": "Furnitures",
+        "Tags": [
+            "CraftMaterial_FurnitureN",
+            "Furniture",
+            "CraftMaterial_Furniture"
+        ],
+        "SynthQuality": [
+            20,
+            20
+        ],
+        "SubCategory": "FurnitureEtc",
+        "SetGroupId": 0,
+        "Name": "บรอนซ์โทรฟี่เกรเกอริอุส (ในอาคาร)",
+        "Desc": "บรอนซ์โทรฟี่ทรงเกียรติของเกรเกอริอุส (ในอาคาร)",
+        "Interaction": [
+            false,
+            false
+        ]
+    },
+    {
+        "Id": 100811,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Rarity": "R",
+        "Icon": "My_Trophy_En0005_Indoor_Silver",
+        "ComfortBonus": 50,
+        "Category": "Furnitures",
+        "Tags": [
+            "CraftMaterial_FurnitureR",
+            "Furniture",
+            "CraftMaterial_Furniture"
+        ],
+        "SynthQuality": [
+            40,
+            40
+        ],
+        "SubCategory": "FurnitureEtc",
+        "SetGroupId": 0,
+        "Name": "ซิลเวอร์โทรฟี่เกรเกอริอุส (ในอาคาร)",
+        "Desc": "ซิลเวอร์โทรฟี่ทรงเกียรติของเกรเกอริอุส (ในอาคาร)",
+        "Interaction": [
+            false,
+            false
+        ]
+    },
+    {
+        "Id": 100812,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Rarity": "SR",
+        "Icon": "My_Trophy_En0005_Indoor_Gold",
+        "ComfortBonus": 50,
+        "Category": "Furnitures",
+        "Tags": [
+            "CraftMaterial_FurnitureSR",
+            "Furniture",
+            "CraftMaterial_Furniture"
+        ],
+        "SynthQuality": [
+            60,
+            60
+        ],
+        "SubCategory": "FurnitureEtc",
+        "SetGroupId": 0,
+        "Name": "โกลด์โทรฟี่เกรเกอริอุส (ในอาคาร)",
+        "Desc": "โกลด์โทรฟี่ทรงเกียรติของเกรเกอริอุส (ในอาคาร)",
+        "Interaction": [
+            false,
+            false
+        ]
+    },
+    {
+        "Id": 100813,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Rarity": "SSR",
+        "Icon": "My_Trophy_En0005_Indoor_Platinum",
+        "ComfortBonus": 50,
+        "Category": "Furnitures",
+        "Tags": [
+            "CraftMaterial_FurnitureSSR",
+            "Furniture",
+            "CraftMaterial_Furniture"
+        ],
+        "SynthQuality": [
+            200,
+            200
+        ],
+        "SubCategory": "FurnitureEtc",
+        "SetGroupId": 0,
+        "Name": "แพลทินัมโทรฟี่เกรเกอริอุส (ในอาคาร)",
+        "Desc": "แพลทินัมโทรฟี่ทรงเกียรติของเกรเกอริอุส (ในอาคาร)",
+        "Interaction": [
+            false,
+            false
+        ]
+    },
+    {
+        "Id": 100700,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Rarity": "N",
+        "Icon": "My_Trophy_Goz_Outdoor_Bronze",
+        "ComfortBonus": 50,
+        "Category": "Furnitures",
+        "Tags": [
+            "CraftMaterial_FurnitureN",
+            "Furniture",
+            "CraftMaterial_Furniture"
+        ],
+        "SynthQuality": [
+            20,
+            20
+        ],
+        "SubCategory": "FurnitureEtc",
+        "SetGroupId": 0,
+        "Name": "ゴズ（屋外戦）のブロンズトロフィー",
+        "Desc": "ゴズ（屋外戦）の栄誉を讃えるブロンズトロフィー",
+        "Interaction": [
+            false,
+            false
+        ]
+    },
+    {
+        "Id": 100701,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Rarity": "R",
+        "Icon": "My_Trophy_Goz_Outdoor_Silver",
+        "ComfortBonus": 50,
+        "Category": "Furnitures",
+        "Tags": [
+            "CraftMaterial_FurnitureR",
+            "Furniture",
+            "CraftMaterial_Furniture"
+        ],
+        "SynthQuality": [
+            40,
+            40
+        ],
+        "SubCategory": "FurnitureEtc",
+        "SetGroupId": 0,
+        "Name": "ゴズ（屋外戦）のシルバートロフィー",
+        "Desc": "ゴズ（屋外戦）の栄誉を讃えるシルバートロフィー",
+        "Interaction": [
+            false,
+            false
+        ]
+    },
+    {
+        "Id": 100702,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Rarity": "SR",
+        "Icon": "My_Trophy_Goz_Outdoor_Gold",
+        "ComfortBonus": 50,
+        "Category": "Furnitures",
+        "Tags": [
+            "CraftMaterial_FurnitureSR",
+            "Furniture",
+            "CraftMaterial_Furniture"
+        ],
+        "SynthQuality": [
+            60,
+            60
+        ],
+        "SubCategory": "FurnitureEtc",
+        "SetGroupId": 0,
+        "Name": "ゴズ（屋外戦）のゴールドトロフィー",
+        "Desc": "ゴズ（屋外戦）の栄誉を讃えるゴールドトロフィー",
+        "Interaction": [
+            false,
+            false
+        ]
+    },
+    {
+        "Id": 100703,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Rarity": "SSR",
+        "Icon": "My_Trophy_Goz_Outdoor_Platinum",
+        "ComfortBonus": 50,
+        "Category": "Furnitures",
+        "Tags": [
+            "CraftMaterial_FurnitureSSR",
+            "Furniture",
+            "CraftMaterial_Furniture"
+        ],
+        "SynthQuality": [
+            200,
+            200
+        ],
+        "SubCategory": "FurnitureEtc",
+        "SetGroupId": 0,
+        "Name": "ゴズ（屋外戦）のプラチナトロフィー",
+        "Desc": "ゴズ（屋外戦）の栄誉を讃えるプラチナトロフィー",
         "Interaction": [
             false,
             false
@@ -11186,7 +12541,7 @@
         "Id": 207307,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "SSR",
         "Icon": "My_Event12_Gamemachine",
@@ -11262,7 +12617,7 @@
         "Id": 207310,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "Rarity": "SSR",
         "Icon": "My_Event14_Table",
@@ -11276,11 +12631,11 @@
         ],
         "SubCategory": "Table",
         "SetGroupId": 0,
-        "Name": "豪奢な装飾のティーテーブル",
-        "Desc": "豪奢で美しい花の装飾が印象的なティーテーブル。お茶の良い香りが心を落ち着かせてくれる。",
+        "Name": "โต๊ะจิบชาดอกไม้หรูหรา",
+        "Desc": "โต๊ะจิบชาสุดหรูหราที่ตกแต่งด้วยดอกไม้แสนงดงาม เสิร์ฟชารสหอมหวานที่จะช่วยให้ใจสงบ",
         "Interaction": [
             true,
-            false
+            true
         ]
     },
     {
@@ -11300,8 +12655,8 @@
         ],
         "SubCategory": "Prop",
         "SetGroupId": 0,
-        "Name": "トリニティオルガン",
-        "Desc": "トリニティの装飾が細かく荘厳なオルガン。眺めているだけでも神聖な感じがする。",
+        "Name": "ออร์แกนทรีนิตี้",
+        "Desc": "ออร์แกนที่มอบสุนทรียภาพแห่งทรีนิตี้ที่งดงาม เพียงแค่มองก็รู้สึกถึงความศักดิ์สิทธิ์",
         "Interaction": [
             false,
             false
@@ -11326,8 +12681,8 @@
         ],
         "SubCategory": "Table",
         "SetGroupId": 0,
-        "Name": "ティーパーティーテーブル",
-        "Desc": "華やかなデザインが際立つティーパーティーのテーブル。美しい外観とは異なり、深刻な話が行き来することもある。",
+        "Name": "โต๊ะปาร์ตี้น้ำชา",
+        "Desc": "โต๊ะปาร์ตี้น้ำชาที่โดดเด่นด้วยดีไซน์อันสง่างาม อาจมีเรื่องร้ายแรงเกิดขึ้นที่นี่ ต่างจากรูปลักษณ์ภายนอกของมัน",
         "Interaction": [
             true,
             false
@@ -11351,8 +12706,8 @@
         ],
         "SubCategory": "Table",
         "SetGroupId": 0,
-        "Name": "取調室のテーブル",
-        "Desc": "ヴァルキューレ警察学校の取調室に設置されている一般的なテーブル。取り調べは時に厳しく、時に優しく。",
+        "Name": "โต๊ะสืบสวน",
+        "Desc": "โต๊ะลึกลับที่ทำให้พูดความจริง เมื่อนั่งลงจะคลายความลับที่เคยซ่อนไว้ออกมา",
         "Interaction": [
             true,
             false
@@ -11378,8 +12733,8 @@
         ],
         "SubCategory": "Chair",
         "SetGroupId": 0,
-        "Name": "大聖堂の長椅子",
-        "Desc": "座ると敬虔な心を持てるようになる椅子。朝晩のお祈りに適している。",
+        "Name": "ม้านั่งอธิษฐาน",
+        "Desc": "ม้านั่งอธิษฐาน ใช้สำหรับนั่งอธิษฐานด้วยใจที่เปี่ยมศรัทธา เพื่อชำระล้างจิตใจ",
         "Interaction": [
             true,
             false
@@ -11402,8 +12757,8 @@
         ],
         "SubCategory": "Prop",
         "SetGroupId": 0,
-        "Name": "D.U.シラトリ区のジオラマ",
-        "Desc": "D.U.シラトリ区の復旧状況がわかるジオラマが設置されたテーブル。達成感を感じてみよう。",
+        "Name": "โต๊ะแบบจำลองเขตชิราโทริ",
+        "Desc": "โต๊ะที่ใช้สำหรับดูการฟื้นฟูเขตชิราโทริ แค่เห็นก็รู้สึกปลาบปลื้ม",
         "Interaction": [
             false,
             false
@@ -11632,6 +12987,255 @@
         "Desc": "何でもすぐに作れる木工作業台。新しい作業を始めると、時間が経つのもあっという間。",
         "Interaction": [
             true,
+            false
+        ]
+    },
+    {
+        "Id": 210308,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Rarity": "SSR",
+        "Icon": "My_Event057_Fishbox",
+        "ComfortBonus": 350,
+        "Category": "Furnitures",
+        "Tags": [
+            "CraftMaterial_FurnitureSSR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "F_Miyu_Swimsuit"
+        ],
+        "SubCategory": "Prop",
+        "SetGroupId": 0,
+        "Name": "新鮮！魚箱",
+        "Desc": "魚がいっぱい入った魚箱。うっかり持ち上げたら魚が逃げてしまうかも！？",
+        "Interaction": [
+            true,
+            false
+        ]
+    },
+    {
+        "Id": 210309,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Rarity": "SSR",
+        "Icon": "My_Event057_Scubapack",
+        "ComfortBonus": 350,
+        "Category": "Furnitures",
+        "Tags": [
+            "CraftMaterial_FurnitureSSR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "F_Saki_Swimsuit"
+        ],
+        "SubCategory": "Prop",
+        "SetGroupId": 0,
+        "Name": "スキューバダイビングギア保管ラック",
+        "Desc": "スキューバダイビングに必要なギアを保管しているラック。いつでも飛び込む準備はできている！",
+        "Interaction": [
+            true,
+            false
+        ]
+    },
+    {
+        "Id": 210310,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Rarity": "SSR",
+        "Icon": "My_Event057_Showerbooth",
+        "ComfortBonus": 350,
+        "Category": "Furnitures",
+        "Tags": [
+            "CraftMaterial_FurnitureSSR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "F_Miyako_Swimsuit"
+        ],
+        "SubCategory": "Closet",
+        "SetGroupId": 0,
+        "Name": "シャワーブース",
+        "Desc": "水とお湯の両方が出せるシャワーブース。気持ちもすっきり！",
+        "Interaction": [
+            true,
+            false
+        ]
+    },
+    {
+        "Id": 210311,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Rarity": "SSR",
+        "Icon": "My_Event057_Fishprint",
+        "ComfortBonus": 350,
+        "Category": "Furnitures",
+        "Tags": [
+            "CraftMaterial_FurnitureSSR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "F_Shiroko_Swimsuit"
+        ],
+        "SubCategory": "Prop",
+        "SetGroupId": 0,
+        "Name": "バタバタカジキの展示台",
+        "Desc": "海の香りが漂うバタバタカジキの展示台。今にも飛び跳ねてきそうだ！",
+        "Interaction": [
+            true,
+            false
+        ]
+    },
+    {
+        "Id": 210312,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Rarity": "SSR",
+        "Icon": "My_Event058_Rockbandset",
+        "ComfortBonus": 350,
+        "Category": "Furnitures",
+        "Tags": [
+            "CraftMaterial_FurnitureSSR",
+            "Furniture",
+            "CraftMaterial_Furniture"
+        ],
+        "SubCategory": "Prop",
+        "SetGroupId": 0,
+        "Name": "便利屋68バンドステージ",
+        "Desc": "Rock＆Bad!便利屋68！アウトローの楽しそうな姿が際立つ便利屋68のバンドステージ。",
+        "Interaction": [
+            false,
+            false
+        ]
+    },
+    {
+        "Id": 210313,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Rarity": "SSR",
+        "Icon": "My_Event058_Suitcase",
+        "ComfortBonus": 350,
+        "Category": "Furnitures",
+        "Tags": [
+            "CraftMaterial_FurnitureSSR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "F_Ui_Swimsuit"
+        ],
+        "SubCategory": "Prop",
+        "SetGroupId": 0,
+        "Name": "クラシックパターンスーツケース",
+        "Desc": "クラシックな柄の優雅さと実用性を兼ね備えたトラベルバッグ。エレガントな旅行にぴったり。",
+        "Interaction": [
+            true,
+            false
+        ]
+    },
+    {
+        "Id": 210314,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Rarity": "SSR",
+        "Icon": "My_Event058_Parasolandsunbed",
+        "ComfortBonus": 350,
+        "Category": "Furnitures",
+        "Tags": [
+            "CraftMaterial_FurnitureSSR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "F_Hinata_Swimsuit"
+        ],
+        "SubCategory": "Bed",
+        "SetGroupId": 0,
+        "Name": "ミニスツールとサンベッド",
+        "Desc": "爽やかなジュースが置かれたミニスツールとサンベッド。チェック柄のクッションで快適さをプラス。",
+        "Interaction": [
+            true,
+            false
+        ]
+    },
+    {
+        "Id": 210315,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Rarity": "SSR",
+        "Icon": "My_Event058_Icecreamtableset",
+        "ComfortBonus": 350,
+        "Category": "Furnitures",
+        "Tags": [
+            "CraftMaterial_FurnitureSSR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "F_Koharu_Swimsuit",
+            "F_Hanako_Swimsuit"
+        ],
+        "SubCategory": "Table",
+        "SetGroupId": 0,
+        "Name": "アイスクリームテーブル",
+        "Desc": "甘いアイスクリームが置かれたアイスクリームテーブル。一口で夏がとろける。",
+        "Interaction": [
+            true,
+            false
+        ]
+    },
+    {
+        "Id": 210316,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Rarity": "SSR",
+        "Icon": "My_Event058_Lemontree",
+        "ComfortBonus": 350,
+        "Category": "Furnitures",
+        "Tags": [
+            "CraftMaterial_FurnitureSSR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "F_Hanako_Swimsuit"
+        ],
+        "SubCategory": "Prop",
+        "SetGroupId": 0,
+        "Name": "サンシャイン・レモンツリー",
+        "Desc": "爽やかなレモンがいっぱい実ったサンシャインレモンの木。蛇口を回して爽快感On!",
+        "Interaction": [
+            false,
+            false
+        ]
+    },
+    {
+        "Id": 210317,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "Rarity": "SSR",
+        "Icon": "My_Event058_Boardgametable",
+        "ComfortBonus": 350,
+        "Category": "Furnitures",
+        "Tags": [
+            "CraftMaterial_FurnitureSSR",
+            "Furniture",
+            "CraftMaterial_Furniture"
+        ],
+        "SubCategory": "Table",
+        "SetGroupId": 0,
+        "Name": "ボードゲームテーブル",
+        "Desc": "古い地図や馬と、ダイスが並んでいるボードゲームテーブル。楽しいゲームが始まりそうだ。",
+        "Interaction": [
+            false,
             false
         ]
     },
@@ -11916,8 +13520,8 @@
         ],
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
-        "Name": "リコレクト・メモリー4th",
-        "Desc": "4th PVの映像を再生できる機械",
+        "Name": "เครื่องย้อนความทรงจำ 4",
+        "Desc": "อุปกรณ์ที่ใช้เปิดวิดีโอ 4th PV",
         "Interaction": [
             false,
             false

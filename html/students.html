@@ -9,6 +9,7 @@
                 <div class="d-md-none flex-fill"></div>
                 <button id="ba-student-collection-btn" type="button" class="btn btn-dark" onclick="toggleOwned()"></button>
                 <a id="ba-student-toggle-sprite-btn" type="button" class="btn btn-dark tooltip-button" data-tooltip-id="ui,tooltip_sprite_toggle"><i class="fa-solid fa-repeat"></i></a>
+                <a id="student-voice-btn" type="button" class="btn btn-dark tooltip-button" data-tooltip-id="ui,voicegallery"><i class="fa-solid fa-microphone-lines" style="width:16px;"></i></a>
             </div>
             <div class="d-block d-md-none" style="height: 412px;"></div>
         </div>
@@ -90,6 +91,9 @@
                                             <button id="ba-statpreview-status-strikerbonus" onclick="toggleStrikerBonus()" class="btn-pill tooltip-button deactivated" >
                                                 <div class="icon" style="padding:3px"><img src="images/ui/Special_StatBonus.png" class="invert-light" width="22" height="22" style="border-radius:0!important;"></div>
                                             </button>
+                                            <button id="statpreview-status-lockinput" class="btn-pill btn-lock-attributes tooltip-button deactivated" data-tooltip-id="ui,lock_attributes">
+                                                <div class="d-flex align-items-center justify-content-center" style="width:28px;height:28px;"><i class="fa-solid fa-lock"></i></div>
+                                            </button>
                                             <button id="ba-statpreview-status-options" class="btn-pill">
                                                 <div class="d-flex align-items-center justify-content-center" style="width:28px;height:28px;"><i class="fa-solid fa-magnifying-glass"></i></div>
                                                 <span class="label d-none d-md-block ps-1">
@@ -102,12 +106,12 @@
 
                                 <div class="row g-1 mt-1">
                                     <div class="col">
-                                        <div id="ba-student-stat-table" class="ba-stats mb-0">
+                                        <div id="ba-student-stat-table" class="student-stat-table ba-stats mb-0">
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="row g-1 mt-3">
+                                <div class="row g-1 mt-2">
                                     <div class="d-flex flex-row align-items-center">
                                         <input id="ba-statpreview-levelrange" oninput="changeStatPreviewLevel(this)" type="range" class="statpreview-level form-range me-2 flex-fill" value="1" min="1" max="100">
                                         <span id="ba-statpreview-level" class="ba-slider-label statpreview-level-label">Lv.1</span>
@@ -137,16 +141,13 @@
                                                     <span class="ps-2" data-localize-id="ui,student_gear_short"></span>
                                                 </span>
                                             </button>
-                                            <button id="ba-statpreview-status-bond-level" onclick="toggleBond(1)" class="btn-pill tooltip-button">
-                                                <div class="icon bond-small"><img id="ba-statpreview-status-bond-icon" src="" width="28" height="28"></div>
-                                                <span class="label ps-2"></span>
-                                            </button>
-                                            <button id="ba-statpreview-status-bond-alt-level" onclick="toggleBond(2)" class="btn-pill tooltip-button">
-                                                <div class="icon bond-small"><img id="ba-statpreview-status-bond-alt-icon" src="" width="28" height="28"></div>
-                                                <span class="label ps-2"></span>
+                                            <div id="statpreview-status-bond" class="d-flex flex-row align-items-stretch gap-2">
+
+                                            </div>
+                                            <button id="statpreview-status-maxinput" class="btn-pill btn-max-attributes tooltip-button" data-tooltip-id="ui,max_attributes">
+                                                <div class="d-flex align-items-center justify-content-center" style="width:28px;height:28px;"><i class="fa-solid fa-angles-up"></i></div>
                                             </button>
                                         </div>
-
                                     </div>
                                     <div class="d-flex flex-row flex-wrap align-items-stretch gap-2 mb-1">
                                         <button id="ba-statpreview-status-passive-level" onclick="togglePassiveSkill()" class="btn-pill tooltip-button">
@@ -179,9 +180,9 @@
                                     </button>
                                     <div class="flex-fill"></div>
                                     <button id="skill-show-details" class="btn-pill">
-                                        <div class="d-flex align-items-center justify-content-center" style="width:28px;height:28px;"><i class="fa-solid fa-magnifying-glass"></i></div>
-                                        <span class="label ps-1">
-                                            <span data-localize-id="ui,details"></span>
+                                        <div class="d-flex align-items-center justify-content-center" style="width:28px;height:28px;"><i class="fa-solid fa-calculator"></i></div>
+                                        <span class="label ps-0">
+                                            <span data-localize-id="ui,calculations"></span>
                                         </span>
                                     </button>
                                 </div>
@@ -456,7 +457,7 @@
                                     </div>
 
                                 </div>
-                                <table class="table ba-stats mt-3 mb-4">
+                                <table class="table ba-stats mt-3 mb-2">
                                     <tbody>
                                         <tr>
                                             <td width="50%">
@@ -518,6 +519,13 @@
                                         </tr>
                                     </tbody>
                                 </table>
+
+                                <!-- <div class="mt-1">
+                                    <button id="student-voice-btn" class="btn-pill">
+                                        <i class="fa-solid fa-microphone-lines ms-2"></i>
+                                        <span class="label" data-localize-id="ui,voicegallery"></span>
+                                    </button>
+                                </div> -->
 
                                 <div class="mt-3">
                                     <h5 style="font-weight: bold;" data-localize-id="ui,bond_title"></h5>
@@ -862,7 +870,9 @@
                                                 </div>
                                                 <div class="d-flex flex-wrap align-items-center gap-1 mt-2 pb-1">
                                                     <span id="statpreview-enemy-attacktype" class="ba-info-pill-s bg-theme text-bold"><span class="icon-type"><img src="images/ui/Type_Attack_s.png"></span><span class="label"></span></span>
-                                                    <span id="statpreview-enemy-defensetype" class="ba-info-pill-s bg-theme text-bold"><span class="icon-type"><img src="images/ui/Type_Defense_s.png"></span><span class="label"></span></span>
+                                                    <button id="statpreview-enemy-defensetype" class="ba-info-pill-s btn btn-dark text-bold" data-bs-toggle="dropdown"><span class="icon-type"><img src="images/ui/Type_Defense_s.png"></span><span class="label"></span><i class="caret fa-solid fa-caret-down me-2"></i></button>
+                                                    <ul id="statpreview-enemy-defensetype-list" class="dropdown-menu dropdown-menu-dark dropdown-menu-start">
+                                                    </ul>
                                                     <span id="statpreview-enemy-size" class="ba-info-pill-s bg-theme text-bold"><span class="label"></span></span>
                                                     <button id="statpreview-enemy-bookmark" class="btn btn-sm btn-dark stat-panel-btn-sm no-wrap ms-auto" type="button"><i class="fa-solid fa-bookmark"></i></button>
                                                 </div>
@@ -992,7 +1002,7 @@
                             <button id="student-stat-modal-skill-calc-toggle" class="btn-pill deactivated"><span class="label" data-localize-id="ui,skills"></span></button>
                         </div>
                         <div class="panel-stats-table">
-                            <div id="ba-student-stat-modal-table" class="ba-stats mb-0">
+                            <div id="ba-student-stat-modal-table" class="student-stat-table ba-stats mb-0">
                             </div>
                             <div id="student-stat-modal-skill-calculations" class="" style="display:none;">
                                 <nav id="skill-calculation-tabs" class="nav nav-pills justify-content-center mb-2">
@@ -1038,9 +1048,9 @@
                                         <button id="ba-student-search-sortby-default" class="btn-pill" onclick="searchSetOrder('Default')"><span class="label"><span data-localize-id="ui,default"></span><span class="sort-direction-label"></span></span></button>
                                         <button id="ba-student-search-sortby-name" class="btn-pill" onclick="searchSetOrder('Name')"><span class="label"><span data-localize-id="ui,name"></span><span class="sort-direction-label"></span></span></button>
                                         <div class="btn-group">
-                                            <button id="ba-student-search-sortby-stat" class="btn-pill" type="button" data-bs-toggle="dropdown"><span class="label" data-localize-id="ui,others"></span><i class="caret fa-solid fa-caret-down me-2"></i></button>
+                                            <button id="ba-student-search-sortby-stat" class="btn-pill" type="button" data-bs-toggle="dropdown" data-bs-auto-close="outside"><span class="label" data-localize-id="ui,others"></span><i class="caret fa-solid fa-caret-down me-2"></i></button>
                                             <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end dropdown-menu-scroll-large">
-                                                <li><h6 class="dropdown-header" data-localize-id="ui,base_stats"></h6></li>
+                                                <li><h6 class="dropdown-header" data-localize-id="ui,max_stats"></h6></li>
                                                 <li><a id="ba-student-search-sortby-maxhp100" class="dropdown-item" href="javascript:;" onclick="searchSetOrder('MaxHP100')" class="btn btn-dark"><span data-localize-id="Stat,MaxHP"></span><span class="sort-direction-label"></span></a></li>
                                                 <li><a id="ba-student-search-sortby-attackpower100" class="dropdown-item" href="javascript:;" onclick="searchSetOrder('AttackPower100')" class="btn btn-dark"><span data-localize-id="Stat,AttackPower"></span><span class="sort-direction-label"></span></a></li>
                                                 <li><a id="ba-student-search-sortby-defensepower100" class="dropdown-item" href="javascript:;" onclick="searchSetOrder('DefensePower100')" class="btn btn-dark"><span data-localize-id="Stat,DefensePower"></span><span class="sort-direction-label"></span></a></li>
@@ -1050,6 +1060,7 @@
                                                 <li><a id="ba-student-search-sortby-criticalpoint" class="dropdown-item" href="javascript:;" onclick="searchSetOrder('CriticalPoint')" class="btn btn-dark"><span data-localize-id="Stat,CriticalPoint"></span><span class="sort-direction-label"></span></a></li>
                                                 <li><a id="ba-student-search-sortby-stabilitypoint" class="dropdown-item" href="javascript:;" onclick="searchSetOrder('StabilityPoint')" class="btn btn-dark"><span data-localize-id="Stat,StabilityPoint"></span><span class="sort-direction-label"></span></a></li>
                                                 <li><a id="ba-student-search-sortby-range" class="dropdown-item" href="javascript:;" onclick="searchSetOrder('Range')" class="btn btn-dark"><span data-localize-id="Stat,Range"></span><span class="sort-direction-label"></span></a></li>
+                                                <li><a id="ba-student-search-sortby-usecollectionstats" class="dropdown-item" href="javascript:;" onclick="searchToggleUseCollectionStats()" class="btn btn-dark"><div class="d-flex"><span class="item-toggle-icon me-2"></span><span data-localize-id="ui,collection_stats"></span></div></a></li>
                                                 <li><hr class="dropdown-divider"></li>
                                                 <li><h6 class="dropdown-header" data-localize-id="ui,attributes"></h6></li>
                                                 <li><a id="ba-student-search-sortby-streetbattleadaptation" class="dropdown-item" href="javascript:;" onclick="searchSetOrder('StreetBattleAdaptation')" class="btn btn-dark"><span data-localize-id="ui,terrain_adaption" data-localize-replacement-id="AdaptationType,Street"></span><span class="sort-direction-label"></span></a></li>
@@ -1123,6 +1134,7 @@
                                         <button id="ba-student-search-filter-bullettype-explosion" class="btn-pill ba-col-explosion text-bold" onclick="searchSetFilter('BulletType','Explosion')"><span class="label" data-localize-id="BulletType,Explosion"></span></button>
                                         <button id="ba-student-search-filter-bullettype-pierce" class="btn-pill ba-col-pierce text-bold" onclick="searchSetFilter('BulletType','Pierce')"><span class="label" data-localize-id="BulletType,Pierce"></span></button>
                                         <button id="ba-student-search-filter-bullettype-mystic" class="btn-pill ba-col-mystic text-bold" onclick="searchSetFilter('BulletType','Mystic')"><span class="label" data-localize-id="BulletType,Mystic"></span></button>
+                                        <button id="ba-student-search-filter-bullettype-sonic" class="btn-pill ba-col-sonic text-bold" onclick="searchSetFilter('BulletType','Sonic')"><span class="label" data-localize-id="BulletType,Sonic"></span></button>
                                     </div>    
                                 </div>
                                 <div>
@@ -1197,6 +1209,7 @@
                                     </div>
                                     <div class="search-filter-group">
                                         <button id="ba-student-search-filter-hascc" class="btn-pill" onclick="searchSetFilter('HasCC',null)"><span class="label" data-localize-id="ui,can_cc"></span></button>
+                                        <button id="ba-student-search-filter-hasdebuff" class="btn-pill" onclick="searchSetFilter('HasDebuff',null)"><span class="label" data-localize-id="ui,can_debuff"></span></button>
                                         <div class="btn-group">
                                             <button id="ba-student-search-select-usesartifact" class="btn-pill" type="button" data-bs-toggle="dropdown" data-bs-auto-close="outside"><span class="label" data-localize-id="ui,uses_artifact"></span><i class="caret fa-solid fa-caret-down me-2"></i></button>
                                             <ul id="ba-student-search-select-usesartifact-list" class="dropdown-menu dropdown-menu-dark dropdown-menu-end dropdown-menu-scroll">
@@ -1213,7 +1226,7 @@
                                             </ul>
                                         </div>
                                         <div class="btn-group">
-                                            <button id="ba-student-search-select-subbuff" class="btn-pill" type="button" data-bs-toggle="dropdown" data-bs-auto-close="outside"><span class="label" data-localize-id="ui,student_skill_sub"></span><i class="caret fa-solid fa-caret-down me-2"></i></button>
+                                            <button id="ba-student-search-select-subbuff" class="btn-pill" type="button" data-bs-toggle="dropdown" data-bs-auto-close="outside"><span class="label" data-localize-id="ui,sp_sub_skill"></span><i class="caret fa-solid fa-caret-down me-2"></i></button>
                                             <ul id="ba-student-search-select-subbuff-list" class="dropdown-menu dropdown-menu-dark dropdown-menu-end dropdown-menu-scroll">
                                             </ul>
                                         </div>
@@ -1260,6 +1273,52 @@
                     </div>
                     <div id="ba-student-search-results" class="flex-fill">
                         <div id="student-select-grid" class="selection-grid student align-top flex-fill">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="student-modal-voice" tabindex="-1">
+    <div class="modal-dialog modal-lg modal-fullscreen-lg-down">
+        <div class="modal-content">
+            <div class="modal-header" style="border-bottom: none;">
+                <h5 class="modal-title" data-localize-id="ui,voicegallery"></h5><span class="ba-info-pill-s ba-panel px-2 ms-2">BETA</span>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body pt-1">
+                <div class="h-100">
+                    <div class="d-flex flex-column gap-2 h-100">
+                        <div id="student-voice-info" class="d-flex gap-2 align-items-center flex-wrap justify-content-between">
+                            <div class="d-flex gap-2 align-items-center">
+                                <span id="student-voice-icon"><img src=""></span>
+                                <div>
+                                    <h5 id="student-voice-name" class="mb-0"></h5>
+                                    <span class="me-1" data-localize-id="ui,cv"></span><span class="text-italic" id="student-voice-cv"></span>
+                                </div>
+                            </div>
+
+                            <nav id="voicegallery" class="nav nav-pills justify-content-center ms-auto">
+                                <a id="student-voicegallery-tab-normal" class="nav-link" data-bs-toggle="tab" href="#student-voicegallery-pane-normal" data-localize-id="VoiceClipGroup,Normal"></a>
+                                <a id="student-voicegallery-tab-battle" class="nav-link" data-bs-toggle="tab" href="#student-voicegallery-pane-battle" data-localize-id="VoiceClipGroup,Battle"></a>
+                                <a id="student-voicegallery-tab-lobby" class="nav-link" data-bs-toggle="tab" href="#student-voicegallery-pane-lobby" data-localize-id="VoiceClipGroup,Lobby"></a>
+                                <a id="student-voicegallery-tab-event" class="nav-link" data-bs-toggle="tab" href="#student-voicegallery-pane-event" data-localize-id="VoiceClipGroup,Event"></a>
+                            </nav>
+                        </div>
+                        <div class="tab-content">
+                            <div id="student-voicegallery-pane-normal" class="tab-pane">
+                                <div id="student-voicegallery-list-normal" class="py-2 d-flex flex-column gap-2"></div>
+                            </div>
+                            <div id="student-voicegallery-pane-battle" class="tab-pane">
+                                <div id="student-voicegallery-list-battle" class="py-2 d-flex flex-column gap-2"></div>
+                            </div>
+                            <div id="student-voicegallery-pane-lobby" class="tab-pane">
+                                <div id="student-voicegallery-list-lobby" class="py-2 d-flex flex-column gap-2"></div>
+                            </div>
+                            <div id="student-voicegallery-pane-event" class="tab-pane">
+                                <div id="student-voicegallery-list-event" class="py-2 d-flex flex-column gap-2"></div>
+                            </div>
                         </div>
                     </div>
                 </div>

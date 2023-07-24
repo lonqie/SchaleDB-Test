@@ -8,22 +8,22 @@
         "Pierce": "貫穿",
         "Mystic": "神秘",
         "Normal": "一般",
-        "Sonic": "Sonic"
+        "Sonic": "振動"
     },
     "ArmorType": {
         "LightArmor": "輕裝甲",
         "HeavyArmor": "重裝甲",
         "Unarmed": "特殊裝甲",
-        "ElasticArmor": "Elastic",
-        "Normal": "一般手套"
+        "ElasticArmor": "彈力裝甲",
+        "Normal": "一般裝甲"
     },
     "ArmorTypeLong": {
         "LightArmor": "輕裝甲",
         "HeavyArmor": "重裝甲",
         "Unarmed": "特殊裝甲",
         "Structure": "結構物",
-        "ElasticArmor": "Elastic Armor",
-        "Normal": "一般手套"
+        "ElasticArmor": "彈力裝甲",
+        "Normal": "一般裝甲"
     },
     "TacticRole": {
         "DamageDealer": "打手",
@@ -96,9 +96,9 @@
         "RabbitPlatoon": "RABBIT小隊",
         "PandemoniumSociety": "萬魔殿",
         "AriusSqud": "奧利斯小隊",
-        "HotSpringsDepartment": "Hot Springs Department",
-        "TeaParty": "Tea Party",
-        "PublicPeaceBureau": "Public Peace Bureau",
+        "HotSpringsDepartment": "溫泉開發部",
+        "TeaParty": "茶會",
+        "PublicPeaceBureau": "公安局",
         "BlackTortoisePromenade": "Black Tortoise Promenade",
         "Genryumon": "Genryumon",
         "LaborParty": "工務部",
@@ -159,7 +159,7 @@
     },
     "FurnitureSet": {
         "100": "Momo好友咖啡廳組合",
-        "101": "果凍娛樂室組合",
+        "101": "果凍遊戲中心組合",
         "102": "情人節組合",
         "103": "避暑勝地泳池派對組合",
         "104": "萬聖節南瓜咖啡廳組合",
@@ -168,8 +168,9 @@
         "107": "軍事露營區組合",
         "108": "海灘組合",
         "109": "大運動會主題",
-        "110": "Abydos Classroom Set",
-        "111": "Game Development Department Set"
+        "110": "阿拜多斯教室組合",
+        "111": "Game Development Department Set",
+        "112": "Sunshine Resort Set"
     },
     "ItemCategory": {
         "Furnitures": "家具",
@@ -227,9 +228,11 @@
         "19": "Crystal Haniwa",
         "20": "Totem Pole",
         "21": "Ancient Battery",
+        "22": "Golden Fleece",
         "23": "Okiku Doll",
         "24": "Disco Colgante",
         "25": "Atlantis Medal",
+        "26": "Roman Dodecahedron",
         "29": "Winnipesaukee Stone"
     },
     "EnemyTags": {
@@ -258,13 +261,15 @@
         "817": "ON YOUR MARK @ MILLENNIUM",
         "818": "Get Set, Go!　～奇普托斯晄輪大祭～",
         "819": "教堂的聖誕祝福～救護騎士團的禮物～",
-        "820": "A Game Before the New Year's Feast",
-        "821": "Battle for the False Sanctum",
-        "822": "Atra-Hasis' Ark Conquest",
-        "823": "Phrenapates' Decisive Battle",
-        "824": "Restoration Project: DU Shiratori District",
+        "820": "正餐前的開胃年菜～一局定輸贏～",
+        "821": "虛假的聖所攻略戰",
+        "822": "阿特拉哈西斯的方舟佔領戰",
+        "823": "誘騙者決戰",
+        "824": "修復作業：D.U.白鳥區",
         "825": "Chalk White Calling Card: The Mansion of Empty Aesthetics",
-        "826": "Ryubu Doushu: Vision of a Lone Future"
+        "826": "Ryubu Doushu: Vision of a Lone Future",
+        "827": "RABBIT Squad and The Mystery of the Missing Shrimp",
+        "828": "In Search of a Hidden Heritage"
     },
     "StageType": {
         "Campaign": "任務",
@@ -283,7 +288,8 @@
         "SchoolA": "學園交流會 - 三一",
         "SchoolB": "學園交流會 - 格黑娜",
         "SchoolC": "學園交流會 - 千年",
-        "Conquest": "佔領戰"
+        "Conquest": "佔領戰",
+        "EliminateRaid": "Grand Battle"
     },
     "TimeAttackStage": {
         "Shooting": "射擊考試",
@@ -292,7 +298,7 @@
     },
     "ConquestMap": {
         "815": "「失樂園渡假勝地」群島",
-        "822": "Atra-Hasis' Ark"
+        "822": "「阿特拉哈西斯的方舟」"
     },
     "StageTitle": {
         "ChaserA": "高架公路{0}",
@@ -441,7 +447,11 @@
         "Special_SilverBullet": "一般攻擊",
         "Special_CH0187Mod": "Abi-Eshuh Mode",
         "Special_Omamori": "Omamori",
-        "Special_Dado": "Meikyo Shisui"
+        "Special_Dado": "Meikyo Shisui",
+        "Special_DebuffCountGreen": "Safe",
+        "Special_DebuffCountYellow": "Warning",
+        "Special_DebuffCountRed": "Danger",
+        "Special_OldBook": "Clues"
     },
     "BuffNameLong": {
         "Buff_AidAttitude": "準備急救",
@@ -541,7 +551,11 @@
         "Special_SilverBullet": "Silver Bullets",
         "Special_CH0187Mod": "Abi-Eshuh Mode",
         "Special_Omamori": "Omamori",
-        "Special_Dado": "Meikyo Shisui"
+        "Special_Dado": "Meikyo Shisui",
+        "Special_DebuffCountGreen": "Debuff Count: Safe",
+        "Special_DebuffCountYellow": "Debuff Count: Warning",
+        "Special_DebuffCountRed": "Debuff Count: Danger",
+        "Special_OldBook": "Clues"
     },
     "BuffTooltip": {
         "Buff_AidAttitude": "以一定時間間隔持續回覆生命值",
@@ -641,7 +655,11 @@
         "Special_SilverBullet": "Augments Sakurako's normal attack to deal damage as an additional hit.",
         "Special_CH0187Mod": "Increases Toki's ATK, Accuracy and Evasion and changes her EX Skill, Basic Skill and Normal Attack pattern. Ends after using the EX Skill 3 times.",
         "Special_Omamori": "Increases Mystic Effectiveness upon activation of Kayoko (New Year)'s Sub Skill.",
-        "Special_Dado": "Kaho's attacks will deal damage as an additional hit."
+        "Special_Dado": "Kaho's attacks will deal damage as an additional hit.",
+        "Special_DebuffCountGreen": "Increases Incoming Damage.",
+        "Special_DebuffCountYellow": "Increases Incoming Damage and ATK.",
+        "Special_DebuffCountRed": "Increases ATK.",
+        "Special_OldBook": "Activates Ui (Swimsuit)'s Basic Skill when at 3 stacks."
     },
     "ServerName": {
         "0": "日服",
@@ -655,7 +673,8 @@
         "Arena": "戰術大賽",
         "TimeAttack": "綜合戰術考試",
         "MasterCoin": "精通證書",
-        "Chaser": "懸賞通緝商店"
+        "Chaser": "懸賞通緝商店",
+        "EliminateRaid": "Grand Battle"
     },
     "GroggyCondition": {
         "TypeDamage": "受到{0}傷害時增加。",
@@ -665,7 +684,81 @@
         "KaitenFxMk0": "組件被摧毀時增加。",
         "Perorozilla": "被擊暈的佩洛洛士兵被吸收時增加。",
         "HOD": "侵蝕塔被摧毀或霍德的CC量表充滿時增加。",
-        "HoverCraft": "導彈炸裂模式結束時增加。"
+        "HoverCraft": "導彈炸裂模式結束時增加。",
+        "EN0005": "Increases when Choir Members are knocked down."
+    },
+    "VoiceClipGroup": {
+        "Normal": "General",
+        "Battle": "Combat",
+        "Lobby": "Lobby",
+        "Event": "Events"
+    },
+    "VoiceClip": {
+        "UITitleIdle": "Title Screen",
+        "CharacterGetIdle": "Recruitment",
+        "CafeIdle": "Cafe {0}",
+        "UILobbyEnter": "Lobby Entry {0}",
+        "UILobbyIdle": "Lobby Idle {0}",
+        "UILobbyUserBDay": "Sensei's Birthday",
+        "UILobbyStudentBDay": "Student's Birthday",
+        "UILobbyNewYear": "New Year",
+        "UILobbyXmas": "Christmas",
+        "UILobbyHalloween": "Halloween",
+        "WeaponGetIdle": "Exclusive Weapon Unlock",
+        "UILobbySpecial": "Recollection Lobby {0}",
+        "FormationIn": "Formation Entry {0}",
+        "FormationSelect": "Formation Select",
+        "TacticIn": "Map Entry {0}",
+        "TacticVictory": "Map Victory {0}",
+        "TacticDefeat": "Map Defeat {0}",
+        "BattleIn": "Battle Entry {0}",
+        "BattleRecovery": "HP Recovery",
+        "BattleVictory": "Battle Victory {0}",
+        "BattleRetire": "Battle Retreat {0}",
+        "CommonSkill": "Basic Skill {0}",
+        "Growup": "Student Growth {0}",
+        "RelationshipUp": "Relationship Rank Up {0}",
+        "BattleDefense": "Evade Attack",
+        "BattleBuffed": "Buffed {0}",
+        "BattleBuffSelf": "Buff Self {0}",
+        "BattleTacticalAction": "Tactical Movement",
+        "BattleMove": "Section Movement {0}",
+        "BattleCovered": "Entering Cover {0}",
+        "ExSkill": "EX Skill {0}",
+        "ExSkillLevel": "EX Skill (Field) {0}",
+        "UIEventLobbyEnter": "Event Lobby Entry {0}",
+        "UIEventLobbyIdle": "Event Lobby Idle {0}",
+        "UIEventShopEnter": "Event Shop Entry {0}",
+        "UIEventShopIdle": "Event Shop Idle {0}",
+        "UIEventShopBuy": "Event Shop Purchase {0}",
+        "UIEventBoxGachaShopEnter": "Prize Exchange Entry {0}",
+        "UIEventBoxGachaShopIdle": "Prize Exchange Idle {0}",
+        "UIEventBoxGachaShopBoxGachaPrize": "Prize Exchange Win {0}",
+        "UIEventMissionEnter": "Event Mission Entry {0}",
+        "UIEventMissionIdle": "Event Mission Idle {0}",
+        "UIEventMissionBuy": "Event Mission Completion {0}",
+        "UIEventMissionInteraction": "Event Daily Mission Completion {0}",
+        "UIEventCardShopEnter": "Card Shop Entry {0}",
+        "UIEventCardShopIdle": "Card Shop Idle {0}",
+        "UIEventCardShopPrize3": "Draw Ultra Rare Card",
+        "UIEventCardShopPrize2": "Draw Super Rare Card",
+        "UIEventCardShopPrize1": "Draw Rare Card",
+        "UIEventCardShopPrize0": "Draw Normal Card",
+        "UIEventFortuneGachaShopEnter": "Omikuji Entry {0}",
+        "UIEventFortuneGachaShopIdle": "Omikuji Idle {0}",
+        "UIEventFortuneGachaShopLuck5": "Omikuji \"Great Blessing\"",
+        "UIEventFortuneGachaShopLuck4": "Omikuji \"Blessing\"",
+        "UIEventFortuneGachaShopLuck3": "Omikuji \"Modest Blessing\"",
+        "UIEventFortuneGachaShopLuck2": "Omikuji \"Small Blessing\"",
+        "UIEventFortuneGachaShopLuck1": "Omikuji \"Future Blessing\"",
+        "UIEventFortuneGachaShopLuck0": "Omikuji \"Curse\"",
+        "UIEventMiniGameMissionEnter": "Minigame Mission Entry {0}",
+        "UIEventMiniGameMissionIdle": "Minigame Mission Idle {0}",
+        "UIEventMiniGameMissionBuy": "Minigame Mission Completion {0}",
+        "UISpecialOperationLobbyEnter": "Special Mission Lobby Entry {0}",
+        "UISpecialOperationLobbyIdle": "Special Mission Lobby Idle {0}",
+        "UISpecialOperationLobbyCollectionOpen": "Special Mission Data Release {0}",
+        "UISpecialOperationLobbyStoryOpen": "Special Mission Story Open {0}"
     },
     "ui": {
         "navbar_home": "首頁",
@@ -713,6 +806,9 @@
         "student_birthdays": "以下學生在本周迎來生日。",
         "attributes": "屬性資訊",
         "base_stats": "Base Stats",
+        "max_stats": "Max. Stats",
+        "collection_stats": "Use Collection Stats",
+        "sp_sub_skill": "Special Sub Skill",
         "skills": "技能",
         "ex_weapon": "固有武器",
         "ex_gear": "愛用品",
@@ -794,6 +890,7 @@
         "uses_cover": "Uses Cover",
         "doesnt_use_cover": "Doesn't Use Cover",
         "can_cc": "Can CC",
+        "can_debuff": "Can Debuff",
         "uses_artifact": "Uses Artifact",
         "filter_include_weapon_upgrade": "Include Weapon Upgrade",
         "memory_lobby": "紀念大廳",
@@ -835,6 +932,7 @@
         "others": "其它",
         "options": "選項",
         "details": "詳情",
+        "calculations": "Calculations",
         "options_short": "選項",
         "raid_rules": "規則",
         "ta_phase": "階段",
@@ -979,6 +1077,10 @@
         "dmginfo_accumulation_limit": "{0} 傷害上限",
         "ordinal_1": "1st",
         "ordinal_2": "2nd",
-        "ordinal_3": "3rd"
+        "ordinal_3": "3rd",
+        "voicegallery": "Voice Gallery",
+        "skill_target_hp": "Target HP",
+        "max_attributes": "Set All to Maximum",
+        "lock_attributes": "Lock Collection Stats"
     }
 }

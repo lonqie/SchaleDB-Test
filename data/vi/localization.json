@@ -169,7 +169,8 @@
         "108": "Bộ bên bờ biển",
         "109": "Bộ hội thao",
         "110": "Bộ lớp học Abydos",
-        "111": "Game Development Department Set"
+        "111": "Game Development Department Set",
+        "112": "Sunshine Resort Set"
     },
     "ItemCategory": {
         "Furnitures": "Đồ nội thất",
@@ -227,9 +228,11 @@
         "19": "Pha lê Haniwa",
         "20": "Cột vật tổ",
         "21": "Pin cổ đại",
+        "22": "Golden Fleece",
         "23": "Búp bê Okiku",
         "24": "Mặt dây chuyền đĩa",
         "25": "Huy chương Atlantis",
+        "26": "Roman Dodecahedron",
         "29": "Đá Winnipesaukee"
     },
     "EnemyTags": {
@@ -264,7 +267,9 @@
         "823": "Trận chiến quyết định của kẻ mất trí",
         "824": "Dự án khôi phục: Quận DU Shiratori",
         "825": "Chalk White Calling Card: The Mansion of Empty Aesthetics",
-        "826": "Ryubu Doushu: Vision of a Lone Future"
+        "826": "Ryubu Doushu: Vision of a Lone Future",
+        "827": "RABBIT Squad and The Mystery of the Missing Shrimp",
+        "828": "In Search of a Hidden Heritage"
     },
     "StageType": {
         "Campaign": "Nhiệm vụ",
@@ -283,7 +288,8 @@
         "SchoolA": "Cuộc ẩu đả - Trinity",
         "SchoolB": "Cuộc ẩu đả - Gehenna",
         "SchoolC": "Cuộc ẩu đả - Millennium",
-        "Conquest": "Sự chinh phục"
+        "Conquest": "Sự chinh phục",
+        "EliminateRaid": "Grand Battle"
     },
     "TimeAttackStage": {
         "Shooting": "Diễn tập bắn",
@@ -441,7 +447,11 @@
         "Special_SilverBullet": "Tấn công thường",
         "Special_CH0187Mod": "Chế độ Abi-Eshuh",
         "Special_Omamori": "Omamori",
-        "Special_Dado": "Meikyo Shisui"
+        "Special_Dado": "Meikyo Shisui",
+        "Special_DebuffCountGreen": "Safe",
+        "Special_DebuffCountYellow": "Warning",
+        "Special_DebuffCountRed": "Danger",
+        "Special_OldBook": "Clues"
     },
     "BuffNameLong": {
         "Buff_AidAttitude": "Sơ cứu sẵn sàng",
@@ -541,7 +551,11 @@
         "Special_SilverBullet": "Viên đạn bạc",
         "Special_CH0187Mod": "Chế độ Abi-Eshuh",
         "Special_Omamori": "Omamori",
-        "Special_Dado": "Meikyo Shisui"
+        "Special_Dado": "Meikyo Shisui",
+        "Special_DebuffCountGreen": "Debuff Count: Safe",
+        "Special_DebuffCountYellow": "Debuff Count: Warning",
+        "Special_DebuffCountRed": "Debuff Count: Danger",
+        "Special_OldBook": "Clues"
     },
     "BuffTooltip": {
         "Buff_AidAttitude": "Liên tục phục hồi HP theo khoảng thời gian đã định.",
@@ -641,7 +655,11 @@
         "Special_SilverBullet": "Tăng cường đòn tấn công bình thường của Sakurako để gây sát thương như một đòn đánh bổ sung.",
         "Special_CH0187Mod": "Tăng ATK, độ chính xác, né tránh và thay đổi kỹ năng cũ, kỹ năng cơ bản và tấn công bình thường của Toki. Kết thúc sau khi sử dụng kỹ năng cũ 3 lần.",
         "Special_Omamori": "Tăng hiệu quả huyền bí khi kích hoạt kỹ năng phụ của Kayoko (Năm mới).",
-        "Special_Dado": "Các đòn tấn công của Kaho sẽ gây sát thương như một đòn đánh bổ sung."
+        "Special_Dado": "Các đòn tấn công của Kaho sẽ gây sát thương như một đòn đánh bổ sung.",
+        "Special_DebuffCountGreen": "Tăng sát thương nhận vào.",
+        "Special_DebuffCountYellow": "Tăng sát thương nhận vào và tăng tấn công.",
+        "Special_DebuffCountRed": "Tăng tấn công.",
+        "Special_OldBook": "Activates Ui (Swimsuit)'s Basic Skill when at 3 stacks."
     },
     "ServerName": {
         "0": "Japan",
@@ -655,7 +673,8 @@
         "Arena": "Thử thách chiến thuật",
         "TimeAttack": "Diễn tập",
         "MasterCoin": "Chứng chỉ chuyên gia",
-        "Chaser": "Cửa hàng tiền thưởng"
+        "Chaser": "Cửa hàng tiền thưởng",
+        "EliminateRaid": "Grand Battle"
     },
     "GroggyCondition": {
         "TypeDamage": "Tăng khi gây {0} sát thương.",
@@ -665,7 +684,81 @@
         "KaitenFxMk0": "Tăng khi các bộ phận bị phá huỷ.",
         "Perorozilla": "Tăng khi lính Peroro bị choáng được hấp thụ.",
         "HOD": "Tăng khi tháp truyền tải bị phá huỷ hoặc thanh CC của Hod đạt đủ.",
-        "HoverCraft": "Tăng khi chế độ khai hoả tên lửa kết thúc."
+        "HoverCraft": "Tăng khi chế độ khai hoả tên lửa kết thúc.",
+        "EN0005": "Chỉ tăng khi các thành viên Choir bị hạ."
+    },
+    "VoiceClipGroup": {
+        "Normal": "Chung",
+        "Battle": "Giao tranh",
+        "Lobby": "Sảnh chính",
+        "Event": "Sự kiện"
+    },
+    "VoiceClip": {
+        "UITitleIdle": "Màn hình tiêu đề",
+        "CharacterGetIdle": "Tuyển dụng",
+        "CafeIdle": "Cafe {0}",
+        "UILobbyEnter": "Khi vào sảnh {0}",
+        "UILobbyIdle": "Trạng thái chờ ở sảnh {0}",
+        "UILobbyUserBDay": "Sinh nhật của Sensei",
+        "UILobbyStudentBDay": "Sinh nhật của học sinh",
+        "UILobbyNewYear": "Năm mới",
+        "UILobbyXmas": "Giáng sinh",
+        "UILobbyHalloween": "Halloween",
+        "WeaponGetIdle": "Mở khóa vũ khí độc quyền",
+        "UILobbySpecial": "Sảnh hồi ức {0}",
+        "FormationIn": "Cho vào đội {0}",
+        "FormationSelect": "ĐƯợc chọn {0}",
+        "TacticIn": "Vào khu vực giao tranh {0}",
+        "TacticVictory": "Khu vực chiếm đóng thành công {0}",
+        "TacticDefeat": "Khu vực chiếm đóng thất bại {0}",
+        "BattleIn": "Chuẩn bị giao tranh {0}",
+        "BattleRecovery": "Hồi máu",
+        "BattleVictory": "Giao tranh thành công {0}",
+        "BattleRetire": "Giao tranh thất bại {0}",
+        "CommonSkill": "Kỹ năng cơ bản {0}",
+        "Growup": "Trưởng thành {0}",
+        "RelationshipUp": "Độ thân mật {0}",
+        "BattleDefense": "Evade Attack",
+        "BattleBuffed": "Nhận buff {0}",
+        "BattleBuffSelf": "Tự buff cho bản thân {0}",
+        "BattleTacticalAction": "Sử dụng chiến thuật",
+        "BattleMove": "Di chuyển {0}",
+        "BattleCovered": "Sử dụng ẩn nấp {0}",
+        "ExSkill": "Kỹ năng EX {0}",
+        "ExSkillLevel": "Kỹ năng EX (vùng) {0}",
+        "UIEventLobbyEnter": "Khi vào sảnh sự kiện {0}",
+        "UIEventLobbyIdle": "Trạng thái chờ ở sảnh sự kiện {0}",
+        "UIEventShopEnter": "Khi vào cửa hàng sự kiện {0}",
+        "UIEventShopIdle": "Trạng thái chờ ở cửa hàng sự kiện {0}",
+        "UIEventShopBuy": "Mua hàng ở cửa hàng sự kiện {0}",
+        "UIEventBoxGachaShopEnter": "Khi vào khu đổi thưởng {0}",
+        "UIEventBoxGachaShopIdle": "Trạng thái chờ ở khu đổi thưởng {0}",
+        "UIEventBoxGachaShopBoxGachaPrize": "Nhận được quà đặc biệt ở khu đổi thưởng",
+        "UIEventMissionEnter": "Event Mission Entry {0}",
+        "UIEventMissionIdle": "Event Mission Idle {0}",
+        "UIEventMissionBuy": "Event Mission Completion {0}",
+        "UIEventMissionInteraction": "Event Daily Mission Completion {0}",
+        "UIEventCardShopEnter": "Card Shop Entry {0}",
+        "UIEventCardShopIdle": "Card Shop Idle {0}",
+        "UIEventCardShopPrize3": "Draw Ultra Rare Card",
+        "UIEventCardShopPrize2": "Draw Super Rare Card",
+        "UIEventCardShopPrize1": "Draw Rare Card",
+        "UIEventCardShopPrize0": "Draw Normal Card",
+        "UIEventFortuneGachaShopEnter": "Omikuji Entry {0}",
+        "UIEventFortuneGachaShopIdle": "Omikuji Idle {0}",
+        "UIEventFortuneGachaShopLuck5": "Omikuji \"Great Blessing\"",
+        "UIEventFortuneGachaShopLuck4": "Omikuji \"Blessing\"",
+        "UIEventFortuneGachaShopLuck3": "Omikuji \"Modest Blessing\"",
+        "UIEventFortuneGachaShopLuck2": "Omikuji \"Small Blessing\"",
+        "UIEventFortuneGachaShopLuck1": "Omikuji \"Future Blessing\"",
+        "UIEventFortuneGachaShopLuck0": "Omikuji \"Curse\"",
+        "UIEventMiniGameMissionEnter": "Minigame Mission Entry {0}",
+        "UIEventMiniGameMissionIdle": "Minigame Mission Idle {0}",
+        "UIEventMiniGameMissionBuy": "Minigame Mission Completion {0}",
+        "UISpecialOperationLobbyEnter": "Special Mission Lobby Entry {0}",
+        "UISpecialOperationLobbyIdle": "Special Mission Lobby Idle {0}",
+        "UISpecialOperationLobbyCollectionOpen": "Special Mission Data Release {0}",
+        "UISpecialOperationLobbyStoryOpen": "Special Mission Story Open {0}"
     },
     "ui": {
         "navbar_home": "Trang chủ",
@@ -713,6 +806,9 @@
         "student_birthdays": "Những học sinh sau sẽ tổ chức sinh nhật trong tuần này!",
         "attributes": "Thuộc tính",
         "base_stats": "Base Stats",
+        "max_stats": "Max. Stats",
+        "collection_stats": "Use Collection Stats",
+        "sp_sub_skill": "Special Sub Skill",
         "skills": "Kỹ năng",
         "ex_weapon": "Vũ khí",
         "ex_gear": "Vật phẩm yêu thích",
@@ -794,6 +890,7 @@
         "uses_cover": "Sử dụng chỗ ẩn nấp",
         "doesnt_use_cover": "Doesn't Use Cover",
         "can_cc": "Có khả năng kiểm soát đám đông",
+        "can_debuff": "Can Debuff",
         "uses_artifact": "Sử dụng thánh vật",
         "filter_include_weapon_upgrade": "Bao gồm nâng cấp vũ khí",
         "memory_lobby": "Sảnh hồi ức",
@@ -835,6 +932,7 @@
         "others": "Khác",
         "options": "Tuỳ chọn",
         "details": "Chi tiết",
+        "calculations": "Calculations",
         "options_short": "Tuỳ chọn",
         "raid_rules": "Luật",
         "ta_phase": "Đợt ",
@@ -979,6 +1077,10 @@
         "dmginfo_accumulation_limit": "{0} Giới hạn DMG",
         "ordinal_1": "1st",
         "ordinal_2": "2nd",
-        "ordinal_3": "3rd"
+        "ordinal_3": "3rd",
+        "voicegallery": "Voice Gallery",
+        "skill_target_hp": "Target HP",
+        "max_attributes": "Set All to Maximum",
+        "lock_attributes": "Lock Collection Stats"
     }
 }

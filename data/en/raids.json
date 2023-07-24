@@ -11,6 +11,7 @@
                 5
             ],
             "PathName": "Binah",
+            "GroupName": "Binah",
             "Faction": "Decagrammaton",
             "Terrain": [
                 "Outdoor",
@@ -315,6 +316,15 @@
                 7300600,
                 7300700
             ],
+            "BattleDuration": [
+                180,
+                180,
+                180,
+                180,
+                180,
+                180,
+                180
+            ],
             "Name": "Binah",
             "Profile": "Decagrammaton is an artificial intelligence system claiming to be a divine seeker of truth. It is followed by ten prophets who make appearances all over Kivotos.\n\nBinah, the third prophet of Decagrammaton, was first seen in the desert district of Abydos.\nWhy Binah came here is unknown, but it's too dangerous to be left to do as it pleases."
         },
@@ -329,6 +339,7 @@
                 5
             ],
             "PathName": "Chesed",
+            "GroupName": "Chesed",
             "Faction": "Decagrammaton",
             "Terrain": [
                 "Indoor",
@@ -527,6 +538,15 @@
                 7301600,
                 7301700
             ],
+            "BattleDuration": [
+                240,
+                240,
+                240,
+                240,
+                240,
+                240,
+                240
+            ],
             "Name": "Chesed",
             "Profile": "Decagrammaton is an artificial intelligence system claiming to be a divine seeker of truth. It is followed by ten prophets who make appearances all over Kivotos.\n\nChesed, the fourth prophet of Decagrammaton, has control of an abandoned munitions factory on the outskirts of Millennium.\nKivotos will face unprecedented disaster if Chesed produces an unlimited supply of troops."
         },
@@ -541,6 +561,7 @@
                 5
             ],
             "PathName": "Shirokuro",
+            "GroupName": "ShiroKuro",
             "Faction": "Slumpia",
             "Terrain": [
                 "Street",
@@ -1243,6 +1264,15 @@
                 }
             ],
             "ExcludeNormalAttack": [],
+            "BattleDuration": [
+                240,
+                240,
+                240,
+                240,
+                240,
+                240,
+                240
+            ],
             "Name": "Shiro & Kuro",
             "Profile": "A mysterious phenomenon has been reported in Slumpia, a theme park that went bankrupt long ago. Rumor has it that the animatronics and other attractions have now come back to life in the middle of the night to attack people.\n\nIt is unknown why the animatronics, Shiro and Kuro, are active again, but it seems clear that they are trying to recreate the wonderful festivals of the theme park's past."
         },
@@ -1257,6 +1287,7 @@
                 5
             ],
             "PathName": "Hieronymus",
+            "GroupName": "Hieronymus_Street",
             "Faction": "CommunioSanctorum",
             "Terrain": [
                 "Indoor",
@@ -1617,6 +1648,12 @@
                             "Channel": 150027
                         }
                     ],
+                    "EffectStackLabel": {
+                        "Label": [
+                            "INS",
+                            "TOR"
+                        ]
+                    },
                     "Name": "Ominous Light (Relic)",
                     "Desc": "When the violet relic's HP reaches 0%, increases the <b:ATK> <?1>of all Striker and Special students by <b>25%</b> but decreases their <d:HealEffectiveness> by <b>7,000</b>. Also decreases Hieronymus's <d:DEF> by <b>1,500</b>.\nFollowing this, students inflicted with <d:Hieronymus> will have their <b:HealEffectiveness> increased by a further <b>4,000</b> for 10s.\nThe violet relic cannot be targeted by normal attacks or basic skills.",
                     "Parameters": [
@@ -1637,7 +1674,7 @@
                     "MinDifficulty": 6,
                     "ATGCost": 0,
                     "Icon": "SKILLICON_HIERONYMUS_PASSIVE01",
-                    "Name": "Enlightenment Through Penance",
+                    "Name": "Ascetic Awakening",
                     "Desc": "Increases Hieronymus' <b:Penetration> by <b>750</b>."
                 }
             ],
@@ -1664,6 +1701,15 @@
                 7303906,
                 7303926
             ],
+            "BattleDuration": [
+                240,
+                240,
+                240,
+                240,
+                240,
+                240,
+                240
+            ],
             "Name": "Hieronymus",
             "Profile": "An unknown entity was discovered beneath the old cathedral ruins in Trinity, supposedly a test subject created by Gematria based on ancient doctrines.\nIt is Hieronymus, the final form of the artificial angel Communio Sanctorum. We can't leave its incredible power unchecked. For the safety of Kivotos!"
         },
@@ -1678,6 +1724,7 @@
                 5
             ],
             "PathName": "KaitenFxMk0",
+            "GroupName": "Kaitenger",
             "Faction": "Kaitenger",
             "Terrain": [
                 "Outdoor",
@@ -2334,6 +2381,15 @@
                 }
             ],
             "ExcludeNormalAttack": [],
+            "BattleDuration": [
+                180,
+                180,
+                180,
+                180,
+                180,
+                180,
+                180
+            ],
             "Name": "KAITEN FX Mk.0",
             "Profile": "The Kaitengers' secret weapon has appeared to block the road to their base. The Kaitengers plan to use the stolen funds and technologies to build a giant combination mecha: KAITEN FX Mk.0. It may look cool, but no good can come of letting them have something like that. Time to put a stop to it."
         },
@@ -2348,6 +2404,7 @@
                 5
             ],
             "PathName": "Perorozilla",
+            "GroupName": "Perorozilla",
             "Faction": "TheLibraryofLore",
             "Terrain": [
                 "Indoor",
@@ -2730,6 +2787,15 @@
             "ExcludeNormalAttack": [
                 7305190
             ],
+            "BattleDuration": [
+                240,
+                240,
+                240,
+                240,
+                240,
+                240,
+                240
+            ],
             "Name": "Perorodzilla",
             "Profile": "An unidentified giant monster has been sighted in the waters near DU. The monster looks like a Momo Friends toy that once sank into the sea.\nWe don't know why this happened, but we have to stop this giant monster from advancing!"
         },
@@ -2744,6 +2810,7 @@
                 5
             ],
             "PathName": "HOD",
+            "GroupName": "HOD",
             "Faction": "Decagrammaton",
             "Terrain": [
                 "Street",
@@ -3126,6 +3193,15 @@
                 }
             ],
             "ExcludeNormalAttack": [],
+            "BattleDuration": [
+                240,
+                240,
+                240,
+                240,
+                240,
+                240,
+                240
+            ],
             "Name": "Hod",
             "Profile": "Decagrammaton is an AI claiming to be a divine seeker of truth. It is followed by ten prophets who make appearances all over Kivotos.\nHod was originally a built-in network unit at Millennium, but now claims to be the eighth prophet of Decagrammaton since being hacked by an unidentified AI.\nThe district's safety is in jeopardy until this computing unit powered by Millennium technology is stopped."
         },
@@ -3140,6 +3216,7 @@
                 5
             ],
             "PathName": "Goz",
+            "GroupName": "Goz",
             "Faction": "Slumpia",
             "Icon": "Boss_Portrait_Goz_Lobby",
             "IconBG": "Boss_Portrait_Goz_LobbyBG",
@@ -3732,8 +3809,561 @@
                 7308601,
                 7308701
             ],
+            "BattleDuration": [
+                240,
+                240,
+                240,
+                240,
+                240,
+                240,
+                240
+            ],
             "Name": "Goz",
             "Profile": "A mysterious phenomenon has been reported in Slumpia, a now-desolate theme park that went bankrupt long ago. Rumor has it that the park's decaying animatronics and other attractions are coming to life in the middle of the night, and they have violent streak.\n\nIn the midst of this mystery, Goz seems intent on keeping the show running. What intentions are hidden behind that bizarre smile? It will be a challenge to find out."
+        },
+        {
+            "Id": 9,
+            "IsReleased": [
+                true,
+                false
+            ],
+            "MaxDifficulty": [
+                6,
+                5
+            ],
+            "PathName": "EN0005",
+            "GroupName": "EN0005",
+            "Faction": "CommunioSanctorum",
+            "Icon": "Boss_Portrait_EN0005_Lobby",
+            "IconBG": "Boss_Portrait_EN0005_LobbyBG",
+            "Terrain": [
+                "Indoor"
+            ],
+            "BulletType": "Normal",
+            "BulletTypeInsane": "Mystic",
+            "ArmorType": "LightArmor",
+            "EnemyList": [
+                [
+                    7309100,
+                    7309110,
+                    7309120
+                ],
+                [
+                    7309200,
+                    7309210,
+                    7309121
+                ],
+                [
+                    7309300,
+                    7309310,
+                    7309122
+                ],
+                [
+                    7309400,
+                    7309410,
+                    7309123
+                ],
+                [
+                    7309500,
+                    7309510,
+                    7309124
+                ],
+                [
+                    7309600,
+                    7309610,
+                    7309125
+                ],
+                [
+                    7309700,
+                    7309710,
+                    7309126
+                ]
+            ],
+            "RaidSkill": [
+                {
+                    "Id": "EN0005Normal01",
+                    "SkillType": "raidautoattack",
+                    "MinDifficulty": 0,
+                    "ATGCost": 0,
+                    "Icon": "SKILLICON_BINAH_NORMALSKILL",
+                    "ShowInfo": false,
+                    "Effects": [
+                        {
+                            "Type": "DMGSingle",
+                            "Scale": [
+                                [
+                                    10000
+                                ]
+                            ],
+                            "RestrictTo": [
+                                7309100,
+                                7309200,
+                                7309300,
+                                7309400,
+                                7309500,
+                                7309600,
+                                7309700,
+                                7309110,
+                                7309210,
+                                7309310,
+                                7309410,
+                                7309510,
+                                7309610,
+                                7309710
+                            ],
+                            "CriticalCheck": "Check",
+                            "CanEvade": true
+                        }
+                    ]
+                },
+                {
+                    "Id": "EN0005_Ex01_AttackerSide",
+                    "SkillType": "EX",
+                    "MinDifficulty": 0,
+                    "ATGCost": 0,
+                    "Icon": "SKILLICON_EN0005_EXSKILL03",
+                    "Effects": [
+                        {
+                            "Type": "DMGSingle",
+                            "Scale": [
+                                [
+                                    50000
+                                ]
+                            ],
+                            "RestrictTo": [
+                                7309100,
+                                7309200,
+                                7309300,
+                                7309400,
+                                7309500,
+                                7309600,
+                                7309700
+                            ],
+                            "CriticalCheck": "Always",
+                            "CanEvade": true
+                        },
+                        {
+                            "Type": "BuffAlly",
+                            "Value": [
+                                [
+                                    -4000
+                                ]
+                            ],
+                            "StackSame": 5,
+                            "Stat": "AttackPower_Coefficient",
+                            "Channel": 94601
+                        }
+                    ],
+                    "Name": "Saints' Whispers",
+                    "Desc": "Deals 500% guaranteed critical damage to all enemies and decreases their <d:ATK> by 40% for 120s (effect stacks multiple times)."
+                },
+                {
+                    "Id": "EN0005_Ex01_DefenderSide",
+                    "SkillType": "EX",
+                    "MinDifficulty": 0,
+                    "ATGCost": 0,
+                    "Icon": "SKILLICON_EN0005_EXSKILL02",
+                    "Effects": [
+                        {
+                            "Type": "BuffTarget",
+                            "Value": [
+                                [
+                                    -1000
+                                ]
+                            ],
+                            "StackSame": 5,
+                            "RestrictTo": [
+                                7309100,
+                                7309200,
+                                7309300,
+                                7309400,
+                                7309500,
+                                7309600,
+                                7309700,
+                                7309110,
+                                7309210,
+                                7309310,
+                                7309410,
+                                7309510,
+                                7309610,
+                                7309710
+                            ],
+                            "Stat": "AttackPower_Coefficient",
+                            "Channel": 94601
+                        }
+                    ],
+                    "Name": "Solemn Repentance",
+                    "Desc": "Inflicts the following effects depending on Gregorio's number of debuffs.\n<b><?1> or fewer debuffs</b>: Removes 1 debuff from all allies.\n<b><?2> or more debuffs</b>: Reduces the <d:ATK> of all allies by 10% for 120s.",
+                    "Parameters": [
+                        [
+                            "4",
+                            "4",
+                            "4",
+                            "4",
+                            "4",
+                            "5",
+                            "6"
+                        ],
+                        [
+                            "5",
+                            "5",
+                            "5",
+                            "5",
+                            "5",
+                            "6",
+                            "7"
+                        ]
+                    ]
+                },
+                {
+                    "Id": "EN0005_Ex03_Center",
+                    "SkillType": "EX",
+                    "MinDifficulty": 0,
+                    "ATGCost": 0,
+                    "Icon": "SKILLICON_EN0005_EXSKILL01",
+                    "Effects": [
+                        {
+                            "Type": "BuffTarget",
+                            "Value": [
+                                [
+                                    -5000
+                                ]
+                            ],
+                            "RestrictTo": [
+                                7309100,
+                                7309200,
+                                7309300,
+                                7309400,
+                                7309500,
+                                7309600,
+                                7309700,
+                                7309110,
+                                7309210,
+                                7309310,
+                                7309410,
+                                7309510,
+                                7309610,
+                                7309710
+                            ],
+                            "Stat": "DamagedRatio_Coefficient",
+                            "Channel": 94609
+                        },
+                        {
+                            "Type": "BuffAlly",
+                            "Value": [
+                                [
+                                    -5000
+                                ]
+                            ],
+                            "Stat": "DamagedRatio_Coefficient",
+                            "Channel": 94609
+                        }
+                    ],
+                    "Name": "Gregorian Chant",
+                    "Desc": "Inflicts the following effects on allies or enemies, depending on the direction the Pipe Organ is facing. The effects change with each activation.\n<b>1st</b>: Increases the <d:DamagedRatio> of the team facing the black pipes by 50% for 60s.\n<b>2nd</b>: Removes 1 debuff from the team facing the white pipes.\n<b>3rd</b>: Increases the <d:DamagedRatio> of the team facing the white pipes by 50% for 60s.\n<b>4th</b>: Removes 1 debuff from the team facing the black pipes.\nAfter this, the effects repeat from the 1st activation again."
+                },
+                {
+                    "Id": "EN0005Ex04",
+                    "SkillType": "EX",
+                    "MinDifficulty": 0,
+                    "ATGCost": 0,
+                    "Icon": "SKILLICON_EN0005_EXSKILL04",
+                    "Name": "Salvation for All",
+                    "Desc": "Deals <b>999999</b> damage to all enemies. (This attack removes the <s:Immortal> status)"
+                },
+                {
+                    "Id": "EN0005_Passive01",
+                    "SkillType": "Passive",
+                    "MinDifficulty": 0,
+                    "ATGCost": 0,
+                    "Icon": "SKILLICON_EN0005_PASSIVESKILL01",
+                    "Effects": [
+                        {
+                            "Type": "BuffTarget",
+                            "Value": [
+                                [
+                                    0
+                                ],
+                                [
+                                    -10000
+                                ],
+                                [
+                                    -20000
+                                ]
+                            ],
+                            "StackingIcon": [
+                                "Special_DebuffCountRed",
+                                "Special_DebuffCountYellow",
+                                "Special_DebuffCountGreen"
+                            ],
+                            "RestrictTo": [
+                                7309100,
+                                7309200,
+                                7309300,
+                                7309400,
+                                7309500,
+                                7309600,
+                                7309110,
+                                7309210,
+                                7309310,
+                                7309410,
+                                7309510,
+                                7309610
+                            ],
+                            "Stat": "DamagedRatio_Coefficient",
+                            "Channel": 94100
+                        },
+                        {
+                            "Type": "BuffTarget",
+                            "Value": [
+                                [
+                                    0
+                                ],
+                                [
+                                    -10000
+                                ],
+                                [
+                                    -25000
+                                ]
+                            ],
+                            "StackingIcon": [
+                                "Special_DebuffCountRed",
+                                "Special_DebuffCountYellow",
+                                "Special_DebuffCountGreen"
+                            ],
+                            "RestrictTo": [
+                                7309700,
+                                7309710
+                            ],
+                            "Stat": "DamagedRatio_Coefficient",
+                            "Channel": 94100
+                        },
+                        {
+                            "Type": "BuffTarget",
+                            "Value": [
+                                [
+                                    4000
+                                ],
+                                [
+                                    2000
+                                ],
+                                [
+                                    0
+                                ]
+                            ],
+                            "StackingIcon": [
+                                "Special_DebuffCountRed",
+                                "Special_DebuffCountYellow",
+                                "Special_DebuffCountGreen"
+                            ],
+                            "RestrictTo": [
+                                7309100,
+                                7309200,
+                                7309300,
+                                7309400,
+                                7309500,
+                                7309600,
+                                7309700,
+                                7309110,
+                                7309210,
+                                7309310,
+                                7309410,
+                                7309510,
+                                7309610,
+                                7309710
+                            ],
+                            "Stat": "AttackPower_Coefficient",
+                            "Channel": 94614
+                        }
+                    ],
+                    "EffectStackLabel": {
+                        "Icon": [
+                            "buff/Combat_Icon_Special_DebuffCountRed",
+                            "buff/Combat_Icon_Special_DebuffCountYellow",
+                            "buff/Combat_Icon_Special_DebuffCountGreen"
+                        ]
+                    },
+                    "Name": "Servant of the Servants of the Saint",
+                    "Desc": "Applies the following effects to Gregorio and all Choir Members depending on the number of debuffs inflicted on Gregorio.\n<s:DebuffCountGreen> (<?1> debuffs): Increases incoming damage by <?2>.\n<s:DebuffCountYellow> (<?3> or <?4> debuffs): Increases incoming damage by 100% and ATK by 20%.\n<s:DebuffCountRed> (<?5> or fewer/<?6> or more debuffs): Increases ATK by 40%.",
+                    "Parameters": [
+                        [
+                            "4~5",
+                            "4~5",
+                            "4~5",
+                            "4~5",
+                            "4~5",
+                            "5~6",
+                            "6~7"
+                        ],
+                        [
+                            "200%",
+                            "200%",
+                            "200%",
+                            "200%",
+                            "200%",
+                            "200%",
+                            "250%"
+                        ],
+                        [
+                            "2~3",
+                            "2~3",
+                            "2~3",
+                            "2~3",
+                            "2~3",
+                            "3~4",
+                            "4~5"
+                        ],
+                        [
+                            "6~7",
+                            "6~7",
+                            "6~7",
+                            "6~7",
+                            "6~7",
+                            "7~8",
+                            "8~9"
+                        ],
+                        [
+                            "1",
+                            "1",
+                            "1",
+                            "1",
+                            "1",
+                            "2",
+                            "3"
+                        ],
+                        [
+                            "8",
+                            "8",
+                            "8",
+                            "8",
+                            "8",
+                            "9",
+                            "10"
+                        ]
+                    ]
+                },
+                {
+                    "Id": "EN0005_Passive02",
+                    "SkillType": "Passive",
+                    "MinDifficulty": 0,
+                    "ATGCost": 0,
+                    "Icon": "SKILLICON_EN0005_PASSIVESKILL02",
+                    "Effects": [
+                        {
+                            "Type": "BuffTarget",
+                            "Value": [
+                                [
+                                    10000
+                                ]
+                            ],
+                            "RestrictTo": [
+                                7309110,
+                                7309210,
+                                7309310,
+                                7309410,
+                                7309510,
+                                7309610,
+                                7309710
+                            ],
+                            "Stat": "AttackPower_Coefficient",
+                            "Channel": 94613
+                        }
+                    ],
+                    "Name": "The Majestic Choir",
+                    "Desc": "Choir Members on the left and right podiums will sing for 40s after they appear, increasing their <b:ATK> by 100% after finishing singing.\nIf a Choir Member's HP falls below 1%, they will be knocked down, become unable to attack and increase Gregorio's groggy gauge by 5%."
+                },
+                {
+                    "Id": "EN0005_Passive03",
+                    "SkillType": "Passive",
+                    "MinDifficulty": 0,
+                    "ATGCost": 0,
+                    "Icon": "SKILLICON_EN0005_PASSIVESKILL03",
+                    "Effects": [
+                        {
+                            "Type": "BuffTarget",
+                            "Value": [
+                                [
+                                    -3000
+                                ]
+                            ],
+                            "RestrictTo": [
+                                7309100,
+                                7309200,
+                                7309300,
+                                7309400,
+                                7309500,
+                                7309600,
+                                7309700,
+                                7309110,
+                                7309210,
+                                7309310,
+                                7309410,
+                                7309510,
+                                7309610,
+                                7309710
+                            ],
+                            "Stat": "AttackPower_Coefficient",
+                            "Channel": 94601
+                        },
+                        {
+                            "Type": "BuffAlly",
+                            "Value": [
+                                [
+                                    300
+                                ]
+                            ],
+                            "StackSame": 9,
+                            "Stat": "RegenCost_Base",
+                            "Channel": 94607
+                        }
+                    ],
+                    "Name": "Sanctus",
+                    "Desc": "If Gregorio is inflicted with a stat-reducing debuff, the same effect is replicated on all Choir Members.\n100% of the damage taken by Choir Members will also be taken by Gregorio.\nImmediately after the start of battle, Gregorio and all Choir Members' <d:ATK> is decreased by 30% for 30s.\nFor the final part of the performance, all Choir Members move to Gregorio's side and sing in chorus. During this, all enemies and allies are gradually strengthened.\nIncreases the <b:AttackSpeed> of all Choir Members by 10% every 10s. (effect stacks multiple times).\nIncreases all enemies' (including Special students) <b:CostRegen> by <b>300</b> every 10s. (effect stacks multiple times)"
+                },
+                {
+                    "Id": "EN0005_Passive04",
+                    "SkillType": "Passive",
+                    "MinDifficulty": 0,
+                    "ATGCost": 0,
+                    "Icon": "SKILLICON_EN0005_PASSIVESKILL04",
+                    "Name": "Organ of Suffering",
+                    "Desc": "The Pipe Organ can only be attacked using EX Skills and will rotate 180 degrees when its HP falls below 1%.\nImmediately after rotating, the Pipe Organ restores all HP and cannot be attacked again for 30s."
+                }
+            ],
+            "ExcludeNormalAttack": [
+                7309100,
+                7309200,
+                7309300,
+                7309400,
+                7309500,
+                7309600,
+                7309700,
+                7309110,
+                7309210,
+                7309310,
+                7309410,
+                7309510,
+                7309610,
+                7309710,
+                7309120,
+                7309121,
+                7309122,
+                7309123,
+                7309124,
+                7309125,
+                7309126
+            ],
+            "BattleDuration": [
+                240,
+                240,
+                240,
+                240,
+                240,
+                240,
+                240
+            ],
+            "Name": "Gregorio",
+            "Profile": "キヴォトスのどこかに存在する廃墟となった地下神殿にて、歪んだ神秘によって顕現した人工天使が観測されました。\n\nグレゴリオは「聖徒の交わり」と呼ばれる人工天使シリーズの完成形であり、ゲマトリアの実験で生まれた謎の怪物です。今もその怪物は地下神殿でオルガンの演奏を続けています。旋律の終わりに何が待ち受けているのか……それは誰も知りません。"
         }
     ],
     "RaidSeasons": [
@@ -4224,6 +4854,15 @@
                     "End": 1687287600,
                     "RewardSet": 3000,
                     "RewardSetMax": 48
+                },
+                {
+                    "Season": 55,
+                    "RaidId": 9,
+                    "Terrain": "Indoor",
+                    "Start": 1688522400,
+                    "End": 1689102000,
+                    "RewardSet": 3100,
+                    "RewardSetMax": 54
                 }
             ],
             "RewardSets": {
@@ -16116,6 +16755,654 @@
                             ]
                         ]
                     ]
+                ],
+                "3100": [
+                    [
+                        250000,
+                        [
+                            [
+                                2000001,
+                                16
+                            ]
+                        ]
+                    ],
+                    [
+                        500000,
+                        [
+                            [
+                                10,
+                                12
+                            ]
+                        ]
+                    ],
+                    [
+                        750000,
+                        [
+                            [
+                                200,
+                                6
+                            ],
+                            [
+                                210,
+                                6
+                            ]
+                        ]
+                    ],
+                    [
+                        1000000,
+                        [
+                            [
+                                3000001,
+                                300000
+                            ]
+                        ]
+                    ],
+                    [
+                        1250000,
+                        [
+                            [
+                                2000002,
+                                8
+                            ]
+                        ]
+                    ],
+                    [
+                        1500000,
+                        [
+                            [
+                                11,
+                                6
+                            ]
+                        ]
+                    ],
+                    [
+                        1750000,
+                        [
+                            [
+                                201,
+                                3
+                            ],
+                            [
+                                211,
+                                3
+                            ]
+                        ]
+                    ],
+                    [
+                        2000000,
+                        [
+                            [
+                                23,
+                                20
+                            ]
+                        ]
+                    ],
+                    [
+                        2500000,
+                        [
+                            [
+                                2000003,
+                                4
+                            ]
+                        ]
+                    ],
+                    [
+                        3000000,
+                        [
+                            [
+                                12,
+                                3
+                            ]
+                        ]
+                    ],
+                    [
+                        3500000,
+                        [
+                            [
+                                202,
+                                2
+                            ],
+                            [
+                                212,
+                                2
+                            ]
+                        ]
+                    ],
+                    [
+                        4000000,
+                        [
+                            [
+                                3000003,
+                                150
+                            ]
+                        ]
+                    ],
+                    [
+                        4500000,
+                        [
+                            [
+                                2000004,
+                                1
+                            ]
+                        ]
+                    ],
+                    [
+                        5000000,
+                        [
+                            [
+                                13,
+                                1
+                            ]
+                        ]
+                    ],
+                    [
+                        5500000,
+                        [
+                            [
+                                203,
+                                1
+                            ],
+                            [
+                                213,
+                                1
+                            ]
+                        ]
+                    ],
+                    [
+                        6000000,
+                        [
+                            [
+                                23,
+                                20
+                            ]
+                        ]
+                    ],
+                    [
+                        7000000,
+                        [
+                            [
+                                2000001,
+                                32
+                            ],
+                            [
+                                2000002,
+                                16
+                            ]
+                        ]
+                    ],
+                    [
+                        8000000,
+                        [
+                            [
+                                10,
+                                24
+                            ],
+                            [
+                                11,
+                                12
+                            ]
+                        ]
+                    ],
+                    [
+                        9000000,
+                        [
+                            [
+                                200,
+                                12
+                            ],
+                            [
+                                210,
+                                12
+                            ],
+                            [
+                                201,
+                                6
+                            ],
+                            [
+                                211,
+                                6
+                            ]
+                        ]
+                    ],
+                    [
+                        10000000,
+                        [
+                            [
+                                3000001,
+                                500000
+                            ],
+                            [
+                                3000003,
+                                150
+                            ]
+                        ]
+                    ],
+                    [
+                        12000000,
+                        [
+                            [
+                                2000003,
+                                4
+                            ],
+                            [
+                                2000004,
+                                1
+                            ]
+                        ]
+                    ],
+                    [
+                        14000000,
+                        [
+                            [
+                                12,
+                                3
+                            ],
+                            [
+                                13,
+                                1
+                            ]
+                        ]
+                    ],
+                    [
+                        16000000,
+                        [
+                            [
+                                202,
+                                2
+                            ],
+                            [
+                                212,
+                                2
+                            ],
+                            [
+                                203,
+                                1
+                            ],
+                            [
+                                213,
+                                1
+                            ]
+                        ]
+                    ],
+                    [
+                        18000000,
+                        [
+                            [
+                                23,
+                                20
+                            ]
+                        ]
+                    ],
+                    [
+                        20000000,
+                        [
+                            [
+                                2000001,
+                                32
+                            ],
+                            [
+                                2000002,
+                                16
+                            ]
+                        ]
+                    ],
+                    [
+                        22000000,
+                        [
+                            [
+                                10,
+                                24
+                            ],
+                            [
+                                11,
+                                12
+                            ]
+                        ]
+                    ],
+                    [
+                        24000000,
+                        [
+                            [
+                                200,
+                                12
+                            ],
+                            [
+                                210,
+                                12
+                            ],
+                            [
+                                201,
+                                6
+                            ],
+                            [
+                                211,
+                                6
+                            ]
+                        ]
+                    ],
+                    [
+                        26000000,
+                        [
+                            [
+                                3000001,
+                                1200000
+                            ],
+                            [
+                                3000003,
+                                150
+                            ]
+                        ]
+                    ],
+                    [
+                        29000000,
+                        [
+                            [
+                                2000003,
+                                8
+                            ],
+                            [
+                                2000004,
+                                2
+                            ]
+                        ]
+                    ],
+                    [
+                        32000000,
+                        [
+                            [
+                                12,
+                                6
+                            ],
+                            [
+                                13,
+                                2
+                            ]
+                        ]
+                    ],
+                    [
+                        35000000,
+                        [
+                            [
+                                202,
+                                4
+                            ],
+                            [
+                                212,
+                                4
+                            ],
+                            [
+                                203,
+                                2
+                            ],
+                            [
+                                213,
+                                2
+                            ]
+                        ]
+                    ],
+                    [
+                        38000000,
+                        [
+                            [
+                                23,
+                                20
+                            ]
+                        ]
+                    ],
+                    [
+                        41000000,
+                        [
+                            [
+                                3000001,
+                                3000000
+                            ]
+                        ]
+                    ],
+                    [
+                        44000000,
+                        [
+                            [
+                                2000002,
+                                32
+                            ],
+                            [
+                                2000003,
+                                16
+                            ]
+                        ]
+                    ],
+                    [
+                        47000000,
+                        [
+                            [
+                                3000003,
+                                200
+                            ]
+                        ]
+                    ],
+                    [
+                        50000000,
+                        [
+                            [
+                                23,
+                                20
+                            ]
+                        ]
+                    ],
+                    [
+                        60000000,
+                        [
+                            [
+                                2000003,
+                                8
+                            ],
+                            [
+                                2000004,
+                                2
+                            ],
+                            [
+                                12,
+                                6
+                            ],
+                            [
+                                13,
+                                2
+                            ]
+                        ]
+                    ],
+                    [
+                        70000000,
+                        [
+                            [
+                                201,
+                                6
+                            ],
+                            [
+                                211,
+                                6
+                            ],
+                            [
+                                202,
+                                4
+                            ],
+                            [
+                                212,
+                                4
+                            ]
+                        ]
+                    ],
+                    [
+                        80000000,
+                        [
+                            [
+                                2000003,
+                                8
+                            ],
+                            [
+                                2000004,
+                                2
+                            ],
+                            [
+                                12,
+                                6
+                            ],
+                            [
+                                13,
+                                2
+                            ]
+                        ]
+                    ],
+                    [
+                        90000000,
+                        [
+                            [
+                                23,
+                                20
+                            ]
+                        ]
+                    ],
+                    [
+                        100000000,
+                        [
+                            [
+                                3000001,
+                                1500000
+                            ]
+                        ]
+                    ],
+                    [
+                        120000000,
+                        [
+                            [
+                                3000001,
+                                2000000
+                            ]
+                        ]
+                    ],
+                    [
+                        150000000,
+                        [
+                            [
+                                3000001,
+                                2500000
+                            ]
+                        ]
+                    ],
+                    [
+                        180000000,
+                        [
+                            [
+                                3000001,
+                                3000000
+                            ]
+                        ]
+                    ],
+                    [
+                        210000000,
+                        [
+                            [
+                                2000003,
+                                32
+                            ]
+                        ]
+                    ],
+                    [
+                        240000000,
+                        [
+                            [
+                                9998,
+                                5
+                            ]
+                        ]
+                    ],
+                    [
+                        270000000,
+                        [
+                            [
+                                2000004,
+                                8
+                            ]
+                        ]
+                    ],
+                    [
+                        310000000,
+                        [
+                            [
+                                100008,
+                                1
+                            ]
+                        ]
+                    ],
+                    [
+                        320000000,
+                        [
+                            [
+                                2000003,
+                                8
+                            ],
+                            [
+                                2000004,
+                                2
+                            ],
+                            [
+                                12,
+                                6
+                            ],
+                            [
+                                13,
+                                2
+                            ]
+                        ]
+                    ],
+                    [
+                        340000000,
+                        [
+                            [
+                                3000001,
+                                3000000
+                            ]
+                        ]
+                    ],
+                    [
+                        360000000,
+                        [
+                            [
+                                7,
+                                300
+                            ]
+                        ]
+                    ],
+                    [
+                        380000000,
+                        [
+                            [
+                                12,
+                                12
+                            ],
+                            [
+                                13,
+                                6
+                            ]
+                        ]
+                    ],
+                    [
+                        400000000,
+                        [
+                            [
+                                7,
+                                200
+                            ]
+                        ]
+                    ],
+                    [
+                        420000000,
+                        [
+                            [
+                                9998,
+                                3
+                            ]
+                        ]
+                    ]
                 ]
             }
         },
@@ -16479,6 +17766,33 @@
                     "Start": 1686016800,
                     "End": 1686596400,
                     "RewardSet": 2000,
+                    "RewardSetMax": 44
+                },
+                {
+                    "Season": 41,
+                    "RaidId": 6,
+                    "Terrain": "Indoor",
+                    "Start": 1687226400,
+                    "End": 1687806000,
+                    "RewardSet": 2500,
+                    "RewardSetMax": 44
+                },
+                {
+                    "Season": 42,
+                    "RaidId": 4,
+                    "Terrain": "Indoor",
+                    "Start": 1688436000,
+                    "End": 1689015600,
+                    "RewardSet": 2200,
+                    "RewardSetMax": 44
+                },
+                {
+                    "Season": 43,
+                    "RaidId": 3,
+                    "Terrain": "Indoor",
+                    "Start": 1689645600,
+                    "End": 1690225200,
+                    "RewardSet": 2100,
                     "RewardSetMax": 44
                 }
             ],
@@ -23213,6 +24527,12 @@
                     983164925,
                     3257931121
                 ]
+            ],
+            "BattleDuration": [
+                180,
+                180,
+                240,
+                300
             ]
         },
         {
@@ -23335,6 +24655,12 @@
                     2503860611,
                     3301214750
                 ]
+            ],
+            "BattleDuration": [
+                180,
+                180,
+                180,
+                180
             ]
         },
         {
@@ -23469,6 +24795,12 @@
                     648270201,
                     2856565282
                 ]
+            ],
+            "BattleDuration": [
+                180,
+                180,
+                180,
+                180
             ]
         },
         {
@@ -23583,6 +24915,12 @@
                     1949095289,
                     1428571194
                 ]
+            ],
+            "BattleDuration": [
+                180,
+                180,
+                150,
+                180
             ]
         },
         {
@@ -23705,6 +25043,12 @@
                     3009801818,
                     2490399639
                 ]
+            ],
+            "BattleDuration": [
+                180,
+                180,
+                180,
+                180
             ]
         },
         {
@@ -23839,6 +25183,12 @@
                     719379007,
                     773473613
                 ]
+            ],
+            "BattleDuration": [
+                180,
+                180,
+                180,
+                150
             ]
         },
         {
@@ -23953,6 +25303,12 @@
                     3091509634,
                     3334829467
                 ]
+            ],
+            "BattleDuration": [
+                180,
+                210,
+                150,
+                150
             ]
         },
         {
@@ -24075,6 +25431,12 @@
                     3839125090,
                     89307624
                 ]
+            ],
+            "BattleDuration": [
+                240,
+                240,
+                180,
+                180
             ]
         },
         {
@@ -24209,6 +25571,12 @@
                     2045771535,
                     1582447562
                 ]
+            ],
+            "BattleDuration": [
+                180,
+                180,
+                150,
+                150
             ]
         },
         {
@@ -24323,13 +25691,19 @@
                     4033973365,
                     3951708717
                 ]
+            ],
+            "BattleDuration": [
+                240,
+                240,
+                120,
+                120
             ]
         },
         {
             "Id": 11000,
             "IsReleased": [
                 true,
-                false
+                true
             ],
             "DungeonType": "Defense",
             "Icon": "EnemyInfo_Sweeper_Decagram_Taser_White",
@@ -24445,6 +25819,12 @@
                     328739473,
                     3427259164
                 ]
+            ],
+            "BattleDuration": [
+                180,
+                180,
+                210,
+                240
             ]
         },
         {
@@ -24579,6 +25959,12 @@
                     3153525398,
                     3902330525
                 ]
+            ],
+            "BattleDuration": [
+                180,
+                180,
+                180,
+                180
             ]
         },
         {
@@ -24693,6 +26079,12 @@
                     1246791085,
                     3239764743
                 ]
+            ],
+            "BattleDuration": [
+                180,
+                180,
+                180,
+                180
             ]
         },
         {
@@ -24815,6 +26207,12 @@
                     4104132399,
                     3258287232
                 ]
+            ],
+            "BattleDuration": [
+                180,
+                180,
+                210,
+                210
             ]
         },
         {
@@ -24949,6 +26347,12 @@
                     1356579409,
                     673863759
                 ]
+            ],
+            "BattleDuration": [
+                180,
+                180,
+                130,
+                130
             ]
         },
         {
@@ -25063,6 +26467,12 @@
                     3693849978,
                     3900019006
                 ]
+            ],
+            "BattleDuration": [
+                180,
+                180,
+                180,
+                180
             ]
         },
         {
@@ -25185,6 +26595,152 @@
                     1034510189,
                     2456483055
                 ]
+            ],
+            "BattleDuration": [
+                180,
+                180,
+                210,
+                210
+            ]
+        },
+        {
+            "Id": 18000,
+            "IsReleased": [
+                true,
+                false
+            ],
+            "DungeonType": "Destruction",
+            "Icon": "EnemyInfo_Totem03_TimeAttack",
+            "MaxDifficulty": 4,
+            "Terrain": "Street",
+            "BulletType": "Normal",
+            "ArmorType": "Unarmed",
+            "EnemyLevel": [
+                25,
+                40,
+                65,
+                78
+            ],
+            "Formations": [
+                {
+                    "Id": 922000001,
+                    "Level": [
+                        25,
+                        25,
+                        25,
+                        25
+                    ],
+                    "Grade": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "EnemyList": [
+                        7822001,
+                        7822201,
+                        7822101,
+                        7823099,
+                        7823199,
+                        7823299
+                    ]
+                },
+                {
+                    "Id": 922000002,
+                    "Level": [
+                        40,
+                        40,
+                        40,
+                        40
+                    ],
+                    "Grade": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "EnemyList": [
+                        7822002,
+                        7822202,
+                        7822102,
+                        7823099,
+                        7823199,
+                        7823299
+                    ]
+                },
+                {
+                    "Id": 922000003,
+                    "Level": [
+                        65,
+                        65,
+                        65,
+                        65
+                    ],
+                    "Grade": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "EnemyList": [
+                        7822003,
+                        7822203,
+                        7822103,
+                        7823099,
+                        7823199,
+                        7823299
+                    ]
+                },
+                {
+                    "Id": 922000004,
+                    "Level": [
+                        78,
+                        78,
+                        78,
+                        78
+                    ],
+                    "Grade": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "EnemyList": [
+                        7822104,
+                        7822004,
+                        7822204,
+                        7823099,
+                        7823199,
+                        7823299
+                    ]
+                }
+            ],
+            "Rules": [
+                [
+                    3938056289,
+                    2570956929
+                ],
+                [
+                    3938056289,
+                    2570956929
+                ],
+                [
+                    3938056289,
+                    2570956929,
+                    159710181
+                ],
+                [
+                    3938056289,
+                    2570956929,
+                    159710181,
+                    200078526
+                ]
+            ],
+            "BattleDuration": [
+                180,
+                180,
+                90,
+                90
             ]
         }
     ],
@@ -25421,13 +26977,25 @@
             "Id": 1034510189,
             "Icon": "TimeAttack_Enemy_HealByHitDamaged_MaxHp_01",
             "Name": "Increased Enemy Max HP and Heal When Hit",
-            "Desc": "All enemies have increased <b:MAXHP> and <b:HealByHit_Damaged>, restoring HP each time they are attacked."
+            "Desc": "All enemies' <b:MAXHP> is increased by 20% and gain <b:HealByHit_Damaged>, restoring HP equal to 10% of their Max HP each time they are attacked."
         },
         {
             "Id": 2456483055,
             "Icon": "TimeAttack_Icon_Buff_DodgePoint_Enemy_01",
-            "Name": "Increased Enemy Evasion",
-            "Desc": "All enemies' <b:Dodge> is increased."
+            "Name": "Evasion Increase",
+            "Desc": "All enemies' <b:Dodge> is increased by <b>430</b>."
+        },
+        {
+            "Id": 159710181,
+            "Icon": "TimeAttack_Icon_Ally_Special_ExtraDamage",
+            "Name": "Additional Damage, ATK Increase ",
+            "Desc": "All enemies' <b:ATK> is increased and enemies will deal additional damage."
+        },
+        {
+            "Id": 200078526,
+            "Icon": "TimeAttack_Icon_Ally_Special_HealConvertDamage",
+            "Name": "Enemy Damage When Scarecrow Heals",
+            "Desc": "Whenever the Scarecrow recovers HP, deals damage to enemies in proportion to the amount recovered."
         }
     ],
     "WorldRaid": [
@@ -25442,9 +27010,9 @@
                 2
             ],
             "DifficultyName": [
-                "A",
-                "B",
-                "C"
+                "Normal",
+                "Hard",
+                "VeryHard"
             ],
             "PathName": "WakamoSwimsuit",
             "IconBG": "Boss_Portrait_HoverCraft_LobbyBG",
@@ -25774,6 +27342,11 @@
                     1
                 ]
             ],
+            "BattleDuration": [
+                240,
+                240,
+                240
+            ],
             "RewardsGlobal": [
                 {
                     "Items": [
@@ -26028,9 +27601,9 @@
                 2
             ],
             "DifficultyName": [
-                "A",
-                "B",
-                "C"
+                "Normal",
+                "Hard",
+                "VeryHard"
             ],
             "PathName": "HoverCraft",
             "IconBG": "Boss_Portrait_HoverCraft_LobbyBG",
@@ -26393,6 +27966,11 @@
                     1
                 ]
             ],
+            "BattleDuration": [
+                240,
+                240,
+                240
+            ],
             "RewardsGlobal": [
                 {
                     "Items": [
@@ -26692,7 +28270,7 @@
             ],
             "UseRaidSkillList": 1,
             "RaidSkill": [],
-            "Name": "Binah (Color)",
+            "Name": "Binah (Chroma)",
             "Rewards": [
                 {
                     "Items": [
@@ -28389,6 +29967,14 @@
                     20,
                     20
                 ]
+            ],
+            "BattleDuration": [
+                180,
+                180,
+                180,
+                180,
+                180,
+                180
             ]
         },
         {
@@ -28478,7 +30064,7 @@
             ],
             "UseRaidSkillList": 2,
             "RaidSkill": [],
-            "Name": "Chesed (Color)",
+            "Name": "Chesed (Chroma)",
             "Rewards": [
                 {
                     "Items": [
@@ -30139,6 +31725,14 @@
                     20,
                     20
                 ]
+            ],
+            "BattleDuration": [
+                240,
+                240,
+                240,
+                240,
+                240,
+                240
             ]
         },
         {
@@ -30203,7 +31797,7 @@
             ],
             "UseRaidSkillList": 3,
             "RaidSkill": [],
-            "Name": "Shiro & Kuro (Color)",
+            "Name": "Shiro & Kuro (Chroma)",
             "Rewards": [
                 {
                     "Items": [
@@ -31936,6 +33530,14 @@
                     20,
                     20
                 ]
+            ],
+            "BattleDuration": [
+                240,
+                240,
+                240,
+                240,
+                240,
+                240
             ]
         },
         {
@@ -32006,7 +33608,7 @@
             ],
             "UseRaidSkillList": 4,
             "RaidSkill": [],
-            "Name": "Hieronymus (Color)",
+            "Name": "Hieronymus (Chroma)",
             "Rewards": [
                 {
                     "Items": [
@@ -33775,6 +35377,14 @@
                     20,
                     20
                 ]
+            ],
+            "BattleDuration": [
+                240,
+                240,
+                240,
+                240,
+                240,
+                240
             ]
         },
         {
@@ -33839,7 +35449,7 @@
             ],
             "UseRaidSkillList": 7,
             "RaidSkill": [],
-            "Name": "Hod (Color)",
+            "Name": "Hod (Chroma)",
             "Rewards": [
                 {
                     "Items": [
@@ -35536,6 +37146,14 @@
                     20,
                     20
                 ]
+            ],
+            "BattleDuration": [
+                240,
+                240,
+                240,
+                240,
+                240,
+                240
             ]
         },
         {
@@ -35606,7 +37224,7 @@
             ],
             "UseRaidSkillList": 6,
             "RaidSkill": [],
-            "Name": "Perorodzilla (Color)",
+            "Name": "Perorodzilla (Chroma)",
             "Rewards": [
                 {
                     "Items": [
@@ -37303,6 +38921,14 @@
                     20,
                     20
                 ]
+            ],
+            "BattleDuration": [
+                240,
+                240,
+                240,
+                240,
+                240,
+                240
             ]
         },
         {
@@ -37418,7 +39044,7 @@
                     "Desc": "Phrenapates uses all the energy of the Atra-Hasis' Ark to fire at the enemy, dealing damage to all enemies equal to 1000% of their Max HP."
                 }
             ],
-            "Name": "Shiroko*Terror",
+            "Name": "Shiroko Terror",
             "Rewards": [
                 {
                     "Items": [
@@ -39452,6 +41078,11 @@
                     21,
                     20
                 ]
+            ],
+            "BattleDuration": [
+                180,
+                180,
+                180
             ]
         }
     ]

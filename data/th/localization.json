@@ -92,11 +92,11 @@
         "anzenkyoku": "สำนักรักษาความปลอดภัย",
         "SisterHood": "ชมรมซิสเตอร์",
         "Class227": "ห้องพิเศษ 227",
-        "Emergentology": "ฝ่ายการแพทย์ฉุกเฉิน",
+        "Emergentology": "หน่วยแพทย์ฉุกเฉิน",
         "RabbitPlatoon": "กองทหาร RABBIT",
         "PandemoniumSociety": "แพนเดโมเนียม โซไซตี้",
         "AriusSqud": "สควอดของอาเรียส",
-        "HotSpringsDepartment": "ชมรมพัฒนาบ่อน้ำพุร้อน",
+        "HotSpringsDepartment": "ชมรมพัฒนาออนเซ็น",
         "TeaParty": "สภาน้ำชา",
         "PublicPeaceBureau": "กรมความมั่นคงสาธารณะ",
         "BlackTortoisePromenade": "ย่านการค้าเทพเต่าดำ",
@@ -168,8 +168,9 @@
         "107": "เซ็ตค่ายทหาร",
         "108": "เซ็ตริมหาด",
         "109": "เซ็ตงานแข่งขันกีฬา",
-        "110": "Abydos Classroom Set",
-        "111": "Game Development Department Set"
+        "110": "เซ็ตห้องเรียนอะบิดอส",
+        "111": "Game Development Department Set",
+        "112": "Sunshine Resort Set"
     },
     "ItemCategory": {
         "Furnitures": "เฟอร์นิเจอร์",
@@ -227,9 +228,11 @@
         "19": "คริสตัลฮานิวา",
         "20": "เสาโทเทม",
         "21": "แบตเตอรี่โบราณ",
+        "22": "Golden Fleece",
         "23": "ตุ๊กตาโอคิคุ",
         "24": "ดิสโก โคลกานเต",
         "25": "เหรียญแอทแลนติส",
+        "26": "Roman Dodecahedron",
         "29": "หินวินนีเพอซอกี"
     },
     "EnemyTags": {
@@ -258,13 +261,15 @@
         "817": "ON YOUR MARK ＠ MILLENNIUM",
         "818": "Get Set, Go! ~คิโวทอส ฮาโลเฟสติวัล~",
         "819": "งานฉลองคริสต์มาสแห่งมหาวิหาร ~ของขวัญจากชมรมอัศวินบรรเทาทุกข์~",
-        "820": "A Game Before the New Year's Feast",
-        "821": "Battle for the False Sanctum",
-        "822": "Atra-Hasis' Ark Conquest",
-        "823": "Phrenapates' Decisive Battle",
-        "824": "Restoration Project: DU Shiratori District",
+        "820": "ปีใหม่สุดป่วนกับมื้อเปิดเทศกาล ~ศึกตัดสินแห่งงานฉลอง~",
+        "821": "ปฏิบัติการบุกยึดหอคอยแห่งคำลวง",
+        "822": "ปฏิบัติการยึดเรืออะทราฮาซิส",
+        "823": "ศึกชี้ชะตาเพลนาพาเทส",
+        "824": "ปฏิบัติการฟื้นฟู: เขตชิราโทริ D.U.",
         "825": "Chalk White Calling Card: The Mansion of Empty Aesthetics",
-        "826": "Ryubu Doushu: Vision of a Lone Future"
+        "826": "Ryubu Doushu: Vision of a Lone Future",
+        "827": "RABBIT Squad and The Mystery of the Missing Shrimp",
+        "828": "In Search of a Hidden Heritage"
     },
     "StageType": {
         "Campaign": "ภารกิจ",
@@ -283,7 +288,8 @@
         "SchoolA": "ทัวร์โรงเรียน - ทรีนิตี้",
         "SchoolB": "ทัวร์โรงเรียน - เกเฮนน่า",
         "SchoolC": "ทัวร์โรงเรียน - มิลเลเนียม",
-        "Conquest": "ยึดครอง"
+        "Conquest": "ยึดครอง",
+        "EliminateRaid": "ศึกตัดสิน"
     },
     "TimeAttackStage": {
         "Shooting": "สอบยิงปืน",
@@ -292,7 +298,7 @@
     },
     "ConquestMap": {
         "815": "หมู่เกาะ <ลอสต์ พาราไดซ์ รีสอร์ต>",
-        "822": "Atra-Hasis' Ark"
+        "822": "<เรืออะทราฮาซิส>"
     },
     "StageTitle": {
         "ChaserA": "ทางยกระดับ {0}",
@@ -344,7 +350,7 @@
         "Special": "เอฟเฟกต์พิเศษ"
     },
     "BuffName": {
-        "Buff_AidAttitude": "หัวใจแห่งการบรรเทาทุกข์",
+        "Buff_AidAttitude": "ความตั้งใจบรรเทาทุกข์",
         "Buff_AmmoCount": "จำนวนกระสุน",
         "Buff_ATK": "ค่าโจมตี",
         "Buff_AttackSpeed": "ความเร็วโจมตี",
@@ -441,10 +447,14 @@
         "Special_SilverBullet": "โจมตีทั่วไป",
         "Special_CH0187Mod": "โหมดอาบี-เอชูฮ์",
         "Special_Omamori": "เครื่องราง",
-        "Special_Dado": "จิตใสนิ่งสงบ"
+        "Special_Dado": "จิตใสนิ่งสงบ",
+        "Special_DebuffCountGreen": "ปลอดภัย",
+        "Special_DebuffCountYellow": "เตือนภัย",
+        "Special_DebuffCountRed": "อันตราย",
+        "Special_OldBook": "Clues"
     },
     "BuffNameLong": {
-        "Buff_AidAttitude": "หัวใจแห่งการบรรเทาทุกข์",
+        "Buff_AidAttitude": "ความตั้งใจบรรเทาทุกข์",
         "Buff_AmmoCount": "จำนวนกระสุนเพิ่มขึ้น",
         "Buff_ATK": "ค่าโจมตีเพิ่มขึ้น",
         "Buff_AttackSpeed": "ความเร็วโจมตีเพิ่มขึ้น",
@@ -541,7 +551,11 @@
         "Special_SilverBullet": "ตราแห่งการชำระบาป",
         "Special_CH0187Mod": "โหมดอาบี-เอชูฮ์",
         "Special_Omamori": "เครื่องราง",
-        "Special_Dado": "จิตใสนิ่งสงบ"
+        "Special_Dado": "จิตใสนิ่งสงบ",
+        "Special_DebuffCountGreen": "จำนวนเอฟเฟกต์อันตราย : ปลอดภัย",
+        "Special_DebuffCountYellow": "จำนวนเอฟเฟกต์อันตราย : เตือนภัย",
+        "Special_DebuffCountRed": "จำนวนเอฟเฟกต์อันตราย : อันตราย",
+        "Special_OldBook": "Clues"
     },
     "BuffTooltip": {
         "Buff_AidAttitude": "ฟื้นฟู HP ช้าๆ เป็นเวลาต่อเนื่อง",
@@ -641,7 +655,11 @@
         "Special_SilverBullet": "การโจมตีทั่วไปของซากุราโกะจะสร้างความเสียหายเพิ่มเติม",
         "Special_CH0187Mod": "เพิ่มค่าโจมตี, ความแม่นยำและหลบหลีกของโทคิ\nเปลี่ยนรูปแบบของสกิล EX และการโจมตีทั่วไปของโทคิ รวมทั้งเพิ่มความสามารถในการไม่สนค่าป้องกันของศัตรูส่วนหนึ่งให้กับสกิลพื้นฐานและสกิลรอง\nโหมดอาบี-เอชูฮ์จะสิ้นสุดลงเมื่อใช้งานสกิล EX ในโหมดอาบี-เอชูฮ์ครบ 3 ครั้ง",
         "Special_Omamori": "เพิ่มประสิทธิภาพความเสียหายลึกลับเมื่อสกิลรองของคาโยโกะ (ปีใหม่) ทำงาน",
-        "Special_Dado": "การโจมตีของคาโฮะจะสร้างความเสียหายเพิ่มเติม"
+        "Special_Dado": "การโจมตีของคาโฮะจะสร้างความเสียหายเพิ่มเติม",
+        "Special_DebuffCountGreen": "เพิ่มความเสียหายที่เกรเกอริอุสและผู้ประสานเสียงได้รับ",
+        "Special_DebuffCountYellow": "เพิ่มความเสียหายที่เกรเกอริอุสและผู้ประสานเสียงได้รับ\nเพิ่มค่าโจมตีของเกรเกอริอุสและผู้ประสานเสียง",
+        "Special_DebuffCountRed": "เพิ่มค่าโจมตีของเกรเกอริอุสและผู้ประสานเสียง",
+        "Special_OldBook": "Activates Ui (Swimsuit)'s Basic Skill when at 3 stacks."
     },
     "ServerName": {
         "0": "ญี่ปุ่น",
@@ -655,7 +673,8 @@
         "Arena": "อารีน่า",
         "TimeAttack": "สอบประมวล",
         "MasterCoin": "เหรียญรับรองทักษะ",
-        "Chaser": "ประกาศจับ"
+        "Chaser": "ประกาศจับ",
+        "EliminateRaid": "ศึกตัดสิน"
     },
     "GroggyCondition": {
         "TypeDamage": "เพิ่มเมื่อได้รับความเสียหาย {0}",
@@ -665,7 +684,81 @@
         "KaitenFxMk0": "เพิ่มเมื่อได้รับความเสียหายจนชิ้นส่วนถูกทำลาย",
         "Perorozilla": "เพิ่มเมื่อลูกสมุนเพโรโร่ที่ล้มลงถูกดูดซับ",
         "HOD": "เพิ่มเมื่อเสากัดกร่อนถูกทำลายหรือเกจพิเศษของ Hod เต็ม",
-        "HoverCraft": "เพิ่มเมื่อโหมดยิงมิสไซล์จบลง"
+        "HoverCraft": "เพิ่มเมื่อโหมดยิงมิสไซล์จบลง",
+        "EN0005": "เพิ่มเมื่อผู้ประสานเสียงล้มลง"
+    },
+    "VoiceClipGroup": {
+        "Normal": "เสียงทั่วไป",
+        "Battle": "เสียงต่อสู้",
+        "Lobby": "เสียงหน้าล็อบบี้",
+        "Event": "เสียงหน้าอีเวนท์"
+    },
+    "VoiceClip": {
+        "UITitleIdle": "หน้าไตเติ้ล",
+        "CharacterGetIdle": "ได้รับตัวละคร",
+        "CafeIdle": "คาเฟ่ {0}",
+        "UILobbyEnter": "เข้าหน้าล็อบบี้ {0}",
+        "UILobbyIdle": "หน้าล็อบบี้ {0}",
+        "UILobbyUserBDay": "วันเกิดของเซ็นเซย์",
+        "UILobbyStudentBDay": "วันเกิดของตัวเอง",
+        "UILobbyNewYear": "ปีใหม่",
+        "UILobbyXmas": "คริสต์มาสต์",
+        "UILobbyHalloween": "ฮาโลวีน",
+        "WeaponGetIdle": "ติดตั้งอาวุธเฉพาะ",
+        "UILobbySpecial": "ล็อบบี้แห่งความทรงจำ {0}",
+        "FormationIn": "เข้าร่วมทีม {0}",
+        "FormationSelect": "เลือกตอนอยู่ในทีม",
+        "TacticIn": "เข้าหน้าแผนที่ {0}",
+        "TacticVictory": "ชนะในหน้าแผนที่ {0}",
+        "TacticDefeat": "แพ้ในหน้าแผนที่ {0}",
+        "BattleIn": "เข้าการต่อสู้ {0}",
+        "BattleRecovery": "ได้รับการฟื้นฟู HP",
+        "BattleVictory": "ชนะการต่อสู้ {0}",
+        "BattleRetire": "ล่าถอยในการต่อสู้ {0}",
+        "CommonSkill": "ใช้สกิลพื้นฐาน {0}",
+        "Growup": "เสริมความสามารถนักเรียน {0}",
+        "RelationshipUp": "สายใยเพื่มขึ้น {0}",
+        "BattleDefense": "Evade Attack",
+        "BattleBuffed": "ได้รับบัฟ {0}",
+        "BattleBuffSelf": "ได้บัฟของตัวเอง {0}",
+        "BattleTacticalAction": "เดินเข้าประจำที่",
+        "BattleMove": "เดินไปส่วนต่อไป {0}",
+        "BattleCovered": "เข้าที่กำบัง {0}",
+        "ExSkill": "คัทซีนสกิล EX {0}",
+        "ExSkillLevel": "ใช้สกิล EX (บนสนาม) {0}",
+        "UIEventLobbyEnter": "เข้าหน้าล็อบบี้อีเวนท์ {0}",
+        "UIEventLobbyIdle": "หน้าล๊อบบี้อีเวนท์ {0}",
+        "UIEventShopEnter": "เข้าหน้าร้านค้าอีเวนท์ {0}",
+        "UIEventShopIdle": "หน้าร้านค้าอีเวนท์ {0}",
+        "UIEventShopBuy": "ซื้อของร้านค้าอีเวนท์ {0}",
+        "UIEventBoxGachaShopEnter": "เข้าหน้าแลกรางวัลอีเวนท์ {0}",
+        "UIEventBoxGachaShopIdle": "หน้าแลกรางวัลอีเวนท์ {0}",
+        "UIEventBoxGachaShopBoxGachaPrize": "ได้รับรางวัลหลักจากกล่องแลกรางวัลอีเวนท์ {0}",
+        "UIEventMissionEnter": "เข้าหน้าภารกิจอีเวนท์ {0}",
+        "UIEventMissionIdle": "หน้าภารกิจอีเวนท์ {0}",
+        "UIEventMissionBuy": "รับรางวัลภารกิจอีเวนท์ {0}",
+        "UIEventMissionInteraction": "รับรางวัลภารกิจอีเวนท์รายวัน {0}",
+        "UIEventCardShopEnter": "เข้าหน้าสุ่มการ์ดอีเวนท์ {0}",
+        "UIEventCardShopIdle": "หน้าสุ่มการ์ดอีเวนท์ {0}",
+        "UIEventCardShopPrize3": "สุ่มได้การ์ด UR",
+        "UIEventCardShopPrize2": "สุ่มได้การ์ด SR",
+        "UIEventCardShopPrize1": "สุ่มได้การ์ด R",
+        "UIEventCardShopPrize0": "สุ่มได้การ์ด N",
+        "UIEventFortuneGachaShopEnter": "เข้าหน้าโอะมิกุจิ {0}",
+        "UIEventFortuneGachaShopIdle": "หน้าโอะมิกุจิ {0}",
+        "UIEventFortuneGachaShopLuck5": "โอะมิกุจิ [โชคดีครั้งใหญ่]",
+        "UIEventFortuneGachaShopLuck4": "โอะมิกุจิ [โชคดีมาก]",
+        "UIEventFortuneGachaShopLuck3": "โอะมิกุจิ [โชคดีกลาง]",
+        "UIEventFortuneGachaShopLuck2": "โอะมิกุจิ [โชคดีเล็ก]",
+        "UIEventFortuneGachaShopLuck1": "โอะมิกุจิ [โชคดีนิดนึง]",
+        "UIEventFortuneGachaShopLuck0": "โอะมิกุจิ [ลางร้าย]",
+        "UIEventMiniGameMissionEnter": "เข้าหน้าภารกิจมินิเกม {0}",
+        "UIEventMiniGameMissionIdle": "หน้าภารกิจมินิเกม {0}",
+        "UIEventMiniGameMissionBuy": "รับรางวัลหน้าภารกิจมินิเกม {0}",
+        "UISpecialOperationLobbyEnter": "เข้าหน้าล็อบบี้ปฏิบัติการณ์พิเศษ {0}",
+        "UISpecialOperationLobbyIdle": "หน้าล็อบบี้ปฏิบัติการณ์พิเศษ {0}",
+        "UISpecialOperationLobbyCollectionOpen": "ได้รับข้อมูลปฏิบัติการณ์พิเศษ {0}",
+        "UISpecialOperationLobbyStoryOpen": "ปลดล็อคเนื้อเรื่องปฏิบัติการณ์พิเศษ {0}"
     },
     "ui": {
         "navbar_home": "หน้าหลัก",
@@ -713,6 +806,9 @@
         "student_birthdays": "นักเรียนที่มีวันเกิดอยู่ในสัปดาห์นี้!",
         "attributes": "ค่าสถานะ",
         "base_stats": "ค่าสถานะพื้นฐาน",
+        "max_stats": "Max. Stats",
+        "collection_stats": "Use Collection Stats",
+        "sp_sub_skill": "Special Sub Skill",
         "skills": "สกิล",
         "ex_weapon": "อาวุธเฉพาะ",
         "ex_gear": "อุปกรณ์พิเศษ",
@@ -794,6 +890,7 @@
         "uses_cover": "ใช้กำบังได้",
         "doesnt_use_cover": "ไม่ใช้กำบัง",
         "can_cc": "มีเอฟเฟกต์กดขี่",
+        "can_debuff": "มีเอฟเฟกต์อันตราย",
         "uses_artifact": "วัตถุหลงยุคที่ใช้",
         "filter_include_weapon_upgrade": "นับรวมผลของอาวุธเฉพาะ",
         "memory_lobby": "ล็อบบี้แห่งความทรงจำ",
@@ -835,6 +932,7 @@
         "others": "อื่นๆ",
         "options": "ตั้งค่า",
         "details": "รายละเอียด",
+        "calculations": "คำนวน",
         "options_short": "ตั้งค่า",
         "raid_rules": "กฏพิเศษ",
         "ta_phase": "ขั้นที่ ",
@@ -979,6 +1077,10 @@
         "dmginfo_accumulation_limit": "ความเสียหาย{0}สูงสุดที่ทำได้",
         "ordinal_1": "เป้าแรก",
         "ordinal_2": "เป้าที่สอง",
-        "ordinal_3": "เป้าที่สาม"
+        "ordinal_3": "เป้าที่สาม",
+        "voicegallery": "แกลอรี่เสียงตัวละคร",
+        "skill_target_hp": "HP ของเป้าหมาย",
+        "max_attributes": "ปรับทั้งหมดเป็นค่าสูงสุด",
+        "lock_attributes": "ล็อคค่าสถานะในคอลเลคชั่น"
     }
 }
