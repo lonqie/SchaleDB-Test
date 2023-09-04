@@ -102,6 +102,7 @@
         "BlackTortoisePromenade": "Black Tortoise Promenade",
         "Genryumon": "Genryumon",
         "LaborParty": "Labor Party",
+        "KnowledgeLiberationFront": "Knowledge Liberation Front",
         "EmptyClub": "Không có"
     },
     "BossFaction": {
@@ -109,7 +110,8 @@
         "Slumpia": "Slumpia",
         "CommunioSanctorum": "Communio Sanctorum",
         "Kaitenger": "Kaitenger",
-        "TheLibraryofLore": "Thư viện Truyền thuyết"
+        "TheLibraryofLore": "Thư viện Truyền thuyết",
+        "SevenPrisoners": "Seven Prisoners"
     },
     "Stat": {
         "Level": "Cấp",
@@ -269,7 +271,8 @@
         "825": "Chalk White Calling Card: The Mansion of Empty Aesthetics",
         "826": "Ryubu Doushu: Vision of a Lone Future",
         "827": "RABBIT Squad and The Mystery of the Missing Shrimp",
-        "828": "In Search of a Hidden Heritage"
+        "828": "In Search of a Hidden Heritage",
+        "829": "Gakuman Doujin Monogatari: Two Seeking the Final Episode"
     },
     "StageType": {
         "Campaign": "Nhiệm vụ",
@@ -849,7 +852,7 @@
         "student_weapon_rank_3star_desc": "Vũ khí độc quyền Cấp tối đa Lv.40 → <b>Lv.50</b> / Nâng cấp sức mạnh địa hình",
         "student_gear_t2_desc": "Mở khóa kỹ năng cơ bản +",
         "attack_type_desc": "Gây <b>{0}x</b> sát thương cho mục tiêu có giáp {1}.",
-        "attack_type_normal_desc": "Gây <b>1x</b> sát thương lên mục tiêu có giáp <b class='ba-col-explosion'>nhẹ</b>, <b class='ba-col-pierce'>nặng</b> và <b class='ba-col-mystic'>đặc biệt</b>.<br>Gây <b>0,5x</b> sát thương cho <b>cấu trúc</b>.",
+        "attack_type_normal_desc": "Gây <b>1x</b> sát thương lên mục tiêu có giáp <b class='ba-col-explosion'>nhẹ</b>, <b class='ba-col-pierce'>nặng</b> và <b class='ba-col-mystic'>đặc biệt</b>.",
         "defense_type_desc": "Nhận <b>{0}x</b> sát thương từ các đòn đánh loại {1}.",
         "defense_type_normal_desc": "Nhận <b>1x</b> sát thương từ các đòn đánh loại <b class='ba-col-explosion'>Nổ</b>, <b class='ba-col-pierce'>Xuyên thủng</b> và <b class='ba-col-mystic'>Huyền bí</b>.",
         "comfort": "Thoải mái",
@@ -918,6 +921,9 @@
         "stage_map": "Bản đồ",
         "stage_conquest_tile": "Vùng",
         "event_rerun": " (Lặp lại)",
+        "stage_original": "Original",
+        "stage_rerun": "Lặp lại",
+        "stage_permanent": "Permanent",
         "starcondition_clear": "Quét sạch",
         "starcondition_cleartime": "Quét sạch trong <b>{0}</b> giây.",
         "starcondition_earnrewards": "Nhận <b>{0}</b> phần thưởng.",
@@ -945,7 +951,7 @@
         "bond_req_upgrade": "Yêu cầu <i class='ms-1 fa-solid fa-heart'></i> {0} với {1} để nâng cấp",
         "gacha_pickup": "Tuyển dụng chào đón",
         "skill_plus": "+",
-        "stage_reward_default": "Phần thưởng",
+        "rewards": "Phần thưởng",
         "stage_reward_firstclear": "Lần đầu",
         "stage_reward_threestar": "3★",
         "rewards_season": "Phần thưởng mùa",
@@ -988,7 +994,9 @@
         "conquest_occupy": "Tái chiếm",
         "conquest_operate": "Vận hành",
         "conquest_analyze": "Phân tích",
-        "conquest_settlement": "Phần thưởng tái chiếm định cư",
+        "base_level": "Base Info",
+        "base_upgrade_cost": "Upgrade Cost",
+        "base_settlement": "Phần thưởng tái chiếm định cư",
         "school_bonus": "Hiệu ứng buff học viện",
         "school_bonus_num_students": "{0} học sinh: ",
         "school_bonus_conquest": "({2}) Tiền thưởng sự kiện +{0}%, ATK +{1}%",
@@ -1022,6 +1030,7 @@
         "toast_import_failure": "Xảy ra lỗi khi nhập bộ sưu tập học sinh",
         "toast_import_copy": "Đã sao chép chuỗi nhập vào bàn phím.",
         "toast_amount_invalid": "Số lượng đã nhập không hợp lệ",
+        "toast_release_warning": "This content has not yet been released on the selected server.\nData from the JP server will be displayed.",
         "stat_defense_tooltip": "Giảm DMG: {0}",
         "stat_crit_tooltip": "Tỉ lệ chí mạng:",
         "stat_crit_amount_tooltip": "{0}&nbsp;<small><i>({1} Kháng chí mạng)</i></small>",

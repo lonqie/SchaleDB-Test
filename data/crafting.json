@@ -668,7 +668,7 @@
                 "NameKr": "할로윈 펌킨 카페 세트",
                 "DescKr": "카페 가구를 생성할 수 있습니다. (할로윈 테마)",
                 "NameTw": "萬聖節南瓜咖啡廳組合",
-                "DescTw": "可製造咖啡廳家具。（萬聖節主題）",
+                "DescTw": "可製造咖啡廳家具。(萬聖節主題)",
                 "NameCn": "万圣节咖啡厅系列",
                 "DescCn": "可制造咖啡厅家具(万圣节咖啡厅系列)",
                 "NameTh": "เซ็ตฮาโลวีน",
@@ -695,7 +695,7 @@
                 "NameKr": "전통 온천장 세트",
                 "DescKr": "카페 가구를 생성할 수 있습니다. (온천장 테마)",
                 "NameTw": "傳統溫泉浴場組合",
-                "DescTw": "可製造咖啡廳家具。（溫泉浴場主題）",
+                "DescTw": "可製造咖啡廳家具。(溫泉浴場主題)",
                 "NameCn": "传统温泉乡系列",
                 "DescCn": "可制造咖啡厅家具(传统温泉乡系列)",
                 "NameTh": "เซ็ตออนเซ็น",
@@ -749,7 +749,7 @@
                 "NameKr": "밀리터리 캠핑장 세트",
                 "DescKr": "카페 가구를 생성할 수 있습니다. (밀리터리 캠핑장 테마)",
                 "NameTw": "軍事露營區組合",
-                "DescTw": "可製造咖啡廳家具。（軍事露營區主題）",
+                "DescTw": "可製造咖啡廳家具。(軍事露營區主題)",
                 "NameCn": "军事露营区系列",
                 "DescCn": "可制造咖啡厅家具(军事露营区系列)",
                 "NameTh": "เซ็ตค่ายทหาร",
@@ -776,7 +776,7 @@
                 "NameKr": "비치사이드 세트",
                 "DescKr": "카페 가구를 생성할 수 있습니다. (비치사이드 테마)",
                 "NameTw": "海灘組合",
-                "DescTw": "可製造咖啡廳家具。（海灘主題）",
+                "DescTw": "可製造咖啡廳家具。(海灘主題)",
                 "NameCn": "海滨系列",
                 "DescCn": "可制造咖啡厅家具(海滨系列)",
                 "NameTh": "เซ็ตริมหาด",
@@ -1736,7 +1736,7 @@
                 "NameKr": "할로윈 펌킨 카페 세트",
                 "DescKr": "카페 가구를 생성할 수 있습니다. (할로윈 테마)",
                 "NameTw": "萬聖節南瓜咖啡廳組合",
-                "DescTw": "可製造咖啡廳家具。（萬聖節主題）",
+                "DescTw": "可製造咖啡廳家具。(萬聖節主題)",
                 "NameCn": "万圣节咖啡厅系列",
                 "DescCn": "可制造咖啡厅家具(万圣节咖啡厅系列)",
                 "NameTh": "เซ็ตฮาโลวีน",
@@ -1763,7 +1763,7 @@
                 "NameKr": "전통 온천장 세트",
                 "DescKr": "카페 가구를 생성할 수 있습니다. (온천장 테마)",
                 "NameTw": "傳統溫泉浴場組合",
-                "DescTw": "可製造咖啡廳家具。（溫泉浴場主題）",
+                "DescTw": "可製造咖啡廳家具。(溫泉浴場主題)",
                 "NameCn": "传统温泉乡系列",
                 "DescCn": "可制造咖啡厅家具(传统温泉乡系列)",
                 "NameTh": "เซ็ตออนเซ็น",
@@ -1817,7 +1817,7 @@
                 "NameKr": "밀리터리 캠핑장 세트",
                 "DescKr": "카페 가구를 생성할 수 있습니다. (밀리터리 캠핑장 테마)",
                 "NameTw": "軍事露營區組合",
-                "DescTw": "可製造咖啡廳家具。（軍事露營區主題）",
+                "DescTw": "可製造咖啡廳家具。(軍事露營區主題)",
                 "NameCn": "军事露营区系列",
                 "DescCn": "可制造咖啡厅家具(军事露营区系列)",
                 "NameTh": "เซ็ตค่ายทหาร",
@@ -1844,7 +1844,7 @@
                 "NameKr": "비치사이드 세트",
                 "DescKr": "카페 가구를 생성할 수 있습니다. (비치사이드 테마)",
                 "NameTw": "海灘組合",
-                "DescTw": "可製造咖啡廳家具。（海灘主題）",
+                "DescTw": "可製造咖啡廳家具。(海灘主題)",
                 "NameCn": "海滨系列",
                 "DescCn": "可制造咖啡厅家具(海滨系列)",
                 "NameTh": "เซ็ตริมหาด",
@@ -4397,11 +4397,11 @@
                 "DescTh": "สร้างเฟอร์นิเจอร์ในคาเฟ่ (คาเฟ่ MOMO FRIENDS)",
                 "NameVi": "モモフレンズのカフェシリーズ",
                 "DescVi": "カフェの家具（モモフレンズのカフェシリーズ）を生成することができます。",
-                "Weight": 11500,
+                "Weight": 10455,
                 "Groups": [
                     {
                         "GroupId": 2100,
-                        "Weight": 11500
+                        "Weight": 10455
                     }
                 ],
                 "Icon": "CraftNode_Furniture"
@@ -4424,11 +4424,11 @@
                 "DescTh": "สร้างเฟอร์นิเจอร์ในคาเฟ่ (ธีมเกมเจลลี่)",
                 "NameVi": "ゼリーズゲーセンシリーズ",
                 "DescVi": "カフェの家具（ゼリーズゲーセンシリーズ）を生成することができます。",
-                "Weight": 11500,
+                "Weight": 10455,
                 "Groups": [
                     {
                         "GroupId": 2101,
-                        "Weight": 11500
+                        "Weight": 10455
                     }
                 ],
                 "Icon": "CraftNode_Furniture"
@@ -4451,11 +4451,11 @@
                 "DescTh": "สร้างเฟอร์นิเจอร์ในคาเฟ่ (ธีมวาเลนไทน์)",
                 "NameVi": "バレンタインシリーズ",
                 "DescVi": "カフェの家具（バレンタインシリーズ）を生成することができます。",
-                "Weight": 11500,
+                "Weight": 10455,
                 "Groups": [
                     {
                         "GroupId": 2102,
-                        "Weight": 11500
+                        "Weight": 10455
                     }
                 ],
                 "Icon": "CraftNode_Furniture"
@@ -4478,11 +4478,11 @@
                 "DescTh": "สร้างเฟอร์นิเจอร์ในคาเฟ่ (ธีมฤดูร้อน)",
                 "NameVi": "サマーリゾートシリーズ",
                 "DescVi": "カフェの家具（サマーリゾートシリーズ）を生成することができます。",
-                "Weight": 11500,
+                "Weight": 10455,
                 "Groups": [
                     {
                         "GroupId": 2103,
-                        "Weight": 11500
+                        "Weight": 10455
                     }
                 ],
                 "Icon": "CraftNode_Furniture"
@@ -4498,18 +4498,18 @@
                 "NameKr": "할로윈 펌킨 카페 세트",
                 "DescKr": "카페 가구를 생성할 수 있습니다. (할로윈 테마)",
                 "NameTw": "萬聖節南瓜咖啡廳組合",
-                "DescTw": "可製造咖啡廳家具。（萬聖節主題）",
+                "DescTw": "可製造咖啡廳家具。(萬聖節主題)",
                 "NameCn": "万圣节咖啡厅系列",
                 "DescCn": "可制造咖啡厅家具(万圣节咖啡厅系列)",
                 "NameTh": "เซ็ตฮาโลวีน",
                 "DescTh": "สร้างเฟอร์นิเจอร์ในคาเฟ่ (ธีมฮาโลวีน)",
                 "NameVi": "ハロウィーンカフェシリーズ",
                 "DescVi": "カフェの家具（ハロウィーンカフェシリーズ）を生成することができます。",
-                "Weight": 11500,
+                "Weight": 10455,
                 "Groups": [
                     {
                         "GroupId": 2104,
-                        "Weight": 11500
+                        "Weight": 10455
                     }
                 ],
                 "Icon": "CraftNode_Furniture"
@@ -4525,18 +4525,18 @@
                 "NameKr": "전통 온천장 세트",
                 "DescKr": "카페 가구를 생성할 수 있습니다. (온천장 테마)",
                 "NameTw": "傳統溫泉浴場組合",
-                "DescTw": "可製造咖啡廳家具。（溫泉浴場主題）",
+                "DescTw": "可製造咖啡廳家具。(溫泉浴場主題)",
                 "NameCn": "传统温泉乡系列",
                 "DescCn": "可制造咖啡厅家具(传统温泉乡系列)",
                 "NameTh": "เซ็ตออนเซ็น",
                 "DescTh": "สร้างเฟอร์นิเจอร์ในคาเฟ่ (ธีมออนเซ็น)",
                 "NameVi": "伝統的な温泉郷シリーズ",
                 "DescVi": "カフェの家具（伝統的な温泉郷シリーズ）を生成することができます。",
-                "Weight": 11500,
+                "Weight": 10455,
                 "Groups": [
                     {
                         "GroupId": 2105,
-                        "Weight": 11500
+                        "Weight": 10455
                     }
                 ],
                 "Icon": "CraftNode_Furniture"
@@ -4559,11 +4559,11 @@
                 "DescTh": "สร้างเฟอร์นิเจอร์ในคาเฟ่ (ธีมปีใหม่)",
                 "NameVi": "お正月シリーズ",
                 "DescVi": "カフェの家具（お正月シリーズ）を生成することができます。",
-                "Weight": 11500,
+                "Weight": 10455,
                 "Groups": [
                     {
                         "GroupId": 2106,
-                        "Weight": 11500
+                        "Weight": 10455
                     }
                 ],
                 "Icon": "CraftNode_Furniture"
@@ -4579,18 +4579,18 @@
                 "NameKr": "밀리터리 캠핑장 세트",
                 "DescKr": "카페 가구를 생성할 수 있습니다. (밀리터리 캠핑장 테마)",
                 "NameTw": "軍事露營區組合",
-                "DescTw": "可製造咖啡廳家具。（軍事露營區主題）",
+                "DescTw": "可製造咖啡廳家具。(軍事露營區主題)",
                 "NameCn": "军事露营区系列",
                 "DescCn": "可制造咖啡厅家具(军事露营区系列)",
                 "NameTh": "เซ็ตค่ายทหาร",
                 "DescTh": "สร้างเฟอร์นิเจอร์ในคาเฟ่ (ธีมค่ายทหาร)",
                 "NameVi": "ミリタリーアウトドア",
                 "DescVi": "カフェの家具（ミリタリーアウトドアシリーズ）を生成することができます。",
-                "Weight": 11500,
+                "Weight": 10455,
                 "Groups": [
                     {
                         "GroupId": 2107,
-                        "Weight": 11500
+                        "Weight": 10455
                     }
                 ],
                 "Icon": "CraftNode_Furniture"
@@ -4606,18 +4606,18 @@
                 "NameKr": "비치사이드 세트",
                 "DescKr": "카페 가구를 생성할 수 있습니다. (비치사이드 테마)",
                 "NameTw": "海灘組合",
-                "DescTw": "可製造咖啡廳家具。（海灘主題）",
+                "DescTw": "可製造咖啡廳家具。(海灘主題)",
                 "NameCn": "海滨系列",
                 "DescCn": "可制造咖啡厅家具(海滨系列)",
                 "NameTh": "เซ็ตริมหาด",
                 "DescTh": "สร้างเฟอร์นิเจอร์ในคาเฟ่ (ธีมริมหาด)",
                 "NameVi": "ビーチサイドシリーズ",
                 "DescVi": "カフェの家具（ビーチサイドシリーズ）を生成することができます。",
-                "Weight": 11500,
+                "Weight": 10455,
                 "Groups": [
                     {
                         "GroupId": 2108,
-                        "Weight": 11500
+                        "Weight": 10455
                     }
                 ],
                 "Icon": "CraftNode_Furniture"
@@ -4640,11 +4640,38 @@
                 "DescTh": "สร้างเฟอร์นิเจอร์ในคาเฟ่ (งานแข่งขันกีฬา)",
                 "NameVi": "大運動会シリーズ",
                 "DescVi": "カフェの家具（大運動会シリーズ）を生成することができます。",
-                "Weight": 11500,
+                "Weight": 10455,
                 "Groups": [
                     {
                         "GroupId": 2109,
-                        "Weight": 11500
+                        "Weight": 10455
+                    }
+                ],
+                "Icon": "CraftNode_Furniture"
+            },
+            {
+                "Id": 154,
+                "Tier": 1,
+                "Quality": 2,
+                "NameEn": "Abydos Classroom Set",
+                "DescEn": "This can create cafe furniture. (Abydos Classroom theme)",
+                "NameJp": "アビドス教室シリーズ",
+                "DescJp": "カフェの家具（アビドス教室シリーズ）を生成することができます。",
+                "NameKr": "아비도스 교실 세트",
+                "DescKr": "카페 가구를 생성할 수 있습니다. (아비도스 교실 테마)",
+                "NameTw": "阿拜多斯教室組合",
+                "DescTw": "可生產咖啡廳家具。(阿拜多斯教室主題)",
+                "NameCn": "阿拜多斯教室系列",
+                "DescCn": "可制造咖啡厅家具(阿拜多斯教室系列)",
+                "NameTh": "เซ็ตห้องเรียนอะบิดอส",
+                "DescTh": "สร้างเฟอร์นิเจอร์ในคาเฟ่ (ธีมห้องเรียนอะบิดอส)",
+                "NameVi": "アビドス教室シリーズ",
+                "DescVi": "カフェの家具（アビドス教室シリーズ）を生成することができます。",
+                "Weight": 10455,
+                "Groups": [
+                    {
+                        "GroupId": 2110,
+                        "Weight": 10455
                     }
                 ],
                 "Icon": "CraftNode_Furniture"
@@ -5384,11 +5411,11 @@
                 "DescTh": "สร้างเฟอร์นิเจอร์ในคาเฟ่ (คาเฟ่ MOMO FRIENDS)",
                 "NameVi": "モモフレンズのカフェシリーズ",
                 "DescVi": "カフェの家具（モモフレンズのカフェシリーズ）を生成することができます。",
-                "Weight": 69000,
+                "Weight": 62727,
                 "Groups": [
                     {
                         "GroupId": 2100,
-                        "Weight": 69000
+                        "Weight": 62727
                     }
                 ],
                 "Icon": "CraftNode_Furniture"
@@ -5411,11 +5438,11 @@
                 "DescTh": "สร้างเฟอร์นิเจอร์ในคาเฟ่ (ธีมเกมเจลลี่)",
                 "NameVi": "ゼリーズゲーセンシリーズ",
                 "DescVi": "カフェの家具（ゼリーズゲーセンシリーズ）を生成することができます。",
-                "Weight": 69000,
+                "Weight": 62727,
                 "Groups": [
                     {
                         "GroupId": 2101,
-                        "Weight": 69000
+                        "Weight": 62727
                     }
                 ],
                 "Icon": "CraftNode_Furniture"
@@ -5438,11 +5465,11 @@
                 "DescTh": "สร้างเฟอร์นิเจอร์ในคาเฟ่ (ธีมวาเลนไทน์)",
                 "NameVi": "バレンタインシリーズ",
                 "DescVi": "カフェの家具（バレンタインシリーズ）を生成することができます。",
-                "Weight": 69000,
+                "Weight": 62727,
                 "Groups": [
                     {
                         "GroupId": 2102,
-                        "Weight": 69000
+                        "Weight": 62727
                     }
                 ],
                 "Icon": "CraftNode_Furniture"
@@ -5465,11 +5492,11 @@
                 "DescTh": "สร้างเฟอร์นิเจอร์ในคาเฟ่ (ธีมฤดูร้อน)",
                 "NameVi": "サマーリゾートシリーズ",
                 "DescVi": "カフェの家具（サマーリゾートシリーズ）を生成することができます。",
-                "Weight": 69000,
+                "Weight": 62727,
                 "Groups": [
                     {
                         "GroupId": 2103,
-                        "Weight": 69000
+                        "Weight": 62727
                     }
                 ],
                 "Icon": "CraftNode_Furniture"
@@ -5485,18 +5512,18 @@
                 "NameKr": "할로윈 펌킨 카페 세트",
                 "DescKr": "카페 가구를 생성할 수 있습니다. (할로윈 테마)",
                 "NameTw": "萬聖節南瓜咖啡廳組合",
-                "DescTw": "可製造咖啡廳家具。（萬聖節主題）",
+                "DescTw": "可製造咖啡廳家具。(萬聖節主題)",
                 "NameCn": "万圣节咖啡厅系列",
                 "DescCn": "可制造咖啡厅家具(万圣节咖啡厅系列)",
                 "NameTh": "เซ็ตฮาโลวีน",
                 "DescTh": "สร้างเฟอร์นิเจอร์ในคาเฟ่ (ธีมฮาโลวีน)",
                 "NameVi": "ハロウィーンカフェシリーズ",
                 "DescVi": "カフェの家具（ハロウィーンカフェシリーズ）を生成することができます。",
-                "Weight": 69000,
+                "Weight": 62727,
                 "Groups": [
                     {
                         "GroupId": 2104,
-                        "Weight": 69000
+                        "Weight": 62727
                     }
                 ],
                 "Icon": "CraftNode_Furniture"
@@ -5512,18 +5539,18 @@
                 "NameKr": "전통 온천장 세트",
                 "DescKr": "카페 가구를 생성할 수 있습니다. (온천장 테마)",
                 "NameTw": "傳統溫泉浴場組合",
-                "DescTw": "可製造咖啡廳家具。（溫泉浴場主題）",
+                "DescTw": "可製造咖啡廳家具。(溫泉浴場主題)",
                 "NameCn": "传统温泉乡系列",
                 "DescCn": "可制造咖啡厅家具(传统温泉乡系列)",
                 "NameTh": "เซ็ตออนเซ็น",
                 "DescTh": "สร้างเฟอร์นิเจอร์ในคาเฟ่ (ธีมออนเซ็น)",
                 "NameVi": "伝統的な温泉郷シリーズ",
                 "DescVi": "カフェの家具（伝統的な温泉郷シリーズ）を生成することができます。",
-                "Weight": 69000,
+                "Weight": 62727,
                 "Groups": [
                     {
                         "GroupId": 2105,
-                        "Weight": 69000
+                        "Weight": 62727
                     }
                 ],
                 "Icon": "CraftNode_Furniture"
@@ -5546,11 +5573,11 @@
                 "DescTh": "สร้างเฟอร์นิเจอร์ในคาเฟ่ (ธีมปีใหม่)",
                 "NameVi": "お正月シリーズ",
                 "DescVi": "カフェの家具（お正月シリーズ）を生成することができます。",
-                "Weight": 69000,
+                "Weight": 62727,
                 "Groups": [
                     {
                         "GroupId": 2106,
-                        "Weight": 69000
+                        "Weight": 62727
                     }
                 ],
                 "Icon": "CraftNode_Furniture"
@@ -5566,18 +5593,18 @@
                 "NameKr": "밀리터리 캠핑장 세트",
                 "DescKr": "카페 가구를 생성할 수 있습니다. (밀리터리 캠핑장 테마)",
                 "NameTw": "軍事露營區組合",
-                "DescTw": "可製造咖啡廳家具。（軍事露營區主題）",
+                "DescTw": "可製造咖啡廳家具。(軍事露營區主題)",
                 "NameCn": "军事露营区系列",
                 "DescCn": "可制造咖啡厅家具(军事露营区系列)",
                 "NameTh": "เซ็ตค่ายทหาร",
                 "DescTh": "สร้างเฟอร์นิเจอร์ในคาเฟ่ (ธีมค่ายทหาร)",
                 "NameVi": "ミリタリーアウトドア",
                 "DescVi": "カフェの家具（ミリタリーアウトドアシリーズ）を生成することができます。",
-                "Weight": 69000,
+                "Weight": 62727,
                 "Groups": [
                     {
                         "GroupId": 2107,
-                        "Weight": 69000
+                        "Weight": 62727
                     }
                 ],
                 "Icon": "CraftNode_Furniture"
@@ -5593,18 +5620,18 @@
                 "NameKr": "비치사이드 세트",
                 "DescKr": "카페 가구를 생성할 수 있습니다. (비치사이드 테마)",
                 "NameTw": "海灘組合",
-                "DescTw": "可製造咖啡廳家具。（海灘主題）",
+                "DescTw": "可製造咖啡廳家具。(海灘主題)",
                 "NameCn": "海滨系列",
                 "DescCn": "可制造咖啡厅家具(海滨系列)",
                 "NameTh": "เซ็ตริมหาด",
                 "DescTh": "สร้างเฟอร์นิเจอร์ในคาเฟ่ (ธีมริมหาด)",
                 "NameVi": "ビーチサイドシリーズ",
                 "DescVi": "カフェの家具（ビーチサイドシリーズ）を生成することができます。",
-                "Weight": 69000,
+                "Weight": 62727,
                 "Groups": [
                     {
                         "GroupId": 2108,
-                        "Weight": 69000
+                        "Weight": 62727
                     }
                 ],
                 "Icon": "CraftNode_Furniture"
@@ -5627,11 +5654,38 @@
                 "DescTh": "สร้างเฟอร์นิเจอร์ในคาเฟ่ (งานแข่งขันกีฬา)",
                 "NameVi": "大運動会シリーズ",
                 "DescVi": "カフェの家具（大運動会シリーズ）を生成することができます。",
-                "Weight": 69000,
+                "Weight": 62727,
                 "Groups": [
                     {
                         "GroupId": 2109,
-                        "Weight": 69000
+                        "Weight": 62727
+                    }
+                ],
+                "Icon": "CraftNode_Furniture"
+            },
+            {
+                "Id": 155,
+                "Tier": 2,
+                "Quality": 2,
+                "NameEn": "Abydos Classroom Set",
+                "DescEn": "This can create cafe furniture. (Abydos Classroom theme)",
+                "NameJp": "アビドス教室シリーズ",
+                "DescJp": "カフェの家具（アビドス教室シリーズ）を生成することができます。",
+                "NameKr": "아비도스 교실 세트",
+                "DescKr": "카페 가구를 생성할 수 있습니다. (아비도스 교실 테마)",
+                "NameTw": "阿拜多斯教室組合",
+                "DescTw": "可生產咖啡廳家具。(阿拜多斯教室主題)",
+                "NameCn": "阿拜多斯教室系列",
+                "DescCn": "可制造咖啡厅家具(阿拜多斯教室系列)",
+                "NameTh": "เซ็ตห้องเรียนอะบิดอส",
+                "DescTh": "สร้างเฟอร์นิเจอร์ในคาเฟ่ (ธีมห้องเรียนอะบิดอส)",
+                "NameVi": "アビドス教室シリーズ",
+                "DescVi": "カフェの家具（アビドス教室シリーズ）を生成することができます。",
+                "Weight": 62727,
+                "Groups": [
+                    {
+                        "GroupId": 2110,
+                        "Weight": 62727
                     }
                 ],
                 "Icon": "CraftNode_Furniture"
@@ -5654,11 +5708,11 @@
                 "DescTh": "สร้างเฟอร์นิเจอร์ในคาเฟ่ (เก้าอี้)",
                 "NameVi": "レッド",
                 "DescVi": "カフェの家具（椅子）を生成することができます。",
-                "Weight": 84379,
+                "Weight": 86874,
                 "Groups": [
                     {
                         "GroupId": 2000,
-                        "Weight": 84379
+                        "Weight": 86874
                     }
                 ],
                 "Icon": "CraftNode_Furniture"
@@ -5681,11 +5735,11 @@
                 "DescTh": "สร้างเฟอร์นิเจอร์ในคาเฟ่ (ตู้)",
                 "NameVi": "イエロー",
                 "DescVi": "カフェの家具（クローゼット）を生成することができます。",
-                "Weight": 28338,
+                "Weight": 37192,
                 "Groups": [
                     {
                         "GroupId": 2001,
-                        "Weight": 28338
+                        "Weight": 37192
                     }
                 ],
                 "Icon": "CraftNode_Furniture"
@@ -5708,11 +5762,11 @@
                 "DescTh": "สร้างเฟอร์นิเจอร์ในคาเฟ่ (พื้น)",
                 "NameVi": "ブラウン",
                 "DescVi": "カフェの家具（床）を生成することができます。",
-                "Weight": 17194,
+                "Weight": 16653,
                 "Groups": [
                     {
                         "GroupId": 2002,
-                        "Weight": 17194
+                        "Weight": 16653
                     }
                 ],
                 "Icon": "CraftNode_Furniture"
@@ -5735,11 +5789,11 @@
                 "DescTh": "สร้างเฟอร์นิเจอร์ในคาเฟ่ (ของตกแต่งพื้น)",
                 "NameVi": "アンバー",
                 "DescVi": "カフェの家具（床の装飾）を生成することができます。",
-                "Weight": 47761,
+                "Weight": 46074,
                 "Groups": [
                     {
                         "GroupId": 2003,
-                        "Weight": 47761
+                        "Weight": 46074
                     }
                 ],
                 "Icon": "CraftNode_Furniture"
@@ -5762,11 +5816,11 @@
                 "DescTh": "สร้างเฟอร์นิเจอร์ในคาเฟ่ (เครื่องใช้ไฟฟ้า)",
                 "NameVi": "ピンク",
                 "DescVi": "カフェの家具（家電）を生成することができます。",
-                "Weight": 43304,
+                "Weight": 38024,
                 "Groups": [
                     {
                         "GroupId": 2004,
-                        "Weight": 43304
+                        "Weight": 38024
                     }
                 ],
                 "Icon": "CraftNode_Furniture"
@@ -5789,11 +5843,11 @@
                 "DescTh": "สร้างเฟอร์นิเจอร์ในคาเฟ่ (ของตกแต่ง)",
                 "NameVi": "グレー",
                 "DescVi": "カフェの家具（装飾）を生成することができます。",
-                "Weight": 201555,
+                "Weight": 187349,
                 "Groups": [
                     {
                         "GroupId": 2005,
-                        "Weight": 201555
+                        "Weight": 187349
                     }
                 ],
                 "Icon": "CraftNode_Furniture"
@@ -5816,11 +5870,11 @@
                 "DescTh": "สร้างเฟอร์นิเจอร์ในคาเฟ่ (โต๊ะ)",
                 "NameVi": "ブラック",
                 "DescVi": "カフェの家具（テーブル）を生成することができます。",
-                "Weight": 90747,
+                "Weight": 95478,
                 "Groups": [
                     {
                         "GroupId": 2006,
-                        "Weight": 90747
+                        "Weight": 95478
                     }
                 ],
                 "Icon": "CraftNode_Furniture"
@@ -5843,11 +5897,11 @@
                 "DescTh": "สร้างเฟอร์นิเจอร์ในคาเฟ่ (ของแต่งผนัง)",
                 "NameVi": "グリーン",
                 "DescVi": "カフェの家具（壁の装飾）を生成することができます。",
-                "Weight": 159524,
+                "Weight": 164034,
                 "Groups": [
                     {
                         "GroupId": 2007,
-                        "Weight": 159524
+                        "Weight": 164034
                     }
                 ],
                 "Icon": "CraftNode_Furniture"
@@ -5870,11 +5924,11 @@
                 "DescTh": "สร้างเฟอร์นิเจอร์ในคาเฟ่ (ผนัง)",
                 "NameVi": "ブルー",
                 "DescVi": "カフェの家具（壁紙）を生成することができます。",
-                "Weight": 7960,
+                "Weight": 8604,
                 "Groups": [
                     {
                         "GroupId": 2008,
-                        "Weight": 7960
+                        "Weight": 8604
                     }
                 ],
                 "Icon": "CraftNode_Furniture"
@@ -5897,11 +5951,11 @@
                 "DescTh": "สร้างเฟอร์นิเจอร์ในคาเฟ่ (พื้นหลังของคาเฟ่)",
                 "NameVi": "ホワイト",
                 "DescVi": "カフェの家具（背景）を生成することができます。",
-                "Weight": 7323,
+                "Weight": 8049,
                 "Groups": [
                     {
                         "GroupId": 2009,
-                        "Weight": 7323
+                        "Weight": 8049
                     }
                 ],
                 "Icon": "CraftNode_Furniture"
@@ -5924,11 +5978,11 @@
                 "DescTh": "สร้างเฟอร์นิเจอร์ในคาเฟ่ (เตียง)",
                 "NameVi": "パープル",
                 "DescVi": "カフェの家具（ベッド）を生成することができます。",
-                "Weight": 1910,
+                "Weight": 1665,
                 "Groups": [
                     {
                         "GroupId": 2010,
-                        "Weight": 1910
+                        "Weight": 1665
                     }
                 ],
                 "Icon": "CraftNode_Furniture"
@@ -7506,8 +7560,8 @@
             4309996
         ],
         [
-            3036000,
-            6981985,
+            3036005,
+            6981983,
             4309996
         ]
     ],
@@ -11799,6 +11853,30 @@
                     "AmountMin": 1,
                     "AmountMax": 1,
                     "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 207312,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 207313,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 207314,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 1
                 }
             ],
             "160": [
@@ -14393,6 +14471,30 @@
                     "AmountMin": 1,
                     "AmountMax": 2,
                     "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 207312,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 207313,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 207314,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
                 }
             ],
             "362": [
@@ -15223,6 +15325,30 @@
                     "AmountMin": 3,
                     "AmountMax": 5,
                     "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10060,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 20023,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10061,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
                 }
             ],
             "371": [
@@ -15998,6 +16124,30 @@
                     "Type": "Item",
                     "Rarity": "SSR",
                     "ItemId": 10058,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10060,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 20023,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10061,
                     "AmountMin": 1,
                     "AmountMax": 5,
                     "Weight": 1
@@ -17087,6 +17237,14 @@
                     "AmountMin": 1,
                     "AmountMax": 5,
                     "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10061,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
                 }
             ],
             "3103": [
@@ -17222,6 +17380,14 @@
                     "Type": "Item",
                     "Rarity": "SSR",
                     "ItemId": 20016,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10060,
                     "AmountMin": 1,
                     "AmountMax": 5,
                     "Weight": 1
@@ -17550,6 +17716,14 @@
                     "Type": "Item",
                     "Rarity": "SSR",
                     "ItemId": 20018,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 20023,
                     "AmountMin": 1,
                     "AmountMax": 5,
                     "Weight": 1
@@ -18206,6 +18380,14 @@
                     "Type": "Furniture",
                     "Rarity": "SSR",
                     "ItemId": 13300,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 15
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 207314,
                     "AmountMin": 1,
                     "AmountMax": 1,
                     "Weight": 15
@@ -19930,6 +20112,22 @@
                     "Type": "Furniture",
                     "Rarity": "SSR",
                     "ItemId": 207310,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 15
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 207312,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 15
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 207313,
                     "AmountMin": 1,
                     "AmountMax": 1,
                     "Weight": 15
@@ -25661,6 +25859,86 @@
                     "AmountMin": 1,
                     "AmountMax": 1,
                     "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "R",
+                    "ItemId": 11100,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "R",
+                    "ItemId": 11101,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "R",
+                    "ItemId": 11102,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "R",
+                    "ItemId": 11103,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "R",
+                    "ItemId": 11104,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "R",
+                    "ItemId": 11105,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "R",
+                    "ItemId": 11106,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "R",
+                    "ItemId": 11107,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "R",
+                    "ItemId": 11108,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "R",
+                    "ItemId": 11109,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 1
                 }
             ],
             "152": [
@@ -26003,6 +26281,14 @@
                 {
                     "Type": "Furniture",
                     "Rarity": "SR",
+                    "ItemId": 9201,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
                     "ItemId": 9202,
                     "AmountMin": 1,
                     "AmountMax": 1,
@@ -26172,6 +26458,166 @@
                     "Type": "Furniture",
                     "Rarity": "SR",
                     "ItemId": 10215,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11200,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11201,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11202,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11203,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11204,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11205,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11206,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11207,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11208,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11209,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11210,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11211,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11212,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11213,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11214,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11215,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11216,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11217,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11218,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11219,
                     "AmountMin": 1,
                     "AmountMax": 1,
                     "Weight": 1
@@ -26445,6 +26891,14 @@
                 {
                     "Type": "Furniture",
                     "Rarity": "SSR",
+                    "ItemId": 9300,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
                     "ItemId": 9301,
                     "AmountMin": 1,
                     "AmountMax": 1,
@@ -26469,6 +26923,14 @@
                 {
                     "Type": "Furniture",
                     "Rarity": "SSR",
+                    "ItemId": 9304,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
                     "ItemId": 10300,
                     "AmountMin": 1,
                     "AmountMax": 1,
@@ -26486,6 +26948,62 @@
                     "Type": "Furniture",
                     "Rarity": "SSR",
                     "ItemId": 10306,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 11300,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 11301,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 11302,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 11303,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 11304,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 11305,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 11306,
                     "AmountMin": 1,
                     "AmountMax": 1,
                     "Weight": 1
@@ -27877,6 +28395,14 @@
                 {
                     "Type": "Furniture",
                     "Rarity": "SR",
+                    "ItemId": 9201,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
                     "ItemId": 9202,
                     "AmountMin": 2,
                     "AmountMax": 3,
@@ -28046,6 +28572,166 @@
                     "Type": "Furniture",
                     "Rarity": "SR",
                     "ItemId": 10215,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11200,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11201,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11202,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11203,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11204,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11205,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11206,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11207,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11208,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11209,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11210,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11211,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11212,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11213,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11214,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11215,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11216,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11217,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11218,
+                    "AmountMin": 2,
+                    "AmountMax": 3,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11219,
                     "AmountMin": 2,
                     "AmountMax": 3,
                     "Weight": 1
@@ -28319,6 +29005,14 @@
                 {
                     "Type": "Furniture",
                     "Rarity": "SSR",
+                    "ItemId": 9300,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
                     "ItemId": 9301,
                     "AmountMin": 1,
                     "AmountMax": 2,
@@ -28343,6 +29037,14 @@
                 {
                     "Type": "Furniture",
                     "Rarity": "SSR",
+                    "ItemId": 9304,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
                     "ItemId": 10300,
                     "AmountMin": 1,
                     "AmountMax": 2,
@@ -28360,6 +29062,62 @@
                     "Type": "Furniture",
                     "Rarity": "SSR",
                     "ItemId": 10306,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 11300,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 11301,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 11302,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 11303,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 11304,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 11305,
+                    "AmountMin": 1,
+                    "AmountMax": 2,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 11306,
                     "AmountMin": 1,
                     "AmountMax": 2,
                     "Weight": 1
@@ -29081,6 +29839,30 @@
                     "AmountMin": 3,
                     "AmountMax": 5,
                     "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10043,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10044,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10048,
+                    "AmountMin": 3,
+                    "AmountMax": 5,
+                    "Weight": 1
                 }
             ],
             "371": [
@@ -29744,6 +30526,30 @@
                     "Type": "Item",
                     "Rarity": "SSR",
                     "ItemId": 20017,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10043,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10044,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10048,
                     "AmountMin": 1,
                     "AmountMax": 5,
                     "Weight": 1
@@ -30605,6 +31411,14 @@
                     "AmountMin": 1,
                     "AmountMax": 5,
                     "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10043,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
                 }
             ],
             "3101": [
@@ -30973,6 +31787,14 @@
                     "AmountMin": 1,
                     "AmountMax": 5,
                     "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10044,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
                 }
             ],
             "3105": [
@@ -31218,6 +32040,14 @@
                     "Type": "Item",
                     "Rarity": "SSR",
                     "ItemId": 20017,
+                    "AmountMin": 1,
+                    "AmountMax": 5,
+                    "Weight": 1
+                },
+                {
+                    "Type": "Item",
+                    "Rarity": "SSR",
+                    "ItemId": 10048,
                     "AmountMin": 1,
                     "AmountMax": 5,
                     "Weight": 1
@@ -31707,6 +32537,14 @@
                     "AmountMin": 1,
                     "AmountMax": 1,
                     "Weight": 90
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "R",
+                    "ItemId": 11103,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 240
                 }
             ],
             "2001": [
@@ -31781,6 +32619,46 @@
                     "AmountMin": 1,
                     "AmountMax": 1,
                     "Weight": 15
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "R",
+                    "ItemId": 11101,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 240
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "R",
+                    "ItemId": 11102,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 240
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11202,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 90
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11203,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 90
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 11300,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 15
                 }
             ],
             "2002": [
@@ -31852,6 +32730,14 @@
                     "Type": "Furniture",
                     "Rarity": "SR",
                     "ItemId": 9204,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 90
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11218,
                     "AmountMin": 1,
                     "AmountMax": 1,
                     "Weight": 90
@@ -31934,6 +32820,14 @@
                     "Type": "Furniture",
                     "Rarity": "R",
                     "ItemId": 10107,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 240
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "R",
+                    "ItemId": 11106,
                     "AmountMin": 1,
                     "AmountMax": 1,
                     "Weight": 240
@@ -32067,6 +32961,22 @@
                     "AmountMin": 1,
                     "AmountMax": 1,
                     "Weight": 240
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 9300,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 15
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 11304,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 15
                 }
             ],
             "2005": [
@@ -32384,6 +33294,22 @@
                 },
                 {
                     "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 9201,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 90
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 9304,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 15
+                },
+                {
+                    "Type": "Furniture",
                     "Rarity": "R",
                     "ItemId": 10101,
                     "AmountMin": 1,
@@ -32530,6 +33456,62 @@
                     "Type": "Furniture",
                     "Rarity": "SSR",
                     "ItemId": 10306,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 15
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "R",
+                    "ItemId": 11107,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 240
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11210,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 90
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11211,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 90
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11215,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 90
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11216,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 90
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 11301,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 15
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 11302,
                     "AmountMin": 1,
                     "AmountMax": 1,
                     "Weight": 15
@@ -32772,6 +33754,78 @@
                     "Type": "Furniture",
                     "Rarity": "SSR",
                     "ItemId": 10304,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 15
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "R",
+                    "ItemId": 11105,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 240
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11204,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 90
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11205,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 90
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11206,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 90
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11207,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 90
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11208,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 90
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11209,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 90
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11212,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 90
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 11303,
                     "AmountMin": 1,
                     "AmountMax": 1,
                     "Weight": 15
@@ -33105,6 +34159,86 @@
                     "AmountMin": 1,
                     "AmountMax": 1,
                     "Weight": 90
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "R",
+                    "ItemId": 11100,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 240
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "R",
+                    "ItemId": 11104,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 240
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "R",
+                    "ItemId": 11108,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 240
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "R",
+                    "ItemId": 11109,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 240
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11200,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 90
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11201,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 90
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11213,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 90
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11214,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 90
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 11305,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 15
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 11306,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 15
                 }
             ],
             "2008": [
@@ -33187,6 +34321,14 @@
                     "AmountMin": 1,
                     "AmountMax": 1,
                     "Weight": 90
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11219,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 90
                 }
             ],
             "2009": [
@@ -33250,6 +34392,14 @@
                     "Type": "Furniture",
                     "Rarity": "SR",
                     "ItemId": 10212,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 90
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11217,
                     "AmountMin": 1,
                     "AmountMax": 1,
                     "Weight": 90
@@ -34661,6 +35811,14 @@
                 {
                     "Type": "Furniture",
                     "Rarity": "SR",
+                    "ItemId": 9201,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 90
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
                     "ItemId": 9202,
                     "AmountMin": 1,
                     "AmountMax": 1,
@@ -34709,6 +35867,14 @@
                 {
                     "Type": "Furniture",
                     "Rarity": "SSR",
+                    "ItemId": 9300,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 15
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
                     "ItemId": 9301,
                     "AmountMin": 1,
                     "AmountMax": 1,
@@ -34726,6 +35892,14 @@
                     "Type": "Furniture",
                     "Rarity": "SSR",
                     "ItemId": 9303,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 15
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 9304,
                     "AmountMin": 1,
                     "AmountMax": 1,
                     "Weight": 15
@@ -34992,6 +36166,304 @@
                     "Type": "Furniture",
                     "Rarity": "SSR",
                     "ItemId": 10306,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 15
+                }
+            ],
+            "2110": [
+                {
+                    "Type": "Furniture",
+                    "Rarity": "R",
+                    "ItemId": 11100,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 240
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "R",
+                    "ItemId": 11101,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 240
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "R",
+                    "ItemId": 11102,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 240
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "R",
+                    "ItemId": 11103,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 240
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "R",
+                    "ItemId": 11104,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 240
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "R",
+                    "ItemId": 11105,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 240
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "R",
+                    "ItemId": 11106,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 240
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "R",
+                    "ItemId": 11107,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 240
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "R",
+                    "ItemId": 11108,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 240
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "R",
+                    "ItemId": 11109,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 240
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11200,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 90
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11201,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 90
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11202,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 90
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11203,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 90
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11204,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 90
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11205,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 90
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11206,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 90
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11207,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 90
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11208,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 90
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11209,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 90
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11210,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 90
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11211,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 90
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11212,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 90
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11213,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 90
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11214,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 90
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11215,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 90
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11216,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 90
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11217,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 90
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11218,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 90
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SR",
+                    "ItemId": 11219,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 90
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 11300,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 15
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 11301,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 15
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 11302,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 15
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 11303,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 15
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 11304,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 15
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 11305,
+                    "AmountMin": 1,
+                    "AmountMax": 1,
+                    "Weight": 15
+                },
+                {
+                    "Type": "Furniture",
+                    "Rarity": "SSR",
+                    "ItemId": 11306,
                     "AmountMin": 1,
                     "AmountMax": 1,
                     "Weight": 15
@@ -35435,7 +36907,7 @@
             "Id": 57,
             "Released": [
                 true,
-                false
+                true
             ],
             "ResultId": 191011,
             "RequireItem": [
@@ -35975,7 +37447,7 @@
             "Id": 58,
             "Released": [
                 true,
-                false
+                true
             ],
             "ResultId": 151011,
             "RequireItem": [

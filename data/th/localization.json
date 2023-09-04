@@ -102,6 +102,7 @@
         "BlackTortoisePromenade": "ย่านการค้าเทพเต่าดำ",
         "Genryumon": "มังกรดำ",
         "LaborParty": "ชมรมผู้รับใช้",
+        "KnowledgeLiberationFront": "ชมรมประลองปัญญา",
         "EmptyClub": "ไม่มี"
     },
     "BossFaction": {
@@ -109,7 +110,8 @@
         "Slumpia": "สลัมเพีย",
         "CommunioSanctorum": "สหพันธ์นักบุญ",
         "Kaitenger": "ไคเทนเจอร์",
-        "TheLibraryofLore": "ห้องสมุดในตำนาน"
+        "TheLibraryofLore": "ห้องสมุดในตำนาน",
+        "SevenPrisoners": "เจ็ดอาชญากร"
     },
     "Stat": {
         "Level": "เลเวล",
@@ -228,11 +230,11 @@
         "19": "คริสตัลฮานิวา",
         "20": "เสาโทเทม",
         "21": "แบตเตอรี่โบราณ",
-        "22": "Golden Fleece",
+        "22": "ขนแกะทองคำ",
         "23": "ตุ๊กตาโอคิคุ",
         "24": "ดิสโก โคลกานเต",
         "25": "เหรียญแอทแลนติส",
-        "26": "Roman Dodecahedron",
+        "26": "วัตถุสิบสองหน้า",
         "29": "หินวินนีเพอซอกี"
     },
     "EnemyTags": {
@@ -269,7 +271,8 @@
         "825": "Chalk White Calling Card: The Mansion of Empty Aesthetics",
         "826": "Ryubu Doushu: Vision of a Lone Future",
         "827": "RABBIT Squad and The Mystery of the Missing Shrimp",
-        "828": "In Search of a Hidden Heritage"
+        "828": "In Search of a Hidden Heritage",
+        "829": "Gakuman Doujin Monogatari: Two Seeking the Final Episode"
     },
     "StageType": {
         "Campaign": "ภารกิจ",
@@ -451,7 +454,7 @@
         "Special_DebuffCountGreen": "ปลอดภัย",
         "Special_DebuffCountYellow": "เตือนภัย",
         "Special_DebuffCountRed": "อันตราย",
-        "Special_OldBook": "Clues"
+        "Special_OldBook": "เบาะแส"
     },
     "BuffNameLong": {
         "Buff_AidAttitude": "ความตั้งใจบรรเทาทุกข์",
@@ -548,14 +551,14 @@
         "Special_SuddenDeath": "รอยประทับของวาคาโมะ",
         "Special_Stamp": "ตราชื่นชม",
         "Special_Holiday": "พรแห่งค่ำคืนศักดิ์สิทธิ์",
-        "Special_SilverBullet": "ตราแห่งการชำระบาป",
+        "Special_SilverBullet": "ตราชำระบาป",
         "Special_CH0187Mod": "โหมดอาบี-เอชูฮ์",
         "Special_Omamori": "เครื่องราง",
         "Special_Dado": "จิตใสนิ่งสงบ",
         "Special_DebuffCountGreen": "จำนวนเอฟเฟกต์อันตราย : ปลอดภัย",
         "Special_DebuffCountYellow": "จำนวนเอฟเฟกต์อันตราย : เตือนภัย",
         "Special_DebuffCountRed": "จำนวนเอฟเฟกต์อันตราย : อันตราย",
-        "Special_OldBook": "Clues"
+        "Special_OldBook": "เบาะแส"
     },
     "BuffTooltip": {
         "Buff_AidAttitude": "ฟื้นฟู HP ช้าๆ เป็นเวลาต่อเนื่อง",
@@ -641,7 +644,7 @@
         "CC_Paralysis": "ไม่สามารถตอบสนองได้ นอกจากนี้การใช้งานสกิลทั้งหมดจะถูกยกเลิก",
         "Special_EnergyBatteryHalf": "เพิ่มประสิทธิภาพสกิล EX และสกิลรองของอาริสึขึ้น 1.5 เท่า (ครึ่งหนึ่ง) หรือ 2 เท่า (เต็ม)\nระดับการชาร์จจะถูกรีเซ็ทเป็น 0 หลังการใช้งานสกิล EX",
         "Special_FormChange": "เปลี่ยนรูปแบบของการโจมตีทั่วไป",
-        "Special_Immortal": "เมื่อได้รับความเสียหายถึงตาย, HP จะไม่ลดลงไปต่ำกว่า 1 จนกว่าระยะเวลาของเอฟเฟกต์จะหมดลง",
+        "Special_Immortal": "HP จะไม่ลดลงไปต่ำกว่า 1 จนกว่าระยะเวลาของเอฟเฟกต์จะหมดลงหรือได้รับความเสียหายพิเศษที่ไม่สนใจเอฟเฟกต์นี้",
         "Special_ImmuneDamage": "ไม่ได้รับความเสียหายใดๆ",
         "Special_Fury": "เพิ่มความเสียหายที่ทำได้จากสกิล EX ของเนรุ",
         "Special_Misdeed": "ลดค่าป้องกันต่อจำนวนที่ถือครองและคืนค่าใช้สกิล EX ให้เมื่ออารุ (ปีใหม่) ใช้สกิล EX",
@@ -656,10 +659,10 @@
         "Special_CH0187Mod": "เพิ่มค่าโจมตี, ความแม่นยำและหลบหลีกของโทคิ\nเปลี่ยนรูปแบบของสกิล EX และการโจมตีทั่วไปของโทคิ รวมทั้งเพิ่มความสามารถในการไม่สนค่าป้องกันของศัตรูส่วนหนึ่งให้กับสกิลพื้นฐานและสกิลรอง\nโหมดอาบี-เอชูฮ์จะสิ้นสุดลงเมื่อใช้งานสกิล EX ในโหมดอาบี-เอชูฮ์ครบ 3 ครั้ง",
         "Special_Omamori": "เพิ่มประสิทธิภาพความเสียหายลึกลับเมื่อสกิลรองของคาโยโกะ (ปีใหม่) ทำงาน",
         "Special_Dado": "การโจมตีของคาโฮะจะสร้างความเสียหายเพิ่มเติม",
-        "Special_DebuffCountGreen": "เพิ่มความเสียหายที่เกรเกอริอุสและผู้ประสานเสียงได้รับ",
-        "Special_DebuffCountYellow": "เพิ่มความเสียหายที่เกรเกอริอุสและผู้ประสานเสียงได้รับ\nเพิ่มค่าโจมตีของเกรเกอริอุสและผู้ประสานเสียง",
-        "Special_DebuffCountRed": "เพิ่มค่าโจมตีของเกรเกอริอุสและผู้ประสานเสียง",
-        "Special_OldBook": "Activates Ui (Swimsuit)'s Basic Skill when at 3 stacks."
+        "Special_DebuffCountGreen": "เพิ่มความเสียหายที่เกรโกริโอและผู้ประสานเสียงได้รับ",
+        "Special_DebuffCountYellow": "เพิ่มความเสียหายที่เกรโกริโอและผู้ประสานเสียงได้รับ\nเพิ่มค่าโจมตีของเกรโกริโอและผู้ประสานเสียง",
+        "Special_DebuffCountRed": "เพิ่มค่าโจมตีของเกรโกริโอและผู้ประสานเสียง",
+        "Special_OldBook": "เพิ่มประสิทธิภาพความเสียหายเจาะเกราะของนักเรียน Striker ฝ่ายเราทั้งหมดเมื่อสะสมครบ 3 ชิ้น\nเบาะแสจะถูกรีเซ็ทเป็น 0 หลังการใช้งานสกิลพื้นฐาน"
     },
     "ServerName": {
         "0": "ญี่ปุ่น",
@@ -718,7 +721,7 @@
         "CommonSkill": "ใช้สกิลพื้นฐาน {0}",
         "Growup": "เสริมความสามารถนักเรียน {0}",
         "RelationshipUp": "สายใยเพื่มขึ้น {0}",
-        "BattleDefense": "Evade Attack",
+        "BattleDefense": "หลบหลีกการโจมตีสำเร็จ",
         "BattleBuffed": "ได้รับบัฟ {0}",
         "BattleBuffSelf": "ได้บัฟของตัวเอง {0}",
         "BattleTacticalAction": "เดินเข้าประจำที่",
@@ -806,9 +809,9 @@
         "student_birthdays": "นักเรียนที่มีวันเกิดอยู่ในสัปดาห์นี้!",
         "attributes": "ค่าสถานะ",
         "base_stats": "ค่าสถานะพื้นฐาน",
-        "max_stats": "Max. Stats",
-        "collection_stats": "Use Collection Stats",
-        "sp_sub_skill": "Special Sub Skill",
+        "max_stats": "ค่าสถานะสูงสุด",
+        "collection_stats": "ใช้ค่าสถานะที่บันทึกไว้",
+        "sp_sub_skill": "สกิลรอง (Special)",
         "skills": "สกิล",
         "ex_weapon": "อาวุธเฉพาะ",
         "ex_gear": "อุปกรณ์พิเศษ",
@@ -849,7 +852,7 @@
         "student_weapon_rank_3star_desc": "เลเวลสูงสุดของอาวุธเฉพาะ Lv.40 → <b>Lv.50</b> / อัปเกรดความคุ้นชินพื้นที่",
         "student_gear_t2_desc": "อัปเกรดสกิลพื้นฐาน+",
         "attack_type_desc": "สร้างความเสียหาย <b>&times;{0}</b> ให้กับเป้าหมายประเภท{1}",
-        "attack_type_normal_desc": "สร้างความเสียหาย <b>&times;1</b> ให้กับเป้าหมายประเภท<b class='ba-col-explosion'>เกราะเบา</b>, <b class='ba-col-pierce'>เกราะหนัก</b>และ<b class='ba-col-mystic'>เกราะพิเศษ</b><br>สร้างความเสียหาย <b>&times;0.5</b> ให้กับเป้าหมายประเภท<b>สิ่งปลูกสร้าง</b>",
+        "attack_type_normal_desc": "สร้างความเสียหาย <b>&times;1</b> ให้กับเป้าหมายประเภท<b class='ba-col-explosion'>เกราะเบา</b>, <b class='ba-col-pierce'>เกราะหนัก</b>และ<b class='ba-col-mystic'>เกราะพิเศษ</b>",
         "defense_type_desc": "ได้รับความเสียหาย <b>&times;{0}</b> จากการโจมตีประเภท{1}",
         "defense_type_normal_desc": "ได้รับความเสียหาย <b>&times;1</b> จากการโจมตีประเภท<b class='ba-col-explosion'>ระเบิด</b>, <b class='ba-col-pierce'>เจาะเกราะ</b>และ<b class='ba-col-mystic'>ลึกลับ</b>",
         "comfort": "ค่าน่าอยู่",
@@ -918,6 +921,9 @@
         "stage_map": "แผนที่",
         "stage_conquest_tile": "พื้นที่",
         "event_rerun": "(รีรัน)",
+        "stage_original": "Original",
+        "stage_rerun": "รีรัน",
+        "stage_permanent": "Permanent",
         "starcondition_clear": "เคลียร์",
         "starcondition_cleartime": "เคลียร์ใน {0} วินาที",
         "starcondition_earnrewards": "ได้รับรางวัล {0} ชิ้น",
@@ -945,7 +951,7 @@
         "bond_req_upgrade": "ต้องการ <i class='ms-1 fa-solid fa-heart'></i> ของ {1} ระดับ {0} เพื่ออัปเกรด",
         "gacha_pickup": "ตู้เพิ่มเรท",
         "skill_plus": "+",
-        "stage_reward_default": "รางวัล",
+        "rewards": "รางวัล",
         "stage_reward_firstclear": "ครั้งแรก",
         "stage_reward_threestar": "3★",
         "rewards_season": "รางวัลซีซั่น",
@@ -988,7 +994,9 @@
         "conquest_occupy": "ยึด",
         "conquest_operate": "จัดการ",
         "conquest_analyze": "วิเคราะห์",
-        "conquest_settlement": "รางวัลดำเนินการ",
+        "base_level": "เลเวลฐาน",
+        "base_upgrade_cost": "เลเวลฐาน",
+        "base_settlement": "รางวัลดำเนินการ",
         "school_bonus": "เอฟเฟกต์จัดทีมโรงเรียน",
         "school_bonus_num_students": "{0}คน: ",
         "school_bonus_conquest": "รับรางวัล{2}เพิ่ม +{0}%, เพิ่มค่าโจมตี +{1}%",
@@ -1022,6 +1030,7 @@
         "toast_import_failure": "ประสบปัญหาในการนำเข้าข้อมูลนักเรียนในคอลเลคชั่น",
         "toast_import_copy": "คัดลอกรหัสนำเข้าลงในคลิปบอร์ด",
         "toast_amount_invalid": "ค่าที่ใส่ลงไปไม่ถูกต้อง",
+        "toast_release_warning": "เนื้อหานี้ยังไม่ถูกเผยแพร่ในเซิร์ฟเวอร์ที่เลือกไว้\nข้อมูลที่แสดงอยู่จะอ้างอิงจากเนื้อหาของเซิร์ฟเวอร์ JP",
         "stat_defense_tooltip": "ลดความเสียหายที่ได้รับลง: {0}",
         "stat_crit_tooltip": "อัตราการติดคริ:",
         "stat_crit_amount_tooltip": "{0}&nbsp;<small><i>(ใส่เป้าหมายที่มีค่าต้านทานคริ {1})</i></small>",

@@ -102,6 +102,7 @@
         "BlackTortoisePromenade": "玄武商会",
         "Genryumon": "玄竜門",
         "LaborParty": "工務部",
+        "KnowledgeLiberationFront": "知識解放戦線",
         "EmptyClub": "無し"
     },
     "BossFaction": {
@@ -109,7 +110,8 @@
         "Slumpia": "スランピア",
         "CommunioSanctorum": "聖徒の交わり",
         "Kaitenger": "カイテンジャー",
-        "TheLibraryofLore": "The Library of Lore"
+        "TheLibraryofLore": "The Library of Lore",
+        "SevenPrisoners": "七囚人"
     },
     "Stat": {
         "Level": "レベル",
@@ -269,7 +271,8 @@
         "825": "白亜の予告状～虚飾の館と美学の在り処～",
         "826": "龍武同舟～思い描くは、ひとつの未来～",
         "827": "夏の特殊作戦！RABBIT小隊と消えたエビの謎",
-        "828": "隠されし遺産を求めて～トリニティの課外活動～"
+        "828": "隠されし遺産を求めて～トリニティの課外活動～",
+        "829": "学漫同人物語～2人が求める最終回～"
     },
     "StageType": {
         "Campaign": "任務",
@@ -558,7 +561,7 @@
         "Special_OldBook": "手がかり"
     },
     "BuffTooltip": {
-        "Buff_AidAttitude": "一定間隔でHPを持続的に回復する。",
+        "Buff_AidAttitude": "一定間隔でHPを持続的に回復する。\n解除後にミネのノーマルスキルを発動する。",
         "Buff_AmmoCount": "通常攻撃に使用する武器の最大装弾数を増加する。",
         "Buff_ATK": "攻撃によって与えるダメージを増加する。",
         "Buff_AttackSpeed": "通常攻撃とリロードの速度を増加し攻撃間隔を減少する。",
@@ -659,7 +662,7 @@
         "Special_DebuffCountGreen": "被ダメージ量を増加する。",
         "Special_DebuffCountYellow": "被ダメージ量と攻撃力を増加する。",
         "Special_DebuffCountRed": "攻撃力を増加する。",
-        "Special_OldBook": "Activates Ui (Swimsuit)'s Basic Skill when at 3 stacks."
+        "Special_OldBook": "3個獲得時にウイ（水着）のノーマルスキルを発動する。"
     },
     "ServerName": {
         "0": "日本",
@@ -685,7 +688,7 @@
         "Perorozilla": "気絶状態のペロロミニオンを吸い込むと増加する。",
         "HOD": "インベイドピラーが破壊されるかホドのCCゲージが一杯になると増加する。",
         "HoverCraft": "ミサイル暴走モードが終了すると増加する。",
-        "EN0005": "Increases when Choir Members are knocked down."
+        "EN0005": "聖歌隊が倒された時に増加する。"
     },
     "VoiceClipGroup": {
         "Normal": "一般",
@@ -806,9 +809,9 @@
         "student_birthdays": "これから1週間のうちに誕生日を迎える生徒さんです！",
         "attributes": "ステータス",
         "base_stats": "基礎ステータス",
-        "max_stats": "Max. Stats",
-        "collection_stats": "Use Collection Stats",
-        "sp_sub_skill": "Special Sub Skill",
+        "max_stats": "最大ステータス。",
+        "collection_stats": "所属生徒のステータスを使用",
+        "sp_sub_skill": "SPECIAL生徒のサブスキル",
         "skills": "スキル",
         "ex_weapon": "固有武器",
         "ex_gear": "愛用品",
@@ -849,7 +852,7 @@
         "student_weapon_rank_3star_desc": "固有武器のMax Level Lv.40 → <b>Lv.50</b> / 地形別戦闘力を強化",
         "student_gear_t2_desc": "ノーマルスキル＋を開放",
         "attack_type_desc": "{1}に<b>{0}倍</b>のダメージを与える。",
-        "attack_type_normal_desc": "<b class='ba-col-explosion'>軽装備</b>、<b class='ba-col-pierce'>重装甲</b>、<b class='ba-col-mystic'>特殊装甲</b>および<b class='ba-col-elasticarmor'>弾力装甲</b>に対して<b>1倍</b>のダメージを与える。<br>構造物に<b>0.5倍</b>のダメージを与える。",
+        "attack_type_normal_desc": "<b class='ba-col-explosion'>軽装備</b>、<b class='ba-col-pierce'>重装甲</b>、<b class='ba-col-mystic'>特殊装甲</b>および<b class='ba-col-elasticarmor'>弾力装甲</b>に対して<b>1倍</b>のダメージを与える。",
         "defense_type_desc": "{1}攻撃から<b>{0}倍</b>のダメージを受ける。",
         "defense_type_normal_desc": "<b class='ba-col-explosion'>爆発</b>、<b class='ba-col-pierce'>貫通</b>、<b class='ba-col-mystic'>神秘</b>および<b class='ba-col-sonic'>振動</b>攻撃から<b>1倍</b>のダメージを受ける。",
         "comfort": "快適度",
@@ -918,6 +921,9 @@
         "stage_map": "マップ",
         "stage_conquest_tile": "タイル",
         "event_rerun": "（復刻）",
+        "stage_original": "Original",
+        "stage_rerun": "復刻",
+        "stage_permanent": "Permanent",
         "starcondition_clear": "クリア",
         "starcondition_cleartime": "<b>{0}</b>秒以内にクリア。",
         "starcondition_earnrewards": "報酬を<b>{0}</b>個獲得。",
@@ -945,7 +951,7 @@
         "bond_req_upgrade": "強化には{1}の絆ランク<i class='ms-1 fa-solid fa-heart'></i>{0}が必要",
         "gacha_pickup": "ピックアップ募集",
         "skill_plus": "＋",
-        "stage_reward_default": "通常報酬",
+        "rewards": "通常報酬",
         "stage_reward_firstclear": "初回",
         "stage_reward_threestar": "3★",
         "rewards_season": "総合ランキングPt報酬",
@@ -988,7 +994,9 @@
         "conquest_occupy": "占領",
         "conquest_operate": "運営",
         "conquest_analyze": "分析",
-        "conquest_settlement": "精算獲得報酬",
+        "base_level": "拠点レベル",
+        "base_upgrade_cost": "拠点レベルアップ",
+        "base_settlement": "精算獲得報酬",
         "school_bonus": "学園編成効果",
         "school_bonus_num_students": "{0}人: ",
         "school_bonus_conquest": "{2}報酬追加獲得+{0}%, 攻撃力増加+{1}%",
@@ -1022,6 +1030,7 @@
         "toast_import_failure": "生徒データのインポート時にエラーが発生しました",
         "toast_import_copy": "インポート用文字列をクリップボードにコピーしました",
         "toast_amount_invalid": "不正な値です",
+        "toast_release_warning": "This content has not yet been released on the selected server.\nData from the JP server will be displayed.",
         "stat_defense_tooltip": "ダメージ軽減：{0}",
         "stat_crit_tooltip": "会心確率：",
         "stat_crit_amount_tooltip": "{0}&nbsp;<small><i>（会心抵抗値{1}）</i></small>",

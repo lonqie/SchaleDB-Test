@@ -5018,7 +5018,7 @@
         "Gear": {
             "Released": [
                 true,
-                false
+                true
             ],
             "StatType": [
                 "AttackPower_Base"
@@ -5864,7 +5864,7 @@
         "CharacterAge": "16 years old",
         "Birthday": "May 16th",
         "CharacterSSRNew": "Do you need my help?",
-        "ProfileIntroduction": "The sporty field captain of the Abydos Foreclosure Task Force.\n\nA girl of few words and almost no facial expression, Shiroko gives the impression of being frigid and emotionless. In truth, she is more devoted to the Abydos Academy than anything else. If it&#x27;s for the sake of revitalizing the academy, she&#x27;ll do whatever it takes and sometimes propose some outlandish ideas herself.",
+        "ProfileIntroduction": "The sporty field captain of the Abydos Foreclosure Task Force.\n\nA girl of few words and almost no facial expression, Shiroko gives the impression of being frigid and emotionless. In truth, she is more devoted to the Abydos High School than anything else. If it&#x27;s for the sake of revitalizing the academy, she&#x27;ll do whatever it takes and sometimes propose some outlandish ideas herself.",
         "Hobby": "Jogging, cycling",
         "CharacterVoice": "Yui Ogura",
         "BirthDay": "5/16",
@@ -6251,7 +6251,7 @@
         "Gear": {
             "Released": [
                 true,
-                false
+                true
             ],
             "StatType": [
                 "CriticalDamageRate_Base"
@@ -12093,7 +12093,7 @@
         "Gear": {
             "Released": [
                 true,
-                false
+                true
             ],
             "StatType": [
                 "AttackPower_Base"
@@ -16046,7 +16046,7 @@
         "Gear": {
             "Released": [
                 true,
-                false
+                true
             ],
             "StatType": [
                 "OppressionPower_Base"
@@ -23282,7 +23282,9 @@
                         2019,
                         3804
                     ]
-                ]
+                ],
+                "ObstacleMaxHP1": 700,
+                "ObstacleMaxHP100": 15000
             }
         ],
         "Position": "Back",
@@ -25287,7 +25289,9 @@
                         4243,
                         4682
                     ]
-                ]
+                ],
+                "ObstacleMaxHP1": 700,
+                "ObstacleMaxHP100": 15000
             }
         ],
         "Position": "Back",
@@ -29872,7 +29876,9 @@
                 25
             ]
         ],
-        "FavorAlts": [],
+        "FavorAlts": [
+            10074
+        ],
         "MemoryLobby": [
             2,
             2
@@ -30572,7 +30578,7 @@
         "OutdoorBattleAdaptation": 1,
         "IndoorBattleAdaptation": 4,
         "WeaponType": "AR",
-        "WeaponImg": "Weapon_Icon_10021",
+        "WeaponImg": "Weapon_Icon_10019",
         "Cover": true,
         "Equipment": [
             "Gloves",
@@ -31100,7 +31106,7 @@
         "OutdoorBattleAdaptation": 4,
         "IndoorBattleAdaptation": 0,
         "WeaponType": "SR",
-        "WeaponImg": "Weapon_Icon_20004",
+        "WeaponImg": "Weapon_Icon_20003",
         "Cover": false,
         "Equipment": [
             "Hat",
@@ -31605,7 +31611,7 @@
         "OutdoorBattleAdaptation": 1,
         "IndoorBattleAdaptation": 3,
         "WeaponType": "SG",
-        "WeaponImg": "Weapon_Icon_16005",
+        "WeaponImg": "Weapon_Icon_10013",
         "Cover": false,
         "Equipment": [
             "Shoes",
@@ -32148,7 +32154,7 @@
         "OutdoorBattleAdaptation": 2,
         "IndoorBattleAdaptation": 4,
         "WeaponType": "AR",
-        "WeaponImg": "Weapon_Icon_20005",
+        "WeaponImg": "Weapon_Icon_10003",
         "Cover": false,
         "Equipment": [
             "Hat",
@@ -32707,7 +32713,7 @@
         "OutdoorBattleAdaptation": 4,
         "IndoorBattleAdaptation": 0,
         "WeaponType": "MG",
-        "WeaponImg": "Weapon_Icon_10022",
+        "WeaponImg": "Weapon_Icon_10004",
         "Cover": false,
         "Equipment": [
             "Hat",
@@ -33363,7 +33369,7 @@
         "OutdoorBattleAdaptation": 4,
         "IndoorBattleAdaptation": 0,
         "WeaponType": "SR",
-        "WeaponImg": "Weapon_Icon_10023",
+        "WeaponImg": "Weapon_Icon_10006",
         "Cover": true,
         "Equipment": [
             "Shoes",
@@ -33893,7 +33899,7 @@
         "OutdoorBattleAdaptation": 3,
         "IndoorBattleAdaptation": 1,
         "WeaponType": "MG",
-        "WeaponImg": "Weapon_Icon_16006",
+        "WeaponImg": "Weapon_Icon_10009",
         "Cover": false,
         "Equipment": [
             "Shoes",
@@ -34417,7 +34423,7 @@
         "OutdoorBattleAdaptation": 2,
         "IndoorBattleAdaptation": 0,
         "WeaponType": "AR",
-        "WeaponImg": "Weapon_Icon_10024",
+        "WeaponImg": "Weapon_Icon_10010",
         "Cover": true,
         "Equipment": [
             "Gloves",
@@ -34950,7 +34956,7 @@
         "OutdoorBattleAdaptation": 0,
         "IndoorBattleAdaptation": 2,
         "WeaponType": "SR",
-        "WeaponImg": "Weapon_Icon_10025",
+        "WeaponImg": "Weapon_Icon_10011",
         "Cover": true,
         "Equipment": [
             "Hat",
@@ -36116,7 +36122,7 @@
         "OutdoorBattleAdaptation": 4,
         "IndoorBattleAdaptation": 2,
         "WeaponType": "HG",
-        "WeaponImg": "Weapon_Icon_20006",
+        "WeaponImg": "Weapon_Icon_20002",
         "Cover": false,
         "Equipment": [
             "Gloves",
@@ -36712,7 +36718,7 @@
         "OutdoorBattleAdaptation": 4,
         "IndoorBattleAdaptation": 0,
         "WeaponType": "SMG",
-        "WeaponImg": "Weapon_Icon_10026",
+        "WeaponImg": "Weapon_Icon_10008",
         "Cover": true,
         "Equipment": [
             "Shoes",
@@ -37300,7 +37306,7 @@
         "OutdoorBattleAdaptation": 2,
         "IndoorBattleAdaptation": 4,
         "WeaponType": "SR",
-        "WeaponImg": "Weapon_Icon_10027",
+        "WeaponImg": "Weapon_Icon_20001",
         "Cover": true,
         "Equipment": [
             "Hat",
@@ -37840,7 +37846,7 @@
         "OutdoorBattleAdaptation": 2,
         "IndoorBattleAdaptation": 4,
         "WeaponType": "AR",
-        "WeaponImg": "Weapon_Icon_10028",
+        "WeaponImg": "Weapon_Icon_16001",
         "Cover": true,
         "Equipment": [
             "Gloves",
@@ -39253,7 +39259,8 @@
                 207314
             ],
             [
-                1105
+                1105,
+                207314
             ]
         ],
         "FavorItemTags": [
@@ -40464,7 +40471,7 @@
         "OutdoorBattleAdaptation": 2,
         "IndoorBattleAdaptation": 0,
         "WeaponType": "HG",
-        "WeaponImg": "Weapon_Icon_CH0164",
+        "WeaponImg": "Weapon_Icon_10017",
         "Cover": false,
         "Equipment": [
             "Hat",
@@ -41044,7 +41051,7 @@
         "OutdoorBattleAdaptation": 2,
         "IndoorBattleAdaptation": 4,
         "WeaponType": "HG",
-        "WeaponImg": "Weapon_Icon_CH0163",
+        "WeaponImg": "Weapon_Icon_26000",
         "Cover": true,
         "Equipment": [
             "Shoes",
@@ -42129,7 +42136,7 @@
         "OutdoorBattleAdaptation": 0,
         "IndoorBattleAdaptation": 4,
         "WeaponType": "SMG",
-        "WeaponImg": "Weapon_Icon_CH0165",
+        "WeaponImg": "Weapon_Icon_26006",
         "Cover": false,
         "Equipment": [
             "Shoes",
@@ -42604,7 +42611,7 @@
         "OutdoorBattleAdaptation": 2,
         "IndoorBattleAdaptation": 4,
         "WeaponType": "SR",
-        "WeaponImg": "Weapon_Icon_10031",
+        "WeaponImg": "Weapon_Icon_10000",
         "Cover": true,
         "Equipment": [
             "Hat",
@@ -43122,7 +43129,7 @@
         "OutdoorBattleAdaptation": 4,
         "IndoorBattleAdaptation": 2,
         "WeaponType": "MG",
-        "WeaponImg": "Weapon_Icon_10032",
+        "WeaponImg": "Weapon_Icon_13006",
         "Cover": false,
         "Equipment": [
             "Gloves",
@@ -43685,7 +43692,7 @@
         "OutdoorBattleAdaptation": 1,
         "IndoorBattleAdaptation": 4,
         "WeaponType": "AR",
-        "WeaponImg": "Weapon_Icon_20011",
+        "WeaponImg": "Weapon_Icon_13008",
         "Cover": false,
         "Equipment": [
             "Shoes",
@@ -44395,19 +44402,25 @@
                 "Icon": "COMMON_SKILLICON_TARGET",
                 "Effects": [
                     {
-                        "Type": "DMGSingle",
+                        "Type": "DMGMulti",
                         "CriticalCheck": "Check",
+                        "Hits": [
+                            6250,
+                            1875,
+                            1875
+                        ],
+                        "HitsParameter": 1,
                         "Scale": [
-                            21239,
-                            22305,
-                            23364,
-                            27614,
-                            28674,
-                            29739,
-                            33983,
-                            35049,
-                            36108,
-                            40359
+                            33991,
+                            35695,
+                            37392,
+                            44182,
+                            45880,
+                            47583,
+                            54379,
+                            56083,
+                            57780,
+                            64573
                         ]
                     }
                 ]
@@ -46746,7 +46759,9 @@
                 32
             ]
         ],
-        "FavorAlts": [],
+        "FavorAlts": [
+            20029
+        ],
         "MemoryLobby": [
             6,
             6
@@ -47883,7 +47898,8 @@
                 207314
             ],
             [
-                2103
+                2103,
+                207314
             ]
         ],
         "FavorItemTags": [
@@ -48638,7 +48654,7 @@
         "CharacterAge": "15 years old",
         "Birthday": "January 7th",
         "CharacterSSRNew": "RABBIT 1. Begin the Operation.",
-        "ProfileIntroduction": "The leader of the RABBIT Squad at the SRT Special Academy. Her call sign is &quot;RABBIT 1.&quot;\n\nMiyako originally registered for the SRT Academy because of her deep admiration for its adherence to justice. When they suddenly closed down the academy, she was left homeless and camping out in a park with other RABBIT Squad members. She is to-the-point and rarely shows what she&#x27;s thinking so can come off as uncaring, but has the kindest heart in the squad.",
+        "ProfileIntroduction": "The leader of the RABBIT Squad at the SRT Academy. Her call sign is &quot;RABBIT 1.&quot;\n\nMiyako originally registered for the SRT Academy because of her deep admiration for its adherence to justice. When they suddenly closed down the academy, she was left homeless and camping out in a park with other RABBIT Squad members. She is to-the-point and rarely shows what she&#x27;s thinking so can come off as uncaring, but has the kindest heart in the squad.",
         "Hobby": "Watching bunny videos",
         "CharacterVoice": "Akane Fujita",
         "BirthDay": "1/7",
@@ -48992,7 +49008,7 @@
         "IsLimited": 0,
         "Weapon": {
             "Name": "RABBIT Type 31 Submachine Gun",
-            "Desc": "A submachine gun Miyako received from the SRT Special Academy.\nA highly reliable submachine gun, it can effectively annihilate enemies even in the most extreme situations.",
+            "Desc": "A submachine gun Miyako received from the SRT Academy.\nA highly reliable submachine gun, it can effectively annihilate enemies even in the most extreme situations.",
             "AdaptationType": "Street",
             "AdaptationValue": 1,
             "AttackPower1": 57,
@@ -49172,7 +49188,7 @@
         "CharacterAge": "15 years old",
         "Birthday": "April 9th",
         "CharacterSSRNew": "Call sign, RABBIT 2. Sensitivity is good.",
-        "ProfileIntroduction": "The point woman of the SRT Special Academy RABBIT Squad. Call sign is &quot;RABBIT 2.&quot;\n\nSaki enrolled in the SRT Academy to live the life of discipline she&#x27;d always dreamed of. When the academy closed down, she, along with her squad, refused to give up on their school and began camping out in the park in protest. A star student, she still carries around her textbooks and SRT manuals to this day. She enjoys foraging for wild greens and trash that can be repurposed as supplies.",
+        "ProfileIntroduction": "The point woman of the SRT Academy RABBIT Squad. Call sign is &quot;RABBIT 2.&quot;\n\nSaki enrolled in the SRT Academy to live the life of discipline she&#x27;d always dreamed of. When the academy closed down, she, along with her squad, refused to give up on their school and began camping out in the park in protest. A star student, she still carries around her textbooks and SRT manuals to this day. She enjoys foraging for wild greens and trash that can be repurposed as supplies.",
         "Hobby": "Gun maintenance, foraging",
         "CharacterVoice": "Akane Tomonaga",
         "BirthDay": "4/9",
@@ -49534,7 +49550,7 @@
         "IsLimited": 0,
         "Weapon": {
             "Name": "RABBIT Type 26 Machine Gun",
-            "Desc": "A standard machine gun Saki received from the SRT Special Academy.\nIt's hard to maintain, but it guarantees great firepower as long as it's serviced well.",
+            "Desc": "A standard machine gun Saki received from the SRT Academy.\nIt's hard to maintain, but it guarantees great firepower as long as it's serviced well.",
             "AdaptationType": "Street",
             "AdaptationValue": 1,
             "AttackPower1": 127,
@@ -49714,7 +49730,7 @@
         "CharacterAge": "15 years old",
         "Birthday": "July 12th",
         "CharacterSSRNew": "Th-This is RABBIT 4. D-Did you call...?",
-        "ProfileIntroduction": "The sniper of the SRT Special Academy RABBIT Squad. Her call sign is &quot;RABBIT 4.&quot;\n\nMiyu entered the SRT Academy due to her natural sniping talent, but struggled with her meek and shy temperament. Just as she found a home in the academy, it closed down and she joined the rest of her squad camping out in the park. Her lack of presence makes her a great sniper, but sometimes even her allies forget she exists.",
+        "ProfileIntroduction": "The sniper of the SRT Academy RABBIT Squad. Her call sign is &quot;RABBIT 4.&quot;\n\nMiyu entered the SRT Academy due to her natural sniping talent, but struggled with her meek and shy temperament. Just as she found a home in the academy, it closed down and she joined the rest of her squad camping out in the park. Her lack of presence makes her a great sniper, but sometimes even her allies forget she exists.",
         "Hobby": "Pessimism, escapism, collecting pebbles",
         "CharacterVoice": "Yuko Goto",
         "BirthDay": "7/12",
@@ -50032,7 +50048,7 @@
         "IsLimited": 0,
         "Weapon": {
             "Name": "RABBIT Type 39 Rifle",
-            "Desc": "A standard rifle Miyu received from the SRT Special Academy.\nPrecisely designed for a powerful single shot, it has a very high accuracy.",
+            "Desc": "A standard rifle Miyu received from the SRT Academy.\nPrecisely designed for a powerful single shot, it has a very high accuracy.",
             "AdaptationType": "Street",
             "AdaptationValue": 1,
             "AttackPower1": 112,
@@ -55198,7 +55214,7 @@
         "OutdoorBattleAdaptation": 3,
         "IndoorBattleAdaptation": 2,
         "WeaponType": "HG",
-        "WeaponImg": "Weapon_Icon_CH0176",
+        "WeaponImg": "Weapon_Icon_23005",
         "Cover": false,
         "Equipment": [
             "Gloves",
@@ -55702,7 +55718,7 @@
         "OutdoorBattleAdaptation": 3,
         "IndoorBattleAdaptation": 0,
         "WeaponType": "SG",
-        "WeaponImg": "Weapon_Icon_CH0091",
+        "WeaponImg": "Weapon_Icon_10005",
         "Cover": false,
         "Equipment": [
             "Shoes",
@@ -56337,7 +56353,7 @@
         "OutdoorBattleAdaptation": 2,
         "IndoorBattleAdaptation": 2,
         "WeaponType": "SG",
-        "WeaponImg": "Weapon_Icon_CH0180",
+        "WeaponImg": "Weapon_Icon_23006",
         "Cover": false,
         "Equipment": [
             "Shoes",
@@ -56819,7 +56835,7 @@
         "OutdoorBattleAdaptation": 2,
         "IndoorBattleAdaptation": 4,
         "WeaponType": "SMG",
-        "WeaponImg": "Weapon_Icon_CH0179",
+        "WeaponImg": "Weapon_Icon_10014",
         "Cover": true,
         "Equipment": [
             "Gloves",
@@ -57365,7 +57381,7 @@
         "OutdoorBattleAdaptation": 4,
         "IndoorBattleAdaptation": 0,
         "WeaponType": "GL",
-        "WeaponImg": "Weapon_Icon_CH0178",
+        "WeaponImg": "Weapon_Icon_13001",
         "Cover": true,
         "Equipment": [
             "Hat",
@@ -60313,7 +60329,7 @@
         "OutdoorBattleAdaptation": 2,
         "IndoorBattleAdaptation": 4,
         "WeaponType": "SMG",
-        "WeaponImg": "Weapon_Icon_CH0182",
+        "WeaponImg": "Weapon_Icon_23004",
         "Cover": false,
         "Equipment": [
             "Hat",
@@ -61959,7 +61975,7 @@
         "OutdoorBattleAdaptation": 0,
         "IndoorBattleAdaptation": 4,
         "WeaponType": "HG",
-        "WeaponImg": "Weapon_Icon_CH0099",
+        "WeaponImg": "Weapon_Icon_13000",
         "Cover": false,
         "Equipment": [
             "Hat",
@@ -62446,7 +62462,7 @@
         "OutdoorBattleAdaptation": 0,
         "IndoorBattleAdaptation": 4,
         "WeaponType": "SMG",
-        "WeaponImg": "Weapon_Icon_CH0184",
+        "WeaponImg": "Weapon_Icon_13010",
         "Cover": true,
         "Equipment": [
             "Shoes",
@@ -62993,7 +63009,7 @@
         "OutdoorBattleAdaptation": 0,
         "IndoorBattleAdaptation": 4,
         "WeaponType": "HG",
-        "WeaponImg": "Weapon_Icon_CH0186",
+        "WeaponImg": "Weapon_Icon_23008",
         "Cover": true,
         "Equipment": [
             "Shoes",
@@ -63522,7 +63538,7 @@
         "OutdoorBattleAdaptation": 1,
         "IndoorBattleAdaptation": 3,
         "WeaponType": "SR",
-        "WeaponImg": "Weapon_Icon_CH0190",
+        "WeaponImg": "Weapon_Icon_13003",
         "Cover": true,
         "Equipment": [
             "Hat",
@@ -65149,7 +65165,7 @@
         "OutdoorBattleAdaptation": 4,
         "IndoorBattleAdaptation": 2,
         "WeaponType": "AR",
-        "WeaponImg": "Weapon_Icon_CH0194",
+        "WeaponImg": "Weapon_Icon_26003",
         "Cover": true,
         "Equipment": [
             "Shoes",
@@ -65929,7 +65945,7 @@
         "OutdoorBattleAdaptation": 0,
         "IndoorBattleAdaptation": 4,
         "WeaponType": "AR",
-        "WeaponImg": "Weapon_Icon_CH0195",
+        "WeaponImg": "Weapon_Icon_23002",
         "Cover": false,
         "Equipment": [
             "Shoes",
@@ -66666,7 +66682,7 @@
         "OutdoorBattleAdaptation": 4,
         "IndoorBattleAdaptation": 2,
         "WeaponType": "SR",
-        "WeaponImg": "Weapon_Icon_CH0191",
+        "WeaponImg": "Weapon_Icon_10002",
         "Cover": true,
         "Equipment": [
             "Gloves",
@@ -67216,7 +67232,7 @@
         "OutdoorBattleAdaptation": 0,
         "IndoorBattleAdaptation": 4,
         "WeaponType": "SMG",
-        "WeaponImg": "Weapon_Icon_CH0177",
+        "WeaponImg": "Weapon_Icon_23001",
         "Cover": false,
         "Equipment": [
             "Shoes",
@@ -67699,7 +67715,7 @@
         "OutdoorBattleAdaptation": 2,
         "IndoorBattleAdaptation": 2,
         "WeaponType": "AR",
-        "WeaponImg": "Weapon_Icon_CH0192",
+        "WeaponImg": "Weapon_Icon_13007",
         "Cover": true,
         "Equipment": [
             "Hat",
@@ -68855,7 +68871,7 @@
         "Id": 10059,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "DefaultOrder": 126,
         "PathName": "Mika",
@@ -68884,20 +68900,20 @@
         "CollectionBG": "BG_Trinity_Collection",
         "CollectionTexture": "Student_Portrait_CH0069_Collection",
         "FamilyName": "Misono",
+        "FamilyNameRuby": "",
         "PersonalName": "Mika",
         "SchoolYear": "3rd Year",
         "CharacterAge": "17 years old",
-        "FamilyNameRuby": "みその",
-        "Birthday": "5月8日",
-        "CharacterSSRNew": "うん、お待たせ！\nこれからはなんでも私に任せてね☆",
-        "ProfileIntroduction": "トリニティ総合学園所属、トリニティを構成している生徒連合「パテル」の元リーダーだった少女。\n\n元ティーパーティーの一人で、リーダーであるナギサとは幼馴染でもある。しかし、政治的には対立している立場のため、公私の区別はしっかりしている。いつも楽しそうに笑い、無邪気な姿を見せる彼女だが、人に言えない悩みを胸の裡に抱えているらしい。",
-        "Hobby": "おしゃべり、アクセサリー集め",
+        "Birthday": "May 8th",
+        "CharacterSSRNew": "Thanks for waiting! It&#x27;s my turn to jump in! ☆",
+        "ProfileIntroduction": "The former leader of Pater, one of the allied factions that makes up Trinity General School.\n\nA former Tea Party member and a childhood friend of Nagisa, another member of the Tea Party. When the two clash politically, she draws a clear line between their public disagreements and their private friendship.\nShe seems lively and cheerful, and she&#x27;s never without a smile. However, her demeanor hides worries that she can&#x27;t reveal, making her something of an enigma.",
+        "Hobby": "Chatting, collecting accessories",
         "CharacterVoice": "Nao Tōyama",
         "BirthDay": "5/8",
         "Illustrator": "YutokaMizu",
         "Designer": "YutokaMizu",
         "CharHeightMetric": "157cm",
-        "CharHeightImperial": null,
+        "CharHeightImperial": "5&#x27;1&quot;",
         "StabilityPoint": 1376,
         "AttackPower1": 247,
         "AttackPower100": 2477,
@@ -69296,14 +69312,16 @@
         "FavorAlts": [],
         "MemoryLobby": [
             5,
-            0
+            5
         ],
         "MemoryLobbyBGM": "Daily Routine 247",
         "FurnitureInteraction": [
             [
                 207312
             ],
-            []
+            [
+                207312
+            ]
         ],
         "FavorItemTags": [
             "Cosmetics",
@@ -69317,7 +69335,7 @@
         "IsLimited": 1,
         "Weapon": {
             "Name": "Quis ut Deus",
-            "Desc": "ミカが愛用するサブマシンガン。\n\n何の変哲もないトリニティ製サブマシンガンを、ミカが心を込めて飾ったもの。今は暗闇の中でも星のように輝く特別な外観を持つようになった。いつでもどこでもミカのために活躍する。",
+            "Desc": "Mika's favorite submachine gun.\n\nIt was originally an ordinary Trinity-made submachine gun before Mika decorated it with love. Now, it shines like a star in the dark sky. You can be sure it's had a role in everything Mika does.",
             "AdaptationType": "Indoor",
             "AdaptationValue": 1,
             "AttackPower1": 109,
@@ -69462,7 +69480,7 @@
         "Id": 10060,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "DefaultOrder": 127,
         "PathName": "Megu",
@@ -69491,20 +69509,20 @@
         "CollectionBG": "BG_Gehenna_Collection",
         "CollectionTexture": "Student_Portrait_CH0088_Collection",
         "FamilyName": "Shimokura",
+        "FamilyNameRuby": "",
         "PersonalName": "Megu",
         "SchoolYear": "3rd Year",
         "CharacterAge": "17 years old",
-        "FamilyNameRuby": "しもくら",
-        "Birthday": "4月25日",
-        "CharacterSSRNew": "障害物？私に任せて！撤去しちゃうよ～！",
-        "ProfileIntroduction": "ゲヘナ学園所属、温泉開発部の心臓であり、開発現場の作業班長。\n\nすべての問題事を「撤去する」ことで解決できると心の底から信じている。豪快で竹を割ったような性格、抜群の撤去能力で温泉開発部員から厚い信頼を得ている。",
-        "Hobby": "撤去",
+        "Birthday": "April 25th",
+        "CharacterSSRNew": "Is there a problem? Let me handle it!",
+        "ProfileIntroduction": "The backbone of the Hot Springs Department and foreman at their construction sites.\n\nShe believes with all her heart that demolition can solve any problem.\nHer personality is bold and confident, and she&#x27;s earned the trust of everyone in the Hot Springs Department due to her excellent demolition skills.",
+        "Hobby": "Demolition",
         "CharacterVoice": "Arisa Aihara",
         "BirthDay": "4/25",
         "Illustrator": "NAMYO",
         "Designer": "NAMYO",
         "CharHeightMetric": "164cm",
-        "CharHeightImperial": null,
+        "CharHeightImperial": "5&#x27;4&quot;",
         "StabilityPoint": 1336,
         "AttackPower1": 172,
         "AttackPower100": 1726,
@@ -69552,7 +69570,7 @@
             },
             {
                 "SkillType": "ex",
-                "Name": "I Like it Hot!",
+                "Name": "You Like it Fiery, Right?",
                 "Desc": "Deals <?1> damage to enemies in a fan-shaped area, increases <b:ATK> by <?2> and normal attacks will ignore delay for 30s",
                 "Parameters": [
                     [
@@ -69628,7 +69646,7 @@
             },
             {
                 "SkillType": "normal",
-                "Name": "Heat it Up!",
+                "Name": "Shall I Warm it Up?",
                 "Desc": "Every 40s, creates a circular zone that continuously deals <?1> damage to enemies inside it every 1s for 10s.",
                 "Parameters": [
                     [
@@ -69682,7 +69700,7 @@
             },
             {
                 "SkillType": "passive",
-                "Name": "Yoo-hoo!",
+                "Name": "This is Light Work!",
                 "Desc": "Increases <b:DEF> by <?1> and <b:ATK> by <?2>.",
                 "Parameters": [
                     [
@@ -69748,7 +69766,7 @@
             },
             {
                 "SkillType": "weaponpassive",
-                "Name": "Yoo-hoo!+",
+                "Name": "This is Light Work!+",
                 "Desc": "Increases <b:DEF> by <?1> plus a further <?3> and <b:ATK> by <?2> plus a further <?4>.",
                 "Parameters": [
                     [
@@ -69838,7 +69856,7 @@
             },
             {
                 "SkillType": "sub",
-                "Name": "Feeling Refreshed!",
+                "Name": "Ah! So Refreshing!",
                 "Desc": "Every 50 normal attacks, restores own HP by <?1> of Healing.",
                 "Parameters": [
                     [
@@ -69911,14 +69929,16 @@
         "FavorAlts": [],
         "MemoryLobby": [
             5,
-            0
+            5
         ],
         "MemoryLobbyBGM": "KIRISAME",
         "FurnitureInteraction": [
             [
                 6301
             ],
-            []
+            [
+                6301
+            ]
         ],
         "FavorItemTags": [
             "Toy",
@@ -69930,8 +69950,8 @@
         ],
         "IsLimited": 0,
         "Weapon": {
-            "Name": "メグマパワー！",
-            "Desc": "現場ではメグと一心同体と言っても過言ではない、メグ専用の火炎放射器。\n\nものすごい熱を放つため、他の人は手に負えないしろもの。独特な名前は、他人に言われた言葉遊びを気に入ってそのまま名付けたもの。",
+            "Name": "Molten Meg-ma!",
+            "Desc": "Megu's one-of-a-kind flamethrower. When she takes it out, it becomes like an extension of her.\n\nNo one else can handle it due to the immense amounts of heat it gives off. Its interesting name comes from a pun that someone made about her once.",
             "AdaptationType": "Outdoor",
             "AdaptationValue": 1,
             "AttackPower1": 76,
@@ -70076,7 +70096,7 @@
         "Id": 20023,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "DefaultOrder": 128,
         "PathName": "Kanna",
@@ -70105,20 +70125,20 @@
         "CollectionBG": "BG_Valkyrie_Collection",
         "CollectionTexture": "Student_Portrait_CH0170_Collection",
         "FamilyName": "Ogata",
+        "FamilyNameRuby": "",
         "PersonalName": "Kanna",
         "SchoolYear": "3rd Year",
         "CharacterAge": "17 years old",
-        "FamilyNameRuby": "おがた",
-        "Birthday": "9月7日",
-        "CharacterSSRNew": "市民のため、誠心誠意奉仕します",
-        "ProfileIntroduction": "ヴァルキューレ警察学校所属、公安局の局長を務める生徒。\n\n担当すると決めた犯罪に対して、諦めるという文字を知らないほどに執拗に聞き込み、真相を明らかにすることから世間では「狂犬」というあだ名で知られている。固い空気とあだ名のせいで激情型だと誤解されがちだが、実際は常に冷静で、現実的な価値観の持ち主である。",
-        "Hobby": "読書、映画鑑賞（推理もの）",
+        "Birthday": "September 7th",
+        "CharacterSSRNew": "I will serve the citizens faithfully.",
+        "ProfileIntroduction": "A police student in charge of the Public Peace Bureau at the Valkyrie Police School.\n\nShe&#x27;s better known by the nickname &quot;Feral Hound,&quot; because she never gives up on a crime once it&#x27;s in her sights. She&#x27;ll investigate tenaciously until she uncovers the truth. People see her as hot-tempered because of her unusual, ferocious looks and her nickname, but in reality she&#x27;s calm and down-to-earth.",
+        "Hobby": "Reading detective stories, watching detective movies",
         "CharacterVoice": "Misato Matsuoka",
         "BirthDay": "9/7",
         "Illustrator": "kokosando",
         "Designer": "kokosando",
         "CharHeightMetric": "166cm",
-        "CharHeightImperial": null,
+        "CharHeightImperial": "5&#x27;5&quot;",
         "StabilityPoint": 1081,
         "AttackPower1": 207,
         "AttackPower100": 2071,
@@ -70139,7 +70159,7 @@
         "Skills": [
             {
                 "SkillType": "ex",
-                "Name": "Public Peace Bureau Chief&#x27;s Ability",
+                "Name": "Public Peace Bureau Director&#x27;s Resourcefulness",
                 "Desc": "Deals <?1> damage to one enemy and inflicts <s:Accumulation> for 15s. For the duration of the effect, <?2> of the damage taken from allies will be accumulated and dealt again as <b class='ba-col-pierce'>Piercing</b> damage once it expires, up to a maximum of <?3> of Kanna's ATK. (This additional damage cannot critically hit.)",
                 "Parameters": [
                     [
@@ -70223,7 +70243,7 @@
             },
             {
                 "SkillType": "normal",
-                "Name": "Intense Interrogration",
+                "Name": "Harsh Interrogation",
                 "Desc": "Every 30s, deals <?1> damage to one enemy and decreases their <d:DEF> by <?2> for 20s.",
                 "Parameters": [
                     [
@@ -70380,7 +70400,7 @@
             },
             {
                 "SkillType": "sub",
-                "Name": "Public Peace Bureau&#x27;s Special Ammo",
+                "Name": "Public Peace Bureau Special Ammo",
                 "Desc": "Increases the <b:ATK> of all allies who use <b class='ba-col-pierce'>Piercing</b> type attacks by <?1>.",
                 "Parameters": [
                     [
@@ -70464,14 +70484,16 @@
         "FavorAlts": [],
         "MemoryLobby": [
             5,
-            0
+            5
         ],
         "MemoryLobbyBGM": "Walkthrough",
         "FurnitureInteraction": [
             [
                 207313
             ],
-            []
+            [
+                207313
+            ]
         ],
         "FavorItemTags": [
             "Functional",
@@ -70483,8 +70505,8 @@
         ],
         "IsLimited": 0,
         "Weapon": {
-            "Name": "第17号ヴァルキューレ制式拳銃",
-            "Desc": "ヴァルキューレ警察学校から支給されている制式拳銃。\n\nシンプルなデザインだが、軽くて操作が簡単なため、現場出動より書類仕事が多いカンナは、この拳銃を愛用している。",
+            "Name": "Valkyrie Service Pistol No.17",
+            "Desc": "The standard pistol that Kanna received from the Valkyrie Police School.\n\nDespite its rugged design, it's light and easy to operate. Kanna prefers it, since she spends more time on paperwork than fieldwork.",
             "AdaptationType": "Street",
             "AdaptationValue": 1,
             "AttackPower1": 91,
@@ -70629,7 +70651,7 @@
         "Id": 10061,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "DefaultOrder": 129,
         "PathName": "Sakurako",
@@ -70658,20 +70680,20 @@
         "CollectionBG": "BG_Trinity_Collection",
         "CollectionTexture": "Student_Portrait_Sakurako_Collection",
         "FamilyName": "Utazumi",
+        "FamilyNameRuby": "",
         "PersonalName": "Sakurako",
         "SchoolYear": "3rd Year",
         "CharacterAge": "17 years old",
-        "FamilyNameRuby": "うたずみ",
-        "Birthday": "10月4日",
-        "CharacterSSRNew": "あなたの一挙手一投足……。\nいつも、見守っておりますよ",
-        "ProfileIntroduction": "トリニティ総合学園所属、シスターフッドの敬虔な生徒。\n\n何事に対しても真剣に向き合うため、多くの生徒から厚い信頼を受けている。生真面目すぎるせいで流行や常識からズレてしまうことも。",
-        "Hobby": "お祈り",
+        "Birthday": "October 4th",
+        "CharacterSSRNew": "Through every trial you face, I&#x27;ll watch over you.",
+        "ProfileIntroduction": "The faithful head student of Trinity&#x27;s Sisterhood.\n\nHer sincerity shines through all her actions, making her trusted by many.\nShe&#x27;ll take up any duty given to her with piety and serenity. However, when it comes to matters of fashion or everyday life, her traditional nature sometimes causes her trouble.",
+        "Hobby": "Praying",
         "CharacterVoice": "Ai Kakuma",
         "BirthDay": "10/4",
         "Illustrator": "Mx2J",
         "Designer": "Crab D",
         "CharHeightMetric": "160cm",
-        "CharHeightImperial": null,
+        "CharHeightImperial": "5&#x27;2&quot;",
         "StabilityPoint": 1396,
         "AttackPower1": 268,
         "AttackPower100": 2687,
@@ -70718,7 +70740,7 @@
             },
             {
                 "SkillType": "ex",
-                "Name": "Baptismal Seal",
+                "Name": "Proof of Baptism",
                 "Desc": "Deals <?1> damage to one enemy and applies <d:ConcentratedTarget> to them for 30s. Also augments <s:SilverBullet> to deal <?2> damage as an additional hit for 30s. (This damage can trigger additional damage from the Sub Skill)",
                 "Parameters": [
                     [
@@ -70815,7 +70837,7 @@
             },
             {
                 "SkillType": "normal",
-                "Name": "Sister&#x27;s Preparation",
+                "Name": "Sister&#x27;s Demeanor",
                 "Desc": "Every 40s, increases <b:AttackSpeed> by <?1> for 30s.",
                 "Parameters": [
                     [
@@ -70856,7 +70878,7 @@
             },
             {
                 "SkillType": "passive",
-                "Name": "Judgement of Sin",
+                "Name": "Arbiter of Sin",
                 "Desc": "Increases <b:AttackSpeed> by <?1>.",
                 "Parameters": [
                     [
@@ -70894,7 +70916,7 @@
             },
             {
                 "SkillType": "weaponpassive",
-                "Name": "Judgement of Sin+",
+                "Name": "Arbiter of Sin+",
                 "Desc": "Increases <b:EnhanceMysticRate> by <?1> and <b:AttackSpeed> by <?2>.",
                 "Parameters": [
                     [
@@ -70944,7 +70966,7 @@
             },
             {
                 "SkillType": "sub",
-                "Name": "Let the Light Be With You",
+                "Name": "Light Be with You",
                 "Desc": "Deals <?1> damage as an additional hit to <b class='ba-col-mystic'>Special Armor</b> type enemies.",
                 "Parameters": [
                     [
@@ -71018,14 +71040,16 @@
         "FavorAlts": [],
         "MemoryLobby": [
             5,
-            0
+            5
         ],
         "MemoryLobbyBGM": "Alkaline Tears",
         "FurnitureInteraction": [
             [
                 207314
             ],
-            []
+            [
+                207314
+            ]
         ],
         "FavorItemTags": [
             "Dessert"
@@ -71036,8 +71060,8 @@
         ],
         "IsLimited": 0,
         "Weapon": {
-            "Name": "浄化の織り手",
-            "Desc": "サクラコ本人と同じくらい徹底的かつ敬虔に手入れされている銃。\n\n他人は触れることすら難しい。",
+            "Name": "Purifying Touch",
+            "Desc": "A gun that's maintained with all the thoroughness and reverence that Sakurako possesses.\n\nOthers find it difficult to even touch.",
             "AdaptationType": "Outdoor",
             "AdaptationValue": 1,
             "AttackPower1": 118,
@@ -71182,7 +71206,7 @@
         "Id": 10062,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "DefaultOrder": 130,
         "PathName": "Toki",
@@ -71211,20 +71235,20 @@
         "CollectionBG": "BG_Millennium_Collection",
         "CollectionTexture": "Student_Portrait_CH0187_Collection",
         "FamilyName": "Asuma",
+        "FamilyNameRuby": "",
         "PersonalName": "Toki",
         "SchoolYear": "1st Year",
         "CharacterAge": "16 years old",
-        "FamilyNameRuby": "あすま",
-        "Birthday": "8月16日",
-        "CharacterSSRNew": "何なりとお申し付けください。\n私は完璧なエージェントであり、メイドですので",
-        "ProfileIntroduction": "ミレニアムサイエンススクール所属、秘密組織「C&amp;C」の5番目のエージェント。\n\nC&amp;C所属だが、これまではリオの専属メイド兼ボディーガードとして活動してきたため、トキの顔を知っている人はほとんどいない。ハイテク兵器や技術に基づいて戦う優れたエージェント。今までは単独行動がメインだったが、実は寂しがり屋という一面も。",
-        "Hobby": "探している最中",
+        "Birthday": "August 16th",
+        "CharacterSSRNew": "Leave it to me. I&#x27;m both the perfect agent and the perfect maid.",
+        "ProfileIntroduction": "The mysterious fifth agent of Millennium Academy&#x27;s secret spy agency, C&amp;C.\n\nAlthough she technically belongs to C&amp;C, she&#x27;s been Rio&#x27;s exclusive maid and bodyguard for some time, so few know who Toki is. While she is a superior secret agent who&#x27;s at ease with high-tech weaponry and technology, she seems to be a bit lonely as she always works solo.",
+        "Hobby": "Tracking",
         "CharacterVoice": "Yui Ishikawa",
         "BirthDay": "8/16",
         "Illustrator": "DoReMi",
         "Designer": "DoReMi",
         "CharHeightMetric": "165cm",
-        "CharHeightImperial": null,
+        "CharHeightImperial": "5&#x27;4&quot;",
         "StabilityPoint": 1388,
         "AttackPower1": 232,
         "AttackPower100": 2326,
@@ -71542,7 +71566,7 @@
             },
             {
                 "SkillType": "normal",
-                "Name": "Tactical Judgement",
+                "Name": "Tactical Decision",
                 "Desc": "Every 35s, deals <?1> damage to one enemy. If Toki is in <s:CH0187Mod>, this attack will ignore <?2> of the enemy's DEF.",
                 "Parameters": [
                     [
@@ -71668,7 +71692,7 @@
             },
             {
                 "SkillType": "passive",
-                "Name": "Codename Zero Four",
+                "Name": "Codename Zero-Four",
                 "Desc": "Increases <b:ATK> by <?1>.",
                 "Parameters": [
                     [
@@ -71706,7 +71730,7 @@
             },
             {
                 "SkillType": "weaponpassive",
-                "Name": "Codename Zero Four+",
+                "Name": "Codename Zero-Four+",
                 "Desc": "Increases <b:ATK> by <?1> plus a further <?2>.",
                 "Parameters": [
                     [
@@ -71756,7 +71780,7 @@
             },
             {
                 "SkillType": "sub",
-                "Name": "Eye For An Eye",
+                "Name": "Eye for an Eye",
                 "Desc": "While in <s:CH0187Mod>, Toki's EX Skill deals <?1>/<?2>/<?3> damage as an additional hit for the <b>1st</b>/<b>2nd</b>/<b>3rd</b> use of the skill (count resets when Abi-Eshuh mode ends). This additional damage ignores <?4> of the enemy's DEF.",
                 "Parameters": [
                     [
@@ -71950,7 +71974,7 @@
         ],
         "MemoryLobby": [
             6,
-            0
+            6
         ],
         "MemoryLobbyBGM": "Theme 103",
         "FurnitureInteraction": [
@@ -71969,8 +71993,8 @@
         ],
         "IsLimited": 1,
         "Weapon": {
-            "Name": "シークレットタイム",
-            "Desc": "トキ専用のアサルトライフル。\n\nその外観に相応しい性能を持ち、任務を邪魔する対象を全て排除する。名前は自分でつけたものではなく、名付け人が存在するのだとか。",
+            "Name": "Time of Secrecy",
+            "Desc": "Toki's one-of-a-kind assault rifle.\n\nWith performance as exceptional as its appearance suggests, it can crush any obstacle and complete any mission. She didn't name it herself, but it's unknown who did.",
             "AdaptationType": "Street",
             "AdaptationValue": 1,
             "AttackPower1": 102,
@@ -72115,7 +72139,7 @@
         "Id": 20024,
         "IsReleased": [
             true,
-            false
+            true
         ],
         "DefaultOrder": 131,
         "PathName": "Nagisa",
@@ -72144,20 +72168,20 @@
         "CollectionBG": "BG_Trinity_Collection",
         "CollectionTexture": "Student_Portrait_Nagisa_Collection",
         "FamilyName": "Kirifuji",
+        "FamilyNameRuby": "",
         "PersonalName": "Nagisa",
         "SchoolYear": "3rd Year",
         "CharacterAge": "17 years old",
-        "FamilyNameRuby": "きりふじ",
-        "Birthday": "7月4日",
-        "CharacterSSRNew": "……ごきげんよう。\nトリニティを代表してご挨拶申し上げます",
-        "ProfileIntroduction": "トリニティ総合学園所属、トリニティを構成している生徒連合「フィリウス」のリーダーであり、生徒会「ティーパーティー」のホスト。\n\n穏やかで優しい言葉遣いだが、本音をほとんど明かさないため、気難しく謎の多い人物と評されている。趣味はお茶会に使う茶葉やお茶菓子を用意すること。多くのトリニティ生が彼女のお茶会に招待される日を夢見ている。",
-        "Hobby": "茶葉収集、お菓子作り、庭の手入れ",
+        "Birthday": "July 4th",
+        "CharacterSSRNew": "And how are you? Greetings from Trinity.",
+        "ProfileIntroduction": "The leader of Filius, one of the allied factions that makes up Trinity General School, and the host of the Tea Party.\n\nAlthough she has a sweet and friendly demeanor, she rarely reveals her true feelings, so she&#x27;s not very approachable. Her hobby is preparing tea and refreshments for tea parties. Many Trinity students long to attend her get-togethers.",
+        "Hobby": "Collecting tea leaves, baking pastries, gardening",
         "CharacterVoice": "Saori Hayami",
         "BirthDay": "7/4",
         "Illustrator": "DoReMi",
         "Designer": "Fame",
         "CharHeightMetric": "160cm",
-        "CharHeightImperial": null,
+        "CharHeightImperial": "5&#x27;2&quot;",
         "StabilityPoint": 1132,
         "AttackPower1": 280,
         "AttackPower100": 2801,
@@ -72520,14 +72544,16 @@
         "FavorAlts": [],
         "MemoryLobby": [
             5,
-            0
+            5
         ],
         "MemoryLobbyBGM": "Walkthrough",
         "FurnitureInteraction": [
             [
                 207312
             ],
-            []
+            [
+                207312
+            ]
         ],
         "FavorItemTags": [
             "Curios",
@@ -72539,8 +72565,8 @@
         ],
         "IsLimited": 1,
         "Weapon": {
-            "Name": "ロイヤルブレンド",
-            "Desc": "ナギサが愛用する拳銃。\n\nクラシカルなデザインのため、お茶会でも目立つことなく調和している。お茶会の品位を落とすような招かざる客を追い払う用途としてよく使われている。",
+            "Name": "Royal Blend",
+            "Desc": "Nagisa's favorite small pistol.\n\nIts classic design fits the appearance of a host at elegant tea parties. It's essential for chasing away uninvited guests who demean the dignity of tea parties.",
             "AdaptationType": "Indoor",
             "AdaptationValue": 1,
             "AttackPower1": 123,
@@ -73378,7 +73404,7 @@
         "OutdoorBattleAdaptation": 0,
         "IndoorBattleAdaptation": 4,
         "WeaponType": "HG",
-        "WeaponImg": "Weapon_Icon_CH0086",
+        "WeaponImg": "Weapon_Icon_13005",
         "Cover": true,
         "Equipment": [
             "Shoes",
@@ -73946,7 +73972,7 @@
         "OutdoorBattleAdaptation": 4,
         "IndoorBattleAdaptation": 1,
         "WeaponType": "SG",
-        "WeaponImg": "Weapon_Icon_CH0087",
+        "WeaponImg": "Weapon_Icon_16000",
         "Cover": false,
         "Equipment": [
             "Shoes",
@@ -75015,7 +75041,7 @@
         "OutdoorBattleAdaptation": 2,
         "IndoorBattleAdaptation": 0,
         "WeaponType": "RG",
-        "WeaponImg": "Weapon_Icon_CH0200",
+        "WeaponImg": "Weapon_Icon_10015",
         "Cover": false,
         "Equipment": [
             "Hat",
@@ -75560,7 +75586,7 @@
         "OutdoorBattleAdaptation": 4,
         "IndoorBattleAdaptation": 0,
         "WeaponType": "AR",
-        "WeaponImg": "Weapon_Icon_CH0211",
+        "WeaponImg": "Weapon_Icon_CH0187",
         "Cover": true,
         "Equipment": [
             "Hat",
@@ -76121,7 +76147,7 @@
         "OutdoorBattleAdaptation": 1,
         "IndoorBattleAdaptation": 3,
         "WeaponType": "GL",
-        "WeaponImg": "Weapon_Icon_CH0203",
+        "WeaponImg": "Weapon_Icon_10018",
         "Cover": false,
         "Equipment": [
             "Gloves",
@@ -79050,7 +79076,7 @@
         "OutdoorBattleAdaptation": 2,
         "IndoorBattleAdaptation": 4,
         "WeaponType": "SMG",
-        "WeaponImg": "Weapon_Icon_CH0215",
+        "WeaponImg": "Weapon_Icon_CH0142",
         "Cover": true,
         "Equipment": [
             "Gloves",
@@ -79597,7 +79623,7 @@
         "OutdoorBattleAdaptation": 2,
         "IndoorBattleAdaptation": 4,
         "WeaponType": "MG",
-        "WeaponImg": "Weapon_Icon_CH0217",
+        "WeaponImg": "Weapon_Icon_CH0144",
         "Cover": false,
         "Equipment": [
             "Gloves",
@@ -80239,7 +80265,7 @@
         "OutdoorBattleAdaptation": 2,
         "IndoorBattleAdaptation": 3,
         "WeaponType": "SR",
-        "WeaponImg": "Weapon_Icon_CH0218",
+        "WeaponImg": "Weapon_Icon_CH0145",
         "Cover": false,
         "Equipment": [
             "Hat",
@@ -80730,7 +80756,7 @@
         "OutdoorBattleAdaptation": 4,
         "IndoorBattleAdaptation": 0,
         "WeaponType": "AR",
-        "WeaponImg": "Weapon_Icon_CH0188",
+        "WeaponImg": "Weapon_Icon_10010",
         "Cover": false,
         "Equipment": [
             "Hat",
@@ -81244,7 +81270,7 @@
         "OutdoorBattleAdaptation": 0,
         "IndoorBattleAdaptation": 4,
         "WeaponType": "SR",
-        "WeaponImg": "Weapon_Icon_CH0204",
+        "WeaponImg": "Weapon_Icon_CH0169",
         "Cover": true,
         "Equipment": [
             "Shoes",
@@ -81754,7 +81780,7 @@
         "OutdoorBattleAdaptation": 4,
         "IndoorBattleAdaptation": 2,
         "WeaponType": "HG",
-        "WeaponImg": "Weapon_Icon_CH0210",
+        "WeaponImg": "Weapon_Icon_CH0073",
         "Cover": false,
         "Equipment": [
             "Hat",
@@ -82301,7 +82327,7 @@
         "OutdoorBattleAdaptation": 2,
         "IndoorBattleAdaptation": 2,
         "WeaponType": "SR",
-        "WeaponImg": "Weapon_Icon_CH0205",
+        "WeaponImg": "Weapon_Icon_10020",
         "Cover": true,
         "Equipment": [
             "Gloves",
@@ -82778,6 +82804,2245 @@
                 12,
                 4,
                 9
+            ],
+            [
+                12,
+                7,
+                14
+            ]
+        ]
+    },
+    {
+        "Id": 10074,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "DefaultOrder": 150,
+        "PathName": "Hanako_Swimsuit",
+        "DevName": "CH0209",
+        "Name": "Hanako (Swimsuit)",
+        "School": "Trinity",
+        "Club": "RemedialClass",
+        "StarGrade": 3,
+        "SquadType": "Main",
+        "TacticRole": "DamageDealer",
+        "Summons": [],
+        "Position": "Middle",
+        "BulletType": "Sonic",
+        "ArmorType": "HeavyArmor",
+        "StreetBattleAdaptation": 4,
+        "OutdoorBattleAdaptation": 3,
+        "IndoorBattleAdaptation": 0,
+        "WeaponType": "AR",
+        "WeaponImg": "Weapon_Icon_23007",
+        "Cover": true,
+        "Equipment": [
+            "Hat",
+            "Hairpin",
+            "Watch"
+        ],
+        "CollectionBG": "BG_WaterFall",
+        "CollectionTexture": "Student_Portrait_CH0209_Collection",
+        "FamilyName": "Urawa",
+        "PersonalName": "Hanako",
+        "SchoolYear": "2nd Year",
+        "CharacterAge": "16 years old",
+        "FamilyNameRuby": "うらわ",
+        "Birthday": "1月3日",
+        "CharacterSSRNew": "あら……。\nこんなにびっしょり……♡",
+        "ProfileIntroduction": "夏を迎えて島を訪れたトリニティ総合学園所属、補習授業部の女の子。\n\n多少大胆な格好をしているものの、普段の人を試すような言動は鳴りを潜め、素直に心の内を開いてくれている模様。",
+        "Hobby": "徘徊",
+        "CharacterVoice": "Moe Toyota",
+        "BirthDay": "1/3",
+        "Illustrator": "Mx2J",
+        "Designer": "Mx2J",
+        "CharHeightMetric": "161cm",
+        "CharHeightImperial": null,
+        "StabilityPoint": 1396,
+        "AttackPower1": 303,
+        "AttackPower100": 3033,
+        "MaxHP1": 2243,
+        "MaxHP100": 22430,
+        "DefensePower1": 19,
+        "DefensePower100": 119,
+        "HealPower1": 1403,
+        "HealPower100": 4211,
+        "DodgePoint": 797,
+        "AccuracyPoint": 701,
+        "CriticalPoint": 200,
+        "CriticalDamageRate": 20000,
+        "AmmoCount": 15,
+        "AmmoCost": 3,
+        "Range": 650,
+        "RegenCost": 700,
+        "Skills": [
+            {
+                "SkillType": "autoattack",
+                "Effects": [
+                    {
+                        "Type": "DMGMulti",
+                        "Hits": [
+                            3333,
+                            3333,
+                            3334
+                        ],
+                        "Scale": [
+                            10000
+                        ],
+                        "Frames": {
+                            "AttackEnterDuration": 24,
+                            "AttackStartDuration": 25,
+                            "AttackEndDuration": 25,
+                            "AttackBurstRoundOverDelay": 60,
+                            "AttackIngDuration": 20,
+                            "AttackReloadDuration": 75
+                        },
+                        "CriticalCheck": "Check"
+                    }
+                ]
+            },
+            {
+                "SkillType": "ex",
+                "Name": "たっぷりかけちゃいますね♡",
+                "Desc": "Deals <?1> damage to enemies in a fan-shaped area.\nIf Hanako's water gauge has at least 1 charge, consumes 1 charge and immediately redraws the EX Skill after activation.",
+                "Parameters": [
+                    [
+                        "337%",
+                        "388%",
+                        "489%",
+                        "540%",
+                        "642%",
+                        "692%",
+                        "794%",
+                        "844%",
+                        "946%",
+                        "996%"
+                    ]
+                ],
+                "Cost": [
+                    2,
+                    2,
+                    2,
+                    2,
+                    2
+                ],
+                "Icon": "COMMON_SKILLICON_FAN",
+                "Effects": [
+                    {
+                        "Type": "DMGMulti",
+                        "CriticalCheck": "Check",
+                        "Hits": [
+                            1670,
+                            1666,
+                            1666,
+                            1666,
+                            1666,
+                            1666
+                        ],
+                        "HitsParameter": 1,
+                        "Scale": [
+                            33794,
+                            38859,
+                            48996,
+                            54067,
+                            64204,
+                            69269,
+                            79406,
+                            84471,
+                            94608,
+                            99679
+                        ]
+                    }
+                ]
+            },
+            {
+                "SkillType": "normal",
+                "Name": "上手に受け取ってください♡",
+                "Desc": "Every 30s, deals <?1> damage to enemies in a circular area and creates a circular zone where enemies' <d:DEF> is decreased by <?2> for 20s.",
+                "Parameters": [
+                    [
+                        "118%",
+                        "124%",
+                        "130%",
+                        "154%",
+                        "160%",
+                        "166%",
+                        "190%",
+                        "196%",
+                        "201%",
+                        "225%"
+                    ],
+                    [
+                        "10.9%",
+                        "11.4%",
+                        "12%",
+                        "14.1%",
+                        "14.7%",
+                        "15.2%",
+                        "17.4%",
+                        "18%",
+                        "18.5%",
+                        "20.7%"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_CIRCLE",
+                "Effects": [
+                    {
+                        "Type": "DMGSingle",
+                        "CriticalCheck": "Check",
+                        "Scale": [
+                            11882,
+                            12481,
+                            13073,
+                            15448,
+                            16040,
+                            16639,
+                            19014,
+                            19606,
+                            20198,
+                            22573
+                        ]
+                    },
+                    {
+                        "Type": "BuffTarget",
+                        "Value": [
+                            [
+                                -1092,
+                                -1146,
+                                -1201,
+                                -1419,
+                                -1474,
+                                -1529,
+                                -1746,
+                                -1801,
+                                -1855,
+                                -2074
+                            ]
+                        ],
+                        "Stat": "DefensePower_Coefficient",
+                        "Channel": 11503
+                    }
+                ]
+            },
+            {
+                "SkillType": "passive",
+                "Name": "真夏に隠された本音",
+                "Desc": "Increases <b:ATK> by <?1> and <b:CriticalDamage> by <?2>.",
+                "Parameters": [
+                    [
+                        "11.2%",
+                        "11.4%",
+                        "11.7%",
+                        "12.8%",
+                        "13.1%",
+                        "13.4%",
+                        "14.5%",
+                        "14.8%",
+                        "15.1%",
+                        "16.2%"
+                    ],
+                    [
+                        "11.2%",
+                        "11.4%",
+                        "11.7%",
+                        "12.8%",
+                        "13.1%",
+                        "13.4%",
+                        "14.5%",
+                        "14.8%",
+                        "15.1%",
+                        "16.2%"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_WEAPONBUFF",
+                "Effects": [
+                    {
+                        "Type": "BuffSelf",
+                        "Stat": "AttackPower_Coefficient",
+                        "Scale": [
+                            1120,
+                            1148,
+                            1176,
+                            1288,
+                            1316,
+                            1344,
+                            1456,
+                            1484,
+                            1512,
+                            1624
+                        ]
+                    },
+                    {
+                        "Type": "BuffSelf",
+                        "Stat": "CriticalDamageRate_Coefficient",
+                        "Scale": [
+                            1120,
+                            1148,
+                            1176,
+                            1288,
+                            1316,
+                            1344,
+                            1456,
+                            1484,
+                            1512,
+                            1624
+                        ]
+                    }
+                ]
+            },
+            {
+                "SkillType": "weaponpassive",
+                "Name": "真夏に隠された本音+",
+                "Desc": "Increases <b:ATK> by <?1> plus a further <?3> and <b:CriticalDamage> by <?2> plus a further <?4>.",
+                "Parameters": [
+                    [
+                        "247",
+                        "253",
+                        "260",
+                        "284",
+                        "290",
+                        "297",
+                        "321",
+                        "327",
+                        "334",
+                        "358"
+                    ],
+                    [
+                        "1600",
+                        "1640",
+                        "1680",
+                        "1840",
+                        "1880",
+                        "1920",
+                        "2080",
+                        "2120",
+                        "2160",
+                        "2320"
+                    ],
+                    [
+                        "11.2%",
+                        "11.4%",
+                        "11.7%",
+                        "12.8%",
+                        "13.1%",
+                        "13.4%",
+                        "14.5%",
+                        "14.8%",
+                        "15.1%",
+                        "16.2%"
+                    ],
+                    [
+                        "11.2%",
+                        "11.4%",
+                        "11.7%",
+                        "12.8%",
+                        "13.1%",
+                        "13.4%",
+                        "14.5%",
+                        "14.8%",
+                        "15.1%",
+                        "16.2%"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_WEAPONBUFF",
+                "Effects": [
+                    {
+                        "Type": "BuffSelf",
+                        "Stat": "AttackPower_Base",
+                        "Scale": [
+                            247,
+                            253,
+                            260,
+                            284,
+                            290,
+                            297,
+                            321,
+                            327,
+                            334,
+                            358
+                        ]
+                    },
+                    {
+                        "Type": "BuffSelf",
+                        "Stat": "CriticalDamageRate_Base",
+                        "Scale": [
+                            1600,
+                            1640,
+                            1680,
+                            1840,
+                            1880,
+                            1920,
+                            2080,
+                            2120,
+                            2160,
+                            2320
+                        ]
+                    }
+                ]
+            },
+            {
+                "SkillType": "sub",
+                "Name": "準備は万端です♡",
+                "Desc": "Whenever an ally other than self uses their EX Skill, charges the water gauge by 40%. Each time the water gauge fully charges to 100%, increases own <b:ATK> by <?1> for 20s. (The water gauge can hold up to 2 full charges)",
+                "Parameters": [
+                    [
+                        "20.1%",
+                        "21.1%",
+                        "22.1%",
+                        "26.2%",
+                        "27.2%",
+                        "28.2%",
+                        "32.2%",
+                        "33.2%",
+                        "34.2%",
+                        "38.3%"
+                    ]
+                ],
+                "Icon": "SKILLICON_CH0209_EXTRAPASSIVESKILL",
+                "Effects": [
+                    {
+                        "Type": "BuffSelf",
+                        "Value": [
+                            [
+                                2016,
+                                2117,
+                                2218,
+                                2621,
+                                2722,
+                                2823,
+                                3226,
+                                3327,
+                                3428,
+                                3831
+                            ]
+                        ],
+                        "Stat": "AttackPower_Coefficient",
+                        "Channel": 2
+                    }
+                ]
+            }
+        ],
+        "FavorStatType": [
+            "AttackPower",
+            "MaxHP"
+        ],
+        "FavorStatValue": [
+            [
+                3,
+                0
+            ],
+            [
+                5,
+                0
+            ],
+            [
+                6,
+                56
+            ],
+            [
+                8,
+                67
+            ],
+            [
+                2,
+                11
+            ],
+            [
+                3,
+                17
+            ],
+            [
+                5,
+                28
+            ]
+        ],
+        "FavorAlts": [
+            23007
+        ],
+        "MemoryLobby": [
+            3,
+            0
+        ],
+        "MemoryLobbyBGM": "Midsummer cat",
+        "FurnitureInteraction": [
+            [
+                210316,
+                210315
+            ],
+            []
+        ],
+        "FavorItemTags": [
+            "Swimsuit",
+            "WaterPlay",
+            "Cosmetics",
+            "Simplicity",
+            "Beauty"
+        ],
+        "FavorItemUniqueTags": [
+            "F_Hanako_Swimsuit",
+            "F_Hanako_Swimsuit2"
+        ],
+        "IsLimited": 1,
+        "Weapon": {
+            "Name": "オネストウィッシュ",
+            "Desc": "海にも持ってきたハナコのアサルトライフル。\n\n相変わらず名前の意味は教えてくれないが、今は少しだけ分かるような気もする。",
+            "AdaptationType": "Street",
+            "AdaptationValue": 1,
+            "AttackPower1": 133,
+            "AttackPower100": 1333,
+            "MaxHP1": 645,
+            "MaxHP100": 6450,
+            "HealPower1": 0,
+            "HealPower100": 0,
+            "StatLevelUpType": "Standard"
+        },
+        "Gear": {},
+        "SkillExMaterial": [
+            [
+                3020,
+                120
+            ],
+            [
+                3021,
+                3020,
+                121,
+                170
+            ],
+            [
+                3022,
+                3021,
+                122,
+                171
+            ],
+            [
+                3023,
+                3022,
+                123,
+                172
+            ]
+        ],
+        "SkillExMaterialAmount": [
+            [
+                12,
+                18
+            ],
+            [
+                12,
+                18,
+                14,
+                28
+            ],
+            [
+                12,
+                18,
+                8,
+                24
+            ],
+            [
+                8,
+                18,
+                12,
+                21
+            ]
+        ],
+        "SkillMaterial": [
+            [
+                4020
+            ],
+            [
+                4020
+            ],
+            [
+                4021,
+                4020,
+                120
+            ],
+            [
+                4021,
+                121,
+                170
+            ],
+            [
+                4022,
+                4021,
+                121,
+                170
+            ],
+            [
+                4022,
+                122,
+                171
+            ],
+            [
+                4023,
+                4022,
+                123,
+                172
+            ],
+            [
+                4023,
+                123,
+                172
+            ]
+        ],
+        "SkillMaterialAmount": [
+            [
+                5
+            ],
+            [
+                8
+            ],
+            [
+                5,
+                12,
+                5
+            ],
+            [
+                8,
+                5,
+                13
+            ],
+            [
+                5,
+                12,
+                10,
+                16
+            ],
+            [
+                8,
+                3,
+                15
+            ],
+            [
+                8,
+                12,
+                4,
+                8
+            ],
+            [
+                12,
+                7,
+                14
+            ]
+        ]
+    },
+    {
+        "Id": 20029,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "DefaultOrder": 151,
+        "PathName": "Mimori_Swimsuit",
+        "DevName": "CH0183",
+        "Name": "Mimori (Swimsuit)",
+        "School": "Hyakkiyako",
+        "Club": "Shugyobu",
+        "StarGrade": 3,
+        "SquadType": "Support",
+        "TacticRole": "Supporter",
+        "Summons": [
+            {
+                "Id": 99999,
+                "SourceSkill": "ex",
+                "InheritCasterStat": [
+                    "MaxHP"
+                ],
+                "InheritCasterAmount": [
+                    [
+                        4957,
+                        5701,
+                        7188,
+                        7932,
+                        9419
+                    ]
+                ],
+                "ObstacleMaxHP1": 100,
+                "ObstacleMaxHP100": 1000
+            }
+        ],
+        "Position": "Back",
+        "BulletType": "Mystic",
+        "ArmorType": "Unarmed",
+        "StreetBattleAdaptation": 2,
+        "OutdoorBattleAdaptation": 0,
+        "IndoorBattleAdaptation": 4,
+        "WeaponType": "HG",
+        "WeaponImg": "Weapon_Icon_10034",
+        "Cover": false,
+        "Equipment": [
+            "Shoes",
+            "Badge",
+            "Necklace"
+        ],
+        "CollectionBG": "BG_Swimsuit03_Collection",
+        "CollectionTexture": "Student_Portrait_CH0183_Collection",
+        "FamilyName": "Mizuha",
+        "PersonalName": "Mimori",
+        "SchoolYear": "2nd Year",
+        "CharacterAge": "16 years old",
+        "FamilyNameRuby": "みずは",
+        "Birthday": "3月15日",
+        "CharacterSSRNew": "このまま、この時間が続いてくれたらいいのに……",
+        "ProfileIntroduction": "海に合わせて水着に着替えた百鬼夜行連合学院所属、修行部の副部長。\n\n普段は落ち着いていて穏やかな笑顔を浮かべる彼女だが、水着に着替えた今だけは、いつもより少しだけ浮かれている模様。",
+        "Hobby": "少女漫画、家事全般",
+        "CharacterVoice": "Rie Tanaka",
+        "BirthDay": "3/15",
+        "Illustrator": "tokki",
+        "Designer": "tokki",
+        "CharHeightMetric": "156cm",
+        "CharHeightImperial": null,
+        "StabilityPoint": 1040,
+        "AttackPower1": 252,
+        "AttackPower100": 2521,
+        "MaxHP1": 2832,
+        "MaxHP100": 21172,
+        "DefensePower1": 94,
+        "DefensePower100": 566,
+        "HealPower1": 1760,
+        "HealPower100": 5282,
+        "DodgePoint": 997,
+        "AccuracyPoint": 820,
+        "CriticalPoint": 273,
+        "CriticalDamageRate": 20000,
+        "AmmoCount": 1,
+        "AmmoCost": 1,
+        "Range": 1000,
+        "RegenCost": 700,
+        "Skills": [
+            {
+                "SkillType": "ex",
+                "Name": "夏ですね！",
+                "Desc": "Deploys cover with HP equal to a set amount plus <?2> of Mimori's Max HP. Creates a circular zone around the cover in which allies' <b:AttackSpeed> is increased by <?1> for 20s.",
+                "Parameters": [
+                    [
+                        "16.6%",
+                        "16.6%",
+                        "21.6%",
+                        "26.6%",
+                        "31.6%",
+                        "36.6%",
+                        "41.6%",
+                        "46.6%",
+                        "51.6%",
+                        "54.1%"
+                    ],
+                    [
+                        "49.5%",
+                        "57%",
+                        "71.8%",
+                        "79.3%",
+                        "94.1%",
+                        "101%",
+                        "116%",
+                        "123%",
+                        "138%",
+                        "146%"
+                    ]
+                ],
+                "Cost": [
+                    3,
+                    3,
+                    3,
+                    3,
+                    3
+                ],
+                "Icon": "COMMON_SKILLICON_OBSTACLE",
+                "Effects": [
+                    {
+                        "Type": "BuffAlly",
+                        "Value": [
+                            [
+                                1666,
+                                1666,
+                                2166,
+                                2665,
+                                3165,
+                                3665,
+                                4165,
+                                4665,
+                                5164,
+                                5414
+                            ]
+                        ],
+                        "Stat": "AttackSpeed_Coefficient",
+                        "Channel": 11023
+                    }
+                ]
+            },
+            {
+                "SkillType": "normal",
+                "Name": "これが必要ですか？",
+                "Desc": "Every 50s, grants a <b:Shield> with HP equal to <?1> of Healing to the ally with the lowest HP lasting up to 35s.",
+                "Parameters": [
+                    [
+                        "105%",
+                        "111%",
+                        "116%",
+                        "137%",
+                        "142%",
+                        "148%",
+                        "169%",
+                        "174%",
+                        "179%",
+                        "201%"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_SHIELD",
+                "Effects": [
+                    {
+                        "Type": "Shield",
+                        "Scale": [
+                            10587,
+                            11115,
+                            11644,
+                            13763,
+                            14292,
+                            14820,
+                            16939,
+                            17468,
+                            17997,
+                            20115
+                        ]
+                    }
+                ]
+            },
+            {
+                "SkillType": "passive",
+                "Name": "たくさん用意しましたよ",
+                "Desc": "Increases <b:MAXHP> by <?1>.",
+                "Parameters": [
+                    [
+                        "14%",
+                        "14.7%",
+                        "15.4%",
+                        "18.2%",
+                        "18.9%",
+                        "19.6%",
+                        "22.4%",
+                        "23.1%",
+                        "23.8%",
+                        "26.6%"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_STATBUFF",
+                "Effects": [
+                    {
+                        "Type": "BuffSelf",
+                        "Stat": "MaxHP_Coefficient",
+                        "Scale": [
+                            1400,
+                            1470,
+                            1540,
+                            1820,
+                            1890,
+                            1960,
+                            2240,
+                            2310,
+                            2380,
+                            2660
+                        ]
+                    }
+                ]
+            },
+            {
+                "SkillType": "weaponpassive",
+                "Name": "たくさん用意しましたよ+",
+                "Desc": "Increases <b:HealPower> by <?1> and <b:MAXHP> by <?2>.",
+                "Parameters": [
+                    [
+                        "673",
+                        "707",
+                        "740",
+                        "875",
+                        "908",
+                        "942",
+                        "1076",
+                        "1110",
+                        "1144",
+                        "1278"
+                    ],
+                    [
+                        "14%",
+                        "14.7%",
+                        "15.4%",
+                        "18.2%",
+                        "18.9%",
+                        "19.6%",
+                        "22.4%",
+                        "23.1%",
+                        "23.8%",
+                        "26.6%"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_STATBUFF",
+                "Effects": [
+                    {
+                        "Type": "BuffSelf",
+                        "Stat": "HealPower_Base",
+                        "Scale": [
+                            673,
+                            707,
+                            740,
+                            875,
+                            908,
+                            942,
+                            1076,
+                            1110,
+                            1144,
+                            1278
+                        ]
+                    }
+                ]
+            },
+            {
+                "SkillType": "sub",
+                "Name": "心配しないでください。私がついていますから",
+                "Desc": "Increases all allies' <b:AttackSpeed> by <?1>.",
+                "Parameters": [
+                    [
+                        "9.1%",
+                        "9.5%",
+                        "10%",
+                        "11.8%",
+                        "12.3%",
+                        "12.7%",
+                        "14.5%",
+                        "15%",
+                        "15.5%",
+                        "17.3%"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_WEAPONBUFF",
+                "Effects": [
+                    {
+                        "Type": "BuffAlly",
+                        "Value": [
+                            [
+                                912,
+                                957,
+                                1003,
+                                1186,
+                                1231,
+                                1277,
+                                1459,
+                                1504,
+                                1550,
+                                1732
+                            ]
+                        ],
+                        "Stat": "AttackSpeed_Coefficient",
+                        "Channel": 324
+                    }
+                ]
+            }
+        ],
+        "FavorStatType": [
+            "HealPower",
+            "MaxHP"
+        ],
+        "FavorStatValue": [
+            [
+                5,
+                0
+            ],
+            [
+                8,
+                0
+            ],
+            [
+                11,
+                53
+            ],
+            [
+                13,
+                64
+            ],
+            [
+                3,
+                11
+            ],
+            [
+                5,
+                16
+            ],
+            [
+                8,
+                26
+            ]
+        ],
+        "FavorAlts": [
+            10034
+        ],
+        "MemoryLobby": [
+            5,
+            0
+        ],
+        "MemoryLobbyBGM": "Midnight Trip",
+        "FurnitureInteraction": [
+            [
+                9203
+            ],
+            []
+        ],
+        "FavorItemTags": [
+            "Swimsuit",
+            "WaterPlay",
+            "Household",
+            "Cosmetics",
+            "Books"
+        ],
+        "FavorItemUniqueTags": [
+            "F_Mimori_Swimsuit",
+            "F_Mimori_Swimsuit2"
+        ],
+        "IsLimited": 0,
+        "Weapon": {
+            "Name": "柔らかな決意",
+            "Desc": "ミモリの自動式拳銃。\n\n大和撫子の修行はいつ、どこであっても続いている。それが例え、バカンスで訪れた海だとしても。",
+            "AdaptationType": "Indoor",
+            "AdaptationValue": 1,
+            "AttackPower1": 111,
+            "AttackPower100": 1108,
+            "MaxHP1": 616,
+            "MaxHP100": 6162,
+            "HealPower1": 207,
+            "HealPower100": 2070,
+            "StatLevelUpType": "Standard"
+        },
+        "Gear": {},
+        "SkillExMaterial": [
+            [
+                3000,
+                130
+            ],
+            [
+                3001,
+                3000,
+                131,
+                200
+            ],
+            [
+                3002,
+                3001,
+                132,
+                201
+            ],
+            [
+                3003,
+                3002,
+                133,
+                202
+            ]
+        ],
+        "SkillExMaterialAmount": [
+            [
+                12,
+                18
+            ],
+            [
+                12,
+                18,
+                20,
+                34
+            ],
+            [
+                12,
+                18,
+                10,
+                27
+            ],
+            [
+                8,
+                18,
+                12,
+                19
+            ]
+        ],
+        "SkillMaterial": [
+            [
+                4000
+            ],
+            [
+                4000
+            ],
+            [
+                4001,
+                4000,
+                130
+            ],
+            [
+                4001,
+                131,
+                200
+            ],
+            [
+                4002,
+                4001,
+                131,
+                200
+            ],
+            [
+                4002,
+                132,
+                201
+            ],
+            [
+                4003,
+                4002,
+                133,
+                202
+            ],
+            [
+                4003,
+                133,
+                202
+            ]
+        ],
+        "SkillMaterialAmount": [
+            [
+                5
+            ],
+            [
+                8
+            ],
+            [
+                5,
+                12,
+                4
+            ],
+            [
+                8,
+                3,
+                13
+            ],
+            [
+                5,
+                12,
+                8,
+                17
+            ],
+            [
+                8,
+                3,
+                16
+            ],
+            [
+                8,
+                12,
+                4,
+                8
+            ],
+            [
+                12,
+                7,
+                14
+            ]
+        ]
+    },
+    {
+        "Id": 10075,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "DefaultOrder": 152,
+        "PathName": "Meru",
+        "DevName": "CH0124",
+        "Name": "Meru",
+        "School": "RedWinter",
+        "Club": "KnowledgeLiberationFront",
+        "StarGrade": 3,
+        "SquadType": "Main",
+        "TacticRole": "DamageDealer",
+        "Summons": [],
+        "Position": "Middle",
+        "BulletType": "Pierce",
+        "ArmorType": "LightArmor",
+        "StreetBattleAdaptation": 2,
+        "OutdoorBattleAdaptation": 4,
+        "IndoorBattleAdaptation": 0,
+        "WeaponType": "HG",
+        "WeaponImg": "Weapon_Icon_CH0124",
+        "Cover": true,
+        "Equipment": [
+            "Shoes",
+            "Hairpin",
+            "Watch"
+        ],
+        "CollectionBG": "BG_Redwinter_Collection",
+        "CollectionTexture": "Student_Portrait_CH0124_Collection",
+        "FamilyName": "Himeki",
+        "PersonalName": "Meru",
+        "SchoolYear": "2nd Year",
+        "CharacterAge": "16 years old",
+        "FamilyNameRuby": "ひめき",
+        "Birthday": "12月21日",
+        "CharacterSSRNew": "起きて……\n原稿…… しないと……",
+        "ProfileIntroduction": "レッドウィンター連邦学園所属、図書委員会「知識解放戦線」の一人。\n\n同じ知識解放戦線であるモミジと違って、二次創作を楽しむだけでなく自らも創作をしている。ハンドルネームは「メルリー」。仲が良さそうな、あるいは悪そうな生徒同士の関係にインスピレーションを受ける事が多く、所謂ナマモノ同人をしている。仇敵関係にあるトリニティ、ゲヘナの生徒もメルの「創作対象」であり、よく描かれるため、メルの悪名は学園外にも轟いている。",
+        "Hobby": "漫画を描くこと、妄想",
+        "CharacterVoice": "Satomi Arai",
+        "BirthDay": "12/21",
+        "Illustrator": "ぶくろて",
+        "Designer": "ぶくろて",
+        "CharHeightMetric": "137cm",
+        "CharHeightImperial": null,
+        "StabilityPoint": 916,
+        "AttackPower1": 420,
+        "AttackPower100": 4209,
+        "MaxHP1": 2068,
+        "MaxHP100": 23950,
+        "DefensePower1": 18,
+        "DefensePower100": 110,
+        "HealPower1": 1513,
+        "HealPower100": 4539,
+        "DodgePoint": 1011,
+        "AccuracyPoint": 108,
+        "CriticalPoint": 270,
+        "CriticalDamageRate": 20000,
+        "AmmoCount": 1,
+        "AmmoCost": 1,
+        "Range": 550,
+        "RegenCost": 700,
+        "Skills": [
+            {
+                "SkillType": "autoattack",
+                "Effects": [
+                    {
+                        "Type": "DMGSingle",
+                        "Hits": [
+                            10000
+                        ],
+                        "Scale": [
+                            10000
+                        ],
+                        "Frames": {
+                            "AttackEnterDuration": 36,
+                            "AttackStartDuration": 20,
+                            "AttackEndDuration": 22,
+                            "AttackBurstRoundOverDelay": 40,
+                            "AttackIngDuration": 36,
+                            "AttackReloadDuration": 56
+                        },
+                        "CriticalCheck": "Check"
+                    }
+                ]
+            },
+            {
+                "SkillType": "ex",
+                "Name": "最強のアイデア",
+                "Desc": "Deals <?1> damage to one enemy, plus an additional <?2> <d:Burn> damage every 4s for 30s and inflicts <d:DamageByHit_Damaged> for 30s.\nEach time an ally attacks the enemy inflicted with <d:DamageByHit_Damaged>, deals additional damage equal to <?3> of Meru's ATK. (This additional damage cannot critically hit and can trigger up to a maximum of <b>480</b> times)",
+                "Parameters": [
+                    [
+                        "91.1%",
+                        "104%",
+                        "145%",
+                        "159%",
+                        "173%",
+                        "186%",
+                        "214%",
+                        "227%",
+                        "255%",
+                        "268%"
+                    ],
+                    [
+                        "173%",
+                        "199%",
+                        "251%",
+                        "277%",
+                        "329%",
+                        "355%",
+                        "407%",
+                        "433%",
+                        "485%",
+                        "512%"
+                    ],
+                    [
+                        "1.3%",
+                        "1.5%",
+                        "1.7%",
+                        "1.9%",
+                        "2.5%",
+                        "2.7%",
+                        "3.1%",
+                        "3.3%",
+                        "3.7%",
+                        "3.9%"
+                    ]
+                ],
+                "Cost": [
+                    5,
+                    5,
+                    5,
+                    5,
+                    5
+                ],
+                "Icon": "COMMON_SKILLICON_DAMAGEBYHIT_DAMAGED",
+                "Effects": [
+                    {
+                        "Type": "DMGMulti",
+                        "CriticalCheck": "Check",
+                        "Hits": [
+                            600,
+                            800,
+                            1000,
+                            1300,
+                            1600,
+                            2000,
+                            2700
+                        ],
+                        "HitsParameter": 1,
+                        "Scale": [
+                            9116,
+                            10485,
+                            14588,
+                            15953,
+                            17322,
+                            18688,
+                            21422,
+                            22791,
+                            25525,
+                            26894
+                        ]
+                    },
+                    {
+                        "Type": "DMGDot",
+                        "Duration": "30000",
+                        "Period": "4000",
+                        "Icon": "Burn",
+                        "Scale": [
+                            17357,
+                            19960,
+                            25167,
+                            27771,
+                            32977,
+                            35580,
+                            40787,
+                            43390,
+                            48597,
+                            51201
+                        ]
+                    },
+                    {
+                        "Type": "DMGByHit",
+                        "Icon": "DamageByHit_Damaged",
+                        "Scale": [
+                            133,
+                            153,
+                            173,
+                            192,
+                            252,
+                            272,
+                            312,
+                            331,
+                            371,
+                            391
+                        ]
+                    }
+                ]
+            },
+            {
+                "SkillType": "normal",
+                "Name": "妄想は無限大",
+                "Desc": "Every 50s, deals <?1> damage to one enemy, plus an additional <?2> <d:Burn> damage every 4s for 30s.",
+                "Parameters": [
+                    [
+                        "71.4%",
+                        "75%",
+                        "78.4%",
+                        "92.8%",
+                        "96.4%",
+                        "100%",
+                        "114.2%",
+                        "117.8%",
+                        "121.4%",
+                        "135.6%"
+                    ],
+                    [
+                        "47.9%",
+                        "50.3%",
+                        "52.7%",
+                        "62.3%",
+                        "64.7%",
+                        "67.1%",
+                        "76.7%",
+                        "79.1%",
+                        "81.5%",
+                        "91.1%"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_BURNNIG",
+                "Effects": [
+                    {
+                        "Type": "DMGSingle",
+                        "CriticalCheck": "Check",
+                        "Scale": [
+                            3573,
+                            3751,
+                            3929,
+                            4642,
+                            4823,
+                            5002,
+                            5714,
+                            5892,
+                            6070,
+                            6786
+                        ]
+                    },
+                    {
+                        "Type": "DMGDot",
+                        "Duration": "30000",
+                        "Period": "4000",
+                        "Icon": "Burn",
+                        "Scale": [
+                            4799,
+                            5039,
+                            5279,
+                            6238,
+                            6478,
+                            6719,
+                            7678,
+                            7918,
+                            8158,
+                            9117
+                        ]
+                    }
+                ]
+            },
+            {
+                "SkillType": "passive",
+                "Name": "インプット",
+                "Desc": "Increases <b:ATK> by <?1>.",
+                "Parameters": [
+                    [
+                        "14%",
+                        "14.7%",
+                        "15.4%",
+                        "18.2%",
+                        "18.9%",
+                        "19.6%",
+                        "22.4%",
+                        "23.1%",
+                        "23.8%",
+                        "26.6%"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_WEAPONBUFF",
+                "Effects": [
+                    {
+                        "Type": "BuffSelf",
+                        "Stat": "AttackPower_Coefficient",
+                        "Scale": [
+                            1400,
+                            1470,
+                            1540,
+                            1820,
+                            1890,
+                            1960,
+                            2240,
+                            2310,
+                            2380,
+                            2660
+                        ]
+                    }
+                ]
+            },
+            {
+                "SkillType": "weaponpassive",
+                "Name": "インプット+",
+                "Desc": "Increases <b:ATK> by <?1> plus a further <?2>.",
+                "Parameters": [
+                    [
+                        "504",
+                        "530",
+                        "555",
+                        "656",
+                        "681",
+                        "706",
+                        "807",
+                        "832",
+                        "857",
+                        "958"
+                    ],
+                    [
+                        "14%",
+                        "14.7%",
+                        "15.4%",
+                        "18.2%",
+                        "18.9%",
+                        "19.6%",
+                        "22.4%",
+                        "23.1%",
+                        "23.8%",
+                        "26.6%"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_WEAPONBUFF",
+                "Effects": [
+                    {
+                        "Type": "BuffSelf",
+                        "Stat": "AttackPower_Base",
+                        "Scale": [
+                            504,
+                            530,
+                            555,
+                            656,
+                            681,
+                            706,
+                            807,
+                            832,
+                            857,
+                            958
+                        ]
+                    }
+                ]
+            },
+            {
+                "SkillType": "sub",
+                "Name": "設定崩壊！",
+                "Desc": "Every <b>3rd</b> normal attack will use enhanced ammunition, dealing <?1> damage.",
+                "Parameters": [
+                    [
+                        "139%",
+                        "146%",
+                        "153%",
+                        "181%",
+                        "188%",
+                        "195%",
+                        "222%",
+                        "229%",
+                        "236%",
+                        "264%"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_EXTRADAMAGE",
+                "Effects": [
+                    {
+                        "Type": "DMGSingle",
+                        "CriticalCheck": "Check",
+                        "Scale": [
+                            13939,
+                            14636,
+                            15330,
+                            18120,
+                            18814,
+                            19511,
+                            22298,
+                            22995,
+                            23693,
+                            26479
+                        ]
+                    }
+                ]
+            }
+        ],
+        "FavorStatType": [
+            "AttackPower",
+            "MaxHP"
+        ],
+        "FavorStatValue": [
+            [
+                4,
+                0
+            ],
+            [
+                6,
+                0
+            ],
+            [
+                8,
+                60
+            ],
+            [
+                11,
+                72
+            ],
+            [
+                3,
+                12
+            ],
+            [
+                4,
+                18
+            ],
+            [
+                6,
+                30
+            ]
+        ],
+        "FavorAlts": [],
+        "MemoryLobby": [
+            6,
+            0
+        ],
+        "MemoryLobbyBGM": "Midnight Trip",
+        "FurnitureInteraction": [
+            [
+                210319
+            ],
+            []
+        ],
+        "FavorItemTags": [
+            "Books",
+            "Toy",
+            "Art"
+        ],
+        "FavorItemUniqueTags": [
+            "F_Meru",
+            "F_Meru2"
+        ],
+        "IsLimited": 0,
+        "Weapon": {
+            "Name": "創作の……苦しみ！",
+            "Desc": "メル専用の特殊製作拳銃。\n\n本人の悩みを体現した銃。他に良い名が思い浮かばず、この名前になったのだとか。",
+            "AdaptationType": "Outdoor",
+            "AdaptationValue": 1,
+            "AttackPower1": 185,
+            "AttackPower100": 1849,
+            "MaxHP1": 685,
+            "MaxHP100": 6853,
+            "HealPower1": 0,
+            "HealPower100": 0,
+            "StatLevelUpType": "Standard"
+        },
+        "Gear": {},
+        "SkillExMaterial": [
+            [
+                3010,
+                140
+            ],
+            [
+                3011,
+                3010,
+                141,
+                290
+            ],
+            [
+                3012,
+                3011,
+                142,
+                291
+            ],
+            [
+                3013,
+                3012,
+                143,
+                292
+            ]
+        ],
+        "SkillExMaterialAmount": [
+            [
+                12,
+                17
+            ],
+            [
+                12,
+                18,
+                15,
+                25
+            ],
+            [
+                12,
+                18,
+                9,
+                27
+            ],
+            [
+                8,
+                18,
+                9,
+                19
+            ]
+        ],
+        "SkillMaterial": [
+            [
+                4010
+            ],
+            [
+                4010
+            ],
+            [
+                4011,
+                4010,
+                140
+            ],
+            [
+                4011,
+                141,
+                290
+            ],
+            [
+                4012,
+                4011,
+                141,
+                290
+            ],
+            [
+                4012,
+                142,
+                291
+            ],
+            [
+                4013,
+                4012,
+                143,
+                292
+            ],
+            [
+                4013,
+                143,
+                292
+            ]
+        ],
+        "SkillMaterialAmount": [
+            [
+                5
+            ],
+            [
+                8
+            ],
+            [
+                5,
+                12,
+                5
+            ],
+            [
+                8,
+                4,
+                14
+            ],
+            [
+                5,
+                12,
+                9,
+                18
+            ],
+            [
+                8,
+                4,
+                16
+            ],
+            [
+                8,
+                12,
+                4,
+                10
+            ],
+            [
+                12,
+                8,
+                11
+            ]
+        ]
+    },
+    {
+        "Id": 13013,
+        "IsReleased": [
+            true,
+            false
+        ],
+        "DefaultOrder": 153,
+        "PathName": "Momiji",
+        "DevName": "Momiji",
+        "Name": "Momiji",
+        "School": "RedWinter",
+        "Club": "KnowledgeLiberationFront",
+        "StarGrade": 2,
+        "SquadType": "Main",
+        "TacticRole": "DamageDealer",
+        "Summons": [],
+        "Position": "Back",
+        "BulletType": "Sonic",
+        "ArmorType": "HeavyArmor",
+        "StreetBattleAdaptation": 3,
+        "OutdoorBattleAdaptation": 3,
+        "IndoorBattleAdaptation": 0,
+        "WeaponType": "RL",
+        "WeaponImg": "Weapon_Icon_Momiji",
+        "Cover": true,
+        "Equipment": [
+            "Hat",
+            "Hairpin",
+            "Watch"
+        ],
+        "CollectionBG": "BG_Redwinter_Collection",
+        "CollectionTexture": "Student_Portrait_Momiji_Collection",
+        "FamilyName": "Akiizumi",
+        "PersonalName": "Momiji",
+        "SchoolYear": "1st Year",
+        "CharacterAge": "15 years old",
+        "FamilyNameRuby": "あきいずみ",
+        "Birthday": "8月7日",
+        "CharacterSSRNew": "",
+        "ProfileIntroduction": "レッドウィンター連邦学園所属、「知識解放戦線」の文学少女。\n\nパンとおやつのために戦うレッドウィンターの他生徒とは違い、彼女は図書館により多くの蔵書を置くために戦っている。かなりのオタクで、事務局に出す図書購入申請の大半は個人的な理由によるもの。そのため、ほとんどの申請は却下されているが、それでもモミジは諦めずに申請し続けている。",
+        "Hobby": "漫画収集",
+        "CharacterVoice": "Asuka Ōgame",
+        "BirthDay": "8/7",
+        "Illustrator": "キキ",
+        "Designer": "キキ",
+        "CharHeightMetric": "135cm",
+        "CharHeightImperial": null,
+        "StabilityPoint": 984,
+        "AttackPower1": 905,
+        "AttackPower100": 9053,
+        "MaxHP1": 2219,
+        "MaxHP100": 16980,
+        "DefensePower1": 19,
+        "DefensePower100": 118,
+        "HealPower1": 1418,
+        "HealPower100": 4255,
+        "DodgePoint": 197,
+        "AccuracyPoint": 759,
+        "CriticalPoint": 202,
+        "CriticalDamageRate": 20000,
+        "AmmoCount": 1,
+        "AmmoCost": 1,
+        "Range": 850,
+        "RegenCost": 700,
+        "Skills": [
+            {
+                "SkillType": "autoattack",
+                "Effects": [
+                    {
+                        "Type": "DMGSingle",
+                        "Hits": [
+                            10000
+                        ],
+                        "Scale": [
+                            10000
+                        ],
+                        "Frames": {
+                            "AttackEnterDuration": 30,
+                            "AttackStartDuration": 20,
+                            "AttackEndDuration": 20,
+                            "AttackBurstRoundOverDelay": 20,
+                            "AttackIngDuration": 140,
+                            "AttackReloadDuration": 40
+                        },
+                        "CriticalCheck": "Check"
+                    }
+                ]
+            },
+            {
+                "SkillType": "ex",
+                "Name": "図書館ではお静かに",
+                "Desc": "Deals <?1> damage to enemies in a circular area.",
+                "Parameters": [
+                    [
+                        "187%",
+                        "215%",
+                        "272%",
+                        "300%",
+                        "356%",
+                        "385%",
+                        "441%",
+                        "469%",
+                        "525%",
+                        "554%"
+                    ]
+                ],
+                "Cost": [
+                    4,
+                    4,
+                    4,
+                    4,
+                    4
+                ],
+                "Icon": "COMMON_SKILLICON_CIRCLE",
+                "Effects": [
+                    {
+                        "Type": "DMGSingle",
+                        "CriticalCheck": "Check",
+                        "Scale": [
+                            18783,
+                            21599,
+                            27233,
+                            30051,
+                            35686,
+                            38502,
+                            44136,
+                            46954,
+                            52589,
+                            55405
+                        ]
+                    }
+                ]
+            },
+            {
+                "SkillType": "normal",
+                "Name": "知識の力",
+                "Desc": "Every 30s, increases <b:ATK> by <?1> for 20s.",
+                "Parameters": [
+                    [
+                        "11.8%",
+                        "12.4%",
+                        "13%",
+                        "15.4%",
+                        "16%",
+                        "16.6%",
+                        "18.9%",
+                        "19.5%",
+                        "20.1%",
+                        "22.5%"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_WEAPONBUFF",
+                "Effects": [
+                    {
+                        "Type": "BuffSelf",
+                        "Value": [
+                            [
+                                1187,
+                                1246,
+                                1306,
+                                1543,
+                                1603,
+                                1662,
+                                1899,
+                                1958,
+                                2018,
+                                2255
+                            ]
+                        ],
+                        "Stat": "AttackPower_Coefficient",
+                        "Channel": 2
+                    }
+                ]
+            },
+            {
+                "SkillType": "passive",
+                "Name": "コレクターの熱量",
+                "Desc": "Increases <b:ATK> by <?1>.",
+                "Parameters": [
+                    [
+                        "14%",
+                        "14.7%",
+                        "15.4%",
+                        "18.2%",
+                        "18.9%",
+                        "19.6%",
+                        "22.4%",
+                        "23.1%",
+                        "23.8%",
+                        "26.6%"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_WEAPONBUFF",
+                "Effects": [
+                    {
+                        "Type": "BuffSelf",
+                        "Stat": "AttackPower_Coefficient",
+                        "Scale": [
+                            1400,
+                            1470,
+                            1540,
+                            1820,
+                            1890,
+                            1960,
+                            2240,
+                            2310,
+                            2380,
+                            2660
+                        ]
+                    }
+                ]
+            },
+            {
+                "SkillType": "weaponpassive",
+                "Name": "コレクターの熱量+",
+                "Desc": "Increases <b:CriticalChance> by <?1> and <b:ATK> by <?2>.",
+                "Parameters": [
+                    [
+                        "100",
+                        "105",
+                        "110",
+                        "130",
+                        "135",
+                        "140",
+                        "160",
+                        "165",
+                        "170",
+                        "190"
+                    ],
+                    [
+                        "14%",
+                        "14.7%",
+                        "15.4%",
+                        "18.2%",
+                        "18.9%",
+                        "19.6%",
+                        "22.4%",
+                        "23.1%",
+                        "23.8%",
+                        "26.6%"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_WEAPONBUFF",
+                "Effects": [
+                    {
+                        "Type": "BuffSelf",
+                        "Stat": "CriticalPoint_Base",
+                        "Scale": [
+                            100,
+                            105,
+                            110,
+                            130,
+                            135,
+                            140,
+                            160,
+                            165,
+                            170,
+                            190
+                        ]
+                    }
+                ]
+            },
+            {
+                "SkillType": "sub",
+                "Name": "旅の始まり",
+                "Desc": "At the start of battle, increases <b:ATK> by <?1><?2>.",
+                "Parameters": [
+                    [
+                        "9.4%",
+                        "9.8%",
+                        "10.3%",
+                        "12.2%",
+                        "12.7%",
+                        "13.1%",
+                        "15%",
+                        "15.5%",
+                        "16%",
+                        "17.8%"
+                    ],
+                    [
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        " and the radius of Momiji's normal attack area of effect by 1.5&times;",
+                        " and the radius of Momiji's normal attack area of effect by 1.5&times;",
+                        " and the radius of Momiji's normal attack area of effect by 1.5&times;",
+                        " and the radius of Momiji's normal attack area of effect by 1.5&times;"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_WEAPONBUFF",
+                "Effects": [
+                    {
+                        "Type": "BuffSelf",
+                        "Value": [
+                            [
+                                941,
+                                989,
+                                1036,
+                                1224,
+                                1271,
+                                1318,
+                                1506,
+                                1553,
+                                1600,
+                                1788
+                            ]
+                        ],
+                        "Stat": "AttackPower_Coefficient",
+                        "Channel": 2
+                    }
+                ]
+            }
+        ],
+        "FavorStatType": [
+            "AttackPower",
+            "MaxHP"
+        ],
+        "FavorStatValue": [
+            [
+                9,
+                0
+            ],
+            [
+                14,
+                0
+            ],
+            [
+                18,
+                42
+            ],
+            [
+                23,
+                51
+            ],
+            [
+                6,
+                8
+            ],
+            [
+                8,
+                13
+            ],
+            [
+                14,
+                21
+            ]
+        ],
+        "FavorAlts": [],
+        "MemoryLobby": [
+            5,
+            0
+        ],
+        "MemoryLobbyBGM": "Koi is Love",
+        "FurnitureInteraction": [
+            [
+                210318
+            ],
+            []
+        ],
+        "FavorItemTags": [
+            "Books",
+            "LoveStory",
+            "Girlish"
+        ],
+        "FavorItemUniqueTags": [
+            "F_Momiji",
+            "F_Momiji2"
+        ],
+        "IsLimited": 0,
+        "Weapon": {
+            "Name": "図書館利用規則第7号",
+            "Desc": "モミジが使用する携帯型RPG。\n\nちゃんとルールを守れば、この「規則」が発動されることはないはずだ。",
+            "AdaptationType": "Indoor",
+            "AdaptationValue": 2,
+            "AttackPower1": 358,
+            "AttackPower100": 3579,
+            "MaxHP1": 444,
+            "MaxHP100": 4443,
+            "HealPower1": 0,
+            "HealPower100": 0,
+            "StatLevelUpType": "Standard"
+        },
+        "Gear": {},
+        "SkillExMaterial": [
+            [
+                3010,
+                130
+            ],
+            [
+                3011,
+                3010,
+                131,
+                180
+            ],
+            [
+                3012,
+                3011,
+                132,
+                181
+            ],
+            [
+                3013,
+                3012,
+                133,
+                182
+            ]
+        ],
+        "SkillExMaterialAmount": [
+            [
+                12,
+                17
+            ],
+            [
+                12,
+                18,
+                14,
+                30
+            ],
+            [
+                12,
+                18,
+                9,
+                26
+            ],
+            [
+                8,
+                18,
+                12,
+                20
+            ]
+        ],
+        "SkillMaterial": [
+            [
+                4010
+            ],
+            [
+                4010
+            ],
+            [
+                4011,
+                4010,
+                130
+            ],
+            [
+                4011,
+                131,
+                180
+            ],
+            [
+                4012,
+                4011,
+                131,
+                180
+            ],
+            [
+                4012,
+                132,
+                181
+            ],
+            [
+                4013,
+                4012,
+                133,
+                182
+            ],
+            [
+                4013,
+                133,
+                182
+            ]
+        ],
+        "SkillMaterialAmount": [
+            [
+                5
+            ],
+            [
+                8
+            ],
+            [
+                5,
+                12,
+                5
+            ],
+            [
+                8,
+                4,
+                13
+            ],
+            [
+                5,
+                12,
+                10,
+                16
+            ],
+            [
+                8,
+                3,
+                15
+            ],
+            [
+                8,
+                12,
+                4,
+                8
             ],
             [
                 12,

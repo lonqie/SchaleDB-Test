@@ -16,7 +16,7 @@ const gear_upgrade_credits = [500000]
 const enemy_rank = {'Champion': 1, 'Elite': 2, 'Minion': 3}
 const max_gifts = 35
 const max_gifts_ssr = 13
-const conquest_events = [815, 822]
+const conquest_events = [815, 822, 10815]
 const module_list = ['home','students','raids','stages','items','craft']
 const striker_bonus_coefficient = {'MaxHP': 0.1, 'AttackPower': 0.1, 'DefensePower': 0.05, 'HealPower': 0.05,}
 const gearId = {'Hat': 1000,'Gloves': 2000,'Shoes': 3000,'Bag': 4000,'Badge': 5000,'Hairpin': 6000,'Charm': 7000,'Watch': 8000,'Necklace': 9000,}
@@ -203,6 +203,7 @@ let loadedRaid
 let loadedItem
 let loadedItemType
 let loadedStage
+let loadedStageVersion
 let loadedConquest
 let loadedCraftNode
 let loadedCraftId = 0
@@ -454,14 +455,8 @@ let itemSearchOptions = {
  */
  class CharacterStats {
     
-    constructor(character, level, stargrade, transcendence=[], scaletype=0) {
+    constructor(character, level, stargrade, transcendence=[], statGrowthType='Standard') {
         this.stats = {}
-        let levelscale
-        if (scaletype == 0) {
-            levelscale = ((level-1)/99).toFixed(4)
-        } else if (scaletype == 1) {
-            levelscale = CharacterStats.getTimeAttackLevelScale(level)
-        }
 
         if (transcendence.length == 0) {
             transcendence = [[0, 1000, 1200, 1400, 1700], [0, 500, 700, 900, 1400], [0, 750, 1000, 1200, 1500]]
@@ -477,14 +472,14 @@ let itemSearchOptions = {
             transcendenceHeal += transcendence[2][i] / 10000
         }
 
-        let MaxHP = Math.ceil((Math.round((character.MaxHP1 + (character.MaxHP100-character.MaxHP1)*levelscale).toFixed(4))*transcendenceHP).toFixed(4))
-        let AttackPower = Math.ceil((Math.round((character.AttackPower1 + (character.AttackPower100-character.AttackPower1)*levelscale).toFixed(4))*transcendenceAttack).toFixed(4))
-        let DefensePower = Math.round((character.DefensePower1 + (character.DefensePower100-character.DefensePower1)*levelscale).toFixed(4))
-        let HealPower = Math.ceil((Math.round((character.HealPower1 + (character.HealPower100-character.HealPower1)*levelscale).toFixed(4))*transcendenceHeal).toFixed(4))
+        let MaxHP = CharacterStats.interpolateStat(character.MaxHP1, character.MaxHP100, level, transcendenceHP, statGrowthType)
+        let AttackPower = CharacterStats.interpolateStat(character.AttackPower1, character.AttackPower100, level, transcendenceAttack, statGrowthType)
+        let DefensePower = CharacterStats.interpolateStat(character.DefensePower1, character.DefensePower100, level, 1, statGrowthType)
+        let HealPower = CharacterStats.interpolateStat(character.HealPower1, character.HealPower100, level, transcendenceHeal, statGrowthType) 
 
         let DefensePenetration = 0
         if (character.DefensePenetration100 !== undefined) {
-            DefensePenetration = Math.round((character.DefensePenetration1 + (character.DefensePenetration100-character.DefensePenetration1)*levelscale).toFixed(4))
+            DefensePenetration = CharacterStats.interpolateStat(character.DefensePenetration1, character.DefensePenetration100, level, 1, statGrowthType)
         }
 
         this.level = level
@@ -751,6 +746,24 @@ let itemSearchOptions = {
         } else if (level >= 79) {
             return ((level-1)/99).toFixed(4)
         }
+    }
+
+    static interpolateStat(stat1, stat100, level, transcendence=1, statGrowthType='Standard') {
+        let levelScale
+        switch (statGrowthType) {
+            case 'TimeAttack':
+                levelScale = CharacterStats.getTimeAttackLevelScale(level)
+                break
+            case 'LateBloom':
+            case 'Premature':
+                levelScale = (level-1)/99
+                break
+            case 'Standard':
+            default:
+                levelScale = ((level-1)/99).toFixed(4)
+                break
+        }
+        return Math.ceil((Math.round((stat1+(stat100-stat1)*levelScale).toFixed(4))*transcendence).toFixed(4))
     }
 
     /**
@@ -1409,19 +1422,26 @@ class ExternalBuffs extends Buffs {
         return `<div class="search-list-item" data-index="${index}" data-raid-id="${raid.Id}" data-skill-id="${skill.Id}"><div class="transferable-skill-icon me-2"><img class="student-icon" src="images/raid/icon/Icon_${raid.PathName}${skill.MinDifficulty >= 5 ? "_Insane" : ""}.png"><img class="${iconClass}" src="${iconPath}"></div><div class="search-list-item-detail"><span class="skill-name">${getTranslatedString(skill, "Name")} <small>(${translateUI(`student_skill_${skill.SkillType.toLowerCase()}`)})</small></span><span class="skill-details">${desc}</span></div></div>`
     }
 
-    static checkRestrictions(object, effect) {
+    static checkRestrictions(object, effect, overrides = {}) {
         let compatible = true
         if ("Restrictions" in effect) {
             effect.Restrictions.forEach(({Property, Operand, Value}) => {
+
+                let objProp = object[Property]
+
+                if (Property in overrides) {
+                    objProp = overrides[Property]
+                }
+
                 switch (Operand) {
                     case 'Equal':
-                        compatible = (compatible && object[Property] == Value)
+                        compatible = (compatible && objProp == Value)
                         break
                     case 'NotEqual':
-                        compatible = (compatible && object[Property] != Value)
+                        compatible = (compatible && objProp != Value)
                         break
                     case 'Contains':
-                        compatible = (compatible && object[Property].some(i => i == Value))
+                        compatible = (compatible && objProp.some(i => i == Value))
                         break
                 } 
             })
@@ -2066,7 +2086,7 @@ class EnemyFinder {
                 if (!raid.IsReleased[regionID] || (difficultyId > raid.MaxDifficulty[regionID])) return
                 difficulty.forEach(enemyId => {
                     const enemy = find(data.enemies, 'Id', enemyId)[0]
-                    if (enemy.SquadType == 'Main' && !enemy.DevName.includes('_HolyRelic_') && !enemy.DevName.includes('_HolyRelic02_')) {
+                    if (enemy.SquadType == 'Main' && !enemy.DevName.includes('Resort_') && !enemy.DevName.includes('AAGun_') && !enemy.DevName.includes('_HolyRelic_') && !enemy.DevName.includes('_HolyRelic02_')) {
                         if (enemy.Icon !== undefined && enemy.Icon != "") {
                             statPreviewEnemyList.push({
                                 id: enemy.Id,
@@ -2167,7 +2187,7 @@ class EnemyFinder {
                         }
                     }
                 })
-            })            
+            })
         })
 
         data.stages.ConquestMap.forEach(conquestMap => {
@@ -3519,9 +3539,8 @@ function loadModule(moduleName, entry=null) {
                 $('#statpreview-enemy-buff-transferable-search ul.dropdown-menu').append(listItem)
             })
 
-            data.items.filter(i => i.Id >= 100 && i.Id < 1000 && i.Rarity == 'SSR').forEach(item => {
+            data.items.filter(i => i.Id >= 100 && i.Id < 1000 && i.Rarity == 'SSR' && i.IsReleased[regionID]).forEach(item => {
                 const classId = Math.floor(item.Id/10)
-                if (regionID == 1 && (classId == 23 || classId == 25)) return
                 const listItem = `<li><a class="dropdown-item dropdown-item-icon" href="javascript:;" data-filter-select-prop="UsesArtifact" data-filter-select-value="${classId}" class="btn btn-dark"><div class="icon"><img src="images/items/${item.Icon}.png"></div><span>${getLocalizedString('ArtifactClass', classId)}</span></a></li>`
                 $('#ba-student-search-select-usesartifact-list').append(listItem)
             })
@@ -3708,10 +3727,6 @@ function loadModule(moduleName, entry=null) {
             loadLanguage(userLang)
             $(".tooltip").tooltip("hide")
             let urlVars = new URL(window.location.href).searchParams
-        
-            if (regionID == 1) {
-                $('#ba-raid-difficulty-6').hide()
-            }
 
             generateStatTable('#ba-raid-enemy-stats', raidEnemyStatList, 6)
             generateStatTable('#ba-stage-enemy-stat-table', enemyStatList, 6)
@@ -3755,6 +3770,10 @@ function loadModule(moduleName, entry=null) {
             var urlVars = new URL(window.location.href).searchParams
         
             generateStatTable('#ba-stage-enemy-stat-table', enemyStatList, 6)
+
+            $('#stage-version-list').on('click', '.dropdown-item', function(e) {
+                changeStageVersion($(this).data('version'))
+            })
 
             if (entry != null) {
                 loadStage(entry)
@@ -3934,7 +3953,7 @@ function populateEvents() {
     birthdayStudents = []
 
     data.students.forEach(el => {
-        if (el.IsReleased[regionID] && !el.PathName.includes('_')) {
+        if (el.IsReleased[regionID] && (!el.Name.includes('（') && !el.Name.includes('('))) {
             var nextBirthday = getNextBirthdayDate(el.BirthDay)
             if (nextBirthday.getTime() < nextWeek.getTime() && nextBirthday.getTime() >= currentDate.getTime())
                 birthdayStudents.push(el)
@@ -4964,6 +4983,10 @@ function renderStudent() {
 
     finalizeLoad(getTranslatedString(student, 'Name'), "chara", student.PathName, 'View Student', student.Id)
 
+    if (!student.IsReleased[regionID]) {
+        showReleaseWarning()
+    }
+
     studentSelectorModal.hide()
 }
 
@@ -5016,7 +5039,7 @@ function initRaidSkillInfo(raidId, enemyId, raidDifficulty) {
         const raid = find(data.raids.Raid, "Id", raidId)[0]
         const enemy = find(data.enemies, "Id", enemyId)[0]
         
-        if (!raid.ExcludeNormalAttack.includes(enemyId)) {
+        if (raid.HasNormalAttack.includes(enemyId)) {
             const autoAttackSkill = {
                 SkillType: "raidautoattack",
                 IsRaidSkill: true,
@@ -5247,6 +5270,10 @@ function loadItem(id) {
 
         finalizeLoad(getTranslatedString(item, 'Name'), "item", id, 'View Item', id)
 
+        if (!item.IsReleased[regionID]) {
+            showReleaseWarning()
+        }
+
     } else {
         loadModule('items', id)
     }
@@ -5339,6 +5366,9 @@ function loadCraft(id) {
             $('#craft-select-'+loadedCraftId).addClass('selected')
             finalizeLoad(getTranslatedString(item, 'Name'), "craftnode", loadedCraftId, 'View Crafting', loadedCraftId)
 
+            if (!item.IsReleased[regionID]) {
+                showReleaseWarning()
+            }
         }
 
     } else {
@@ -5458,6 +5488,10 @@ function loadRaid(raidId) {
         $('#raid-select-'+raid.Id).addClass('selected')
 
         finalizeLoad(raidName, "raid", raid.Id, 'View Raid', raid.Id)
+
+        if (!raid.IsReleased[regionID]) {
+            showReleaseWarning()
+        }
 
     } else {
         loadModule('raids', raidId)
@@ -5652,7 +5686,7 @@ function changeRaidEnemy(num) {
     let level
     (raid.Id < 1000) ? level = raid_level[raid_difficulty] : level = raid.Level[raid_difficulty]
 
-    let enemyStats = new CharacterStats(enemy, level, 1, (enemy.Transcendence ? enemy.Transcendence : []), 0)
+    let enemyStats = new CharacterStats(enemy, level, 1, (enemy.Transcendence ? enemy.Transcendence : []))
 
     raidEnemyStatList.forEach((statName) => {
         if (statName == 'AmmoCount') {
@@ -5702,13 +5736,17 @@ function changeRaidEnemy(num) {
         } else if (statName == 'MaxHP') {
             
             let tooltipText = ""
+            let maxHPDisplay = ""
+
+            const hoverCraftMissileHPMod = [0, 1000, 2500, 5000, 10000, 25000, 35000]
 
             switch (enemy.Id) {
+                
                 case 7305701:
                     enemyStats.addBuff('MaxHP_Base', 100000)
                 case 7305601:
                 case 7965031:
-                    $(`#ba-raid-enemy-stats .stat-${statName} .stat-value`).html(`<span class="has-tooltip">${enemyStats.getTotalString(statName)}</span>`)
+                    maxHPDisplay = enemyStats.getTotalString('MaxHP')
    
                     enemyStats.addBuff('MaxHP_Coefficient', 10000)
                     tooltipText += `<div class="active-buff me-2"><img src="images/buff/Combat_Icon_Buff_MAXHP.png" width="22" height="26" class=""><span class="stack-count">2</span></div><b>${enemyStats.getTotalString(statName)}</b>`
@@ -5719,21 +5757,31 @@ function changeRaidEnemy(num) {
                     break
                 case 7305101:
                 case 7965002:
-                    $(`#ba-raid-enemy-stats .stat-${statName} .stat-value`).html(`<span class="has-tooltip">${enemyStats.getTotalString(statName)}</span>`)
+                    maxHPDisplay = enemyStats.getBaseString('MaxHP')
                     if (raid_difficulty == 4) {
-
                         enemyStats.addBuff('MaxHP_Coefficient', 11000)
                         tooltipText += `<div class="active-buff me-2"><img src="images/buff/Combat_Icon_Buff_MAXHP.png" width="22" height="26" class=""></div><b>${enemyStats.getTotalString(statName)}</b>`
-                        break
-
                     }
+                    break
+
+                case 610220107:
+                    enemyStats.addBuff('MaxHP_Coefficient', 20000)
+                case 610220106:
+                case 610220108:
+                    enemyStats.addBuff('MaxHP_Base', hoverCraftMissileHPMod[raid_difficulty])
+                    maxHPDisplay = enemyStats.getTotalString('MaxHP')
+                    break
+
                 default:
-                    $(`#ba-raid-enemy-stats .stat-${statName} .stat-value`).text(enemyStats.getBaseString(statName))
+                    maxHPDisplay = enemyStats.getBaseString('MaxHP')
                     break
             }
 
             if (tooltipText != '') {
-                $('.stat-MaxHP .has-tooltip').tooltip('dispose').tooltip({title: getBasicTooltip(tooltipText), html: true, placement: 'top'})
+                $(`#ba-raid-enemy-stats .stat-MaxHP .stat-value`).html(`<span class="has-tooltip">${maxHPDisplay}</span>`)
+                $('#ba-raid-enemy-stats .stat-MaxHP .has-tooltip').tooltip('dispose').tooltip({title: getBasicTooltip(tooltipText), html: true, placement: 'top'})
+            } else {
+                $(`#ba-raid-enemy-stats .stat-MaxHP .stat-value`).text(maxHPDisplay)
             }
             
         } else {
@@ -5868,6 +5916,51 @@ function loadStage(id) {
         $('#ba-stage-tab-conquest').toggle(mode == 'Conquest')
         $('#ba-stage-tab-map').toggle(mode != 'Conquest')
 
+        if (mode == "Event" && stage.EventId != 701) {
+            let dropdownHtml = ''
+            let versionsAvailable = []
+            stage.Versions.forEach(version => {
+                let checkEventId
+                switch (version) {
+                    case "Rerun":
+                        checkEventId = 10000 + stage.EventId
+                        break
+                    case "Permanent":
+                        checkEventId = 50000 + stage.EventId
+                        break
+                    default:
+                        checkEventId = stage.EventId
+                        break;
+                }
+                if (data.common.regions[regionID].events.includes(checkEventId)) {
+                    versionsAvailable.push(version)
+                    dropdownHtml += `<li><a class="dropdown-item" href="javascript:;" class="btn btn-dark" data-version="${version}"><span>${translateUI('stage_' + version.toLowerCase())}</span></a></li>`
+                }
+            })
+
+            if (!versionsAvailable.includes(loadedStageVersion)) {
+                if (versionsAvailable.length > 0) {
+                    loadedStageVersion = versionsAvailable[0]
+                } else {
+                    // use first version available if no versions are released
+                    const version = stage.Versions[0]
+                    loadedStageVersion = version
+                    dropdownHtml += `<li><a class="dropdown-item" href="javascript:;" class="btn btn-dark" data-version="${version}"><span>${translateUI('stage_' + version.toLowerCase())}</span></a></li>`
+                    showReleaseWarning()
+                }
+                
+            }
+
+            $('#stage-version-list .dropdown-menu').html(dropdownHtml)
+            $('#stage-version-list').show()
+
+            $(`#stage-version-list .dropdown-item[data-version="${loadedStageVersion}"`).toggleClass('active', true)
+            $(`#stage-version-list button .label`).text(translateUI('stage_' + loadedStageVersion.toLowerCase()))
+
+        } else {
+            $('#stage-version-list').hide()
+        }
+
         if (mode != "Conquest" && $('#ba-stage-tab-conquest').hasClass('active')) {
             $('#ba-stage-tab-enemies').tab('show')
         }
@@ -5880,6 +5973,25 @@ function loadStage(id) {
 
         const stageTypes = ["Default","FirstClear","ThreeStar"]
         let dropsHtml = ''
+
+        let rewardsArray
+
+        if (loadedStageVersion == "Rerun") {
+            if (regionID == 1 && stage.RewardsGlobalRerun) {
+                rewardsArray = stage.RewardsGlobalRerun
+            } else {
+                rewardsArray = stage.RewardsRerun
+            }
+        }
+
+        if (rewardsArray == undefined) {
+            if (regionID == 1 && stage.RewardsGlobal) {
+                rewardsArray = stage.RewardsGlobal
+            } else {
+                rewardsArray = stage.Rewards
+            }
+        }
+
         stageTypes.forEach(el => {
             if (el in stage.Rewards && stage.Rewards[el].length > 0) {
                 let labelText = null
@@ -5900,8 +6012,7 @@ function loadStage(id) {
                     labelText = '<i class="fa-solid fa-star"></i>'.repeat(3)
                 }
                 
-                const rewardsArray = regionID == 1 && stage.RewardsGlobal !== undefined ? stage.RewardsGlobal[el] : stage.Rewards[el]
-                rewardsArray.forEach(reward => {
+                rewardsArray[el].forEach(reward => {
                     const amount = stage.Type == "FindGift" ? reward[2] : 1
                     dropsHtml += getDropIconHTML(reward[0], reward[1], amount, amount, false, labelText)
                 })
@@ -5910,20 +6021,43 @@ function loadStage(id) {
 
         if (mode == 'Conquest') {
 
-            if ("Calculate" in stage.Rewards) {
-                let calculateRewardsHtml = ''
-                for (let i = 0; i < 3; i++) {
-                    stage.Rewards.Calculate[i].forEach(reward => {
-                        calculateRewardsHtml += getDropIconHTML(reward[0], reward[1], 1, 1, false, `Lv.${i+1}`)
+            const tileMaxLevel = 1 + stage.UpgradeCost.length
+            let tileInfoTable = ''
+
+            let tileType = "Base"
+            if (stage.SubStage || stage.EnemyType == "Challenge") tileType = "Battle"
+            if (stage.EnemyType == "Boss") tileType = "Boss"
+
+            tileInfoTable += `<table class="w-100"><thead class="text-center"><tr><th></th><th>${translateUI('base_upgrade_cost')}</th><th>${translateUI('rewards')}</th><th>${translateUI('base_settlement')}</th></tr></thead><tbody>`
+
+            for (let i = 0; i < tileMaxLevel; i++) {
+                tileInfoTable += '<tr>'
+                tileInfoTable += `<td><img src="images/conquest/Conquest_${stage.EventId}_Img_Tile_${tileType}_${i+1}${stage.EnemyType == "Challenge" ? "_Challenge" : ""}.png" style="height:80px;"><b class="p-2">Lv. ${i+1}</b></td>`
+
+                tileInfoTable += '<td><div class="item-icon-list">'
+                if (i > 0 && i-1 < stage.UpgradeCost.length) {
+                    tileInfoTable += getDropIconHTML(stage.UpgradeCost[i-1][0], stage.UpgradeCost[i-1][1], 1, 1)
+                }
+                tileInfoTable += '</div></td>'
+
+                tileInfoTable += '<td><div class="item-icon-list">'
+                if (stage.Rewards[`Upgrade${i+1}`]) {
+                    stage.Rewards[`Upgrade${i+1}`].forEach(reward => {
+                        tileInfoTable += getDropIconHTML(reward[0], reward[1], 1, 1)
                     })
                 }
+                tileInfoTable += '</div></td>'
 
-                if (calculateRewardsHtml != "") {
-                    $(`#conquest-settlement-reward`).html(`<div class="item-icon-list">${calculateRewardsHtml}</div>`).find('.item-drop').tooltip({html: true})
-                } else {
-                    $(`#conquest-settlement-reward`).html(`<p class="mb-0 text-center">${translateUI('rewards_none')}</p>`)
-                }
+                tileInfoTable += '<td><div class="item-icon-list">'
+                stage.Rewards.Calculate[i].forEach(reward => {
+                    tileInfoTable += getDropIconHTML(reward[0], reward[1], 1, 1)
+                })
+                tileInfoTable += '</div></td>'
+                tileInfoTable += '</tr>'
             }
+            tileInfoTable += '</tbody></table>'
+
+            $('#conquest-tile-info').html(tileInfoTable).find('.item-drop').tooltip({html: true})
             
             if ("SchoolBuff" in stage) {
                 let schoolHtml = ""
@@ -5969,16 +6103,14 @@ function loadStage(id) {
             $(`#ba-stage-drops`).html(`<div class="d-flex flex-wrap justify-content-center"><span class="pb-0 text-center">${translateUI('rewards_none')}</span></div>`)
         }
 
-
         let html = ''
         let enemyList = {}
         const enemyRanks = ['Minion','Elite','Champion','Boss']
-        stage.Formations.forEach(el => {
+        getSuffixedProperty(stage, "Formations", loadedStageVersion).forEach(el => {
             for (let i = 0; i < el.EnemyList.length; i++) {
                 let enemy = find(data.enemies, "Id", el.EnemyList[i])[0]
                 let rankId = enemyRanks.indexOf(enemy.Rank)
                 enemyList[`${4-rankId}_${enemy.Id}_${el.Level[rankId]}_${el.Grade[rankId]}`] = enemy
-                //all_enemies[enemy_rank[enemy.Rank]+'_'+enemy.Id+'_'+el['Level'+enemy.Rank]+'_'+el['Grade'+enemy.Rank]] = enemy
             }
         })
 
@@ -5994,12 +6126,16 @@ function loadStage(id) {
         const starIcon = `<i class="fa-solid fa-star me-2 stage-star"></i>`
         const challengeIcon = `<i class="fa-solid fa-clipboard-list me-2 stage-challenge"></i>`
 
-        if ("HexaMap" in stage) {
+        let hexaMap = getSuffixedProperty(stage, "HexaMap", loadedStageVersion)
+        let starCondition = getSuffixedProperty(stage, "StarCondition", loadedStageVersion)
+        let challengeCondition = getSuffixedProperty(stage, "ChallengeCondition", loadedStageVersion)
+
+        if (hexaMap) {
             $('#ba-stage-tab-map').toggleClass('disabled', false)
             drawHexamap(stage, '#ba-stage-map-canvas')
             conditionsHtml += `<div>${starIcon}<span>${translateUI('starcondition_complete')}</span></div>`
-            conditionsHtml += `<div>${starIcon}<span>${translateUI('starcondition_sranks', [stage.StarCondition[0]])}</span></div>`
-            conditionsHtml += `<div>${starIcon}<span>${translateUI('starcondition_clearturns', [stage.StarCondition[1]])}</span></div>`
+            conditionsHtml += `<div>${starIcon}<span>${translateUI('starcondition_sranks', [starCondition[0]])}</span></div>`
+            conditionsHtml += `<div>${starIcon}<span>${translateUI('starcondition_clearturns', [starCondition[1]])}</span></div>`
         } else {
             if ($('#ba-stage-tab-map').hasClass('active')) {
                 $('#ba-stage-tab-enemies').tab('show')
@@ -6007,12 +6143,12 @@ function loadStage(id) {
             $('#ba-stage-tab-map').toggleClass('disabled', true)
             if (mode == "Campaign" || mode == "Event") {
                 conditionsHtml += `<div>${starIcon}<span>${translateUI('starcondition_defeatall')}</span></div>`
-                conditionsHtml += `<div>${starIcon}<span>${translateUI('starcondition_defeatalltime', ['120'])}</span></div>`
+                conditionsHtml += `<div>${starIcon}<span>${translateUI('starcondition_defeatalltime', [starCondition[0]])}</span></div>`
                 conditionsHtml += `<div>${starIcon}<span>${translateUI('starcondition_allsurvive')}</span></div>`
             } else if (mode == "Conquest") {
                 if (!stage.SubStage) {
                     conditionsHtml += `<div>${starIcon}<span>${translateUI('starcondition_defeatall')}</span></div>`
-                    conditionsHtml += `<div>${starIcon}<span>${translateUI('starcondition_defeatalltime', [stage.StarCondition[1]])}</span></div>`
+                    conditionsHtml += `<div>${starIcon}<span>${translateUI('starcondition_defeatalltime', [starCondition[1]])}</span></div>`
                     conditionsHtml += `<div>${starIcon}<span>${translateUI('starcondition_allsurvive')}</span></div>`
                 }
             } else if (stage.Type.slice(0,6) == "Chaser") {
@@ -6034,10 +6170,10 @@ function loadStage(id) {
             }
         }
 
-        if (stage.ChallengeCondition !== undefined && stage.ChallengeCondition.length > 0) {
+        if (challengeCondition !== undefined && challengeCondition.length > 0) {
 
             conditionsHtml += `<div class="ba-panel-separator my-2"></div>`
-            stage.ChallengeCondition.forEach(condition => {
+            challengeCondition.forEach(condition => {
                 switch (condition[0]) {
                     case "Turns":
                         conditionsHtml += `<div>${challengeIcon}<span>${translateUI('starcondition_clearturns', [condition[1]])}</span></div>`
@@ -6052,8 +6188,9 @@ function loadStage(id) {
         $('#ba-stage-conditions').toggle(conditionsHtml != "").html(`<div class="d-flex flex-column">${conditionsHtml}</div>`)
 
         html = ''
-        if ("EntryCost" in stage && stage.EntryCost.length > 0) {
-            stage.EntryCost.forEach((ec, i) => {
+        let entryCost = getSuffixedProperty(stage, "EntryCost", loadedStageVersion)
+        if (entryCost && entryCost.length > 0) {
+            entryCost.forEach((ec, i) => {
                 let currency
                 if (ec[0] < 100) {
                     currency = find(data.currency, 'Id', ec[0])[0]
@@ -6086,6 +6223,18 @@ function loadStage(id) {
     }
 }
 
+function changeStageVersion(version) {
+    loadedStageVersion = version
+    loadStage(loadedStage.Id)
+}
+
+function getSuffixedProperty(obj, prop, suffix) {
+    if (suffix) {
+        if (prop + suffix in obj) return obj[prop + suffix]
+    }
+    return obj[prop]
+}
+
 function populateEnemyList(containerId, formations) {
     let html = ''
     let enemyList = {}
@@ -6110,7 +6259,7 @@ function populateEnemyList(containerId, formations) {
 function getStageName(stage, type) {
     switch (type) {
         case "Event":
-            return `${getLocalizedString('EventName', ''+stage.EventId % 10000)}\n${stage.Difficulty == 1 ? "Quest" : "Challenge"} ${stage.Stage.toString().padStart(2,'0')}`
+            return `${getLocalizedString('EventName', ''+stage.EventId % 10000)} ${stage.Difficulty == 0 ? "Story" : (stage.Difficulty == 1 ? "Quest" : "Challenge")} ${stage.Stage.toString().padStart(2,'0')}`
         case "Campaign":
             return `${stage.Area}-${stage.Stage} ${stage.Difficulty == 1 ? 'Hard' : 'Normal'}`
         case "WeekDungeon":
@@ -6168,10 +6317,7 @@ function loadRegion(regID) {
 
     if (regionID == 1) {
         //hide filters not relevant to global
-        $('#ba-student-search-filter-weapontype-ft').hide()
-        $('#ba-student-search-filter-armortype-elasticarmor').hide()
         $('#ba-student-search-filter-bullettype-sonic').hide()
-        $('#item-search-filter-furnitureset-110').hide()
         $('#item-search-filter-furnitureset-111').hide()
         $('#item-search-filter-furnitureset-112').hide()
     }
@@ -6453,8 +6599,13 @@ function recalculateStats() {
     let level = $("#ba-statpreview-levelrange").val()
     let studentStats, summonStats, summon
     if (statPreviewSelectedChar > 0) {
-        summon = find(data.summons, 'Id', student.Summons[statPreviewSelectedChar-1].Id)[0]
+        const studentSummon = student.Summons[statPreviewSelectedChar-1]
+        summon = find(data.summons, 'Id', studentSummon.Id)[0]
         summonStats = new CharacterStats(summon, level, 1)
+
+        if (studentSummon.Id == 99999) {
+            summonStats.setBase('MaxHP', CharacterStats.interpolateStat(studentSummon.ObstacleMaxHP1, studentSummon.ObstacleMaxHP100, level))
+        }
     }
     studentStats = new CharacterStats(student, level, statPreviewStarGrade)
     if (compareMode) {
@@ -6863,7 +7014,7 @@ function calculateEnemyStats() {
     statPreviewEnemyBuffs.buffs.forEach((buff, index) => {
         let buffIncompatible = true
         buff.Skill.Effects.filter(e => statPreviewEnemyBuffs.effectTypeFilter.includes(e.Type)).forEach((effect, effectIndex) => {
-            if ((effect.RestrictTo && !effect.RestrictTo.includes(statPreviewSelectedEnemyId)) || effect.Type != "BuffTarget" || !ExternalBuffs.checkRestrictions(enemy, effect)) {
+            if ((effect.RestrictTo && !effect.RestrictTo.includes(statPreviewSelectedEnemyId)) || effect.Type != "BuffTarget" || !ExternalBuffs.checkRestrictions(enemy, effect, {"ArmorType": statPreviewSelectedEnemyArmorType})) {
                 $(`#statpreview-enemy-buff-transferable-controls div[data-index='${index}'] .buff-description span[data-effect='${effectIndex}']`).toggleClass('invalid', true)
             } else {
                 buffIncompatible = false
@@ -7084,7 +7235,7 @@ function getStageCardHTML(stage, dropChance = 0) {
     function getStageCardName() {
         switch (type) {
             case "Event":
-                return `${stage.Difficulty == 1 ? 'Quest' : 'Challenge'} ${stage.Stage.toString().padStart(2,'0')}`
+                return `${stage.Difficulty == 0 ? 'Story' : (stage.Difficulty == 1 ? 'Quest' : 'Challenge')} ${stage.Stage.toString().padStart(2,'0')}`
             case "Campaign":
                 return `${stage.Area}-${stage.Stage} ${stage.Difficulty == 1 ? 'Hard' : 'Normal'}`
             case "WeekDungeon":
@@ -7163,7 +7314,7 @@ function getEventCardHTML(eventId) {
 function getStageIcon(stage, type) {
     switch (type) {
         case "Event":
-            return `Campaign_Event_${stage.EventId > 10000 ? stage.EventId - 10000 : stage.EventId}_${stage.Difficulty == 1 ? 'Normal' : 'Hard'}`
+            return `Campaign_Event_${stage.EventId > 10000 ? stage.EventId - 10000 : stage.EventId}_${stage.Difficulty == 2 ? 'Hard' : 'Normal'}`
         case "Campaign":
             return `Campaign_Image_${stage.Area.toString().padStart(2,'0')}_${stage.Difficulty == 1 ? 'Hard' : 'Normal'}`
         case "WeekDungeon":
@@ -7242,7 +7393,7 @@ function showEnemyInfo(id, level, terrain, grade=1, scaletype=0, switchTab=false
     $('#ba-stage-enemy-attacktype').tooltip('dispose').tooltip({title: getRichTooltip(null, `${getLocalizedString('BulletType',enemy.BulletType)}`, translateUI('attacktype'), null, getAttackTypeText(enemy.BulletType), 32), placement: 'top', html: true})
     $('#ba-stage-enemy-defensetype').tooltip('dispose').tooltip({title: getRichTooltip(null, `${getLocalizedString('ArmorType',enemy.ArmorType)}`, translateUI('defensetype'), null, getDefenseTypeText(enemy.ArmorType), 32), placement: 'top', html: true})        
 
-    let enemyStats = new CharacterStats(enemy, level, grade, (enemy.Transcendence ? enemy.Transcendence : []), scaletype)
+    let enemyStats = new CharacterStats(enemy, level, grade, (enemy.Transcendence ? enemy.Transcendence : []), scaletype == 1 ? 'TimeAttack' : 'Standard')
 
     //override je #8 HP values
     if (loadedModule == 'raids' && raid.Id == 8000) {
@@ -7989,8 +8140,19 @@ function populateEventStageList(eventId) {
             eventStages.forEach(stage => {
                 if (!(eventId == 701 && ((stage.Difficulty == 1 && stage.Stage > data.common.regions[regionID].event_701_max) || (stage.Difficulty == 2 && stage.Stage > data.common.regions[regionID].event_701_challenge_max)))) {
                     if (stage.Difficulty != diffPrev || stage.EventId != eventPrev) {
-                        let name = stage.Difficulty == 1 ? "Quest" : "Challenge"
-                        name += stage.EventId > 10000 ? translateUI('event_rerun') : ""
+                        let name
+
+                        switch (stage.Difficulty) {
+                            case 0:
+                                name = "Story"
+                                break;
+                            case 1:
+                                name = "Quest"
+                                break;
+                            case 2:
+                                name = "Challenge"
+                                break;
+                        }
                         let header = `<div class="ba-grid-header p-2" style="grid-column: 1/-1;order: 0;"><h3 class="mb-0">${name}</h3></div>`
                         html += header
                     }
@@ -8347,6 +8509,7 @@ function getAttackTypeText(bulletType) {
     if (bulletType == "Normal") {
         text = translateUI("attack_type_normal_desc")
     } else for (armorType in data.config.TypeEffectiveness[bulletType]) {
+        if (armorType == "Structure") continue
         const factor = data.config.TypeEffectiveness[bulletType][armorType] / 10000
         if (factor != 1) {
             text += text == '' ? '' : '\n'
@@ -9400,6 +9563,7 @@ function maxStudentAttributes() {
     $('#ba-statpreview-levelrange').val(statPreviewLevel)
     changeStatPreviewLevel(document.getElementById('ba-statpreview-levelrange'), false)
 
+    statPreviewIncludeEquipment = true
     statPreviewEquipment = [data.common.regions[regionID].gear1_max, data.common.regions[regionID].gear2_max, data.common.regions[regionID].gear3_max]
     $('#ba-statpreview-gear1-range').val(statPreviewEquipment[0])
     $('#ba-statpreview-gear2-range').val(statPreviewEquipment[1])
@@ -9407,7 +9571,6 @@ function maxStudentAttributes() {
     changeGearLevel(1, document.getElementById('ba-statpreview-gear1-range'), false)
     changeGearLevel(2, document.getElementById('ba-statpreview-gear2-range'), false)
     changeGearLevel(3, document.getElementById('ba-statpreview-gear3-range'), false)
-    
 
     statPreviewWeaponGrade = 3
     statPreviewWeaponLevel = data.common.regions[regionID].weaponlevel_max
@@ -9423,10 +9586,7 @@ function maxStudentAttributes() {
         $(`#ba-statpreview-bond-${i}-range`).val(statPreviewBondLevel[i])
         changeStatPreviewBondLevel(i, false)
         statPreviewIncludeBond[i] = true
-        
     }
-
-    statPreviewIncludeEquipment = true
 
     if ("Released" in student.Gear && student.Gear.Released[regionID]) {
         const max = $('#ba-statpreview-gear4-range').attr('max')
@@ -9434,6 +9594,7 @@ function maxStudentAttributes() {
         changeExGearLevel(document.getElementById('ba-statpreview-gear4-range'), false)
     }
 
+    recalculateTerrainAffinity()
     refreshStatTableControls()
     recalculateStats()
 }
@@ -9555,4 +9716,8 @@ function toastMessage(msg, duration, cssClass) {
     }
     $('#toast-message').removeClass().addClass('p-2 ba-panel show').addClass(cssClass).html(`<p class="m-0">${msg}</p>`)
     toastMessageTimeout = window.setTimeout(function(){$("#toast-message").removeClass('show')},duration)
+}
+
+function showReleaseWarning() {
+    toastMessage(`<i class="fa-solid fa-circle-exclamation me-2"></i>${translateUI('toast_release_warning')}`, 4000, 'alert')
 }

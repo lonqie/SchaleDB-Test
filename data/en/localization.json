@@ -102,6 +102,7 @@
         "BlackTortoisePromenade": "Black Tortoise Promenade",
         "Genryumon": "Genryumon",
         "LaborParty": "Labor Party",
+        "KnowledgeLiberationFront": "Knowledge Liberation Front",
         "EmptyClub": "None"
     },
     "BossFaction": {
@@ -109,7 +110,8 @@
         "Slumpia": "Slumpia",
         "CommunioSanctorum": "Communio Sanctorum",
         "Kaitenger": "Kaitenger",
-        "TheLibraryofLore": "The Library of Lore"
+        "TheLibraryofLore": "The Library of Lore",
+        "SevenPrisoners": "Seven Prisoners"
     },
     "Stat": {
         "Level": "Level",
@@ -269,7 +271,8 @@
         "825": "Chalk White Calling Card: The Mansion of Empty Aesthetics",
         "826": "Ryubu Doushu: Vision of a Lone Future",
         "827": "RABBIT Squad and The Mystery of the Missing Shrimp",
-        "828": "In Search of a Hidden Heritage"
+        "828": "In Search of a Hidden Heritage",
+        "829": "Gakuman Doujin Monogatari: Two Seeking the Final Episode"
     },
     "StageType": {
         "Campaign": "Missions",
@@ -347,7 +350,7 @@
         "Buff": "Buff",
         "Debuff": "Debuff",
         "CC": "Crowd Control Effect",
-        "Special": "Status Effect"
+        "Special": "Special Status Effect"
     },
     "BuffName": {
         "Buff_AidAttitude": "Aiding Mindset",
@@ -641,7 +644,7 @@
         "CC_Paralysis": "Unable to act and interrupts any active skills.",
         "Special_EnergyBatteryHalf": "Increases the effectiveness of Aris's EX and Sub skills by 1.5&times; (half) or 2&times; (full).\nCharge level resets to empty after EX skill use.",
         "Special_FormChange": "Augments Normal Attacks.",
-        "Special_Immortal": "Able to withstand lethal damage without being defeated for the duration of the effect.",
+        "Special_Immortal": "Able to withstand most attacks without being defeated for the duration of the effect.",
         "Special_ImmuneDamage": "Immune to some or all types of incoming damage.",
         "Special_Fury": "Increases the damage dealt by Neru's EX Skill.",
         "Special_Misdeed": "Decreases DEF with each stack held and generates skill cost when Aru (New Year) uses her EX Skill.",
@@ -849,7 +852,7 @@
         "student_weapon_rank_3star_desc": "Exclusive Weapon Max Level Lv.40 → <b>Lv.50</b> / Upgrades Terrain Strength",
         "student_gear_t2_desc": "Unlocks Basic Skill+",
         "attack_type_desc": "Deals <b>{0}&times;</b> damage to {1}.",
-        "attack_type_normal_desc": "Deals <b>1&times;</b> damage to <b class='ba-col-explosion'>Light Armor</b>, <b class='ba-col-pierce'>Heavy Armor</b>, <b class='ba-col-mystic'>Special Armor</b> and <b class='ba-col-elasticarmor'>Elastic Armor</b>.<br>Deals <b>0.5&times;</b> damage to <b>Structures</b>.",
+        "attack_type_normal_desc": "Deals <b>1&times;</b> damage to <b class='ba-col-explosion'>Light Armor</b>, <b class='ba-col-pierce'>Heavy Armor</b>, <b class='ba-col-mystic'>Special Armor</b> and <b class='ba-col-elasticarmor'>Elastic Armor</b>.",
         "defense_type_desc": "Receives <b>{0}&times;</b> damage from {1} attacks.",
         "defense_type_normal_desc": "Receives <b>1&times;</b> damage from <b class='ba-col-explosion'>Explosive</b>, <b class='ba-col-pierce'>Piercing</b>, <b class='ba-col-mystic'>Mystic</b> and <b class='ba-col-sonic'>Sonic</b> attacks.",
         "comfort": "Comfort",
@@ -916,8 +919,11 @@
         "stage_enemies": "Enemies",
         "stage_info": "Info",
         "stage_map": "Map",
-        "stage_conquest_tile": "Zone",
+        "stage_conquest_tile": "Tile",
         "event_rerun": " (Rerun)",
+        "stage_original": "Original",
+        "stage_rerun": "Rerun",
+        "stage_permanent": "Permanent",
         "starcondition_clear": "Clear",
         "starcondition_cleartime": "Clear within <b>{0}</b> second(s).",
         "starcondition_earnrewards": "Earn <b>{0}</b> reward(s).",
@@ -945,7 +951,7 @@
         "bond_req_upgrade": "Requires <i class='ms-1 fa-solid fa-heart'></i> {0} with {1} to upgrade",
         "gacha_pickup": "Pick-Up Recruitment",
         "skill_plus": "+",
-        "stage_reward_default": "Rewards",
+        "rewards": "Rewards",
         "stage_reward_firstclear": "1st Time",
         "stage_reward_threestar": "3★",
         "rewards_season": "Season Reward",
@@ -988,7 +994,9 @@
         "conquest_occupy": "Occupy",
         "conquest_operate": "Operate",
         "conquest_analyze": "Analyze",
-        "conquest_settlement": "Settlement Acquisition Reward",
+        "base_level": "Base Info",
+        "base_upgrade_cost": "Upgrade Cost",
+        "base_settlement": "Settlement",
         "school_bonus": "Academy Buff",
         "school_bonus_num_students": "{0} Students: ",
         "school_bonus_conquest": "({2}) Event Currency Reward +{0}%, (Occupy) ATK +{1}%",
@@ -1022,6 +1030,7 @@
         "toast_import_failure": "Error importing student collection",
         "toast_import_copy": "Copied import string to clipboard",
         "toast_amount_invalid": "Invalid amount entered",
+        "toast_release_warning": "This content has not yet been released on the selected server.\nData from the JP server will be displayed.",
         "stat_defense_tooltip": "DMG Reduction: {0}",
         "stat_crit_tooltip": "Crit Chance:",
         "stat_crit_amount_tooltip": "{0}&nbsp;<small><i>({1} Crit RES)</i></small>",
