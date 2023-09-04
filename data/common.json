@@ -2563,7 +2563,6 @@
                 818,
                 819,
                 820,
-                821,
                 822,
                 701,
                 10801,
@@ -2617,6 +2616,15 @@
         }
     ],
     "changelog": [
+        {
+            "date": "2023/09/05",
+            "contents": [
+                "<h6>Items page improvements</h6>",
+                "<ul><li>Show material synthesis nodes or fusion recipes that can produce an item or furniture.</li><li>Show consumable items that can reward an item or furniture.</li><li>Added more information such as furniture size, templates, item expiry and furniture interactions that require multiple students.</li><li>Expired and immediate use items are now hidden by default (Can be displayed by switching on in filters).</li><li>Added filters for items which can be obtained via synthesis, stage reward or purchased from shops.</li></ul>",
+                "<h6>Other Improvements & Bug Fixes</h6>",
+                "<ul><li>Show boosted skill heal amounts in brackets when adding a Recovery Boost buff to a student.</li><li>Fixed incorrect HP amounts shown on some raid enemies in skill calculations.</li></ul>"
+            ]
+        },
         {
             "date": "2023/07/24",
             "contents": [

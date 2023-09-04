@@ -26532,7 +26532,7 @@
                 true
             ],
             "DungeonType": "Shooting",
-            "Icon": "EnemyInfo_Boxcat_Terror",
+            "Icon": "enemyinfo_boxcat_terror",
             "MaxDifficulty": 4,
             "Terrain": "Outdoor",
             "BulletType": "Normal",
@@ -26652,7 +26652,7 @@
                 true
             ],
             "DungeonType": "Defense",
-            "Icon": "EnemyInfo_Sweeper_Decagram_Taser_White",
+            "Icon": "enemyinfo_sweeper_decagram_taser_white",
             "MaxDifficulty": 4,
             "Terrain": "Outdoor",
             "BulletType": "Normal",
@@ -26780,7 +26780,7 @@
                 true
             ],
             "DungeonType": "Destruction",
-            "Icon": "EnemyInfo_Totem03_TimeAttack",
+            "Icon": "enemyinfo_totem03_timeattack",
             "MaxDifficulty": 4,
             "Terrain": "Outdoor",
             "BulletType": "Normal",
@@ -26920,7 +26920,7 @@
                 true
             ],
             "DungeonType": "Shooting",
-            "Icon": "EnemyInfo_Boxcat_Terror",
+            "Icon": "enemyinfo_boxcat_terror",
             "MaxDifficulty": 4,
             "Terrain": "Indoor",
             "BulletType": "Normal",
@@ -27040,7 +27040,7 @@
                 true
             ],
             "DungeonType": "Defense",
-            "Icon": "EnemyInfo_Sweeper_Decagram_Taser_White",
+            "Icon": "enemyinfo_sweeper_decagram_taser_white",
             "MaxDifficulty": 4,
             "Terrain": "Indoor",
             "BulletType": "Normal",
@@ -27168,7 +27168,7 @@
                 true
             ],
             "DungeonType": "Destruction",
-            "Icon": "EnemyInfo_Totem03_TimeAttack",
+            "Icon": "enemyinfo_totem03_timeattack",
             "MaxDifficulty": 4,
             "Terrain": "Indoor",
             "BulletType": "Normal",
@@ -27308,7 +27308,7 @@
                 true
             ],
             "DungeonType": "Shooting",
-            "Icon": "EnemyInfo_Boxcat_Terror",
+            "Icon": "enemyinfo_boxcat_terror",
             "MaxDifficulty": 4,
             "Terrain": "Street",
             "BulletType": "Normal",
@@ -27428,7 +27428,7 @@
                 true
             ],
             "DungeonType": "Defense",
-            "Icon": "EnemyInfo_Sweeper_Decagram_Taser_White",
+            "Icon": "enemyinfo_sweeper_decagram_taser_white",
             "MaxDifficulty": 4,
             "Terrain": "Street",
             "BulletType": "Normal",
@@ -27556,7 +27556,7 @@
                 true
             ],
             "DungeonType": "Destruction",
-            "Icon": "EnemyInfo_Totem03_TimeAttack",
+            "Icon": "enemyinfo_totem03_timeattack",
             "MaxDifficulty": 4,
             "Terrain": "Street",
             "BulletType": "Normal",
@@ -27696,7 +27696,7 @@
                 true
             ],
             "DungeonType": "Shooting",
-            "Icon": "EnemyInfo_Boxcat_Terror",
+            "Icon": "enemyinfo_boxcat_terror",
             "MaxDifficulty": 4,
             "Terrain": "Indoor",
             "BulletType": "Normal",
@@ -27816,7 +27816,7 @@
                 true
             ],
             "DungeonType": "Defense",
-            "Icon": "EnemyInfo_Sweeper_Decagram_Taser_White",
+            "Icon": "enemyinfo_sweeper_decagram_taser_white",
             "MaxDifficulty": 4,
             "Terrain": "Indoor",
             "BulletType": "Normal",
@@ -27944,7 +27944,7 @@
                 true
             ],
             "DungeonType": "Destruction",
-            "Icon": "EnemyInfo_Totem03_TimeAttack",
+            "Icon": "enemyinfo_totem03_timeattack",
             "MaxDifficulty": 4,
             "Terrain": "Indoor",
             "BulletType": "Normal",
@@ -28084,7 +28084,7 @@
                 false
             ],
             "DungeonType": "Shooting",
-            "Icon": "EnemyInfo_Boxcat_Terror",
+            "Icon": "enemyinfo_boxcat_terror",
             "MaxDifficulty": 4,
             "Terrain": "Outdoor",
             "BulletType": "Normal",
@@ -28204,7 +28204,7 @@
                 false
             ],
             "DungeonType": "Defense",
-            "Icon": "EnemyInfo_Sweeper_Decagram_Taser_White",
+            "Icon": "enemyinfo_sweeper_decagram_taser_white",
             "MaxDifficulty": 4,
             "Terrain": "Outdoor",
             "BulletType": "Normal",
@@ -28332,7 +28332,7 @@
                 false
             ],
             "DungeonType": "Destruction",
-            "Icon": "EnemyInfo_Totem03_TimeAttack",
+            "Icon": "enemyinfo_totem03_timeattack",
             "MaxDifficulty": 4,
             "Terrain": "Outdoor",
             "BulletType": "Normal",
@@ -28472,7 +28472,7 @@
                 false
             ],
             "DungeonType": "Shooting",
-            "Icon": "EnemyInfo_Boxcat_Terror",
+            "Icon": "enemyinfo_boxcat_terror",
             "MaxDifficulty": 4,
             "Terrain": "Street",
             "BulletType": "Normal",
@@ -28592,7 +28592,7 @@
                 false
             ],
             "DungeonType": "Defense",
-            "Icon": "EnemyInfo_Sweeper_Decagram_Taser_White",
+            "Icon": "enemyinfo_sweeper_decagram_taser_white",
             "MaxDifficulty": 4,
             "Terrain": "Street",
             "BulletType": "Normal",
@@ -28720,7 +28720,7 @@
                 false
             ],
             "DungeonType": "Destruction",
-            "Icon": "EnemyInfo_Totem03_TimeAttack",
+            "Icon": "enemyinfo_totem03_timeattack",
             "MaxDifficulty": 4,
             "Terrain": "Street",
             "BulletType": "Normal",
@@ -28860,7 +28860,7 @@
                 false
             ],
             "DungeonType": "Shooting",
-            "Icon": "EnemyInfo_Boxcat_Terror",
+            "Icon": "enemyinfo_boxcat_terror",
             "MaxDifficulty": 4,
             "Terrain": "Indoor",
             "BulletType": "Normal",
@@ -28977,259 +28977,259 @@
     "TimeAttackRules": [
         {
             "Id": 990306261,
-            "Icon": "TimeAttack_Icon_Terrain_Outdoor_01",
+            "Icon": "timeattack_icon_terrain_outdoor_01",
             "Name": "考試地形(野戰)",
             "Desc": "該考試以野戰進行。"
         },
         {
             "Id": 2060888564,
-            "Icon": "TimeAttack_Icon_ArmorType_LightArmor_01",
+            "Icon": "timeattack_icon_armortype_lightarmor_01",
             "Name": "敵人防禦類型(輕裝甲)",
             "Desc": "敵人防禦類型為輕裝甲。"
         },
         {
             "Id": 983164925,
-            "Icon": "TimeAttack_Icon_Debuff_NormalAttackSpeed_Ally_01",
+            "Icon": "timeattack_icon_debuff_normalattackspeed_ally_01",
             "Name": "攻擊速度減少",
             "Desc": "我軍的攻擊速度減少。"
         },
         {
             "Id": 3257931121,
-            "Icon": "TimeAttack_Icon_Buff_DodgePoint_Enemy_01",
+            "Icon": "timeattack_icon_buff_dodgepoint_enemy_01",
             "Name": "迴避數值增加",
             "Desc": "敵人的迴避數值增加。"
         },
         {
             "Id": 2570956929,
-            "Icon": "TimeAttack_Icon_ArmorType_UnArmed_01",
+            "Icon": "timeattack_icon_armortype_unarmed_01",
             "Name": "敵人防禦類型(特殊裝甲)",
             "Desc": "敵人防禦類型為特殊裝甲。"
         },
         {
             "Id": 2503860611,
-            "Icon": "TimeAttack_Icon_Debuff_DefensePower_Ally_01",
+            "Icon": "timeattack_icon_debuff_defensepower_ally_01",
             "Name": "防禦力減少",
             "Desc": "我軍的防禦力減少。"
         },
         {
             "Id": 3301214750,
-            "Icon": "TimeAttack_Icon_Special_TriggerDieDamage_Enemy_01",
+            "Icon": "timeattack_icon_special_triggerdiedamage_enemy_01",
             "Name": "擊退敵人傷害",
             "Desc": "擊退敵人時，以該位置為中心的圓形範圍內，造成我軍傷害。"
         },
         {
             "Id": 2075498290,
-            "Icon": "TimeAttack_Icon_ArmorType_HeavyArmor_01",
+            "Icon": "timeattack_icon_armortype_heavyarmor_01",
             "Name": "敵人防禦類型(重裝甲)",
             "Desc": "敵人防禦類型為重裝甲。"
         },
         {
             "Id": 648270201,
-            "Icon": "TimeAttack_Icon_Debuff_AttackPower_Ally_01",
+            "Icon": "timeattack_icon_debuff_attackpower_ally_01",
             "Name": "SR武器攻擊力攻擊",
             "Desc": "使用SR武器的我軍前鋒攻擊力減少。"
         },
         {
             "Id": 2856565282,
-            "Icon": "TimeAttack_Icon_Buff_AccuracyPoint_Enemy_01",
+            "Icon": "timeattack_icon_buff_accuracypoint_enemy_01",
             "Name": "命中數值增加",
             "Desc": "敵人的命中數值增加。"
         },
         {
             "Id": 1329507091,
-            "Icon": "TimeAttack_Icon_Terrain_Indoor_01",
+            "Icon": "timeattack_icon_terrain_indoor_01",
             "Name": "考試地形(室內戰)",
             "Desc": "該考試以室內戰進行。"
         },
         {
             "Id": 1949095289,
-            "Icon": "TimeAttackGeas_Ally_StatChange_CriticalPoint_Up_Fixed",
+            "Icon": "timeattackgeas_ally_statchange_criticalpoint_up_fixed",
             "Name": "我軍暴擊數值增加",
             "Desc": "我軍的暴擊數值增加。"
         },
         {
             "Id": 1428571194,
-            "Icon": "TimeAttackGeas_Ally_StatChange_CostRegen_Down_Ratio_TriggerUseSkill",
+            "Icon": "timeattackgeas_ally_statchange_costregen_down_ratio_triggeruseskill",
             "Name": "技能使用時，COST恢復速度減少",
             "Desc": "技能使用時，我軍的COST恢復速度減少。"
         },
         {
             "Id": 3009801818,
-            "Icon": "TimeAttack_Icon_Debuff_AttackPower_Ally_01",
+            "Icon": "timeattack_icon_debuff_attackpower_ally_01",
             "Name": "MT、AR武器攻擊力攻擊",
             "Desc": "使用MT、AR武器的我軍學生攻擊力減少。"
         },
         {
             "Id": 2490399639,
-            "Icon": "TimeAttackGeas_Enemy_StatChange_MaxHP_TriggerCrowdControl_Damage",
+            "Icon": "timeattackgeas_enemy_statchange_maxhp_triggercrowdcontrol_damage",
             "Name": "群控命中時，額外傷害",
             "Desc": "敵人體力增加，但是每當群控效果命中時，就會遭到額外傷害。"
         },
         {
             "Id": 719379007,
-            "Icon": "TimeAttackGeas_Ally_Damage_MaxHP_TriggerPeriodic",
+            "Icon": "timeattackgeas_ally_damage_maxhp_triggerperiodic",
             "Name": "稻草人的體力持續減少",
             "Desc": "稻草人每1秒減少最大體力n%的體力。"
         },
         {
             "Id": 773473613,
-            "Icon": "TimeAttackGeas_Ally_StatChange_CostRegen_RatioAllTacticRole",
+            "Icon": "timeattackgeas_ally_statchange_costregen_ratioalltacticrole",
             "Name": "編入所有階級 ",
             "Desc": "隊伍的輔助、前鋒、坦克、治癒師、T.S都編有1人以上時，我軍全體的COST恢復速度增加。"
         },
         {
             "Id": 3938056289,
-            "Icon": "TimeAttack_Icon_Terrain_Street_01",
+            "Icon": "timeattack_icon_terrain_street_01",
             "Name": "考試地形(城鎮戰)",
             "Desc": "該考試以城鎮戰進行。"
         },
         {
             "Id": 3091509634,
-            "Icon": "TimeAttackGeas_Enemy_StatChange_AttackPower_CostRegen_CharacterCount",
+            "Icon": "timeattackgeas_enemy_statchange_attackpower_costregen_charactercount",
             "Name": "少數精英",
             "Desc": "根據編輯的學生數量，攻擊力和COST恢復速度將有所變化。編輯的學生數越少，數值則增加越多。（最多4名）"
         },
         {
             "Id": 3334829467,
-            "Icon": "TimeAttackGeas_Enemy_Heal_TriggerPeriod",
+            "Icon": "timeattackgeas_enemy_heal_triggerperiod",
             "Name": "每隔一定時間恢復",
             "Desc": "每隔一定的時間敵人將恢復體力。"
         },
         {
             "Id": 3839125090,
-            "Icon": "TimeAttackGeas_Enemy_DamagedLimit_StatChange_MaxHP",
+            "Icon": "timeattackgeas_enemy_damagedlimit_statchange_maxhp",
             "Name": "限制最大傷害",
             "Desc": "雖會減少敵人的最大體力，但一次最多只會受到1傷害。"
         },
         {
             "Id": 89307624,
-            "Icon": "TimeAttackGeas_Ally_Damage_ExtraDamage_TriggerDamageHit",
+            "Icon": "timeattackgeas_ally_damage_extradamage_triggerdamagehit",
             "Name": "攻擊時額外傷害（AR、HG）",
             "Desc": "使用AR、HG武器的我軍學生攻擊時將套用額外傷害。"
         },
         {
             "Id": 2045771535,
-            "Icon": "TImeAttackGeas_Ally_Dispel_Buff",
+            "Icon": "timeattackgeas_ally_dispel_buff",
             "Name": "解除增益效果",
             "Desc": "每秒使我軍受到的增益效果消失。\n（強化技能效果、特殊角色的輔助技能效果和無法解除的效果將不會消失）"
         },
         {
             "Id": 1582447562,
-            "Icon": "TImeAttackGeas_Enemy_StatChange_DefensePenetration",
+            "Icon": "timeattackgeas_enemy_statchange_defensepenetration",
             "Name": "增加防禦貫穿數值",
             "Desc": "增加敵人的防禦貫穿數值"
         },
         {
             "Id": 4033973365,
-            "Icon": "TimeAttack_Icon_Buff_AttackPower_Ally_01",
+            "Icon": "timeattack_icon_buff_attackpower_ally_01",
             "Name": "T.Sクラス、AR武器の攻撃力が増加",
             "Desc": "T.Sクラス生徒の攻撃力が増加します。/\nAR武器を使用する味方生徒の攻撃力が増加します。/\n（二つの効果は重複しません）"
         },
         {
             "Id": 3951708717,
-            "Icon": "TimeAttackGeas_Enemy_Immune_AttackedExSkill",
+            "Icon": "timeattackgeas_enemy_immune_attackedexskill",
             "Name": "EXスキルダメージ無効化",
             "Desc": "敵はEXスキルによるダメージを受けません。"
         },
         {
             "Id": 328739473,
-            "Icon": "TimeAttackGeas_Ally_Heal",
+            "Icon": "timeattackgeas_ally_heal",
             "Name": "敵を倒した時攻撃力減少、回復時は減少解除",
             "Desc": "敵を倒すたびに攻撃力が減少します。/\n回復効果を受けると、攻撃力減少効果を一定数だけ解除します。"
         },
         {
             "Id": 3427259164,
-            "Icon": "TimeAttack_Icon_Debuff_AttackPower_Ally_01",
+            "Icon": "timeattack_icon_debuff_attackpower_ally_01",
             "Name": "SR、MG武器攻撃力減少",
             "Desc": "SR、MG武器を使用する味方生徒の攻撃力が減少します。"
         },
         {
             "Id": 3153525398,
-            "Icon": "TimeAttackGeas_Ally_Immune",
+            "Icon": "timeattackgeas_ally_immune",
             "Name": "かかしの状態変化",
             "Desc": "かかしは一定時間ごとに状態が変化します。デバフ状態：かかしに回復効果を与えると味方生徒へダメージが発生します。かかしに対する回復効果は1に固定されます。通常状態：回復効果が適用されます。"
         },
         {
             "Id": 3902330525,
-            "Icon": "TimeAttackGeas_Enemy_FireArea_TriggerDie",
+            "Icon": "timeattackgeas_enemy_firearea_triggerdie",
             "Name": "敵を倒した時に燃焼エリア生成",
             "Desc": "敵を倒した時に、その場所に燃焼エリアが生成されます。"
         },
         {
             "Id": 1246791085,
-            "Icon": "TImeAttackGeas_Enemy_DamageOverTime_DamageRatioUp_Ratio",
+            "Icon": "timeattackgeas_enemy_damageovertime_damageratioup_ratio",
             "Name": "火傷、悪寒、中毒、応援の熱気追加ダメージ",
             "Desc": "敵に火傷、悪寒、中毒、応援の熱気の効果が適用されたり、ダメージを受けたりする度に追加ダメージを与えます。\n敵のHPが増加します。"
         },
         {
             "Id": 3239764743,
-            "Icon": "TimeAttack_Icon_Buff_CriticalChanceResistPoint_Enemy_01",
+            "Icon": "timeattack_icon_buff_criticalchanceresistpoint_enemy_01",
             "Name": "会心抵抗値の増加",
             "Desc": "敵の会心抵抗値が増加します。"
         },
         {
             "Id": 4104132399,
-            "Icon": "TimeAttack_Icon_Buff_AttackPower_Enemy_01",
+            "Icon": "timeattack_icon_buff_attackpower_enemy_01",
             "Name": "移動速度の減少、攻撃力の増加",
             "Desc": "敵の移動速度が減少する代わりに攻撃力が増加します。押されたり、引っ張られたりしません。"
         },
         {
             "Id": 3258287232,
-            "Icon": "TimeAttack_Icon_Debuff_MaxHP_Ally_01",
+            "Icon": "timeattack_icon_debuff_maxhp_ally_01",
             "Name": "HP減少",
             "Desc": "味方のタンクの生徒のHPが減少します。"
         },
         {
             "Id": 1356579409,
-            "Icon": "TimeAttack_Icon_Buff_AttackPower_Ally_01",
+            "Icon": "timeattack_icon_buff_attackpower_ally_01",
             "Name": "ゲヘナ攻撃力増加",
             "Desc": "ゲヘナの生徒の攻撃力が増加します。"
         },
         {
             "Id": 673863759,
-            "Icon": "TimeAttackGeas_Enemy_StatChange_AttackPower_CostRegen_CharacterCount",
+            "Icon": "timeattackgeas_enemy_statchange_attackpower_costregen_charactercount",
             "Name": "少数精鋭Ⅱ",
             "Desc": "編成した生徒数によってHPとコスト回復速度が変化します。編成した生徒数が少ないほど、より多くの数値が増加します。（最大4人まで）"
         },
         {
             "Id": 3693849978,
-            "Icon": "TimeAttack_Icon_Buff_AttackPower_Ally_01",
+            "Icon": "timeattack_icon_buff_attackpower_ally_01",
             "Name": "スペシャルの攻撃力増加",
             "Desc": "スペシャル生徒の攻撃力が増加します。"
         },
         {
             "Id": 3900019006,
-            "Icon": "TImeAttackGeas_Enemy_DamageOverTime_FatalPoison",
+            "Icon": "timeattackgeas_enemy_damageovertime_fatalpoison",
             "Name": "致命的な中毒",
             "Desc": "味方が致命的な中毒状態になります。致命的な中毒は防御力を無視し、解除されません。"
         },
         {
             "Id": 1034510189,
-            "Icon": "TimeAttack_Enemy_HealByHitDamaged_MaxHp_01",
+            "Icon": "timeattack_enemy_healbyhitdamaged_maxhp_01",
             "Name": "最大体力増加、被弾時に回復",
             "Desc": "敵の最大体力が増加し、攻撃を受けた時、HPを回復します。"
         },
         {
             "Id": 2456483055,
-            "Icon": "TimeAttack_Icon_Buff_DodgePoint_Enemy_01",
+            "Icon": "timeattack_icon_buff_dodgepoint_enemy_01",
             "Name": "回避値増加",
             "Desc": "敵の回避値が増加します。"
         },
         {
             "Id": 159710181,
-            "Icon": "TimeAttack_Icon_Ally_Special_ExtraDamage",
+            "Icon": "timeattack_icon_ally_special_extradamage",
             "Name": "追加ダメージ、攻撃力増加",
             "Desc": "敵の攻撃力が増加し、追加ダメージを与えます。"
         },
         {
             "Id": 200078526,
-            "Icon": "TimeAttack_Icon_Ally_Special_HealConvertDamage",
+            "Icon": "timeattack_icon_ally_special_healconvertdamage",
             "Name": "かかし回復時、敵にダメージ",
             "Desc": "かかしを回復時、回復した数値に比例して敵にダメージを与えます。"
         },
         {
             "Id": 1463735831,
-            "Icon": "TimeAttackGeas_Enemy_Immune_AttackedExSkill",
+            "Icon": "timeattackgeas_enemy_immune_attackedexskill",
             "Name": "爆発タイプ編成",
             "Desc": "爆発タイプのダメージのみ与えることができます。\nさらに、爆発タイプのコスト回復速度が増加します。"
         }
